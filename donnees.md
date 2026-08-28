@@ -84,13 +84,21 @@ le fichier d’origine tranche. Les identifiants (`FR-SRC-0001`, `FR-NODE-001`,
 `P-OWN`, `A0_CLOSED`) sont d’ailleurs affichés partout à côté de leur
 traduction, pour que le passage de l’un à l’autre reste vérifiable.
 
-## Ce qui n’est pas traduit, volontairement
+## Ce qui n’est pas traduit
 
-Les **titres des documents sources**, leurs adresses, leurs identifiants et
-leurs dates. Ce sont des références citables : traduire le titre d’un rapport
-officiel le rend introuvable. Les titres anglais des documents de la Commission
-européenne, de la BCE et de la Cour européenne des droits de l’homme restent
-donc en anglais.
+Les **adresses, les identifiants et les dates** ne bougent jamais : ce sont les
+clés qui permettent de retrouver une ligne dans les fichiers d’origine.
+
+Les **titres des documents** sont traduits à l’affichage lorsqu’ils étaient
+rédigés en anglais — sept d’entre eux, émanant de la Commission européenne, du
+Conseil de l’Union, de la BCE et de la Cour européenne des droits de l’homme.
+C’est un compromis assumé : un titre traduit se cherche mal dans un moteur de
+recherche, mais un titre anglais au milieu d’un site français se lit mal. Le
+lien de chaque source mène au document lui-même, où figure le titre officiel,
+et la valeur d’origine reste dans les fichiers ci-dessus.
+
+Les **apostrophes** des titres français sont normalisées en apostrophe courbe.
+C’est un changement de glyphe, jamais de mot.
 
 ## Date et portée
 

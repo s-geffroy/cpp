@@ -2,6 +2,13 @@
 Date de snapshot du paquet, ecrite en francais. La valeur vient toujours de
 _data/paquet.yml : aucune page ne recopie la date en dur, sans quoi une v0.2
 laisserait derriere elle des dates fausses impossibles a reperer.
+
+PIEGE LIQUID. Le numero de mois DOIT passer par une variable intermediaire.
+Liquid ne sait pas resoudre une indexation imbriquee du type
+« mois[jms[1]] » : il ne leve pas d'erreur, il renvoie une chaine vide. La
+date s'affichait « 12 2026 », sans mois, et la construction restait verte.
 {%- endcomment -%}
 {%- assign jms = site.data.paquet.snapshot_date | split: "-" -%}
-{{- jms[2] | plus: 0 }} {{ site.data.libelles.mois[jms[1]] }} {{ jms[0] -}}
+{%- assign num_mois = jms[1] -%}
+{%- assign nom_mois = site.data.libelles.mois[num_mois] -%}
+{{- jms[2] | plus: 0 }} {{ nom_mois }} {{ jms[0] -}}
