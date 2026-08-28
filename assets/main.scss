@@ -561,6 +561,74 @@ code.brut {
 .sans-js { font-size: 0.8125rem; color: var(--texte-doux); }
 
 /* ------------------------------------------------------------------------ *
+ * Barre de completude
+ *
+ * Les domaines vus d'un coup. Les routes documentees sont pleines, les
+ * partielles a demi, et LES LACUNES SONT DES VIDES HACHURES -- jamais des
+ * blocs colories. Un bloc plein se lit comme une valeur mesuree ; une lacune
+ * est une absence de mesure, et le graphique doit le dire.
+ * ------------------------------------------------------------------------ */
+.completude {
+  display: flex;
+  gap: 2px;
+  height: 3rem;
+  margin: 1.25rem 0 0.75rem;
+  max-width: var(--prose);
+}
+
+.completude span {
+  flex: 1;
+  min-width: 3px;
+  align-self: flex-end;
+  border-radius: 2px 2px 0 0;
+}
+
+.completude .c-ferme { height: 100%; background: var(--succes); }
+.completude .c-partiel { height: 55%; background: var(--attention); }
+
+.completude .c-lacune {
+  height: 100%;
+  border: 1px solid var(--danger);
+  border-bottom: 0;
+  background: repeating-linear-gradient(
+    135deg, transparent 0 4px, var(--danger-trait) 4px 5px);
+}
+
+.legende-completude {
+  max-width: var(--prose);
+  margin: 0 0 2rem;
+  padding: 0;
+  list-style: none;
+  font-size: 0.875rem;
+  color: var(--texte-doux);
+}
+
+.legende-completude li {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.55rem;
+  padding: 0.25rem 0;
+}
+
+.legende-completude i {
+  flex: none;
+  width: 0.85rem;
+  height: 0.85rem;
+  margin-top: 0.2rem;
+  border-radius: 2px;
+}
+
+.legende-completude strong { color: var(--texte); }
+.legende-completude .c-ferme { background: var(--succes); }
+.legende-completude .c-partiel { background: var(--attention); }
+
+.legende-completude .c-lacune {
+  border: 1px solid var(--danger);
+  background: repeating-linear-gradient(
+    135deg, transparent 0 4px, var(--danger-trait) 4px 5px);
+}
+
+/* ------------------------------------------------------------------------ *
  * Schema d'ensemble
  * Tout est peint avec les variables du theme : le schema suit le mode clair
  * comme le mode sombre, sans seconde version a maintenir.

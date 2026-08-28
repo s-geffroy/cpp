@@ -42,6 +42,39 @@ lacune déclarée se lit comme un travail non fait.
 
 </div>
 
+## D’un coup d’œil
+
+{% comment %}
+  La barre de completude. Chaque domaine occupe la meme largeur, dans l'ordre
+  du paquet.
+
+  UNE LACUNE EST DESSINEE COMME UN VIDE, hachure, pas comme un bloc colorie.
+  La difference n'est pas decorative : un bloc plein se lit comme une valeur
+  mesuree, alors qu'une lacune est une absence de mesure. C'est la regle citee
+  plus haut, appliquee au graphique lui-meme.
+
+  PIEGE KRAMDOWN : la balise ouvrante tient sur UNE ligne et une ligne vide la
+  separe du titre. Sinon kramdown absorbe le div dans le h2 et transforme les
+  attributs indentes en bloc de code, sans erreur de construction.
+
+  Et le commentaire lui-meme s'ecrit SANS tirets de rognage, sans quoi il
+  supprimerait la ligne vide dont il est justement question.
+
+  NE JAMAIS ecrire de delimiteurs Liquid litteraux dans un commentaire :
+  Liquid les tokenise malgre le commentaire. Une balise de commentaire
+  imbriquee ferme le bloc par le mauvais bout et avale ce qui suit.
+{% endcomment %}
+
+<div class="completude" role="img" aria-label="État de la documentation pour les {{ couverture | size }} domaines suivis : {{ nb_fermes }} documentés, {{ nb_partiels }} partiellement ouverts, {{ nb_lacunes }} sans aucune source.">
+{%- for c in couverture %}<span class="c-{{ lib.couleurs_couverture[c.status] }}" title="{{ lib.domaines[c.domain] }} — {{ lib.statuts_couverture[c.status] }}"></span>{% endfor %}
+</div>
+
+<ul class="legende-completude">
+<li><i class="c-ferme"></i> <strong>{{ nb_fermes }}</strong> domaines documentés : on sait où chercher, et les sources sont enregistrées</li>
+<li><i class="c-partiel"></i> <strong>{{ nb_partiels }}</strong> à moitié : le chemin vers la preuve est connu, le contenu reste à produire</li>
+<li><i class="c-lacune"></i> <strong>{{ nb_lacunes }}</strong> sans aucune source : le vide est déclaré, pas comblé</li>
+</ul>
+
 ## Le tableau
 
 <div class="table-defilante">
