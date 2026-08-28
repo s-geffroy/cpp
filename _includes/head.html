@@ -44,7 +44,22 @@
     })();
   </script>
 
-  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- comment -%}
+    EMPREINTE DE PUBLICATION sur les fichiers statiques.
+
+    GitHub Pages sert main.css et les scripts avec « cache-control: max-age=600 »
+    et un nom de fichier qui ne change jamais. Un visiteur deja venu garde donc
+    l'ancienne feuille de style jusqu'a dix minutes apres une publication, et
+    voit un site inchange sans savoir pourquoi.
+
+    site.time est l'horodatage de la construction : il change a chaque
+    publication et seulement a ce moment-la. L'adresse du fichier change avec
+    lui, le navigateur la considere comme neuve, et le cache cesse d'etre un
+    piege.
+  {%- endcomment -%}
+  {%- assign v = site.time | date: "%s" -%}
+
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}?v={{ v }}">
   {%- feed_meta -%}
 
   {%- comment -%}
@@ -52,8 +67,8 @@
     a coup sur, et il ne retarde pas l'affichage. La page reste entierement
     lisible sans lui -- il ne fait que masquer des lignes deja rendues.
   {%- endcomment -%}
-  <script src="{{ '/assets/js/filtres.js' | relative_url }}" defer></script>
-  <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/filtres.js' | relative_url }}?v={{ v }}" defer></script>
+  <script src="{{ '/assets/js/theme.js' | relative_url }}?v={{ v }}" defer></script>
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}
