@@ -26,6 +26,36 @@
     sombre: 'Thème : sombre'
   };
 
+  /*
+   * Icones tracees au trait, en currentColor : elles suivent la couleur du
+   * bouton, donc le theme, sans seconde version a maintenir.
+   *
+   * Trois icones et non deux. « Soleil » et « lune » disent le theme force ;
+   * l'ecran dit « je suis le reglage du systeme », etat par defaut qu'un
+   * simple inverseur soleil/lune ferait disparaitre au premier clic.
+   */
+  var DEBUT = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" ' +
+              'stroke="currentColor" stroke-width="2" stroke-linecap="round" ' +
+              'stroke-linejoin="round" aria-hidden="true" focusable="false">';
+
+  var ICONES = {
+    clair: DEBUT +
+      '<circle cx="12" cy="12" r="4.2"/>' +
+      '<path d="M12 2v2M12 20v2M2 12h2M20 12h2' +
+      'M4.9 4.9l1.5 1.5M17.6 17.6l1.5 1.5' +
+      'M19.1 4.9l-1.5 1.5M6.4 17.6l-1.5 1.5"/>' +
+      '</svg>',
+
+    sombre: DEBUT +
+      '<path d="M20.5 14.6A8.5 8.5 0 0 1 9.4 3.5a8.5 8.5 0 1 0 11.1 11.1z"/>' +
+      '</svg>',
+
+    systeme: DEBUT +
+      '<rect x="2.5" y="4" width="19" height="13" rx="2"/>' +
+      '<path d="M9 20.5h6M12 17.5v3"/>' +
+      '</svg>'
+  };
+
   // Couleur de la barre d'adresse sur mobile, alignee sur --fond.
   var FONDS = { clair: '#ffffff', sombre: '#0d1117' };
 
@@ -66,14 +96,16 @@
     if (meta) meta.setAttribute('content', FONDS[effectif]);
 
     if (bouton) {
-      bouton.textContent = LIBELLES[etat];
-      // Le nom accessible annonce l'etat ET ce que le clic fera : un bouton
-      // dont le libelle change doit dire les deux.
+      bouton.innerHTML = ICONES[etat];
+
+      // L'icone est purement visuelle (aria-hidden) : sans nom accessible, le
+      // bouton serait annonce « bouton » et rien d'autre. Le nom dit donc
+      // l'etat ET ce que le clic fera.
       var suivant = ETATS[(ETATS.indexOf(etat) + 1) % ETATS.length];
-      bouton.setAttribute(
-        'aria-label',
-        LIBELLES[etat] + '. Basculer vers : ' + LIBELLES[suivant].toLowerCase() + '.'
-      );
+      var nom = LIBELLES[etat] + '. Basculer vers : ' +
+                LIBELLES[suivant].toLowerCase() + '.';
+      bouton.setAttribute('aria-label', nom);
+      bouton.setAttribute('title', LIBELLES[etat]);
     }
   }
 
