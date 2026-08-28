@@ -5,6 +5,11 @@
 # Le titre, la description et le nom d'auteur s'ecrivent en francais normal,
 # avec leurs accents : ils seront lus par des visiteurs. La regle « sans
 # accents » de ce depot vise les fichiers d'infrastructure, pas le contenu.
+# minima ecrit lang="en" par defaut dans <html>. Sur un site entierement en
+# francais, cela fait lire le texte a un lecteur d'ecran avec la phonetique
+# anglaise -- illisible, et invisible a la relecture.
+lang: fr
+
 title: France-System-2026
 # Cette description part dans la balise <title> et dans les metadonnees : elle
 # est lue par les visiteurs et par les moteurs, donc elle s'ecrit en francais

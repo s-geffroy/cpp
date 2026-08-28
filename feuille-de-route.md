@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Feuille de route
+portee: "Ce qui manque pour franchir l'étape suivante, et ce que la franchir ne rendrait toujours pas légitime."
 permalink: /feuille-de-route/
 ---
 

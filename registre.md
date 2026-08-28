@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Registre
+portee: "Les sources canoniques du paquet : d'où vient chaque information, avec quelle autorité et à quel rythme elle est mise à jour."
 permalink: /registre/
 ---
 
@@ -12,8 +13,21 @@ L'ordre de priorité qui gouverne leur admission est fixé par la
 officiels d'abord, presse en dernier et seulement pour repérer un événement ou
 à défaut de preuve primaire.
 
-{%- assign registre = site.data.registre -%}
-{%- assign lib = site.data.libelles -%}
+{% comment %}
+  PIEGE KRAMDOWN, deja rencontre sur la page de couverture.
+
+  Les deux tags assign ci-dessous s'ecrivent SANS tirets de rognage. Un tiret
+  accole aux accolades supprime les sauts de ligne qui entourent le tag ; le
+  div suivant se retrouve alors colle au paragraphe precedent, kramdown le lit
+  comme du texte et l'echappe. L'attribut data-filtre-groupe disparait du DOM
+  et les filtres cessent de fonctionner, sans erreur de construction.
+
+  Et ne PAS ecrire de delimiteurs Liquid litteraux dans ce commentaire :
+  Liquid les tokenise malgre le commentaire, et un tiret de rognage ecrit ici
+  rogne pour de vrai -- c'est exactement ce qui a casse cette page.
+{% endcomment %}
+{% assign registre = site.data.registre %}
+{% assign lib = site.data.libelles %}
 
 <div class="filtres" data-filtre-groupe="registre">
   <label>

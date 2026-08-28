@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Couverture
+portee: "Où le paquet documente, où il ne documente pas, et pourquoi la différence est écrite plutôt que masquée."
 permalink: /couverture/
 ---
 
@@ -41,6 +42,33 @@ retirés du tableau. Une case vide se lit comme une absence de pouvoir ; une
 lacune déclarée se lit comme un travail non fait.
 
 </div>
+
+{%- comment -%}
+  La barre de completude, signature de la page.
+
+  Chaque domaine occupe la meme largeur, dans l'ordre du paquet. Une route
+  fermee est pleine, une route partielle est a demi, une lacune est un VIDE
+  hachure -- pas un bloc rouge. La difference n'est pas decorative : un bloc
+  colorie se lit comme une valeur mesuree, alors qu'une lacune est une absence
+  de mesure.
+
+  PIEGE KRAMDOWN. La balise ouvrante tient sur UNE ligne et une ligne vide la
+  separe du titre qui precede. Sans cela, kramdown absorbe le « <div » dans le
+  <h2> et transforme les lignes d'attributs indentees en bloc de code -- le
+  tout sans erreur de construction.
+{%- endcomment -%}
+
+## Les {{ couverture | size }} domaines d'un coup d'œil
+
+<div class="completude" role="img" aria-label="État de couverture des {{ couverture | size }} domaines : {{ nb_fermes }} routes fermées, {{ nb_partiels }} partiellement ouvertes, {{ nb_lacunes }} lacunes.">
+{%- for c in couverture %}<span class="c-{{ lib.couleurs_couverture[c.status] }}" title="{{ lib.domaines[c.domain] }} — {{ lib.statuts_couverture[c.status] }}"></span>{% endfor %}
+</div>
+
+<ul class="legende-completude">
+<li><i class="c-ferme"></i> {{ nb_fermes }} routes fermées</li>
+<li><i class="c-partiel"></i> {{ nb_partiels }} partiellement ouvertes</li>
+<li><i class="c-lacune"></i> {{ nb_lacunes }} lacunes</li>
+</ul>
 
 ## La matrice
 

@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{%- comment -%}
+  Surcharge du gabarit 'page' de minima, qui se limite a un <h1> suivi du
+  contenu.
+
+  Ce qu'on ajoute : une ligne de reperage sous le titre. Sur un site de
+  registre, savoir OU l'on est et SUR QUOI porte la page compte autant que le
+  titre lui-meme. La ligne se remplit depuis le front matter (page.portee) et
+  reste absente si la page n'en declare pas.
+{%- endcomment -%}
+<article class="post">
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+    {%- if page.portee %}
+    <p class="post-portee">{{ page.portee }}</p>
+    {%- endif %}
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+</article>

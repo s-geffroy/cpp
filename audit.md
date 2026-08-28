@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Audit
+portee: "Les constats structurels tirés de la constitution du registre."
 permalink: /audit/
 ---
 

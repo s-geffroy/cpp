@@ -1,0 +1,35 @@
+{%- comment -%}
+  Surcharge du pied de page de minima, dont la version d'origine affiche une
+  colonne de contact, des icones sociales et la description du site. Rien de
+  cela n'a de sens ici : ce qu'un lecteur doit retrouver en bas de page, c'est
+  la portee exacte de ce qu'il vient de lire.
+{%- endcomment -%}
+<footer class="site-footer" role="contentinfo">
+  <div class="rail">
+    <dl class="colophon">
+      <div>
+        <dt>Paquet</dt>
+        <dd>{{ site.data.paquet.project }} v{{ site.data.paquet.version }}</dd>
+      </div>
+      <div>
+        <dt>Snapshot</dt>
+        <dd>{% include date-snapshot.html %}</dd>
+      </div>
+      <div>
+        <dt>Statut</dt>
+        <dd>{{ site.data.paquet.status }}</dd>
+      </div>
+      <div>
+        <dt>Comparaison</dt>
+        <dd class="interdit">{{ site.data.paquet.comparison_with_nsdap }}</dd>
+      </div>
+    </dl>
+
+    <p class="mention">
+      Toute information postérieure au snapshot est hors du champ de cette
+      version. Les fichiers d'origine sont
+      <a href="{{ '/donnees/' | relative_url }}">téléchargeables</a> ; ce sont
+      eux qui font foi.
+    </p>
+  </div>
+</footer>

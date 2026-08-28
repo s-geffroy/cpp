@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Méthode
+portee: "Ce qui entre dans le registre, comment le système est découpé, et ce qu'on a le droit de conclure d'une relation."
 permalink: /methode/
 ---
 

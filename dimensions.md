@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Dimensions
+portee: "Les quinze dimensions que la méthode interdit de réduire à une seule variable."
 permalink: /dimensions/
 ---
 

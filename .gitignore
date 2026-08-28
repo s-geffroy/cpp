@@ -23,3 +23,9 @@ vendor/
 # Marqueur local du VPS, lu par scripts/infra-reconcile.sh : il dit que cette
 # application redemarre au boot de CETTE machine. Rien a faire dans un depot.
 .autostart
+
+# Competences Claude Code installees dans ce projet. Elles servent au travail,
+# pas au site. 'frontend-design' vient du depot anthropics/claude-code et porte
+# sa propre licence : le recopier dans un depot public serait une
+# redistribution, pas une installation. Il reste donc local.
+.claude/

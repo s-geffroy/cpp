@@ -1,0 +1,43 @@
+{%- comment -%}
+  Surcharge de l'entete de minima. Deux changements de fond :
+
+  1. le titre du site est double d'une ligne d'etat en monospace -- version,
+     date de snapshot, statut. C'est l'en-tete d'un dossier, pas une accroche ;
+  2. la navigation garde le motif case a cocher + label de minima, qui marche
+     SANS JavaScript. Seul l'habillage change.
+{%- endcomment -%}
+<header class="site-header" role="banner">
+  <div class="rail">
+    <div class="enseigne">
+      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+      <p class="site-etat">
+        <span>v{{ site.data.paquet.version }}</span>
+        <span aria-hidden="true">·</span>
+        <span>snapshot {{ site.data.paquet.snapshot_date }}</span>
+        <span aria-hidden="true">·</span>
+        <span class="statut">{{ site.data.paquet.status }}</span>
+      </p>
+    </div>
+
+    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign page_paths = site.header_pages | default: default_paths -%}
+    {%- if page_paths -%}
+      <nav class="site-nav" aria-label="Navigation principale">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger" class="menu-icon" aria-hidden="true">
+          <span class="barre"></span><span class="barre"></span><span class="barre"></span>
+        </label>
+        <div class="trigger">
+          {%- for path in page_paths -%}
+            {%- assign my_page = site.pages | where: "path", path | first -%}
+            {%- if my_page.title -%}
+            <a class="page-link{% if page.url == my_page.url %} courante{% endif %}"
+               href="{{ my_page.url | relative_url }}"
+               {% if page.url == my_page.url %}aria-current="page"{% endif %}>{{ my_page.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      </nav>
+    {%- endif -%}
+  </div>
+</header>
