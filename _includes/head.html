@@ -12,8 +12,38 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f6f8fa">
+  {%- comment -%}
+    Couleur de la barre d'adresse sur mobile. Les deux variantes couvrent le
+    reglage systeme ; assets/js/theme.js reecrit la valeur quand le lecteur
+    force un theme, sans quoi la barre resterait a contre-emploi.
+  {%- endcomment -%}
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1117" media="(prefers-color-scheme: dark)">
   {%- seo -%}
+  {%- comment -%}
+    Choix de theme, applique AVANT le premier rendu.
+
+    Ce script est volontairement inline et synchrone. Charge en differe, il
+    s'executerait apres le premier dessin : la page apparaitrait une fraction
+    de seconde dans le mauvais theme avant de basculer. C'est la seule raison
+    d'inliner du script ici.
+
+    Il ne pose l'attribut QUE si le lecteur a fait un choix explicite. Sans
+    choix, aucun attribut, et la feuille de style suit le reglage du systeme.
+  {%- endcomment -%}
+  <script>
+    (function () {
+      try {
+        var choix = localStorage.getItem("theme");
+        if (choix === "clair" || choix === "sombre") {
+          document.documentElement.setAttribute("data-theme", choix);
+        }
+      } catch (e) {
+        /* Navigation privee ou stockage refuse : on suit le systeme. */
+      }
+    })();
+  </script>
+
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
 
@@ -23,6 +53,7 @@
     lisible sans lui -- il ne fait que masquer des lignes deja rendues.
   {%- endcomment -%}
   <script src="{{ '/assets/js/filtres.js' | relative_url }}" defer></script>
+  <script src="{{ '/assets/js/theme.js' | relative_url }}" defer></script>
 
   {%- if jekyll.environment == 'production' and site.google_analytics -%}
     {%- include google-analytics.html -%}

@@ -19,7 +19,7 @@
  * decide du choix.
  * ========================================================================= */
 
-:root {
+@mixin jetons-clairs {
   color-scheme: light;
 
   /* --- Fonds ----------------------------------------------------------- */
@@ -72,37 +72,55 @@
   --prose: 44rem;            /* mesure de lecture, ~75 caracteres           */
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    color-scheme: dark;
+@mixin jetons-sombres {
+  color-scheme: dark;
 
-    --fond: #0d1117;
-    --fond-doux: #151b23;
-    --fond-survol: #1c232b;
+  --fond: #0d1117;
+  --fond-doux: #151b23;
+  --fond-survol: #1c232b;
 
-    --texte: #f0f6fc;
-    --texte-doux: #9198a1;
-    --texte-tres-doux: #6e7681;
+  --texte: #f0f6fc;
+  --texte-doux: #9198a1;
+  --texte-tres-doux: #6e7681;
 
-    --trait: #3d444d;
-    --trait-fort: #4d555f;
+  --trait: #3d444d;
+  --trait-fort: #4d555f;
 
-    --accent: #4493f8;
-    --accent-survol: #6cb6ff;
+  --accent: #4493f8;
+  --accent-survol: #6cb6ff;
 
-    --succes: #3fb950;
-    --succes-fond: #2ea04326;
-    --succes-trait: #2ea04366;
+  --succes: #3fb950;
+  --succes-fond: #2ea04326;
+  --succes-trait: #2ea04366;
 
-    --attention: #d29922;
-    --attention-fond: #bb800926;
-    --attention-trait: #bb800966;
+  --attention: #d29922;
+  --attention-fond: #bb800926;
+  --attention-trait: #bb800966;
 
-    --danger: #f85149;
-    --danger-fond: #f851491a;
-    --danger-trait: #f8514966;
-  }
+  --danger: #f85149;
+  --danger-fond: #f851491a;
+  --danger-trait: #f8514966;
 }
+
+/* --- Application des jetons ---------------------------------------------- *
+ * Trois regles, et l'ordre compte.
+ *
+ * 1. le clair est la base ;
+ * 2. le systeme impose le sombre -- SAUF si le lecteur a explicitement
+ *    demande le clair, d'ou le :not() ;
+ * 3. un choix explicite l'emporte, dans les deux sens.
+ *
+ * Sans le :not() de la deuxieme regle, un lecteur sous systeme sombre ne
+ * pourrait jamais forcer le clair : la media query gagnerait a chaque fois.
+ * ------------------------------------------------------------------------ */
+:root { @include jetons-clairs; }
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="clair"]) { @include jetons-sombres; }
+}
+
+:root[data-theme="sombre"] { @include jetons-sombres; }
+:root[data-theme="clair"] { @include jetons-clairs; }
 
 /* ------------------------------------------------------------------------ *
  * Socle
@@ -182,8 +200,32 @@ hr { border: 0; border-top: 1px solid var(--trait); margin: 2rem 0; }
 
 .site-title:hover { color: var(--texte); text-decoration: none; }
 
+/* Bouton clair / sombre. Il est cree par assets/js/theme.js et n'existe donc
+   pas sans JavaScript -- un bouton mort vaut moins que pas de bouton. */
+.bascule-theme {
+  order: 3;
+  padding: 0.3rem 0.7rem;
+  font-family: inherit;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--texte-doux);
+  background: var(--fond);
+  border: 1px solid var(--trait);
+  border-radius: 6px;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.bascule-theme:hover {
+  color: var(--texte);
+  background: var(--fond-doux);
+  border-color: var(--trait-fort);
+}
+
 .site-nav .nav-trigger,
 .site-nav .menu-icon { display: none; }
+
+.site-nav { order: 2; }
 
 .site-nav .trigger {
   display: flex;
@@ -670,6 +712,10 @@ code.brut {
     padding: 0.45rem 0.9rem;
     border-bottom: 0;
   }
+
+  .bascule-theme { order: 2; margin-left: auto; }
+
+  .site-nav { order: 3; }
 
   .filtres .compteur { margin-left: 0; }
 }
