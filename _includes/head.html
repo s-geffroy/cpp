@@ -1,36 +1,25 @@
 {%- comment -%}
-  Surcharge du head de minima 2.5.2. Le hook 'custom-head.html' n'existe qu'a
-  partir de minima 3 : sur 2.5.2 un fichier de ce nom est compile, depose, et
-  jamais inclus nulle part. D'ou cette copie, augmentee des polices et du
-  script de filtrage.
+  Surcharge du head de minima 2.5.2.
+
+  Le hook 'custom-head.html' n'existe QU'A PARTIR de minima 3 : sur 2.5.2 un
+  fichier de ce nom est compile, depose, et jamais inclus nulle part -- sans
+  erreur ni avertissement. D'ou cette copie du head du theme, a laquelle on
+  ajoute une seule ligne, celle du script de filtrage.
+
+  Si le theme change de version, ce fichier est a comparer avec le sien.
 {%- endcomment -%}
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#12171c">
+  <meta name="theme-color" content="#f6f8fa">
   {%- seo -%}
-
-  {%- comment -%}
-    Trois familles, trois roles distincts :
-      Spectral       la prose et les titres. Serif de Production Type, dessine
-                     pour l'ecran ; c'est la couche qui se LIT.
-      IBM Plex Sans  les etiquettes, la navigation, les en-tetes de colonne.
-      IBM Plex Mono  les identifiants, les codes et les etats. C'est la couche
-                     qui se VERIFIE, et elle se distingue au premier regard.
-    Chaque famille a une pile de repli complete : si Google Fonts ne repond
-    pas, la page garde sa hierarchie.
-  {%- endcomment -%}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap">
-
   <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
   {%- feed_meta -%}
 
   {%- comment -%}
-    'defer' : le script attend le document complet, donc il trouve les tables a
-    coup sur, et il ne retarde pas l'affichage. La page reste entierement
+    'defer' : le script attend le document complet, donc il trouve les tables
+    a coup sur, et il ne retarde pas l'affichage. La page reste entierement
     lisible sans lui -- il ne fait que masquer des lignes deja rendues.
   {%- endcomment -%}
   <script src="{{ '/assets/js/filtres.js' | relative_url }}" defer></script>

@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Données
-portee: "Les fichiers d'origine, et la façon dont ce site les transforme pour les afficher."
 permalink: /donnees/
 ---
 

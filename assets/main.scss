@@ -1,835 +1,344 @@
 ---
 # Ce front matter vide n'est pas decoratif : sans lui, Jekyll ne traite pas le
-# fichier et la feuille de style sort telle quelle, non compilee.
+# fichier et la feuille de style sort telle quelle, avec son SCSS non compile.
 ---
 
-/* ========================================================================= *
- * France-System-2026
+@import "minima";
+
+/* ------------------------------------------------------------------------ *
+ * France-System-2026 -- ajouts au theme minima.
  *
- * Ce fichier NE PART PAS de minima : il remplace sa feuille de style. Le
- * theme n'est plus la que pour ses gabarits et son balisage (.site-header,
- * .post-content, .trigger...), que les regles ci-dessous habillent.
+ * Ce fichier SURCHARGE assets/main.scss du theme : minima lie
+ * /assets/main.css dans son <head>, et rien d'autre. Un fichier nomme
+ * autrement serait compile puis ignore, sans le moindre avertissement.
  *
- * Importer minima puis le surcharger obligeait a lutter contre ses marges et
- * ses tailles a coups de selecteurs de plus en plus specifiques -- le genre
- * d'empilement ou deux regles finissent par s'annuler sans qu'on sache
- * laquelle gagne.
- *
- * LE PARTI PRIS. Le site est un dossier qui montre ses propres trous. Deux
- * couches typographiques le disent :
- *   - ce qui se LIT (prose, titres, jugements) est en serif ;
- *   - ce qui se VERIFIE (identifiants, codes, etats, nombres) est en
- *     monospace.
- * Et une lacune n'est jamais coloriee en plein : elle est dessinee comme un
- * VIDE. Une case rouge reste une case remplie ; le paquet exige qu'une lacune
- * ne soit jamais codee en zero.
- * ========================================================================= */
-
-:root {
-  /* --- Couleurs -------------------------------------------------------- *
-   * Le monde du sujet est celui du formulaire administratif et du papier
-   * carbone : un fond legerement froid, une encre bleutee, un rouge de sceau.
-   * Volontairement PAS de creme (#F4F1EA) ni de terracotta.                */
-  --encre: #12171c;          /* texte principal, noir a reflet bleu         */
-  --papier: #f1f2ee;         /* fond, papier froid                          */
-  --papier-creux: #e7e9e3;   /* fonds secondaires, en-tetes de colonne      */
-  --carbone: #5b6570;        /* texte secondaire, filets                    */
-  --renvoi: #24446b;         /* liens : le bleu des imprimes officiels      */
-  --sceau: #8c2f39;          /* lacunes et garde-fous : rouge de cachet     */
-
-  /* Etats de couverture. Trois seulement, et jamais seuls : toujours
-     doubles d'un libelle en toutes lettres.                               */
-  --ferme: #2f6b4f;
-  --ouvert: #8a6a1f;
-  --vide: var(--sceau);
-
-  /* --- Typographie ------------------------------------------------------ */
-  --serif: "Spectral", "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
-  --sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-
-  --t-micro: 0.72rem;
-  --t-petit: 0.82rem;
-  --t-base: 1rem;
-  --t-lead: 1.18rem;
-  --t-h3: 1.24rem;
-  --t-h2: 1.6rem;
-  --t-h1: 2.3rem;
-
-  /* --- Rythme ----------------------------------------------------------- */
-  --rail: 4.5rem;            /* largeur de la gouttiere du registre         */
-  --large: 74rem;
-  --filet: 1px solid #d5d8d1;
-}
-
-/* ------------------------------------------------------------------------ *
- * Socle
+ * Un site de donnees : les tables portent le contenu, pas la decoration. Les
+ * couleurs ne servent qu'a une chose, distinguer une route fermee d'une
+ * lacune, et elles sont toujours doublees d'un libelle -- une pastille verte
+ * qui serait la seule porteuse de l'information serait illisible pour qui ne
+ * distingue pas les couleurs.
  * ------------------------------------------------------------------------ */
-*,
-*::before,
-*::after { box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+$ferme: #1a7f4b;
+$partiel: #9a6700;
+$lacune: #b32d2e;
+$trait: #d8dce0;
+$fond-doux: #f6f8fa;
 
-body {
-  margin: 0;
-  background: var(--papier);
-  color: var(--encre);
-  font-family: var(--serif);
-  font-size: var(--t-base);
-  line-height: 1.65;
-  font-kerning: normal;
-  text-rendering: optimizeLegibility;
+/* --- Largeur ------------------------------------------------------------ *
+ * minima cale le contenu a 800px : trop etroit pour une table de six
+ * colonnes. On elargit sans toucher a l'entete ni au pied de page.          */
+.page-content .wrapper {
+  max-width: 68rem;
 }
 
-.rail {
-  max-width: var(--large);
-  margin: 0 auto;
-  padding: 0 1.5rem;
-}
-
-a {
-  color: var(--renvoi);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 2px;
-}
-
-a:hover { text-decoration-thickness: 2px; }
-
-/* Un contour visible au clavier, sur toute la page. Non negociable. */
-:focus-visible {
-  outline: 2px solid var(--renvoi);
-  outline-offset: 2px;
-  border-radius: 2px;
-}
-
-/* La couche qui se verifie : tout identifiant, code ou etat passe en
-   monospace. C'est la distinction porteuse du site.                        */
-code,
-kbd,
-samp,
-pre {
-  font-family: var(--mono);
-  font-size: 0.86em;
-}
-
-code {
-  background: transparent;
-  color: var(--carbone);
-  letter-spacing: -0.01em;
-}
-
-/* ------------------------------------------------------------------------ *
- * Entete
- * ------------------------------------------------------------------------ */
-.site-header {
-  border-bottom: 2px solid var(--encre);
-  background: var(--papier);
-}
-
-.site-header .rail {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-end;
-  gap: 0.6rem 2rem;
-  padding-top: 1.4rem;
-  padding-bottom: 0.9rem;
-}
-
-.enseigne { margin-right: auto; }
-
-.site-title {
-  display: block;
-  font-family: var(--serif);
-  font-size: 1.5rem;
-  font-weight: 600;
-  letter-spacing: -0.015em;
-  color: var(--encre);
-  text-decoration: none;
-}
-
-.site-title:hover { color: var(--renvoi); }
-
-/* La ligne d'etat : version, date, statut. En monospace, parce que c'est un
-   releve, pas une accroche.                                                */
-.site-etat {
-  margin: 0.15rem 0 0;
-  font-family: var(--mono);
-  font-size: var(--t-micro);
-  color: var(--carbone);
-  letter-spacing: 0.01em;
-}
-
-.site-etat .statut { color: var(--ferme); }
-
-.site-nav { font-family: var(--sans); }
-
-.site-nav .nav-trigger,
-.site-nav .menu-icon { display: none; }
-
-.site-nav .trigger {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.15rem 1.1rem;
-}
-
-.page-link {
-  display: inline-block;
-  padding: 0.15rem 0;
-  font-size: var(--t-petit);
-  font-weight: 500;
-  color: var(--carbone);
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-}
-
-.page-link:hover { color: var(--encre); }
-
-.page-link.courante {
-  color: var(--encre);
-  border-bottom-color: var(--encre);
-}
-
-/* ------------------------------------------------------------------------ *
- * Corps de page
- * ------------------------------------------------------------------------ */
-.page-content { padding: 2.6rem 0 3.5rem; }
-
-.post-header {
-  margin-bottom: 1.8rem;
-  padding-bottom: 1rem;
-  border-bottom: var(--filet);
-}
-
-.post-title {
-  margin: 0;
-  font-size: var(--t-h1);
-  font-weight: 600;
-  line-height: 1.12;
-  letter-spacing: -0.02em;
-}
-
-.post-portee {
-  margin: 0.5rem 0 0;
-  font-family: var(--sans);
-  font-size: var(--t-petit);
-  color: var(--carbone);
-  max-width: 46rem;
-}
-
-.post-content { max-width: 100%; }
-
-/* La prose reste a une largeur lisible ; les tables, elles, prennent toute la
-   place -- d'ou une contrainte posee sur les elements de texte et non sur le
-   conteneur.                                                               */
-.post-content > p,
-.post-content > ul,
-.post-content > ol,
-.post-content > blockquote,
-.post-content > h2,
-.post-content > h3,
-.post-content > h4 {
-  max-width: 44rem;
-}
-
-.post-content h2 {
-  margin: 2.6rem 0 0.8rem;
-  font-size: var(--t-h2);
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.015em;
-}
-
-.post-content h3 {
-  margin: 1.8rem 0 0.6rem;
-  font-size: var(--t-h3);
-  font-weight: 600;
-}
-
-.post-content p { margin: 0 0 1rem; }
-
-.post-content ul,
-.post-content ol { padding-left: 1.15rem; }
-
-.post-content li { margin-bottom: 0.35rem; }
-
-.post-content blockquote {
-  margin: 1.4rem 0;
-  padding: 0.2rem 0 0.2rem 1.2rem;
-  border-left: 3px solid var(--carbone);
-  font-style: italic;
-  color: #2c343b;
-}
-
-.post-content blockquote p:last-child { margin-bottom: 0; }
-
-/* ------------------------------------------------------------------------ *
- * Garde-fou -- l'element le plus important du site.
- *
- * Ce que les donnees NE prouvent PAS merite un traitement propre, et non un
- * encadre gris parmi d'autres. La barre de sceau a gauche et l'italique le
- * distinguent de la prose ordinaire.
- * ------------------------------------------------------------------------ */
-.garde-fou {
-  max-width: 46rem;
-  margin: 2rem 0;
-  padding: 1.1rem 1.4rem;
-  background: #ecede8;
-  border-left: 4px solid var(--sceau);
-}
-
-.garde-fou > :first-child { margin-top: 0; }
-.garde-fou > :last-child { margin-bottom: 0; }
-
-.garde-fou h3 {
-  margin: 0 0 0.5rem;
-  font-family: var(--sans);
-  font-size: var(--t-petit);
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--sceau);
-}
-
-.garde-fou p { font-size: 0.96rem; }
-
-.garde-fou code { color: var(--sceau); }
-
-/* ------------------------------------------------------------------------ *
- * Accueil
- * ------------------------------------------------------------------------ */
-.these {
-  max-width: 40rem;
-  margin: 0 0 2rem;
-  font-size: 1.55rem;
-  line-height: 1.32;
-  font-weight: 400;
-  letter-spacing: -0.015em;
-}
-
-.these em {
-  font-style: italic;
-  color: var(--sceau);
-}
-
-/* Les chiffres du paquet : un releve tabulaire, pas des gros nombres en
-   degrade. Ce site compte des sources, il ne les vend pas.                 */
-.releve {
-  margin: 1.6rem 0 2rem;
-  border-top: 2px solid var(--encre);
-  max-width: 34rem;
-}
-
-.releve div {
-  display: flex;
-  align-items: baseline;
-  gap: 1rem;
-  padding: 0.5rem 0;
-  border-bottom: var(--filet);
-}
-
-.releve dt {
-  font-family: var(--sans);
-  font-size: var(--t-petit);
-  color: var(--carbone);
-  flex: 1;
-}
-
-.releve dd {
-  margin: 0;
-  font-family: var(--mono);
-  font-size: 1.1rem;
-  font-weight: 500;
-  font-variant-numeric: tabular-nums;
-  min-width: 2.5rem;
-  text-align: right;
-}
-
-/* Sommaire : chaque entree porte son intitule et ce qu'on y trouve. */
-.sommaire {
-  list-style: none;
-  margin: 1.5rem 0;
-  padding: 0;
-  border-top: var(--filet);
-}
-
-.sommaire li {
-  margin: 0;
-  padding: 0.85rem 0;
-  border-bottom: var(--filet);
-}
-
-.sommaire a {
-  font-family: var(--sans);
-  font-size: 1.02rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.sommaire a:hover { text-decoration: underline; }
-
-.sommaire p {
-  margin: 0.2rem 0 0;
-  font-size: 0.94rem;
-  color: #38414a;
-  max-width: 46rem;
-}
-
-/* ------------------------------------------------------------------------ *
- * Tables
- * ------------------------------------------------------------------------ */
+/* --- Tables ------------------------------------------------------------- */
 .table-defilante {
   overflow-x: auto;
-  margin: 1.2rem 0 1.8rem;
-  border-top: 2px solid var(--encre);
-  border-bottom: 2px solid var(--encre);
+  margin-bottom: 1.5rem;
+  border: 1px solid $trait;
+  border-radius: 4px;
 }
 
-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-family: var(--sans);
-  font-size: 0.88rem;
+.table-defilante table {
+  margin: 0;
+  border: 0;
+  font-size: 0.9rem;
 }
 
-thead th {
-  position: sticky;
-  top: 0;
-  background: var(--papier-creux);
-  border-bottom: var(--filet);
-  font-size: var(--t-micro);
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--carbone);
+table th {
+  background: $fond-doux;
   text-align: left;
+  font-weight: 600;
   white-space: nowrap;
 }
 
-td, th { padding: 0.6rem 0.8rem; vertical-align: top; }
+table td,
+table th {
+  vertical-align: top;
+  padding: 0.5rem 0.7rem;
+}
 
-tbody tr { border-bottom: var(--filet); }
-
-tbody tr:last-child { border-bottom: 0; }
-
-tbody tr:hover { background: #eaece6; }
-
-.nowrap { white-space: nowrap; }
+td.nowrap,
+.nowrap {
+  white-space: nowrap;
+}
 
 td.nombre {
   text-align: right;
-  font-family: var(--mono);
   font-variant-numeric: tabular-nums;
 }
 
-/* Les tables de la prose (statuts de preuve, par exemple) restent etroites. */
-.post-content > table { max-width: 36rem; }
-
-/* ------------------------------------------------------------------------ *
- * Etiquettes
- *
- * Pas de pilules arrondies : des etiquettes rectangulaires, comme un cachet.
- * ------------------------------------------------------------------------ */
+/* --- Pastilles ---------------------------------------------------------- */
 .pastille {
   display: inline-block;
-  margin: 0.1rem 0.25rem 0.1rem 0;
-  padding: 0.08rem 0.4rem;
-  font-family: var(--mono);
-  font-size: var(--t-micro);
+  padding: 0.05rem 0.4rem;
+  margin: 0.1rem 0.15rem 0.1rem 0;
+  border: 1px solid $trait;
+  border-radius: 999px;
+  background: $fond-doux;
+  font-size: 0.75rem;
   line-height: 1.5;
   white-space: nowrap;
-  color: var(--carbone);
-  background: var(--papier-creux);
-  border-left: 2px solid #c4c8c0;
+  color: #35383d;
 }
 
 .pastille.dimension {
-  color: #23384f;
-  background: #e4e8ed;
-  border-left-color: var(--renvoi);
+  border-color: #c3d4e8;
+  background: #eef4fb;
 }
 
 .pastille.classe {
-  color: #453a52;
-  background: #e9e6ec;
-  border-left-color: #6d5b80;
+  border-color: #d9cfe8;
+  background: #f4f0fa;
 }
 
 .pastille.priorite-a0 {
-  font-weight: 500;
-  color: var(--encre);
-  border-left-color: var(--encre);
+  border-color: #b9c6d4;
+  background: #e8eef5;
+  font-weight: 600;
 }
 
 .pastille.priorite-a1 {
+  border-color: $trait;
   background: transparent;
-  border-left-color: #c4c8c0;
 }
 
+/* Etat de couverture. La couleur double le libelle, elle ne le remplace pas. */
 .pastille.etat-ferme {
-  color: #22523c;
-  background: #e2ebe5;
-  border-left-color: var(--ferme);
+  border-color: rgba($ferme, 0.35);
+  background: rgba($ferme, 0.09);
+  color: #14653b;
 }
 
 .pastille.etat-partiel {
-  color: #6b5116;
-  background: #efe9da;
-  border-left-color: var(--ouvert);
+  border-color: rgba($partiel, 0.35);
+  background: rgba($partiel, 0.09);
+  color: #855a00;
 }
 
-/* La lacune n'est pas coloriee en plein : elle est hachuree, c'est-a-dire
-   dessinee comme un vide. C'est la signature du site.                      */
 .pastille.etat-lacune {
-  color: var(--sceau);
-  border-left-color: var(--sceau);
-  background:
-    repeating-linear-gradient(
-      135deg,
-      transparent 0 4px,
-      rgba(140, 47, 57, 0.16) 4px 5px
-    );
+  border-color: rgba($lacune, 0.35);
+  background: rgba($lacune, 0.08);
+  color: #962627;
+}
+
+.matrice tr.couverture-lacune td:first-child {
+  box-shadow: inset 3px 0 0 $lacune;
+}
+
+.matrice tr.couverture-partiel td:first-child {
+  box-shadow: inset 3px 0 0 $partiel;
+}
+
+.matrice tr.couverture-ferme td:first-child {
+  box-shadow: inset 3px 0 0 rgba($ferme, 0.5);
+}
+
+.aucune-source {
+  color: $lacune;
+  font-size: 0.85rem;
 }
 
 code.brut {
   display: block;
-  margin-top: 0.2rem;
-  font-size: 0.68rem;
-  color: #8b939b;
+  font-size: 0.7rem;
+  color: #6a737d;
+  background: transparent;
+  border: 0;
+  padding: 0.15rem 0 0;
 }
 
-/* ------------------------------------------------------------------------ *
- * Signature : la barre de completude
- *
- * Les 34 domaines de la matrice, vus d'un coup. Les routes fermees sont
- * pleines, les partielles a demi, les lacunes sont des VIDES hachures. On
- * voit l'etat du paquet avant d'avoir lu une seule ligne.
- * ------------------------------------------------------------------------ */
-.completude {
-  display: flex;
-  gap: 2px;
-  margin: 1.5rem 0 0.6rem;
-  height: 3.2rem;
-  border-bottom: 2px solid var(--encre);
-}
-
-.completude span {
-  flex: 1;
-  align-self: flex-end;
-  min-width: 3px;
-}
-
-.completude .c-ferme {
-  height: 100%;
-  background: var(--ferme);
-}
-
-.completude .c-partiel {
-  height: 52%;
-  background: var(--ouvert);
-}
-
-/* Le vide : pas de fond plein, une hachure et un filet. Il occupe la meme
-   place que les autres -- une lacune ne disparait pas du graphique.        */
-.completude .c-lacune {
-  height: 100%;
-  border: 1px solid rgba(140, 47, 57, 0.5);
-  border-bottom: 0;
-  background:
-    repeating-linear-gradient(
-      135deg,
-      transparent 0 4px,
-      rgba(140, 47, 57, 0.22) 4px 5px
-    );
-}
-
-.legende-completude {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem 1.4rem;
-  margin: 0 0 2rem;
-  padding: 0;
-  list-style: none;
-  font-family: var(--sans);
-  font-size: var(--t-petit);
-  color: var(--carbone);
-}
-
-.legende-completude li {
-  display: flex;
-  align-items: center;
-  gap: 0.45rem;
-  margin: 0;
-}
-
-.legende-completude i {
-  width: 0.9rem;
-  height: 0.9rem;
-  flex: none;
-}
-
-.legende-completude .c-ferme { background: var(--ferme); }
-.legende-completude .c-partiel { background: var(--ouvert); }
-
-.legende-completude .c-lacune {
-  border: 1px solid rgba(140, 47, 57, 0.5);
-  background:
-    repeating-linear-gradient(
-      135deg,
-      transparent 0 4px,
-      rgba(140, 47, 57, 0.22) 4px 5px
-    );
-}
-
-/* Dans la matrice, la ligne d'une lacune porte le meme vide en gouttiere. */
-.matrice tr.couverture-ferme td:first-child { box-shadow: inset 3px 0 0 var(--ferme); }
-.matrice tr.couverture-partiel td:first-child { box-shadow: inset 3px 0 0 var(--ouvert); }
-.matrice tr.couverture-lacune td:first-child { box-shadow: inset 3px 0 0 var(--sceau); }
-
-.aucune-source {
-  font-family: var(--mono);
-  font-size: var(--t-micro);
-  color: var(--sceau);
-}
-
-/* ------------------------------------------------------------------------ *
- * Textes secondaires dans les cellules
- * ------------------------------------------------------------------------ */
+/* --- Textes secondaires dans les cellules ------------------------------- */
 .meta,
 .usage,
 .note,
 .mots-cles {
   display: block;
-  margin-top: 0.2rem;
-  font-size: var(--t-petit);
-  color: var(--carbone);
+  font-size: 0.8rem;
+  color: #5b6169;
+  margin-top: 0.15rem;
 }
 
-.usage { color: #38414a; }
+.usage {
+  color: #35383d;
+}
 
 .note {
-  font-family: var(--serif);
   font-style: italic;
 }
 
 .mots-cles {
-  font-family: var(--mono);
-  font-size: var(--t-micro);
-  color: #8b939b;
+  font-size: 0.72rem;
+  color: #7a828b;
 }
 
 .definition-source {
-  font-family: var(--serif);
+  font-size: 0.82rem;
+  color: #6a737d;
   font-style: italic;
-  font-size: 0.9rem;
-  color: var(--carbone);
 }
 
 .note-table {
-  max-width: 44rem;
-  font-family: var(--sans);
-  font-size: var(--t-petit);
-  color: var(--carbone);
+  font-size: 0.85rem;
+  color: #5b6169;
+}
+
+/* --- Encadre de garde-fou ----------------------------------------------- *
+ * L'element le plus important du site : ce que les donnees ne prouvent pas. */
+.garde-fou {
+  border-left: 4px solid #4a5568;
+  background: $fond-doux;
+  padding: 0.9rem 1.2rem;
+  margin: 1.6rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.garde-fou > :first-child {
+  margin-top: 0;
+}
+
+.garde-fou > :last-child {
+  margin-bottom: 0;
+}
+
+.garde-fou h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
 }
 
 .lacune-inline {
-  max-width: 44rem;
-  padding: 0.5rem 0 0.5rem 1rem;
-  border-left: 3px solid var(--sceau);
-  font-size: 0.92rem;
-  color: #38414a;
+  border-left: 3px solid $lacune;
+  padding-left: 0.8rem;
+  font-size: 0.9rem;
+  color: #5b6169;
 }
 
-/* ------------------------------------------------------------------------ *
- * Filtres
- * ------------------------------------------------------------------------ */
+/* --- Filtres ------------------------------------------------------------ */
 .filtres {
   display: flex;
   flex-wrap: wrap;
+  gap: 0.9rem;
   align-items: flex-end;
-  gap: 0.9rem 1.2rem;
-  margin: 1.8rem 0 0;
-  padding: 0.9rem 0;
-  border-top: var(--filet);
-  border-bottom: var(--filet);
-  font-family: var(--sans);
+  padding: 0.9rem 1rem;
+  margin: 1.5rem 0 0.8rem;
+  background: $fond-doux;
+  border: 1px solid $trait;
+  border-radius: 4px;
 }
 
 .filtres label {
   display: flex;
   flex-direction: column;
-  gap: 0.3rem;
-  font-size: var(--t-micro);
+  gap: 0.25rem;
+  font-size: 0.78rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--carbone);
+  color: #4a5568;
 }
 
 .filtres input,
 .filtres select {
-  min-width: 12rem;
-  max-width: 100%;
-  padding: 0.4rem 0.5rem;
-  font-family: var(--sans);
   font-size: 0.88rem;
   font-weight: 400;
-  text-transform: none;
-  letter-spacing: 0;
-  color: var(--encre);
+  padding: 0.35rem 0.5rem;
+  border: 1px solid #c3c9d0;
+  border-radius: 3px;
   background: #fff;
-  border: 1px solid #c4c8c0;
-  border-radius: 0;
+  min-width: 12rem;
+  max-width: 100%;
 }
-
-.filtres input:focus,
-.filtres select:focus { border-color: var(--renvoi); }
 
 .filtres .compteur {
-  margin: 0 0 0.15rem auto;
-  font-family: var(--mono);
-  font-size: var(--t-petit);
+  margin: 0 0 0 auto;
+  font-size: 0.85rem;
+  color: #5b6169;
   font-variant-numeric: tabular-nums;
-  color: var(--carbone);
 }
 
+/* Le message « il faut JavaScript » ne s'affiche que si JavaScript manque. */
 .sans-js {
-  font-family: var(--sans);
-  font-size: var(--t-petit);
-  color: var(--carbone);
+  font-size: 0.82rem;
+  color: #6a737d;
 }
 
-/* ------------------------------------------------------------------------ *
- * Aretes
- * ------------------------------------------------------------------------ */
-.aretes { margin-top: 1.2rem; }
-
+/* --- Aretes ------------------------------------------------------------- */
 .arete {
-  padding: 1rem 0 1.1rem;
-  border-bottom: var(--filet);
+  border: 1px solid $trait;
+  border-radius: 4px;
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 0.8rem;
 }
-
-.arete:first-child { border-top: 2px solid var(--encre); }
 
 .arete h3 {
-  margin: 0 0 0.45rem;
-  font-family: var(--serif);
-  font-size: 1.08rem;
-  font-weight: 600;
-  line-height: 1.35;
-  letter-spacing: -0.01em;
+  font-size: 1rem;
+  margin: 0 0 0.4rem;
+  line-height: 1.4;
 }
 
 .arete .fleche {
-  padding: 0 0.2rem;
-  color: var(--sceau);
-  font-weight: 400;
+  color: #8b949e;
+  padding: 0 0.15rem;
 }
 
-.arete .meta { margin: 0 0 0.55rem; }
-
-/* La lecture d'une arete : ce qu'elle ne prouve pas. En serif italique,
-   c'est-a-dire dans la voix du document et non dans celle des donnees.     */
-.garde-fou-arete {
-  max-width: 46rem;
+.arete .meta {
   margin: 0 0 0.5rem;
-  padding-left: 1rem;
-  border-left: 2px solid var(--sceau);
-  font-family: var(--serif);
-  font-style: italic;
-  font-size: 0.95rem;
 }
 
-.garde-fou-arete strong {
-  font-style: normal;
-  font-weight: 600;
-  font-size: var(--t-micro);
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--sceau);
+.garde-fou-arete {
+  border-left: 3px solid #b9c6d4;
+  padding-left: 0.8rem;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
 }
 
 .preuves {
   margin: 0;
-  font-family: var(--mono);
-  font-size: var(--t-micro);
-  color: var(--carbone);
+  font-size: 0.82rem;
+  color: #5b6169;
 }
 
-/* ------------------------------------------------------------------------ *
- * Listes
- * ------------------------------------------------------------------------ */
+/* --- Listes ------------------------------------------------------------- */
+.chiffres {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.chiffres li {
+  padding: 0.15rem 0;
+}
+
+.chiffres strong {
+  display: inline-block;
+  min-width: 2.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
 .liste-noeuds,
 .liste-aretes,
 .telechargements {
   list-style: none;
-  margin: 0.6rem 0 1.4rem;
-  padding: 0;
-  max-width: 46rem;
+  margin-left: 0;
+  padding-left: 0;
 }
 
 .liste-noeuds li,
 .liste-aretes li,
 .telechargements li {
-  padding: 0.35rem 0;
-  border-bottom: var(--filet);
-  font-family: var(--sans);
-  font-size: 0.92rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #eef0f2;
 }
 
 .liste-noeuds .meta,
 .liste-aretes .meta,
 .telechargements .meta {
   display: inline;
-  margin-left: 0.5rem;
+  margin-left: 0.4rem;
 }
 
-.telechargements code { font-size: 0.84rem; color: var(--encre); }
-
-/* ------------------------------------------------------------------------ *
- * Pied de page
- * ------------------------------------------------------------------------ */
-.site-footer {
-  margin-top: 3rem;
-  padding: 2rem 0 2.6rem;
-  border-top: 2px solid var(--encre);
-  background: var(--papier-creux);
-}
-
-.colophon {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem 2.5rem;
-  margin: 0 0 1.2rem;
-}
-
-.colophon dt {
-  font-family: var(--sans);
-  font-size: var(--t-micro);
-  font-weight: 600;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--carbone);
-}
-
-.colophon dd {
-  margin: 0.15rem 0 0;
-  font-family: var(--mono);
-  font-size: var(--t-petit);
-}
-
-.colophon .interdit { color: var(--sceau); }
-
-.site-footer .mention {
-  max-width: 44rem;
-  margin: 0;
-  font-size: 0.9rem;
-  color: #38414a;
-}
-
-/* ------------------------------------------------------------------------ *
- * Accessibilite
- * ------------------------------------------------------------------------ */
+/* --- Accessibilite ------------------------------------------------------ *
+ * Le « → » entre deux noeuds est masque aux lecteurs d'ecran et double par
+ * le mot « vers », qui lui n'est pas affiche.                               */
 .sr-seul {
   position: absolute;
   width: 1px;
@@ -842,97 +351,16 @@ code.brut {
   border: 0;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-/* ------------------------------------------------------------------------ *
- * Mobile
- *
- * La navigation repasse en menu deroulant. Le motif case a cocher + label de
- * minima est conserve : il fonctionne SANS JavaScript.
- * ------------------------------------------------------------------------ */
-@media (max-width: 46rem) {
-  :root { --t-h1: 1.85rem; --t-h2: 1.35rem; }
-
-  .rail { padding: 0 1.1rem; }
-
-  .site-header .rail { align-items: flex-start; }
-
-  .site-nav {
-    position: relative;
-    margin-left: auto;
-  }
-
-  .site-nav .menu-icon {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 3px;
-    width: 2.2rem;
-    height: 2.2rem;
-    padding: 0.45rem;
-    border: 1px solid #c4c8c0;
-    background: #fff;
-    cursor: pointer;
-  }
-
-  .site-nav .barre {
-    display: block;
-    height: 2px;
-    background: var(--encre);
-  }
-
-  .site-nav .trigger {
-    display: none;
-    position: absolute;
-    right: 0;
-    z-index: 10;
-    flex-direction: column;
-    gap: 0;
-    min-width: 12rem;
-    padding: 0.4rem 0;
-    background: #fff;
-    border: 1px solid var(--encre);
-  }
-
-  .site-nav .nav-trigger:checked ~ .trigger { display: flex; }
-
-  .page-link {
-    padding: 0.45rem 0.9rem;
-    border-bottom: 0;
-  }
-
-  .page-link.courante {
-    border-bottom: 0;
-    box-shadow: inset 3px 0 0 var(--encre);
-  }
-
-  .completude { height: 2.4rem; }
-
-  .filtres .compteur { margin-left: 0; }
-}
-
-/* ------------------------------------------------------------------------ *
- * Impression
- * ------------------------------------------------------------------------ */
+/* --- Impression --------------------------------------------------------- */
 @media print {
   .filtres,
   .sans-js,
-  .site-nav { display: none; }
+  .site-header,
+  .site-footer {
+    display: none;
+  }
 
-  body { background: #fff; }
-
-  .table-defilante { overflow: visible; }
-
-  thead th { position: static; }
-
-  a { text-decoration: none; color: inherit; }
+  .table-defilante {
+    overflow: visible;
+  }
 }

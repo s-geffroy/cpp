@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Carte
-portee: "Les catégories du système et les relations documentées entre elles, chacune avec ce qu'elle ne prouve pas."
 permalink: /carte/
 ---
 

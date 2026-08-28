@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Registre
-portee: "Les sources canoniques du paquet : d'où vient chaque information, avec quelle autorité et à quel rythme elle est mise à jour."
 permalink: /registre/
 ---
 
