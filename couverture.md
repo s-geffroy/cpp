@@ -29,7 +29,7 @@ domaines** sont suivis au {% include date-snapshot.html %} :
 **{{ nb_fermes }}** dont la route est fermée, **{{ nb_partiels }}**
 ouverts sur un point précis, **{{ nb_lacunes }}** en lacune déclarée.
 
-<div class="mise en garde" markdown="1">
+<div class="garde-fou" markdown="1">
 
 ### La règle qui gouverne cette page
 

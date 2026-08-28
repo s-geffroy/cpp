@@ -13,7 +13,7 @@ Le pouvoir est traité comme **multidimensionnel**. La méthode interdit
 explicitement de réduire ces {{ dimensions | size }} dimensions à une variable
 unique : un acteur puissant sur l’une peut être sans prise sur les autres.
 
-<div class="mise en garde" markdown="1">
+<div class="garde-fou" markdown="1">
 
 ### Deux vocabulaires qui ne se rejoignent pas
 

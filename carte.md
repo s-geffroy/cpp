@@ -11,7 +11,7 @@ permalink: /carte/
 La carte compte **{{ noeuds | size }} catégories d’acteurs** et **{{ aretes | size }} relations
 structurelles initiales**, arrêtés au {% include date-snapshot.html %}.
 
-<div class="mise en garde" markdown="1">
+<div class="garde-fou" markdown="1">
 
 ### Ce qu’une relation dit, et ne dit pas
 
@@ -171,7 +171,7 @@ registre des acteurs.
       <span class="pastille dimension">{{ lib.dimensions[a.power_dimension].label }}</span>
       <span class="pastille classe">{{ lib.classes_relation[a.relation_class] }}</span>
     </p>
-    <p class="mise en garde-arete"><strong>Lecture :</strong> {{ lib.lectures[a.edge_id] | default: a.interpretation_guardrail }}</p>
+    <p class="garde-fou-arete"><strong>Lecture :</strong> {{ lib.lectures[a.edge_id] | default: a.interpretation_guardrail }}</p>
     <p class="preuves">
       Sources :
       {%- for s in sources %}

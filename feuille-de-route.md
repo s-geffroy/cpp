@@ -20,7 +20,7 @@ ce qui manque pour franchir l’étape suivante, telle que le paquet la nomme :
 
 > {{ lib.paquet_valeurs[site.data.paquet.next_gate] }}
 
-<div class="mise en garde" markdown="1">
+<div class="garde-fou" markdown="1">
 
 ### La porte reste fermée
 
