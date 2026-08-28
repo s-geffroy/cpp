@@ -26,6 +26,21 @@ relation.
 
 </div>
 
+## Vue d’ensemble
+
+{% include schema-systeme.html %}
+
+Ce schéma est un **regroupement éditorial** : les six familles n’existent pas
+dans les données du paquet, elles y sont posées pour rendre l’ensemble lisible.
+Les nombres, eux, sont comptés sur les données — l’épaisseur d’un trait n’est
+pas un effet de style.
+
+Ce qu’il montre tient en trois observations. Les **régulateurs** sont le
+point de passage le plus dense vers l’économie et l’information. L’**État**
+n’agit pas comme un bloc : il entretient des relations avec lui-même, entre ses
+propres organes. Et le niveau **extérieur** — Union européenne, BCE, Cour
+européenne des droits de l’homme — contraint l’État sans passer par lui.
+
 ## Les {{ noeuds | size }} catégories d’acteurs
 
 Une catégorie d’acteurs n’est pas un acteur nommé : c’est une **catégorie** du système. La

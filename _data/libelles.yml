@@ -636,3 +636,32 @@ paquet_valeurs:
   SOURCE_REGISTRY_BASELINE: "Socle du registre des sources"
   FORBIDDEN_AT_THIS_STAGE: "interdite à ce stade"
   "France Actor Registry + Corporate/Media/Finance Graph v0.1": "Registre des acteurs français et graphe entreprises, médias et finance, version 0.1"
+
+# --- Familles d'acteurs du schema d'ensemble -------------------------------
+# Le regroupement lui-meme est dans scripts/importer-spec.py ; seuls les
+# libelles sont ici. 'court' sert dans le schema, ou la place manque.
+familles:
+  exterieur:
+    court: "Extérieur"
+    long: "Extérieur et supranational"
+    quoi: "Union européenne, BCE et Eurosystème, Cour européenne des droits de l’homme, marchés de capitaux, États étrangers"
+  etat:
+    court: "État"
+    long: "État et collectivités"
+    quoi: "Président, Gouvernement, Parlement, juridictions, régions, départements, communes, sécurité sociale, acheteurs publics"
+  regulateurs:
+    court: "Régulateurs"
+    long: "Régulateurs et autorités"
+    quoi: "Banque de France et ACPR, AMF, Autorité de la concurrence, Arcom, Arcep, CRE, CNIL, HATVP, HAS, ANSM, ANSSI"
+  economie:
+    court: "Économie"
+    long: "Entreprises, banques et infrastructures"
+    quoi: "Grands groupes, PME, groupes sous contrôle étranger, banques, assureurs, énergie, télécoms, santé, défense"
+  information:
+    court: "Information"
+    long: "Médias et plateformes"
+    quoi: "Groupes de médias privés, audiovisuel public, plateformes numériques, publicité, agences de presse"
+  societe:
+    court: "Société"
+    long: "Représentation et société civile"
+    quoi: "Syndicats, organisations patronales, instances du personnel, associations, think tanks, ordres professionnels, représentants d’intérêts"

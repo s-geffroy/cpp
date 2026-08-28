@@ -1,0 +1,25 @@
+{
+  "tailles": {
+    "exterieur": 5,
+    "etat": 14,
+    "regulateurs": 11,
+    "economie": 13,
+    "information": 5,
+    "societe": 7
+  },
+  "flux": {
+    "etat>etat": 4,
+    "etat>economie": 4,
+    "regulateurs>economie": 8,
+    "exterieur>economie": 1,
+    "regulateurs>information": 3,
+    "information>information": 2,
+    "societe>societe": 2,
+    "societe>etat": 1,
+    "exterieur>etat": 3,
+    "regulateurs>etat": 1,
+    "exterieur>regulateurs": 1
+  },
+  "total_categories": 55,
+  "total_relations": 30
+}

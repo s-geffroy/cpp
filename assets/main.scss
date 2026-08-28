@@ -561,6 +561,82 @@ code.brut {
 .sans-js { font-size: 0.8125rem; color: var(--texte-doux); }
 
 /* ------------------------------------------------------------------------ *
+ * Schema d'ensemble
+ * Tout est peint avec les variables du theme : le schema suit le mode clair
+ * comme le mode sombre, sans seconde version a maintenir.
+ * ------------------------------------------------------------------------ */
+.schema {
+  margin: 1.5rem 0 1.75rem;
+  padding: 0;
+  /* Le conteneur defile plutot que le schema ne se tasse : en dessous d'une
+     certaine largeur les libelles deviennent illisibles. Une seule regle
+     .schema, pas deux -- deux blocs de meme selecteur finissent par se
+     contredire sans qu'on sache lequel gagne. */
+  overflow-x: auto;
+}
+
+.schema-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 34rem;
+}
+
+.schema-boite rect {
+  fill: var(--fond-doux);
+  stroke: var(--trait);
+  stroke-width: 1;
+}
+
+.schema-nom {
+  fill: var(--texte);
+  font-family: var(--sans);
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.schema-compte {
+  fill: var(--texte-doux);
+  font-family: var(--sans);
+  font-size: 12px;
+}
+
+.schema-trait {
+  stroke: var(--texte-doux);
+  fill: none;
+  opacity: 0.75;
+}
+
+.schema-tete { fill: var(--texte-doux); }
+
+.schema figcaption {
+  max-width: var(--prose);
+  margin-top: 0.6rem;
+  font-size: 0.8125rem;
+  color: var(--texte-doux);
+}
+
+.schema-texte {
+  max-width: var(--prose);
+  margin: 0 0 1.75rem;
+  font-size: 0.9375rem;
+}
+
+.schema-texte summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-size: 0.875rem;
+}
+
+.schema-texte ul {
+  margin: 0.75rem 0;
+  padding-left: 1.4rem;
+  color: var(--texte-doux);
+}
+
+.schema-texte li { margin-bottom: 0.3rem; }
+
+/* ------------------------------------------------------------------------ *
  * Aretes
  * ------------------------------------------------------------------------ */
 .aretes { margin-top: 1.25rem; }

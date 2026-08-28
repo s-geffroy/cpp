@@ -1,0 +1,117 @@
+{%- comment -%}
+  Schema d'ensemble du systeme.
+
+  CE N'EST PAS UNE ILLUSTRATION. Les six familles regroupent les 55 categories
+  d'acteurs (regroupement declare dans scripts/importer-spec.py), et l'epaisseur
+  de chaque trait est le NOMBRE REEL de relations documentees entre deux
+  familles. Si les donnees changent, le schema change.
+
+  Les positions, elles, sont posees a la main : elles disent la hierarchie de
+  contrainte -- l'exterieur en haut contraint l'Etat et les regulateurs, qui
+  regulent l'economie, l'information et la societe en bas.
+
+  Accessibilite : le <svg> porte un titre et une description, et la liste qui
+  le suit donne le meme contenu en toutes lettres. Le schema n'est jamais le
+  seul porteur de l'information.
+{%- endcomment -%}
+
+{%- assign fam = site.data.familles -%}
+{%- assign lib = site.data.libelles.familles -%}
+{%- assign flux = fam.flux -%}
+
+<figure class="schema">
+<svg viewBox="0 0 900 470" role="img" aria-labelledby="schema-titre schema-desc"
+     class="schema-svg" preserveAspectRatio="xMidYMid meet">
+  <title id="schema-titre">Le système en six familles d’acteurs</title>
+  <desc id="schema-desc">Schéma des {{ fam.total_relations }} relations
+  documentées entre six familles regroupant les {{ fam.total_categories }}
+  catégories d’acteurs. L’épaisseur des traits est proportionnelle au nombre de
+  relations. La même information est donnée en toutes lettres sous le
+  schéma.</desc>
+
+  <defs>
+    <marker id="fleche" viewBox="0 0 10 10" refX="9" refY="5"
+            markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" class="schema-tete"/>
+    </marker>
+  </defs>
+
+  {%- comment -%} Traits d'abord, pour passer sous les boites. {%- endcomment -%}
+  {%- comment -%}
+    Liaisons. Chaque entree est « cle|trace ». Le trace est un chemin SVG pose
+    a la main ; l'EPAISSEUR, elle, vient des donnees.
+
+    Deux liaisons sont courbes et non droites : en ligne droite, « Exterieur
+    vers Economie » traverserait la boite Etat et « Societe vers Etat »
+    passerait sur les regulateurs. Un trait qui coupe une boite se lit comme
+    une relation avec cette boite.
+  {%- endcomment -%}
+  {%- assign liaisons =
+    "exterieur>etat|M 400 96 L 302 176@exterieur>regulateurs|M 500 96 L 598 176@exterieur>economie|M 338 60 C 140 40, 20 160, 68 336@regulateurs>economie|M 596 246 C 480 300, 330 302, 202 338@regulateurs>information|M 610 246 L 492 338@regulateurs>etat|M 548 205 L 354 205@etat>economie|M 200 248 L 152 338@societe>etat|M 700 338 C 620 300, 420 250, 354 224"
+    | split: "@" -%}
+  {%- for l in liaisons -%}
+    {%- assign c = l | split: "|" -%}
+    {%- assign cle = c[0] -%}
+    {%- assign n = flux[cle] -%}
+    {%- if n -%}
+      {%- assign epaisseur = n | times: 6 | divided_by: 10 | plus: 1 -%}
+      <path d="{{ c[1] }}" class="schema-trait" stroke-width="{{ epaisseur }}"
+            marker-end="url(#fleche)"/>
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- comment -%}
+    Boites. « boucle » est le nombre de relations internes a la famille : elles
+    existent (l'Etat se controle lui-meme, par exemple) et ne peuvent pas etre
+    dessinees comme un trait entre deux boites.
+  {%- endcomment -%}
+  {%- assign boites =
+    "exterieur,335,30|etat,120,180|regulateurs,550,180|economie,30,340|information,335,340|societe,640,340"
+    | split: "|" -%}
+  {%- for b in boites -%}
+    {%- assign c = b | split: "," -%}
+    {%- assign id = c[0] -%}
+    {%- assign x = c[1] | plus: 0 -%}
+    {%- assign y = c[2] | plus: 0 -%}
+    {%- assign cle_boucle = id | append: ">" | append: id -%}
+    {%- assign boucle = flux[cle_boucle] -%}
+    <g class="schema-boite">
+      <rect x="{{ x }}" y="{{ y }}" width="230" height="66" rx="6"/>
+      <text x="{{ x | plus: 16 }}" y="{{ y | plus: 27 }}" class="schema-nom">{{ lib[id].court }}</text>
+      <text x="{{ x | plus: 16 }}" y="{{ y | plus: 49 }}" class="schema-compte">{{ fam.tailles[id] }} catégories{% if boucle %} · {{ boucle }} relations internes{% endif %}</text>
+    </g>
+  {%- endfor -%}
+</svg>
+
+<figcaption>
+  Les {{ fam.total_categories }} catégories d’acteurs, regroupées en six
+  familles. L’épaisseur d’un trait est le nombre de relations documentées.
+  Les flèches vont de qui exerce vers qui subit.
+</figcaption>
+</figure>
+
+<details class="schema-texte">
+  <summary>Le même schéma en toutes lettres</summary>
+  <ul>
+    {%- assign ordre = "exterieur,etat,regulateurs,economie,information,societe" | split: "," -%}
+    {%- for de in ordre -%}
+      {%- for vers in ordre -%}
+        {%- assign cle = de | append: ">" | append: vers -%}
+        {%- assign n = flux[cle] -%}
+        {%- if n -%}
+          {%- if de == vers %}
+    <li><strong>{{ lib[de].long }}</strong> : {{ n }} relations internes.</li>
+          {%- else %}
+    <li><strong>{{ lib[de].long }}</strong> → {{ lib[vers].long }} : {{ n }} relations.</li>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor %}
+  </ul>
+  <p>Ce que contient chaque famille :</p>
+  <ul>
+    {%- for id in ordre %}
+    <li><strong>{{ lib[id].long }}</strong> ({{ fam.tailles[id] }}) — {{ lib[id].quoi }}.</li>
+    {%- endfor %}
+  </ul>
+</details>

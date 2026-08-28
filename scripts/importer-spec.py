@@ -49,6 +49,57 @@ VERBATIM = [
 ]
 
 
+# Familles d'acteurs, pour le schema d'ensemble de la page Carte.
+#
+# Les 55 categories sont trop nombreuses pour tenir sur un schema lisible. On
+# les regroupe en six familles, et on agrege les 30 relations entre ces
+# familles. Le schema n'est donc PAS une illustration : ses epaisseurs de
+# traits sont des comptages reels, et il change si les donnees changent.
+#
+# Le regroupement est un choix editorial, pas une donnee du paquet -- il est
+# ecrit ici, en clair, plutot que devine ailleurs.
+FAMILLES = {
+    "exterieur": ["supranational", "external_actor", "external_market"],
+    "etat": ["formal_state", "judicial_review", "territorial_state",
+             "public_finance", "state_ownership", "state_sectoral",
+             "transactional_state"],
+    "regulateurs": ["regulator", "expert_authority", "security_authority"],
+    "economie": ["corporate", "corporate_sector", "finance",
+                 "infrastructure_sector", "health_sector"],
+    "information": ["information_sector", "information_market", "platforms"],
+    "societe": ["social_partner", "workplace_institution", "civil_society",
+                "expertise", "professional_governance", "influence"],
+}
+
+
+def familles(noeuds, aretes):
+    appartenance = {t: f for f, types in FAMILLES.items() for t in types}
+
+    inconnus = sorted({n["node_type"] for n in noeuds
+                       if n["node_type"] not in appartenance})
+    if inconnus:
+        # Une categorie hors famille disparaitrait du schema en silence.
+        raise SystemExit(f"Types de categorie non classes : {inconnus}")
+
+    par_id = {n["node_id"]: appartenance[n["node_type"]] for n in noeuds}
+
+    tailles = {f: 0 for f in FAMILLES}
+    for f in par_id.values():
+        tailles[f] += 1
+
+    flux = {}
+    for a in aretes:
+        cle = f'{par_id[a["source_node"]]}>{par_id[a["target_node"]]}'
+        flux[cle] = flux.get(cle, 0) + 1
+
+    return {
+        "tailles": tailles,
+        "flux": flux,
+        "total_categories": len(noeuds),
+        "total_relations": len(aretes),
+    }
+
+
 def trouver_zip():
     zips = sorted(SPECS.glob("*.zip"))
     if not zips:
@@ -123,6 +174,14 @@ def main():
         for source, cible in CSV_VERS_DATA.items():
             texte = lire(source).decode(ENCODAGE_CSV)
             ecrire_json(cible, list(csv.DictReader(io.StringIO(texte))))
+
+        # Regroupement en familles, pour le schema d'ensemble.
+        ecrire_json("familles.json", familles(
+            json.loads(json.dumps(list(csv.DictReader(io.StringIO(
+                lire("data/system_map/system_nodes.csv").decode(ENCODAGE_CSV)))))),
+            list(csv.DictReader(io.StringIO(
+                lire("data/system_map/system_edges.csv").decode(ENCODAGE_CSV)))),
+        ))
 
         # snapshot.yml : deja du YAML, copie telle quelle dans _data/.
         (DATA / "paquet.yml").write_bytes(lire("snapshot.yml"))
