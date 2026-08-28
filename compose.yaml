@@ -1,0 +1,94 @@
+# Cette application ne fait tourner aucun service : le site est bati par GitHub
+# Actions et servi par GitHub Pages. Ce fichier declare un OUTIL -- il n'y a
+# donc pas de cle 'build', et c'est volontaire.
+#
+# Un seul service, qui ne tourne pas :
+#   bundle -- Ruby et Bundler, derriere le profil 'cli'. `appctl up` l'ignore et
+#             sort en 0 ; `sudo appctl run bundle <commande>` le lance le temps
+#             d'une commande, puis le jette.
+#
+# Ce service existe pour UNE raison : produire et rafraichir Gemfile.lock sans
+# installer Ruby sur l'hote. Le lock est ce qui fige les versions du site ; sans
+# lui, `bundler-cache: true` du workflow n'a rien a installer.
+#
+#   sudo appctl run bundle bundle lock
+#   sudo appctl run bundle bundle install
+#   sudo appctl run bundle bundle exec jekyll build
+#
+# Construire en local est LEGITIME ici, contrairement au template
+# 'github-pages' : la construction locale et celle du runner lisent le meme
+# Gemfile.lock. Il n'y a qu'une verite, elle est dans ce fichier de verrouillage.
+#
+# A adapter :
+#   1. le tag de l'image, si le workflow change de 'ruby-version'. LES DEUX SE
+#      TIENNENT : construire ici et construire sur le runner doivent donner le
+#      meme resultat. Tag fixe, jamais 'latest'.
+#   2. la limite memoire, si une resolution de dependances reelle la depasse.
+services:
+  bundle:
+    image: ruby:3.3
+    profiles: ["cli"]
+
+    # L'image n'a aucun entrypoint et pour commande par defaut 'irb'. Les
+    # arguments passes a `appctl run` deviennent donc la commande exacte, sans
+    # rien a forcer -- d'ou le 'bundle bundle lock' des exemples ci-dessus : le
+    # premier mot est le service, le reste est la commande.
+    #
+    # Le repertoire de travail de l'image est /, pas /work : sans la ligne
+    # suivante, Bundler ne trouverait pas le Gemfile.
+    working_dir: /work
+
+    # Le depot LUI-MEME est le volume de travail : Gemfile et Gemfile.lock sont
+    # versionnes, il n'y a rien a synchroniser entre un volume nomme et un
+    # depot. `docker compose config` resout ce '.' en chemin absolu vers
+    # /srv/apps/cpp, ce qui satisfait le controle « bind mount hors du
+    # projet » d'appctl.
+    volumes:
+      - .:/work
+
+    # L'uid et le gid de l'utilisateur applicatif, geles par `appctl create`.
+    # Sans eux le conteneur tourne en root et depose un Gemfile.lock root:root
+    # DANS le depot : l'utilisateur applicatif ne peut alors ni le remplacer, ni
+    # le committer -- et le message d'erreur ne dit pas pourquoi.
+    #
+    # La valeur ne vaut que sur CETTE machine. Un depot clone ailleurs devra la
+    # corriger ('id -u' sous le bon compte, puis editer cette ligne). L'echec
+    # est bruyant, donc rattrapable ; un repli silencieux ne le serait pas.
+    user: "1008:1008"
+
+    # Le reseau interne de l'application, cree par appctl. Bundler, lui, a bien
+    # quelque chose a telecharger -- rubygems.org. Mais la ligne est surtout la
+    # parce que, sans declaration explicite, Compose rattache le service a un
+    # reseau implicite nomme 'cpp_default' : avec un SOULIGNE, la ou appctl
+    # attend un tiret. La validation le refuse alors comme « reseau hors du
+    # perimetre de l'application ». Verifie, pas suppose.
+    networks:
+      - internal
+
+    # L'uid ci-dessus n'existe pas dans le /etc/passwd de l'image : Docker ne
+    # trouve pas de home et pose HOME=/, qui appartient a root. Bundler ecrit
+    # alors dans un chemin non inscriptible et echoue en 'permission denied'.
+    # On loge donc son cache et ses gems dans le depot, qui appartient deja au
+    # bon utilisateur. .gitignore les tient hors des commits, et ils survivent
+    # entre deux `appctl run` : les gems ne se retelechargent pas a chaque
+    # commande.
+    environment:
+      HOME: /work/.bundlecache
+      BUNDLE_PATH: /work/vendor/bundle
+      BUNDLE_APP_CONFIG: /work/.bundlecache/config
+      TZ: Europe/Paris
+
+    # Sans limite memoire, `appctl validate` avertit. Une resolution de
+    # dependances Jekyll tient tres large dans 1 Go ; monter le jour ou une
+    # commande reelle le demande, plutot que par precaution.
+    deploy:
+      resources:
+        limits:
+          cpus: "2.0"
+          memory: 1G
+          pids: 512
+
+networks:
+  internal:
+    name: cpp-internal
+    external: true

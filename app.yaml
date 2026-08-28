@@ -1,0 +1,25 @@
+# Politique d'exposition de l'application. Volontairement minimal.
+#
+# Ce projet ne deploie RIEN sur ce VPS : le site est bati par GitHub Actions et
+# servi par GitHub Pages, a chaque `git push`. Il n'y a donc ni service qui
+# tourne, ni exposition, ni nom d'hote, ni route Traefik -- et le domaine
+# personnalise du site, s'il y en a un, se regle chez GitHub et chez le
+# registrar DNS, jamais ici.
+#
+# Le service 'bundle' de compose.yaml n'apparait pas ici, et c'est normal : il
+# vit derriere le profil Compose 'cli', donc hors de la configuration resolue
+# par defaut. Le declarer ici ferait echouer `appctl build` et `appctl up`, qui
+# valident SANS profil actif et refuseraient un service d'app.yaml introuvable
+# dans compose.yaml. Meme raison que pour 'tex' dans le template latex.
+#
+# Ce que l'application apporte quand meme, et qui est tout l'interet : son
+# utilisateur Unix dedie, son repertoire, son depot Git, et son Claude Code
+# authentifie a lui -- separe de toutes les autres applications du VPS.
+#
+# 'services' vide est un cas prevu : `build` et `up` annoncent « aucun service
+# declare » et sortent en 0, et `workon new` traverse les etapes d'exposition et
+# de verification HTTP sans rien demander. `appctl validate`, lui, repond
+# « 1 service » : il active les profils declares, donc il voit 'bundle'.
+name: cpp
+
+services: {}

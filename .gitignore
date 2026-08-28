@@ -1,0 +1,25 @@
+.env
+*.log
+
+# Sortie du constructeur Jekyll. Le workflow la refabrique a chaque push : elle
+# n'a rien a faire dans Git, et commitee elle finirait par diverger du contenu.
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Chaine Ruby locale : les gems installes par le service 'bundle' et le cache
+# de Bundler, loges dans le depot faute de home inscriptible dans l'image.
+.bundle/
+.bundlecache/
+vendor/
+
+# Gemfile.lock N'EST PAS IGNORE, et c'est tout l'interet de ce template. Il fige
+# les versions exactes du site ; le workflow s'appuie dessus (bundler-cache), et
+# sans lui la construction resoudrait des versions differentes a chaque push.
+# Le regenerer apres toute modification du Gemfile :
+#   sudo appctl run bundle bundle lock
+
+# Marqueur local du VPS, lu par scripts/infra-reconcile.sh : il dit que cette
+# application redemarre au boot de CETTE machine. Rien a faire dans un depot.
+.autostart

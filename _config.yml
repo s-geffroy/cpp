@@ -1,0 +1,71 @@
+# Configuration Jekyll, lue par le workflow .github/workflows/pages.yml a chaque
+# push. Ce fichier n'est PAS relu a chaud : toute modification demande un nouveau
+# push pour prendre effet.
+#
+# Le titre, la description et le nom d'auteur s'ecrivent en francais normal,
+# avec leurs accents : ils seront lus par des visiteurs. La regle « sans
+# accents » de ce depot vise les fichiers d'infrastructure, pas le contenu.
+title: cpp
+description: Une ligne pour dire de quoi parle ce site.
+author: Auteur
+
+# L'adresse publique du site, sans barre oblique finale.
+#   site de projet    : https://<utilisateur>.github.io
+#   site d'utilisateur: https://<utilisateur>.github.io
+#   domaine personnel : https://www.exemple.fr
+url: "https://CHANGEME.github.io"
+
+# LE PIEGE, ET POURQUOI IL NE SE DECLENCHE PAS ICI.
+#
+# baseurl est le chemin sous lequel le site est servi : "/monsite" pour un depot
+# 'monsite', "" pour un depot '<utilisateur>.github.io' ou des qu'un domaine
+# personnalise est en place. Se tromper ne casse pas la construction : le site
+# sort avec toutes ses URLs doublement prefixees (/monsite/monsite/...), images
+# et feuilles de style comprises, et l'erreur n'apparait nulle part dans les
+# journaux.
+#
+# Le workflow passe `--baseurl` en ligne de commande, avec la valeur lue dans
+# les reglages reels du depot par actions/configure-pages. Elle gagne sur celle
+# ci-dessous. Ce qui reste ici ne sert donc qu'a la CONSTRUCTION LOCALE
+# (`sudo appctl run bundle bundle exec jekyll build`) : la garder juste evite
+# qu'un apercu local ne ressemble pas au site publie.
+baseurl: "/cpp"
+
+theme: minima
+
+# Greffons. Contrairement au constructeur natif de GitHub Pages, il n'y a ici ni
+# safe mode, ni liste blanche : ce qui est declare dans le Gemfile est charge,
+# et ce qui est depose dans `_plugins/` s'execute. La contrepartie est que ce
+# depot est responsable de ses versions -- voir Gemfile et Gemfile.lock.
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# CE QUI NE DOIT PAS ETRE PUBLIE. Sans cette liste, Jekyll copie tout ce qu'il
+# trouve a la racine dans le site final : CLAUDE.md, app.yaml et compose.yaml
+# seraient servis en ligne, lisibles par n'importe qui.
+#
+# `.github/` n'y figure pas : Jekyll ignore d'office les repertoires dont le nom
+# commence par un point.
+exclude:
+  - CLAUDE.md
+  - README.md
+  - app.yaml
+  - compose.yaml
+  - specs/
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+
+# Domaine personnalise : ce n'est PAS un reglage de ce fichier. C'est un fichier
+# CNAME a la racine du depot, plus des enregistrements chez le registrar :
+#
+#   apex (exemple.fr)     : quatre enregistrements A vers
+#                           185.199.108.153, 185.199.109.153,
+#                           185.199.110.153, 185.199.111.153
+#   sous-domaine (www)    : un CNAME vers <utilisateur>.github.io
+#
+# Le plus simple est de saisir le domaine dans Settings > Pages : GitHub cree
+# lui-meme le commit du fichier CNAME. Poser ce fichier AVANT que le DNS
+# resolve fait servir une erreur a la place du site.

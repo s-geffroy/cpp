@@ -1,0 +1,102 @@
+# Construction et publication du site sur GitHub Pages.
+#
+# CE FICHIER REMPLACE LE CONSTRUCTEUR NATIF. Tant que Settings > Pages est reste
+# sur « Deploy from a branch », ce workflow s'execute, produit son artefact, et
+# echoue a la derniere etape avec une erreur d'API -- le site, lui, continue
+# d'etre bati par le constructeur natif. Le reglage est MANUEL et aucun push ne
+# le fait a votre place :
+#
+#   Depot > Settings > Pages > Source : GitHub Actions
+#
+# En echange de ce reglage : Jekyll 4, les greffons de votre choix, `_plugins/`
+# reellement charge, et des versions que ce depot fige lui-meme dans
+# Gemfile.lock -- au lieu du safe mode, de Jekyll 3.10 et de la liste blanche
+# imposes par le constructeur natif.
+name: pages
+
+on:
+  # La publication reste attachee au push, comme avec le constructeur natif :
+  # le geste ne change pas, c'est le constructeur qui change.
+  push:
+    branches: [main]
+  # Rejouer une publication sans commit -- utile quand seul un reglage du depot
+  # a bouge (domaine personnalise, activation de Pages).
+  workflow_dispatch:
+
+# Le GITHUB_TOKEN suffit : il n'y a AUCUN secret a deposer dans le depot.
+#   contents: read  -- cloner les sources.
+#   pages: write    -- publier le resultat.
+#   id-token: write -- deploy-pages s'authentifie par OIDC, sans jeton stocke.
+# Rien de plus : un workflow qui n'ecrit pas dans le depot n'a pas besoin de
+# 'contents: write'.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Une seule publication a la fois. cancel-in-progress reste a FALSE
+# volontairement : annuler un deploiement deja commence peut laisser le site
+# dans un etat partiel. Deux pushs rapproches font donc deux publications qui
+# se suivent, ce qui est le comportement voulu.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # La version de Ruby est celle du service 'bundle' de compose.yaml. Les
+      # deux se tiennent : construire ici et construire en local doivent donner
+      # le meme resultat, sans quoi on retombe sur deux verites.
+      #
+      # bundler-cache: true fait `bundle install` et met les gems en cache. Il
+      # s'appuie sur Gemfile.lock : c'est pour cela que le lock est VERSIONNE,
+      # et qu'il doit porter la plateforme x86_64-linux du runner
+      # (`bundle lock --add-platform x86_64-linux`).
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - id: pages
+        uses: actions/configure-pages@v5
+
+      # Le baseurl vient d'ici, pas de _config.yml.
+      #
+      # C'EST LE PIEGE QUE CETTE LIGNE DESAMORCE. Le baseurl correct depend de
+      # la facon dont le depot est publie -- "/<depot>" pour un site de projet,
+      # "" pour <utilisateur>.github.io et des qu'un domaine personnalise est
+      # en place. Se tromper ne casse pas la construction : le site sort avec
+      # toutes ses URLs doublement prefixees, feuilles de style comprises, et
+      # rien n'apparait dans les journaux. configure-pages lit la valeur reelle
+      # dans les reglages du depot ; le baseurl de _config.yml ne sert plus qu'a
+      # la construction locale.
+      #
+      # JEKYLL_ENV=production active ce que les themes et les greffons reservent
+      # au site publie -- analytics, URLs absolues de jekyll-seo-tag. Sans lui,
+      # le site est bati en mode developpement sans le dire.
+      - run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      # Ramasse _site/ et l'expose au job suivant. Le chemin par defaut est
+      # bien _site : le laisser implicite serait une devinette de plus.
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./_site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    # L'environnement 'github-pages' est ce qui porte l'URL publiee : c'est lui
+    # qui affiche l'adresse du site dans l'onglet Actions et sur la page du
+    # depot, une fois le deploiement termine.
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
