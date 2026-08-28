@@ -6,9 +6,20 @@ permalink: /404.html
 
 <h1>Page introuvable</h1>
 
-<p>Cette adresse ne correspond a aucune page de ce site.</p>
+<p>Cette adresse ne correspond à aucune page de ce site.</p>
 
-<p><a href="{{ '/' | relative_url }}">Revenir a l'accueil</a></p>
+<p>
+  Si vous cherchez une source, une catégorie du système ou un domaine de
+  couverture, ces trois pages sont les points d’entrée :
+</p>
+
+<ul>
+  <li><a href="{{ '/registre/' | relative_url }}">Le registre des sources</a></li>
+  <li><a href="{{ '/carte/' | relative_url }}">La carte du système</a></li>
+  <li><a href="{{ '/couverture/' | relative_url }}">La couverture</a></li>
+</ul>
+
+<p><a href="{{ '/' | relative_url }}">Revenir à l’accueil</a></p>
 
 <!--
   GitHub Pages sert automatiquement ce fichier sur toute adresse inconnue, a
@@ -18,4 +29,7 @@ permalink: /404.html
   'relative_url' plutot qu'un '/' en dur : il applique le baseurl de
   _config.yml, seule facon que le lien marche aussi sur un site de projet servi
   sous /<depot>/.
+
+  Le texte visible est en francais accentue ; ces commentaires, qui relevent de
+  l'infrastructure, suivent la regle sans accents du depot.
 -->

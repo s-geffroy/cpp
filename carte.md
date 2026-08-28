@@ -13,23 +13,23 @@ structurelles initiales**, arrêtés au {% include date-snapshot.html %}.
 
 <div class="garde-fou" markdown="1">
 
-### Ce qu'une arête dit, et ne dit pas
+### Ce qu’une arête dit, et ne dit pas
 
 La méthode fixe cinq statuts de preuve, de `P0` (non prouvé) à `P4` (preuve
 officielle ou primaire directe). Une arête établie par simple proximité ou
 appartenance commune **ne peut pas être requalifiée en coordination** sans
 preuve indépendante.
 
-Chaque arête ci-dessous porte le garde-fou d'interprétation écrit dans le
-paquet. Il n'est pas relégué en note : c'est la lecture qui accompagne la
+Chaque arête ci-dessous porte le garde-fou d’interprétation écrit dans le
+paquet. Il n’est pas relégué en note : c’est la lecture qui accompagne la
 relation.
 
 </div>
 
 ## Les {{ noeuds | size }} nœuds
 
-Un nœud n'est pas un acteur nommé : c'est une **catégorie** du système. La
-distinction compte — l'étape suivante du projet, non franchie, est justement le
+Un nœud n’est pas un acteur nommé : c’est une **catégorie** du système. La
+distinction compte — l’étape suivante du projet, non franchie, est justement le
 registre des acteurs.
 
 <div class="filtres" data-filtre-groupe="noeuds">
@@ -151,7 +151,8 @@ registre des acteurs.
   {%- capture cherchable -%}
     {{ a.edge_id }} {{ origine }} {{ cible }} {{ lib.types_arete[a.edge_type] }}
     {{ lib.classes_relation[a.relation_class] }}
-    {{ lib.dimensions[a.power_dimension].label }} {{ a.interpretation_guardrail }}
+    {{ lib.dimensions[a.power_dimension].label }}
+    {{ lib.lectures[a.edge_id] | default: a.interpretation_guardrail }}
   {%- endcapture -%}
   <article class="arete"
            id="{{ a.edge_id }}"
@@ -170,9 +171,9 @@ registre des acteurs.
       <span class="pastille dimension">{{ lib.dimensions[a.power_dimension].label }}</span>
       <span class="pastille classe">{{ lib.classes_relation[a.relation_class] }}</span>
     </p>
-    <p class="garde-fou-arete"><strong>Lecture :</strong> {{ a.interpretation_guardrail }}</p>
+    <p class="garde-fou-arete"><strong>Lecture :</strong> {{ lib.lectures[a.edge_id] | default: a.interpretation_guardrail }}</p>
     <p class="preuves">
-      Sources :
+      Sources :
       {%- for s in sources %}
       <a href="{{ '/registre/' | relative_url }}#{{ s }}"><code>{{ s }}</code></a>{% unless forloop.last %},{% endunless %}
       {%- endfor %}
@@ -187,10 +188,10 @@ affichés.</p>
 
 ## Ce que la carte ne contient pas
 
-Trente arêtes pour cinquante-cinq nœuds : la carte est **structurelle**, pas
-exhaustive. Elle pose l'architecture du graphe, pas son remplissage.
+Trente arêtes pour cinquante-cinq nœuds : la carte est **structurelle**, pas
+exhaustive. Elle pose l’architecture du graphe, pas son remplissage.
 
-L'absence d'une arête entre deux nœuds ne signifie donc **pas** qu'aucune
-relation n'existe entre eux. Elle signifie qu'aucune relation n'a encore été
+L’absence d’une arête entre deux nœuds ne signifie donc **pas** qu’aucune
+relation n’existe entre eux. Elle signifie qu’aucune relation n’a encore été
 documentée à ce niveau de preuve. La différence est exactement celle que la
 [feuille de route]({{ '/feuille-de-route/' | relative_url }}) a pour objet.
