@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Registre
+title: Sources
 permalink: /registre/
 ---
 
@@ -152,7 +152,7 @@ table reste entière et lisible : c’est du filtrage, pas du chargement.</p>
 Le champ `power_dimensions` du registre est en **texte libre** :
 {{ registre | map: "power_dimensions" | join: ";" | split: ";" | uniq | size }}
 mots-clés distincts, propres au registre. Ce ne sont **pas** les
-[{{ site.data.dimensions | size }} dimensions de pouvoir]({{ '/dimensions/' | relative_url }}),
+[{{ site.data.dimensions | size }} formes de pouvoir]({{ '/dimensions/' | relative_url }}),
 qui forment un vocabulaire fermé utilisé par la carte du système.
 
 Le paquet v0.1 ne fournit aucune table de correspondance entre les deux. Ce

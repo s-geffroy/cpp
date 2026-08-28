@@ -20,7 +20,7 @@ ce qui manque pour franchir l’étape suivante, telle que le paquet la nomme :
 
 > {{ lib.paquet_valeurs[site.data.paquet.next_gate] }}
 
-<div class="garde-fou" markdown="1">
+<div class="mise en garde" markdown="1">
 
 ### La porte reste fermée
 
@@ -85,7 +85,7 @@ l’accès est restreint par le droit.
 Ce point n’est pas dans les rapports du paquet : il ressort de la lecture des
 fichiers.
 
-Les nœuds et les arêtes de la carte utilisent les
+Les catégories d’acteurs et les relations de la carte utilisent les
 {{ site.data.dimensions | size }} identifiants canoniques `P-*`. Le
 [registre des sources]({{ '/registre/' | relative_url }}) étiquette ses entrées
 avec un champ `power_dimensions` en texte libre, comptant
@@ -100,8 +100,8 @@ avec le vocabulaire fermé, soit de publier explicitement une table de passage.
 
 ### 5. Une carte structurelle, pas un graphe rempli
 
-{{ site.data.aretes | size }} arêtes pour {{ site.data.noeuds | size }} nœuds.
-L’architecture est posée ; l’absence d’arête entre deux nœuds signale une
+{{ site.data.aretes | size }} relations pour {{ site.data.noeuds | size }} catégories d’acteurs.
+L’architecture est posée ; l’absence de relation entre deux catégories signale une
 relation non documentée, jamais une relation inexistante.
 
 ## Ce que l’étape suivante suppose

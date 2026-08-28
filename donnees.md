@@ -44,17 +44,17 @@ n’en sont qu’un rendu.
   <li>
     <a href="{{ '/assets/donnees/system_nodes.csv' | relative_url }}">
       <code>system_nodes.csv</code></a>
-    <span class="meta">{{ site.data.noeuds | size }} nœuds</span>
+    <span class="meta">{{ site.data.noeuds | size }} catégories d’acteurs</span>
   </li>
   <li>
     <a href="{{ '/assets/donnees/system_edges.csv' | relative_url }}">
       <code>system_edges.csv</code></a>
-    <span class="meta">{{ site.data.aretes | size }} arêtes</span>
+    <span class="meta">{{ site.data.aretes | size }} relations</span>
   </li>
   <li>
     <a href="{{ '/assets/donnees/power_dimensions.csv' | relative_url }}">
       <code>power_dimensions.csv</code></a>
-    <span class="meta">{{ site.data.dimensions | size }} dimensions de pouvoir</span>
+    <span class="meta">{{ site.data.dimensions | size }} formes de pouvoir</span>
   </li>
   <li>
     <a href="{{ '/assets/donnees/coverage_matrix.csv' | relative_url }}">
@@ -102,7 +102,7 @@ C’est un changement de glyphe, jamais de mot.
 
 ## Date et portée
 
-Snapshot du **{% include date-snapshot.html %}**. Toute information postérieure
+État arrêté au **{% include date-snapshot.html %}**. Toute information postérieure
 est hors du champ de cette version : c’est une règle de la
 [méthode]({{ '/methode/' | relative_url }}#admission), pas un retard de mise à
 jour.

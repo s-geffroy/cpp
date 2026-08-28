@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Dimensions
+title: Pouvoirs
 permalink: /dimensions/
 ---
 
@@ -13,11 +13,11 @@ Le pouvoir est traité comme **multidimensionnel**. La méthode interdit
 explicitement de réduire ces {{ dimensions | size }} dimensions à une variable
 unique : un acteur puissant sur l’une peut être sans prise sur les autres.
 
-<div class="garde-fou" markdown="1">
+<div class="mise en garde" markdown="1">
 
 ### Deux vocabulaires qui ne se rejoignent pas
 
-Les nœuds et les arêtes utilisent les {{ dimensions | size }} identifiants
+Les catégories d’acteurs et les relations utilisent les {{ dimensions | size }} identifiants
 canoniques listés ci-dessous. Le
 [registre des sources]({{ '/registre/' | relative_url }}), lui, étiquette ses
 entrées avec un champ en **texte libre** :
@@ -26,7 +26,7 @@ mots-clés distincts, sans rapport formel avec ces identifiants.
 
 Le paquet v0.1 ne fournit **aucune table de correspondance** entre les deux.
 Ce site n’en fabrique pas. Les croisements ci-dessous portent donc sur les
-nœuds et les arêtes, jamais sur les sources — construire ce pont au jugé
+catégories d’acteurs et les relations, jamais sur les sources — construire ce pont au jugé
 reviendrait à inventer une donnée, ce que la méthode proscrit.
 
 </div>
@@ -39,8 +39,8 @@ reviendrait à inventer une donnée, ce que la méthode proscrit.
     <tr>
       <th>Identifiant</th>
       <th>Dimension</th>
-      <th>Nœuds</th>
-      <th>Arêtes</th>
+      <th>Catégories</th>
+      <th>Relations</th>
     </tr>
   </thead>
   <tbody>
@@ -59,9 +59,9 @@ reviendrait à inventer une donnée, ce que la méthode proscrit.
 </table>
 </div>
 
-<p class="note-table">La colonne « arêtes » compte les relations dont la
-dimension principale est celle-ci. Une arête n’en porte qu’une : les
-{{ aretes | size }} arêtes se répartissent donc entre les lignes sans
+<p class="note-table">La colonne « relations » compte les relations dont la
+dimension principale est celle-ci. Une relation n’en porte qu’une : les
+{{ aretes | size }} relations se répartissent donc entre les lignes sans
 recouvrement. Un zéro signale une dimension pour laquelle la carte v0.1 n’a
 encore documenté aucune relation — pas une dimension sans pouvoir.</p>
 
@@ -76,7 +76,7 @@ encore documenté aucune relation — pas une dimension sans pouvoir.</p>
 
 {{ lib.dimensions[dim_id].definition }}
 
-**{{ porteurs | size }} nœuds portent cette dimension.**
+**{{ porteurs | size }} catégories d’acteurs relèvent de cette forme de pouvoir.**
 
 <ul class="liste-noeuds">
   {%- for n in porteurs %}
@@ -86,7 +86,7 @@ encore documenté aucune relation — pas une dimension sans pouvoir.</p>
 </ul>
 
 {% if relations.size > 0 -%}
-**{{ relations | size }} arêtes relèvent de cette dimension.**
+**{{ relations | size }} relations relèvent de cette dimension.**
 
 <ul class="liste-aretes">
   {%- for a in relations %}
@@ -97,7 +97,7 @@ encore documenté aucune relation — pas une dimension sans pouvoir.</p>
   {%- endfor %}
 </ul>
 {%- else -%}
-<p class="lacune-inline">Aucune arête de la carte v0.1 ne relève de cette
+<p class="lacune-inline">Aucune relation de la carte v0.1 ne relève de cette
 dimension. C’est un état de la documentation, pas une absence de pouvoir.</p>
 {%- endif %}
 

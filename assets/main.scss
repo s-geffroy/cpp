@@ -312,6 +312,29 @@ hr { border: 0; border-top: 1px solid var(--trait); margin: 2rem 0; }
 .post-content blockquote p:last-child { margin-bottom: 0; }
 
 /* ------------------------------------------------------------------------ *
+ * Chapeau d'accueil
+ * La premiere phrase que lit un visiteur qui ne connait pas le projet. Elle
+ * doit se detacher de la prose sans crier : un cran de taille, pas une
+ * couleur ni un encadre.
+ * ------------------------------------------------------------------------ */
+.chapeau {
+  max-width: 40rem;
+  margin: 0 0 2rem;
+  font-size: 1.25rem;
+  line-height: 1.45;
+  color: var(--texte);
+}
+
+.chapeau strong { font-weight: 600; }
+
+.sommaire-plus {
+  max-width: var(--prose);
+  margin-top: 1.25rem;
+  font-size: 0.9375rem;
+  color: var(--texte-doux);
+}
+
+/* ------------------------------------------------------------------------ *
  * Encadre de garde-fou
  * Ce que les donnees NE prouvent PAS. C'est le contenu le plus important du
  * site ; il lui faut un traitement distinct, pas un encadre de plus.

@@ -5,83 +5,91 @@ permalink: /
 ---
 
 <!--
-  layout 'page' et non 'home' : le layout 'home' de minima affiche en pied de
-  page un lien « subscribe via RSS » sans condition, ce qui n'a pas de sens sur
-  un site qui ne publie aucun article. Rien d'autre ne les distingue ici.
+  layout 'page' et non 'home' : le layout 'home' de minima affiche en pied de
+  page un lien « subscribe via RSS » sans condition, ce qui n'a pas de sens sur
+  un site qui ne publie aucun article.
 -->
 
-**Snapshot du {% include date-snapshot.html %}.** Version
-{{ site.data.paquet.version }} du paquet `{{ site.data.paquet.project }}`.
+<p class="chapeau">Qui décide, en France, et sur quoi&nbsp;? Ce site ne répond
+pas à la question. Il fait le travail qui doit venir avant&nbsp;: établir
+<strong>d’où viennent les informations</strong> dont on dispose, et
+<strong>où elles manquent</strong>.</p>
 
-Ce site publie une **base documentaire** : le registre des sources et la
-cartographie du système français à une date donnée. Il ne publie aucune
-conclusion politique, aucun classement et aucune comparaison.
+## De quoi il s’agit
 
-<div class="garde-fou" markdown="1">
+Quand on parle du pouvoir en France, on cite souvent des chiffres sans dire
+d’où ils sortent. Ce site fait l’inverse. Il publie l’état, arrêté au
+{% include date-snapshot.html %}, d’un travail de recensement&nbsp;:
 
-### Ce que ce site ne fait pas
+- **{{ site.data.registre | size }} sources officielles** — textes de loi,
+  registres publics, données de régulateurs, rapports parlementaires — dont on
+  sait qui les publie, à quel rythme et à quoi elles servent&nbsp;;
+- **{{ site.data.noeuds | size }} catégories d’acteurs** — l’État, les
+  régulateurs, les entreprises, les banques, les médias, les syndicats,
+  l’Union européenne — et **{{ site.data.aretes | size }} relations** établies
+  entre elles, chacune accompagnée de ce qu’elle prouve et de ce qu’elle ne
+  prouve pas&nbsp;;
+- **{{ site.data.couverture | size }} domaines** dont on dit franchement
+  lesquels sont documentés et lesquels ne le sont pas.
 
-Le paquet porte une interdiction explicite : toute comparaison avec le NSDAP
-y est déclarée **{{ site.data.libelles.paquet_valeurs[site.data.paquet.comparison_with_nsdap] }}**.
-Le rapport d’audit conclut qu'**aucun calcul de similarité n’est autorisé**.
+## Ce qui rend ce travail utilisable
 
-Ce site s’y tient. Il établit d’où viennent les informations et comment le
-système est découpé — rien de plus. L’étape suivante, non franchie, est
-*{{ site.data.libelles.paquet_valeurs[site.data.paquet.next_gate] }}*.
+**Rien n’est affirmé sans source.** Chaque relation entre deux catégories
+d’acteurs renvoie aux documents officiels qui l’établissent. On peut remonter
+la chaîne, à chaque fois.
 
-</div>
+**Les trous sont déclarés.** {{ site.data.couverture | size }} domaines sont
+suivis&nbsp;; {{ site.data.couverture | where_exp: "c", "c.status contains 'GAP'" | size }}
+n’ont aucune source enregistrée, et le disent. C’est ce qui distingue un travail
+de recensement d’une opinion&nbsp;: savoir où l’on ne sait pas, et l’écrire.
 
-## Ce que contient le paquet
+**Une relation n’est pas une intention.** Qu’une entreprise ait un contrat
+public ne dit rien de son influence. Qu’un régulateur rencontre un lobbyiste ne
+prouve pas qu’il lui cède. Ces distinctions sont écrites noir sur blanc à côté
+de chaque relation, plutôt que laissées à l’interprétation du lecteur.
 
-<ul class="chiffres">
-  <li><strong>{{ site.data.registre | size }}</strong> sources canoniques, toutes vérifiées</li>
-  <li><strong>{{ site.data.noeuds | size }}</strong> nœuds dans la carte du système</li>
-  <li><strong>{{ site.data.aretes | size }}</strong> arêtes structurelles initiales</li>
-  <li><strong>{{ site.data.dimensions | size }}</strong> dimensions de pouvoir</li>
-  <li><strong>{{ site.data.couverture | size }}</strong> domaines suivis en couverture</li>
+## Par où commencer
+
+<ul class="sommaire">
+  <li>
+    <a href="{{ '/carte/' | relative_url }}">Comment le système est découpé</a>
+    <p>Les {{ site.data.noeuds | size }} catégories d’acteurs et les
+    {{ site.data.aretes | size }} relations documentées entre elles. C’est la
+    vue d’ensemble&nbsp;: qui régule qui, qui finance qui, qui dépend de qui.</p>
+  </li>
+  <li>
+    <a href="{{ '/couverture/' | relative_url }}">Ce qu’on sait et ce qu’on ignore</a>
+    <p>Domaine par domaine, l’état du recensement. La page la plus honnête du
+    site, et sans doute la plus instructive.</p>
+  </li>
+  <li>
+    <a href="{{ '/registre/' | relative_url }}">Les {{ site.data.registre | size }} sources</a>
+    <p>La liste complète, avec pour chacune son institution, son usage prévu et
+    son adresse. Filtrable par domaine et par autorité.</p>
+  </li>
+  <li>
+    <a href="{{ '/dimensions/' | relative_url }}">Les {{ site.data.dimensions | size }} formes de pouvoir</a>
+    <p>Faire la loi, dépenser, posséder, prêter, distribuer l’information,
+    contraindre&nbsp;: autant de pouvoirs distincts, qu’il serait faux de
+    confondre en un seul.</p>
+  </li>
 </ul>
 
-## Par où entrer
+<p class="sommaire-plus">Pour aller plus loin&nbsp;:
+<a href="{{ '/methode/' | relative_url }}">la méthode</a> qui fixe ce qui entre
+dans le recensement,
+<a href="{{ '/audit/' | relative_url }}">les constats</a> qu’il permet déjà de
+tirer, <a href="{{ '/feuille-de-route/' | relative_url }}">ce qui manque</a>
+pour aller plus loin, et
+<a href="{{ '/donnees/' | relative_url }}">les fichiers</a>, téléchargeables et
+réutilisables.</p>
 
-**[Le registre des sources]({{ '/registre/' | relative_url }})** — les
-{{ site.data.registre | size }} sources, filtrables par domaine, autorité et
-priorité. Chacune porte son institution, son type, son rythme de mise à jour,
-son usage prévu et son adresse.
+## Ce que ce site ne fait pas
 
-**[La carte du système]({{ '/carte/' | relative_url }})** — les
-{{ site.data.noeuds | size }} nœuds groupés par type, puis les
-{{ site.data.aretes | size }} arêtes. Chaque arête est accompagnée de son
-garde-fou d’interprétation : ce qu’elle prouve, et ce qu’elle ne prouve pas.
+Il ne classe pas, ne compare pas, ne conclut pas. En particulier, **aucune
+comparaison avec un régime historique n’y est calculée** — le travail de
+recensement n’est pas assez avancé pour qu’une telle comparaison veuille dire
+quoi que ce soit, et le paquet l’interdit explicitement à ce stade.
 
-**[Les dimensions de pouvoir]({{ '/dimensions/' | relative_url }})** — les
-{{ site.data.dimensions | size }} dimensions que la méthode interdit de
-réduire à une seule variable, avec les nœuds et les arêtes qui portent chacune.
-
-**[La couverture]({{ '/couverture/' | relative_url }})** — quels domaines sont
-documentés, lesquels ne le sont pas. Une lacune y est affichée comme une
-lacune.
-
-**[La méthode]({{ '/methode/' | relative_url }})** — les règles d’admission des
-sources, les douze règles dures de la cartographie, les statuts de preuve, et
-les règles du graphe des entreprises.
-
-**[L’audit]({{ '/audit/' | relative_url }})** — les sept constats structurels
-tirés de la constitution du registre.
-
-**[La feuille de route]({{ '/feuille-de-route/' | relative_url }})** — ce qui
-manque pour franchir l’étape suivante.
-
-**[Les données]({{ '/donnees/' | relative_url }})** — les fichiers d’origine,
-au format CSV, JSON et JSON Schema, téléchargeables tels quels.
-
-## Une règle de lecture
-
-La méthode répète un avertissement qui s’applique à toutes les pages de ce
-site : **une relation n’est pas une preuve d’intention**. Une dépense publique
-n’est pas un contrôle, une part de marché n’est pas une domination, un contact
-de représentation d’intérêts n’est pas une capture, une proximité dans le
-graphe n’est pas une coordination.
-
-Les arêtes portent un statut de preuve, de `P0` (non prouvé) à `P4` (preuve
-officielle directe). Elles ne montent pas d’un cran parce qu’elles paraissent
-plausibles.
+Ce qui viendra ensuite est décrit dans la
+[feuille de route]({{ '/feuille-de-route/' | relative_url }}).

@@ -8,27 +8,27 @@ permalink: /carte/
 {%- assign aretes = site.data.aretes -%}
 {%- assign lib = site.data.libelles -%}
 
-La carte compte **{{ noeuds | size }} nœuds** et **{{ aretes | size }} arêtes
+La carte compte **{{ noeuds | size }} catégories d’acteurs** et **{{ aretes | size }} relations
 structurelles initiales**, arrêtés au {% include date-snapshot.html %}.
 
-<div class="garde-fou" markdown="1">
+<div class="mise en garde" markdown="1">
 
-### Ce qu’une arête dit, et ne dit pas
+### Ce qu’une relation dit, et ne dit pas
 
 La méthode fixe cinq statuts de preuve, de `P0` (non prouvé) à `P4` (preuve
-officielle ou primaire directe). Une arête établie par simple proximité ou
+officielle ou primaire directe). Une relation établie par simple proximité ou
 appartenance commune **ne peut pas être requalifiée en coordination** sans
 preuve indépendante.
 
-Chaque arête ci-dessous porte le garde-fou d’interprétation écrit dans le
+Chaque relation ci-dessous porte la mise en garde écrit dans le
 paquet. Il n’est pas relégué en note : c’est la lecture qui accompagne la
 relation.
 
 </div>
 
-## Les {{ noeuds | size }} nœuds
+## Les {{ noeuds | size }} catégories d’acteurs
 
-Un nœud n’est pas un acteur nommé : c’est une **catégorie** du système. La
+Une catégorie d’acteurs n’est pas un acteur nommé : c’est une **catégorie** du système. La
 distinction compte — l’étape suivante du projet, non franchie, est justement le
 registre des acteurs.
 
@@ -63,7 +63,7 @@ registre des acteurs.
 
   <p class="compteur" data-filtre-compteur
      data-total="{{ noeuds | size }}"
-     data-nom="nœuds">{{ noeuds | size }} nœuds</p>
+     data-nom="catégories">{{ noeuds | size }} catégories d’acteurs</p>
 </div>
 
 <div class="table-defilante">
@@ -71,7 +71,7 @@ registre des acteurs.
   <thead>
     <tr>
       <th>Identifiant</th>
-      <th>Nœud</th>
+      <th>Catégorie d’acteurs</th>
       <th>Type</th>
       <th>Portée</th>
       <th>Dimensions</th>
@@ -104,12 +104,12 @@ registre des acteurs.
 </table>
 </div>
 
-## Les {{ aretes | size }} arêtes
+## Les {{ aretes | size }} relations
 
 <div class="filtres" data-filtre-groupe="aretes">
   <label>
     Rechercher
-    <input type="search" data-filtre-recherche placeholder="nœud, type de relation…">
+    <input type="search" data-filtre-recherche placeholder="catégorie, type de relation…">
   </label>
 
   <label>
@@ -140,7 +140,7 @@ registre des acteurs.
 
   <p class="compteur" data-filtre-compteur
      data-total="{{ aretes | size }}"
-     data-nom="arêtes">{{ aretes | size }} arêtes</p>
+     data-nom="relations">{{ aretes | size }} relations</p>
 </div>
 
 <div class="aretes" data-filtre-cible="aretes">
@@ -171,7 +171,7 @@ registre des acteurs.
       <span class="pastille dimension">{{ lib.dimensions[a.power_dimension].label }}</span>
       <span class="pastille classe">{{ lib.classes_relation[a.relation_class] }}</span>
     </p>
-    <p class="garde-fou-arete"><strong>Lecture :</strong> {{ lib.lectures[a.edge_id] | default: a.interpretation_guardrail }}</p>
+    <p class="mise en garde-arete"><strong>Lecture :</strong> {{ lib.lectures[a.edge_id] | default: a.interpretation_guardrail }}</p>
     <p class="preuves">
       Sources :
       {%- for s in sources %}
@@ -183,15 +183,15 @@ registre des acteurs.
 </div>
 
 <p class="sans-js">Les filtres demandent JavaScript. Sans lui, les
-{{ noeuds | size }} nœuds et les {{ aretes | size }} arêtes restent tous
+{{ noeuds | size }} catégories d’acteurs et les {{ aretes | size }} relations restent toutes
 affichés.</p>
 
 ## Ce que la carte ne contient pas
 
-Trente arêtes pour cinquante-cinq nœuds : la carte est **structurelle**, pas
+Trente relations pour cinquante-cinq catégories : la carte est **structurelle**, pas
 exhaustive. Elle pose l’architecture du graphe, pas son remplissage.
 
-L’absence d’une arête entre deux nœuds ne signifie donc **pas** qu’aucune
+L’absence d’une relation entre deux catégories ne signifie donc **pas** qu’aucune
 relation n’existe entre eux. Elle signifie qu’aucune relation n’a encore été
 documentée à ce niveau de preuve. La différence est exactement celle que la
 [feuille de route]({{ '/feuille-de-route/' | relative_url }}) a pour objet.

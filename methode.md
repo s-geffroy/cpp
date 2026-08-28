@@ -29,10 +29,10 @@ Les versions d’origine, en anglais, sont dans l’archive
 
 ### Règle de date
 
-Le snapshot est le **{% include date-snapshot.html %}**. Toute information
+L’état publié est arrêté au **{% include date-snapshot.html %}**. Toute information
 postérieure est exclue de la v0.1. Aucun document, changement de propriété,
 nomination, décision publique, observation de part de marché ou évolution
-institutionnelle survenu après cette date n’entre dans le snapshot sans une
+institutionnelle survenu après cette date n’entre dans cet état arrêté sans une
 nouvelle version.
 
 ### Provenance des entreprises
@@ -59,7 +59,7 @@ Cinq couches à ne jamais confondre :
 ### Provenance des personnes et des réseaux
 
 Un administrateur commun, un emploi passé, une relation d’école ou une
-appartenance ne créent qu’une **arête de réseau**. Elle ne devient
+appartenance ne créent qu’une **simple relation de voisinage**. Elle ne devient
 `coordination`, `conflit`, `capture` ou `influence` qu’avec une preuve
 indépendante.
 
@@ -75,8 +75,8 @@ L’objet n’est pas « l'État français ». C’est **France-System-2026**�
 ### Le pouvoir est multidimensionnel
 
 Les {{ site.data.dimensions | size }} dimensions ne doivent jamais être
-réduites à une variable unique. Elles sont détaillées, avec les nœuds et les
-arêtes qui les portent, sur la
+réduites à une variable unique. Elles sont détaillées, avec les catégories d’acteurs et les
+relations qui les portent, sur la
 [page des dimensions]({{ '/dimensions/' | relative_url }}).
 
 ### Les douze règles dures
@@ -109,17 +109,17 @@ arêtes qui les portent, sur la
 | `P1` | Plausible ou contesté |
 | `P0` | Non prouvé |
 
-Une arête établie par la seule proximité ou une appartenance commune **ne peut
+Une relation établie par la seule proximité ou une appartenance commune **ne peut
 pas être requalifiée en coordination** sans preuve indépendante.
 
 ### Architecture du graphe
 
-**Nœuds** : institutions formelles, régulateurs, entreprises publiques,
+**Catégories d’acteurs** : institutions formelles, régulateurs, entreprises publiques,
 entreprises privées, banques, assureurs, médias, plateformes, opérateurs
 d’infrastructures, partenaires sociaux, institutions d’expertise, société
 civile, institutions extérieures.
 
-**Arêtes** : propriété, nomination, financement budgétaire, commande publique,
+**Relations documentées** : propriété, nomination, financement budgétaire, commande publique,
 subvention, crédit, assurance, régulation, autorisation, contrôle
 juridictionnel, représentation d’intérêts, négociation collective, distribution
 de l’information, classement algorithmique, mobilité des personnes, apport

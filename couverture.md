@@ -29,7 +29,7 @@ domaines** sont suivis au {% include date-snapshot.html %} :
 **{{ nb_fermes }}** dont la route est fermée, **{{ nb_partiels }}**
 ouverts sur un point précis, **{{ nb_lacunes }}** en lacune déclarée.
 
-<div class="garde-fou" markdown="1">
+<div class="mise en garde" markdown="1">
 
 ### La règle qui gouverne cette page
 
@@ -42,7 +42,7 @@ lacune déclarée se lit comme un travail non fait.
 
 </div>
 
-## La matrice
+## Le tableau
 
 <div class="table-defilante">
 <table class="matrice">
@@ -59,8 +59,12 @@ lacune déclarée se lit comme un travail non fait.
     <tr class="couverture-{{ couleur }}">
       <td>{{ lib.domaines[c.domain] }}</td>
       <td>
-        <span class="pastille etat-{{ couleur }}">{{ lib.statuts_couverture[c.status] }}</span>
-        <code class="brut">{{ c.status }}</code>
+        {%- comment -%}
+          Le code d'origine passe en infobulle : il sert a retrouver la ligne
+          dans les fichiers telechargeables, pas a etre lu. Affiche sous chaque
+          libelle, il doublait la hauteur du tableau pour rien.
+        {%- endcomment -%}
+        <span class="pastille etat-{{ couleur }}" title="Code d’origine : {{ c.status }}">{{ lib.statuts_couverture[c.status] }}</span>
       </td>
       <td>
         {%- if c.sources.size > 0 -%}
