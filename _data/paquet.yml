@@ -1,0 +1,6 @@
+project: France-System-2026
+version: '0.1'
+snapshot_date: '2026-08-12'
+status: SOURCE_REGISTRY_BASELINE
+comparison_with_nsdap: FORBIDDEN_AT_THIS_STAGE
+next_gate: France Actor Registry + Corporate/Media/Finance Graph v0.1

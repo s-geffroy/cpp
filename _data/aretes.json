@@ -1,0 +1,405 @@
+[
+  {
+    "edge_id": "FR-EDGE-0001",
+    "source_node": "FR-NODE-003",
+    "target_node": "FR-NODE-002",
+    "edge_type": "legislation_and_oversight",
+    "power_dimension": "P-LEGAL",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0001;FR-SRC-0003",
+    "interpretation_guardrail": "Parliament legislates/controls government within constitutional framework.",
+    "sources": [
+      "FR-SRC-0001",
+      "FR-SRC-0003"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0002",
+    "source_node": "FR-NODE-001",
+    "target_node": "FR-NODE-002",
+    "edge_type": "appointment",
+    "power_dimension": "P-EXEC",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0001",
+    "interpretation_guardrail": "Presidential appointment powers; exact scope governed by Constitution.",
+    "sources": [
+      "FR-SRC-0001"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0003",
+    "source_node": "FR-NODE-005",
+    "target_node": "FR-NODE-002",
+    "edge_type": "constitutional_review",
+    "power_dimension": "P-JUD",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0001;FR-SRC-0002",
+    "interpretation_guardrail": "Review constrains legislative/executive norms.",
+    "sources": [
+      "FR-SRC-0001",
+      "FR-SRC-0002"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0004",
+    "source_node": "FR-NODE-008",
+    "target_node": "FR-NODE-010",
+    "edge_type": "territorial_competence_distribution",
+    "power_dimension": "P-EXEC",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0004",
+    "interpretation_guardrail": "Competences split across territorial levels.",
+    "sources": [
+      "FR-SRC-0004"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0010",
+    "source_node": "FR-NODE-012",
+    "target_node": "FR-NODE-013",
+    "edge_type": "equity_ownership",
+    "power_dimension": "P-OWN",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0020;FR-SRC-0021",
+    "interpretation_guardrail": "State-shareholder relation; governance rights vary by holding.",
+    "sources": [
+      "FR-SRC-0020",
+      "FR-SRC-0021"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0011",
+    "source_node": "FR-NODE-049",
+    "target_node": "FR-NODE-050",
+    "edge_type": "public_procurement",
+    "power_dimension": "P-FISCAL",
+    "relation_class": "transactional",
+    "evidence_source_ids": "FR-SRC-0041;FR-SRC-0042",
+    "interpretation_guardrail": "Buyer-supplier contracts. No influence inference from contract alone.",
+    "sources": [
+      "FR-SRC-0041",
+      "FR-SRC-0042"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0012",
+    "source_node": "FR-NODE-002",
+    "target_node": "FR-NODE-014",
+    "edge_type": "business_aid",
+    "power_dimension": "P-FISCAL",
+    "relation_class": "transactional",
+    "evidence_source_ids": "FR-SRC-0043",
+    "interpretation_guardrail": "Potential subsidy/tax-aid edge; must be quantified scheme-by-scheme.",
+    "sources": [
+      "FR-SRC-0043"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0020",
+    "source_node": "FR-NODE-019",
+    "target_node": "FR-NODE-017",
+    "edge_type": "prudential_supervision",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0030;FR-SRC-0033",
+    "interpretation_guardrail": "French/European banking supervision.",
+    "sources": [
+      "FR-SRC-0030",
+      "FR-SRC-0033"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0021",
+    "source_node": "FR-NODE-052",
+    "target_node": "FR-NODE-017",
+    "edge_type": "monetary_and_supervisory_environment",
+    "power_dimension": "P-FIN",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0112;FR-SRC-0113",
+    "interpretation_guardrail": "Euro-area monetary conditions and SSM context.",
+    "sources": [
+      "FR-SRC-0112",
+      "FR-SRC-0113"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0022",
+    "source_node": "FR-NODE-020",
+    "target_node": "FR-NODE-014",
+    "edge_type": "market_disclosure_supervision",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0034",
+    "interpretation_guardrail": "Listed-company and securities-market obligations.",
+    "sources": [
+      "FR-SRC-0034"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0023",
+    "source_node": "FR-NODE-021",
+    "target_node": "FR-NODE-014",
+    "edge_type": "competition_control",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0040",
+    "interpretation_guardrail": "Competition law and merger/abuse enforcement.",
+    "sources": [
+      "FR-SRC-0040"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0030",
+    "source_node": "FR-NODE-022",
+    "target_node": "FR-NODE-035",
+    "edge_type": "audiovisual_regulation",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0050;FR-SRC-0051",
+    "interpretation_guardrail": "Pluralism and anti-concentration rules.",
+    "sources": [
+      "FR-SRC-0050",
+      "FR-SRC-0051"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0031",
+    "source_node": "FR-NODE-022",
+    "target_node": "FR-NODE-036",
+    "edge_type": "public_media_regulation",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0053",
+    "interpretation_guardrail": "Public-service audiovisual oversight/structure.",
+    "sources": [
+      "FR-SRC-0053"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0032",
+    "source_node": "FR-NODE-037",
+    "target_node": "FR-NODE-035",
+    "edge_type": "distribution_intermediation",
+    "power_dimension": "P-INFO",
+    "relation_class": "market",
+    "evidence_source_ids": "FR-SRC-0055;FR-SRC-0056",
+    "interpretation_guardrail": "Platforms can mediate discovery/distribution and bargaining with publishers.",
+    "sources": [
+      "FR-SRC-0055",
+      "FR-SRC-0056"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0033",
+    "source_node": "FR-NODE-038",
+    "target_node": "FR-NODE-035",
+    "edge_type": "advertising_finance",
+    "power_dimension": "P-FIN",
+    "relation_class": "market",
+    "evidence_source_ids": "",
+    "interpretation_guardrail": "Must be populated with revenue/advertising data; currently structural.",
+    "sources": []
+  },
+  {
+    "edge_id": "FR-EDGE-0040",
+    "source_node": "FR-NODE-023",
+    "target_node": "FR-NODE-034",
+    "edge_type": "telecom_regulation",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0060;FR-SRC-0061",
+    "interpretation_guardrail": "Electronic-communications regulation.",
+    "sources": [
+      "FR-SRC-0060",
+      "FR-SRC-0061"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0041",
+    "source_node": "FR-NODE-025",
+    "target_node": "FR-NODE-037",
+    "edge_type": "data_protection_regulation",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0062",
+    "interpretation_guardrail": "Privacy/data-processing regulation and sanctions.",
+    "sources": [
+      "FR-SRC-0062"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0042",
+    "source_node": "FR-NODE-029",
+    "target_node": "FR-NODE-013",
+    "edge_type": "cybersecurity_requirements",
+    "power_dimension": "P-COERC",
+    "relation_class": "formal/sectoral",
+    "evidence_source_ids": "FR-SRC-0063",
+    "interpretation_guardrail": "Critical/public-sector cybersecurity capacity; scope must be coded by legal regime.",
+    "sources": [
+      "FR-SRC-0063"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0050",
+    "source_node": "FR-NODE-024",
+    "target_node": "FR-NODE-032",
+    "edge_type": "energy_market_regulation",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0070;FR-SRC-0071;FR-SRC-0072",
+    "interpretation_guardrail": "Retail/wholesale energy regulation and market monitoring.",
+    "sources": [
+      "FR-SRC-0070",
+      "FR-SRC-0071",
+      "FR-SRC-0072"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0051",
+    "source_node": "FR-NODE-024",
+    "target_node": "FR-NODE-033",
+    "edge_type": "network_tariff_regulation",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0070",
+    "interpretation_guardrail": "Regulated energy-network tariffs/investment framework.",
+    "sources": [
+      "FR-SRC-0070"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0060",
+    "source_node": "FR-NODE-042",
+    "target_node": "FR-NODE-043",
+    "edge_type": "collective_bargaining",
+    "power_dimension": "P-LABOR",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0081;FR-SRC-0082;FR-SRC-0083",
+    "interpretation_guardrail": "Formal bargaining/representation relation.",
+    "sources": [
+      "FR-SRC-0081",
+      "FR-SRC-0082",
+      "FR-SRC-0083"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0061",
+    "source_node": "FR-NODE-042",
+    "target_node": "FR-NODE-044",
+    "edge_type": "employee_representation",
+    "power_dimension": "P-LABOR",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0083",
+    "interpretation_guardrail": "Enterprise-level representation and agreements.",
+    "sources": [
+      "FR-SRC-0083"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0062",
+    "source_node": "FR-NODE-048",
+    "target_node": "FR-NODE-002",
+    "edge_type": "lobbying_contact",
+    "power_dimension": "P-NET",
+    "relation_class": "formal_disclosure",
+    "evidence_source_ids": "FR-SRC-0080",
+    "interpretation_guardrail": "Registered representation of interests; not evidence of capture.",
+    "sources": [
+      "FR-SRC-0080"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0063",
+    "source_node": "FR-NODE-055",
+    "target_node": "FR-NODE-002",
+    "edge_type": "foreign_influence_contact",
+    "power_dimension": "P-EXT",
+    "relation_class": "formal_disclosure",
+    "evidence_source_ids": "FR-SRC-0080",
+    "interpretation_guardrail": "Foreign-influence registry route; actual edges require declared records.",
+    "sources": [
+      "FR-SRC-0080"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0070",
+    "source_node": "FR-NODE-027",
+    "target_node": "FR-NODE-002",
+    "edge_type": "expertise_to_policy",
+    "power_dimension": "P-EXPERT",
+    "relation_class": "advisory",
+    "evidence_source_ids": "FR-SRC-0090",
+    "interpretation_guardrail": "HAS evaluation/recommendation can shape options; final decision remains separate.",
+    "sources": [
+      "FR-SRC-0090"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0071",
+    "source_node": "FR-NODE-028",
+    "target_node": "FR-NODE-040",
+    "edge_type": "medicines_regulation",
+    "power_dimension": "P-REG",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0091",
+    "interpretation_guardrail": "Authorization/safety/shortage oversight.",
+    "sources": [
+      "FR-SRC-0091"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0080",
+    "source_node": "FR-NODE-030",
+    "target_node": "FR-NODE-031",
+    "edge_type": "defense_procurement",
+    "power_dimension": "P-FISCAL",
+    "relation_class": "transactional_strategic",
+    "evidence_source_ids": "FR-SRC-0100;FR-SRC-0101",
+    "interpretation_guardrail": "State as strategic buyer/industrial-policy actor.",
+    "sources": [
+      "FR-SRC-0100",
+      "FR-SRC-0101"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0090",
+    "source_node": "FR-NODE-051",
+    "target_node": "FR-NODE-002",
+    "edge_type": "eu_policy_coordination",
+    "power_dimension": "P-EXT",
+    "relation_class": "formal/political",
+    "evidence_source_ids": "FR-SRC-0110;FR-SRC-0111",
+    "interpretation_guardrail": "European Semester recommendations and EU policy coordination.",
+    "sources": [
+      "FR-SRC-0110",
+      "FR-SRC-0111"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0091",
+    "source_node": "FR-NODE-052",
+    "target_node": "FR-NODE-019",
+    "edge_type": "eurosystem_membership",
+    "power_dimension": "P-EXT",
+    "relation_class": "formal",
+    "evidence_source_ids": "FR-SRC-0113",
+    "interpretation_guardrail": "Banque de France participates in Eurosystem; policy is not nationally set.",
+    "sources": [
+      "FR-SRC-0113"
+    ]
+  },
+  {
+    "edge_id": "FR-EDGE-0092",
+    "source_node": "FR-NODE-053",
+    "target_node": "FR-NODE-002",
+    "edge_type": "human_rights_constraint",
+    "power_dimension": "P-JUD",
+    "relation_class": "legal",
+    "evidence_source_ids": "FR-SRC-0115",
+    "interpretation_guardrail": "ECHR legal framework constrains state action in protected-rights domains.",
+    "sources": [
+      "FR-SRC-0115"
+    ]
+  }
+]

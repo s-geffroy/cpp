@@ -1,0 +1,16 @@
+﻿power_dimension_id,label,definition
+P-LEGAL,Legal/normative,ability to create or constrain binding rules
+P-EXEC,Executive/administrative,ability to implement policy and allocate administrative capacity
+P-FISCAL,Fiscal,"taxation, expenditure, transfers, guarantees"
+P-OWN,Ownership,equity/property control and governance rights
+P-FIN,Financial,"credit, debt, insurance, capital-market access, liquidity"
+P-MARKET,Market,"market share, buyer/seller power, switching barriers"
+P-INFRA,Infrastructure,control of essential physical/digital networks
+P-INFO,Information,"production, editing, distribution, ranking, audience exposure"
+P-REG,Regulatory,"licensing, supervision, standard-setting, sanction"
+P-JUD,Judicial/review,"ability to invalidate, suspend, or remedy acts"
+P-LABOR,Labor/collective,"collective bargaining, mobilization, industrial action"
+P-EXPERT,Expertise/norm production,"data, indicators, evaluation, admissible-option shaping"
+P-NET,Network/influence,"lobbying, professional access, personnel mobility, agenda access"
+P-COERC,Coercive/security,"lawful coercive capacity, policing, sanctions, security"
+P-EXT,External/supranational,EU/euro/ECHR/international constraints and dependencies

@@ -1,0 +1,637 @@
+[
+  {
+    "node_id": "FR-NODE-001",
+    "label": "President of the Republic",
+    "node_type": "formal_state",
+    "geographic_scope": "national",
+    "power_dimensions": "P-EXEC;P-LEGAL;P-EXT",
+    "dimensions": [
+      "P-EXEC",
+      "P-LEGAL",
+      "P-EXT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-002",
+    "label": "Government / Prime Minister / ministries",
+    "node_type": "formal_state",
+    "geographic_scope": "national",
+    "power_dimensions": "P-EXEC;P-LEGAL;P-FISCAL;P-REG;P-EXT",
+    "dimensions": [
+      "P-EXEC",
+      "P-LEGAL",
+      "P-FISCAL",
+      "P-REG",
+      "P-EXT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-003",
+    "label": "National Assembly",
+    "node_type": "formal_state",
+    "geographic_scope": "national",
+    "power_dimensions": "P-LEGAL;P-FISCAL",
+    "dimensions": [
+      "P-LEGAL",
+      "P-FISCAL"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-004",
+    "label": "Senate",
+    "node_type": "formal_state",
+    "geographic_scope": "national",
+    "power_dimensions": "P-LEGAL",
+    "dimensions": [
+      "P-LEGAL"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-005",
+    "label": "Constitutional Council",
+    "node_type": "judicial_review",
+    "geographic_scope": "national",
+    "power_dimensions": "P-JUD;P-LEGAL",
+    "dimensions": [
+      "P-JUD",
+      "P-LEGAL"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-006",
+    "label": "Council of State / administrative courts",
+    "node_type": "judicial_review",
+    "geographic_scope": "national",
+    "power_dimensions": "P-JUD;P-LEGAL",
+    "dimensions": [
+      "P-JUD",
+      "P-LEGAL"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-007",
+    "label": "Judicial courts",
+    "node_type": "judicial_review",
+    "geographic_scope": "national",
+    "power_dimensions": "P-JUD;P-COERC",
+    "dimensions": [
+      "P-JUD",
+      "P-COERC"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-008",
+    "label": "Regions",
+    "node_type": "territorial_state",
+    "geographic_scope": "regional",
+    "power_dimensions": "P-EXEC;P-FISCAL;P-REG",
+    "dimensions": [
+      "P-EXEC",
+      "P-FISCAL",
+      "P-REG"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-009",
+    "label": "Departments",
+    "node_type": "territorial_state",
+    "geographic_scope": "departmental",
+    "power_dimensions": "P-EXEC;P-FISCAL",
+    "dimensions": [
+      "P-EXEC",
+      "P-FISCAL"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-010",
+    "label": "Municipalities / intermunicipalities",
+    "node_type": "territorial_state",
+    "geographic_scope": "local",
+    "power_dimensions": "P-EXEC;P-FISCAL;P-REG",
+    "dimensions": [
+      "P-EXEC",
+      "P-FISCAL",
+      "P-REG"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-011",
+    "label": "Social-security administrations",
+    "node_type": "public_finance",
+    "geographic_scope": "national",
+    "power_dimensions": "P-FISCAL;P-EXEC",
+    "dimensions": [
+      "P-FISCAL",
+      "P-EXEC"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-012",
+    "label": "Agence des participations de l'État",
+    "node_type": "state_ownership",
+    "geographic_scope": "national",
+    "power_dimensions": "P-OWN;P-NET",
+    "dimensions": [
+      "P-OWN",
+      "P-NET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-013",
+    "label": "State-owned / state-controlled companies",
+    "node_type": "corporate",
+    "geographic_scope": "multi",
+    "power_dimensions": "P-OWN;P-MARKET;P-INFRA",
+    "dimensions": [
+      "P-OWN",
+      "P-MARKET",
+      "P-INFRA"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-014",
+    "label": "Large private French groups",
+    "node_type": "corporate",
+    "geographic_scope": "multi",
+    "power_dimensions": "P-MARKET;P-FIN;P-NET",
+    "dimensions": [
+      "P-MARKET",
+      "P-FIN",
+      "P-NET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-015",
+    "label": "Foreign-controlled groups in France",
+    "node_type": "corporate",
+    "geographic_scope": "multi",
+    "power_dimensions": "P-MARKET;P-FIN;P-EXT",
+    "dimensions": [
+      "P-MARKET",
+      "P-FIN",
+      "P-EXT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-016",
+    "label": "SMEs / ETIs / independent firms",
+    "node_type": "corporate",
+    "geographic_scope": "multi",
+    "power_dimensions": "P-MARKET;P-LABOR",
+    "dimensions": [
+      "P-MARKET",
+      "P-LABOR"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-017",
+    "label": "Large banking groups",
+    "node_type": "finance",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-FIN;P-MARKET;P-INFRA",
+    "dimensions": [
+      "P-FIN",
+      "P-MARKET",
+      "P-INFRA"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-018",
+    "label": "Insurers / asset managers",
+    "node_type": "finance",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-FIN;P-MARKET",
+    "dimensions": [
+      "P-FIN",
+      "P-MARKET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-019",
+    "label": "Banque de France / ACPR",
+    "node_type": "regulator",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-REG;P-FIN;P-EXPERT;P-EXT",
+    "dimensions": [
+      "P-REG",
+      "P-FIN",
+      "P-EXPERT",
+      "P-EXT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-020",
+    "label": "AMF",
+    "node_type": "regulator",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-REG;P-FIN",
+    "dimensions": [
+      "P-REG",
+      "P-FIN"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-021",
+    "label": "Autorité de la concurrence",
+    "node_type": "regulator",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-REG;P-MARKET",
+    "dimensions": [
+      "P-REG",
+      "P-MARKET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-022",
+    "label": "Arcom",
+    "node_type": "regulator",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-REG;P-INFO",
+    "dimensions": [
+      "P-REG",
+      "P-INFO"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-023",
+    "label": "Arcep",
+    "node_type": "regulator",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-REG;P-INFRA;P-MARKET",
+    "dimensions": [
+      "P-REG",
+      "P-INFRA",
+      "P-MARKET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-024",
+    "label": "CRE",
+    "node_type": "regulator",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-REG;P-INFRA;P-MARKET",
+    "dimensions": [
+      "P-REG",
+      "P-INFRA",
+      "P-MARKET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-025",
+    "label": "CNIL",
+    "node_type": "regulator",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-REG;P-INFO;P-COERC",
+    "dimensions": [
+      "P-REG",
+      "P-INFO",
+      "P-COERC"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-026",
+    "label": "HATVP",
+    "node_type": "regulator",
+    "geographic_scope": "national",
+    "power_dimensions": "P-REG;P-NET;P-EXPERT",
+    "dimensions": [
+      "P-REG",
+      "P-NET",
+      "P-EXPERT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-027",
+    "label": "HAS",
+    "node_type": "expert_authority",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-EXPERT;P-REG",
+    "dimensions": [
+      "P-EXPERT",
+      "P-REG"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-028",
+    "label": "ANSM",
+    "node_type": "regulator",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-REG;P-EXPERT",
+    "dimensions": [
+      "P-REG",
+      "P-EXPERT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-029",
+    "label": "ANSSI",
+    "node_type": "security_authority",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-COERC;P-INFRA;P-EXPERT",
+    "dimensions": [
+      "P-COERC",
+      "P-INFRA",
+      "P-EXPERT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-030",
+    "label": "DGA / Ministry of Armed Forces procurement apparatus",
+    "node_type": "state_sectoral",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-EXEC;P-FISCAL;P-OWN;P-EXT",
+    "dimensions": [
+      "P-EXEC",
+      "P-FISCAL",
+      "P-OWN",
+      "P-EXT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-031",
+    "label": "Defense industrial base",
+    "node_type": "corporate_sector",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-MARKET;P-INFRA;P-NET;P-EXT",
+    "dimensions": [
+      "P-MARKET",
+      "P-INFRA",
+      "P-NET",
+      "P-EXT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-032",
+    "label": "Energy producers/suppliers",
+    "node_type": "corporate_sector",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-MARKET;P-INFRA",
+    "dimensions": [
+      "P-MARKET",
+      "P-INFRA"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-033",
+    "label": "Energy network operators",
+    "node_type": "infrastructure_sector",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-INFRA;P-MARKET",
+    "dimensions": [
+      "P-INFRA",
+      "P-MARKET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-034",
+    "label": "Telecom operators",
+    "node_type": "infrastructure_sector",
+    "geographic_scope": "national",
+    "power_dimensions": "P-INFRA;P-MARKET;P-INFO",
+    "dimensions": [
+      "P-INFRA",
+      "P-MARKET",
+      "P-INFO"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-035",
+    "label": "Private media groups",
+    "node_type": "information_sector",
+    "geographic_scope": "national",
+    "power_dimensions": "P-INFO;P-MARKET;P-OWN",
+    "dimensions": [
+      "P-INFO",
+      "P-MARKET",
+      "P-OWN"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-036",
+    "label": "Public audiovisual companies",
+    "node_type": "information_sector",
+    "geographic_scope": "national/international",
+    "power_dimensions": "P-INFO;P-FISCAL;P-INFO",
+    "dimensions": [
+      "P-INFO",
+      "P-FISCAL"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-037",
+    "label": "Digital platforms / search / social / app ecosystems",
+    "node_type": "platforms",
+    "geographic_scope": "global",
+    "power_dimensions": "P-INFO;P-MARKET;P-INFRA;P-EXT",
+    "dimensions": [
+      "P-INFO",
+      "P-MARKET",
+      "P-INFRA",
+      "P-EXT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-038",
+    "label": "Advertising/intermediation ecosystem",
+    "node_type": "information_market",
+    "geographic_scope": "national/global",
+    "power_dimensions": "P-INFO;P-MARKET;P-FIN",
+    "dimensions": [
+      "P-INFO",
+      "P-MARKET",
+      "P-FIN"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-039",
+    "label": "Press agencies / primary information sources",
+    "node_type": "information_sector",
+    "geographic_scope": "national/global",
+    "power_dimensions": "P-INFO",
+    "dimensions": [
+      "P-INFO"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-040",
+    "label": "Pharmaceutical companies / device makers",
+    "node_type": "health_sector",
+    "geographic_scope": "national/global",
+    "power_dimensions": "P-MARKET;P-FIN;P-EXT",
+    "dimensions": [
+      "P-MARKET",
+      "P-FIN",
+      "P-EXT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-041",
+    "label": "Hospitals / health providers",
+    "node_type": "health_sector",
+    "geographic_scope": "territorial/national",
+    "power_dimensions": "P-EXEC;P-FISCAL;P-EXPERT",
+    "dimensions": [
+      "P-EXEC",
+      "P-FISCAL",
+      "P-EXPERT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-042",
+    "label": "Trade unions",
+    "node_type": "social_partner",
+    "geographic_scope": "national/sectoral",
+    "power_dimensions": "P-LABOR;P-NET",
+    "dimensions": [
+      "P-LABOR",
+      "P-NET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-043",
+    "label": "Employer organizations / professional federations",
+    "node_type": "social_partner",
+    "geographic_scope": "national/sectoral",
+    "power_dimensions": "P-LABOR;P-NET",
+    "dimensions": [
+      "P-LABOR",
+      "P-NET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-044",
+    "label": "CSE / employee representative bodies",
+    "node_type": "workplace_institution",
+    "geographic_scope": "enterprise",
+    "power_dimensions": "P-LABOR",
+    "dimensions": [
+      "P-LABOR"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-045",
+    "label": "Associations / NGOs / foundations",
+    "node_type": "civil_society",
+    "geographic_scope": "multi",
+    "power_dimensions": "P-NET;P-INFO;P-EXPERT",
+    "dimensions": [
+      "P-NET",
+      "P-INFO",
+      "P-EXPERT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-046",
+    "label": "Think tanks / universities / research bodies",
+    "node_type": "expertise",
+    "geographic_scope": "multi",
+    "power_dimensions": "P-EXPERT;P-INFO;P-NET",
+    "dimensions": [
+      "P-EXPERT",
+      "P-INFO",
+      "P-NET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-047",
+    "label": "Professional orders",
+    "node_type": "professional_governance",
+    "geographic_scope": "sectoral",
+    "power_dimensions": "P-REG;P-NET",
+    "dimensions": [
+      "P-REG",
+      "P-NET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-048",
+    "label": "Lobbyists / registered interest representatives",
+    "node_type": "influence",
+    "geographic_scope": "national/eu",
+    "power_dimensions": "P-NET",
+    "dimensions": [
+      "P-NET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-049",
+    "label": "Public-procurement buyers",
+    "node_type": "transactional_state",
+    "geographic_scope": "multi",
+    "power_dimensions": "P-FISCAL;P-MARKET",
+    "dimensions": [
+      "P-FISCAL",
+      "P-MARKET"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-050",
+    "label": "Public-contract suppliers",
+    "node_type": "corporate",
+    "geographic_scope": "multi",
+    "power_dimensions": "P-MARKET;P-FIN",
+    "dimensions": [
+      "P-MARKET",
+      "P-FIN"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-051",
+    "label": "European Commission / Council / EU legal order",
+    "node_type": "supranational",
+    "geographic_scope": "eu",
+    "power_dimensions": "P-EXT;P-REG;P-LEGAL",
+    "dimensions": [
+      "P-EXT",
+      "P-REG",
+      "P-LEGAL"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-052",
+    "label": "ECB / Eurosystem",
+    "node_type": "supranational",
+    "geographic_scope": "euro_area",
+    "power_dimensions": "P-EXT;P-FIN;P-REG",
+    "dimensions": [
+      "P-EXT",
+      "P-FIN",
+      "P-REG"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-053",
+    "label": "European Court of Human Rights / Council of Europe",
+    "node_type": "supranational",
+    "geographic_scope": "europe",
+    "power_dimensions": "P-EXT;P-JUD;P-LEGAL",
+    "dimensions": [
+      "P-EXT",
+      "P-JUD",
+      "P-LEGAL"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-054",
+    "label": "Global capital markets / creditors",
+    "node_type": "external_market",
+    "geographic_scope": "global",
+    "power_dimensions": "P-FIN;P-EXT",
+    "dimensions": [
+      "P-FIN",
+      "P-EXT"
+    ]
+  },
+  {
+    "node_id": "FR-NODE-055",
+    "label": "Foreign states / foreign influence actors",
+    "node_type": "external_actor",
+    "geographic_scope": "global",
+    "power_dimensions": "P-EXT;P-NET;P-INFO",
+    "dimensions": [
+      "P-EXT",
+      "P-NET",
+      "P-INFO"
+    ]
+  }
+]

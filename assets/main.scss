@@ -1,0 +1,366 @@
+---
+# Ce front matter vide n'est pas decoratif : sans lui, Jekyll ne traite pas le
+# fichier et la feuille de style sort telle quelle, avec son SCSS non compile.
+---
+
+@import "minima";
+
+/* ------------------------------------------------------------------------ *
+ * France-System-2026 -- ajouts au theme minima.
+ *
+ * Ce fichier SURCHARGE assets/main.scss du theme : minima lie
+ * /assets/main.css dans son <head>, et rien d'autre. Un fichier nomme
+ * autrement serait compile puis ignore, sans le moindre avertissement.
+ *
+ * Un site de donnees : les tables portent le contenu, pas la decoration. Les
+ * couleurs ne servent qu'a une chose, distinguer une route fermee d'une
+ * lacune, et elles sont toujours doublees d'un libelle -- une pastille verte
+ * qui serait la seule porteuse de l'information serait illisible pour qui ne
+ * distingue pas les couleurs.
+ * ------------------------------------------------------------------------ */
+
+$ferme: #1a7f4b;
+$partiel: #9a6700;
+$lacune: #b32d2e;
+$trait: #d8dce0;
+$fond-doux: #f6f8fa;
+
+/* --- Largeur ------------------------------------------------------------ *
+ * minima cale le contenu a 800px : trop etroit pour une table de six
+ * colonnes. On elargit sans toucher a l'entete ni au pied de page.          */
+.page-content .wrapper {
+  max-width: 68rem;
+}
+
+/* --- Tables ------------------------------------------------------------- */
+.table-defilante {
+  overflow-x: auto;
+  margin-bottom: 1.5rem;
+  border: 1px solid $trait;
+  border-radius: 4px;
+}
+
+.table-defilante table {
+  margin: 0;
+  border: 0;
+  font-size: 0.9rem;
+}
+
+table th {
+  background: $fond-doux;
+  text-align: left;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+table td,
+table th {
+  vertical-align: top;
+  padding: 0.5rem 0.7rem;
+}
+
+td.nowrap,
+.nowrap {
+  white-space: nowrap;
+}
+
+td.nombre {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+/* --- Pastilles ---------------------------------------------------------- */
+.pastille {
+  display: inline-block;
+  padding: 0.05rem 0.4rem;
+  margin: 0.1rem 0.15rem 0.1rem 0;
+  border: 1px solid $trait;
+  border-radius: 999px;
+  background: $fond-doux;
+  font-size: 0.75rem;
+  line-height: 1.5;
+  white-space: nowrap;
+  color: #35383d;
+}
+
+.pastille.dimension {
+  border-color: #c3d4e8;
+  background: #eef4fb;
+}
+
+.pastille.classe {
+  border-color: #d9cfe8;
+  background: #f4f0fa;
+}
+
+.pastille.priorite-a0 {
+  border-color: #b9c6d4;
+  background: #e8eef5;
+  font-weight: 600;
+}
+
+.pastille.priorite-a1 {
+  border-color: $trait;
+  background: transparent;
+}
+
+/* Etat de couverture. La couleur double le libelle, elle ne le remplace pas. */
+.pastille.etat-ferme {
+  border-color: rgba($ferme, 0.35);
+  background: rgba($ferme, 0.09);
+  color: #14653b;
+}
+
+.pastille.etat-partiel {
+  border-color: rgba($partiel, 0.35);
+  background: rgba($partiel, 0.09);
+  color: #855a00;
+}
+
+.pastille.etat-lacune {
+  border-color: rgba($lacune, 0.35);
+  background: rgba($lacune, 0.08);
+  color: #962627;
+}
+
+.matrice tr.couverture-lacune td:first-child {
+  box-shadow: inset 3px 0 0 $lacune;
+}
+
+.matrice tr.couverture-partiel td:first-child {
+  box-shadow: inset 3px 0 0 $partiel;
+}
+
+.matrice tr.couverture-ferme td:first-child {
+  box-shadow: inset 3px 0 0 rgba($ferme, 0.5);
+}
+
+.aucune-source {
+  color: $lacune;
+  font-size: 0.85rem;
+}
+
+code.brut {
+  display: block;
+  font-size: 0.7rem;
+  color: #6a737d;
+  background: transparent;
+  border: 0;
+  padding: 0.15rem 0 0;
+}
+
+/* --- Textes secondaires dans les cellules ------------------------------- */
+.meta,
+.usage,
+.note,
+.mots-cles {
+  display: block;
+  font-size: 0.8rem;
+  color: #5b6169;
+  margin-top: 0.15rem;
+}
+
+.usage {
+  color: #35383d;
+}
+
+.note {
+  font-style: italic;
+}
+
+.mots-cles {
+  font-size: 0.72rem;
+  color: #7a828b;
+}
+
+.definition-source {
+  font-size: 0.82rem;
+  color: #6a737d;
+  font-style: italic;
+}
+
+.note-table {
+  font-size: 0.85rem;
+  color: #5b6169;
+}
+
+/* --- Encadre de garde-fou ----------------------------------------------- *
+ * L'element le plus important du site : ce que les donnees ne prouvent pas. */
+.garde-fou {
+  border-left: 4px solid #4a5568;
+  background: $fond-doux;
+  padding: 0.9rem 1.2rem;
+  margin: 1.6rem 0;
+  border-radius: 0 4px 4px 0;
+}
+
+.garde-fou > :first-child {
+  margin-top: 0;
+}
+
+.garde-fou > :last-child {
+  margin-bottom: 0;
+}
+
+.garde-fou h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.5rem;
+}
+
+.lacune-inline {
+  border-left: 3px solid $lacune;
+  padding-left: 0.8rem;
+  font-size: 0.9rem;
+  color: #5b6169;
+}
+
+/* --- Filtres ------------------------------------------------------------ */
+.filtres {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  align-items: flex-end;
+  padding: 0.9rem 1rem;
+  margin: 1.5rem 0 0.8rem;
+  background: $fond-doux;
+  border: 1px solid $trait;
+  border-radius: 4px;
+}
+
+.filtres label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #4a5568;
+}
+
+.filtres input,
+.filtres select {
+  font-size: 0.88rem;
+  font-weight: 400;
+  padding: 0.35rem 0.5rem;
+  border: 1px solid #c3c9d0;
+  border-radius: 3px;
+  background: #fff;
+  min-width: 12rem;
+  max-width: 100%;
+}
+
+.filtres .compteur {
+  margin: 0 0 0 auto;
+  font-size: 0.85rem;
+  color: #5b6169;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Le message « il faut JavaScript » ne s'affiche que si JavaScript manque. */
+.sans-js {
+  font-size: 0.82rem;
+  color: #6a737d;
+}
+
+/* --- Aretes ------------------------------------------------------------- */
+.arete {
+  border: 1px solid $trait;
+  border-radius: 4px;
+  padding: 0.9rem 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.arete h3 {
+  font-size: 1rem;
+  margin: 0 0 0.4rem;
+  line-height: 1.4;
+}
+
+.arete .fleche {
+  color: #8b949e;
+  padding: 0 0.15rem;
+}
+
+.arete .meta {
+  margin: 0 0 0.5rem;
+}
+
+.garde-fou-arete {
+  border-left: 3px solid #b9c6d4;
+  padding-left: 0.8rem;
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+}
+
+.preuves {
+  margin: 0;
+  font-size: 0.82rem;
+  color: #5b6169;
+}
+
+/* --- Listes ------------------------------------------------------------- */
+.chiffres {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.chiffres li {
+  padding: 0.15rem 0;
+}
+
+.chiffres strong {
+  display: inline-block;
+  min-width: 2.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.liste-noeuds,
+.liste-aretes,
+.telechargements {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+.liste-noeuds li,
+.liste-aretes li,
+.telechargements li {
+  padding: 0.25rem 0;
+  border-bottom: 1px solid #eef0f2;
+}
+
+.liste-noeuds .meta,
+.liste-aretes .meta,
+.telechargements .meta {
+  display: inline;
+  margin-left: 0.4rem;
+}
+
+/* --- Accessibilite ------------------------------------------------------ *
+ * Le « → » entre deux noeuds est masque aux lecteurs d'ecran et double par
+ * le mot « vers », qui lui n'est pas affiche.                               */
+.sr-seul {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* --- Impression --------------------------------------------------------- */
+@media print {
+  .filtres,
+  .sans-js,
+  .site-header,
+  .site-footer {
+    display: none;
+  }
+
+  .table-defilante {
+    overflow: visible;
+  }
+}

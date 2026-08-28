@@ -1,0 +1,56 @@
+﻿node_id,label,node_type,geographic_scope,power_dimensions
+FR-NODE-001,President of the Republic,formal_state,national,P-EXEC;P-LEGAL;P-EXT
+FR-NODE-002,Government / Prime Minister / ministries,formal_state,national,P-EXEC;P-LEGAL;P-FISCAL;P-REG;P-EXT
+FR-NODE-003,National Assembly,formal_state,national,P-LEGAL;P-FISCAL
+FR-NODE-004,Senate,formal_state,national,P-LEGAL
+FR-NODE-005,Constitutional Council,judicial_review,national,P-JUD;P-LEGAL
+FR-NODE-006,Council of State / administrative courts,judicial_review,national,P-JUD;P-LEGAL
+FR-NODE-007,Judicial courts,judicial_review,national,P-JUD;P-COERC
+FR-NODE-008,Regions,territorial_state,regional,P-EXEC;P-FISCAL;P-REG
+FR-NODE-009,Departments,territorial_state,departmental,P-EXEC;P-FISCAL
+FR-NODE-010,Municipalities / intermunicipalities,territorial_state,local,P-EXEC;P-FISCAL;P-REG
+FR-NODE-011,Social-security administrations,public_finance,national,P-FISCAL;P-EXEC
+FR-NODE-012,Agence des participations de l'État,state_ownership,national,P-OWN;P-NET
+FR-NODE-013,State-owned / state-controlled companies,corporate,multi,P-OWN;P-MARKET;P-INFRA
+FR-NODE-014,Large private French groups,corporate,multi,P-MARKET;P-FIN;P-NET
+FR-NODE-015,Foreign-controlled groups in France,corporate,multi,P-MARKET;P-FIN;P-EXT
+FR-NODE-016,SMEs / ETIs / independent firms,corporate,multi,P-MARKET;P-LABOR
+FR-NODE-017,Large banking groups,finance,national/eu,P-FIN;P-MARKET;P-INFRA
+FR-NODE-018,Insurers / asset managers,finance,national/eu,P-FIN;P-MARKET
+FR-NODE-019,Banque de France / ACPR,regulator,national/eu,P-REG;P-FIN;P-EXPERT;P-EXT
+FR-NODE-020,AMF,regulator,national/eu,P-REG;P-FIN
+FR-NODE-021,Autorité de la concurrence,regulator,national/eu,P-REG;P-MARKET
+FR-NODE-022,Arcom,regulator,national/eu,P-REG;P-INFO
+FR-NODE-023,Arcep,regulator,national/eu,P-REG;P-INFRA;P-MARKET
+FR-NODE-024,CRE,regulator,national/eu,P-REG;P-INFRA;P-MARKET
+FR-NODE-025,CNIL,regulator,national/eu,P-REG;P-INFO;P-COERC
+FR-NODE-026,HATVP,regulator,national,P-REG;P-NET;P-EXPERT
+FR-NODE-027,HAS,expert_authority,national/eu,P-EXPERT;P-REG
+FR-NODE-028,ANSM,regulator,national/eu,P-REG;P-EXPERT
+FR-NODE-029,ANSSI,security_authority,national/eu,P-COERC;P-INFRA;P-EXPERT
+FR-NODE-030,DGA / Ministry of Armed Forces procurement apparatus,state_sectoral,national/eu,P-EXEC;P-FISCAL;P-OWN;P-EXT
+FR-NODE-031,Defense industrial base,corporate_sector,national/eu,P-MARKET;P-INFRA;P-NET;P-EXT
+FR-NODE-032,Energy producers/suppliers,corporate_sector,national/eu,P-MARKET;P-INFRA
+FR-NODE-033,Energy network operators,infrastructure_sector,national/eu,P-INFRA;P-MARKET
+FR-NODE-034,Telecom operators,infrastructure_sector,national,P-INFRA;P-MARKET;P-INFO
+FR-NODE-035,Private media groups,information_sector,national,P-INFO;P-MARKET;P-OWN
+FR-NODE-036,Public audiovisual companies,information_sector,national/international,P-INFO;P-FISCAL;P-INFO
+FR-NODE-037,Digital platforms / search / social / app ecosystems,platforms,global,P-INFO;P-MARKET;P-INFRA;P-EXT
+FR-NODE-038,Advertising/intermediation ecosystem,information_market,national/global,P-INFO;P-MARKET;P-FIN
+FR-NODE-039,Press agencies / primary information sources,information_sector,national/global,P-INFO
+FR-NODE-040,Pharmaceutical companies / device makers,health_sector,national/global,P-MARKET;P-FIN;P-EXT
+FR-NODE-041,Hospitals / health providers,health_sector,territorial/national,P-EXEC;P-FISCAL;P-EXPERT
+FR-NODE-042,Trade unions,social_partner,national/sectoral,P-LABOR;P-NET
+FR-NODE-043,Employer organizations / professional federations,social_partner,national/sectoral,P-LABOR;P-NET
+FR-NODE-044,CSE / employee representative bodies,workplace_institution,enterprise,P-LABOR
+FR-NODE-045,Associations / NGOs / foundations,civil_society,multi,P-NET;P-INFO;P-EXPERT
+FR-NODE-046,Think tanks / universities / research bodies,expertise,multi,P-EXPERT;P-INFO;P-NET
+FR-NODE-047,Professional orders,professional_governance,sectoral,P-REG;P-NET
+FR-NODE-048,Lobbyists / registered interest representatives,influence,national/eu,P-NET
+FR-NODE-049,Public-procurement buyers,transactional_state,multi,P-FISCAL;P-MARKET
+FR-NODE-050,Public-contract suppliers,corporate,multi,P-MARKET;P-FIN
+FR-NODE-051,European Commission / Council / EU legal order,supranational,eu,P-EXT;P-REG;P-LEGAL
+FR-NODE-052,ECB / Eurosystem,supranational,euro_area,P-EXT;P-FIN;P-REG
+FR-NODE-053,European Court of Human Rights / Council of Europe,supranational,europe,P-EXT;P-JUD;P-LEGAL
+FR-NODE-054,Global capital markets / creditors,external_market,global,P-FIN;P-EXT
+FR-NODE-055,Foreign states / foreign influence actors,external_actor,global,P-EXT;P-NET;P-INFO

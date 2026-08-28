@@ -1,0 +1,7 @@
+{%- comment -%}
+Date de snapshot du paquet, ecrite en francais. La valeur vient toujours de
+_data/paquet.yml : aucune page ne recopie la date en dur, sans quoi une v0.2
+laisserait derriere elle des dates fausses impossibles a reperer.
+{%- endcomment -%}
+{%- assign jms = site.data.paquet.snapshot_date | split: "-" -%}
+{{- jms[2] | plus: 0 }} {{ site.data.libelles.mois[jms[1]] }} {{ jms[0] -}}

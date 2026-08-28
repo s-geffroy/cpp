@@ -1,0 +1,31 @@
+﻿edge_id,source_node,target_node,edge_type,power_dimension,relation_class,evidence_source_ids,interpretation_guardrail
+FR-EDGE-0001,FR-NODE-003,FR-NODE-002,legislation_and_oversight,P-LEGAL,formal,FR-SRC-0001;FR-SRC-0003,Parliament legislates/controls government within constitutional framework.
+FR-EDGE-0002,FR-NODE-001,FR-NODE-002,appointment,P-EXEC,formal,FR-SRC-0001,Presidential appointment powers; exact scope governed by Constitution.
+FR-EDGE-0003,FR-NODE-005,FR-NODE-002,constitutional_review,P-JUD,formal,FR-SRC-0001;FR-SRC-0002,Review constrains legislative/executive norms.
+FR-EDGE-0004,FR-NODE-008,FR-NODE-010,territorial_competence_distribution,P-EXEC,formal,FR-SRC-0004,Competences split across territorial levels.
+FR-EDGE-0010,FR-NODE-012,FR-NODE-013,equity_ownership,P-OWN,formal,FR-SRC-0020;FR-SRC-0021,State-shareholder relation; governance rights vary by holding.
+FR-EDGE-0011,FR-NODE-049,FR-NODE-050,public_procurement,P-FISCAL,transactional,FR-SRC-0041;FR-SRC-0042,Buyer-supplier contracts. No influence inference from contract alone.
+FR-EDGE-0012,FR-NODE-002,FR-NODE-014,business_aid,P-FISCAL,transactional,FR-SRC-0043,Potential subsidy/tax-aid edge; must be quantified scheme-by-scheme.
+FR-EDGE-0020,FR-NODE-019,FR-NODE-017,prudential_supervision,P-REG,formal,FR-SRC-0030;FR-SRC-0033,French/European banking supervision.
+FR-EDGE-0021,FR-NODE-052,FR-NODE-017,monetary_and_supervisory_environment,P-FIN,formal,FR-SRC-0112;FR-SRC-0113,Euro-area monetary conditions and SSM context.
+FR-EDGE-0022,FR-NODE-020,FR-NODE-014,market_disclosure_supervision,P-REG,formal,FR-SRC-0034,Listed-company and securities-market obligations.
+FR-EDGE-0023,FR-NODE-021,FR-NODE-014,competition_control,P-REG,formal,FR-SRC-0040,Competition law and merger/abuse enforcement.
+FR-EDGE-0030,FR-NODE-022,FR-NODE-035,audiovisual_regulation,P-REG,formal,FR-SRC-0050;FR-SRC-0051,Pluralism and anti-concentration rules.
+FR-EDGE-0031,FR-NODE-022,FR-NODE-036,public_media_regulation,P-REG,formal,FR-SRC-0053,Public-service audiovisual oversight/structure.
+FR-EDGE-0032,FR-NODE-037,FR-NODE-035,distribution_intermediation,P-INFO,market,FR-SRC-0055;FR-SRC-0056,Platforms can mediate discovery/distribution and bargaining with publishers.
+FR-EDGE-0033,FR-NODE-038,FR-NODE-035,advertising_finance,P-FIN,market,,Must be populated with revenue/advertising data; currently structural.
+FR-EDGE-0040,FR-NODE-023,FR-NODE-034,telecom_regulation,P-REG,formal,FR-SRC-0060;FR-SRC-0061,Electronic-communications regulation.
+FR-EDGE-0041,FR-NODE-025,FR-NODE-037,data_protection_regulation,P-REG,formal,FR-SRC-0062,Privacy/data-processing regulation and sanctions.
+FR-EDGE-0042,FR-NODE-029,FR-NODE-013,cybersecurity_requirements,P-COERC,formal/sectoral,FR-SRC-0063,Critical/public-sector cybersecurity capacity; scope must be coded by legal regime.
+FR-EDGE-0050,FR-NODE-024,FR-NODE-032,energy_market_regulation,P-REG,formal,FR-SRC-0070;FR-SRC-0071;FR-SRC-0072,Retail/wholesale energy regulation and market monitoring.
+FR-EDGE-0051,FR-NODE-024,FR-NODE-033,network_tariff_regulation,P-REG,formal,FR-SRC-0070,Regulated energy-network tariffs/investment framework.
+FR-EDGE-0060,FR-NODE-042,FR-NODE-043,collective_bargaining,P-LABOR,formal,FR-SRC-0081;FR-SRC-0082;FR-SRC-0083,Formal bargaining/representation relation.
+FR-EDGE-0061,FR-NODE-042,FR-NODE-044,employee_representation,P-LABOR,formal,FR-SRC-0083,Enterprise-level representation and agreements.
+FR-EDGE-0062,FR-NODE-048,FR-NODE-002,lobbying_contact,P-NET,formal_disclosure,FR-SRC-0080,Registered representation of interests; not evidence of capture.
+FR-EDGE-0063,FR-NODE-055,FR-NODE-002,foreign_influence_contact,P-EXT,formal_disclosure,FR-SRC-0080,Foreign-influence registry route; actual edges require declared records.
+FR-EDGE-0070,FR-NODE-027,FR-NODE-002,expertise_to_policy,P-EXPERT,advisory,FR-SRC-0090,HAS evaluation/recommendation can shape options; final decision remains separate.
+FR-EDGE-0071,FR-NODE-028,FR-NODE-040,medicines_regulation,P-REG,formal,FR-SRC-0091,Authorization/safety/shortage oversight.
+FR-EDGE-0080,FR-NODE-030,FR-NODE-031,defense_procurement,P-FISCAL,transactional_strategic,FR-SRC-0100;FR-SRC-0101,State as strategic buyer/industrial-policy actor.
+FR-EDGE-0090,FR-NODE-051,FR-NODE-002,eu_policy_coordination,P-EXT,formal/political,FR-SRC-0110;FR-SRC-0111,European Semester recommendations and EU policy coordination.
+FR-EDGE-0091,FR-NODE-052,FR-NODE-019,eurosystem_membership,P-EXT,formal,FR-SRC-0113,Banque de France participates in Eurosystem; policy is not nationally set.
+FR-EDGE-0092,FR-NODE-053,FR-NODE-002,human_rights_constraint,P-JUD,legal,FR-SRC-0115,ECHR legal framework constrains state action in protected-rights domains.

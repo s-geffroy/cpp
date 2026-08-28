@@ -1,0 +1,77 @@
+[
+  {
+    "power_dimension_id": "P-LEGAL",
+    "label": "Legal/normative",
+    "definition": "ability to create or constrain binding rules"
+  },
+  {
+    "power_dimension_id": "P-EXEC",
+    "label": "Executive/administrative",
+    "definition": "ability to implement policy and allocate administrative capacity"
+  },
+  {
+    "power_dimension_id": "P-FISCAL",
+    "label": "Fiscal",
+    "definition": "taxation, expenditure, transfers, guarantees"
+  },
+  {
+    "power_dimension_id": "P-OWN",
+    "label": "Ownership",
+    "definition": "equity/property control and governance rights"
+  },
+  {
+    "power_dimension_id": "P-FIN",
+    "label": "Financial",
+    "definition": "credit, debt, insurance, capital-market access, liquidity"
+  },
+  {
+    "power_dimension_id": "P-MARKET",
+    "label": "Market",
+    "definition": "market share, buyer/seller power, switching barriers"
+  },
+  {
+    "power_dimension_id": "P-INFRA",
+    "label": "Infrastructure",
+    "definition": "control of essential physical/digital networks"
+  },
+  {
+    "power_dimension_id": "P-INFO",
+    "label": "Information",
+    "definition": "production, editing, distribution, ranking, audience exposure"
+  },
+  {
+    "power_dimension_id": "P-REG",
+    "label": "Regulatory",
+    "definition": "licensing, supervision, standard-setting, sanction"
+  },
+  {
+    "power_dimension_id": "P-JUD",
+    "label": "Judicial/review",
+    "definition": "ability to invalidate, suspend, or remedy acts"
+  },
+  {
+    "power_dimension_id": "P-LABOR",
+    "label": "Labor/collective",
+    "definition": "collective bargaining, mobilization, industrial action"
+  },
+  {
+    "power_dimension_id": "P-EXPERT",
+    "label": "Expertise/norm production",
+    "definition": "data, indicators, evaluation, admissible-option shaping"
+  },
+  {
+    "power_dimension_id": "P-NET",
+    "label": "Network/influence",
+    "definition": "lobbying, professional access, personnel mobility, agenda access"
+  },
+  {
+    "power_dimension_id": "P-COERC",
+    "label": "Coercive/security",
+    "definition": "lawful coercive capacity, policing, sanctions, security"
+  },
+  {
+    "power_dimension_id": "P-EXT",
+    "label": "External/supranational",
+    "definition": "EU/euro/ECHR/international constraints and dependencies"
+  }
+]

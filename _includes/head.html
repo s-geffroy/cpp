@@ -1,0 +1,30 @@
+{%- comment -%}
+  Surcharge du head de minima 2.5.2.
+
+  Le hook 'custom-head.html' n'existe QU'A PARTIR de minima 3 : sur 2.5.2 un
+  fichier de ce nom est compile, depose, et jamais inclus nulle part -- sans
+  erreur ni avertissement. D'ou cette copie du head du theme, a laquelle on
+  ajoute une seule ligne, celle du script de filtrage.
+
+  Si le theme change de version, ce fichier est a comparer avec le sien.
+{%- endcomment -%}
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f8fa">
+  {%- seo -%}
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {%- feed_meta -%}
+
+  {%- comment -%}
+    'defer' : le script attend le document complet, donc il trouve les tables
+    a coup sur, et il ne retarde pas l'affichage. La page reste entierement
+    lisible sans lui -- il ne fait que masquer des lignes deja rendues.
+  {%- endcomment -%}
+  <script src="{{ '/assets/js/filtres.js' | relative_url }}" defer></script>
+
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

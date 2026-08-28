@@ -1,0 +1,289 @@
+[
+  {
+    "domain": "constitutional_state",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0001;FR-SRC-0002;FR-SRC-0003",
+    "sources": [
+      "FR-SRC-0001",
+      "FR-SRC-0002",
+      "FR-SRC-0003"
+    ]
+  },
+  {
+    "domain": "territorial_government",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0004",
+    "sources": [
+      "FR-SRC-0004"
+    ]
+  },
+  {
+    "domain": "macro_public_finance",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0010;FR-SRC-0011;FR-SRC-0012",
+    "sources": [
+      "FR-SRC-0010",
+      "FR-SRC-0011",
+      "FR-SRC-0012"
+    ]
+  },
+  {
+    "domain": "social_protection_health_finance",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0013;FR-SRC-0014",
+    "sources": [
+      "FR-SRC-0013",
+      "FR-SRC-0014"
+    ]
+  },
+  {
+    "domain": "state_ownership",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0020;FR-SRC-0021",
+    "sources": [
+      "FR-SRC-0020",
+      "FR-SRC-0021"
+    ]
+  },
+  {
+    "domain": "corporate_ownership_graph",
+    "status": "A0_SOURCE_ROUTE_CLOSED_ACTOR_GRAPH_OPEN",
+    "source_ids": "FR-SRC-0022;FR-SRC-0023;FR-SRC-0024;FR-SRC-0025",
+    "sources": [
+      "FR-SRC-0022",
+      "FR-SRC-0023",
+      "FR-SRC-0024",
+      "FR-SRC-0025"
+    ]
+  },
+  {
+    "domain": "corporate_financing_graph",
+    "status": "A1_OPEN_ACCESS_CONSTRAINED",
+    "source_ids": "FR-SRC-0026;FR-SRC-0032",
+    "sources": [
+      "FR-SRC-0026",
+      "FR-SRC-0032"
+    ]
+  },
+  {
+    "domain": "banking_insurance",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0030;FR-SRC-0031;FR-SRC-0033",
+    "sources": [
+      "FR-SRC-0030",
+      "FR-SRC-0031",
+      "FR-SRC-0033"
+    ]
+  },
+  {
+    "domain": "capital_markets",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0034",
+    "sources": [
+      "FR-SRC-0034"
+    ]
+  },
+  {
+    "domain": "competition",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0040",
+    "sources": [
+      "FR-SRC-0040"
+    ]
+  },
+  {
+    "domain": "procurement",
+    "status": "A0_DATA_ROUTE_CLOSED",
+    "source_ids": "FR-SRC-0041;FR-SRC-0042",
+    "sources": [
+      "FR-SRC-0041",
+      "FR-SRC-0042"
+    ]
+  },
+  {
+    "domain": "business_aid",
+    "status": "A0_METHOD_CLOSED_DATA_INVENTORY_OPEN",
+    "source_ids": "FR-SRC-0043",
+    "sources": [
+      "FR-SRC-0043"
+    ]
+  },
+  {
+    "domain": "media_ownership_pluralism",
+    "status": "A0_METHOD_CLOSED_2026_ACTOR_UPDATE_OPEN",
+    "source_ids": "FR-SRC-0050;FR-SRC-0051;FR-SRC-0052",
+    "sources": [
+      "FR-SRC-0050",
+      "FR-SRC-0051",
+      "FR-SRC-0052"
+    ]
+  },
+  {
+    "domain": "public_media",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0053;FR-SRC-0054",
+    "sources": [
+      "FR-SRC-0053",
+      "FR-SRC-0054"
+    ]
+  },
+  {
+    "domain": "platforms_information_distribution",
+    "status": "A0_SOURCE_ROUTE_CLOSED_ACTOR_METRICS_OPEN",
+    "source_ids": "FR-SRC-0055;FR-SRC-0056",
+    "sources": [
+      "FR-SRC-0055",
+      "FR-SRC-0056"
+    ]
+  },
+  {
+    "domain": "telecom_infrastructure",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0060;FR-SRC-0061",
+    "sources": [
+      "FR-SRC-0060",
+      "FR-SRC-0061"
+    ]
+  },
+  {
+    "domain": "data_privacy",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0062",
+    "sources": [
+      "FR-SRC-0062"
+    ]
+  },
+  {
+    "domain": "cybersecurity",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0063",
+    "sources": [
+      "FR-SRC-0063"
+    ]
+  },
+  {
+    "domain": "energy",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0070;FR-SRC-0071;FR-SRC-0072",
+    "sources": [
+      "FR-SRC-0070",
+      "FR-SRC-0071",
+      "FR-SRC-0072"
+    ]
+  },
+  {
+    "domain": "lobbying_revolving_doors",
+    "status": "A0_SOURCE_ROUTE_CLOSED_RECORD_EXTRACTION_OPEN",
+    "source_ids": "FR-SRC-0080",
+    "sources": [
+      "FR-SRC-0080"
+    ]
+  },
+  {
+    "domain": "labor_social_partners",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0081;FR-SRC-0082;FR-SRC-0083",
+    "sources": [
+      "FR-SRC-0081",
+      "FR-SRC-0082",
+      "FR-SRC-0083"
+    ]
+  },
+  {
+    "domain": "health_expertise_medicines",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0090;FR-SRC-0091",
+    "sources": [
+      "FR-SRC-0090",
+      "FR-SRC-0091"
+    ]
+  },
+  {
+    "domain": "defense_industry",
+    "status": "A0_SOURCE_ROUTE_CLOSED_ACTOR_DEPENDENCY_OPEN",
+    "source_ids": "FR-SRC-0100;FR-SRC-0101",
+    "sources": [
+      "FR-SRC-0100",
+      "FR-SRC-0101"
+    ]
+  },
+  {
+    "domain": "eu_fiscal_economic",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0110;FR-SRC-0111",
+    "sources": [
+      "FR-SRC-0110",
+      "FR-SRC-0111"
+    ]
+  },
+  {
+    "domain": "monetary_policy",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0112;FR-SRC-0113",
+    "sources": [
+      "FR-SRC-0112",
+      "FR-SRC-0113"
+    ]
+  },
+  {
+    "domain": "rule_of_law_human_rights",
+    "status": "A0_CLOSED",
+    "source_ids": "FR-SRC-0114;FR-SRC-0115",
+    "sources": [
+      "FR-SRC-0114",
+      "FR-SRC-0115"
+    ]
+  },
+  {
+    "domain": "advertising_market",
+    "status": "A0_GAP",
+    "source_ids": "",
+    "sources": []
+  },
+  {
+    "domain": "transport_logistics",
+    "status": "A0_GAP",
+    "source_ids": "",
+    "sources": []
+  },
+  {
+    "domain": "retail_food",
+    "status": "A0_GAP",
+    "source_ids": "",
+    "sources": []
+  },
+  {
+    "domain": "construction_infrastructure",
+    "status": "A0_GAP",
+    "source_ids": "",
+    "sources": []
+  },
+  {
+    "domain": "professional_orders",
+    "status": "A1_GAP",
+    "source_ids": "",
+    "sources": []
+  },
+  {
+    "domain": "associations_ngos_foundations",
+    "status": "A1_GAP",
+    "source_ids": "",
+    "sources": []
+  },
+  {
+    "domain": "think_tanks_universities_expertise_network",
+    "status": "A1_GAP",
+    "source_ids": "",
+    "sources": []
+  },
+  {
+    "domain": "people_governance_revolving_network",
+    "status": "A1_GAP",
+    "source_ids": "FR-SRC-0080;FR-SRC-0022;FR-SRC-0034",
+    "sources": [
+      "FR-SRC-0080",
+      "FR-SRC-0022",
+      "FR-SRC-0034"
+    ]
+  }
+]

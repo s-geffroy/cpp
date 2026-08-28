@@ -1,0 +1,61 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "France 2026 Master Source Registry v0.1",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "source_id",
+      "domain",
+      "institution",
+      "title",
+      "priority",
+      "status",
+      "url"
+    ],
+    "properties": {
+      "source_id": {
+        "type": "string"
+      },
+      "domain": {
+        "type": "string"
+      },
+      "institution": {
+        "type": "string"
+      },
+      "title": {
+        "type": "string"
+      },
+      "date": {
+        "type": "string"
+      },
+      "source_type": {
+        "type": "string"
+      },
+      "authority": {
+        "type": "string"
+      },
+      "priority": {
+        "type": "string"
+      },
+      "refresh": {
+        "type": "string"
+      },
+      "power_dimensions": {
+        "type": "string"
+      },
+      "use": {
+        "type": "string"
+      },
+      "status": {
+        "type": "string"
+      },
+      "url": {
+        "type": "string"
+      },
+      "notes": {
+        "type": "string"
+      }
+    }
+  }
+}

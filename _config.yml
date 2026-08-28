@@ -5,15 +5,18 @@
 # Le titre, la description et le nom d'auteur s'ecrivent en francais normal,
 # avec leurs accents : ils seront lus par des visiteurs. La regle « sans
 # accents » de ce depot vise les fichiers d'infrastructure, pas le contenu.
-title: cpp
-description: Une ligne pour dire de quoi parle ce site.
-author: Auteur
+title: France-System-2026
+description: >-
+  Registre des sources et cartographie du systeme francais. Snapshot du
+  12 aout 2026 : 53 sources canoniques, 55 noeuds, 30 aretes, 15 dimensions
+  de pouvoir.
+author: France-System-2026
 
 # L'adresse publique du site, sans barre oblique finale.
 #   site de projet    : https://<utilisateur>.github.io
 #   site d'utilisateur: https://<utilisateur>.github.io
 #   domaine personnel : https://www.exemple.fr
-url: "https://CHANGEME.github.io"
+url: "https://s-geffroy.github.io"
 
 # LE PIEGE, ET POURQUOI IL NE SE DECLENCHE PAS ICI.
 #
@@ -32,6 +35,19 @@ url: "https://CHANGEME.github.io"
 baseurl: "/cpp"
 
 theme: minima
+
+# Ordre de la navigation. minima 2.5 ne montre que les pages listees ici, et
+# dans cet ordre ; sans cette cle il les prend toutes, alphabetiquement.
+# 'audit.md' n'y figure pas volontairement : il est atteint depuis l'accueil
+# et depuis la feuille de route, pour garder un entete lisible sur mobile.
+header_pages:
+  - registre.md
+  - carte.md
+  - dimensions.md
+  - couverture.md
+  - methode.md
+  - feuille-de-route.md
+  - donnees.md
 
 # Greffons. Contrairement au constructeur natif de GitHub Pages, il n'y a ici ni
 # safe mode, ni liste blanche : ce qui est declare dans le Gemfile est charge,
@@ -54,6 +70,7 @@ exclude:
   - app.yaml
   - compose.yaml
   - specs/
+  - scripts/
   - vendor/
   - Gemfile
   - Gemfile.lock
