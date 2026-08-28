@@ -6,10 +6,18 @@
 # avec leurs accents : ils seront lus par des visiteurs. La regle « sans
 # accents » de ce depot vise les fichiers d'infrastructure, pas le contenu.
 title: France-System-2026
+# Cette description part dans la balise <title> et dans les metadonnees : elle
+# est lue par les visiteurs et par les moteurs, donc elle s'ecrit en francais
+# normal, avec ses accents.
+#
+# Elle ne contient VOLONTAIREMENT ni chiffres ni date : _config.yml ne lit pas
+# Liquid, une valeur ecrite ici ne peut pas suivre les donnees. Les comptages
+# et la date de snapshot sont calcules dans les pages depuis _data/, ou ils
+# restent justes d'une version a l'autre.
 description: >-
-  Registre des sources et cartographie du systeme francais. Snapshot du
-  12 aout 2026 : 53 sources canoniques, 55 noeuds, 30 aretes, 15 dimensions
-  de pouvoir.
+  Registre des sources et cartographie du système français : d'où viennent les
+  informations, comment le système est découpé, et ce que les données ne
+  prouvent pas.
 author: France-System-2026
 
 # L'adresse publique du site, sans barre oblique finale.
