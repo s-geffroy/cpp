@@ -8,6 +8,7 @@ permalink: /dimensions/
 {%- assign noeuds = site.data.noeuds -%}
 {%- assign aretes = site.data.aretes -%}
 {%- assign lib = site.data.libelles -%}
+{%- assign sources = site.data.registre | concat: site.data['registre-complement'].sources -%}
 
 Le pouvoir est traité comme **multidimensionnel**. La méthode interdit
 explicitement de réduire ces {{ dimensions | size }} dimensions à une variable
@@ -15,19 +16,26 @@ unique : un acteur puissant sur l’une peut être sans prise sur les autres.
 
 <div class="garde-fou" markdown="1">
 
-### Deux vocabulaires qui ne se rejoignent pas
+### Le rattachement des sources est un ajout de ce site
 
 Les catégories d’acteurs et les relations utilisent les {{ dimensions | size }} identifiants
 canoniques listés ci-dessous. Le
 [registre des sources]({{ '/registre/' | relative_url }}), lui, étiquette ses
-entrées avec un champ en **texte libre** :
+entrées avec un champ en **texte libre** :
 {{ site.data.registre | map: "power_dimensions" | join: ";" | split: ";" | uniq | size }}
 mots-clés distincts, sans rapport formel avec ces identifiants.
 
-Le paquet v0.1 ne fournit **aucune table de correspondance** entre les deux.
-Ce site n’en fabrique pas. Les croisements ci-dessous portent donc sur les
-catégories d’acteurs et les relations, jamais sur les sources — construire ce pont au jugé
-reviendrait à inventer une donnée, ce que la méthode proscrit.
+Le paquet v0.1 ne fournit aucune correspondance entre les deux. Ce site en
+publie une, mot-clé par mot-clé, **comme jugement éditorial déclaré** : elle est
+consultable et téléchargeable sur la
+[page des données]({{ '/donnees/' | relative_url }}#table-de-passage). Les
+comptages de sources ci-dessous en dépendent ; ceux des catégories et des
+relations, non.
+
+Ce rattachement a fait apparaître des formes de pouvoir presque sans source.
+Ce site les a étoffées par des
+[sources ajoutées]({{ '/registre/' | relative_url }}), hors paquet, pour qu’aucune
+ne repose sur moins de cinq documents.
 
 </div>
 
@@ -41,6 +49,7 @@ reviendrait à inventer une donnée, ce que la méthode proscrit.
       <th>Dimension</th>
       <th>Catégories</th>
       <th>Relations</th>
+      <th>Sources</th>
     </tr>
   </thead>
   <tbody>
@@ -48,11 +57,20 @@ reviendrait à inventer une donnée, ce que la méthode proscrit.
     {%- assign dim_id = d.power_dimension_id -%}
     {%- assign porteurs = noeuds | where_exp: "n", "n.dimensions contains dim_id" -%}
     {%- assign relations = aretes | where: "power_dimension", dim_id -%}
+    {%- capture ids_sources -%}
+  {%- for s in sources -%}
+    {%- capture dims -%}{% include dimensions-source.html source=s %}{%- endcapture -%}
+    {%- assign liste = dims | split: " " -%}
+    {%- if liste contains dim_id -%}{{ s.source_id | append: " " }}{%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign ids_sources = ids_sources | strip | split: " " -%}
     <tr>
       <td class="nowrap"><code>{{ dim_id }}</code></td>
       <td><a href="#{{ dim_id | downcase }}">{{ lib.dimensions[dim_id].label }}</a></td>
       <td class="nombre">{{ porteurs | size }}</td>
       <td class="nombre">{{ relations | size }}</td>
+      <td class="nombre">{{ ids_sources | size }}</td>
     </tr>
     {%- endfor %}
   </tbody>
@@ -69,6 +87,14 @@ encore documenté aucune relation — pas une dimension sans pouvoir.</p>
 {%- assign dim_id = d.power_dimension_id -%}
 {%- assign porteurs = noeuds | where_exp: "n", "n.dimensions contains dim_id" -%}
 {%- assign relations = aretes | where: "power_dimension", dim_id -%}
+{%- capture ids_sources -%}
+  {%- for s in sources -%}
+    {%- capture dims -%}{% include dimensions-source.html source=s %}{%- endcapture -%}
+    {%- assign liste = dims | split: " " -%}
+    {%- if liste contains dim_id -%}{{ s.source_id | append: " " }}{%- endif -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{%- assign ids_sources = ids_sources | strip | split: " " -%}
 
 ## {{ lib.dimensions[dim_id].label }} {#{{ dim_id | downcase }}}
 
@@ -99,6 +125,21 @@ encore documenté aucune relation — pas une dimension sans pouvoir.</p>
 {%- else -%}
 <p class="lacune-inline">Aucune relation de la carte v0.1 ne relève de cette
 dimension. C’est un état de la documentation, pas une absence de pouvoir.</p>
+{%- endif %}
+
+{% if ids_sources.size > 0 -%}
+**{{ ids_sources | size }} sources la documentent**, par la correspondance éditoriale.
+
+<ul class="liste-aretes">
+  {%- for id in ids_sources %}
+  {%- assign src = sources | where: "source_id", id | first %}
+  <li>
+    <a href="{{ '/registre/' | relative_url }}#{{ id }}">{{ lib.titres[id] | default: src.title | replace: "'", "’" }}</a>
+    <span class="meta">{{ lib.institutions[src.institution] | default: src.institution | replace: "'", "’" }}</span>
+    {%- if id contains "FR-CPL" %} <span class="pastille ajout">ajout</span>{% endif %}
+  </li>
+  {%- endfor %}
+</ul>
 {%- endif %}
 
 {% endfor %}

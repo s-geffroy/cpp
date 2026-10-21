@@ -1,0 +1,64 @@
+keyword,power_dimension_ids,note
+administrative,P-EXEC,
+association,P-LABOR,"Employé pour la liberté d’association de l’article 11 de la Convention, qui fonde l’action collective."
+collective_bargaining,P-LABOR,
+competition,P-MARKET;P-REG,Désigne à la fois l’état de la concurrence sur un marché et l’autorité qui la contrôle.
+concentration,P-MARKET,Une concentration ne prouve pas une domination (règle dure n° 3).
+corporate,P-OWN,
+corporatism_test,P-LABOR;P-NET,Le test porte sur la représentation des intérêts et sa relation à la décision publique.
+credit,P-FIN,
+cyber,P-INFRA,
+data,P-INFO,"Données personnelles, traitées comme ressource d’information."
+defense,,"Secteur, non forme de pouvoir. Les sources concernées relèvent de la commande publique et de l’industrie, pas de la coercition."
+digital,P-INFRA,
+disclosure,P-REG,Obligation d’information réglementée imposée par l’AMF.
+economic,,Trop général pour désigner une forme de pouvoir particulière.
+employment,,"Statistique d’emploi, non forme de pouvoir."
+energy,,"Secteur, non forme de pouvoir."
+enterprise,P-LABOR,Employé pour la négociation au niveau de l’entreprise.
+EU,P-EXT,
+executive,P-EXEC,
+expertise,P-EXPERT,
+exposure,P-INFO,
+external,P-EXT,
+finance,P-FIN,
+fiscal,P-FISCAL,
+funding,P-FISCAL,Financement public de l’audiovisuel. Il ne prouve pas un contrôle éditorial (règle dure n° 6).
+governance,P-OWN,"Droits de gouvernance attachés au capital, au sens de la définition de P-OWN."
+health,,"Secteur, non forme de pouvoir."
+industry,,"Secteur, non forme de pouvoir."
+influence,P-NET,
+information,P-INFO,
+infrastructure,P-INFRA,
+institutional,,"Désigne l’architecture des institutions dans son ensemble, pas une forme de pouvoir particulière."
+integrity,P-NET,Déontologie et prévention des conflits d’intérêts : le contrôle des réseaux d’influence.
+judicial,P-JUD,
+labor,P-LABOR,
+legal,P-LEGAL,
+legislative,P-LEGAL,
+market,P-MARKET,
+market_power,P-MARKET,
+media,P-INFO,
+monetary,P-FIN;P-EXT,La politique monétaire de la zone euro s’impute au niveau supranational (règle dure n° 10).
+network,P-NET,"Proximité de réseau, qui ne prouve pas une coordination (règle dure n° 4)."
+norms,P-EXPERT,
+ownership,P-OWN,
+platforms,P-INFO,"Pouvoir de distribution et de classement, qui ne vaut pas propriété d’un média (règle dure n° 7)."
+pluralism,P-INFO,
+privacy,,"Un droit protégé, pas une forme de pouvoir. La source est rattachée par ses autres mots-clés."
+procurement,P-FISCAL;P-MARKET,Dépense publique et pouvoir d’acheteur. La commande publique n’est ni une propriété ni une subvention (règle dure n° 2).
+public_service,P-INFO,Service public de l’audiovisuel.
+reform,,"Recommandations de réforme du Semestre européen, déjà rattachées par le mot-clé « Union européenne »."
+regulation,P-REG,
+representation,P-LABOR,
+rights,P-JUD,Droits invocables devant le juge.
+sanction,P-REG,"Sanction administrative d’un régulateur, distincte de la coercition pénale (P-COERC)."
+security,P-COERC,
+social,,"Dépense sociale, déjà rattachée par le mot-clé « budgétaire »."
+state,,"Désigne l’acteur, pas une forme de pouvoir."
+subsidy,P-FISCAL,
+supply,,"Approvisionnement en médicaments : secteur, non forme de pouvoir."
+systemic,P-FIN,Risque systémique financier.
+territorial,P-EXEC,"Collectivités territoriales, en tant qu’échelon d’administration."
+transparency,P-OWN,Transparence sur les bénéficiaires effectifs.
+wholesale,P-MARKET,

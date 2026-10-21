@@ -23,7 +23,9 @@ d’où ils sortent. Ce site fait l’inverse. Il publie l’état, arrêté au
 
 - **{{ site.data.registre | size }} sources officielles** — textes de loi,
   registres publics, données de régulateurs, rapports parlementaires — dont on
-  sait qui les publie, à quel rythme et à quoi elles servent&nbsp;;
+  sait qui les publie, à quel rythme et à quoi elles servent, complétées par
+  **{{ site.data['registre-complement'].sources | size }} sources ajoutées** par
+  ce site là où le recensement était trop mince&nbsp;;
 - **{{ site.data.noeuds | size }} catégories d’acteurs** — l’État, les
   régulateurs, les entreprises, les banques, les médias, les syndicats,
   l’Union européenne — et **{{ site.data.aretes | size }} relations** établies

@@ -4,8 +4,16 @@ title: Sources
 permalink: /registre/
 ---
 
+{% assign ajouts = site.data['registre-complement'].sources %}
 Les **{{ site.data.registre | size }} sources canoniques** du paquet, arrêtées
 au {% include date-snapshot.html %}. Toutes portent le statut *vérifiée*.
+
+S’y ajoutent **{{ ajouts | size }} sources choisies par ce site**, signalées par
+la pastille <span class="pastille ajout">ajout</span>. Elles étoffent les formes
+de pouvoir que le paquet laissait presque vides — expertise, coercition,
+exécutif — et ne font pas partie du paquet : leurs identifiants commencent par
+`FR-CPL`, jamais par `FR-SRC`. Elles suivent les mêmes règles d’admission et la
+même date d’arrêt.
 
 L’ordre de priorité qui gouverne leur admission est fixé par la
 [méthode]({{ '/methode/' | relative_url }}) : textes juridiques et registres
@@ -25,7 +33,7 @@ officiels d’abord, presse en dernier et seulement pour repérer un événement
   Liquid les tokenise malgre le commentaire, et un tiret de rognage ecrit ici
   rogne pour de vrai -- c’est exactement ce qui a casse cette page.
 {% endcomment %}
-{% assign registre = site.data.registre %}
+{% assign registre = site.data.registre | concat: ajouts %}
 {% assign lib = site.data.libelles %}
 
 <div class="filtres" data-filtre-groupe="registre">
@@ -77,6 +85,25 @@ officiels d’abord, presse en dernier et seulement pour repérer un événement
     </select>
   </label>
 
+  <label>
+    Forme de pouvoir
+    <select data-filtre-champ="dimension">
+      <option value="">toutes les formes</option>
+      {%- for d in site.data.dimensions -%}
+      <option value="{{ d.power_dimension_id }}">{{ lib.dimensions[d.power_dimension_id].label }}</option>
+      {%- endfor -%}
+    </select>
+  </label>
+
+  <label>
+    Origine
+    <select data-filtre-champ="origine">
+      <option value="">paquet et ajouts</option>
+      <option value="paquet">paquet seul</option>
+      <option value="ajout">ajouts de ce site</option>
+    </select>
+  </label>
+
   <p class="compteur" data-filtre-compteur
      data-total="{{ registre | size }}"
      data-nom="sources">{{ registre | size }} sources</p>
@@ -110,14 +137,19 @@ officiels d’abord, presse en dernier et seulement pour repérer un événement
       {{ lib.types_source[s.source_type] }}
       {%- for m in s.mots_cles %} {{ lib.mots_cles[m] | default: m }}{% endfor -%}
     {%- endcapture -%}
+    {%- capture dims -%}{% include dimensions-source.html source=s %}{%- endcapture -%}
+    {%- if s.source_id contains "FR-CPL" -%}{%- assign origine = "ajout" -%}{%- else -%}{%- assign origine = "paquet" -%}{%- endif -%}
     <tr id="{{ s.source_id }}"
         data-domaine="{{ s.domain }}"
+        data-dimension="{{ dims }}"
+        data-origine="{{ origine }}"
         data-autorite="{{ s.authority }}"
         data-priorite="{{ s.priority }}"
         data-recherche="{{ cherchable | normalize_whitespace | downcase | escape }}">
       <td class="nowrap">
         <code>{{ s.source_id }}</code>
         <span class="pastille priorite-{{ s.priority | downcase }}">{{ s.priority }}</span>
+        {%- if origine == "ajout" %}<span class="pastille ajout">ajout</span>{% endif %}
       </td>
       <td>{{ lib.domaines[s.domain] }}</td>
       <td>{{ lib.institutions[s.institution] | default: s.institution | replace: "'", "’" }}</td>
@@ -135,6 +167,10 @@ officiels d’abord, presse en dernier et seulement pour repérer un événement
         {%- if s.mots_cles.size > 0 %}<span class="mots-cles">
           {%- for m in s.mots_cles -%}{{ lib.mots_cles[m] | default: m }}{% unless forloop.last %} · {% endunless %}{%- endfor -%}
         </span>{% endif -%}
+        {%- if dims != "" %}<span class="meta">Formes de pouvoir&nbsp;:
+          {% assign liste = dims | split: " " -%}
+          {%- for d in liste -%}<a href="{{ '/dimensions/' | relative_url }}#{{ d | downcase }}">{{ lib.dimensions[d].label }}</a>{% unless forloop.last %} · {% endunless %}{%- endfor -%}
+        </span>{% endif -%}
       </td>
       <td>{{ lib.autorites[s.authority] }}</td>
       <td class="nowrap">{{ lib.rafraichissements[s.refresh] }}</td>
@@ -149,12 +185,16 @@ table reste entière et lisible : c’est du filtrage, pas du chargement.</p>
 
 ## Sur les mots-clés affichés sous chaque source
 
-Le champ `power_dimensions` du registre est en **texte libre** :
-{{ registre | map: "power_dimensions" | join: ";" | split: ";" | uniq | size }}
+Le champ `power_dimensions` du registre est en **texte libre** :
+{{ site.data.registre | map: "power_dimensions" | join: ";" | split: ";" | uniq | size }}
 mots-clés distincts, propres au registre. Ce ne sont **pas** les
 [{{ site.data.dimensions | size }} formes de pouvoir]({{ '/dimensions/' | relative_url }}),
 qui forment un vocabulaire fermé utilisé par la carte du système.
 
-Le paquet v0.1 ne fournit aucune table de correspondance entre les deux. Ce
-site n’en invente pas : les mots-clés sont affichés tels quels, et l’écart est
-[porté à la feuille de route]({{ '/feuille-de-route/' | relative_url }}).
+Le paquet v0.1 ne fournit aucune correspondance entre les deux. Ce site en
+publie une, **à titre d’ajout éditorial** : chaque mot-clé y est rattaché à zéro,
+une ou deux formes de pouvoir, avec une note quand le choix se discute. C’est
+elle qui produit la ligne « Formes de pouvoir » sous chaque source et le filtre
+du même nom. Elle est consultable en entier et téléchargeable sur la
+[page des données]({{ '/donnees/' | relative_url }}#table-de-passage) ; une
+table fournie par le producteur du paquet la remplacerait.

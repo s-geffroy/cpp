@@ -29,3 +29,7 @@ vendor/
 # sa propre licence : le recopier dans un depot public serait une
 # redistribution, pas une installation. Il reste donc local.
 .claude/
+
+# Paquet source depose a la main ; il est deja publie a l'identique dans
+# assets/donnees/ par scripts/importer-spec.py.
+specs/

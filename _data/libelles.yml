@@ -308,6 +308,28 @@ domaines:
   territorial_government: "Gouvernement territorial"
   think_tanks_universities_expertise_network: "Think tanks, universités et réseaux d’expertise"
   transport_logistics: "Transport et logistique"
+  # Ajouts editoriaux (_data/registre-complement.yml)
+  public_audit: "Contrôle des comptes publics"
+  fiscal_oversight: "Contrôle budgétaire indépendant"
+  pensions: "Retraites"
+  climate_policy: "Politique climatique"
+  public_governance: "Gouvernance publique"
+  labor_conflict: "Conflits du travail"
+  recorded_crime: "Délinquance enregistrée"
+  prison_population: "Population carcérale"
+  detention_oversight: "Contrôle des lieux de privation de liberté"
+  security_ethics_oversight: "Déontologie de la sécurité"
+  police_accountability: "Contrôle des forces de sécurité"
+  internal_security_law: "Droit de la sécurité intérieure"
+  security_programming_law: "Programmation de la sécurité intérieure"
+  civil_service_capacity: "Fonction publique"
+  public_employment: "Emploi public"
+  law_implementation: "Application des lois"
+  legislative_output: "Activité parlementaire"
+  normative_output: "Production normative"
+  administrative_justice: "Justice administrative"
+  judicial_activity: "Activité judiciaire"
+  constitutional_review: "Contrôle de constitutionnalité"
 
 # --- Autorite de la source ------------------------------------------------
 autorites:
@@ -352,6 +374,8 @@ types_source:
   open_dataset: "Jeu de données ouvert"
   parliamentary_inquiry: "Enquête parlementaire"
   regulatory_corpus: "Corpus réglementaire"
+  # Ajouts editoriaux (_data/registre-complement.yml)
+  official_audit_report: "Rapport d’audit officiel"
 
 # --- Rythme de rafraichissement -------------------------------------------
 rafraichissements:
@@ -366,6 +390,8 @@ rafraichissements:
   periodic: "Périodique"
   quarterly: "Trimestriel"
   semiannual: "Semestriel"
+  # Ajouts editoriaux (_data/registre-complement.yml)
+  monthly: "Mensuel"
 
 # --- Statut de verification de la source ----------------------------------
 statuts_source:

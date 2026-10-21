@@ -63,9 +63,78 @@ n’en sont qu’un rendu.
   </li>
 </ul>
 
+## Les ajouts de ce site, hors paquet
+
+Deux fichiers ne viennent **pas** du paquet. Ils sont écrits par ce site, publiés
+comme tels et séparés des fichiers d’origine, sous des noms qui commencent tous
+par `ajout_`.
+
+<ul class="telechargements">
+  <li>
+    <a href="{{ '/assets/donnees/ajout_registre_complement.csv' | relative_url }}">
+      <code>ajout_registre_complement.csv</code></a>
+    <span class="meta">{{ site.data['registre-complement'].sources | size }} sources ajoutées (<code>FR-CPL-*</code>), au format du registre</span>
+  </li>
+  <li>
+    <a href="{{ '/assets/donnees/ajout_registre_complement.json' | relative_url }}">
+      <code>ajout_registre_complement.json</code></a>
+    <span class="meta">les mêmes, en JSON</span>
+  </li>
+  <li>
+    <a href="{{ '/assets/donnees/ajout_passage_dimensions.csv' | relative_url }}">
+      <code>ajout_passage_dimensions.csv</code></a>
+    <span class="meta">la table de passage ci-dessous</span>
+  </li>
+</ul>
+
+Les **sources ajoutées** étoffent les formes de pouvoir que le paquet laissait
+presque vides. Elles obéissent aux règles d’admission de la
+[méthode]({{ '/methode/' | relative_url }}#admission) et à sa date d’arrêt :
+un document postérieur au {% include date-snapshot.html %} n’entre pas. Chacune
+porte une colonne `verification` qui dit comment son adresse a été contrôlée.
+
+### Table de passage {#table-de-passage}
+
+{% assign passage = site.data['passage-dimensions'].passage %}
+{% assign lib = site.data.libelles %}
+Le registre étiquette ses sources par des mots-clés libres ; la carte utilise
+{{ site.data.dimensions | size }} formes de pouvoir canoniques. Le paquet ne relie
+pas les deux. Cette table le fait, **par jugement éditorial**, au
+{{ site.data['passage-dimensions'].meta.date | date: "%d/%m/%Y" }}.
+
+Un mot-clé qui désigne un secteur (santé, énergie, défense) ou un cadre général
+plutôt qu’une forme de pouvoir n’est rattaché à rien : la source reste reliée
+par ses autres mots-clés. Une table fournie par le producteur du paquet
+remplacerait celle-ci.
+
+<div class="table-defilante">
+<table>
+  <thead>
+    <tr><th>Mot-clé</th><th>Formes de pouvoir</th><th>Note</th></tr>
+  </thead>
+  <tbody>
+    {%- for paire in passage %}
+    {%- assign mot = paire[0] -%}
+    {%- assign entree = paire[1] %}
+    <tr>
+      <td>{{ lib.mots_cles[mot] | default: mot }} <code class="brut">{{ mot }}</code></td>
+      <td>
+        {%- for d in entree.dimensions -%}
+        <a class="pastille dimension" href="{{ '/dimensions/' | relative_url }}#{{ d | downcase }}">{{ lib.dimensions[d].label }}</a>
+        {%- else -%}
+        <span class="meta">aucune</span>
+        {%- endfor -%}
+      </td>
+      <td>{% if entree.note %}<span class="note">{{ entree.note }}</span>{% endif %}</td>
+    </tr>
+    {%- endfor %}
+  </tbody>
+</table>
+</div>
+
 ## Comment ce site est fabriqué
 
-Trois couches, séparées à dessein.
+Quatre couches, séparées à dessein.
 
 **Les données d’origine** sont celles ci-dessus. Elles ne sont jamais modifiées.
 
@@ -73,6 +142,10 @@ Trois couches, séparées à dessein.
 puisse les parcourir. Une seule transformation les sépare des CSV d’origine :
 le retrait du BOM UTF-8 qui ouvre chaque fichier, plus l’éclatement des champs
 `a;b;c` en tableaux. Aucune valeur n’est ajoutée, corrigée ni supprimée.
+
+**Les ajouts éditoriaux** — sources ajoutées et table de passage — sont
+écrits à la main, eux aussi, dans des fichiers à part. Ils ne modifient aucune
+valeur du paquet : ils s’affichent à côté, signalés comme tels.
 
 **Les libellés français** vivent dans un fichier à part, écrit à la main. Le
 script d’import ne l’écrit jamais : une future v0.2 régénère les données et

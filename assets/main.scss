@@ -461,6 +461,15 @@ td.nombre {
   border-color: var(--danger-trait);
 }
 
+/* Source ajoutee par ce site, hors paquet : trait tirete, pour qu'elle ne se
+   confonde jamais avec une source du paquet, meme en niveaux de gris. */
+.pastille.ajout {
+  color: var(--accent);
+  background: transparent;
+  border-style: dashed;
+  border-color: var(--accent);
+}
+
 .matrice tr.couverture-ferme td:first-child { box-shadow: inset 3px 0 0 var(--succes); }
 .matrice tr.couverture-partiel td:first-child { box-shadow: inset 3px 0 0 var(--attention); }
 .matrice tr.couverture-lacune td:first-child { box-shadow: inset 3px 0 0 var(--danger); }

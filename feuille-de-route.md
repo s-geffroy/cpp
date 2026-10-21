@@ -80,9 +80,9 @@ deviner le bénéficiaire effectif ultime quand le registre de l’INPI est
 inaccessible. Aucune ingéniosité de traitement ne remplace une donnée dont
 l’accès est restreint par le droit.
 
-### 4. Deux vocabulaires de dimensions qui ne se joignent pas
+### 4. Deux vocabulaires de dimensions, reliés par ce site
 
-Ce point n’est pas dans les rapports du paquet : il ressort de la lecture des
+Ce point n’est pas dans les rapports du paquet : il ressort de la lecture des
 fichiers.
 
 Les catégories d’acteurs et les relations de la carte utilisent les
@@ -90,13 +90,17 @@ Les catégories d’acteurs et les relations de la carte utilisent les
 [registre des sources]({{ '/registre/' | relative_url }}) étiquette ses entrées
 avec un champ `power_dimensions` en texte libre, comptant
 {{ site.data.registre | map: "power_dimensions" | join: ";" | split: ";" | uniq | size }}
-mots-clés distincts. Aucune table de correspondance n’existe entre les deux.
+mots-clés distincts. Le paquet ne fournit aucune table de correspondance.
 
-Conséquence pratique : on ne peut pas répondre, depuis les données seules, à la
-question « quelles sources documentent la dimension *{{ lib.dimensions['P-OWN'].label | downcase }}* ? ».
-Ce site s’abstient d’y répondre plutôt que d’inventer la correspondance. La
-combler suppose soit d’étiqueter les {{ site.data.registre | size }} sources
-avec le vocabulaire fermé, soit de publier explicitement une table de passage.
+**État actuel : comblé par un ajout éditorial.** Ce site publie sa propre
+[table de passage]({{ '/donnees/' | relative_url }}#table-de-passage), mot-clé
+par mot-clé, et l’a utilisée pour repérer les formes de pouvoir presque sans
+source. Il les a étoffées par
+{{ site.data['registre-complement'].sources | size }} sources ajoutées, hors paquet.
+
+Ce qui reste ouvert : remplacer cette table par une correspondance fournie par
+le producteur du paquet, ou étiqueter directement chaque source avec le
+vocabulaire fermé.
 
 ### 5. Une carte structurelle, pas un graphe rempli
 

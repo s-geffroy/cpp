@@ -1,0 +1,17 @@
+{%- comment -%}
+Dimensions P-* d'une source, deduites de ses mots-cles par la table de passage
+_data/passage-dimensions.yml -- un AJOUT EDITORIAL de ce site, hors paquet.
+
+Sortie : les identifiants separes par une espace, sans doublon (« P-FISCAL
+P-MARKET »). C'est le format qu'attend data-dimension dans filtres.js, et
+qu'on peut eclater avec split: " " pour tester une appartenance exacte.
+
+Usage : {% include dimensions-source.html source=s %} -- a capturer.
+{%- endcomment -%}
+{%- assign passage = site.data['passage-dimensions'].passage -%}
+{%- capture brut -%}
+  {%- for m in include.source.mots_cles -%}
+    {%- for d in passage[m].dimensions -%}{{ d | append: " " }}{%- endfor -%}
+  {%- endfor -%}
+{%- endcapture -%}
+{{- brut | strip | split: " " | uniq | join: " " -}}

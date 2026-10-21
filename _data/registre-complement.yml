@@ -1,0 +1,373 @@
+# Complement du registre des sources : AJOUT EDITORIAL DE CE SITE, HORS PAQUET.
+#
+# Le paquet France-System-2026 v0.1 laisse trois dimensions presque vides
+# (expertise, coercition, executif). Ces sources les etoffent. Elles ne se
+# melangent pas au registre du paquet (_data/registre.json, importe tel quel) :
+#   - identifiants FR-CPL-*, jamais FR-SRC-* ;
+#   - memes champs que le registre, plus 'mots_cles' (tableau) et 'verification' ;
+#   - 'use' est ecrit directement en francais : c'est notre contenu, lu tel quel.
+#   - mots-cles pris dans le vocabulaire existant, pour passer par la table
+#     _data/passage-dimensions.yml sans vocabulaire parallele.
+#
+# Regle de date de la methode : etat arrete au 2026-08-12. Un document posterieur
+# n'entre pas ; quand la page d'accueil est posterieure, on cite le fichier
+# anterieur qu'elle contient.
+#
+# status :
+#   VERIFIED   URL ouverte et document reconnu le 2026-10-21
+#   TO_VERIFY  pertinent, mais l'URL n'a pas pu etre lue (anti-robot) :
+#              a confirmer a la main avant publication
+#   Les sources bloquees par un anti-robot ont ete confirmees a la main par
+#   l'editeur du site ; leur champ 'verification' le dit.
+#
+# Ecrit a la main ; scripts/importer-spec.py n'y touche jamais.
+
+meta:
+  auteur: "France-System-2026 (ce site)"
+  date: "2026-10-21"
+  statut: "Complément éditorial, hors paquet"
+
+sources:
+
+  # --- Expertise et production de normes (P-EXPERT) ----------------------
+
+  - source_id: FR-CPL-0001
+    domain: public_audit
+    institution: "Cour des comptes"
+    title: "Le rapport public annuel 2026 — Cohésion territoriale et attractivité des territoires"
+    date: "2026-03-25"
+    source_type: official_report
+    authority: PRIMARY_INDEPENDENT
+    priority: A0
+    refresh: annual
+    mots_cles: [expertise, fiscal, administrative]
+    use: "Bilan annuel de l’institution supérieure de contrôle sur la performance des politiques publiques."
+    status: VERIFIED
+    url: "https://www.ccomptes.fr/fr/publications/le-rapport-public-annuel-2026"
+    verification: "Page lue le 2026-10-21."
+
+  - source_id: FR-CPL-0002
+    domain: fiscal_oversight
+    institution: "Haut Conseil des finances publiques"
+    title: "Avis n° 2026-3 relatif au rapport d’avancement annuel 2026 du PSMT 2025-2029"
+    date: "2026-04-22"
+    source_type: official_expert_report
+    authority: PRIMARY_INDEPENDENT
+    priority: A0
+    refresh: event_driven
+    mots_cles: [expertise, fiscal, EU]
+    use: "Avis indépendant sur la trajectoire budgétaire du Gouvernement, qui borne la crédibilité des options budgétaires."
+    status: VERIFIED
+    url: "https://www.hcfp.fr/liste-avis/avis-ndeg2026-3-rapport-davancement-annuel-2026"
+    verification: "Page et PDF lus le 2026-10-21."
+
+  - source_id: FR-CPL-0003
+    domain: pensions
+    institution: "Conseil d’orientation des retraites"
+    title: "Rapport annuel du COR, juin 2026 — Évolutions et perspectives des retraites en France"
+    date: "2026-06-11"
+    source_type: official_expert_report
+    authority: PRIMARY_INDEPENDENT
+    priority: A0
+    refresh: annual
+    mots_cles: [expertise, social]
+    use: "Projections de référence qui fixent les paramètres du débat sur les retraites."
+    status: VERIFIED
+    url: "https://www.cor-retraites.fr/rapports-du-cor/rapport-annuel-cor-juin-2026-evolutions-perspectives-retraites-france"
+    verification: "Page lue le 2026-10-21. Plusieurs versions du PDF circulent : citer la page."
+
+  - source_id: FR-CPL-0004
+    domain: climate_policy
+    institution: "Haut Conseil pour le climat"
+    title: "Rapport annuel 2026 — Dangers climatiques : la France face à ses responsabilités"
+    date: "2026-07-09"
+    source_type: official_expert_report
+    authority: PRIMARY_INDEPENDENT
+    priority: A0
+    refresh: annual
+    mots_cles: [expertise, energy]
+    use: "Évaluation indépendante de la politique climatique ; le Gouvernement doit y répondre sous six mois."
+    status: VERIFIED
+    url: "https://www.hautconseilclimat.fr/publications/dangers-climatiques-la-france-face-a-ses-responsabilites/"
+    verification: "Page lue le 2026-10-21. PDF révisé le 2026-07-17."
+
+  - source_id: FR-CPL-0005
+    domain: public_governance
+    institution: "Conseil d’État"
+    title: "Étude annuelle 2025 — Inscrire l’action publique dans le temps long"
+    date: "2025-09-10"
+    source_type: official_expert_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [expertise, norms]
+    use: "Étude doctrinale (20 propositions) sur l’action publique de long terme et la place de la science dans la décision."
+    status: VERIFIED
+    url: "https://conseil-etat.fr/publications-colloques/etudes/etudes-annuelles/etude-annuelle-2025-inscrire-l-action-publique-dans-le-temps-long-le-conseil-d-etat-formule-20-propositions"
+    verification: "Page et PDF lus le 2026-10-21. L’étude 2026 (9 septembre 2026) est postérieure à la date d’arrêt."
+
+  # --- Travail et action collective (P-LABOR) ------------------------------
+
+  - source_id: FR-CPL-0006
+    domain: collective_bargaining
+    institution: "Ministère du Travail — DGT et DARES"
+    title: "La négociation collective en 2024 — Édition 2025 — Bilan et rapports"
+    date: "2025-12-19"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [labor, collective_bargaining]
+    use: "Bilan officiel annuel de la négociation collective, au niveau interprofessionnel, des branches et des entreprises."
+    status: VERIFIED
+    url: "https://www.vie-publique.fr/files/rapport/pdf/301534.pdf"
+    verification: "PDF joignable le 2026-10-21 ; titre recoupé par la copie de la DREETS PACA. Page du ministère bloquée par un anti-robot."
+
+  - source_id: FR-CPL-0007
+    domain: labor_conflict
+    institution: "DARES"
+    title: "Les grèves en 2024 (Dares Résultats n° 6)"
+    date: "2026-02-05"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A0
+    refresh: annual
+    mots_cles: [labor]
+    use: "Statistiques officielles annuelles des grèves : entreprises touchées, journées de grève pour 1 000 salariés."
+    status: VERIFIED
+    url: "https://dares.travail-emploi.gouv.fr/sites/default/files/2dac6c0373b23caa01224967e2b56a92/DR_Grèves_2024.pdf"
+    verification: "Confirmé à la main le 2026-10-21 (anti-robot sur le site). Données : https://dares.travail-emploi.gouv.fr/sites/default/files/cbe0a62e070a6836a4d6915a7cd4747b/Dares_Résultats_données_Les%20grèves%20en%202024.xlsx"
+
+  # --- Coercition et sécurité (P-COERC) ------------------------------------
+
+  - source_id: FR-CPL-0008
+    domain: recorded_crime
+    institution: "Ministère de l’Intérieur — SSMSI"
+    title: "Bases statistiques communale, départementale et régionale de la délinquance enregistrée par la police et la gendarmerie nationales"
+    date: "2026-07-09"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A0
+    refresh: annual
+    mots_cles: [security]
+    use: "Séries de la délinquance enregistrée depuis 2016 : la base d’activité de la capacité coercitive."
+    status: VERIFIED
+    url: "https://www.data.gouv.fr/datasets/bases-statistiques-communale-departementale-et-regionale-de-la-delinquance-enregistree-par-la-police-et-la-gendarmerie-nationales"
+    verification: "Page et API data.gouv.fr lues le 2026-10-21."
+
+  - source_id: FR-CPL-0009
+    domain: prison_population
+    institution: "Ministère de la Justice — SSER"
+    title: "Mesure mensuelle de l’incarcération au 1er juillet 2026"
+    date: "2026-07-21"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A0
+    refresh: monthly
+    mots_cles: [security, judicial]
+    use: "Le versant carcéral de la coercition pénale : personnes écrouées, détenues, occupation des prisons."
+    status: VERIFIED
+    url: "https://www.justice.gouv.fr/sites/default/files/2026-07/mesure_mensuelle_01072026.pdf"
+    verification: "PDF joignable le 2026-10-21 (image, chiffres non lus). La page annuelle est postérieure à la date d’arrêt : on cite le fichier de juillet."
+
+  - source_id: FR-CPL-0010
+    domain: detention_oversight
+    institution: "Contrôleur général des lieux de privation de liberté"
+    title: "Rapport d’activité 2025"
+    date: "2026-05-28"
+    source_type: official_report
+    authority: PRIMARY_INDEPENDENT
+    priority: A0
+    refresh: annual
+    mots_cles: [security, rights]
+    use: "Contrôle indépendant des prisons, de la garde à vue, de la rétention administrative et de l’hospitalisation sans consentement."
+    status: VERIFIED
+    url: "https://www.cglpl.fr/publications/rapport-dactivite-2025"
+    verification: "Page et PDF lus le 2026-10-21."
+
+  - source_id: FR-CPL-0011
+    domain: security_ethics_oversight
+    institution: "Défenseur des droits"
+    title: "Rapport annuel d’activité 2025"
+    date: "2026-04-09"
+    source_type: official_report
+    authority: PRIMARY_INDEPENDENT
+    priority: A0
+    refresh: annual
+    mots_cles: [security, rights]
+    use: "Contrôle externe de la déontologie des forces de sécurité : usage de la force, contrôles d’identité, personnes détenues."
+    status: VERIFIED
+    url: "https://www.defenseurdesdroits.fr/rapport-annuel-dactivite-2025-1107"
+    verification: "Page et PDF lus le 2026-10-21."
+
+  - source_id: FR-CPL-0012
+    domain: police_accountability
+    institution: "Cour des comptes"
+    title: "Le contrôle de la déontologie et de la discipline des forces de sécurité intérieure"
+    date: "2026-07-21"
+    source_type: official_audit_report
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [security, integrity]
+    use: "Audit du contrôle interne et externe (IGPN, IGGN, Défenseur des droits) de la police et de la gendarmerie."
+    status: VERIFIED
+    url: "https://www.ccomptes.fr/fr/publications/le-controle-de-la-deontologie-et-de-la-discipline-des-forces-de-securite-interieure"
+    verification: "Page et PDF lus le 2026-10-21."
+
+  - source_id: FR-CPL-0013
+    domain: internal_security_law
+    institution: "Légifrance"
+    title: "Code de la sécurité intérieure"
+    date: "2026-08-12"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: continuous
+    mots_cles: [security, legal]
+    use: "Base légale des pouvoirs de police, de la police administrative et des techniques de renseignement."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/codes/texte_lc/LEGITEXT000025503132"
+    verification: "Identifiant LEGITEXT000025503132 Confirmé à la main le 2026-10-21 (Légifrance bloque l’accès automatisé). PDF de la version en vigueur : https://www.legifrance.gouv.fr/download/pdf/legiOrKali?id=LEGITEXT000025503132.pdf"
+    notes: "Version applicable au 2026-08-12."
+
+  - source_id: FR-CPL-0014
+    domain: security_programming_law
+    institution: "Légifrance"
+    title: "Loi n° 2023-22 du 24 janvier 2023 d’orientation et de programmation du ministère de l’Intérieur"
+    date: "2023-01-24"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [security, legislative]
+    use: "Moyens et objectifs pluriannuels du ministère de l’Intérieur, 2023-2027."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047046768"
+    verification: "Confirmé à la main le 2026-10-21 (Légifrance bloque l’accès automatisé)."
+
+  # --- Exécutif et administratif (P-EXEC) ----------------------------------
+
+  - source_id: FR-CPL-0015
+    domain: civil_service_capacity
+    institution: "DGAFP"
+    title: "Rapport annuel sur l’état de la fonction publique — édition 2025"
+    date: "2025-10-23"
+    source_type: official_report
+    authority: PRIMARY_STATISTICAL
+    priority: A0
+    refresh: annual
+    mots_cles: [executive, administrative]
+    use: "Capacité administrative de l’État : emploi public, flux, rémunérations, temps de travail dans les trois fonctions publiques."
+    status: VERIFIED
+    url: "https://www.fonction-publique.gouv.fr/toutes-les-publications/rapport-annuel-sur-letat-de-la-fonction-publique-edition-2025"
+    verification: "Page et PDF lus le 2026-10-21. Données surtout 2023."
+
+  - source_id: FR-CPL-0016
+    domain: public_employment
+    institution: "INSEE"
+    title: "L’emploi dans la fonction publique en 2024 (Insee Première n° 2094)"
+    date: "2026-02-10"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A0
+    refresh: annual
+    mots_cles: [administrative]
+    use: "Effectifs officiels des agents publics fin 2024, par versant et par statut."
+    status: VERIFIED
+    url: "https://www.insee.fr/fr/statistiques/8732435"
+    verification: "Page et PDF lus le 2026-10-21."
+
+  # --- Juridique et normatif (P-LEGAL) -------------------------------------
+
+  - source_id: FR-CPL-0017
+    domain: law_implementation
+    institution: "Sénat"
+    title: "Bilan annuel de l’application des lois au 31 mars 2026 (rapport d’information n° 802, 2025-2026)"
+    date: "2026-06-26"
+    source_type: parliamentary_inquiry
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: annual
+    mots_cles: [legislative, executive]
+    use: "Taux d’application des lois et délai de publication des décrets d’application par le Gouvernement."
+    status: VERIFIED
+    url: "https://www.senat.fr/rap/r25-802/r25-8020.html"
+    verification: "Page lue le 2026-10-21."
+
+  - source_id: FR-CPL-0018
+    domain: legislative_output
+    institution: "Assemblée nationale"
+    title: "Statistiques de l’activité parlementaire — XVIIe législature, session 2024-2025"
+    date: "2025-09-30"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A0
+    refresh: annual
+    mots_cles: [legislative]
+    use: "Décomptes officiels des séances, textes adoptés, amendements et travaux de contrôle."
+    status: VERIFIED
+    url: "https://www2.assemblee-nationale.fr/17/statistiques-de-l-activite-parlementaire"
+    verification: "Page et PDF joignables le 2026-10-21 ; chiffres du PDF non lus. Date tirée du titre interne du PDF."
+
+  - source_id: FR-CPL-0022
+    domain: normative_output
+    institution: "Secrétariat général du Gouvernement"
+    title: "Indicateurs de suivi de l’activité normative 2026"
+    date: "2026-05-15"
+    source_type: official_statistics
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [legal, executive]
+    use: "Volume des lois, ordonnances et décrets, et suivi de leur application."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/contenu/Media/files/autour-de-la-loi/legislatif-et-reglementaire/statistiques-de-la-norme/indicateurs-de-suivi-de-l-activite-normative-2026.pdf"
+    verification: "Confirmé à la main le 2026-10-21 (Légifrance bloque l’accès automatisé) Date de mise en ligne tirée d’Acteurs publics."
+
+  # --- Juridictionnel et contrôle (P-JUD) ----------------------------------
+
+  - source_id: FR-CPL-0019
+    domain: administrative_justice
+    institution: "Conseil d’État"
+    title: "Rapport public 2025 des juridictions administratives"
+    date: "2026-05-19"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [judicial, legal]
+    use: "Contentieux des juridictions administratives (annulation, suspension) et avis sur les projets de loi et de décret."
+    status: VERIFIED
+    url: "https://conseil-etat.fr/publications-colloques/rapports-d-activite/rapport-public-2025-des-juridictions-administratives"
+    verification: "Page et PDF lus le 2026-10-21."
+
+  - source_id: FR-CPL-0020
+    domain: judicial_activity
+    institution: "Ministère de la Justice"
+    title: "Les chiffres clés de la Justice 2025"
+    date: "2025-10-28"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A0
+    refresh: annual
+    mots_cles: [judicial]
+    use: "Volumes et moyens de la justice civile, pénale, des mineurs et administrative."
+    status: VERIFIED
+    url: "https://www.justice.gouv.fr/documentation/etudes-et-statistiques/chiffres-cles-justice-2025"
+    verification: "Page et PDF lus le 2026-10-21. Révisé le 2025-12-18 et le 2026-03-03."
+
+  - source_id: FR-CPL-0021
+    domain: constitutional_review
+    institution: "Conseil constitutionnel"
+    title: "Rapport d’activité 2025"
+    date: "2026-02-23"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [judicial, legislative]
+    use: "Production du contrôle de constitutionnalité : QPC, contrôle a priori des lois et contentieux électoral, de septembre 2024 à décembre 2025."
+    status: VERIFIED
+    url: "https://www.conseil-constitutionnel.fr/sites/default/files/2026-02/rapport-activite-2025.pdf"
+    verification: "Site injoignable depuis le serveur. PDF transmis à la main et lu le 2026-10-21 : 74 pages, titre « Rapport d’activité du Conseil Constitutionnel 2025 », fichier produit le 2026-02-09 et modifié le 2026-02-12 ; 398 décisions du 1er septembre 2024 au 31 décembre 2025, dont 28 DC, 72 QPC et 285 électorales. Date de mise en ligne tirée d’une source secondaire."
