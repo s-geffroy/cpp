@@ -18,6 +18,7 @@
   {
     "actor_id": "FR-ACT-0002",
     "nom": "BPIFRANCE PARTICIPATIONS",
+    "nom_usuel": "Bpifrance Participations",
     "type_acteur": "organisme_financier_public",
     "forme_juridique": "SA à conseil d’administration",
     "categories": [
@@ -48,6 +49,7 @@
   {
     "actor_id": "FR-ACT-0003",
     "nom": "CAISSE DES DEPOTS ET CONSIGNATIONS",
+    "nom_usuel": "Caisse des dépôts",
     "type_acteur": "etablissement_public",
     "forme_juridique": "Personne morale de droit administratif (catégorie Sirene 7490)",
     "categories": [
@@ -73,6 +75,7 @@
   {
     "actor_id": "FR-ACT-0004",
     "nom": "SOGEPA",
+    "nom_usuel": "Sogepa",
     "type_acteur": "holding_publique",
     "forme_juridique": "SAS",
     "categories": [
@@ -124,6 +127,7 @@
   {
     "actor_id": "FR-ACT-0006",
     "nom": "FSI EQUATION",
+    "nom_usuel": "FSI Equation",
     "type_acteur": "holding_publique",
     "categories": [
       "FR-NODE-012"
@@ -183,6 +187,7 @@
   {
     "actor_id": "FR-ACT-0008",
     "nom": "ENGIE",
+    "nom_usuel": "Engie",
     "type_acteur": "entreprise",
     "forme_juridique": "SA à conseil d’administration",
     "categories": [
@@ -410,6 +415,7 @@
   {
     "actor_id": "FR-ACT-0017",
     "nom": "ERAMET",
+    "nom_usuel": "Eramet",
     "type_acteur": "entreprise",
     "forme_juridique": "SA à conseil d’administration",
     "categories": [
@@ -459,6 +465,7 @@
   {
     "actor_id": "FR-ACT-0019",
     "nom": "NAVAL GROUP",
+    "nom_usuel": "Naval Group",
     "type_acteur": "entreprise",
     "forme_juridique": "SA à conseil d’administration",
     "categories": [
@@ -487,6 +494,7 @@
   {
     "actor_id": "FR-ACT-0020",
     "nom": "GIAT INDUSTRIES",
+    "nom_usuel": "GIAT Industries",
     "type_acteur": "holding_publique",
     "forme_juridique": "SAS",
     "categories": [
@@ -540,6 +548,7 @@
   {
     "actor_id": "FR-ACT-0022",
     "nom": "KNDS FRANCE",
+    "nom_usuel": "KNDS France",
     "type_acteur": "entreprise",
     "forme_juridique": "SA à conseil d’administration",
     "categories": [
@@ -732,6 +741,7 @@
   {
     "actor_id": "FR-ACT-0029",
     "nom": "JOHN COCKERILL DEFENSE",
+    "nom_usuel": "John Cockerill Defense",
     "type_acteur": "entreprise",
     "forme_juridique": "Société anonyme de droit belge",
     "categories": [
@@ -762,6 +772,7 @@
   {
     "actor_id": "FR-ACT-0030",
     "nom": "DASSAULT AVIATION",
+    "nom_usuel": "Dassault Aviation",
     "type_acteur": "entreprise",
     "forme_juridique": "SA à conseil d’administration",
     "categories": [
@@ -813,6 +824,7 @@
   {
     "actor_id": "FR-ACT-0032",
     "nom": "ARIANEGROUP SAS",
+    "nom_usuel": "ArianeGroup",
     "type_acteur": "entreprise",
     "forme_juridique": "SAS",
     "categories": [
@@ -839,6 +851,7 @@
   {
     "actor_id": "FR-ACT-0033",
     "nom": "ARIANEGROUP HOLDING",
+    "nom_usuel": "ArianeGroup Holding",
     "type_acteur": "entreprise",
     "forme_juridique": "SAS",
     "categories": [
@@ -865,6 +878,7 @@
   {
     "actor_id": "FR-ACT-0034",
     "nom": "AUBERT & DUVAL",
+    "nom_usuel": "Aubert & Duval",
     "type_acteur": "entreprise",
     "forme_juridique": "SAS",
     "categories": [
@@ -891,6 +905,7 @@
   {
     "actor_id": "FR-ACT-0035",
     "nom": "AD HOLDING",
+    "nom_usuel": "AD Holding",
     "type_acteur": "entreprise",
     "forme_juridique": "SAS",
     "categories": [
@@ -942,6 +957,7 @@
   {
     "actor_id": "FR-ACT-0037",
     "nom": "EXXELIA INTERNATIONAL",
+    "nom_usuel": "Exxelia International",
     "type_acteur": "entreprise",
     "forme_juridique": "SAS",
     "categories": [
@@ -966,6 +982,7 @@
   {
     "actor_id": "FR-ACT-0038",
     "nom": "AIRBUS DEFENCE AND SPACE HOLDING FRANCE SAS",
+    "nom_usuel": "Airbus Defence and Space Holding France",
     "type_acteur": "entreprise",
     "forme_juridique": "SAS",
     "categories": [
@@ -991,6 +1008,7 @@
   {
     "actor_id": "FR-ACT-0039",
     "nom": "SAFRAN CERAMICS",
+    "nom_usuel": "Safran Ceramics",
     "type_acteur": "entreprise",
     "forme_juridique": "SA",
     "categories": [

@@ -16,14 +16,15 @@ Deux listes tirees des liens, une fois pour toutes :
   - les societes detenues (au moins un lien entrant), triees par nom ;
   - les detenteurs de tete (aucun lien entrant), dans l'ordre du registre.
 Liquid ne trie pas sur une valeur calculee : on passe par des chaines
-« nom|identifiant », triees puis redecoupees.
+« nom<tabulation>identifiant », triees puis redecoupees. La tabulation
+precede tout caractere imprimable : « Safran » passe avant « Safran Ceramics ».
 {%- endcomment -%}
 {%- assign cles = "" | split: "" -%}
 {%- assign tetes = "" | split: "" -%}
 {%- for a in acteurs -%}
   {%- assign entrants = liens | where: "target_actor", a.actor_id -%}
   {%- if entrants.size > 0 -%}
-    {%- capture cle %}{{ a.nom_usuel | default: a.nom }}|{{ a.actor_id }}{% endcapture -%}
+    {%- capture cle %}{{ a.nom_usuel | default: a.nom }}	{{ a.actor_id }}{% endcapture -%}
     {%- assign cles = cles | push: cle -%}
   {%- else -%}
     {%- assign tetes = tetes | push: a -%}
@@ -104,7 +105,7 @@ paquet** — le début du registre que la
 
 <nav class="index-societes" aria-label="Aller à une société">
   {%- for cle in cles -%}
-  {%- assign morceaux = cle | split: "|" %}
+  {%- assign morceaux = cle | split: "	" %}
   <a href="#{{ morceaux[1] }}">{{ morceaux[0] }}</a>
   {%- endfor %}
 </nav>
@@ -117,7 +118,7 @@ paquet** — le début du registre que la
 
 <div class="fiches" data-filtre-cible="societes">
 {%- for cle in cles %}
-  {%- assign id = cle | split: "|" | last -%}
+  {%- assign id = cle | split: "	" | last -%}
   {%- assign a = acteurs | where: "actor_id", id | first -%}
   {%- assign entrants = liens | where: "target_actor", id -%}
   {%- assign sortants = liens | where: "source_actor", id -%}
@@ -135,7 +136,9 @@ paquet** — le début du registre que la
            data-recherche="{{ cherchable | normalize_whitespace | downcase | escape }}">
     <h3>{{ a.nom_usuel | default: a.nom }}</h3>
     <p class="meta">
-      {%- if a.nom_usuel %}{{ a.nom }}, {% endif -%}
+      {%- assign nom_bas = a.nom | downcase -%}
+      {%- assign usuel_bas = a.nom_usuel | downcase -%}
+      {%- if a.nom_usuel and nom_bas != usuel_bas %}{{ a.nom }}, {% endif -%}
       {{ a.forme_juridique | default: lib.types_acteur[a.type_acteur] }}
       {%- if a.cote %}, cotée{% endif -%}
       {%- if a.identifiants.siren %} · SIREN {{ a.identifiants.siren }}{% endif -%}
