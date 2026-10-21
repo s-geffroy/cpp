@@ -488,9 +488,158 @@ td.nombre {
   border-color: var(--attention-trait);
 }
 
-.chiffres-lien {
-  margin: 0 0 0.5rem;
+/* ------------------------------------------------------------------------ *
+ * Registre des acteurs : une fiche par societe detenue
+ *
+ * La question du lecteur est « qui detient quoi dans cette societe ». Chaque
+ * fiche aligne ses detenteurs sur la meme grille, pour que les parts se
+ * comparent d'un coup d'oeil -- sans jamais etre additionnees.
+ * ------------------------------------------------------------------------ */
+.index-societes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.15rem 0.9rem;
+  margin: 1rem 0 0;
+  font-size: 0.875rem;
+}
+
+.fiches { margin-top: 1.5rem; }
+
+.fiche {
+  padding: 1.1rem 0 1.25rem;
+  border-top: 1px solid var(--trait-fort);
+  scroll-margin-top: 1rem;
+}
+
+.fiche h3 {
+  margin: 0;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.fiche > .meta { margin: 0.15rem 0 0.75rem; }
+
+.lignes-liens {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.ligne-lien {
+  display: grid;
+  grid-template-columns: minmax(11rem, 1.2fr) 1fr 1fr minmax(11rem, 1fr);
+  gap: 0.3rem 1.5rem;
+  padding: 0.7rem 0;
+  border-top: 1px solid var(--trait);
+  scroll-margin-top: 1rem;
+}
+
+.ligne-lien:target { background: var(--fond-survol); }
+
+.ligne-lien .qui a { font-weight: 600; }
+.ligne-lien .qui .meta { margin-top: 0.1rem; }
+
+/* Un droit qui n'est pas une part du capital occupe les deux colonnes des
+   jauges : il ne doit pas ressembler a un pourcentage manquant. */
+.ligne-lien .droit { grid-column: span 2; font-size: 0.875rem; }
+.ligne-lien .droit .meta { display: block; margin-top: 0.1rem; }
+
+.part { font-size: 0.8125rem; color: var(--texte-doux); }
+
+.valeur {
+  font-size: 1rem;
+  font-weight: 600;
   font-variant-numeric: tabular-nums;
+  color: var(--texte);
+}
+
+.valeur.absente { font-weight: 400; font-style: italic; color: var(--texte-doux); }
+
+/* Jauge sur 100 %. Les deux repères (1/3, 1/2) sont dessines dans le fond de
+   la piste, au-dessus du remplissage, pour rester visibles quand la part les
+   depasse. */
+.jauge {
+  position: relative;
+  display: block;
+  height: 0.5rem;
+  margin-top: 0.3rem;
+  max-width: 14rem;
+  background: var(--fond-doux);
+  border: 1px solid var(--trait);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+.jauge > span {
+  display: block;
+  height: 100%;
+  background: var(--texte-doux);
+}
+
+.jauge::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(var(--fond), var(--fond)) 33.333% 0 / 1px 100% no-repeat,
+    linear-gradient(var(--fond), var(--fond)) 50% 0 / 1px 100% no-repeat;
+}
+
+/* Droits de vote non publies : hachures, comme les lacunes du site. Un vide
+   ne doit pas se lire comme un zero. */
+.jauge.vide {
+  background: repeating-linear-gradient(-45deg, transparent 0 3px, var(--trait) 3px 4px);
+}
+
+.legende-jauge {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  max-width: var(--prose);
+  margin: 0.9rem 0 0;
+  font-size: 0.8125rem;
+  color: var(--texte-doux);
+}
+
+.legende-jauge .jauge { flex: 0 0 5rem; margin: 0; }
+
+.statut { font-size: 0.8125rem; }
+.statut .controle { display: block; margin-bottom: 0.2rem; color: var(--texte); }
+
+.ne-prouve-pas,
+.detail-lien {
+  grid-column: 1 / -1;
+  max-width: var(--prose);
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.ne-prouve-pas {
+  padding-left: 0.75rem;
+  border-left: 3px solid var(--trait-fort);
+  color: var(--texte-doux);
+}
+
+.detail-lien { font-size: 0.8125rem; color: var(--texte-doux); }
+.detail-lien summary { cursor: pointer; color: var(--accent); width: max-content; }
+.detail-lien p { margin: 0.35rem 0 0; }
+
+.aval,
+.fiche > .note {
+  max-width: var(--prose);
+  margin: 0.6rem 0 0;
+  font-size: 0.875rem;
+}
+
+@media (max-width: 46rem) {
+  .ligne-lien { grid-template-columns: 1fr 1fr; gap: 0.4rem 1rem; }
+  .ligne-lien .qui,
+  .ligne-lien .statut { grid-column: 1 / -1; }
+}
+
+@media print {
+  .index-societes, .legende-jauge { display: none; }
+  .detail-lien > * { display: block; }
 }
 
 .matrice tr.couverture-ferme td:first-child { box-shadow: inset 3px 0 0 var(--succes); }
