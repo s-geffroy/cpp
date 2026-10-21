@@ -470,6 +470,29 @@ td.nombre {
   border-color: var(--accent);
 }
 
+/* Statut de preuve d'un lien du registre des acteurs. Le libelle est toujours
+   ecrit en toutes lettres : la couleur ne fait que le souligner. */
+.pastille.preuve-p4 {
+  color: var(--succes);
+  background: var(--succes-fond);
+  border-color: var(--succes-trait);
+}
+
+.pastille.preuve-p3 { color: var(--texte); border-color: var(--trait-fort); }
+
+.pastille.preuve-p2,
+.pastille.preuve-p1,
+.pastille.preuve-p0 {
+  color: var(--attention);
+  background: var(--attention-fond);
+  border-color: var(--attention-trait);
+}
+
+.chiffres-lien {
+  margin: 0 0 0.5rem;
+  font-variant-numeric: tabular-nums;
+}
+
 .matrice tr.couverture-ferme td:first-child { box-shadow: inset 3px 0 0 var(--succes); }
 .matrice tr.couverture-partiel td:first-child { box-shadow: inset 3px 0 0 var(--attention); }
 .matrice tr.couverture-lacune td:first-child { box-shadow: inset 3px 0 0 var(--danger); }

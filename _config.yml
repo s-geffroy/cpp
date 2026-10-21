@@ -54,6 +54,7 @@ theme: minima
 header_pages:
   - registre.md
   - carte.md
+  - acteurs.md
   - dimensions.md
   - couverture.md
   - methode.md

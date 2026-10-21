@@ -60,6 +60,13 @@ de chaque relation, plutôt que laissées à l’interprétation du lecteur.
     vue d’ensemble&nbsp;: qui régule qui, qui finance qui, qui dépend de qui.</p>
   </li>
   <li>
+    <a href="{{ '/acteurs/' | relative_url }}">Qui possède quoi</a>
+    <p>{{ site.data.acteurs.acteurs | size }} organisations nommées et
+    {{ site.data.acteurs.liens | size }} liens&nbsp;: ce que l’État détient dans
+    les grandes entreprises cotées et dans l’industrie de défense, avec la page
+    du document où se lit chaque chiffre.</p>
+  </li>
+  <li>
     <a href="{{ '/couverture/' | relative_url }}">Ce qu’on sait et ce qu’on ignore</a>
     <p>Domaine par domaine, l’état du recensement. La page la plus honnête du
     site, et sans doute la plus instructive.</p>

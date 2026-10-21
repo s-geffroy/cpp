@@ -110,6 +110,13 @@ relation non documentée, jamais une relation inexistante.
 
 ## Ce que l’étape suivante suppose
 
+**Ce site l’a commencée.** Le [registre des acteurs]({{ '/acteurs/' | relative_url }})
+nomme {{ site.data.acteurs.acteurs | size }} organisations et
+{{ site.data.acteurs.liens | size }} liens, chacun avec son statut de preuve :
+les participations de l’État dans les sociétés cotées et dans l’industrie de
+défense. C’est un ajout éditorial, hors paquet, et un premier périmètre — pas
+encore le graphe complet que décrit le paragraphe suivant.
+
 Passer au registre des acteurs demande de descendre de la **catégorie** à
 l'**organisation nommée**, avec pour chacune la chaîne exigée par la
 [méthode]({{ '/methode/' | relative_url }}#graphe) : entité juridique,

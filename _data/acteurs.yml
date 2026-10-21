@@ -1,0 +1,1476 @@
+# Registre des acteurs v0.2 : AJOUT EDITORIAL DE CE SITE, HORS PAQUET.
+#
+# Pilote : les participations de l'Etat dans les societes cotees de son
+# portefeuille, plus EDF (retiree de la cote). Schema :
+# assets/donnees/ajout_acteurs.schema.json.
+#
+# Regles appliquees ici (cf. methode, regles du graphe des entreprises) :
+#   - seuls les liens DIRECTS sont saisis ; une chaine Etat -> holding ->
+#     societe s'ecrit en deux liens, jamais additionnes ;
+#   - capital et droits de vote toujours distincts ;
+#   - 'controle' reprend la qualification ECRITE par la source, sinon
+#     non_qualifie ; il n'est jamais deduit du pourcentage ;
+#   - categories : FR-NODE-013 si l'Etat detient la majorite du capital
+#     (directement ou par une holding qu'il detient entierement), ou si le
+#     document de la societe qualifie le controle de l'Etat (seul ou dans un
+#     concert ou il n'est pas declare minoritaire) ; FR-NODE-014 pour un grand
+#     groupe francais hors de ces cas ; puis les categories sectorielles. Une
+#     societe etrangere ou trop petite pour 014 n'a que sa categorie sectorielle ;
+#   - aucune personne physique ;
+#   - pages : « imprimee / PDF » ; pour les depots ESEF (xhtml), page
+#     imprimee seule.
+#
+# Statut VERIFIED : chaque valeur a ete relue dans la source citee, puis
+# validee par l'editeur du site le 2026-10-21. Une ligne en P2 ou P3 reste
+# VERIFIED : c'est sa transcription qui est verifiee, sa force probante est
+# dite par 'preuve' et 'incertitude'.
+#
+# Les textes (notes, garde-fous, incertitudes) sont lus par les visiteurs :
+# francais normal, avec accents.
+
+meta:
+  auteur: "France-System-2026 (ce site)"
+  date_arret: "2026-08-12"
+  statut: "Pilote et périmètre de défense, validés le 2026-10-21"
+  recoupement: "Les détentions de l’État ont été recoupées avec le rapport d’activité 2025-2026 de l’Agence des participations de l’État. Ce rapport, paru en octobre 2026, est postérieur à la date d’arrêt : il n’est cité nulle part. Pour les sociétés cotées, il ne montre aucun écart au-delà de l’évolution des droits de vote double entre le 31 décembre 2025 et le 30 juin 2026, et confirme le maintien de l’État à 29,7 % du capital d’Eutelsat. Pour les entreprises non cotées, il donne au 31 décembre 2025 les mêmes parts que les sources citées, souvent arrêtées un an plus tôt."
+  lacunes:
+    - nom: "Civipol"
+      raison: "Inscrite au périmètre de l’APE, mais la part de l’État au capital n’est publiée dans aucune source lue."
+    - nom: "Bull"
+      raison: "L’État en est l’unique actionnaire depuis le 31 mars 2026 (communiqué d’Atos), mais l’entité juridique acquise n’est pas nommée : deux sociétés candidates, aucune confirmée."
+    - nom: "Roxel France"
+      raison: "Ajoutée en septembre 2025 à la liste des entités où l’État détient une seule action ; actionnariat et droits non instruits."
+    - nom: "Adit"
+      raison: "L’État y détient une action, mais l’activité (intelligence économique) sort du périmètre de l’armement retenu ici."
+    - nom: "GEAST"
+      raison: "L’État a cédé son action à EDF en 2024 ; retirée de la liste officielle en 2025, la société a été dissoute."
+    - nom: "LMB"
+      raison: "L’État y a acquis une action en mars 2026, mais la société ne figure pas dans la liste officielle à la date d’arrêt."
+
+acteurs:
+
+  # --- L'actionnaire et ses véhicules ---------------------------------------
+
+  - actor_id: FR-ACT-0001
+    nom: "État français"
+    type_acteur: etat
+    categories: [FR-NODE-012]
+    citations:
+      - source_id: FR-SRC-0020
+        url: "https://www.economie.gouv.fr/agence-participations-etat/comprendre-lape/les-entreprises-de-lape"
+    statut: VERIFIED
+    notes: "Détenteur juridique des titres. Ses participations sont gérées par l’Agence des participations de l’État, service à compétence nationale sans personnalité morale : l’APE n’est donc jamais actionnaire en son nom."
+
+  - actor_id: FR-ACT-0002
+    nom: "BPIFRANCE PARTICIPATIONS"
+    type_acteur: organisme_financier_public
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-013]
+    identifiants: { siren: "509584074", lei: "969500L8H4KWQN9BFU89" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=509584074" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500L8H4KWQN9BFU89" }
+      - { source_id: FR-CPL-0038, url: "https://bdif.amf-france.org/back/api/v1/documents/2025/225C1150/00765B9616F5A106A4BB9D073FF1D8EDD94E4534EA6699CEA2E004AE0555D68B.pdf", localisation: "note 1" }
+    statut: VERIFIED
+    notes: "N’est pas l’État : contrôlée par Bpifrance SA, elle-même « contrôlée à 49,2 % par la CDC et à 49,2 % par » l’EPIC Bpifrance (avis AMF 225C1150). La carte v0.1 n’a pas de catégorie pour les institutions financières publiques."
+
+  - actor_id: FR-ACT-0003
+    nom: "CAISSE DES DEPOTS ET CONSIGNATIONS"
+    type_acteur: etablissement_public
+    forme_juridique: "Personne morale de droit administratif (catégorie Sirene 7490)"
+    categories: [FR-NODE-013]
+    identifiants: { siren: "180020026", lei: "969500Q2PFTTP0Y5QL44" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=180020026" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500Q2PFTTP0Y5QL44" }
+    statut: VERIFIED
+    notes: "Statut légal précis non lu dans un document. Même remarque que pour Bpifrance sur l’absence de catégorie dans la carte."
+
+  - actor_id: FR-ACT-0004
+    nom: "SOGEPA"
+    type_acteur: holding_publique
+    forme_juridique: "SAS"
+    categories: [FR-NODE-012]
+    identifiants: { siren: "318186756", lei: "969500MDPO54P570K637" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=318186756" }
+      - { source_id: FR-CPL-0027, url: "https://mediaassets.airbus.com/pm_38_919_919350-ko9v34j5cg.pdf?fileName=airbus-report-of-the-board-of-directors-2025.pdf", localisation: "§ 4.2.1, p. 109 / PDF 110" }
+    statut: VERIFIED
+    notes: "Véhicule de la participation française dans Airbus (« the French State held 10.83% […] through Sogepa »). Le pourcentage de l’État dans Sogepa n’est donné par aucune source lue : aucun lien État → Sogepa n’est donc saisi."
+
+  - actor_id: FR-ACT-0005
+    nom: "TSA"
+    type_acteur: holding_publique
+    forme_juridique: "SAS"
+    categories: [FR-NODE-012]
+    identifiants: { siren: "542089750" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=542089750" }
+      - { source_id: FR-CPL-0029, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip", localisation: "§ 6.2.3.2.1, p. 237" }
+    statut: VERIFIED
+    notes: "Holding de la participation publique dans Thales. Aucun LEI trouvé."
+
+  - actor_id: FR-ACT-0006
+    nom: "FSI EQUATION"
+    type_acteur: holding_publique
+    categories: [FR-NODE-012]
+    identifiants: { siren: "751485780", lei: "969500WOBHBEJJWS4J38" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=751485780" }
+      - { source_id: FR-CPL-0034, url: "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf", localisation: "p. 577 et p. 584" }
+      - { source_id: FR-CPL-0039, url: "https://bdif.amf-france.org/back/api/v1/documents/2016/216C1953/63F2ECA5B34121DFE255F5ADE58F50211B6648DFA90411F909E241250DFC6F46.pdf", localisation: "p. 1" }
+    statut: VERIFIED
+    notes: "Véhicule de la participation publique dans Eramet. LEI non renouvelé (statut LAPSED chez GLEIF)."
+
+  # --- Les sociétés -----------------------------------------------------------
+
+  - actor_id: FR-ACT-0007
+    nom: "Orange"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-014, FR-NODE-034]
+    identifiants: { siren: "380129866", lei: "969500MCOONR8990S771", isin: "FR0000133308" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0023, url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf", localisation: "p. 558 / PDF 560" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500MCOONR8990S771" }
+    statut: VERIFIED
+    notes: "ISIN tiré de GLEIF, absent du document. Catégorie 014 : le document écarte le contrôle par la sphère publique."
+
+  - actor_id: FR-ACT-0008
+    nom: "ENGIE"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-014, FR-NODE-032]
+    identifiants: { siren: "542107651", lei: "LAXUQCHT4FH58LRZDY46", isin: "FR0010208488" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0024, url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf", localisation: "§ 7.1.4, p. 532 / PDF 534" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0009
+    nom: "Renault"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-014]
+    identifiants: { siren: "441639465", lei: "969500F7JLTX36OUI695", isin: "FR0000131906" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0025, url: "https://assets.renaultgroup.com/uploads/2026/03/DEU_2025_comp_202603191340.pdf", localisation: "§ 6.1.1.2, p. 564" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0010
+    nom: "La Française des Jeux"
+    nom_usuel: "FDJ United"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-013]
+    identifiants: { siren: "315065292", lei: "969500R4CLSQFTYYI535", isin: "FR0013451333" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0026, url: "https://www.fdjunited.com/wp-content/uploads/2026/03/document-denregistrement-universel-2025-accessible.pdf", localisation: "§ 7.1.1, p. 492 / PDF 494" }
+    statut: VERIFIED
+    notes: "Catégorie 013 : le document parle d’un « contrôle étroit » de l’État, tenu de la loi Pacte et non du capital."
+
+  - actor_id: FR-ACT-0011
+    nom: "Airbus SE"
+    type_acteur: entreprise
+    forme_juridique: "Société européenne de droit néerlandais"
+    categories: [FR-NODE-031]
+    identifiants: { lei: "MINO79WLOO247M1IL051", isin: "NL0000235190", autre: { registre: "Handelsregister (Pays-Bas)", cle: "24288945" } }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0027, url: "https://mediaassets.airbus.com/pm_38_919_919350-ko9v34j5cg.pdf?fileName=airbus-report-of-the-board-of-directors-2025.pdf", localisation: "PDF 3" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/MINO79WLOO247M1IL051" }
+    statut: VERIFIED
+    notes: "Ni 013 ni 014 : société de droit néerlandais. Un pacte de 2013 lie Sogepa à ses homologues allemand (GZBV) et espagnol (SEPI), sans droit de désigner des administrateurs ; les participations étrangères ne sont pas saisies. L’État dispose de droits contractuels (« French State Security Agreement ») sur la filiale de missiles balistiques, qui ne sont pas une action spécifique."
+
+  - actor_id: FR-ACT-0012
+    nom: "Safran"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-014, FR-NODE-031]
+    identifiants: { siren: "562082909", lei: "969500UIC89GT3UL7L24", isin: "FR0000073272" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.1.1" }
+    statut: VERIFIED
+    notes: "Pas d’action spécifique au capital de Safran ; une convention de 2004 s’y substitue. Une action spécifique existe chez sa participation AD SAS (Aubert & Duval), décret n° 2022-1182."
+
+  - actor_id: FR-ACT-0013
+    nom: "Thales"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-013, FR-NODE-031]
+    identifiants: { siren: "552059024", lei: "529900FNDVTQJOVVPZ19", isin: "FR0000121329" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0029, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip", localisation: "p. 234" }
+    statut: VERIFIED
+    notes: "L’État détient en direct 2 060 actions, dont l’action spécifique ; le document n’affiche pas de pourcentage, aucun lien de détention directe n’est donc saisi. Catégorie 013 : contrôle par le concert TSA–Dassault Aviation, « TSA étant majoritaire » ; Dassault Aviation (26,59 %) est un actionnaire privé, non saisi."
+
+  - actor_id: FR-ACT-0014
+    nom: "Eutelsat Communications"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-014, FR-NODE-034]
+    identifiants: { siren: "481043040", lei: "549300EFWH9UR17YSK05", isin: "FR0010221234" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0030, url: "https://bdif.amf-france.org/back/api/v1/documents/2025/D.25-0693/930549A36881472B475A0725179FEDB5FBCC97297B3D091D0DDD60D58D1CE704.zip", localisation: "§ 7.3.1, p. 353" }
+    statut: VERIFIED
+    notes: "Catégorie 014 : au 30 juin 2025, « aucun des actionnaires […] n’en détient […] le contrôle ». Le pacte de septembre 2025 (État, Bharti, gouvernement britannique, CMA CGM, FSP) précise que ses parties agissent « séparément et sans concert ». Une action spécifique est annoncée chez la filiale Eutelsat S.A., sans confirmation de sa mise en place."
+
+  - actor_id: FR-ACT-0015
+    nom: "Aéroports de Paris"
+    nom_usuel: "Groupe ADP"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-013]
+    identifiants: { siren: "552016628", lei: "969500PJMBSFHYC37989", isin: "FR0010340141" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0032, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0180/7857F887D2649A7DA34278B46C5A29E746D62AC7106140564E6D9986DB93A4BE.zip", localisation: "§ 8.1.1, p. 610" }
+    statut: VERIFIED
+    notes: "Les statuts interdisent que l’État perde la majorité du capital (art. 7)."
+
+  - actor_id: FR-ACT-0016
+    nom: "Air France-KLM"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-014]
+    identifiants: { siren: "552043002", lei: "969500AQW31GYO8JZD66", isin: "FR001400J770" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0033, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0138/4896F8450007BD1A8B72ACD1336FA3057057251E122B2BE1A184DA6ADD4ABBD7.zip", localisation: "§ 6.2, p. 513" }
+    statut: VERIFIED
+    notes: "L’État néerlandais détient 9,1 % du capital et 12,8 % des droits de vote : actionnaire public étranger, non saisi."
+
+  - actor_id: FR-ACT-0017
+    nom: "ERAMET"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-014]
+    identifiants: { siren: "632045381", lei: "549300LUH78PG2MP6N64", isin: "FR0000131757" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0034, url: "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf", localisation: "p. 113 et p. 580" }
+    statut: VERIFIED
+    notes: "Catégorie 014 et non 013 : la société est « contrôlée majoritairement par un groupe d’actionnaires ayant déclaré agir de concert », Sorame–CEIR et l’APE via FSI Equation, mais l’État a déclaré en 2016 que le sous-concert Sorame–CEIR, contrôlé par la famille Duval, y est « prédominant » et qu’il n’envisage pas d’acquérir seul le contrôle (FR-CPL-0039). L’État détient aussi 100 actions en direct (non significatif). Les comptes du document additionnent FSI Equation et l’État sur une ligne : cette somme n’est pas reprise."
+
+  - actor_id: FR-ACT-0018
+    nom: "ELECTRICITE DE FRANCE"
+    nom_usuel: "EDF"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-013, FR-NODE-032]
+    identifiants: { siren: "552081317", lei: "549300X3UK4GG3FNMO06" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0035, url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf", localisation: "p. 560" }
+    statut: VERIFIED
+    notes: "Actions non cotées ; seules des obligations sont admises sur Euronext Paris."
+
+  # --- Défense : participations et actions de l’État ------------------------
+
+  - actor_id: FR-ACT-0019
+    nom: "NAVAL GROUP"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-013, FR-NODE-031]
+    identifiants: { siren: "441133808", lei: "969500H6VMRN7AY1ZU14" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0041, url: "https://www.naval-group.com/sites/default/files/2026-03/Rapport%20annuel%20Naval%20Group%202025%20FR.pdf", localisation: "§ I.1, p. 6 / PDF 8" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=441133808" }
+    statut: VERIFIED
+    notes: "Catégorie 013 : l’État détient la majorité du capital et le rapport annuel écrit qu’il « exerce un contrôle exclusif »."
+
+  - actor_id: FR-ACT-0020
+    nom: "GIAT INDUSTRIES"
+    type_acteur: holding_publique
+    forme_juridique: "SAS"
+    categories: [FR-NODE-012]
+    identifiants: { siren: "352751143", lei: "969500L9DRFZMHTPL071" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=352751143" }
+      - { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 / PDF 115" }
+    statut: VERIFIED
+    notes: "Holding de la participation française dans KNDS. Son président préside aussi SNPE et Eurenco Holding."
+
+  - actor_id: FR-ACT-0021
+    nom: "KNDS N.V."
+    type_acteur: entreprise
+    forme_juridique: "Naamloze vennootschap (droit néerlandais)"
+    categories: [FR-NODE-013, FR-NODE-031]
+    identifiants: { lei: "254900QYYM8KPT242N68", autre: {'registre': 'Handelsregister (Pays-Bas)', 'cle': '64277925'} }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0042, url: "https://www.lobbyregister.bundestag.de/media/be/4c/802681/2025_KNDS_Directors_report_Financial_statements_SIGNED_26139eae7b.pdf", localisation: "p. 3, p. 94 et p. 109" }
+    statut: VERIFIED
+    notes: "Société de droit néerlandais détenue à parité par GIAT Industries et Wegmann & Co. GmbH (famille Bode-Wegmann, actionnaire privé non saisi). Catégorie 013 : contrôle conjoint, l’État n’y étant pas minoritaire. Selon les sources lues, ni l’accord franco-allemand du 22 juin 2026 ni la suspension de l’introduction en bourse le 1er juillet 2026 n’ont modifié le capital avant la date d’arrêt."
+
+  - actor_id: FR-ACT-0022
+    nom: "KNDS FRANCE"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "379706344", lei: "969500NIRB416KF4A559" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=379706344" }
+      - { source_id: FR-CPL-0042, url: "https://www.lobbyregister.bundestag.de/media/be/4c/802681/2025_KNDS_Directors_report_Financial_statements_SIGNED_26139eae7b.pdf", localisation: "note 39, p. 107" }
+      - { source_id: FR-CPL-0046, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051261189", localisation: "art. 1, 2°" }
+    statut: VERIFIED
+    notes: "Ex-Nexter Systems, renommée dans la liste officielle par le décret n° 2025-193. Le rapport de KNDS la nomme « KNDS France Systems S.A. » avec un siège à Roanne, Sirene « KNDS FRANCE » à Versailles : écart de dénomination non résolu."
+
+  - actor_id: FR-ACT-0023
+    nom: "TECHNIQUE ENERGIE ATOMIQUE - TECHNICATOME"
+    nom_usuel: "TechnicAtome"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-013, FR-NODE-031]
+    identifiants: { siren: "722045879", lei: "969500ZIOF3SFK1RAY58" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=722045879" }
+      - { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 89 / PDF 84" }
+    statut: VERIFIED
+    notes: "Catégorie 013 : l’État détient la majorité du capital. Propulsion nucléaire navale."
+
+  - actor_id: FR-ACT-0024
+    nom: "COMMISSARIAT A L'ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES"
+    nom_usuel: "CEA"
+    type_acteur: etablissement_public
+    forme_juridique: "Établissement public (catégorie Sirene 4120)"
+    categories: [FR-NODE-046]
+    identifiants: { siren: "775685019" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=775685019" }
+    statut: VERIFIED
+    notes: "Saisi comme actionnaire de TechnicAtome."
+
+  - actor_id: FR-ACT-0025
+    nom: "DEFENSE CONSEIL INTERNATIONAL"
+    nom_usuel: "DCI"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "722031176", lei: "969500OQ205K7N22KB84" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=722031176" }
+      - { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122" }
+    statut: VERIFIED
+    notes: "L’État a cédé sa participation majoritaire en avril 2024 à Holding DCI (groupe ADIT) et conserve 34 % ; la part de l’acquéreur n’est publiée que par une source secondaire, non saisie. L’État détient aussi une action de préférence « dotée de droits spécifiques » (rapport de l’APE 2023-2024)."
+
+  - actor_id: FR-ACT-0026
+    nom: "ODAS"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "491608642", lei: "894500JUA7YADE8WWB11" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=491608642" }
+      - { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122" }
+    statut: VERIFIED
+    notes: "Opérateur de contrats d’exportation de défense d’État à État. Les autres actionnaires (industriels de défense) ne sont pas publiés pour 2024-2025. LEI non renouvelé."
+
+  - actor_id: FR-ACT-0027
+    nom: "SNPE"
+    type_acteur: holding_publique
+    forme_juridique: "SAS"
+    categories: [FR-NODE-012]
+    identifiants: { siren: "712013432", lei: "969500VY3US76MX3IZ83" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=712013432" }
+      - { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 ; p. 90" }
+    statut: VERIFIED
+    notes: "Holding de la participation de l’État dans Eurenco."
+
+  - actor_id: FR-ACT-0028
+    nom: "EURENCO HOLDING"
+    nom_usuel: "Eurenco"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration (selon Sirene)"
+    categories: [FR-NODE-013, FR-NODE-031]
+    identifiants: { siren: "879609634", lei: "969500R1SVS71TGTGP95" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=879609634" }
+      - { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 90 / PDF 85" }
+    statut: VERIFIED
+    notes: "Catégorie 013 : détenue entièrement par SNPE, elle-même détenue entièrement par l’État. Poudres et explosifs. La liste de l’APE dit « SAS », Sirene et l’annexe de gouvernance « SA »."
+
+  - actor_id: FR-ACT-0029
+    nom: "JOHN COCKERILL DEFENSE"
+    type_acteur: entreprise
+    forme_juridique: "Société anonyme de droit belge"
+    categories: [FR-NODE-031]
+    identifiants: { lei: "529900TY2GYO7NSVF328", autre: {'registre': 'Banque-Carrefour des Entreprises (Belgique)', 'cle': '0563837739'} }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 92 / PDF 87" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/529900TY2GYO7NSVF328" }
+    statut: VERIFIED
+    notes: "Société anonyme de droit belge, commercialisant ses produits sous la marque Arquus. Deux entités belges portent ce nom ; celle qui a reçu l’investissement de l’État n’est pas établie : identifiants à confirmer. Le groupe John Cockerill (80 %) et l’État belge (10 %, via la SFPI) ne sont pas saisis."
+
+  - actor_id: FR-ACT-0030
+    nom: "DASSAULT AVIATION"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-014, FR-NODE-031]
+    identifiants: { siren: "712042456", lei: "969500CVFTUT88V8QN95", isin: "FR0000121725" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0051, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0302/C25FD0970B58A792BF5CAE85AF0A1F7D309D6531199AE45922A383BF41A6CDD1.pdf", localisation: "p. 1" }
+    statut: VERIFIED
+    notes: "L’État détient 10 actions, part « non significative », de concert avec Airbus SE ; le concert « n’envisage pas d’acquérir le contrôle » (avis AMF 223C1119). Aucun lien de détention de l’État n’est saisi faute de pourcentage."
+
+  - actor_id: FR-ACT-0031
+    nom: "GROUPE INDUSTRIEL MARCEL DASSAULT"
+    nom_usuel: "GIMD"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-014]
+    identifiants: { siren: "400628079" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=400628079" }
+      - { source_id: FR-CPL-0051, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0302/C25FD0970B58A792BF5CAE85AF0A1F7D309D6531199AE45922A383BF41A6CDD1.pdf", localisation: "note 1" }
+    statut: VERIFIED
+    notes: "« Contrôlée par la famille Dassault » (avis AMF 226C0302). Holding privée, saisie comme actionnaire de contrôle de Dassault Aviation."
+
+  - actor_id: FR-ACT-0032
+    nom: "ARIANEGROUP SAS"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "519032247", lei: "969500PQFG3KKR3L7W58" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=519032247" }
+      - { source_id: FR-CPL-0046, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051261189", localisation: "liste des entités où l’État détient une seule action" }
+    statut: VERIFIED
+    notes: "Lanceurs et missiles balistiques. Un commissaire du Gouvernement y a été désigné par arrêté du 6 juillet 2026."
+
+  - actor_id: FR-ACT-0033
+    nom: "ARIANEGROUP HOLDING"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "519032171", lei: "969500YO729KBJTIIX50" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=519032171" }
+      - { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 7.3" }
+    statut: VERIFIED
+    notes: "Coentreprise à parts égales de Safran et d’Airbus."
+
+  - actor_id: FR-ACT-0034
+    nom: "AUBERT & DUVAL"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "380342808", lei: "549300ZZG78QKAECYW85" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=380342808" }
+      - { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.1.4.3" }
+    statut: VERIFIED
+    notes: "Métallurgie de défense. L’accord du 25 juin 2026 de cession de la part de Tikehau dans AD Holding à Airbus et Safran n’est pas confirmé comme réalisé avant la date d’arrêt."
+
+  - actor_id: FR-ACT-0035
+    nom: "AD HOLDING"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "948152053" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=948152053" }
+      - { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.1.4.3 ; note 25" }
+    statut: VERIFIED
+    notes: "Holding détenue par Safran, Airbus et Tikehau Ace Capital ; seule la part de Safran est publiée dans les sources lues."
+
+  - actor_id: FR-ACT-0036
+    nom: "COMPAGNIE INDUSTRIELLE DES LASERS CILAS"
+    nom_usuel: "CILAS"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "669802167", lei: "529900BCUTY39R0GAI58" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=669802167" }
+      - { source_id: FR-CPL-0048, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045340729" }
+    statut: VERIFIED
+    notes: "Majoritairement détenue par HMS Laser (Safran Electronics & Defense et MBDA à parts égales) selon le document de Safran ; le pourcentage n’est publié que par une source secondaire, non saisi."
+
+  - actor_id: FR-ACT-0037
+    nom: "EXXELIA INTERNATIONAL"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "804575975" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=804575975" }
+      - { source_id: FR-CPL-0049, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047358290" }
+    statut: VERIFIED
+    notes: "Composants électroniques. Contrôlée depuis 2023 par le groupe américain HEICO, par une filiale dont l’identité de détenteur direct n’est pas établie : aucun lien de détention saisi. Aucun LEI trouvé."
+
+  - actor_id: FR-ACT-0038
+    nom: "AIRBUS DEFENCE AND SPACE HOLDING FRANCE SAS"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "808451801" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=808451801" }
+      - { source_id: FR-CPL-0046, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051261189", localisation: "art. 1, 2°" }
+    statut: VERIFIED
+    notes: "Holding française de la défense d’Airbus, détenue en totalité, directement ou indirectement, par Airbus SE. Le rattachement du SIREN à l’entité visée par l’avis de 2016 (« Airbus DS Holding France PROJ SAS ») n’est pas établi. Aucun LEI trouvé."
+
+  - actor_id: FR-ACT-0039
+    nom: "SAFRAN CERAMICS"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "440513059" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=440513059" }
+      - { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "note 25" }
+    statut: VERIFIED
+    notes: "Issue de SNPE Matériaux Énergétiques par l’intermédiaire d’Herakles ; la continuité de la personne morale n’est pas établie. Aucun LEI trouvé."
+
+liens:
+
+  # --- Détentions en capital ------------------------------------------------
+
+  - link_id: FR-LNK-0001
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0007
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 13.39
+    droits_vote_pct: 21.04
+    controle: controle_ecarte
+    citation: { source_id: FR-CPL-0023, url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf", localisation: "§ 6.2.1, tableau « Répartition du capital et des droits de vote », p. 529 / PDF 531 ; § 6.2.2, p. 530" }
+    preuve: P4
+    incertitude: "L’État agit de concert avec Bpifrance Participations (pacte du 18 février 2016) ; le document donne un total « secteur public » qui n’est pas repris."
+    garde_fou: "« Sans lui assurer pour autant un contrôle de la Société » : la détention permet de bloquer les décisions à majorité qualifiée, pas de diriger."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0002
+    source_actor: FR-ACT-0002
+    target_actor: FR-ACT-0007
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 9.56
+    droits_vote_pct: 8.0
+    controle: controle_ecarte
+    citation: { source_id: FR-CPL-0023, url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf", localisation: "§ 6.2.1, p. 529 / PDF 531" }
+    preuve: P4
+    incertitude: "Droits de vote imprimés « 8% » sans décimale (8,02 % un an plus tôt)."
+    garde_fou: "Bpifrance Participations n’est pas l’État : sa détention ne s’additionne pas à celle de l’État, même de concert."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0003
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0008
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-04"
+    detention_capital_pct: 22.64
+    droits_vote_pct: 33.08
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0024, url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf", localisation: "§ 5.4.3, p. 338 / PDF 340" }
+    preuve: P4
+    incertitude: "Valeur déclarée lors du franchissement à la baisse du tiers des droits de vote, après l’augmentation de capital du 27 février 2026. Au 31 décembre 2025 : 23,64 % du capital, 34,15 % des droits de vote théoriques."
+    garde_fou: "Une participation importante ne prouve pas une direction de l’entreprise ; propriété, régulation de l’énergie et commande publique restent des liens distincts (règle dure n° 2)."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0004
+    source_actor: FR-ACT-0003
+    target_actor: FR-ACT-0008
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 3.36
+    droits_vote_pct: 3.29
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0024, url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf", localisation: "§ 5.4.2.1, p. 337 / PDF 339 (ligne « CDC »)" }
+    preuve: P4
+    incertitude: "Aucune valeur postérieure lue pour la Caisse des dépôts ; aucun concert avec l’État n’est déclaré."
+    garde_fou: "La Caisse des dépôts n’est pas l’État : sa part ne s’additionne pas à la sienne."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0005
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0009
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 15.01
+    droits_vote_pct: 22.24
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0025, url: "https://assets.renaultgroup.com/uploads/2026/03/DEU_2025_comp_202603191340.pdf", localisation: "§ 6.2.6.1, p. 571" }
+    preuve: P4
+    incertitude: "Droits de vote exerçables ; 21,92 % des droits de vote théoriques."
+    garde_fou: "Aucun pacte ni action de concert. Premier actionnaire ne veut pas dire actionnaire de contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0006
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0010
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 21.09
+    droits_vote_pct: 29.35
+    controle: controle_reglementaire
+    citation: { source_id: FR-CPL-0026, url: "https://www.fdjunited.com/wp-content/uploads/2026/03/document-denregistrement-universel-2025-accessible.pdf", localisation: "§ 7.3.1.1, p. 500 / PDF 502 ; § 7.3.1.8, p. 504 / PDF 506" }
+    preuve: P4
+    garde_fou: "Le « contrôle étroit » vient du régime légal des jeux (loi Pacte, décret n° 2019-1060 : agrément des dirigeants et des franchissements de seuil), pas de la part au capital."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0007
+    source_actor: FR-ACT-0004
+    target_actor: FR-ACT-0011
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 10.83
+    droits_vote_pct: 10.90
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0027, url: "https://mediaassets.airbus.com/pm_38_919_919350-ko9v34j5cg.pdf?fileName=airbus-report-of-the-board-of-directors-2025.pdf", localisation: "§ 4.2.1, « Shareholding structure at the end of 2025 », p. 109 / PDF 110" }
+    preuve: P4
+    incertitude: "Fichier regénéré le 17 juillet 2026, avant la date d’arrêt ; rapport daté du 18 février 2026."
+    garde_fou: "Le concert avec l’Allemagne et l’Espagne ne donne aucun droit de désigner des administrateurs ; les parts des trois États ne s’additionnent pas ici."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0008
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0012
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 11.72
+    droits_vote_pct: 18.35
+    controle: controle_ecarte
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.3.1, p. 486-487 ; § 6.3.5, p. 488" }
+    preuve: P4
+    incertitude: "Droits de vote exerçables ; 18,30 % des droits de vote théoriques. Pages tirées de la table de concordance (version ESEF)."
+    garde_fou: "« Aucun actionnaire ne détient […] une fraction des droits de vote lui permettant d’exercer le contrôle de la Société »."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0009
+    source_actor: FR-ACT-0005
+    target_actor: FR-ACT-0013
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 26.60
+    droits_vote_pct: 36.35
+    controle: conjoint
+    citation: { source_id: FR-CPL-0029, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip", localisation: "§ 6.2.1.2, p. 236 ; concert p. 238" }
+    preuve: P3
+    incertitude: "Le contrôle par le concert est affirmé par Dassault Aviation dans une déclaration reproduite par Thales, non par Thales elle-même : d’où P3 pour la qualification, la détention étant P4."
+    garde_fou: "Contrôle exercé de concert avec un actionnaire privé : il ne s’attribue pas à l’État seul."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0010
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0005
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: 100
+    controle: exclusif
+    citation: { source_id: FR-CPL-0029, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip", localisation: "§ 6.2.3.2.1, p. 237" }
+    preuve: P3
+    incertitude: "Le document dit le capital « intégralement détenu par l’État » ; les droits de vote ne sont pas indiqués et sont tenus pour égaux."
+    garde_fou: "Ce maillon ne s’ajoute pas au lien TSA → Thales : la part de l’État dans Thales n’est pas recalculée."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0011
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0014
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-11-21"
+    detention_capital_pct: 29.65
+    droits_vote_pct: 29.65
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0031, url: "https://bdif.amf-france.org/back/api/v1/documents/2025/225C2012/D6D3131E607F42ED988B819AEEE5088E9A85AEC16B0638BF6BDB1533BC03E531.pdf", localisation: "p. 1" }
+    preuve: P4
+    incertitude: "Valeur déclarée à l’AMF après les augmentations de capital réservées. Le communiqué du 12 décembre 2025 annonce le même pourcentage après l’augmentation de capital ouverte à tous, mais son règlement n’est confirmé par aucun document lu."
+    garde_fou: "Les parties au pacte de 2025 agissent « séparément et sans concert » : la part de l’État ne s’additionne à aucune autre."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0012
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0015
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 50.63
+    droits_vote_pct: 60.27
+    controle: exclusif
+    citation: { source_id: FR-CPL-0032, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0180/7857F887D2649A7DA34278B46C5A29E746D62AC7106140564E6D9986DB93A4BE.zip", localisation: "§ 3.1.6.1, p. 204 ; § 7.1.1, p. 596 ; « entreprise publique contrôlée par l’État français », p. 158" }
+    preuve: P4
+    garde_fou: "Le contrôle de la société ne vaut pas contrôle de la régulation aéroportuaire, qui relève d’autorités distinctes (règle dure n° 2)."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0013
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0016
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 28.0
+    droits_vote_pct: 28.9
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0033, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0138/4896F8450007BD1A8B72ACD1336FA3057057251E122B2BE1A184DA6ADD4ABBD7.zip", localisation: "§ 2.7.5, « Évolution de l’actionnariat », p. 165 ; annexe, p. 429" }
+    preuve: P4
+    incertitude: "Pourcentages publiés à une décimale."
+    garde_fou: "Aucun pacte d’actionnaires connu de la société ; la part de l’État néerlandais ne s’y additionne pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0014
+    source_actor: FR-ACT-0006
+    target_actor: FR-ACT-0017
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 27.13
+    droits_vote_pct: 31.59
+    controle: conjoint
+    citation: { source_id: FR-CPL-0034, url: "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf", localisation: "§ 6.2.2.1, p. 577 ; contrôle, p. 584" }
+    preuve: P4
+    incertitude: "Droits de vote théoriques ; 31,76 % des droits de vote exerçables."
+    garde_fou: "Contrôle exercé de concert avec Sorame et CEIR, actionnaires privés, déclarés prédominants dans le concert : il ne s’attribue pas à l’État."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0015
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0006
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: 100
+    controle: exclusif
+    citation: { source_id: FR-CPL-0034, url: "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf", localisation: "p. 230 et p. 577 (« détenue à 100 % par l’État »)" }
+    preuve: P3
+    incertitude: "L’acquisition de l’intégralité du capital de FSI Equation par l’APE, pour le compte de l’État, le 29 août 2016, est établie par la déclaration AMF 216C1953 (FR-CPL-0039). Une déclaration de 2020 reproduite p. 584 du document d’Eramet la décrit encore comme « détenue à 100 % par Bpifrance Participations » : reprise d’un texte antérieur, contredite par la déclaration de 2016 et par le document lui-même p. 230 et p. 577."
+    garde_fou: "Ce maillon ne s’ajoute pas au lien FSI Equation → Eramet : la part de l’État dans Eramet n’est pas recalculée."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0016
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0018
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: 100
+    controle: exclusif
+    citation: { source_id: FR-CPL-0035, url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf", localisation: "§ 7.3.8, p. 567 ; « faculté […] de contrôler », p. 458" }
+    preuve: P4
+    garde_fou: "Détention fixée par la loi (Code de l’énergie, art. L. 111-67). La régulation de l’énergie reste un lien distinct, exercé par la CRE."
+    statut: VERIFIED
+
+  # --- Actions spécifiques ----------------------------------------------------
+
+  - link_id: FR-LNK-0017
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0008
+    type: special_share
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    base_juridique: "Code de l’énergie, art. L. 111-68, L. 111-69, D. 111-20 et D. 111-21"
+    citation: { source_id: FR-CPL-0024, url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf", localisation: "§ 5.4.4, p. 338 / PDF 340" }
+    preuve: P4
+    garde_fou: "Droit d’opposition limité aux actifs gaziers stratégiques en France (transport, distribution, stockage, GNL) : ce n’est pas un droit de gestion."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0018
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0013
+    type: special_share
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    base_juridique: "Décret n° 97-190 du 4 mars 1997"
+    citation: { source_id: FR-CPL-0029, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip", localisation: "§ 6.2.3.3.5, p. 241" }
+    preuve: P4
+    garde_fou: "Agrément des franchissements de seuil par dixièmes, un représentant sans voix délibérative, opposition à la cession d’actifs de défense listés : des droits de veto ciblés, pas une direction."
+    statut: VERIFIED
+
+  # --- Nominations au conseil -------------------------------------------------
+
+  - link_id: FR-LNK-0019
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0007
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 3
+    sieges_total: 14
+    base_juridique: "Ordonnance n° 2014-948 du 20 août 2014"
+    citation: { source_id: FR-CPL-0023, url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf", localisation: "§ 5.2.1.1, p. 499 / PDF 501 ; § 6.2.2, p. 530" }
+    preuve: P3
+    incertitude: "Le document parle de « représentants de la sphère publique » (un désigné par arrêté, deux nommés par l’assemblée générale) sans les répartir entre l’État et Bpifrance."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0020
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0008
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 3
+    sieges_total: 14
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (deux sièges)"
+    citation: { source_id: FR-CPL-0024, url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf", localisation: "§ 4.1.1, p. 252 / PDF 254" }
+    preuve: P4
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0021
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0009
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 2
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) ; un administrateur élu sur proposition de l’État"
+    citation: { source_id: FR-CPL-0025, url: "https://assets.renaultgroup.com/uploads/2026/03/DEU_2025_comp_202603191340.pdf", localisation: "p. 302-303" }
+    preuve: P4
+    incertitude: "Nombre total de sièges du conseil non relevé."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0022
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0010
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 3
+    sieges_total: 15
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (deux sièges)"
+    citation: { source_id: FR-CPL-0026, url: "https://www.fdjunited.com/wp-content/uploads/2026/03/document-denregistrement-universel-2025-accessible.pdf", localisation: "§ 2.3.1.1, p. 110 / PDF 112" }
+    preuve: P4
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0023
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0012
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 2
+    base_juridique: "Ordonnance n° 2014-948, art. 4 et art. 6 ; statuts, art. 14.1 (tant que l’État détient plus de 10 % du capital)"
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 2.2.3" }
+    preuve: P4
+    incertitude: "Page exacte non relevée ; nombre total de sièges non relevé."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0024
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0013
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 5
+    sieges_total: 14
+    base_juridique: "Pacte d’actionnaires TSA–Dassault Aviation ; ordonnance n° 2014-948, art. 4 (un siège)"
+    citation: { source_id: FR-CPL-0029, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip", localisation: "§ 4.1.1, p. 84 ; § 4.1.5" }
+    preuve: P4
+    incertitude: "Sièges « proposés […] par le Secteur Public ou nommé par arrêté » : le document ne distingue pas l’État et TSA. S’y ajoutent, sans voix délibérative, le représentant au titre de l’action spécifique et un commissaire du gouvernement."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0025
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0014
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-08-01"
+    nombre_sieges: 1
+    base_juridique: "Ordonnance n° 2014-948, art. 4 ; arrêté du 1er août 2025"
+    citation: { source_id: FR-CPL-0030, url: "https://bdif.amf-france.org/back/api/v1/documents/2025/D.25-0693/930549A36881472B475A0725179FEDB5FBCC97297B3D091D0DDD60D58D1CE704.zip", localisation: "p. 34 ; pacte, p. 387" }
+    preuve: P4
+    incertitude: "Le pacte de 2025 prévoit trois administrateurs proposés par l’État sur douze après l’opération ; la composition effective n’est pas vérifiée."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0026
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0015
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 6
+    base_juridique: "Ordonnance n° 2014-948, art. 4.I (un siège) et art. 6.II (cinq sièges)"
+    citation: { source_id: FR-CPL-0032, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0180/7857F887D2649A7DA34278B46C5A29E746D62AC7106140564E6D9986DB93A4BE.zip", localisation: "§ 3.1.3, p. 151-152" }
+    preuve: P4
+    incertitude: "Nombre total de sièges non relevé."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0027
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0016
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 3
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (deux sièges) ; décret n° 2014-949, art. 2"
+    citation: { source_id: FR-CPL-0033, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0138/4896F8450007BD1A8B72ACD1336FA3057057251E122B2BE1A184DA6ADD4ABBD7.zip", localisation: "p. 71, p. 90, p. 108-109" }
+    preuve: P4
+    incertitude: "Nombre total de sièges non relevé. L’État néerlandais propose un administrateur (accords du 16 octobre 2003)."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0028
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0017
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 5
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (quatre sièges) ; pacte du 16 mars 2012"
+    citation: { source_id: FR-CPL-0034, url: "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf", localisation: "§ 3.1.1.1, p. 230" }
+    preuve: P4
+    incertitude: "Un sixième administrateur est proposé d’un commun accord par Sorame–CEIR et l’APE ; il n’est pas compté. Nombre total de sièges non relevé."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0029
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0018
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    nombre_sieges: 6
+    sieges_total: 18
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (cinq sièges)"
+    citation: { source_id: FR-CPL-0035, url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf", localisation: "§ 4.2.1, p. 302" }
+    preuve: P4
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  # --- Défense : détentions ---------------------------------------------------
+
+  - link_id: FR-LNK-0030
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0019
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 62.25
+    droits_vote_pct: null
+    controle: exclusif
+    citation: { source_id: FR-CPL-0041, url: "https://www.naval-group.com/sites/default/files/2026-03/Rapport%20annuel%20Naval%20Group%202025%20FR.pdf", localisation: "note 3.6.1 « Capital social », p. 96 / PDF 98 ; contrôle, note 5.2, p. 106" }
+    preuve: P4
+    incertitude: "Droits de vote non publiés par la source."
+    garde_fou: "Le contrôle de l’actionnaire ne se confond pas avec la commande publique de défense, qui reste un lien distinct (règle dure n° 2)."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0031
+    source_actor: FR-ACT-0013
+    target_actor: FR-ACT-0019
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 35.0
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0041, url: "https://www.naval-group.com/sites/default/files/2026-03/Rapport%20annuel%20Naval%20Group%202025%20FR.pdf", localisation: "note 3.6.1, p. 96 / PDF 98" }
+    preuve: P4
+    incertitude: "Droits de vote non publiés par la source."
+    garde_fou: "Thales est à la fois actionnaire et fournisseur de Naval Group : les deux liens restent distincts."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0032
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0020
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1 « Participations directes de l’État », p. 122 / PDF 115" }
+    preuve: P4
+    incertitude: "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source."
+    garde_fou: "Ce maillon ne s’ajoute pas au lien GIAT Industries → KNDS N.V."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0033
+    source_actor: FR-ACT-0020
+    target_actor: FR-ACT-0021
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 50
+    droits_vote_pct: null
+    controle: conjoint
+    citation: { source_id: FR-CPL-0042, url: "https://www.lobbyregister.bundestag.de/media/be/4c/802681/2025_KNDS_Directors_report_Financial_statements_SIGNED_26139eae7b.pdf", localisation: "note 42 « Shareholders’ equity », p. 109 ; note 31, p. 94" }
+    preuve: P4
+    incertitude: "149 999 999 actions A et une action spéciale sur 300 000 000. Droits de vote non publiés par la source."
+    garde_fou: "Contrôle « conjoint » à parité avec un actionnaire privé allemand : il ne s’attribue pas à l’État seul."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0034
+    source_actor: FR-ACT-0021
+    target_actor: FR-ACT-0022
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0042, url: "https://www.lobbyregister.bundestag.de/media/be/4c/802681/2025_KNDS_Directors_report_Financial_statements_SIGNED_26139eae7b.pdf", localisation: "note 39 « Participating interests in group companies », p. 107" }
+    preuve: P4
+    incertitude: "« 100 % » arrondi : l’État détient une action. Droits de vote non publiés par la source."
+    garde_fou: "La filiale française est contrôlée par la société néerlandaise, non par l’État ; l’État n’y détient qu’une action spécifique."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0035
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0023
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 50.32
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 / PDF 115" }
+    preuve: P4
+    incertitude: "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source."
+    garde_fou: "La propulsion nucléaire navale relève aussi de la commande publique et de la régulation de sûreté : liens distincts."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0036
+    source_actor: FR-ACT-0024
+    target_actor: FR-ACT-0023
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 20.3
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 89 / PDF 84" }
+    preuve: P4
+    incertitude: "Pourcentage arrondi à une décimale (20,32 % selon le site de la société). Droits de vote non publiés par la source."
+    garde_fou: "Le CEA est un établissement public distinct de l’État : sa part ne s’additionne pas à celle de l’État."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0037
+    source_actor: FR-ACT-0019
+    target_actor: FR-ACT-0023
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 20.32
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0041, url: "https://www.naval-group.com/sites/default/files/2026-03/Rapport%20annuel%20Naval%20Group%202025%20FR.pdf", localisation: "§ 3.3.3, p. 95 / PDF 97" }
+    preuve: P4
+    incertitude: "Droits de vote non publiés par la source."
+    garde_fou: "Naval Group est une entreprise distincte de l’État : sa part ne s’additionne pas à celle de l’État."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0038
+    source_actor: FR-ACT-0018
+    target_actor: FR-ACT-0023
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 9
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 89 / PDF 84" }
+    preuve: P3
+    incertitude: "Le site de TechnicAtome indique une détention par EDF Holding, filiale d’EDF : le détenteur direct exact n’est pas établi. Pourcentage arrondi (9,03 % selon le site). Droits de vote non publiés par la source."
+    garde_fou: "EDF est une entreprise distincte de l’État : sa part ne s’additionne pas à celle de l’État."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0039
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0025
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 34
+    droits_vote_pct: null
+    controle: minoritaire
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 / PDF 115" }
+    preuve: P4
+    incertitude: "Le rapport de l’APE 2023-2024 parle d’une « minorité de blocage ». Droits de vote non publiés par la source."
+    garde_fou: "Une minorité de blocage permet de s’opposer, pas de diriger."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0040
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0026
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 34
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 / PDF 115" }
+    preuve: P4
+    incertitude: "Droits de vote non publiés par la source."
+    garde_fou: "Les autres actionnaires, industriels de défense, ne sont pas publiés : la répartition du contrôle est inconnue."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0041
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0027
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 / PDF 115" }
+    preuve: P4
+    incertitude: "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source."
+    garde_fou: "Ce maillon ne s’ajoute pas au lien SNPE → Eurenco Holding."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0042
+    source_actor: FR-ACT-0027
+    target_actor: FR-ACT-0028
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 90 / PDF 85" }
+    preuve: P4
+    incertitude: "« Eurenco est détenu à 100 % par l’État via sa holding SNPE ». Droits de vote non publiés par la source."
+    garde_fou: "Détention pour le compte de l’État : la production de poudres reste soumise à la commande publique, lien distinct."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0043
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0029
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 10
+    droits_vote_pct: null
+    controle: minoritaire
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 92 / PDF 87" }
+    preuve: P4
+    incertitude: "Entrée au capital le 27 juin 2024 par augmentation de capital. Droits de vote non publiés par la source."
+    garde_fou: "Participation minoritaire aux côtés de l’État belge : elle ne donne pas le contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0044
+    source_actor: FR-ACT-0011
+    target_actor: FR-ACT-0030
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2023-07-18"
+    detention_capital_pct: 10.03
+    droits_vote_pct: 6.15
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0050, url: "https://bdif.amf-france.org/back/api/v1/documents/2023/223C1119/910D1494095D91690B8A34E87605713DDA7B90BB7689EC4A94EC8E4167ABA6F4.pdf", localisation: "p. 1" }
+    preuve: P4
+    incertitude: "Dernière valeur déclarée à l’AMF lue ; le document annuel 2025 de Dassault Aviation n’a pas pu être lu."
+    garde_fou: "Le concert avec l’État « n’envisage pas d’acquérir le contrôle » ; les 10 actions de l’État ne s’additionnent pas ici."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0045
+    source_actor: FR-ACT-0031
+    target_actor: FR-ACT-0030
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-06"
+    detention_capital_pct: 66.86
+    droits_vote_pct: 80.01
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0051, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0302/C25FD0970B58A792BF5CAE85AF0A1F7D309D6531199AE45922A383BF41A6CDD1.pdf", localisation: "p. 1" }
+    preuve: P4
+    incertitude: "67,05 % du capital avec l’autodétention agrégée."
+    garde_fou: "Contrôle familial privé : la commande publique de défense reste un lien distinct."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0046
+    source_actor: FR-ACT-0012
+    target_actor: FR-ACT-0033
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 50
+    droits_vote_pct: null
+    controle: conjoint
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "note 25 du § 3.3" }
+    preuve: P4
+    incertitude: "Droits de vote non publiés par la source."
+    garde_fou: "Coentreprise à parité avec Airbus : aucune des deux parts ne vaut contrôle seule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0047
+    source_actor: FR-ACT-0011
+    target_actor: FR-ACT-0033
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 50
+    droits_vote_pct: null
+    controle: conjoint
+    citation: { source_id: FR-CPL-0052, url: "https://www.hauptversammlung.de/fileadmin/public/user_upload/airbus_AGM_2026_financial_statements.pdf", localisation: "« Simplified Airbus Structure », p. 73 / PDF 74" }
+    preuve: P4
+    incertitude: "Droits de vote non publiés par la source."
+    garde_fou: "Coentreprise à parité avec Safran : aucune des deux parts ne vaut contrôle seule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0048
+    source_actor: FR-ACT-0033
+    target_actor: FR-ACT-0032
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 7.3, rapport des commissaires aux comptes" }
+    preuve: P4
+    incertitude: "« Filiale à 100 % » : l’action de préférence de l’État n’apparaît pas dans l’arrondi. Droits de vote non publiés par la source."
+    garde_fou: "L’État détient une action de préférence dans la société : il n’en est pas pour autant actionnaire de contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0049
+    source_actor: FR-ACT-0035
+    target_actor: FR-ACT-0034
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.1.4.3" }
+    preuve: P4
+    incertitude: "« La totalité du capital et des droits de vote » depuis le 28 avril 2023, hors action spécifique de l’État ; droits de vote tenus pour égaux selon la même phrase."
+    garde_fou: "L’action spécifique de l’État ne fait pas de lui un actionnaire de contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0050
+    source_actor: FR-ACT-0012
+    target_actor: FR-ACT-0035
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2024-12-31"
+    detention_capital_pct: 33.3
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "note 25 du § 3.3 (« Données au 31.12.2024 »)" }
+    preuve: P4
+    incertitude: "Droits de vote non publiés par la source."
+    garde_fou: "Les parts d’Airbus et de Tikehau ne sont pas publiées : ne pas en déduire le contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0051
+    source_actor: FR-ACT-0012
+    target_actor: FR-ACT-0039
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: 100
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "note 25 du § 3.3" }
+    preuve: P4
+    incertitude: "Pourcentage arrondi à « 100,0 ». Droits de vote non publiés par la source."
+    garde_fou: "L’action spécifique de l’État, si elle s’applique encore, ne fait pas de lui un actionnaire de contrôle."
+    statut: VERIFIED
+
+  # --- Défense : actions spécifiques et actions uniques -----------------------
+
+  - link_id: FR-LNK-0052
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0022
+    type: special_share
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    base_juridique: "Décret n° 2015-1586 du 4 décembre 2015"
+    citation: { source_id: FR-CPL-0042, url: "https://www.lobbyregister.bundestag.de/media/be/4c/802681/2025_KNDS_Directors_report_Financial_statements_SIGNED_26139eae7b.pdf", localisation: "p. 3 ; note 39, p. 107 (« Golden Share »)" }
+    preuve: P4
+    incertitude: "Droits fixés par le décret, lu au Journal officiel (FR-CPL-0043). Le rapport de KNDS, qui confirme l’action au 31 décembre 2025, la décrit plus étroitement comme un « droit de consultation » sur la cession d’actifs stratégiques."
+    garde_fou: "Agrément des franchissements du tiers et de la majorité, opposition aux cessions d’actifs d’armement listés : des droits de veto ciblés, pas une direction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0053
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0034
+    type: special_share
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    base_juridique: "Décret n° 2022-1182 du 25 août 2022"
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.1.4.3, note 164" }
+    preuve: P4
+    incertitude: "Droits fixés par le décret, lu au Journal officiel (FR-CPL-0044) ; l’action est confirmée au 31 décembre 2025 par le document de Safran."
+    garde_fou: "Agrément des franchissements de seuil et opposition aux cessions d’actifs de défense listés : des droits de veto ciblés, pas une direction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0054
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0039
+    type: special_share
+    dimension: P-OWN
+    date_observation: "2025-02-27"
+    base_juridique: "Décret n° 2011-268 du 14 mars 2011 (SNPE Matériaux Énergétiques)"
+    citation: { source_id: FR-CPL-0046, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051261189", localisation: "art. 1, 2° (liste des entités où l’État détient une seule action)" }
+    preuve: P2
+    incertitude: "Décret lu au Journal officiel (FR-CPL-0045). Rattachement par filiation (SNPE Matériaux Énergétiques → Herakles → Safran Ceramics) ; la continuité de la personne morale et le maintien du décret après 2016 ne sont pas établis. L’inscription de Safran Ceramics dans la liste du décret n° 2025-193 atteste seulement que l’État y détient une seule action."
+    garde_fou: "Si elle s’applique, l’action donne un représentant sans voix délibérative et des droits de veto ciblés, pas une direction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0055
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0032
+    type: single_share
+    dimension: P-OWN
+    date_observation: "2025-02-27"
+    base_juridique: "Action de préférence (code de commerce, art. L. 228-11 et L. 228-13) ; convention État – ArianeGroup Holding du 24 juin 2016"
+    citation: { source_id: FR-CPL-0046, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051261189", localisation: "art. 1, 2° (liste des entités où l’État détient une seule action)" }
+    preuve: P4
+    incertitude: "Détention d’une action attestée par la liste du décret n° 2025-193 ; origine décrite par l’avis de la Commission des participations et des transferts n° 2016-AC-8 (FR-CPL-0047). Le détail des droits attachés n’est pas lu."
+    garde_fou: "Une action de préférence protège des actifs désignés ; elle ne donne pas la direction de la société."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0056
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0036
+    type: single_share
+    dimension: P-OWN
+    date_observation: "2025-02-27"
+    base_juridique: "Arrêté du 15 février 2022 (acquisition d’une action auprès d’ArianeGroup SAS)"
+    citation: { source_id: FR-CPL-0046, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051261189", localisation: "art. 1, 2° (liste des entités où l’État détient une seule action)" }
+    preuve: P4
+    incertitude: "Détention d’une action attestée par la liste du décret n° 2025-193 ; origine décrite par l’arrêté du 15 février 2022 (FR-CPL-0048). Nature et droits de l’action non lus."
+    garde_fou: "La détention d’une action n’établit à elle seule aucun droit particulier."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0057
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0037
+    type: single_share
+    dimension: P-OWN
+    date_observation: "2025-02-27"
+    base_juridique: "Arrêté du 24 mars 2023 ; action transformée en action de préférence en juillet 2023"
+    citation: { source_id: FR-CPL-0046, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051261189", localisation: "art. 1, 2° (liste des entités où l’État détient une seule action)" }
+    preuve: P4
+    incertitude: "Détention d’une action attestée par la liste du décret n° 2025-193 ; origine décrite par l’arrêté du 24 mars 2023 (FR-CPL-0049). Droits attachés non lus."
+    garde_fou: "Une action de préférence protège des intérêts désignés ; elle ne donne pas la direction de la société."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0058
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0038
+    type: single_share
+    dimension: P-OWN
+    date_observation: "2025-02-27"
+    base_juridique: "Convention « BMB » (branche missiles balistiques) du 7 juillet 2000, modifiée"
+    citation: { source_id: FR-CPL-0046, url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051261189", localisation: "art. 1, 2° (liste des entités où l’État détient une seule action)" }
+    preuve: P3
+    incertitude: "Détention d’une action attestée par la liste du décret n° 2025-193 ; origine décrite par l’avis de la Commission des participations et des transferts n° 2016-AC-8 (FR-CPL-0047). L’avis de 2016 vise une société dont le rattachement au SIREN saisi n’est pas établi."
+    garde_fou: "Des droits conventionnels sur la filiale de missiles balistiques ne valent pas contrôle d’Airbus."
+    statut: VERIFIED
+
+  # --- Défense : nominations au conseil ---------------------------------------
+
+  - link_id: FR-LNK-0059
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0019
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-10-21"
+    nombre_sieges: 6
+    sieges_total: 18
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (cinq sièges)"
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 2 « Gouvernance », p. 127 / PDF 120" }
+    preuve: P4
+    incertitude: "Composition à la date de parution de la source."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0060
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0021
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-10-21"
+    nombre_sieges: 2
+    base_juridique: "Non précisée par la source (société de droit néerlandais)"
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 2, p. 127 / PDF 120" }
+    preuve: P4
+    incertitude: "Composition à la date de parution de la source. Un représentant de l’État et un administrateur proposé par l’État ; nombre total de sièges non relevé."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0061
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0023
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-10-21"
+    nombre_sieges: 6
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (cinq sièges)"
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 2, p. 128 / PDF 121" }
+    preuve: P4
+    incertitude: "Composition à la date de parution de la source."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0062
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0025
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-10-21"
+    nombre_sieges: 3
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (deux sièges)"
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 2, p. 126 / PDF 119" }
+    preuve: P4
+    incertitude: "Composition à la date de parution de la source."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0063
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0026
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-10-21"
+    nombre_sieges: 4
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (trois sièges)"
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 2, p. 127 / PDF 120" }
+    preuve: P4
+    incertitude: "Composition à la date de parution de la source."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0064
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0028
+    type: appointment
+    dimension: P-OWN
+    date_observation: "2025-10-21"
+    nombre_sieges: 6
+    base_juridique: "Ordonnance n° 2014-948, art. 4 (un siège) et art. 6 (cinq sièges)"
+    citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 2, p. 126 / PDF 119" }
+    preuve: P4
+    incertitude: "Composition à la date de parution de la source."
+    garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED

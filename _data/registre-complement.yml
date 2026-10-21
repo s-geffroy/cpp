@@ -371,3 +371,459 @@ sources:
     status: VERIFIED
     url: "https://www.conseil-constitutionnel.fr/sites/default/files/2026-02/rapport-activite-2025.pdf"
     verification: "Site injoignable depuis le serveur. PDF transmis à la main et lu le 2026-10-21 : 74 pages, titre « Rapport d’activité du Conseil Constitutionnel 2025 », fichier produit le 2026-02-09 et modifié le 2026-02-12 ; 398 décisions du 1er septembre 2024 au 31 décembre 2025, dont 28 DC, 72 QPC et 285 électorales. Date de mise en ligne tirée d’une source secondaire."
+
+  # --- Registre des acteurs : documents cités (_data/acteurs.yml) ---------
+  # Information réglementée des sociétés : c’est là que se lisent capital,
+  # droits de vote et gouvernance, au 31 décembre 2025 sauf mention.
+
+  - source_id: FR-CPL-0023
+    domain: corporate_disclosure
+    institution: "Orange"
+    title: "Document d’enregistrement universel 2025"
+    date: "2026-04-02"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf"
+    verification: "PDF lu le 2026-10-21 (pdftotext)."
+
+  - source_id: FR-CPL-0024
+    domain: corporate_disclosure
+    institution: "ENGIE"
+    title: "Document d’enregistrement universel 2025"
+    date: "2026-03-12"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf"
+    verification: "PDF lu le 2026-10-21 (pdftotext). Fichier mis en ligne le 2026-04-21."
+
+  - source_id: FR-CPL-0025
+    domain: corporate_disclosure
+    institution: "Renault"
+    title: "Document d’enregistrement universel 2025"
+    date: "2026-03-18"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://assets.renaultgroup.com/uploads/2026/03/DEU_2025_comp_202603191340.pdf"
+    verification: "PDF lu le 2026-10-21 (pdftotext)."
+
+  - source_id: FR-CPL-0026
+    domain: corporate_disclosure
+    institution: "La Française des Jeux (FDJ United)"
+    title: "Document d’enregistrement universel 2025"
+    date: "2026-03-20"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://www.fdjunited.com/wp-content/uploads/2026/03/document-denregistrement-universel-2025-accessible.pdf"
+    verification: "Version accessible du PDF lue le 2026-10-21."
+
+  - source_id: FR-CPL-0027
+    domain: corporate_disclosure
+    institution: "Airbus SE"
+    title: "Report of the Board of Directors 2025"
+    date: "2026-02-18"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://mediaassets.airbus.com/pm_38_919_919350-ko9v34j5cg.pdf?fileName=airbus-report-of-the-board-of-directors-2025.pdf"
+    verification: "PDF lu le 2026-10-21. Airbus ne publie pas de document d’enregistrement universel."
+
+  - source_id: FR-CPL-0028
+    domain: corporate_disclosure
+    institution: "Safran"
+    title: "Document d’enregistrement universel 2025 (D.26-0154)"
+    date: "2026-03-27"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-21 ; le PDF du site de la société est bloqué par un anti-robot."
+
+  - source_id: FR-CPL-0029
+    domain: corporate_disclosure
+    institution: "Thales"
+    title: "Document d’enregistrement universel 2025 (D.26-0212)"
+    date: "2026-04-02"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-21 ; le PDF du site de la société est bloqué par un anti-robot."
+
+  - source_id: FR-CPL-0030
+    domain: corporate_disclosure
+    institution: "Eutelsat Communications"
+    title: "Document d’enregistrement universel 2024-2025 (D.25-0693)"
+    date: "2025-10-30"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2025/D.25-0693/930549A36881472B475A0725179FEDB5FBCC97297B3D091D0DDD60D58D1CE704.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-21."
+
+  - source_id: FR-CPL-0031
+    domain: corporate_disclosure
+    institution: "Autorité des marchés financiers"
+    title: "Eutelsat Communications — déclaration de franchissement de seuil (avis 225C2012)"
+    date: "2025-11-28"
+    source_type: regulatory_notice
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2025/225C2012/D6D3131E607F42ED988B819AEEE5088E9A85AEC16B0638BF6BDB1533BC03E531.pdf"
+    verification: "PDF lu le 2026-10-21."
+
+  - source_id: FR-CPL-0032
+    domain: corporate_disclosure
+    institution: "Aéroports de Paris"
+    title: "Document d’enregistrement universel 2025 (D.26-0180)"
+    date: "2026-03-30"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0180/7857F887D2649A7DA34278B46C5A29E746D62AC7106140564E6D9986DB93A4BE.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-21 ; le PDF du site de la société est bloqué par un anti-robot."
+
+  - source_id: FR-CPL-0033
+    domain: corporate_disclosure
+    institution: "Air France-KLM"
+    title: "Document d’enregistrement universel 2025 (D.26-0138)"
+    date: "2026-03-24"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0138/4896F8450007BD1A8B72ACD1336FA3057057251E122B2BE1A184DA6ADD4ABBD7.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-21 ; le site de la société est bloqué par un anti-robot."
+
+  - source_id: FR-CPL-0034
+    domain: corporate_disclosure
+    institution: "Eramet"
+    title: "Document d’enregistrement universel 2025 (D.26-0244)"
+    date: "2026-04-10"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf"
+    verification: "PDF lu le 2026-10-21 (pdftotext)."
+
+  - source_id: FR-CPL-0035
+    domain: corporate_disclosure
+    institution: "EDF"
+    title: "Document d’enregistrement universel 2025 (D.26-0198)"
+    date: "2026-03-31"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Répartition du capital et des droits de vote, contrôle, gouvernance et identifiants."
+    status: VERIFIED
+    url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf"
+    verification: "PDF lu le 2026-10-21 (pdftotext)."
+
+  - source_id: FR-CPL-0036
+    domain: corporate_registry
+    institution: "INSEE / DINUM — Annuaire des entreprises"
+    title: "API Recherche d’entreprises (répertoire Sirene)"
+    date: "2026-08-12"
+    source_type: official_registry
+    authority: PRIMARY
+    priority: A0
+    refresh: continuous
+    mots_cles: [corporate]
+    use: "Numéro SIREN, dénomination, forme juridique et siège des personnes morales."
+    status: VERIFIED
+    url: "https://recherche-entreprises.api.gouv.fr/"
+    verification: "Interrogée le 2026-10-21 pour chaque acteur ; réponses conservées hors dépôt."
+
+  - source_id: FR-CPL-0037
+    domain: entity_identifiers
+    institution: "Global Legal Entity Identifier Foundation (GLEIF)"
+    title: "Base mondiale des identifiants d’entité juridique (LEI)"
+    date: "2026-08-12"
+    source_type: official_registry
+    authority: PRIMARY_SUPRANATIONAL
+    priority: A0
+    refresh: continuous
+    mots_cles: [corporate, finance]
+    use: "Identifiant LEI, dénomination, pays et numéro d’immatriculation des entités juridiques."
+    status: VERIFIED
+    url: "https://api.gleif.org/api/v1/lei-records"
+    verification: "Interrogée le 2026-10-21 pour chaque acteur ; réponses conservées hors dépôt."
+
+  - source_id: FR-CPL-0038
+    domain: corporate_disclosure
+    institution: "Autorité des marchés financiers"
+    title: "Eutelsat Communications — déclaration de franchissement de seuil de Bpifrance Participations (avis 225C1150)"
+    date: "2025-07-03"
+    source_type: regulatory_notice
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, disclosure]
+    use: "Sortie de Bpifrance Participations du capital d’Eutelsat ; chaîne de détention de Bpifrance."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2025/225C1150/00765B9616F5A106A4BB9D073FF1D8EDD94E4534EA6699CEA2E004AE0555D68B.pdf"
+    verification: "PDF lu le 2026-10-21."
+
+  - source_id: FR-CPL-0039
+    domain: corporate_disclosure
+    institution: "Autorité des marchés financiers"
+    title: "Eramet — déclaration de franchissement de seuils et déclaration d’intention de l’État (avis 216C1953)"
+    date: "2016-09-02"
+    source_type: regulatory_notice
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, disclosure]
+    use: "Acquisition de FSI Equation par l’APE pour le compte de l’État (29 août 2016) ; concert avec Sorame et CEIR ; prédominance déclarée du sous-concert familial."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2016/216C1953/63F2ECA5B34121DFE255F5ADE58F50211B6648DFA90411F909E241250DFC6F46.pdf"
+    verification: "PDF lu le 2026-10-21 ; complète l’avis 216C1753 du 28 juillet 2016, qui n’annonçait qu’un projet d’acquisition."
+
+  # --- Registre des acteurs : défense (_data/acteurs.yml) ------------------
+
+  - source_id: FR-CPL-0040
+    domain: public_portfolio
+    institution: "Agence des participations de l’État"
+    title: "Rapport relatif à l’État actionnaire, annexe au projet de loi de finances pour 2026"
+    date: "2025-10-21"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, fiscal]
+    use: "Participations directes de l’État au 31 décembre 2024, gouvernance des entreprises du portefeuille."
+    status: VERIFIED
+    url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf"
+    verification: "PDF lu le 2026-10-21 (pdftotext). Page imprimée = page PDF + 3 à 7 selon la section."
+
+  - source_id: FR-CPL-0041
+    domain: corporate_disclosure
+    institution: "Naval Group"
+    title: "Rapport annuel 2025"
+    date: "2026-03-03"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, defense]
+    use: "Actionnariat au 31 décembre 2025, contrôle, gouvernance."
+    status: VERIFIED
+    url: "https://www.naval-group.com/sites/default/files/2026-03/Rapport%20annuel%20Naval%20Group%202025%20FR.pdf"
+    verification: "PDF lu le 2026-10-21 (pdftotext)."
+
+  - source_id: FR-CPL-0042
+    domain: corporate_disclosure
+    institution: "KNDS N.V."
+    title: "Directors’ report and financial statements 2025"
+    date: "2026-05-23"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, defense]
+    use: "Actionnariat de KNDS N.V. et de ses filiales au 31 décembre 2025 ; action spécifique de l’État dans KNDS France."
+    status: VERIFIED
+    url: "https://www.lobbyregister.bundestag.de/media/be/4c/802681/2025_KNDS_Directors_report_Financial_statements_SIGNED_26139eae7b.pdf"
+    verification: "PDF lu le 2026-10-21 ; copie déposée au registre des représentants d’intérêts du Bundestag."
+
+  - source_id: FR-CPL-0043
+    domain: special_shares
+    institution: "Journal officiel"
+    title: "Décret n° 2015-1586 du 4 décembre 2015 instituant une action spécifique de l’État au capital de Nexter Systems SA"
+    date: "2015-12-04"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, legal, defense]
+    use: "Droits de l’État : agrément des franchissements du tiers et de la majorité, opposition aux cessions d’actifs d’armement listés."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031566970"
+    verification: "Texte lu le 2026-10-21 dans les données ouvertes du Journal officiel (DILA) ; Légifrance bloque l’accès automatisé."
+
+  - source_id: FR-CPL-0044
+    domain: special_shares
+    institution: "Journal officiel"
+    title: "Décret n° 2022-1182 du 25 août 2022 instituant une action spécifique au capital de la société Aubert & Duval SAS"
+    date: "2022-08-25"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, legal, defense]
+    use: "Droits de l’État : agrément des franchissements de seuil, opposition aux cessions d’actifs de défense listés."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046220689"
+    verification: "Texte lu le 2026-10-21 dans les données ouvertes du Journal officiel (DILA) ; Légifrance bloque l’accès automatisé."
+
+  - source_id: FR-CPL-0045
+    domain: special_shares
+    institution: "Journal officiel"
+    title: "Décret n° 2011-268 du 14 mars 2011 instituant une action spécifique de l’État au capital de SNPE Matériaux Énergétiques"
+    date: "2011-03-14"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, legal, defense]
+    use: "Droits de l’État : agrément des franchissements, représentant au conseil sans voix délibérative, opposition aux cessions d’actifs de propulsion solide."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023708332"
+    verification: "Texte lu le 2026-10-21 dans les données ouvertes du Journal officiel (DILA) ; Légifrance bloque l’accès automatisé."
+
+  - source_id: FR-CPL-0046
+    domain: public_portfolio
+    institution: "Journal officiel"
+    title: "Décret n° 2025-193 du 27 février 2025 modifiant le décret n° 2004-963 relatif à l’Agence des participations de l’État"
+    date: "2025-02-27"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, legal]
+    use: "Liste officielle des entités du périmètre de l’APE, dont celles où l’État détient une seule action."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051261189"
+    verification: "Texte lu le 2026-10-21 dans les données ouvertes du Journal officiel (DILA) ; Légifrance bloque l’accès automatisé."
+
+  - source_id: FR-CPL-0047
+    domain: public_portfolio
+    institution: "Commission des participations et des transferts"
+    title: "Avis n° 2016-AC-8 du 23 juin 2016"
+    date: "2016-06-28"
+    source_type: official_decision
+    authority: PRIMARY_INDEPENDENT
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, defense]
+    use: "Conditions de la création d’ArianeGroup : action de préférence de l’État, droits conventionnels sur Airbus DS Holding France."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032789530"
+    verification: "Texte lu le 2026-10-21 dans les données ouvertes du Journal officiel (DILA) ; Légifrance bloque l’accès automatisé."
+
+  - source_id: FR-CPL-0048
+    domain: public_portfolio
+    institution: "Journal officiel"
+    title: "Arrêté du 15 février 2022 relatif à l’acquisition par l’État d’une action de la Compagnie industrielle des lasers (CILAS)"
+    date: "2022-02-15"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, defense]
+    use: "Acquisition d’une action de CILAS par l’État."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045340729"
+    verification: "Texte lu le 2026-10-21 dans les données ouvertes du Journal officiel (DILA) ; Légifrance bloque l’accès automatisé."
+
+  - source_id: FR-CPL-0049
+    domain: public_portfolio
+    institution: "Journal officiel"
+    title: "Arrêté du 24 mars 2023 relatif à l’acquisition par l’État d’une action d’Exxelia International SAS"
+    date: "2023-03-24"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, defense]
+    use: "Acquisition d’une action d’Exxelia International par l’État."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047358290"
+    verification: "Texte lu le 2026-10-21 dans les données ouvertes du Journal officiel (DILA) ; Légifrance bloque l’accès automatisé."
+
+  - source_id: FR-CPL-0050
+    domain: corporate_disclosure
+    institution: "Autorité des marchés financiers"
+    title: "Dassault Aviation — déclaration du concert Airbus SE et État français (avis 223C1119)"
+    date: "2023-07-18"
+    source_type: regulatory_notice
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, disclosure, defense]
+    use: "Détention d’Airbus SE et de l’État dans Dassault Aviation ; intentions du concert."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2023/223C1119/910D1494095D91690B8A34E87605713DDA7B90BB7689EC4A94EC8E4167ABA6F4.pdf"
+    verification: "PDF lu le 2026-10-21."
+
+  - source_id: FR-CPL-0051
+    domain: corporate_disclosure
+    institution: "Autorité des marchés financiers"
+    title: "Dassault Aviation — déclaration de franchissement de seuil de GIMD (avis 226C0302)"
+    date: "2026-03-13"
+    source_type: regulatory_notice
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [ownership, disclosure, defense]
+    use: "Détention de GIMD, contrôlée par la famille Dassault, dans Dassault Aviation."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0302/C25FD0970B58A792BF5CAE85AF0A1F7D309D6531199AE45922A383BF41A6CDD1.pdf"
+    verification: "PDF lu le 2026-10-21."
+
+  - source_id: FR-CPL-0052
+    domain: corporate_disclosure
+    institution: "Airbus SE"
+    title: "Financial Statements 2025"
+    date: "2026-02-18"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "Structure simplifiée du groupe Airbus et coentreprises, dont ArianeGroup."
+    status: VERIFIED
+    url: "https://www.hauptversammlung.de/fileadmin/public/user_upload/airbus_AGM_2026_financial_statements.pdf"
+    verification: "PDF lu le 2026-10-21 ; copie publiée pour l’assemblée générale 2026."

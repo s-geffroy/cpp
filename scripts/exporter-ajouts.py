@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Export des ajouts editoriaux de ce site vers assets/donnees/.
 
-Deux fichiers sont ecrits a la main dans _data/, HORS PAQUET :
+Trois fichiers sont ecrits a la main dans _data/, HORS PAQUET :
   - passage-dimensions.yml  : mots-cles libres du registre -> dimensions P-* ;
-  - registre-complement.yml : sources ajoutees (FR-CPL-*).
+  - registre-complement.yml : sources ajoutees (FR-CPL-*) ;
+  - acteurs.yml             : registre des acteurs v0.2 (FR-ACT-*, FR-LNK-*),
+                              valide contre assets/donnees/ajout_acteurs.schema.json.
 
 Ce script ne les modifie jamais. Il les verifie, puis les rend
 telechargeables en CSV et en JSON, a cote des fichiers du paquet -- sous des
@@ -66,6 +68,61 @@ def verifier(passage, complement, registre, dimensions):
         raise SystemExit("Un ajout n'a pas d'adresse")
 
 
+def verifier_acteurs(acteurs, sources, noeuds, dates_sources):
+    """Le schema JSON controle la forme ; les references croisees, il ne les
+    voit pas. Un identifiant de source ou de categorie mal tape donnerait un
+    lien mort sur le site, sans erreur de construction."""
+    import jsonschema
+
+    schema = json.loads((TELECHARGEMENTS / "ajout_acteurs.schema.json").read_text(encoding="utf-8"))
+    erreurs = sorted(jsonschema.Draft202012Validator(schema).iter_errors(acteurs), key=str)
+    if erreurs:
+        raise SystemExit("acteurs.yml : " + "\n".join(
+            f"{'/'.join(map(str, e.path))} : {e.message}" for e in erreurs))
+
+    ids_acteurs = [a["actor_id"] for a in acteurs["acteurs"]]
+    ids_liens = [l["link_id"] for l in acteurs["liens"]]
+    for nom, ids in (("acteurs", ids_acteurs), ("liens", ids_liens)):
+        if len(ids) != len(set(ids)):
+            raise SystemExit(f"Identifiants en double dans les {nom}")
+
+    citations = [c for a in acteurs["acteurs"] for c in a["citations"]]
+    citations += [l["citation"] for l in acteurs["liens"]]
+    inconnues = sorted({c["source_id"] for c in citations} - set(sources))
+    if inconnues:
+        raise SystemExit(f"Sources citees absentes du registre : {inconnues}")
+    for c in citations:
+        if c["source_id"].startswith("FR-CPL-") and "bdif.amf-france.org" in c["url"]:
+            # Un document AMF cite sous le mauvais numero : l'identifiant de
+            # l'avis ou du depot doit figurer dans l'adresse de la source.
+            attendu = sources[c["source_id"]].split("/documents/")[1].split("/")[1]
+            if attendu not in c["url"]:
+                raise SystemExit(f"{c['source_id']} cite avec une adresse d'un autre document : {c['url']}")
+
+    categories = {c for a in acteurs["acteurs"] for c in a["categories"]}
+    if categories - set(noeuds):
+        raise SystemExit(f"Categories inconnues : {sorted(categories - set(noeuds))}")
+
+    for l in acteurs["liens"]:
+        for bout in (l["source_actor"], l["target_actor"]):
+            if bout not in ids_acteurs:
+                raise SystemExit(f"{l['link_id']} : acteur inconnu {bout}")
+        if l["date_observation"] > acteurs["meta"]["date_arret"]:
+            raise SystemExit(f"{l['link_id']} : observation posterieure a la date d'arret")
+        # Une source ne prouve pas un etat posterieur a sa propre date.
+        date_source = dates_sources.get(l["citation"]["source_id"], "")
+        if date_source and l["date_observation"] > date_source:
+            raise SystemExit(f"{l['link_id']} : observation au {l['date_observation']}, "
+                             f"posterieure a la source citee ({date_source})")
+
+
+def exporter_acteurs(acteurs):
+    for nom in ("acteurs", "liens"):
+        chemin = TELECHARGEMENTS / f"ajout_{nom}.json"
+        chemin.write_text(json.dumps(acteurs[nom], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        print(f"  {chemin.relative_to(RACINE)} : {len(acteurs[nom])} {nom}")
+
+
 def exporter_passage(table):
     chemin = TELECHARGEMENTS / "ajout_passage_dimensions.csv"
     with chemin.open("w", encoding="utf-8", newline="") as f:
@@ -101,6 +158,13 @@ def main():
     verifier(passage, complement, registre, dimensions)
     exporter_passage(passage["passage"])
     exporter_complement(complement["sources"])
+
+    acteurs = yaml.safe_load((DATA / "acteurs.yml").read_text(encoding="utf-8"))
+    sources = {s["source_id"]: s["url"] for s in registre + complement["sources"]}
+    noeuds = [n["node_id"] for n in json.loads((DATA / "noeuds.json").read_text(encoding="utf-8"))]
+    dates_sources = {s["source_id"]: s.get("date", "") for s in registre + complement["sources"]}
+    verifier_acteurs(acteurs, sources, noeuds, dates_sources)
+    exporter_acteurs(acteurs)
 
 
 if __name__ == "__main__":

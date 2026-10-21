@@ -1,0 +1,430 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "ajout_acteurs.schema.json",
+  "title": "France-System-2026 — registre des acteurs v0.2 (ajout éditorial, hors paquet)",
+  "description": "Organisations nommées et liens documentés entre elles. Descend de la catégorie (FR-NODE-*) à l'entité juridique, selon les règles du graphe des entreprises de la méthode. Aucun bénéficiaire effectif n'est deviné ; aucun lien indirect n'est stocké ni calculé.",
+  "type": "object",
+  "required": [
+    "meta",
+    "acteurs",
+    "liens"
+  ],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "required": [
+        "auteur",
+        "date_arret",
+        "statut"
+      ],
+      "properties": {
+        "auteur": {
+          "type": "string"
+        },
+        "date_arret": {
+          "description": "Date d'arrêt propre à la v0.2. Toute donnée postérieure est exclue.",
+          "type": "string",
+          "format": "date"
+        },
+        "statut": {
+          "type": "string"
+        }
+      }
+    },
+    "acteurs": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/acteur"
+      }
+    },
+    "liens": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/lien"
+      }
+    }
+  },
+  "$defs": {
+    "id_source": {
+      "description": "Source du registre : FR-SRC-* (paquet) ou FR-CPL-* (ajout).",
+      "type": "string",
+      "pattern": "^FR-(SRC|CPL)-[0-9]{4}$"
+    },
+    "dimension": {
+      "type": "string",
+      "enum": [
+        "P-LEGAL",
+        "P-EXEC",
+        "P-FISCAL",
+        "P-OWN",
+        "P-FIN",
+        "P-MARKET",
+        "P-INFRA",
+        "P-INFO",
+        "P-REG",
+        "P-JUD",
+        "P-LABOR",
+        "P-EXPERT",
+        "P-NET",
+        "P-COERC",
+        "P-EXT"
+      ]
+    },
+    "preuve": {
+      "description": "Statut de preuve de la méthode : P4 preuve officielle ou primaire directe, P3 forte et corroborée, P2 probable, P1 plausible ou contestée, P0 non prouvée.",
+      "type": "string",
+      "enum": [
+        "P4",
+        "P3",
+        "P2",
+        "P1",
+        "P0"
+      ]
+    },
+    "statut": {
+      "description": "VERIFIED : chaque valeur a été relue dans la source citée. TO_VERIFY : saisie, pas encore relue ; jamais publiée en l'état.",
+      "type": "string",
+      "enum": [
+        "VERIFIED",
+        "TO_VERIFY"
+      ]
+    },
+    "citation": {
+      "description": "Où se lit précisément la valeur : le document, et l'endroit dans le document.",
+      "type": "object",
+      "required": [
+        "source_id",
+        "url"
+      ],
+      "properties": {
+        "source_id": {
+          "$ref": "#/$defs/id_source"
+        },
+        "url": {
+          "description": "Adresse du document précis, pas du portail.",
+          "type": "string"
+        },
+        "localisation": {
+          "description": "Page, tableau, section.",
+          "type": "string"
+        }
+      }
+    },
+    "acteur": {
+      "type": "object",
+      "required": [
+        "actor_id",
+        "nom",
+        "type_acteur",
+        "categories",
+        "citations",
+        "statut"
+      ],
+      "properties": {
+        "actor_id": {
+          "type": "string",
+          "pattern": "^FR-ACT-[0-9]{4}$"
+        },
+        "nom": {
+          "description": "Dénomination légale, telle qu'au registre.",
+          "type": "string"
+        },
+        "nom_usuel": {
+          "type": "string"
+        },
+        "type_acteur": {
+          "description": "Personnes morales et entités publiques uniquement : la v0.2 n'enregistre aucune personne physique.",
+          "type": "string",
+          "enum": [
+            "etat",
+            "holding_publique",
+            "etablissement_public",
+            "entreprise",
+            "autorite_independante",
+            "organisme_financier_public",
+            "association",
+            "organisation_internationale"
+          ]
+        },
+        "forme_juridique": {
+          "description": "SA, SAS, EPIC, EPA, AAI…",
+          "type": "string"
+        },
+        "identifiants": {
+          "description": "Clés de registres officiels. La méthode en exige au moins une ; seul l'État en est dispensé.",
+          "type": "object",
+          "minProperties": 1,
+          "properties": {
+            "siren": {
+              "type": "string",
+              "pattern": "^[0-9]{9}$"
+            },
+            "lei": {
+              "type": "string",
+              "pattern": "^[A-Z0-9]{18}[0-9]{2}$"
+            },
+            "euid": {
+              "type": "string"
+            },
+            "isin": {
+              "description": "Titre coté, le cas échéant.",
+              "type": "string",
+              "pattern": "^[A-Z]{2}[A-Z0-9]{9}[0-9]$"
+            },
+            "autre": {
+              "type": "object",
+              "required": [
+                "registre",
+                "cle"
+              ],
+              "properties": {
+                "registre": {
+                  "type": "string"
+                },
+                "cle": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "cote": {
+          "type": "boolean"
+        },
+        "dimensions": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/dimension"
+          },
+          "uniqueItems": true
+        },
+        "citations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/citation"
+          }
+        },
+        "statut": {
+          "$ref": "#/$defs/statut"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "categories": {
+          "description": "Catégories de la carte du paquet. Pour une entreprise : d'abord la catégorie de contrôle — FR-NODE-013 si l'État détient, directement ou par une entité qu'il détient entièrement, la majorité du capital, ou si le document de la société qualifie le contrôle de l'État (seul ou dans un concert où il n'est pas déclaré minoritaire) ; FR-NODE-014 pour un grand groupe français qui ne remplit aucune de ces conditions — puis les catégories sectorielles. Une société étrangère ou trop petite pour 014 ne reçoit que sa catégorie sectorielle.",
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^FR-NODE-[0-9]{3}$"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type_acteur": {
+                "not": {
+                  "const": "etat"
+                }
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "identifiants"
+            ]
+          }
+        }
+      ]
+    },
+    "lien": {
+      "description": "Un lien DIRECT entre deux acteurs, à une date, d'après une source. Une détention indirecte s'écrit comme une suite de liens directs ; elle n'est jamais additionnée ni déduite.",
+      "type": "object",
+      "required": [
+        "link_id",
+        "source_actor",
+        "target_actor",
+        "type",
+        "dimension",
+        "date_observation",
+        "citation",
+        "preuve",
+        "garde_fou",
+        "statut"
+      ],
+      "properties": {
+        "link_id": {
+          "type": "string",
+          "pattern": "^FR-LNK-[0-9]{4}$"
+        },
+        "source_actor": {
+          "type": "string",
+          "pattern": "^FR-ACT-[0-9]{4}$"
+        },
+        "target_actor": {
+          "type": "string",
+          "pattern": "^FR-ACT-[0-9]{4}$"
+        },
+        "type": {
+          "description": "Vocabulaire fermé. Les types déjà présents dans la carte du paquet (edge_type) gardent leur nom. special_share : action spécifique instituée par décret. single_share : action unique de l'État sans décret (ordinaire, de préférence ou porteuse de droits conventionnels).",
+          "type": "string",
+          "enum": [
+            "equity_ownership",
+            "special_share",
+            "single_share",
+            "appointment",
+            "public_procurement",
+            "business_aid",
+            "public_guarantee",
+            "bank_credit",
+            "bond_holding",
+            "regulated_network_access",
+            "insurance"
+          ]
+        },
+        "dimension": {
+          "$ref": "#/$defs/dimension"
+        },
+        "date_observation": {
+          "description": "Date à laquelle la valeur est vraie, pas date de publication.",
+          "type": "string",
+          "format": "date"
+        },
+        "detention_capital_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "droits_vote_pct": {
+          "description": "Toujours distinct du capital (droits de vote double, actions de préférence). null = non publié par la source : jamais déduit du capital. Le champ reste obligatoire pour qu'une absence soit toujours explicite.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "controle": {
+          "description": "Statut de contrôle tel que la SOURCE le qualifie. Jamais déduit du seul pourcentage ni de la marque. controle_ecarte : la source écrit que ce détenteur ne contrôle pas la société. controle_reglementaire : contrôle tenu d'un régime légal, pas du capital.",
+          "type": "string",
+          "enum": [
+            "exclusif",
+            "conjoint",
+            "influence_notable",
+            "minoritaire",
+            "controle_ecarte",
+            "controle_reglementaire",
+            "non_qualifie"
+          ]
+        },
+        "montant_eur": {
+          "description": "Pour les liens financiers (commande, aide, garantie).",
+          "type": "number",
+          "minimum": 0
+        },
+        "citation": {
+          "$ref": "#/$defs/citation"
+        },
+        "preuve": {
+          "$ref": "#/$defs/preuve"
+        },
+        "incertitude": {
+          "description": "Ce qui reste incertain : arrondi, date, périmètre.",
+          "type": "string"
+        },
+        "garde_fou": {
+          "description": "Ce que ce lien ne prouve pas. Obligatoire.",
+          "type": "string"
+        },
+        "statut": {
+          "$ref": "#/$defs/statut"
+        },
+        "nombre_sieges": {
+          "description": "Pour une nomination : sièges au conseil nommés ou proposés par le détenteur.",
+          "type": "integer",
+          "minimum": 0
+        },
+        "sieges_total": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "base_juridique": {
+          "description": "Texte qui fonde le lien (décret, ordonnance, pacte).",
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "equity_ownership"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "detention_capital_pct",
+              "droits_vote_pct",
+              "controle"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "public_procurement",
+                  "business_aid",
+                  "public_guarantee"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "montant_eur"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "appointment"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "nombre_sieges",
+              "base_juridique"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "special_share",
+                  "single_share"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "base_juridique"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

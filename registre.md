@@ -11,7 +11,8 @@ au {% include date-snapshot.html %}. Toutes portent le statut *vérifiée*.
 S’y ajoutent **{{ ajouts | size }} sources choisies par ce site**, signalées par
 la pastille <span class="pastille ajout">ajout</span>. Elles étoffent les formes
 de pouvoir que le paquet laissait presque vides — expertise, coercition,
-exécutif — et ne font pas partie du paquet : leurs identifiants commencent par
+exécutif — ou documentent le [registre des acteurs]({{ '/acteurs/' | relative_url }}),
+et ne font pas partie du paquet : leurs identifiants commencent par
 `FR-CPL`, jamais par `FR-SRC`. Elles suivent les mêmes règles d’admission et la
 même date d’arrêt.
 

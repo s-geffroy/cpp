@@ -1,0 +1,12 @@
+{%- comment -%}
+Une date AAAA-MM-JJ ecrite en francais : « 31 décembre 2025 ».
+Usage : {% include date-fr.html date=l.date_observation %}
+
+Meme piege que date-snapshot.html : le numero de mois passe par une variable
+intermediaire, Liquid ne resolvant pas « mois[jms[1]] ».
+{%- endcomment -%}
+{%- assign jms = include.date | split: "-" -%}
+{%- assign num_mois = jms[1] -%}
+{%- assign nom_mois = site.data.libelles.mois[num_mois] -%}
+{%- assign jour = jms[2] | plus: 0 -%}
+{%- if jour == 1 -%}1<sup>er</sup>{%- else -%}{{ jour }}{%- endif %} {{ nom_mois }} {{ jms[0] -}}

@@ -65,7 +65,7 @@ n’en sont qu’un rendu.
 
 ## Les ajouts de ce site, hors paquet
 
-Deux fichiers ne viennent **pas** du paquet. Ils sont écrits par ce site, publiés
+Trois jeux de données ne viennent **pas** du paquet. Ils sont écrits par ce site, publiés
 comme tels et séparés des fichiers d’origine, sous des noms qui commencent tous
 par `ajout_`.
 
@@ -79,6 +79,21 @@ par `ajout_`.
     <a href="{{ '/assets/donnees/ajout_registre_complement.json' | relative_url }}">
       <code>ajout_registre_complement.json</code></a>
     <span class="meta">les mêmes, en JSON</span>
+  </li>
+  <li>
+    <a href="{{ '/assets/donnees/ajout_acteurs.json' | relative_url }}">
+      <code>ajout_acteurs.json</code></a>
+    <span class="meta">{{ site.data.acteurs.acteurs | size }} acteurs du <a href="{{ '/acteurs/' | relative_url }}">registre des acteurs</a></span>
+  </li>
+  <li>
+    <a href="{{ '/assets/donnees/ajout_liens.json' | relative_url }}">
+      <code>ajout_liens.json</code></a>
+    <span class="meta">{{ site.data.acteurs.liens | size }} liens entre eux</span>
+  </li>
+  <li>
+    <a href="{{ '/assets/donnees/ajout_acteurs.schema.json' | relative_url }}">
+      <code>ajout_acteurs.schema.json</code></a>
+    <span class="meta">le schéma JSON qui valide le registre des acteurs</span>
   </li>
   <li>
     <a href="{{ '/assets/donnees/ajout_passage_dimensions.csv' | relative_url }}">

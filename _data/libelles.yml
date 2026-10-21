@@ -330,6 +330,10 @@ domaines:
   administrative_justice: "Justice administrative"
   judicial_activity: "Activité judiciaire"
   constitutional_review: "Contrôle de constitutionnalité"
+  corporate_disclosure: "Information réglementée des sociétés"
+  entity_identifiers: "Identifiants d’entités juridiques"
+  public_portfolio: "Portefeuille de l’État actionnaire"
+  special_shares: "Actions spécifiques de l’État"
 
 # --- Autorite de la source ------------------------------------------------
 autorites:
@@ -376,6 +380,9 @@ types_source:
   regulatory_corpus: "Corpus réglementaire"
   # Ajouts editoriaux (_data/registre-complement.yml)
   official_audit_report: "Rapport d’audit officiel"
+  regulated_filing: "Information réglementée déposée à l’AMF"
+  regulatory_notice: "Avis de l’Autorité des marchés financiers"
+  official_decision: "Décision officielle"
 
 # --- Rythme de rafraichissement -------------------------------------------
 rafraichissements:
@@ -691,3 +698,44 @@ familles:
     court: "Société"
     long: "Représentation et société civile"
     quoi: "Syndicats, organisations patronales, instances du personnel, associations, think tanks, ordres professionnels, représentants d’intérêts"
+
+# --- Registre des acteurs v0.2 (_data/acteurs.yml), ajout editorial --------
+types_acteur:
+  etat: "État"
+  holding_publique: "Holding publique"
+  etablissement_public: "Établissement public"
+  entreprise: "Entreprise"
+  autorite_independante: "Autorité indépendante"
+  organisme_financier_public: "Organisme financier public"
+  association: "Association"
+  organisation_internationale: "Organisation internationale"
+
+types_lien_acteur:
+  equity_ownership: "Détention en capital"
+  special_share: "Action spécifique (décret)"
+  single_share: "Action unique de l’État"
+  appointment: "Nomination au conseil"
+  public_procurement: "Commande publique"
+  business_aid: "Aide publique"
+  public_guarantee: "Garantie publique"
+  bank_credit: "Crédit bancaire"
+  bond_holding: "Détention d’obligations"
+  regulated_network_access: "Accès à un réseau régulé"
+  insurance: "Assurance"
+
+controles:
+  exclusif: "Contrôle exclusif"
+  conjoint: "Contrôle conjoint"
+  influence_notable: "Influence notable"
+  minoritaire: "Participation minoritaire"
+  controle_ecarte: "Contrôle écarté par la société"
+  controle_reglementaire: "Contrôle réglementaire"
+  non_qualifie: "Contrôle non qualifié par la source"
+
+# Reprend le tableau des statuts de preuve de la page Methode.
+preuves:
+  P4: "Preuve officielle ou primaire directe"
+  P3: "Preuve forte et corroborée"
+  P2: "Probable"
+  P1: "Plausible ou contesté"
+  P0: "Non prouvé"
