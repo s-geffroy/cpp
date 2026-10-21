@@ -44,7 +44,7 @@
       }
     ],
     "statut": "VERIFIED",
-    "notes": "N’est pas l’État : contrôlée par Bpifrance SA, elle-même « contrôlée à 49,2 % par la CDC et à 49,2 % par » l’EPIC Bpifrance (avis AMF 225C1150). La carte v0.1 n’a pas de catégorie pour les institutions financières publiques."
+    "notes": "N’est pas l’État : contrôlée par Bpifrance SA, elle-même « contrôlée à 49,2% par la CDC et à 49,2% par » l’EPIC Bpifrance (avis AMF 225C1150). La carte v0.1 n’a pas de catégorie pour les institutions financières publiques."
   },
   {
     "actor_id": "FR-ACT-0003",
@@ -336,7 +336,7 @@
       }
     ],
     "statut": "VERIFIED",
-    "notes": "L’État détient en direct 2 060 actions, dont l’action spécifique ; le document n’affiche pas de pourcentage, aucun lien de détention directe n’est donc saisi. Catégorie 013 : contrôle par le concert TSA–Dassault Aviation, « TSA étant majoritaire » ; Dassault Aviation (26,59 %) est un actionnaire privé, non saisi."
+    "notes": "L’État détient en direct 2 060 actions, dont l’action spécifique ; le document n’affiche pas de pourcentage, aucun lien de détention directe n’est donc saisi. Catégorie 013 : contrôle par le concert TSA–Dassault Aviation, « TSA étant majoritaire » ; Dassault Aviation (26,59%) est un actionnaire privé, non saisi."
   },
   {
     "actor_id": "FR-ACT-0014",
@@ -410,7 +410,7 @@
       }
     ],
     "statut": "VERIFIED",
-    "notes": "L’État néerlandais détient 9,1 % du capital et 12,8 % des droits de vote : actionnaire public étranger, non saisi."
+    "notes": "L’État néerlandais détient 9,1% du capital et 12,8% des droits de vote : actionnaire public étranger, non saisi."
   },
   {
     "actor_id": "FR-ACT-0017",
@@ -654,7 +654,7 @@
       }
     ],
     "statut": "VERIFIED",
-    "notes": "L’État a cédé sa participation majoritaire en avril 2024 à Holding DCI (groupe ADIT) et conserve 34 % ; la part de l’acquéreur n’est publiée que par une source secondaire, non saisie. L’État détient aussi une action de préférence « dotée de droits spécifiques » (rapport de l’APE 2023-2024)."
+    "notes": "L’État a cédé sa participation majoritaire en avril 2024 à Holding DCI (groupe ADIT) et conserve 34% ; la part de l’acquéreur n’est publiée que par une source secondaire, non saisie. L’État détient aussi une action de préférence « dotée de droits spécifiques » (rapport de l’APE 2023-2024)."
   },
   {
     "actor_id": "FR-ACT-0026",
@@ -767,7 +767,7 @@
       }
     ],
     "statut": "VERIFIED",
-    "notes": "Société anonyme de droit belge, commercialisant ses produits sous la marque Arquus. Deux entités belges portent ce nom ; celle qui a reçu l’investissement de l’État n’est pas établie : identifiants à confirmer. Le groupe John Cockerill (80 %) et l’État belge (10 %, via la SFPI) ne sont pas saisis."
+    "notes": "Société anonyme de droit belge, commercialisant ses produits sous la marque Arquus. Deux entités belges portent ce nom ; celle qui a reçu l’investissement de l’État n’est pas établie : identifiants à confirmer. Le groupe John Cockerill (80%) et l’État belge (10%, via la SFPI) ne sont pas saisis."
   },
   {
     "actor_id": "FR-ACT-0030",
@@ -1030,5 +1030,129 @@
     ],
     "statut": "VERIFIED",
     "notes": "Issue de SNPE Matériaux Énergétiques par l’intermédiaire d’Herakles ; la continuité de la personne morale n’est pas établie. Aucun LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0040",
+    "nom": "BlackRock, Inc.",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Société de droit du Delaware (États-Unis)",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "529900VBK42Y5HHRMD23"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Déclare ses participations « pour le compte de clients et de fonds dont elle assure la gestion ». LEI de la société de tête créée en 2024 ; l’ancien LEI 549300LRIF3NWCU26A80 désigne désormais BlackRock Finance, Inc."
+  },
+  {
+    "actor_id": "FR-ACT-0041",
+    "nom": "The Capital Group Companies, Inc.",
+    "nom_usuel": "Capital Group",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Société de droit du Delaware (États-Unis)",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "5493007PLZSLIFWICM52"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/5493007PLZSLIFWICM52"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Agrège notamment les positions de Capital Research and Management Company, enregistrée à part : les deux ne s’additionnent pas."
+  },
+  {
+    "actor_id": "FR-ACT-0042",
+    "nom": "Capital Research and Management Company",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Société de droit du Delaware (États-Unis)",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "M02M7XSKLMK96MWKNF95"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/M02M7XSKLMK96MWKNF95"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Filiale de The Capital Group Companies, Inc. Elle déclare seule au registre néerlandais pour Airbus SE."
+  },
+  {
+    "actor_id": "FR-ACT-0043",
+    "nom": "TCI Fund Management Limited",
+    "nom_usuel": "TCI Fund Management",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Société de droit anglais (Royaume-Uni)",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "5493001WGD5701M9CX95"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/5493001WGD5701M9CX95"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Gestionnaire de fonds alternatifs ; déclare pour le compte de clients et de fonds."
+  },
+  {
+    "actor_id": "FR-ACT-0044",
+    "nom": "Kopernik Global Investors, LLC",
+    "nom_usuel": "Kopernik Global Investors",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Société de droit américain",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "254900H2LD7BDWOTAG28"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/254900H2LD7BDWOTAG28"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Déclare « pour le compte de clients dont elle assure la gestion »."
+  },
+  {
+    "actor_id": "FR-ACT-0045",
+    "nom": "Canada Pension Plan Investment Board",
+    "nom_usuel": "Office d’investissement du régime de pensions du Canada",
+    "type_acteur": "fonds_institutionnel",
+    "forme_juridique": "« Crown Corporation » de droit canadien",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "70DNWEAINTGFO4DMV441"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/70DNWEAINTGFO4DMV441"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Gère les actifs du Régime de pensions du Canada pour ses cotisants. N’est pas l’État canadien : ses parts ne s’additionnent à aucune autre."
   }
 ]

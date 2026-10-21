@@ -32,7 +32,7 @@ meta:
   auteur: "France-System-2026 (ce site)"
   date_arret: "2026-08-12"
   statut: "Pilote et périmètre de défense, validés le 2026-10-21"
-  recoupement: "Les détentions de l’État ont été recoupées avec le rapport d’activité 2025-2026 de l’Agence des participations de l’État. Ce rapport, paru en octobre 2026, est postérieur à la date d’arrêt : il n’est cité nulle part. Pour les sociétés cotées, il ne montre aucun écart au-delà de l’évolution des droits de vote double entre le 31 décembre 2025 et le 30 juin 2026, et confirme le maintien de l’État à 29,7 % du capital d’Eutelsat. Pour les entreprises non cotées, il donne au 31 décembre 2025 les mêmes parts que les sources citées, souvent arrêtées un an plus tôt."
+  recoupement: "Les détentions de l’État ont été recoupées avec le rapport d’activité 2025-2026 de l’Agence des participations de l’État. Ce rapport, paru en octobre 2026, est postérieur à la date d’arrêt : il n’est cité nulle part. Pour les sociétés cotées, il ne montre aucun écart au-delà de l’évolution des droits de vote double entre le 31 décembre 2025 et le 30 juin 2026, et confirme le maintien de l’État à 29,7% du capital d’Eutelsat. Pour les entreprises non cotées, il donne au 31 décembre 2025 les mêmes parts que les sources citées, souvent arrêtées un an plus tôt."
   lacunes:
     - nom: "Civipol"
       raison: "Inscrite au périmètre de l’APE, mais la part de l’État au capital n’est publiée dans aucune source lue."
@@ -73,7 +73,7 @@ acteurs:
       - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500L8H4KWQN9BFU89" }
       - { source_id: FR-CPL-0038, url: "https://bdif.amf-france.org/back/api/v1/documents/2025/225C1150/00765B9616F5A106A4BB9D073FF1D8EDD94E4534EA6699CEA2E004AE0555D68B.pdf", localisation: "note 1" }
     statut: VERIFIED
-    notes: "N’est pas l’État : contrôlée par Bpifrance SA, elle-même « contrôlée à 49,2 % par la CDC et à 49,2 % par » l’EPIC Bpifrance (avis AMF 225C1150). La carte v0.1 n’a pas de catégorie pour les institutions financières publiques."
+    notes: "N’est pas l’État : contrôlée par Bpifrance SA, elle-même « contrôlée à 49,2% par la CDC et à 49,2% par » l’EPIC Bpifrance (avis AMF 225C1150). La carte v0.1 n’a pas de catégorie pour les institutions financières publiques."
 
   - actor_id: FR-ACT-0003
     nom: "CAISSE DES DEPOTS ET CONSIGNATIONS"
@@ -212,7 +212,7 @@ acteurs:
     citations:
       - { source_id: FR-CPL-0029, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip", localisation: "p. 234" }
     statut: VERIFIED
-    notes: "L’État détient en direct 2 060 actions, dont l’action spécifique ; le document n’affiche pas de pourcentage, aucun lien de détention directe n’est donc saisi. Catégorie 013 : contrôle par le concert TSA–Dassault Aviation, « TSA étant majoritaire » ; Dassault Aviation (26,59 %) est un actionnaire privé, non saisi."
+    notes: "L’État détient en direct 2 060 actions, dont l’action spécifique ; le document n’affiche pas de pourcentage, aucun lien de détention directe n’est donc saisi. Catégorie 013 : contrôle par le concert TSA–Dassault Aviation, « TSA étant majoritaire » ; Dassault Aviation (26,59%) est un actionnaire privé, non saisi."
 
   - actor_id: FR-ACT-0014
     nom: "Eutelsat Communications"
@@ -249,7 +249,7 @@ acteurs:
     citations:
       - { source_id: FR-CPL-0033, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0138/4896F8450007BD1A8B72ACD1336FA3057057251E122B2BE1A184DA6ADD4ABBD7.zip", localisation: "§ 6.2, p. 513" }
     statut: VERIFIED
-    notes: "L’État néerlandais détient 9,1 % du capital et 12,8 % des droits de vote : actionnaire public étranger, non saisi."
+    notes: "L’État néerlandais détient 9,1% du capital et 12,8% des droits de vote : actionnaire public étranger, non saisi."
 
   - actor_id: FR-ACT-0017
     nom: "ERAMET"
@@ -371,7 +371,7 @@ acteurs:
       - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=722031176" }
       - { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122" }
     statut: VERIFIED
-    notes: "L’État a cédé sa participation majoritaire en avril 2024 à Holding DCI (groupe ADIT) et conserve 34 % ; la part de l’acquéreur n’est publiée que par une source secondaire, non saisie. L’État détient aussi une action de préférence « dotée de droits spécifiques » (rapport de l’APE 2023-2024)."
+    notes: "L’État a cédé sa participation majoritaire en avril 2024 à Holding DCI (groupe ADIT) et conserve 34% ; la part de l’acquéreur n’est publiée que par une source secondaire, non saisie. L’État détient aussi une action de préférence « dotée de droits spécifiques » (rapport de l’APE 2023-2024)."
 
   - actor_id: FR-ACT-0026
     nom: "ODAS"
@@ -424,7 +424,7 @@ acteurs:
       - { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 92 / PDF 87" }
       - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/529900TY2GYO7NSVF328" }
     statut: VERIFIED
-    notes: "Société anonyme de droit belge, commercialisant ses produits sous la marque Arquus. Deux entités belges portent ce nom ; celle qui a reçu l’investissement de l’État n’est pas établie : identifiants à confirmer. Le groupe John Cockerill (80 %) et l’État belge (10 %, via la SFPI) ne sont pas saisis."
+    notes: "Société anonyme de droit belge, commercialisant ses produits sous la marque Arquus. Deux entités belges portent ce nom ; celle qui a reçu l’investissement de l’État n’est pas établie : identifiants à confirmer. Le groupe John Cockerill (80%) et l’État belge (10%, via la SFPI) ne sont pas saisis."
 
   - actor_id: FR-ACT-0030
     nom: "DASSAULT AVIATION"
@@ -556,6 +556,76 @@ acteurs:
     statut: VERIFIED
     notes: "Issue de SNPE Matériaux Énergétiques par l’intermédiaire d’Herakles ; la continuité de la personne morale n’est pas établie. Aucun LEI trouvé."
 
+  - actor_id: FR-ACT-0040
+    nom: "BlackRock, Inc."
+    type_acteur: gestionnaire_actifs
+    forme_juridique: "Société de droit du Delaware (États-Unis)"
+    categories: [FR-NODE-018]
+    identifiants: { lei: "529900VBK42Y5HHRMD23" }
+    citations:
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/529900VBK42Y5HHRMD23" }
+    statut: VERIFIED
+    notes: "Déclare ses participations « pour le compte de clients et de fonds dont elle assure la gestion ». LEI de la société de tête créée en 2024 ; l’ancien LEI 549300LRIF3NWCU26A80 désigne désormais BlackRock Finance, Inc."
+
+  - actor_id: FR-ACT-0041
+    nom: "The Capital Group Companies, Inc."
+    nom_usuel: "Capital Group"
+    type_acteur: gestionnaire_actifs
+    forme_juridique: "Société de droit du Delaware (États-Unis)"
+    categories: [FR-NODE-018]
+    identifiants: { lei: "5493007PLZSLIFWICM52" }
+    citations:
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/5493007PLZSLIFWICM52" }
+    statut: VERIFIED
+    notes: "Agrège notamment les positions de Capital Research and Management Company, enregistrée à part : les deux ne s’additionnent pas."
+
+  - actor_id: FR-ACT-0042
+    nom: "Capital Research and Management Company"
+    type_acteur: gestionnaire_actifs
+    forme_juridique: "Société de droit du Delaware (États-Unis)"
+    categories: [FR-NODE-018]
+    identifiants: { lei: "M02M7XSKLMK96MWKNF95" }
+    citations:
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/M02M7XSKLMK96MWKNF95" }
+    statut: VERIFIED
+    notes: "Filiale de The Capital Group Companies, Inc. Elle déclare seule au registre néerlandais pour Airbus SE."
+
+  - actor_id: FR-ACT-0043
+    nom: "TCI Fund Management Limited"
+    nom_usuel: "TCI Fund Management"
+    type_acteur: gestionnaire_actifs
+    forme_juridique: "Société de droit anglais (Royaume-Uni)"
+    categories: [FR-NODE-018]
+    identifiants: { lei: "5493001WGD5701M9CX95" }
+    citations:
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/5493001WGD5701M9CX95" }
+    statut: VERIFIED
+    notes: "Gestionnaire de fonds alternatifs ; déclare pour le compte de clients et de fonds."
+
+  - actor_id: FR-ACT-0044
+    nom: "Kopernik Global Investors, LLC"
+    nom_usuel: "Kopernik Global Investors"
+    type_acteur: gestionnaire_actifs
+    forme_juridique: "Société de droit américain"
+    categories: [FR-NODE-018]
+    identifiants: { lei: "254900H2LD7BDWOTAG28" }
+    citations:
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/254900H2LD7BDWOTAG28" }
+    statut: VERIFIED
+    notes: "Déclare « pour le compte de clients dont elle assure la gestion »."
+
+  - actor_id: FR-ACT-0045
+    nom: "Canada Pension Plan Investment Board"
+    nom_usuel: "Office d’investissement du régime de pensions du Canada"
+    type_acteur: fonds_institutionnel
+    forme_juridique: "« Crown Corporation » de droit canadien"
+    categories: [FR-NODE-018]
+    identifiants: { lei: "70DNWEAINTGFO4DMV441" }
+    citations:
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/70DNWEAINTGFO4DMV441" }
+    statut: VERIFIED
+    notes: "Gère les actifs du Régime de pensions du Canada pour ses cotisants. N’est pas l’État canadien : ses parts ne s’additionnent à aucune autre."
+
 liens:
 
   # --- Détentions en capital ------------------------------------------------
@@ -566,8 +636,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 13.39
-    droits_vote_pct: 21.04
+    detention_capital_pct: "13.39"
+    droits_vote_pct: "21.04"
     controle: controle_ecarte
     citation: { source_id: FR-CPL-0023, url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf", localisation: "§ 6.2.1, tableau « Répartition du capital et des droits de vote », p. 529 / PDF 531 ; § 6.2.2, p. 530" }
     preuve: P4
@@ -581,12 +651,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 9.56
-    droits_vote_pct: 8.0
+    detention_capital_pct: "9.56"
+    droits_vote_pct: "8.0"
     controle: controle_ecarte
     citation: { source_id: FR-CPL-0023, url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf", localisation: "§ 6.2.1, p. 529 / PDF 531" }
     preuve: P4
-    incertitude: "Droits de vote imprimés « 8% » sans décimale (8,02 % un an plus tôt)."
+    incertitude: "Droits de vote imprimés « 8% » sans décimale (8,02% un an plus tôt)."
     garde_fou: "Bpifrance Participations n’est pas l’État : sa détention ne s’additionne pas à celle de l’État, même de concert."
     statut: VERIFIED
 
@@ -596,12 +666,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2026-03-04"
-    detention_capital_pct: 22.64
-    droits_vote_pct: 33.08
+    detention_capital_pct: "22.64"
+    droits_vote_pct: "33.08"
     controle: non_qualifie
     citation: { source_id: FR-CPL-0024, url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf", localisation: "§ 5.4.3, p. 338 / PDF 340" }
     preuve: P4
-    incertitude: "Valeur déclarée lors du franchissement à la baisse du tiers des droits de vote, après l’augmentation de capital du 27 février 2026. Au 31 décembre 2025 : 23,64 % du capital, 34,15 % des droits de vote théoriques."
+    incertitude: "Valeur déclarée lors du franchissement à la baisse du tiers des droits de vote, après l’augmentation de capital du 27 février 2026. Au 31 décembre 2025 : 23,64% du capital, 34,15% des droits de vote théoriques."
     garde_fou: "Une participation importante ne prouve pas une direction de l’entreprise ; propriété, régulation de l’énergie et commande publique restent des liens distincts (règle dure n° 2)."
     statut: VERIFIED
 
@@ -611,8 +681,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 3.36
-    droits_vote_pct: 3.29
+    detention_capital_pct: "3.36"
+    droits_vote_pct: "3.29"
     controle: non_qualifie
     citation: { source_id: FR-CPL-0024, url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf", localisation: "§ 5.4.2.1, p. 337 / PDF 339 (ligne « CDC »)" }
     preuve: P4
@@ -626,12 +696,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 15.01
-    droits_vote_pct: 22.24
+    detention_capital_pct: "15.01"
+    droits_vote_pct: "22.24"
     controle: non_qualifie
     citation: { source_id: FR-CPL-0025, url: "https://assets.renaultgroup.com/uploads/2026/03/DEU_2025_comp_202603191340.pdf", localisation: "§ 6.2.6.1, p. 571" }
     preuve: P4
-    incertitude: "Droits de vote exerçables ; 21,92 % des droits de vote théoriques."
+    incertitude: "Droits de vote exerçables ; 21,92% des droits de vote théoriques."
     garde_fou: "Aucun pacte ni action de concert. Premier actionnaire ne veut pas dire actionnaire de contrôle."
     statut: VERIFIED
 
@@ -641,8 +711,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 21.09
-    droits_vote_pct: 29.35
+    detention_capital_pct: "21.09"
+    droits_vote_pct: "29.35"
     controle: controle_reglementaire
     citation: { source_id: FR-CPL-0026, url: "https://www.fdjunited.com/wp-content/uploads/2026/03/document-denregistrement-universel-2025-accessible.pdf", localisation: "§ 7.3.1.1, p. 500 / PDF 502 ; § 7.3.1.8, p. 504 / PDF 506" }
     preuve: P4
@@ -655,8 +725,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 10.83
-    droits_vote_pct: 10.90
+    detention_capital_pct: "10.83"
+    droits_vote_pct: "10.90"
     controle: non_qualifie
     citation: { source_id: FR-CPL-0027, url: "https://mediaassets.airbus.com/pm_38_919_919350-ko9v34j5cg.pdf?fileName=airbus-report-of-the-board-of-directors-2025.pdf", localisation: "§ 4.2.1, « Shareholding structure at the end of 2025 », p. 109 / PDF 110" }
     preuve: P4
@@ -670,12 +740,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 11.72
-    droits_vote_pct: 18.35
+    detention_capital_pct: "11.72"
+    droits_vote_pct: "18.35"
     controle: controle_ecarte
     citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.3.1, p. 486-487 ; § 6.3.5, p. 488" }
     preuve: P4
-    incertitude: "Droits de vote exerçables ; 18,30 % des droits de vote théoriques. Pages tirées de la table de concordance (version ESEF)."
+    incertitude: "Droits de vote exerçables ; 18,30% des droits de vote théoriques. Pages tirées de la table de concordance (version ESEF)."
     garde_fou: "« Aucun actionnaire ne détient […] une fraction des droits de vote lui permettant d’exercer le contrôle de la Société »."
     statut: VERIFIED
 
@@ -685,8 +755,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 26.60
-    droits_vote_pct: 36.35
+    detention_capital_pct: "26.60"
+    droits_vote_pct: "36.35"
     controle: conjoint
     citation: { source_id: FR-CPL-0029, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip", localisation: "§ 6.2.1.2, p. 236 ; concert p. 238" }
     preuve: P3
@@ -700,8 +770,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 100
-    droits_vote_pct: 100
+    detention_capital_pct: "100"
+    droits_vote_pct: "100"
     controle: exclusif
     citation: { source_id: FR-CPL-0029, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0212/50905AFFB8BB558092AD9A14A72A5186AE675BAC598AA65B182AD9734E48A1A6.zip", localisation: "§ 6.2.3.2.1, p. 237" }
     preuve: P3
@@ -715,8 +785,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-11-21"
-    detention_capital_pct: 29.65
-    droits_vote_pct: 29.65
+    detention_capital_pct: "29.65"
+    droits_vote_pct: "29.65"
     controle: non_qualifie
     citation: { source_id: FR-CPL-0031, url: "https://bdif.amf-france.org/back/api/v1/documents/2025/225C2012/D6D3131E607F42ED988B819AEEE5088E9A85AEC16B0638BF6BDB1533BC03E531.pdf", localisation: "p. 1" }
     preuve: P4
@@ -730,8 +800,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 50.63
-    droits_vote_pct: 60.27
+    detention_capital_pct: "50.63"
+    droits_vote_pct: "60.27"
     controle: exclusif
     citation: { source_id: FR-CPL-0032, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0180/7857F887D2649A7DA34278B46C5A29E746D62AC7106140564E6D9986DB93A4BE.zip", localisation: "§ 3.1.6.1, p. 204 ; § 7.1.1, p. 596 ; « entreprise publique contrôlée par l’État français », p. 158" }
     preuve: P4
@@ -744,8 +814,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 28.0
-    droits_vote_pct: 28.9
+    detention_capital_pct: "28.0"
+    droits_vote_pct: "28.9"
     controle: non_qualifie
     citation: { source_id: FR-CPL-0033, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0138/4896F8450007BD1A8B72ACD1336FA3057057251E122B2BE1A184DA6ADD4ABBD7.zip", localisation: "§ 2.7.5, « Évolution de l’actionnariat », p. 165 ; annexe, p. 429" }
     preuve: P4
@@ -759,12 +829,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 27.13
-    droits_vote_pct: 31.59
+    detention_capital_pct: "27.13"
+    droits_vote_pct: "31.59"
     controle: conjoint
     citation: { source_id: FR-CPL-0034, url: "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf", localisation: "§ 6.2.2.1, p. 577 ; contrôle, p. 584" }
     preuve: P4
-    incertitude: "Droits de vote théoriques ; 31,76 % des droits de vote exerçables."
+    incertitude: "Droits de vote théoriques ; 31,76% des droits de vote exerçables."
     garde_fou: "Contrôle exercé de concert avec Sorame et CEIR, actionnaires privés, déclarés prédominants dans le concert : il ne s’attribue pas à l’État."
     statut: VERIFIED
 
@@ -774,12 +844,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 100
-    droits_vote_pct: 100
+    detention_capital_pct: "100"
+    droits_vote_pct: "100"
     controle: exclusif
-    citation: { source_id: FR-CPL-0034, url: "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf", localisation: "p. 230 et p. 577 (« détenue à 100 % par l’État »)" }
+    citation: { source_id: FR-CPL-0034, url: "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf", localisation: "p. 230 et p. 577 (« détenue à 100% par l’État »)" }
     preuve: P3
-    incertitude: "L’acquisition de l’intégralité du capital de FSI Equation par l’APE, pour le compte de l’État, le 29 août 2016, est établie par la déclaration AMF 216C1953 (FR-CPL-0039). Une déclaration de 2020 reproduite p. 584 du document d’Eramet la décrit encore comme « détenue à 100 % par Bpifrance Participations » : reprise d’un texte antérieur, contredite par la déclaration de 2016 et par le document lui-même p. 230 et p. 577."
+    incertitude: "L’acquisition de l’intégralité du capital de FSI Equation par l’APE, pour le compte de l’État, le 29 août 2016, est établie par la déclaration AMF 216C1953 (FR-CPL-0039). Une déclaration de 2020 reproduite p. 584 du document d’Eramet la décrit encore comme « détenue à 100% par Bpifrance Participations » : reprise d’un texte antérieur, contredite par la déclaration de 2016 et par le document lui-même p. 230 et p. 577."
     garde_fou: "Ce maillon ne s’ajoute pas au lien FSI Equation → Eramet : la part de l’État dans Eramet n’est pas recalculée."
     statut: VERIFIED
 
@@ -789,8 +859,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 100
-    droits_vote_pct: 100
+    detention_capital_pct: "100"
+    droits_vote_pct: "100"
     controle: exclusif
     citation: { source_id: FR-CPL-0035, url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf", localisation: "§ 7.3.8, p. 567 ; « faculté […] de contrôler », p. 458" }
     preuve: P4
@@ -889,7 +959,7 @@ liens:
     dimension: P-OWN
     date_observation: "2025-12-31"
     nombre_sieges: 2
-    base_juridique: "Ordonnance n° 2014-948, art. 4 et art. 6 ; statuts, art. 14.1 (tant que l’État détient plus de 10 % du capital)"
+    base_juridique: "Ordonnance n° 2014-948, art. 4 et art. 6 ; statuts, art. 14.1 (tant que l’État détient plus de 10% du capital)"
     citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 2.2.3" }
     preuve: P4
     incertitude: "Page exacte non relevée ; nombre total de sièges non relevé."
@@ -989,7 +1059,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 62.25
+    detention_capital_pct: "62.25"
     droits_vote_pct: null
     controle: exclusif
     citation: { source_id: FR-CPL-0041, url: "https://www.naval-group.com/sites/default/files/2026-03/Rapport%20annuel%20Naval%20Group%202025%20FR.pdf", localisation: "note 3.6.1 « Capital social », p. 96 / PDF 98 ; contrôle, note 5.2, p. 106" }
@@ -1004,7 +1074,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 35.0
+    detention_capital_pct: "35.0"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0041, url: "https://www.naval-group.com/sites/default/files/2026-03/Rapport%20annuel%20Naval%20Group%202025%20FR.pdf", localisation: "note 3.6.1, p. 96 / PDF 98" }
@@ -1019,7 +1089,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 100
+    detention_capital_pct: "100"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1 « Participations directes de l’État », p. 122 / PDF 115" }
@@ -1034,7 +1104,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 50
+    detention_capital_pct: "50"
     droits_vote_pct: null
     controle: conjoint
     citation: { source_id: FR-CPL-0042, url: "https://www.lobbyregister.bundestag.de/media/be/4c/802681/2025_KNDS_Directors_report_Financial_statements_SIGNED_26139eae7b.pdf", localisation: "note 42 « Shareholders’ equity », p. 109 ; note 31, p. 94" }
@@ -1049,12 +1119,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 100
+    detention_capital_pct: "100"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0042, url: "https://www.lobbyregister.bundestag.de/media/be/4c/802681/2025_KNDS_Directors_report_Financial_statements_SIGNED_26139eae7b.pdf", localisation: "note 39 « Participating interests in group companies », p. 107" }
     preuve: P4
-    incertitude: "« 100 % » arrondi : l’État détient une action. Droits de vote non publiés par la source."
+    incertitude: "« 100% » arrondi : l’État détient une action. Droits de vote non publiés par la source."
     garde_fou: "La filiale française est contrôlée par la société néerlandaise, non par l’État ; l’État n’y détient qu’une action spécifique."
     statut: VERIFIED
 
@@ -1064,7 +1134,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 50.32
+    detention_capital_pct: "50.32"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 / PDF 115" }
@@ -1079,12 +1149,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 20.3
+    detention_capital_pct: "20.3"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 89 / PDF 84" }
     preuve: P4
-    incertitude: "Pourcentage arrondi à une décimale (20,32 % selon le site de la société). Droits de vote non publiés par la source."
+    incertitude: "Pourcentage arrondi à une décimale (20,32% selon le site de la société). Droits de vote non publiés par la source."
     garde_fou: "Le CEA est un établissement public distinct de l’État : sa part ne s’additionne pas à celle de l’État."
     statut: VERIFIED
 
@@ -1094,7 +1164,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 20.32
+    detention_capital_pct: "20.32"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0041, url: "https://www.naval-group.com/sites/default/files/2026-03/Rapport%20annuel%20Naval%20Group%202025%20FR.pdf", localisation: "§ 3.3.3, p. 95 / PDF 97" }
@@ -1109,12 +1179,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 9
+    detention_capital_pct: "9"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 89 / PDF 84" }
     preuve: P3
-    incertitude: "Le site de TechnicAtome indique une détention par EDF Holding, filiale d’EDF : le détenteur direct exact n’est pas établi. Pourcentage arrondi (9,03 % selon le site). Droits de vote non publiés par la source."
+    incertitude: "Le site de TechnicAtome indique une détention par EDF Holding, filiale d’EDF : le détenteur direct exact n’est pas établi. Pourcentage arrondi (9,03% selon le site). Droits de vote non publiés par la source."
     garde_fou: "EDF est une entreprise distincte de l’État : sa part ne s’additionne pas à celle de l’État."
     statut: VERIFIED
 
@@ -1124,7 +1194,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 34
+    detention_capital_pct: "34"
     droits_vote_pct: null
     controle: minoritaire
     citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 / PDF 115" }
@@ -1139,7 +1209,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 34
+    detention_capital_pct: "34"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 / PDF 115" }
@@ -1154,7 +1224,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 100
+    detention_capital_pct: "100"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "annexe 1, p. 122 / PDF 115" }
@@ -1169,12 +1239,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 100
+    detention_capital_pct: "100"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 90 / PDF 85" }
     preuve: P4
-    incertitude: "« Eurenco est détenu à 100 % par l’État via sa holding SNPE ». Droits de vote non publiés par la source."
+    incertitude: "« Eurenco est détenu à 100% par l’État via sa holding SNPE ». Droits de vote non publiés par la source."
     garde_fou: "Détention pour le compte de l’État : la production de poudres reste soumise à la commande publique, lien distinct."
     statut: VERIFIED
 
@@ -1184,7 +1254,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 10
+    detention_capital_pct: "10"
     droits_vote_pct: null
     controle: minoritaire
     citation: { source_id: FR-CPL-0040, url: "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf", localisation: "p. 92 / PDF 87" }
@@ -1199,8 +1269,8 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2023-07-18"
-    detention_capital_pct: 10.03
-    droits_vote_pct: 6.15
+    detention_capital_pct: "10.03"
+    droits_vote_pct: "6.15"
     controle: non_qualifie
     citation: { source_id: FR-CPL-0050, url: "https://bdif.amf-france.org/back/api/v1/documents/2023/223C1119/910D1494095D91690B8A34E87605713DDA7B90BB7689EC4A94EC8E4167ABA6F4.pdf", localisation: "p. 1" }
     preuve: P4
@@ -1214,12 +1284,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2026-03-06"
-    detention_capital_pct: 66.86
-    droits_vote_pct: 80.01
+    detention_capital_pct: "66.86"
+    droits_vote_pct: "80.01"
     controle: non_qualifie
     citation: { source_id: FR-CPL-0051, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0302/C25FD0970B58A792BF5CAE85AF0A1F7D309D6531199AE45922A383BF41A6CDD1.pdf", localisation: "p. 1" }
     preuve: P4
-    incertitude: "67,05 % du capital avec l’autodétention agrégée."
+    incertitude: "67,05% du capital avec l’autodétention agrégée."
     garde_fou: "Contrôle familial privé : la commande publique de défense reste un lien distinct."
     statut: VERIFIED
 
@@ -1229,7 +1299,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 50
+    detention_capital_pct: "50"
     droits_vote_pct: null
     controle: conjoint
     citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "note 25 du § 3.3" }
@@ -1244,7 +1314,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 50
+    detention_capital_pct: "50"
     droits_vote_pct: null
     controle: conjoint
     citation: { source_id: FR-CPL-0052, url: "https://www.hauptversammlung.de/fileadmin/public/user_upload/airbus_AGM_2026_financial_statements.pdf", localisation: "« Simplified Airbus Structure », p. 73 / PDF 74" }
@@ -1259,12 +1329,12 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 100
+    detention_capital_pct: "100"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 7.3, rapport des commissaires aux comptes" }
     preuve: P4
-    incertitude: "« Filiale à 100 % » : l’action de préférence de l’État n’apparaît pas dans l’arrondi. Droits de vote non publiés par la source."
+    incertitude: "« Filiale à 100% » : l’action de préférence de l’État n’apparaît pas dans l’arrondi. Droits de vote non publiés par la source."
     garde_fou: "L’État détient une action de préférence dans la société : il n’en est pas pour autant actionnaire de contrôle."
     statut: VERIFIED
 
@@ -1274,7 +1344,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 100
+    detention_capital_pct: "100"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.1.4.3" }
@@ -1289,7 +1359,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2024-12-31"
-    detention_capital_pct: 33.3
+    detention_capital_pct: "33.3"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "note 25 du § 3.3 (« Données au 31.12.2024 »)" }
@@ -1304,7 +1374,7 @@ liens:
     type: equity_ownership
     dimension: P-OWN
     date_observation: "2025-12-31"
-    detention_capital_pct: 100
+    detention_capital_pct: "100"
     droits_vote_pct: null
     controle: non_qualifie
     citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "note 25 du § 3.3" }
@@ -1491,4 +1561,180 @@ liens:
     preuve: P4
     incertitude: "Composition à la date de parution de la source."
     garde_fou: "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0065
+    source_actor: FR-ACT-0040
+    target_actor: FR-ACT-0007
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-06-19"
+    detention_capital_pct: "5.98"
+    droits_vote_pct: "5.001"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0053, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0893/21F7D5276D4AEB3F1B48FFE6E2883D933BF6FFAAA67B6B7E6B99D8D230FE402E.pdf", localisation: "p. 1" }
+    preuve: P4
+    incertitude: "Franchissement en hausse du seuil de 5% des droits de vote. Dernier avis connu avant la date d’arrêt."
+    garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0066
+    source_actor: FR-ACT-0040
+    target_actor: FR-ACT-0008
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-11"
+    detention_capital_pct: "6.51"
+    droits_vote_pct: "4.97"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0054, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0303/AD0A2791CD7ED0E8D2CA99CC77485F8E7409A5D94B8B9314D6BC0630C1E2E521.pdf", localisation: "p. 1" }
+    preuve: P4
+    incertitude: "Franchissement en baisse du seuil de 5% des droits de vote, le lendemain du dépôt du document d’enregistrement universel d’Engie, qui la présente encore au-dessus. Dernier avis connu avant la date d’arrêt."
+    garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0067
+    source_actor: FR-ACT-0041
+    target_actor: FR-ACT-0008
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-10-28"
+    detention_capital_pct: "6.25"
+    droits_vote_pct: "5.05"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0055, url: "https://bdif.amf-france.org/back/api/v1/documents/2025/225C1829/614EBD4282DD6803104F59E7D15F68CBA5B93E2493507019543BF237B465B161.pdf", localisation: "p. 1, note 1" }
+    preuve: P4
+    incertitude: "Pourcentages calculés sur le capital d’octobre 2025 : l’augmentation de capital d’Engie du 27 février 2026 les a dilués, et aucun avis postérieur ne donne la nouvelle valeur. Le document d’enregistrement universel date ce franchissement du « 28 novembre 2025 », l’avis de l’AMF du 28 octobre."
+    garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0068
+    source_actor: FR-ACT-0041
+    target_actor: FR-ACT-0009
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "5.52"
+    droits_vote_pct: null
+    controle: non_qualifie
+    pour_compte: non_precise
+    citation: { source_id: FR-CPL-0025, url: "https://assets.renaultgroup.com/uploads/2026/03/DEU_2025_comp_202603191340.pdf", localisation: "§ 6.2.6.1, p. 571 / PDF 571" }
+    preuve: P4
+    incertitude: "Le document ne donne ni les droits de vote ni l’origine du chiffre. La dernière déclaration à l’AMF (avis 221C2254, 31 août 2021 : 5,003% du capital, 3,71% des droits de vote) était faite « en qualité d’investment adviser pour le compte de fonds »."
+    garde_fou: "La source ne dit pas pour le compte de qui les titres sont détenus ; la part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0069
+    source_actor: FR-ACT-0043
+    target_actor: FR-ACT-0012
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-18"
+    detention_capital_pct: "8.1"
+    droits_vote_pct: "9.62"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.3.1, note 2 (dépôt ESEF, sans pagination)" }
+    preuve: P4
+    incertitude: "Pourcentages calculés par Safran sur son capital au 31 décembre 2025 ; 9,62% des droits de vote théoriques, 9,64% des droits exerçables."
+    garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0070
+    source_actor: FR-ACT-0040
+    target_actor: FR-ACT-0012
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-04-11"
+    detention_capital_pct: "5.3"
+    droits_vote_pct: "4.18"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0028, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip", localisation: "§ 6.3.1, note 3 ; § 6.3.4.1 (dépôt ESEF, sans pagination)" }
+    preuve: P4
+    incertitude: "Pourcentages calculés par Safran ; 4,18% des droits de vote théoriques, 4,19% des droits exerçables. Le document imprime 22 172 227 actions dans le tableau et 22 712 227 dans la liste des seuils statutaires. Dernier avis AMF de seuil légal : 225C0573 (26 mars 2025, 5,12% du capital), après de nombreux allers-retours autour de 5%."
+    garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0071
+    source_actor: FR-ACT-0045
+    target_actor: FR-ACT-0015
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-29"
+    detention_capital_pct: "5.61"
+    droits_vote_pct: "3.23"
+    controle: non_qualifie
+    pour_compte: non_precise
+    citation: { source_id: FR-CPL-0056, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0010/EE4FCD3F467697744716B74BB3EB77E48D3614F260BE0675A542624BE304897F.pdf", localisation: "p. 1, note 1" }
+    preuve: P4
+    incertitude: "Franchissement en baisse du seuil de 5% des droits de vote, par perte de droits de vote double ; la part du capital reste au-dessus de 5%."
+    garde_fou: "Un fonds de pension public gère pour ses cotisants ; sa part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0072
+    source_actor: FR-ACT-0044
+    target_actor: FR-ACT-0017
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-02-19"
+    detention_capital_pct: "5.42"
+    droits_vote_pct: "3.16"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0057, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0242/C198E01B1B450EC9EA17E284D8312DA694533F10E4084B57BDEA8236E11409E9.pdf", localisation: "p. 1, notes 1 et 2" }
+    preuve: P4
+    incertitude: "Franchissement en hausse du seuil de 5% du capital. Le déclarant détient en outre des actions pour des clients qui ont gardé leurs droits de vote, non comptées. Aucun avis postérieur avant la date d’arrêt."
+    garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0073
+    source_actor: FR-ACT-0040
+    target_actor: FR-ACT-0011
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-05-29"
+    detention_capital_pct: "5.05"
+    droits_vote_pct: "5.71"
+    controle: non_qualifie
+    pour_compte: non_precise
+    citation: { source_id: FR-CPL-0058, url: "https://www.afm.nl/en/sector/registers/meldingenregisters/substantiele-deelnemingen/details?id=194604", localisation: "fiche de notification" }
+    preuve: P4
+    incertitude: "Détention indirecte, par des filiales du groupe ; 0,39% du capital et 0,35% des droits de vote sont « potentiels » (instruments). Seuil de déclaration néerlandais : 3%. Date de l’opération déclarée, la date de publication n’étant pas affichée."
+    garde_fou: "La source ne dit pas pour le compte de qui les titres sont détenus ; la part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0074
+    source_actor: FR-ACT-0043
+    target_actor: FR-ACT-0011
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-03"
+    detention_capital_pct: "5.05"
+    droits_vote_pct: "5.08"
+    controle: non_qualifie
+    pour_compte: non_precise
+    citation: { source_id: FR-CPL-0059, url: "https://www.afm.nl/en/sector/registers/meldingenregisters/substantiele-deelnemingen/details?id=189321", localisation: "fiche de notification" }
+    preuve: P4
+    incertitude: "Dont 0,24% « potentiels », sous forme d’un contrat d’échange réglé en espèces, qui ne donne pas de titres. Le rapport du conseil d’Airbus, arrêté au 16 février 2026, donnait encore 3,02%."
+    garde_fou: "La source ne dit pas pour le compte de qui les titres sont détenus ; la part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0075
+    source_actor: FR-ACT-0042
+    target_actor: FR-ACT-0011
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2020-01-03"
+    detention_capital_pct: null
+    droits_vote_pct: "9.90"
+    controle: non_qualifie
+    pour_compte: non_precise
+    citation: { source_id: FR-CPL-0060, url: "https://www.afm.nl/en/sector/registers/meldingenregisters/substantiele-deelnemingen/details?id=83451", localisation: "fiche de notification" }
+    preuve: P4
+    incertitude: "Déclaration de 2020, la dernière avant la date d’arrêt : aux Pays-Bas, on ne déclare qu’en franchissant un seuil. Elle ne porte que sur les droits de vote ; le registre affiche 0,00% pour le capital, présenté ici comme non publié. Le rapport du conseil d’Airbus 2025 reprend les 9,90%."
+    garde_fou: "La source ne dit pas pour le compte de qui les titres sont détenus ; la part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle."
     statut: VERIFIED

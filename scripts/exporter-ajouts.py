@@ -107,6 +107,12 @@ def verifier_acteurs(acteurs, sources, noeuds, dates_sources):
         for bout in (l["source_actor"], l["target_actor"]):
             if bout not in ids_acteurs:
                 raise SystemExit(f"{l['link_id']} : acteur inconnu {bout}")
+        # Un gestionnaire detient souvent pour ses clients : sans le dire, la
+        # ligne se lirait comme une propriete pleine.
+        detenteur = next(a for a in acteurs["acteurs"] if a["actor_id"] == l["source_actor"])
+        if (detenteur["type_acteur"] == "gestionnaire_actifs"
+                and l["type"] == "equity_ownership" and "pour_compte" not in l):
+            raise SystemExit(f"{l['link_id']} : gestionnaire d'actifs sans champ pour_compte")
         if l["date_observation"] > acteurs["meta"]["date_arret"]:
             raise SystemExit(f"{l['link_id']} : observation posterieure a la date d'arret")
         # Une source ne prouve pas un etat posterieur a sa propre date.
@@ -160,6 +166,13 @@ def main():
     exporter_complement(complement["sources"])
 
     acteurs = yaml.safe_load((DATA / "acteurs.yml").read_text(encoding="utf-8"))
+    # Les pourcentages sont ecrits entre guillemets dans le YAML, tels
+    # qu'imprimes par la source : en nombre, « 9.90 » s'afficherait « 9,9 »
+    # sur le site. Le schema et l'export, eux, attendent des nombres.
+    for l in acteurs["liens"]:
+        for champ in ("detention_capital_pct", "droits_vote_pct"):
+            if isinstance(l.get(champ), str):
+                l[champ] = float(l[champ])
     sources = {s["source_id"]: s["url"] for s in registre + complement["sources"]}
     noeuds = [n["node_id"] for n in json.loads((DATA / "noeuds.json").read_text(encoding="utf-8"))]
     dates_sources = {s["source_id"]: s.get("date", "") for s in registre + complement["sources"]}

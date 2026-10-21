@@ -709,6 +709,8 @@ types_acteur:
   organisme_financier_public: "Organisme financier public"
   association: "Association"
   organisation_internationale: "Organisation internationale"
+  gestionnaire_actifs: "Gestionnaire d’actifs"
+  fonds_institutionnel: "Fonds de pension ou fonds souverain"
 
 types_lien_acteur:
   equity_ownership: "Détention en capital"
@@ -731,6 +733,12 @@ controles:
   controle_ecarte: "Contrôle écarté par la société"
   controle_reglementaire: "Contrôle réglementaire"
   non_qualifie: "Contrôle non qualifié par la source"
+
+# Pour qui un gestionnaire d'actifs detient les titres declares.
+pour_compte:
+  propre: "Pour son propre compte"
+  tiers: "Pour le compte de clients et de fonds"
+  non_precise: "Pour le compte de qui : non précisé par la source"
 
 # Reprend le tableau des statuts de preuve de la page Methode.
 preuves:

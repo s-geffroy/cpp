@@ -5,8 +5,9 @@ permalink: /acteurs/
 ---
 
 {%- assign registre = site.data.acteurs -%}
-{%- assign acteurs = registre.acteurs -%}
-{%- assign liens = registre.liens -%}
+{%- comment -%} Une ligne TO_VERIFY n'est jamais publiee. {%- endcomment -%}
+{%- assign acteurs = registre.acteurs | where: "statut", "VERIFIED" -%}
+{%- assign liens = registre.liens | where: "statut", "VERIFIED" -%}
 {%- assign lib = site.data.libelles -%}
 {%- assign toutes_sources = site.data.registre | concat: site.data['registre-complement'].sources -%}
 {%- assign ordre_types = "equity_ownership,special_share,single_share,appointment" | split: "," -%}
@@ -39,7 +40,8 @@ Qui détient quoi, société par société : **{{ cles | size }} sociétés**,
 
 Le périmètre est volontairement étroit : les participations de l’État dans
 les sociétés cotées de son portefeuille, EDF, et les entreprises de défense
-où il détient du capital ou une action. C’est un **ajout de ce site, hors
+où il détient du capital ou une action ; puis, dans ces sociétés cotées, les
+gestionnaires d’actifs et les fonds qui ont déclaré dépasser le seuil légal. C’est un **ajout de ce site, hors
 paquet** — le début du registre que la
 [feuille de route]({{ '/feuille-de-route/' | relative_url }}) annonce.
 
@@ -54,6 +56,10 @@ paquet** — le début du registre que la
   des dépôts ou le CEA ne sont pas l’État. Seuls les liens **directs** sont
   saisis : quand l’État passe par une holding, chaque maillon a sa ligne, et
   aucune part « indirecte » n’est calculée.
+- **Un gestionnaire d’actifs n’est pas propriétaire.** BlackRock ou Capital
+  Group déclarent le plus souvent des titres détenus **pour le compte de
+  clients et de fonds** ; chaque ligne dit pour le compte de qui, quand la
+  source le précise.
 - **Propriété publique ≠ régulation ≠ commande publique ≠ subvention.** Ces
   autres liens ne sont pas saisis ici.
 
@@ -73,6 +79,22 @@ paquet** — le début du registre que la
       {%- for id in detenteurs -%}
       {%- assign d = acteurs | where: "actor_id", id | first -%}
       <option value="{{ id }}">{{ d.nom_usuel | default: d.nom }}</option>
+      {%- endfor -%}
+    </select>
+  </label>
+
+  <label>
+    Nature du détenteur
+    <select data-filtre-champ="nature">
+      <option value="">toutes</option>
+      {%- assign natures = "" | split: "" -%}
+      {%- for id in detenteurs -%}
+      {%- assign d = acteurs | where: "actor_id", id | first -%}
+      {%- assign natures = natures | push: d.type_acteur -%}
+      {%- endfor -%}
+      {%- assign natures = natures | uniq -%}
+      {%- for n in natures -%}
+      <option value="{{ n }}">{{ lib.types_acteur[n] }}</option>
       {%- endfor -%}
     </select>
   </label>
@@ -112,7 +134,7 @@ paquet** — le début du registre que la
 
 <p class="legende-jauge">
   <span class="jauge" aria-hidden="true"><span style="width: 40%"></span></span>
-  Part détenue, sur 100 %. Les deux repères marquent le tiers et la moitié :
+  Part détenue, sur 100%. Les deux repères marquent le tiers et la moitié :
   ce sont des seuils de vote en assemblée, pas des seuils de contrôle.
 </p>
 
@@ -122,6 +144,11 @@ paquet** — le début du registre que la
   {%- assign a = acteurs | where: "actor_id", id | first -%}
   {%- assign entrants = liens | where: "target_actor", id -%}
   {%- assign sortants = liens | where: "source_actor", id -%}
+  {%- assign natures = "" | split: "" -%}
+  {%- for l in entrants -%}
+    {%- assign d = acteurs | where: "actor_id", l.source_actor | first -%}
+    {%- assign natures = natures | push: d.type_acteur -%}
+  {%- endfor -%}
   {%- capture cherchable -%}
     {{ a.nom }} {{ a.nom_usuel }} {{ a.identifiants.siren }}
     {%- for l in entrants -%}
@@ -131,6 +158,7 @@ paquet** — le début du registre que la
   {%- endcapture %}
   <section class="fiche" id="{{ id }}"
            data-detenteur="{{ entrants | map: 'source_actor' | uniq | join: ' ' }}"
+           data-nature="{{ natures | uniq | join: ' ' }}"
            data-type="{{ entrants | map: 'type' | uniq | join: ' ' }}"
            data-preuve="{{ entrants | map: 'preuve' | uniq | join: ' ' }}"
            data-recherche="{{ cherchable | normalize_whitespace | downcase | escape }}">
@@ -159,25 +187,33 @@ paquet** — le début du registre que la
         <div class="qui">
           <a href="#{{ d.actor_id }}">{{ d.nom_usuel | default: d.nom }}</a>
           <span class="meta">{{ lib.types_lien_acteur[l.type] }}, au {% include date-fr.html date=l.date_observation %}</span>
+          {%- if l.pour_compte %}
+          <span class="meta pour-compte">{{ lib.pour_compte[l.pour_compte] }}</span>
+          {%- endif %}
         </div>
         {%- if l.type == "equity_ownership" %}
         <div class="part">
-          <span class="valeur">{{ l.detention_capital_pct | replace: ".", "," }}&nbsp;%</span> du capital
+          {%- if l.detention_capital_pct == nil %}
+          <span class="valeur absente">non publié</span> capital
+          <span class="jauge vide" aria-hidden="true"></span>
+          {%- else %}
+          <span class="valeur">{{ l.detention_capital_pct | replace: ".", "," }}%</span> du capital
           <span class="jauge" aria-hidden="true"><span style="width: {{ l.detention_capital_pct }}%"></span></span>
+          {%- endif %}
         </div>
         <div class="part">
           {%- if l.droits_vote_pct == nil %}
           <span class="valeur absente">non publiés</span> droits de vote
           <span class="jauge vide" aria-hidden="true"></span>
           {%- else %}
-          <span class="valeur">{{ l.droits_vote_pct | replace: ".", "," }}&nbsp;%</span> des droits de vote
+          <span class="valeur">{{ l.droits_vote_pct | replace: ".", "," }}%</span> des droits de vote
           <span class="jauge" aria-hidden="true"><span style="width: {{ l.droits_vote_pct }}%"></span></span>
           {%- endif %}
         </div>
         {%- else %}
         <div class="droit">
           {%- if l.type == "appointment" -%}
-          <span class="valeur">{{ l.nombre_sieges }} siège{% if l.nombre_sieges > 1 %}s{% endif %}{% if l.sieges_total %} sur {{ l.sieges_total }}{% endif %}</span>
+          <span class="valeur">{{ l.nombre_sieges }} siège{% if l.nombre_sieges > 1%}s{% endif %}{% if l.sieges_total %} sur {{ l.sieges_total }}{% endif %}</span>
           {% endif -%}
           <span class="meta">{{ l.base_juridique }}</span>
         </div>
@@ -206,11 +242,11 @@ paquet** — le début du registre que la
     </ul>
 
     {%- assign aval = sortants | where: "type", "equity_ownership" -%}
-    {%- if aval.size > 0 %}
+    {%- if aval.size > 0%}
     <p class="aval">Détient à son tour :
       {% for l in aval -%}
       {%- assign v = acteurs | where: "actor_id", l.target_actor | first -%}
-      <a href="#{{ v.actor_id }}">{{ v.nom_usuel | default: v.nom }}</a> ({{ l.detention_capital_pct | replace: ".", "," }}&nbsp;% du capital){% unless forloop.last %}, {% endunless %}
+      <a href="#{{ v.actor_id }}">{{ v.nom_usuel | default: v.nom }}</a> ({% if l.detention_capital_pct == nil %}capital non publié{% else %}{{ l.detention_capital_pct | replace: ".", "," }}% du capital{% endif %}){% unless forloop.last %}, {% endunless %}
       {%- endfor %}.
     </p>
     {%- endif %}
@@ -281,12 +317,25 @@ Ces entités relèvent du périmètre, mais ne sont pas enregistrées :
 </ul>
 
 Le registre ne contient pas non plus, à ce stade, les liens de commande
-publique, d’aide ou de crédit, ni les participations des gestionnaires d’actifs.
+publique, d’aide ou de crédit.
+
+Les parts des gestionnaires d’actifs ne sont publiques qu’au-delà du seuil
+légal de déclaration : **5%** du capital ou des droits de vote en France,
+**3%** aux Pays-Bas pour Airbus SE. En dessous, un gestionnaire peut détenir
+une part importante sans qu’elle apparaisse ici. Les parts plus petites que
+certaines sociétés publient d’après leurs propres seuils statutaires ne sont
+pas reprises : elles ne suivent pas une règle commune. Les banques et les
+teneurs de marché, qui franchissent souvent ces seuils pour quelques jours,
+ne sont pas enregistrés.
+
+À la date d’arrêt, aucun gestionnaire d’actifs ne déclarait dépasser le seuil
+légal chez Thales, Eutelsat, Air France-KLM, Dassault Aviation ni FDJ United.
 
 ## D’où viennent ces chiffres
 
 Des documents annuels déposés par les sociétés à l’Autorité des marchés
-financiers, des avis publiés par l’AMF, de l’annexe budgétaire « État
+financiers, des avis de franchissement de seuil publiés par l’AMF, du registre
+des participations substantielles de l’autorité néerlandaise des marchés, de l’annexe budgétaire « État
 actionnaire » et des textes du Journal officiel. Chaque document est inscrit
 au [registre des sources]({{ '/registre/' | relative_url }}).
 

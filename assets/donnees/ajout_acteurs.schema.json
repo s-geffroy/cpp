@@ -143,7 +143,9 @@
             "autorite_independante",
             "organisme_financier_public",
             "association",
-            "organisation_internationale"
+            "organisation_internationale",
+            "gestionnaire_actifs",
+            "fonds_institutionnel"
           ]
         },
         "forme_juridique": {
@@ -295,9 +297,13 @@
           "format": "date"
         },
         "detention_capital_pct": {
-          "type": "number",
+          "type": [
+            "number",
+            "null"
+          ],
           "minimum": 0,
-          "maximum": 100
+          "maximum": 100,
+          "description": "null = non publié par la source (par exemple une déclaration qui ne porte que sur les droits de vote) : jamais déduit des droits de vote."
         },
         "droits_vote_pct": {
           "description": "Toujours distinct du capital (droits de vote double, actions de préférence). null = non publié par la source : jamais déduit du capital. Le champ reste obligatoire pour qu'une absence soit toujours explicite.",
@@ -355,6 +361,15 @@
         "base_juridique": {
           "description": "Texte qui fonde le lien (décret, ordonnance, pacte).",
           "type": "string"
+        },
+        "pour_compte": {
+          "description": "Pour une détention en capital par un gestionnaire d'actifs : « propre » si le déclarant détient pour lui-même, « tiers » s'il détient pour le compte de clients ou de fonds qu'il gère, « non_precise » si la source ne le dit pas. Une détention pour compte de tiers ne fait pas du gestionnaire le propriétaire économique des titres.",
+          "type": "string",
+          "enum": [
+            "propre",
+            "tiers",
+            "non_precise"
+          ]
         }
       },
       "allOf": [

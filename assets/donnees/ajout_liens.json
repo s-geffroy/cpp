@@ -35,7 +35,7 @@
       "localisation": "§ 6.2.1, p. 529 / PDF 531"
     },
     "preuve": "P4",
-    "incertitude": "Droits de vote imprimés « 8% » sans décimale (8,02 % un an plus tôt).",
+    "incertitude": "Droits de vote imprimés « 8% » sans décimale (8,02% un an plus tôt).",
     "garde_fou": "Bpifrance Participations n’est pas l’État : sa détention ne s’additionne pas à celle de l’État, même de concert.",
     "statut": "VERIFIED"
   },
@@ -55,7 +55,7 @@
       "localisation": "§ 5.4.3, p. 338 / PDF 340"
     },
     "preuve": "P4",
-    "incertitude": "Valeur déclarée lors du franchissement à la baisse du tiers des droits de vote, après l’augmentation de capital du 27 février 2026. Au 31 décembre 2025 : 23,64 % du capital, 34,15 % des droits de vote théoriques.",
+    "incertitude": "Valeur déclarée lors du franchissement à la baisse du tiers des droits de vote, après l’augmentation de capital du 27 février 2026. Au 31 décembre 2025 : 23,64% du capital, 34,15% des droits de vote théoriques.",
     "garde_fou": "Une participation importante ne prouve pas une direction de l’entreprise ; propriété, régulation de l’énergie et commande publique restent des liens distincts (règle dure n° 2).",
     "statut": "VERIFIED"
   },
@@ -95,7 +95,7 @@
       "localisation": "§ 6.2.6.1, p. 571"
     },
     "preuve": "P4",
-    "incertitude": "Droits de vote exerçables ; 21,92 % des droits de vote théoriques.",
+    "incertitude": "Droits de vote exerçables ; 21,92% des droits de vote théoriques.",
     "garde_fou": "Aucun pacte ni action de concert. Premier actionnaire ne veut pas dire actionnaire de contrôle.",
     "statut": "VERIFIED"
   },
@@ -154,7 +154,7 @@
       "localisation": "§ 6.3.1, p. 486-487 ; § 6.3.5, p. 488"
     },
     "preuve": "P4",
-    "incertitude": "Droits de vote exerçables ; 18,30 % des droits de vote théoriques. Pages tirées de la table de concordance (version ESEF).",
+    "incertitude": "Droits de vote exerçables ; 18,30% des droits de vote théoriques. Pages tirées de la table de concordance (version ESEF).",
     "garde_fou": "« Aucun actionnaire ne détient […] une fraction des droits de vote lui permettant d’exercer le contrôle de la Société ».",
     "statut": "VERIFIED"
   },
@@ -185,8 +185,8 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 100,
-    "droits_vote_pct": 100,
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
     "controle": "exclusif",
     "citation": {
       "source_id": "FR-CPL-0029",
@@ -273,7 +273,7 @@
       "localisation": "§ 6.2.2.1, p. 577 ; contrôle, p. 584"
     },
     "preuve": "P4",
-    "incertitude": "Droits de vote théoriques ; 31,76 % des droits de vote exerçables.",
+    "incertitude": "Droits de vote théoriques ; 31,76% des droits de vote exerçables.",
     "garde_fou": "Contrôle exercé de concert avec Sorame et CEIR, actionnaires privés, déclarés prédominants dans le concert : il ne s’attribue pas à l’État.",
     "statut": "VERIFIED"
   },
@@ -284,16 +284,16 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 100,
-    "droits_vote_pct": 100,
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
     "controle": "exclusif",
     "citation": {
       "source_id": "FR-CPL-0034",
       "url": "https://www.eramet.com/wp-content/uploads/2026/04/2026-Eramet-DEU-2025-FR.pdf",
-      "localisation": "p. 230 et p. 577 (« détenue à 100 % par l’État »)"
+      "localisation": "p. 230 et p. 577 (« détenue à 100% par l’État »)"
     },
     "preuve": "P3",
-    "incertitude": "L’acquisition de l’intégralité du capital de FSI Equation par l’APE, pour le compte de l’État, le 29 août 2016, est établie par la déclaration AMF 216C1953 (FR-CPL-0039). Une déclaration de 2020 reproduite p. 584 du document d’Eramet la décrit encore comme « détenue à 100 % par Bpifrance Participations » : reprise d’un texte antérieur, contredite par la déclaration de 2016 et par le document lui-même p. 230 et p. 577.",
+    "incertitude": "L’acquisition de l’intégralité du capital de FSI Equation par l’APE, pour le compte de l’État, le 29 août 2016, est établie par la déclaration AMF 216C1953 (FR-CPL-0039). Une déclaration de 2020 reproduite p. 584 du document d’Eramet la décrit encore comme « détenue à 100% par Bpifrance Participations » : reprise d’un texte antérieur, contredite par la déclaration de 2016 et par le document lui-même p. 230 et p. 577.",
     "garde_fou": "Ce maillon ne s’ajoute pas au lien FSI Equation → Eramet : la part de l’État dans Eramet n’est pas recalculée.",
     "statut": "VERIFIED"
   },
@@ -304,8 +304,8 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 100,
-    "droits_vote_pct": 100,
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
     "controle": "exclusif",
     "citation": {
       "source_id": "FR-CPL-0035",
@@ -435,7 +435,7 @@
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
     "nombre_sieges": 2,
-    "base_juridique": "Ordonnance n° 2014-948, art. 4 et art. 6 ; statuts, art. 14.1 (tant que l’État détient plus de 10 % du capital)",
+    "base_juridique": "Ordonnance n° 2014-948, art. 4 et art. 6 ; statuts, art. 14.1 (tant que l’État détient plus de 10% du capital)",
     "citation": {
       "source_id": "FR-CPL-0028",
       "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip",
@@ -608,7 +608,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2024-12-31",
-    "detention_capital_pct": 100,
+    "detention_capital_pct": 100.0,
     "droits_vote_pct": null,
     "controle": "non_qualifie",
     "citation": {
@@ -628,7 +628,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 50,
+    "detention_capital_pct": 50.0,
     "droits_vote_pct": null,
     "controle": "conjoint",
     "citation": {
@@ -648,7 +648,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 100,
+    "detention_capital_pct": 100.0,
     "droits_vote_pct": null,
     "controle": "non_qualifie",
     "citation": {
@@ -657,7 +657,7 @@
       "localisation": "note 39 « Participating interests in group companies », p. 107"
     },
     "preuve": "P4",
-    "incertitude": "« 100 % » arrondi : l’État détient une action. Droits de vote non publiés par la source.",
+    "incertitude": "« 100% » arrondi : l’État détient une action. Droits de vote non publiés par la source.",
     "garde_fou": "La filiale française est contrôlée par la société néerlandaise, non par l’État ; l’État n’y détient qu’une action spécifique.",
     "statut": "VERIFIED"
   },
@@ -697,7 +697,7 @@
       "localisation": "p. 89 / PDF 84"
     },
     "preuve": "P4",
-    "incertitude": "Pourcentage arrondi à une décimale (20,32 % selon le site de la société). Droits de vote non publiés par la source.",
+    "incertitude": "Pourcentage arrondi à une décimale (20,32% selon le site de la société). Droits de vote non publiés par la source.",
     "garde_fou": "Le CEA est un établissement public distinct de l’État : sa part ne s’additionne pas à celle de l’État.",
     "statut": "VERIFIED"
   },
@@ -728,7 +728,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2024-12-31",
-    "detention_capital_pct": 9,
+    "detention_capital_pct": 9.0,
     "droits_vote_pct": null,
     "controle": "non_qualifie",
     "citation": {
@@ -737,7 +737,7 @@
       "localisation": "p. 89 / PDF 84"
     },
     "preuve": "P3",
-    "incertitude": "Le site de TechnicAtome indique une détention par EDF Holding, filiale d’EDF : le détenteur direct exact n’est pas établi. Pourcentage arrondi (9,03 % selon le site). Droits de vote non publiés par la source.",
+    "incertitude": "Le site de TechnicAtome indique une détention par EDF Holding, filiale d’EDF : le détenteur direct exact n’est pas établi. Pourcentage arrondi (9,03% selon le site). Droits de vote non publiés par la source.",
     "garde_fou": "EDF est une entreprise distincte de l’État : sa part ne s’additionne pas à celle de l’État.",
     "statut": "VERIFIED"
   },
@@ -748,7 +748,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2024-12-31",
-    "detention_capital_pct": 34,
+    "detention_capital_pct": 34.0,
     "droits_vote_pct": null,
     "controle": "minoritaire",
     "citation": {
@@ -768,7 +768,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2024-12-31",
-    "detention_capital_pct": 34,
+    "detention_capital_pct": 34.0,
     "droits_vote_pct": null,
     "controle": "non_qualifie",
     "citation": {
@@ -788,7 +788,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2024-12-31",
-    "detention_capital_pct": 100,
+    "detention_capital_pct": 100.0,
     "droits_vote_pct": null,
     "controle": "non_qualifie",
     "citation": {
@@ -808,7 +808,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2024-12-31",
-    "detention_capital_pct": 100,
+    "detention_capital_pct": 100.0,
     "droits_vote_pct": null,
     "controle": "non_qualifie",
     "citation": {
@@ -817,7 +817,7 @@
       "localisation": "p. 90 / PDF 85"
     },
     "preuve": "P4",
-    "incertitude": "« Eurenco est détenu à 100 % par l’État via sa holding SNPE ». Droits de vote non publiés par la source.",
+    "incertitude": "« Eurenco est détenu à 100% par l’État via sa holding SNPE ». Droits de vote non publiés par la source.",
     "garde_fou": "Détention pour le compte de l’État : la production de poudres reste soumise à la commande publique, lien distinct.",
     "statut": "VERIFIED"
   },
@@ -828,7 +828,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2024-12-31",
-    "detention_capital_pct": 10,
+    "detention_capital_pct": 10.0,
     "droits_vote_pct": null,
     "controle": "minoritaire",
     "citation": {
@@ -877,7 +877,7 @@
       "localisation": "p. 1"
     },
     "preuve": "P4",
-    "incertitude": "67,05 % du capital avec l’autodétention agrégée.",
+    "incertitude": "67,05% du capital avec l’autodétention agrégée.",
     "garde_fou": "Contrôle familial privé : la commande publique de défense reste un lien distinct.",
     "statut": "VERIFIED"
   },
@@ -888,7 +888,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 50,
+    "detention_capital_pct": 50.0,
     "droits_vote_pct": null,
     "controle": "conjoint",
     "citation": {
@@ -908,7 +908,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 50,
+    "detention_capital_pct": 50.0,
     "droits_vote_pct": null,
     "controle": "conjoint",
     "citation": {
@@ -928,7 +928,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 100,
+    "detention_capital_pct": 100.0,
     "droits_vote_pct": null,
     "controle": "non_qualifie",
     "citation": {
@@ -937,7 +937,7 @@
       "localisation": "§ 7.3, rapport des commissaires aux comptes"
     },
     "preuve": "P4",
-    "incertitude": "« Filiale à 100 % » : l’action de préférence de l’État n’apparaît pas dans l’arrondi. Droits de vote non publiés par la source.",
+    "incertitude": "« Filiale à 100% » : l’action de préférence de l’État n’apparaît pas dans l’arrondi. Droits de vote non publiés par la source.",
     "garde_fou": "L’État détient une action de préférence dans la société : il n’en est pas pour autant actionnaire de contrôle.",
     "statut": "VERIFIED"
   },
@@ -948,7 +948,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 100,
+    "detention_capital_pct": 100.0,
     "droits_vote_pct": null,
     "controle": "non_qualifie",
     "citation": {
@@ -988,7 +988,7 @@
     "type": "equity_ownership",
     "dimension": "P-OWN",
     "date_observation": "2025-12-31",
-    "detention_capital_pct": 100,
+    "detention_capital_pct": 100.0,
     "droits_vote_pct": null,
     "controle": "non_qualifie",
     "citation": {
@@ -1240,6 +1240,237 @@
     "preuve": "P4",
     "incertitude": "Composition à la date de parution de la source.",
     "garde_fou": "Des administrateurs désignés ou proposés par l’État restent tenus par l’intérêt social ; la nomination n’est pas une instruction.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0065",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0007",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-06-19",
+    "detention_capital_pct": 5.98,
+    "droits_vote_pct": 5.001,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0053",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0893/21F7D5276D4AEB3F1B48FFE6E2883D933BF6FFAAA67B6B7E6B99D8D230FE402E.pdf",
+      "localisation": "p. 1"
+    },
+    "preuve": "P4",
+    "incertitude": "Franchissement en hausse du seuil de 5% des droits de vote. Dernier avis connu avant la date d’arrêt.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0066",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0008",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-11",
+    "detention_capital_pct": 6.51,
+    "droits_vote_pct": 4.97,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0054",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0303/AD0A2791CD7ED0E8D2CA99CC77485F8E7409A5D94B8B9314D6BC0630C1E2E521.pdf",
+      "localisation": "p. 1"
+    },
+    "preuve": "P4",
+    "incertitude": "Franchissement en baisse du seuil de 5% des droits de vote, le lendemain du dépôt du document d’enregistrement universel d’Engie, qui la présente encore au-dessus. Dernier avis connu avant la date d’arrêt.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0067",
+    "source_actor": "FR-ACT-0041",
+    "target_actor": "FR-ACT-0008",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-10-28",
+    "detention_capital_pct": 6.25,
+    "droits_vote_pct": 5.05,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0055",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2025/225C1829/614EBD4282DD6803104F59E7D15F68CBA5B93E2493507019543BF237B465B161.pdf",
+      "localisation": "p. 1, note 1"
+    },
+    "preuve": "P4",
+    "incertitude": "Pourcentages calculés sur le capital d’octobre 2025 : l’augmentation de capital d’Engie du 27 février 2026 les a dilués, et aucun avis postérieur ne donne la nouvelle valeur. Le document d’enregistrement universel date ce franchissement du « 28 novembre 2025 », l’avis de l’AMF du 28 octobre.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0068",
+    "source_actor": "FR-ACT-0041",
+    "target_actor": "FR-ACT-0009",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 5.52,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0025",
+      "url": "https://assets.renaultgroup.com/uploads/2026/03/DEU_2025_comp_202603191340.pdf",
+      "localisation": "§ 6.2.6.1, p. 571 / PDF 571"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document ne donne ni les droits de vote ni l’origine du chiffre. La dernière déclaration à l’AMF (avis 221C2254, 31 août 2021 : 5,003% du capital, 3,71% des droits de vote) était faite « en qualité d’investment adviser pour le compte de fonds ».",
+    "garde_fou": "La source ne dit pas pour le compte de qui les titres sont détenus ; la part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0069",
+    "source_actor": "FR-ACT-0043",
+    "target_actor": "FR-ACT-0012",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-18",
+    "detention_capital_pct": 8.1,
+    "droits_vote_pct": 9.62,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0028",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip",
+      "localisation": "§ 6.3.1, note 2 (dépôt ESEF, sans pagination)"
+    },
+    "preuve": "P4",
+    "incertitude": "Pourcentages calculés par Safran sur son capital au 31 décembre 2025 ; 9,62% des droits de vote théoriques, 9,64% des droits exerçables.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0070",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0012",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-04-11",
+    "detention_capital_pct": 5.3,
+    "droits_vote_pct": 4.18,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0028",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0154/8DF17016E6AEF3AEB301A5516EC4AA77DE7ED1295A847577682CAC4870CFC6A6.zip",
+      "localisation": "§ 6.3.1, note 3 ; § 6.3.4.1 (dépôt ESEF, sans pagination)"
+    },
+    "preuve": "P4",
+    "incertitude": "Pourcentages calculés par Safran ; 4,18% des droits de vote théoriques, 4,19% des droits exerçables. Le document imprime 22 172 227 actions dans le tableau et 22 712 227 dans la liste des seuils statutaires. Dernier avis AMF de seuil légal : 225C0573 (26 mars 2025, 5,12% du capital), après de nombreux allers-retours autour de 5%.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0071",
+    "source_actor": "FR-ACT-0045",
+    "target_actor": "FR-ACT-0015",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-29",
+    "detention_capital_pct": 5.61,
+    "droits_vote_pct": 3.23,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0056",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0010/EE4FCD3F467697744716B74BB3EB77E48D3614F260BE0675A542624BE304897F.pdf",
+      "localisation": "p. 1, note 1"
+    },
+    "preuve": "P4",
+    "incertitude": "Franchissement en baisse du seuil de 5% des droits de vote, par perte de droits de vote double ; la part du capital reste au-dessus de 5%.",
+    "garde_fou": "Un fonds de pension public gère pour ses cotisants ; sa part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0072",
+    "source_actor": "FR-ACT-0044",
+    "target_actor": "FR-ACT-0017",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-02-19",
+    "detention_capital_pct": 5.42,
+    "droits_vote_pct": 3.16,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0057",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0242/C198E01B1B450EC9EA17E284D8312DA694533F10E4084B57BDEA8236E11409E9.pdf",
+      "localisation": "p. 1, notes 1 et 2"
+    },
+    "preuve": "P4",
+    "incertitude": "Franchissement en hausse du seuil de 5% du capital. Le déclarant détient en outre des actions pour des clients qui ont gardé leurs droits de vote, non comptées. Aucun avis postérieur avant la date d’arrêt.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0073",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0011",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-05-29",
+    "detention_capital_pct": 5.05,
+    "droits_vote_pct": 5.71,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0058",
+      "url": "https://www.afm.nl/en/sector/registers/meldingenregisters/substantiele-deelnemingen/details?id=194604",
+      "localisation": "fiche de notification"
+    },
+    "preuve": "P4",
+    "incertitude": "Détention indirecte, par des filiales du groupe ; 0,39% du capital et 0,35% des droits de vote sont « potentiels » (instruments). Seuil de déclaration néerlandais : 3%. Date de l’opération déclarée, la date de publication n’étant pas affichée.",
+    "garde_fou": "La source ne dit pas pour le compte de qui les titres sont détenus ; la part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0074",
+    "source_actor": "FR-ACT-0043",
+    "target_actor": "FR-ACT-0011",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-03",
+    "detention_capital_pct": 5.05,
+    "droits_vote_pct": 5.08,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0059",
+      "url": "https://www.afm.nl/en/sector/registers/meldingenregisters/substantiele-deelnemingen/details?id=189321",
+      "localisation": "fiche de notification"
+    },
+    "preuve": "P4",
+    "incertitude": "Dont 0,24% « potentiels », sous forme d’un contrat d’échange réglé en espèces, qui ne donne pas de titres. Le rapport du conseil d’Airbus, arrêté au 16 février 2026, donnait encore 3,02%.",
+    "garde_fou": "La source ne dit pas pour le compte de qui les titres sont détenus ; la part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0075",
+    "source_actor": "FR-ACT-0042",
+    "target_actor": "FR-ACT-0011",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2020-01-03",
+    "detention_capital_pct": null,
+    "droits_vote_pct": 9.9,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0060",
+      "url": "https://www.afm.nl/en/sector/registers/meldingenregisters/substantiele-deelnemingen/details?id=83451",
+      "localisation": "fiche de notification"
+    },
+    "preuve": "P4",
+    "incertitude": "Déclaration de 2020, la dernière avant la date d’arrêt : aux Pays-Bas, on ne déclare qu’en franchissant un seuil. Elle ne porte que sur les droits de vote ; le registre affiche 0,00% pour le capital, présenté ici comme non publié. Le rapport du conseil d’Airbus 2025 reprend les 9,90%.",
+    "garde_fou": "La source ne dit pas pour le compte de qui les titres sont détenus ; la part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle.",
     "statut": "VERIFIED"
   }
 ]
