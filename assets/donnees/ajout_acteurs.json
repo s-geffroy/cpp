@@ -1154,5 +1154,346 @@
     ],
     "statut": "VERIFIED",
     "notes": "Gère les actifs du Régime de pensions du Canada pour ses cotisants. N’est pas l’État canadien : ses parts ne s’additionnent à aucune autre."
+  },
+  {
+    "actor_id": "FR-ACT-0046",
+    "nom": "EXAIL TECHNOLOGIES",
+    "nom_usuel": "Exail Technologies",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-031"
+    ],
+    "identifiants": {
+      "siren": "348541186",
+      "lei": "549300EWC06TYV07XE53",
+      "isin": "FR0000062671"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0061",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0166/AE2FACBB90C01B927F8A9E33B0A932D69FC2DB6FB74E2F53E051C99566C5B02A.zip",
+        "localisation": "chapitre 2, facteurs de risque"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=348541186"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300EWC06TYV07XE53"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Défense déclarée : « environ 54% du chiffre d’affaires du Groupe ». Le 6 juillet 2026, Thales a annoncé un projet d’offre publique sur la société (avis AMF 226C0991) ; rien n’était réalisé à la date d’arrêt."
+  },
+  {
+    "actor_id": "FR-ACT-0047",
+    "nom": "GORGE SA",
+    "nom_usuel": "Gorgé SA",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "420038366",
+      "lei": "969500HJW3PVPUGW4191"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=420038366"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500HJW3PVPUGW4191"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding de la famille Gorgé ; les personnes physiques ne sont pas enregistrées."
+  },
+  {
+    "actor_id": "FR-ACT-0048",
+    "nom": "EXOSENS",
+    "nom_usuel": "Exosens",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-031"
+    ],
+    "identifiants": {
+      "siren": "895395101",
+      "lei": "969500R3AKTPEDO9EG76",
+      "isin": "FR001400Q9V2"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0065",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0072/16A9107D1ECCD05424913776950D04BE172C7855F80815754CCF05BF72493D1A.zip",
+        "localisation": "facteurs de risque, p. 169"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=895395101"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500R3AKTPEDO9EG76"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Défense déclarée sans chiffre : « le chiffre d’affaires du Groupe reste majoritairement lié au secteur de la défense ». Ex-Photonis."
+  },
+  {
+    "actor_id": "FR-ACT-0049",
+    "nom": "HLD EUROPE",
+    "nom_usuel": "HLD Europe SCA",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société en commandite par actions de droit luxembourgeois",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "222100KJO80ONXIK8X08",
+      "autre": {
+        "registre": "RCS Luxembourg",
+        "cle": "B198109"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/222100KJO80ONXIK8X08"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société d’investissement. Déclare de concert avec IPHG Holding et d’autres sociétés : les parts du concert ne sont pas additionnées ici."
+  },
+  {
+    "actor_id": "FR-ACT-0050",
+    "nom": "THEON INTERNATIONAL PLC",
+    "nom_usuel": "Theon International",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Public limited company de droit chypriote",
+    "categories": [
+      "FR-NODE-031"
+    ],
+    "identifiants": {
+      "lei": "2138002Y6CEIWHLN8775",
+      "autre": {
+        "registre": "Registre des sociétés (Chypre)",
+        "cle": "ΗΕ 424549"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/2138002Y6CEIWHLN8775"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Industriel de l’optronique de défense, coté à Amsterdam ; société étrangère, catégorie sectorielle seulement."
+  },
+  {
+    "actor_id": "FR-ACT-0051",
+    "nom": "LUMIBIRD",
+    "nom_usuel": "Lumibird",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-031"
+    ],
+    "identifiants": {
+      "siren": "970202719",
+      "lei": "969500MLJC3ZSZP4L019",
+      "isin": "FR0000038242"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0066",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0196/918D4743C977C896F6F4E5989714D58C0501A87C80BB7B79486CEADA8B1AD570.zip",
+        "localisation": "§ 2.3 ; § 12.8.2"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=970202719"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500MLJC3ZSZP4L019"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Défense déclarée dans un marché mixte : « Défense/Spatial », 20% du chiffre d’affaires consolidé 2025."
+  },
+  {
+    "actor_id": "FR-ACT-0052",
+    "nom": "ESIRA",
+    "nom_usuel": "Esira",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "533467841",
+      "lei": "9695003T4KNZKBLIO969"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=533467841"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695003T4KNZKBLIO969"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding de contrôle de Lumibird ; son capital est détenu majoritairement par une personne physique, non enregistrée."
+  },
+  {
+    "actor_id": "FR-ACT-0053",
+    "nom": "SOPRA STERIA GROUP",
+    "nom_usuel": "Sopra Steria",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-031"
+    ],
+    "identifiants": {
+      "siren": "326820065",
+      "lei": "96950020QIOHAAK9V551",
+      "isin": "FR0000050809"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0070",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0088/487C02A6909757271DC8F9DB21AF816F08772AD68D6CEE327D1F8B62672475FD.zip",
+        "localisation": "chapitre 1, § 4.2.3"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=326820065"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/96950020QIOHAAK9V551"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Défense déclarée dans un secteur mixte : « Défense, Sécurité & Espace », 13% du chiffre d’affaires 2025. Catégorie 014 : le document la dit contrôlée par Sopra GMT, sans lien avec l’État."
+  },
+  {
+    "actor_id": "FR-ACT-0054",
+    "nom": "SOPRA-GMT",
+    "nom_usuel": "Sopra GMT",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "348940263",
+      "lei": "969500ROU8CGPW7I5967"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=348940263"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500ROU8CGPW7I5967"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding animatrice de Sopra Steria. Elle se dit contrôlée conjointement par des membres de la famille Pasquier (avis AMF 226C0804) : les personnes physiques ne sont pas enregistrées."
+  },
+  {
+    "actor_id": "FR-ACT-0055",
+    "nom": "FMR LLC",
+    "nom_usuel": "FMR (Fidelity Investments)",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Limited liability company de droit du Delaware (États-Unis)",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "6X064LF7Y6B4DKF2GZ26"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/6X064LF7Y6B4DKF2GZ26"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société holding du groupe Fidelity Investments, « agissant pour le compte de fonds » ; déclare par l’intermédiaire des sociétés qu’elle contrôle."
+  },
+  {
+    "actor_id": "FR-ACT-0056",
+    "nom": "SOGECLAIR",
+    "nom_usuel": "Sogeclair",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-031"
+    ],
+    "identifiants": {
+      "siren": "335218269",
+      "lei": "9695005NNHRB8KW54I35",
+      "isin": "FR0000065864"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0069",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0296/A77879C5588DC9B335F2CBBB3843869D62442C3CAF3501B0F0DA5B8EA3AB8648.pdf",
+        "localisation": "§ 7.2.3.2, p. 36 / PDF 37 ; p. 115"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=335218269"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695005NNHRB8KW54I35"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Défense déclarée : 14% du chiffre d’affaires 2025. Cotée sur Euronext Growth Paris."
+  },
+  {
+    "actor_id": "FR-ACT-0057",
+    "nom": "KEY'S",
+    "nom_usuel": "Key’s",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "851397810"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=851397810"
+      },
+      {
+        "source_id": "FR-CPL-0069",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0296/A77879C5588DC9B335F2CBBB3843869D62442C3CAF3501B0F0DA5B8EA3AB8648.pdf",
+        "localisation": "p. 194"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Société constituée par les femmes et hommes clés de SOGECLAIR accompagnés de leur Président » ; membre du concert familial Robardey. SIREN rapproché par le nom, l’adresse (Blagnac) et la date de création (2019) : le document de la société ne l’imprime pas."
   }
 ]

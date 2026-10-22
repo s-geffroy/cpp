@@ -46,7 +46,10 @@ meta:
       raison: "L’État a cédé son action à EDF en 2024 ; retirée de la liste officielle en 2025, la société a été dissoute."
     - nom: "LMB"
       raison: "L’État y a acquis une action en mars 2026, mais la société ne figure pas dans la liste officielle à la date d’arrêt."
-
+    - nom: "Archos, Actia Group, Kalray, Drone Volt, NSE, SII, Logic Instrument"
+      raison: "Entreprises cotées susceptibles de relever du périmètre des entreprises de défense privées ; leur rapport annuel n’a pas pu être lu, le critère n’est pas testé."
+    - nom: "CALIBRE (ex-Cybergun)"
+      raison: "Sa filiale de défense porte l’essentiel de l’activité, mais aucune part n’est publiée telle quelle, et l’actionnaire de référence (45,05%) n’est pas nommé."
 acteurs:
 
   # --- L'actionnaire et ses véhicules ---------------------------------------
@@ -625,6 +628,169 @@ acteurs:
       - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/70DNWEAINTGFO4DMV441" }
     statut: VERIFIED
     notes: "Gère les actifs du Régime de pensions du Canada pour ses cotisants. N’est pas l’État canadien : ses parts ne s’additionnent à aucune autre."
+
+  - actor_id: FR-ACT-0046
+    nom: "EXAIL TECHNOLOGIES"
+    nom_usuel: "Exail Technologies"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "348541186", lei: "549300EWC06TYV07XE53", isin: "FR0000062671" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0061, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0166/AE2FACBB90C01B927F8A9E33B0A932D69FC2DB6FB74E2F53E051C99566C5B02A.zip", localisation: "chapitre 2, facteurs de risque" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=348541186" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/549300EWC06TYV07XE53" }
+    statut: VERIFIED
+    notes: "Défense déclarée : « environ 54% du chiffre d’affaires du Groupe ». Le 6 juillet 2026, Thales a annoncé un projet d’offre publique sur la société (avis AMF 226C0991) ; rien n’était réalisé à la date d’arrêt."
+
+  - actor_id: FR-ACT-0047
+    nom: "GORGE SA"
+    nom_usuel: "Gorgé SA"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-016]
+    identifiants: { siren: "420038366", lei: "969500HJW3PVPUGW4191" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=420038366" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500HJW3PVPUGW4191" }
+    statut: VERIFIED
+    notes: "Holding de la famille Gorgé ; les personnes physiques ne sont pas enregistrées."
+
+  - actor_id: FR-ACT-0048
+    nom: "EXOSENS"
+    nom_usuel: "Exosens"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "895395101", lei: "969500R3AKTPEDO9EG76", isin: "FR001400Q9V2" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0065, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0072/16A9107D1ECCD05424913776950D04BE172C7855F80815754CCF05BF72493D1A.zip", localisation: "facteurs de risque, p. 169" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=895395101" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500R3AKTPEDO9EG76" }
+    statut: VERIFIED
+    notes: "Défense déclarée sans chiffre : « le chiffre d’affaires du Groupe reste majoritairement lié au secteur de la défense ». Ex-Photonis."
+
+  - actor_id: FR-ACT-0049
+    nom: "HLD EUROPE"
+    nom_usuel: "HLD Europe SCA"
+    type_acteur: entreprise
+    forme_juridique: "Société en commandite par actions de droit luxembourgeois"
+    categories: [FR-NODE-018]
+    identifiants: { lei: "222100KJO80ONXIK8X08", autre: { registre: "RCS Luxembourg", cle: "B198109" } }
+    citations:
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/222100KJO80ONXIK8X08" }
+    statut: VERIFIED
+    notes: "Société d’investissement. Déclare de concert avec IPHG Holding et d’autres sociétés : les parts du concert ne sont pas additionnées ici."
+
+  - actor_id: FR-ACT-0050
+    nom: "THEON INTERNATIONAL PLC"
+    nom_usuel: "Theon International"
+    type_acteur: entreprise
+    forme_juridique: "Public limited company de droit chypriote"
+    categories: [FR-NODE-031]
+    identifiants: { lei: "2138002Y6CEIWHLN8775", autre: { registre: "Registre des sociétés (Chypre)", cle: "ΗΕ 424549" } }
+    citations:
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/2138002Y6CEIWHLN8775" }
+    statut: VERIFIED
+    notes: "Industriel de l’optronique de défense, coté à Amsterdam ; société étrangère, catégorie sectorielle seulement."
+
+  - actor_id: FR-ACT-0051
+    nom: "LUMIBIRD"
+    nom_usuel: "Lumibird"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "970202719", lei: "969500MLJC3ZSZP4L019", isin: "FR0000038242" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0066, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0196/918D4743C977C896F6F4E5989714D58C0501A87C80BB7B79486CEADA8B1AD570.zip", localisation: "§ 2.3 ; § 12.8.2" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=970202719" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500MLJC3ZSZP4L019" }
+    statut: VERIFIED
+    notes: "Défense déclarée dans un marché mixte : « Défense/Spatial », 20% du chiffre d’affaires consolidé 2025."
+
+  - actor_id: FR-ACT-0052
+    nom: "ESIRA"
+    nom_usuel: "Esira"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-016]
+    identifiants: { siren: "533467841", lei: "9695003T4KNZKBLIO969" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=533467841" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/9695003T4KNZKBLIO969" }
+    statut: VERIFIED
+    notes: "Holding de contrôle de Lumibird ; son capital est détenu majoritairement par une personne physique, non enregistrée."
+
+  - actor_id: FR-ACT-0053
+    nom: "SOPRA STERIA GROUP"
+    nom_usuel: "Sopra Steria"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-014, FR-NODE-031]
+    identifiants: { siren: "326820065", lei: "96950020QIOHAAK9V551", isin: "FR0000050809" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0070, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0088/487C02A6909757271DC8F9DB21AF816F08772AD68D6CEE327D1F8B62672475FD.zip", localisation: "chapitre 1, § 4.2.3" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=326820065" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/96950020QIOHAAK9V551" }
+    statut: VERIFIED
+    notes: "Défense déclarée dans un secteur mixte : « Défense, Sécurité & Espace », 13% du chiffre d’affaires 2025. Catégorie 014 : le document la dit contrôlée par Sopra GMT, sans lien avec l’État."
+
+  - actor_id: FR-ACT-0054
+    nom: "SOPRA-GMT"
+    nom_usuel: "Sopra GMT"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-016]
+    identifiants: { siren: "348940263", lei: "969500ROU8CGPW7I5967" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=348940263" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500ROU8CGPW7I5967" }
+    statut: VERIFIED
+    notes: "Holding animatrice de Sopra Steria. Elle se dit contrôlée conjointement par des membres de la famille Pasquier (avis AMF 226C0804) : les personnes physiques ne sont pas enregistrées."
+
+  - actor_id: FR-ACT-0055
+    nom: "FMR LLC"
+    nom_usuel: "FMR (Fidelity Investments)"
+    type_acteur: gestionnaire_actifs
+    forme_juridique: "Limited liability company de droit du Delaware (États-Unis)"
+    categories: [FR-NODE-018]
+    identifiants: { lei: "6X064LF7Y6B4DKF2GZ26" }
+    citations:
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/6X064LF7Y6B4DKF2GZ26" }
+    statut: VERIFIED
+    notes: "Société holding du groupe Fidelity Investments, « agissant pour le compte de fonds » ; déclare par l’intermédiaire des sociétés qu’elle contrôle."
+
+  - actor_id: FR-ACT-0056
+    nom: "SOGECLAIR"
+    nom_usuel: "Sogeclair"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-031]
+    identifiants: { siren: "335218269", lei: "9695005NNHRB8KW54I35", isin: "FR0000065864" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0069, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0296/A77879C5588DC9B335F2CBBB3843869D62442C3CAF3501B0F0DA5B8EA3AB8648.pdf", localisation: "§ 7.2.3.2, p. 36 / PDF 37 ; p. 115" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=335218269" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/9695005NNHRB8KW54I35" }
+    statut: VERIFIED
+    notes: "Défense déclarée : 14% du chiffre d’affaires 2025. Cotée sur Euronext Growth Paris."
+
+  - actor_id: FR-ACT-0057
+    nom: "KEY'S"
+    nom_usuel: "Key’s"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-016]
+    identifiants: { siren: "851397810" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=851397810" }
+      - { source_id: FR-CPL-0069, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0296/A77879C5588DC9B335F2CBBB3843869D62442C3CAF3501B0F0DA5B8EA3AB8648.pdf", localisation: "p. 194" }
+    statut: VERIFIED
+    notes: "« Société constituée par les femmes et hommes clés de SOGECLAIR accompagnés de leur Président » ; membre du concert familial Robardey. SIREN rapproché par le nom, l’adresse (Blagnac) et la date de création (2019) : le document de la société ne l’imprime pas."
 
 liens:
 
@@ -1737,4 +1903,141 @@ liens:
     preuve: P4
     incertitude: "Déclaration de 2020, la dernière avant la date d’arrêt : aux Pays-Bas, on ne déclare qu’en franchissant un seuil. Elle ne porte que sur les droits de vote ; le registre affiche 0,00% pour le capital, présenté ici comme non publié. Le rapport du conseil d’Airbus 2025 reprend les 9,90%."
     garde_fou: "La source ne dit pas pour le compte de qui les titres sont détenus ; la part ne s’additionne à celle d’aucun autre détenteur et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0076
+    source_actor: FR-ACT-0047
+    target_actor: FR-ACT-0046
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-24"
+    detention_capital_pct: "34.23"
+    droits_vote_pct: "50.64"
+    controle: exclusif
+    citation: { source_id: FR-CPL-0061, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0166/AE2FACBB90C01B927F8A9E33B0A932D69FC2DB6FB74E2F53E051C99566C5B02A.zip", localisation: "§ 1.2.3 ; § 5.3.1, tableau de répartition ; § 5.3.3 (dépôt ESEF, sans pagination)" }
+    preuve: P4
+    incertitude: "Droits de vote exerçables en assemblée. En comptant un million d’actions prêtées, 36,93% du capital et 54,51% des droits de vote. Le 6 juillet 2026, Thales a annoncé un projet d’offre publique sur Exail Technologies (avis AMF 226C0991)."
+    garde_fou: "Le document écrit que la société « est contrôlée par la famille GORGÉ, par l’intermédiaire de la société GORGÉ SA » : c’est ce contrôle familial qui est repris, pas une déduction du pourcentage."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0077
+    source_actor: FR-ACT-0040
+    target_actor: FR-ACT-0046
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-07-15"
+    detention_capital_pct: "5.27"
+    droits_vote_pct: "3.90"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0062, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C1076/34185B870D0B6A9920508368B6890488DBD2C92F3CC46B74252A089C7D32DC5F.pdf", localisation: "p. 1" }
+    preuve: P4
+    incertitude: "Franchissement en hausse du seuil de 5% du capital, pendant la période de préoffre de Thales."
+    garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0078
+    source_actor: FR-ACT-0049
+    target_actor: FR-ACT-0048
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-07-28"
+    detention_capital_pct: "14.08"
+    droits_vote_pct: "20.08"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0063, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C1245/5496D1B4BE1278B6B0C3716E5BC0F4146EF50A3F612FC292C107F93A23E78A8D.pdf", localisation: "p. 1, tableau" }
+    preuve: P4
+    incertitude: "Membre d’un concert déclaré à 17,94% du capital et 23,39% des droits de vote avec IPHG Holding (3,86% / 3,31%), Invest Prince Henri et Invest Gamma ; franchissement en baisse du seuil de 25% des droits de vote du concert, par perte de droits de vote double."
+    garde_fou: "La part ne s’additionne à celle d’aucun autre détenteur, et ne dit rien d’un contrôle que la source n’écrit pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0079
+    source_actor: FR-ACT-0050
+    target_actor: FR-ACT-0048
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-01-07"
+    detention_capital_pct: "9.77"
+    droits_vote_pct: "9.77"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0064, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0046/14675948BC8C54B5C5DD1EECEEEB546069DEB3F942FA05EB76220C26475A9881.pdf", localisation: "p. 1" }
+    preuve: P4
+    incertitude: "Franchissement en hausse des seuils de 5% du capital et des droits de vote. Des droits de vote double sont apparus chez Exosens en juin 2026 : la part des droits de vote a pu changer depuis, sans avis publié."
+    garde_fou: "La part ne s’additionne à celle d’aucun autre détenteur, et ne dit rien d’un contrôle que la source n’écrit pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0080
+    source_actor: FR-ACT-0002
+    target_actor: FR-ACT-0048
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-01-07"
+    detention_capital_pct: "7.22"
+    droits_vote_pct: "7.22"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0065, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0072/16A9107D1ECCD05424913776950D04BE172C7855F80815754CCF05BF72493D1A.zip", localisation: "§ 7.2.1, p. 307" }
+    preuve: P4
+    incertitude: "7,22% des droits de vote théoriques, 7,25% des droits exerçables. La Caisse des dépôts a déclaré en 2025 une détention indirecte de 12,06% qui inclut cette part (avis AMF 225C0747) : elle n’est pas reprise, seuls les liens directs sont saisis."
+    garde_fou: "Bpifrance Participations n’est pas l’État : sa part ne s’additionne pas à celle de l’État, ni à celle de la Caisse des dépôts. Une entreprise de défense « privée », au sens de ce registre, est une entreprise sans capital de l’État ; elle peut compter des détenteurs publics."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0081
+    source_actor: FR-ACT-0052
+    target_actor: FR-ACT-0051
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-01"
+    detention_capital_pct: "50.72"
+    droits_vote_pct: "67.35"
+    controle: exclusif
+    citation: { source_id: FR-CPL-0066, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0196/918D4743C977C896F6F4E5989714D58C0501A87C80BB7B79486CEADA8B1AD570.zip", localisation: "§ 2.3 « Risques liés au contrôle de la Société par ESIRA » ; § 12.8.2, tableau au 1er mars 2026" }
+    preuve: P4
+    incertitude: "Droits de vote hors actions auto-détenues."
+    garde_fou: "Le document parle du « contrôle de la Société par ESIRA », qui est « en position d’exercer une influence déterminante » : c’est ce que la source écrit, pas une déduction du pourcentage."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0082
+    source_actor: FR-ACT-0054
+    target_actor: FR-ACT-0053
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-06-08"
+    detention_capital_pct: "20.50"
+    droits_vote_pct: "29.92"
+    controle: exclusif
+    citation: { source_id: FR-CPL-0067, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0804/2B45066C549253FDAE5711CB8D6F51DA86CD94F9CFD3FC6FA6DDA1B80D2056A8.pdf", localisation: "§ 2, tableau du concert" }
+    preuve: P4
+    incertitude: "Droits de vote théoriques, après une annulation d’actions. Sopra GMT agit de concert avec des familles et des managers (23,15% du capital et 33,79% des droits de vote au total) ; les parts ne sont pas additionnées ici. Le 30 avril 2026, Sopra GMT déclarait n’envisager « pas de prendre le contrôle » au sens de l’article L. 233-3 (avis 226C0613), alors que le document d’enregistrement universel 2025 conclut que « Sopra GMT contrôle Sopra Steria Group »."
+    garde_fou: "Le contrôle repris est celui que le document de la société décrit ; la déclaration de l’actionnaire le formule autrement."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0083
+    source_actor: FR-ACT-0055
+    target_actor: FR-ACT-0053
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-02-28"
+    detention_capital_pct: "6.68"
+    droits_vote_pct: "5.17"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0068, url: "https://bdif.amf-france.org/back/api/v1/documents/2025/225C0436/7D8D28B3930DF4A45D2514F9F07D9BA748C73AF53B50F95D0D2C9A65D5C0D543.pdf", localisation: "p. 1, tableau et note 1" }
+    preuve: P4
+    incertitude: "Détention indirecte, par quatre sociétés du groupe Fidelity, dont aucune ne dépasse seule 5%. Pourcentages calculés sur le capital de février 2025 ; aucun avis plus récent avant la date d’arrêt."
+    garde_fou: "Une détention pour le compte de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0084
+    source_actor: FR-ACT-0057
+    target_actor: FR-ACT-0056
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "6.18"
+    droits_vote_pct: "7.30"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0069, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0296/A77879C5588DC9B335F2CBBB3843869D62442C3CAF3501B0F0DA5B8EA3AB8648.pdf", localisation: "§ répartition du capital, p. 193" }
+    preuve: P4
+    incertitude: "Droits de vote en assemblée ordinaire comme extraordinaire. Key’s est membre du concert familial Robardey (69,52% du capital et 81,88% des droits de vote), dont la source écrit qu’il « détient le contrôle de la société » ; les autres membres sont des personnes physiques, non enregistrées."
+    garde_fou: "Le contrôle appartient au concert familial selon la source, pas à Key’s seule ; sa part ne s’additionne à aucune autre."
     statut: VERIFIED

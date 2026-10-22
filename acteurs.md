@@ -41,7 +41,9 @@ Qui détient quoi, société par société : **{{ cles | size }} sociétés**,
 Le périmètre est volontairement étroit : les participations de l’État dans
 les sociétés cotées de son portefeuille, EDF, et les entreprises de défense
 où il détient du capital ou une action ; puis, dans ces sociétés cotées, les
-gestionnaires d’actifs et les fonds qui ont déclaré dépasser le seuil légal. C’est un **ajout de ce site, hors
+gestionnaires d’actifs et les fonds qui ont déclaré dépasser le seuil légal ;
+enfin, les [entreprises de défense privées](#entreprises-de-défense-privées)
+cotées à Paris et leurs actionnaires. C’est un **ajout de ce site, hors
 paquet** — le début du registre que la
 [feuille de route]({{ '/feuille-de-route/' | relative_url }}) annonce.
 
@@ -330,6 +332,32 @@ ne sont pas enregistrés.
 
 À la date d’arrêt, aucun gestionnaire d’actifs ne déclarait dépasser le seuil
 légal chez Thales, Eutelsat, Air France-KLM, Dassault Aviation ni FDJ United.
+
+## Entreprises de défense privées
+
+Une entreprise de défense « privée », ici, est une société **sans capital ni
+action de l’État**. Elle peut compter d’autres détenteurs publics, comme
+Bpifrance : ils sont enregistrés comme tels. Trois conditions, toutes écrites
+dans les documents de la société, la font entrer dans le registre :
+
+- elle est cotée sur Euronext Paris ou Euronext Growth Paris, et son siège est
+  en France ;
+- son dernier document annuel avant la date d’arrêt publie une part de la
+  défense **d’au moins 10%** du chiffre d’affaires, seule ou dans un secteur
+  mixte qui la nomme (« Défense/Spatial », « Défense, Sécurité & Espace »), ou
+  écrit que la défense est majoritaire ;
+- aucun pourcentage n’est calculé par ce site pour l’atteindre.
+
+Sont enregistrés ses actionnaires au-delà du seuil légal de 5%, dont les
+holdings familiales ou de contrôle. Les personnes physiques ne le sont jamais :
+quand une famille détient une société par une holding, seule la holding
+apparaît.
+
+Ont été examinées puis écartées, faute de part de défense publiée ou parce
+qu’elle restait sous 10% : Alten, Assystem, Atos, Bureau Veritas, Capgemini,
+Dassault Systèmes, Derichebourg, Europlasma, Figeac Aéro, Groupe Crit, Lacroix,
+Latécoère, Lisi, Manitou, Mersen, Nexans, Parrot, Prodways, Soditech, Spie,
+Vallourec et Wallix.
 
 ## D’où viennent ces chiffres
 
