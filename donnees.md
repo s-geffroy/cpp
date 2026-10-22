@@ -101,6 +101,11 @@ par `ajout_`.
     <span class="meta">les titulaires et les acheteurs les plus fréquents de la <a href="{{ '/commande-publique/' | relative_url }}">commande publique</a> en 2025</span>
   </li>
   <li>
+    <a href="{{ '/assets/donnees/ajout_representants_interets.csv' | relative_url }}">
+      <code>ajout_representants_interets.csv</code></a>
+    <span class="meta">les organisations qui déclarent le plus d’actions de <a href="{{ '/representants-interets/' | relative_url }}">représentation d’intérêts</a> en 2025</span>
+  </li>
+  <li>
     <a href="{{ '/assets/donnees/ajout_passage_dimensions.csv' | relative_url }}">
       <code>ajout_passage_dimensions.csv</code></a>
     <span class="meta">la table de passage ci-dessous</span>

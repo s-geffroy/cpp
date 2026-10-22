@@ -1,0 +1,51 @@
+rang,denomination,identifiant,type_identifiant,famille,categorie,fiches,depenses,personnes_etp
+1,MOUVEMENT DES ENTREPRISES DE FRANCE,784668618,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,347,> = 3 500 000 euros et < 3 750 000 euros,18.4
+2,ANTHENOR PUBLIC AFFAIRS,450089107,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,336,< 10 000 euros,18.0
+3,BOURY TALLON & ASSOCIES,502999626,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,244,< 10 000 euros,12.0
+4,APF France Handicap,775688732,SIREN,"Associations, fondations et ONG",Association,180,> = 400 000 euros et < 500 000 euros,10.0
+5,CONFEDERATION DES PETITES ET MOYENNES ENTREPRISES,303215016,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,174,> = 100 000 euros et < 200 000 euros,2.99
+6,FEDERATION FRANCAISE DE L ASSURANCE (FFA),784409013,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,172,> = 1 750 000 euros et < 2 000 000 euros,11.0
+7,ESL & NETWORK FRANCE SAS,431853530,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,171,> = 2 750 000 euros et < 3 000 000 euros,16.0
+8,COMFLUENCE,509796249,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,163,> = 900 000 euros et < 1 000 000 euros,10.0
+9,COM'PUBLICS,398995142,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,139,< 10 000 euros,8.0
+10,LYSIOS,447525452,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,127,< 10 000 euros,10.0
+11,COMMUNICATION & INSTITUTIONS,340388479,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,111,< 10 000 euros,0.0
+12,SYNDICAT DES ENERGIES RENOUVELABLES,419710280,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,109,> = 800 000 euros et < 900 000 euros,4.0
+13,TADDEO,534389309,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,106,< 10 000 euros,4.1
+14,AI2P,413728676,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,102,< 10 000 euros,1.5
+15,CONSEIL NATIONAL DES BARREAUX,391576964,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,101,> = 500 000 euros et < 600 000 euros,6.0
+16,UNION  TRANSPORTS PUBLICS FERROVIAIRES,784408643,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,97,> = 400 000 euros et < 500 000 euros,7.0
+17,KAIROS MSC,818757601,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,87,< 10 000 euros,6.0
+18,FEDER SYNDICATS EXPLOIT AGRICOL MAYENNE,786257071,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,85,< 10 000 euros,0.0
+19,GOOGLE FRANCE,443061841,SIREN,Entreprises,Société commerciale et civile (autre que cabinet d’avocats et société de conseil),82,> = 1 750 000 euros et < 2 000 000 euros,7.0
+20,IMAGE 7,532572112,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,82,< 10 000 euros,7.0
+21,AMERICAIN CHAMBER OF COMMERC,784357329,SIREN,"Associations, fondations et ONG",Association,80,> = 100 000 euros et < 200 000 euros,3.0
+22,FEDERATION NATIONALE MUTUALITE FRANCAISE,304426240,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Fédération professionnelle,78,> = 900 000 euros et < 1 000 000 euros,2.0
+23,FEDERATION DES ACTEURS DE LA SOLIDARITE,308401090,SIREN,"Associations, fondations et ONG",Association,77,> = 50 000 euros et < 75 000 euros,4.0
+24,AFFAIRES PUBLIQUES CONSULTANTS,479189235,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,76,< 10 000 euros,13.0
+25,PLEAD,H771956256,HATVP,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,74,> = 200 000 euros et < 300 000 euros,5.0
+26,ASSO FRANCAI ENTREPRIS PRIVEES,326943016,SIREN,"Associations, fondations et ONG",Association,70,> = 1 750 000 euros et < 2 000 000 euros,11.0
+27,FEDERATION ENTREP COMMERCE DISTRIBUTION,784855876,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,66,> = 800 000 euros et < 900 000 euros,6.0
+28,SYND NAT ETS RETRAITE PERSONNES AGEES,440687226,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,65,> = 300 000 euros et < 400 000 euros,1.95
+29,LA COOPERATION AGRICOLE,784179665,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Fédération professionnelle,64,> = 100 000 euros et < 200 000 euros,2.0
+30,UNION DES ENTREPRISES DE PROXIMITE,349681098,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,64,> = 500 000 euros et < 600 000 euros,1.5
+31,CONFEDERATION PAYSANNE,383316916,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,63,> = 50 000 euros et < 75 000 euros,9.0
+32,GRAYLING FRANCE,330005620,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,63,< 10 000 euros,2.2
+33,MUTUALITE FRANCAISE BOURGOGNE FRANCHE COMTE,325412930,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Fédération professionnelle,63,> = 75 000 euros et < 100 000 euros,0.7
+34,GROUP IND MAT EQUIP ELEC ELECT,305061855,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,62,> = 200 000 euros et < 300 000 euros,1.6
+35,FEDERATION BANCAIRE FRANCAISE,434987582,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Fédération professionnelle,60,> = 1 750 000 euros et < 2 000 000 euros,3.6
+36,NEXTEP,421468018,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,60,> = 800 000 euros et < 900 000 euros,8.5
+37,SEANCE PUBLIQUE,487640005,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,59,> = 800 000 euros et < 900 000 euros,9.6
+38,ATLAS PUBLIC AFFAIRS,522058106,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,58,> = 100 000 euros et < 200 000 euros,5.0
+39,MUTUALITE FRANCAISE BRETAGNE,443873930,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Fédération professionnelle,57,> = 25 000 euros et < 50 000 euros,0.7
+40,UNION NATIONALE FEDERATION H L M,775697907,SIREN,"Associations, fondations et ONG",Association,57,> = 400 000 euros et < 500 000 euros,3.0
+41,CONFEDERATION DES GROSSISTES DE FRANCE,784669152,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,56,> = 400 000 euros et < 500 000 euros,7.0
+42,FEDE NAT SYNDIC EXPL AGRICOLE,784854937,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,56,> = 800 000 euros et < 900 000 euros,5.2
+43,CONSEIL SUPER NOTARIAT,784350134,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Organisation syndicale et professionnelle,55,> = 200 000 euros et < 300 000 euros,1.1
+44,UNION DES INDUSTRIES ET DES METIERS DE LA METALLURGIE,784717191,SIREN,"Organisations professionnelles, syndicats et chambres consulaires",Fédération professionnelle,55,> = 1 250 000 euros et < 1 500 000 euros,1.9
+45,RUMEUR PUBLIQUE,524866241,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,54,< 10 000 euros,5.0
+46,BUREAU NATIONAL INTERPR COGNAC,775563455,SIREN,Établissements publics et autres,Autre organisation,52,> = 100 000 euros et < 200 000 euros,0.34
+47,COMMSTRAT,H457716271,HATVP,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,52,> = 100 000 euros et < 200 000 euros,0.8
+48,BIEN COMMUN ADVISORY,913175865,SIREN,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,51,< 10 000 euros,10.0
+49,TRANSPARENCY INTERNATIONAL FRANCE,425138393,SIREN,"Associations, fondations et ONG",Association,51,> = 200 000 euros et < 300 000 euros,3.2
+50,CILAB,H318741874,HATVP,"Cabinets de conseil, d’avocats et consultants",Cabinet de conseil,50,< 10 000 euros,2.0

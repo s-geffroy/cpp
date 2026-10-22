@@ -1,0 +1,689 @@
+{
+ "meta": {
+  "copie": "20260812133400",
+  "exercice": "2025",
+  "inscrits": 4065,
+  "exercices": 3631,
+  "exercices_publies": 2397,
+  "defauts_declaration": 294,
+  "fiches": 19949
+ },
+ "inscrits_par_famille": [
+  {
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "nombre": 1366
+  },
+  {
+   "famille": "Entreprises",
+   "nombre": 1276
+  },
+  {
+   "famille": "Associations, fondations et ONG",
+   "nombre": 862
+  },
+  {
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "nombre": 410
+  },
+  {
+   "famille": "Établissements publics et autres",
+   "nombre": 134
+  },
+  {
+   "famille": "Recherche et groupes de réflexion",
+   "nombre": 17
+  }
+ ],
+ "organisations": [
+  {
+   "rang": 1,
+   "denomination": "MOUVEMENT DES ENTREPRISES DE FRANCE",
+   "identifiant": "784668618",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 347,
+   "depenses": "> = 3 500 000 euros et < 3 750 000 euros",
+   "personnes_etp": 18.4
+  },
+  {
+   "rang": 2,
+   "denomination": "ANTHENOR PUBLIC AFFAIRS",
+   "identifiant": "450089107",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 336,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 18.0
+  },
+  {
+   "rang": 3,
+   "denomination": "BOURY TALLON & ASSOCIES",
+   "identifiant": "502999626",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 244,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 12.0
+  },
+  {
+   "rang": 4,
+   "denomination": "APF France Handicap",
+   "identifiant": "775688732",
+   "type_identifiant": "SIREN",
+   "famille": "Associations, fondations et ONG",
+   "categorie": "Association",
+   "fiches": 180,
+   "depenses": "> = 400 000 euros et < 500 000 euros",
+   "personnes_etp": 10.0
+  },
+  {
+   "rang": 5,
+   "denomination": "CONFEDERATION DES PETITES ET MOYENNES ENTREPRISES",
+   "identifiant": "303215016",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 174,
+   "depenses": "> = 100 000 euros et < 200 000 euros",
+   "personnes_etp": 2.99
+  },
+  {
+   "rang": 6,
+   "denomination": "FEDERATION FRANCAISE DE L ASSURANCE (FFA)",
+   "identifiant": "784409013",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 172,
+   "depenses": "> = 1 750 000 euros et < 2 000 000 euros",
+   "personnes_etp": 11.0
+  },
+  {
+   "rang": 7,
+   "denomination": "ESL & NETWORK FRANCE SAS",
+   "identifiant": "431853530",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 171,
+   "depenses": "> = 2 750 000 euros et < 3 000 000 euros",
+   "personnes_etp": 16.0
+  },
+  {
+   "rang": 8,
+   "denomination": "COMFLUENCE",
+   "identifiant": "509796249",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 163,
+   "depenses": "> = 900 000 euros et < 1 000 000 euros",
+   "personnes_etp": 10.0
+  },
+  {
+   "rang": 9,
+   "denomination": "COM'PUBLICS",
+   "identifiant": "398995142",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 139,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 8.0
+  },
+  {
+   "rang": 10,
+   "denomination": "LYSIOS",
+   "identifiant": "447525452",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 127,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 10.0
+  },
+  {
+   "rang": 11,
+   "denomination": "COMMUNICATION & INSTITUTIONS",
+   "identifiant": "340388479",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 111,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 0.0
+  },
+  {
+   "rang": 12,
+   "denomination": "SYNDICAT DES ENERGIES RENOUVELABLES",
+   "identifiant": "419710280",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 109,
+   "depenses": "> = 800 000 euros et < 900 000 euros",
+   "personnes_etp": 4.0
+  },
+  {
+   "rang": 13,
+   "denomination": "TADDEO",
+   "identifiant": "534389309",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 106,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 4.1
+  },
+  {
+   "rang": 14,
+   "denomination": "AI2P",
+   "identifiant": "413728676",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 102,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 1.5
+  },
+  {
+   "rang": 15,
+   "denomination": "CONSEIL NATIONAL DES BARREAUX",
+   "identifiant": "391576964",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 101,
+   "depenses": "> = 500 000 euros et < 600 000 euros",
+   "personnes_etp": 6.0
+  },
+  {
+   "rang": 16,
+   "denomination": "UNION  TRANSPORTS PUBLICS FERROVIAIRES",
+   "identifiant": "784408643",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 97,
+   "depenses": "> = 400 000 euros et < 500 000 euros",
+   "personnes_etp": 7.0
+  },
+  {
+   "rang": 17,
+   "denomination": "KAIROS MSC",
+   "identifiant": "818757601",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 87,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 6.0
+  },
+  {
+   "rang": 18,
+   "denomination": "FEDER SYNDICATS EXPLOIT AGRICOL MAYENNE",
+   "identifiant": "786257071",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 85,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 0.0
+  },
+  {
+   "rang": 19,
+   "denomination": "GOOGLE FRANCE",
+   "identifiant": "443061841",
+   "type_identifiant": "SIREN",
+   "famille": "Entreprises",
+   "categorie": "Société commerciale et civile (autre que cabinet d’avocats et société de conseil)",
+   "fiches": 82,
+   "depenses": "> = 1 750 000 euros et < 2 000 000 euros",
+   "personnes_etp": 7.0
+  },
+  {
+   "rang": 20,
+   "denomination": "IMAGE 7",
+   "identifiant": "532572112",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 82,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 7.0
+  },
+  {
+   "rang": 21,
+   "denomination": "AMERICAIN CHAMBER OF COMMERC",
+   "identifiant": "784357329",
+   "type_identifiant": "SIREN",
+   "famille": "Associations, fondations et ONG",
+   "categorie": "Association",
+   "fiches": 80,
+   "depenses": "> = 100 000 euros et < 200 000 euros",
+   "personnes_etp": 3.0
+  },
+  {
+   "rang": 22,
+   "denomination": "FEDERATION NATIONALE MUTUALITE FRANCAISE",
+   "identifiant": "304426240",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Fédération professionnelle",
+   "fiches": 78,
+   "depenses": "> = 900 000 euros et < 1 000 000 euros",
+   "personnes_etp": 2.0
+  },
+  {
+   "rang": 23,
+   "denomination": "FEDERATION DES ACTEURS DE LA SOLIDARITE",
+   "identifiant": "308401090",
+   "type_identifiant": "SIREN",
+   "famille": "Associations, fondations et ONG",
+   "categorie": "Association",
+   "fiches": 77,
+   "depenses": "> = 50 000 euros et < 75 000 euros",
+   "personnes_etp": 4.0
+  },
+  {
+   "rang": 24,
+   "denomination": "AFFAIRES PUBLIQUES CONSULTANTS",
+   "identifiant": "479189235",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 76,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 13.0
+  },
+  {
+   "rang": 25,
+   "denomination": "PLEAD",
+   "identifiant": "H771956256",
+   "type_identifiant": "HATVP",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 74,
+   "depenses": "> = 200 000 euros et < 300 000 euros",
+   "personnes_etp": 5.0
+  },
+  {
+   "rang": 26,
+   "denomination": "ASSO FRANCAI ENTREPRIS PRIVEES",
+   "identifiant": "326943016",
+   "type_identifiant": "SIREN",
+   "famille": "Associations, fondations et ONG",
+   "categorie": "Association",
+   "fiches": 70,
+   "depenses": "> = 1 750 000 euros et < 2 000 000 euros",
+   "personnes_etp": 11.0
+  },
+  {
+   "rang": 27,
+   "denomination": "FEDERATION ENTREP COMMERCE DISTRIBUTION",
+   "identifiant": "784855876",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 66,
+   "depenses": "> = 800 000 euros et < 900 000 euros",
+   "personnes_etp": 6.0
+  },
+  {
+   "rang": 28,
+   "denomination": "SYND NAT ETS RETRAITE PERSONNES AGEES",
+   "identifiant": "440687226",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 65,
+   "depenses": "> = 300 000 euros et < 400 000 euros",
+   "personnes_etp": 1.95
+  },
+  {
+   "rang": 29,
+   "denomination": "LA COOPERATION AGRICOLE",
+   "identifiant": "784179665",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Fédération professionnelle",
+   "fiches": 64,
+   "depenses": "> = 100 000 euros et < 200 000 euros",
+   "personnes_etp": 2.0
+  },
+  {
+   "rang": 30,
+   "denomination": "UNION DES ENTREPRISES DE PROXIMITE",
+   "identifiant": "349681098",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 64,
+   "depenses": "> = 500 000 euros et < 600 000 euros",
+   "personnes_etp": 1.5
+  },
+  {
+   "rang": 31,
+   "denomination": "CONFEDERATION PAYSANNE",
+   "identifiant": "383316916",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 63,
+   "depenses": "> = 50 000 euros et < 75 000 euros",
+   "personnes_etp": 9.0
+  },
+  {
+   "rang": 32,
+   "denomination": "GRAYLING FRANCE",
+   "identifiant": "330005620",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 63,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 2.2
+  },
+  {
+   "rang": 33,
+   "denomination": "MUTUALITE FRANCAISE BOURGOGNE FRANCHE COMTE",
+   "identifiant": "325412930",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Fédération professionnelle",
+   "fiches": 63,
+   "depenses": "> = 75 000 euros et < 100 000 euros",
+   "personnes_etp": 0.7
+  },
+  {
+   "rang": 34,
+   "denomination": "GROUP IND MAT EQUIP ELEC ELECT",
+   "identifiant": "305061855",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 62,
+   "depenses": "> = 200 000 euros et < 300 000 euros",
+   "personnes_etp": 1.6
+  },
+  {
+   "rang": 35,
+   "denomination": "FEDERATION BANCAIRE FRANCAISE",
+   "identifiant": "434987582",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Fédération professionnelle",
+   "fiches": 60,
+   "depenses": "> = 1 750 000 euros et < 2 000 000 euros",
+   "personnes_etp": 3.6
+  },
+  {
+   "rang": 36,
+   "denomination": "NEXTEP",
+   "identifiant": "421468018",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 60,
+   "depenses": "> = 800 000 euros et < 900 000 euros",
+   "personnes_etp": 8.5
+  },
+  {
+   "rang": 37,
+   "denomination": "SEANCE PUBLIQUE",
+   "identifiant": "487640005",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 59,
+   "depenses": "> = 800 000 euros et < 900 000 euros",
+   "personnes_etp": 9.6
+  },
+  {
+   "rang": 38,
+   "denomination": "ATLAS PUBLIC AFFAIRS",
+   "identifiant": "522058106",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 58,
+   "depenses": "> = 100 000 euros et < 200 000 euros",
+   "personnes_etp": 5.0
+  },
+  {
+   "rang": 39,
+   "denomination": "MUTUALITE FRANCAISE BRETAGNE",
+   "identifiant": "443873930",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Fédération professionnelle",
+   "fiches": 57,
+   "depenses": "> = 25 000 euros et < 50 000 euros",
+   "personnes_etp": 0.7
+  },
+  {
+   "rang": 40,
+   "denomination": "UNION NATIONALE FEDERATION H L M",
+   "identifiant": "775697907",
+   "type_identifiant": "SIREN",
+   "famille": "Associations, fondations et ONG",
+   "categorie": "Association",
+   "fiches": 57,
+   "depenses": "> = 400 000 euros et < 500 000 euros",
+   "personnes_etp": 3.0
+  },
+  {
+   "rang": 41,
+   "denomination": "CONFEDERATION DES GROSSISTES DE FRANCE",
+   "identifiant": "784669152",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 56,
+   "depenses": "> = 400 000 euros et < 500 000 euros",
+   "personnes_etp": 7.0
+  },
+  {
+   "rang": 42,
+   "denomination": "FEDE NAT SYNDIC EXPL AGRICOLE",
+   "identifiant": "784854937",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 56,
+   "depenses": "> = 800 000 euros et < 900 000 euros",
+   "personnes_etp": 5.2
+  },
+  {
+   "rang": 43,
+   "denomination": "CONSEIL SUPER NOTARIAT",
+   "identifiant": "784350134",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Organisation syndicale et professionnelle",
+   "fiches": 55,
+   "depenses": "> = 200 000 euros et < 300 000 euros",
+   "personnes_etp": 1.1
+  },
+  {
+   "rang": 44,
+   "denomination": "UNION DES INDUSTRIES ET DES METIERS DE LA METALLURGIE",
+   "identifiant": "784717191",
+   "type_identifiant": "SIREN",
+   "famille": "Organisations professionnelles, syndicats et chambres consulaires",
+   "categorie": "Fédération professionnelle",
+   "fiches": 55,
+   "depenses": "> = 1 250 000 euros et < 1 500 000 euros",
+   "personnes_etp": 1.9
+  },
+  {
+   "rang": 45,
+   "denomination": "RUMEUR PUBLIQUE",
+   "identifiant": "524866241",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 54,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 5.0
+  },
+  {
+   "rang": 46,
+   "denomination": "BUREAU NATIONAL INTERPR COGNAC",
+   "identifiant": "775563455",
+   "type_identifiant": "SIREN",
+   "famille": "Établissements publics et autres",
+   "categorie": "Autre organisation",
+   "fiches": 52,
+   "depenses": "> = 100 000 euros et < 200 000 euros",
+   "personnes_etp": 0.34
+  },
+  {
+   "rang": 47,
+   "denomination": "COMMSTRAT",
+   "identifiant": "H457716271",
+   "type_identifiant": "HATVP",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 52,
+   "depenses": "> = 100 000 euros et < 200 000 euros",
+   "personnes_etp": 0.8
+  },
+  {
+   "rang": 48,
+   "denomination": "BIEN COMMUN ADVISORY",
+   "identifiant": "913175865",
+   "type_identifiant": "SIREN",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 51,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 10.0
+  },
+  {
+   "rang": 49,
+   "denomination": "TRANSPARENCY INTERNATIONAL FRANCE",
+   "identifiant": "425138393",
+   "type_identifiant": "SIREN",
+   "famille": "Associations, fondations et ONG",
+   "categorie": "Association",
+   "fiches": 51,
+   "depenses": "> = 200 000 euros et < 300 000 euros",
+   "personnes_etp": 3.2
+  },
+  {
+   "rang": 50,
+   "denomination": "CILAB",
+   "identifiant": "H318741874",
+   "type_identifiant": "HATVP",
+   "famille": "Cabinets de conseil, d’avocats et consultants",
+   "categorie": "Cabinet de conseil",
+   "fiches": 50,
+   "depenses": "< 10 000 euros",
+   "personnes_etp": 2.0
+  }
+ ],
+ "responsables_vises": [
+  {
+   "categorie": "Député, sénateur, collaborateur du Président de l'Assemblée nationale ou du Président du Sénat, d’un député, d'un sénateur ou d'un groupe parlementaire, agents des services des assemblées parlementaires",
+   "fiches": 12367
+  },
+  {
+   "categorie": "Membre du Gouvernement ou membre de cabinet ministériel",
+   "fiches": 10605
+  },
+  {
+   "categorie": "Agent de l’État",
+   "fiches": 5497
+  },
+  {
+   "categorie": "Titulaire d'un emploi à la décision du Gouvernement",
+   "fiches": 3202
+  },
+  {
+   "categorie": "Collaborateur du Président de la République",
+   "fiches": 2466
+  },
+  {
+   "categorie": "Élu ou membre de cabinet d'une collectivité territoriale",
+   "fiches": 1608
+  },
+  {
+   "categorie": "Agent d’une collectivité territoriale",
+   "fiches": 845
+  },
+  {
+   "categorie": "Directeur ou secrétaire général, ou leur adjoint, ou membre du collège ou d'une commission des sanctions d'une autorité administrative ou publique indépendante",
+   "fiches": 795
+  },
+  {
+   "categorie": "Agent d’un centre hospitalier",
+   "fiches": 46
+  }
+ ],
+ "ministeres_vises": [
+  {
+   "ministere": "Economie et finances",
+   "fiches": 4917
+  },
+  {
+   "ministere": "Premier ministre",
+   "fiches": 4398
+  },
+  {
+   "ministere": "Environnement, énergie et mer",
+   "fiches": 2576
+  },
+  {
+   "ministere": "Affaires sociales et santé",
+   "fiches": 2107
+  },
+  {
+   "ministere": "Agriculture, agroalimentaire et forêt",
+   "fiches": 1432
+  },
+  {
+   "ministere": "Autres : à préciser",
+   "fiches": 860
+  },
+  {
+   "ministere": "Travail, emploi, formation professionnelle et dialogue social",
+   "fiches": 758
+  },
+  {
+   "ministere": "Affaires étrangères et développement international",
+   "fiches": 699
+  },
+  {
+   "ministere": "Aménagement du territoire, ruralité et collectivités territoriales",
+   "fiches": 659
+  },
+  {
+   "ministere": "Logement",
+   "fiches": 608
+  },
+  {
+   "ministere": "Education nationale, enseignement supérieur et recherche",
+   "fiches": 501
+  },
+  {
+   "ministere": "Culture et communication",
+   "fiches": 482
+  },
+  {
+   "ministere": "Intérieur",
+   "fiches": 419
+  },
+  {
+   "ministere": "Justice",
+   "fiches": 352
+  },
+  {
+   "ministere": "Outre-mer",
+   "fiches": 205
+  }
+ ]
+}

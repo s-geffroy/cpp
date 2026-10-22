@@ -1816,7 +1816,7 @@ sources:
     use: "Relie les responsables publics soumis à déclaration aux organisations où ils exercent ou ont exercé des activités et des mandats."
     status: VERIFIED
     url: "https://www.data.gouv.fr/datasets/contenu-des-declarations-de-situation-patrimoniale-et-dinterets-publiees-des-responsables-publics"
-    verification: "Fiche lue le 2026-10-22 ; le fichier lui-même n’a pas été ouvert (site de la HATVP en maintenance). Jeu continu : la date retenue est la date d’arrêt. Aucune donnée nominative n’est reprise par ce site."
+    verification: "Fiche lue le 2026-10-22. Le site de la HATVP étant en maintenance, le fichier a été lu dans sa copie archivée par la Wayback Machine le 2026-08-12 (https://web.archive.org/web/20260812133400/https://www.hatvp.fr/agora/opendata/agora_repertoire_opendata.json). Jeu continu : la date retenue est la date d’arrêt. Aucune donnée nominative n’est reprise par ce site."
 
   - source_id: FR-CPL-0119
     domain: people_governance_revolving_network
