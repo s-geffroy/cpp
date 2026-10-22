@@ -1097,3 +1097,408 @@ sources:
     status: VERIFIED
     url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0088/487C02A6909757271DC8F9DB21AF816F08772AD68D6CEE327D1F8B62672475FD.zip"
     verification: "Dépôt ESEF (xhtml) lu le 2026-10-22."
+
+  - source_id: FR-CPL-0071
+    domain: advertising_market
+    institution: "Autorité de la concurrence"
+    title: "Avis n° 18-A-03 du 6 mars 2018 portant sur l’exploitation des données dans le secteur de la publicité sur internet"
+    date: "2018-03-06"
+    source_type: regulatory_notice
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: one_off
+    mots_cles: [platforms, market_power, competition, data]
+    use: "Cartographie officielle de la chaîne de la publicité en ligne et de la position de Google et Facebook."
+    status: VERIFIED
+    url: "https://www.autoritedelaconcurrence.fr/sites/default/files/commitments//18a03.pdf"
+    verification: "PDF lu le 2026-10-22, p. 1 et 5 : « Facebook et Google apparaissent comme les deux leaders du secteur de la publicité en ligne. »"
+
+  - source_id: FR-CPL-0072
+    domain: advertising_market
+    institution: "Autorité de la concurrence"
+    title: "Décision n° 21-D-11 du 7 juin 2021 relative à des pratiques mises en œuvre dans le secteur de la publicité sur Internet"
+    date: "2021-06-07"
+    source_type: official_decision
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: one_off
+    mots_cles: [platforms, market_power, competition, sanction]
+    use: "Établit la position dominante de Google sur les serveurs publicitaires pour éditeurs et son abus, sanctionné de 220 M€."
+    status: VERIFIED
+    url: "https://www.autoritedelaconcurrence.fr/sites/default/files/integral_texts/2021-06/21d11_0.pdf"
+    verification: "PDF lu le 2026-10-22, p. 1-2 et dispositif (« 220 000 000 euros »)."
+
+  - source_id: FR-CPL-0073
+    domain: advertising_market
+    institution: "Autorité de la concurrence"
+    title: "Décision n° 25-D-02 du 31 mars 2025 relative à des pratiques mises en œuvre dans le secteur de la publicité sur applications mobiles sur les terminaux iOS"
+    date: "2025-03-31"
+    source_type: official_decision
+    authority: PRIMARY_REGULATORY
+    priority: A1
+    refresh: one_off
+    mots_cles: [platforms, market_power, competition, sanction]
+    use: "Montre comment le contrôle d’un système d’exploitation (Apple, ATT) pèse sur l’intermédiation publicitaire mobile ; sanction de 150 M€."
+    status: VERIFIED
+    url: "https://www.autoritedelaconcurrence.fr/sites/default/files/25d02_version_publique.pdf"
+    verification: "PDF (version publique) lu le 2026-10-22, p. 1-3 et dispositif (« 150 000 000 euros »)."
+
+  - source_id: FR-CPL-0074
+    domain: advertising_market
+    institution: "Arcom et ministère de la Culture (DGMIC)"
+    title: "Évolution du marché de la communication et impact sur le financement des médias par la publicité"
+    date: "2024-01-30"
+    source_type: official_report
+    authority: OFFICIAL_SECONDARY
+    priority: A0
+    refresh: one_off
+    mots_cles: [media, platforms, concentration, funding]
+    use: "Seule estimation publique récente de la concentration du marché publicitaire tous médias, et de la part des grandes plateformes ; étude confiée à un cabinet de conseil, pas une statistique publique."
+    status: VERIFIED
+    url: "https://www.arcom.fr/sites/default/files/2024-01/Evolution-du-marche-de-la-communication-et-impact-sur-le-financement-des-medias-par-la-publicite.pdf"
+    verification: "PDF lu le 2026-10-22, p. 80 : en 2022, Google, Amazon, Meta et ByteDance « captent à eux-seuls 36% de l’ensemble des recettes publicitaires »."
+
+  - source_id: FR-CPL-0075
+    domain: advertising_market
+    institution: "Insee"
+    title: "Fiche secteur 731 — Publicité (statistiques annuelles d’entreprise Ésane), données 2020"
+    date: "2023-03-03"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A1
+    refresh: annual
+    mots_cles: [market, economic]
+    use: "Taille officielle du secteur, répartie entre agences (7311Z) et régies publicitaires de médias (7312Z). La série paraît interrompue après les données 2020."
+    status: VERIFIED
+    url: "https://www.insee.fr/fr/statistiques/6799684"
+    verification: "Page lue le 2026-10-22 : « Paru le 03/03/2023 »."
+
+  - source_id: FR-CPL-0076
+    domain: advertising_market
+    institution: "République française (Journal officiel)"
+    title: "Loi n° 93-122 du 29 janvier 1993 relative à la prévention de la corruption et à la transparence de la vie économique et des procédures publiques (loi « Sapin »), titre II"
+    date: "1993-01-29"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [transparency, market, legal]
+    use: "Organise le pouvoir dans l’achat d’espace publicitaire : mandat écrit obligatoire, interdiction pour l’intermédiaire d’acheter pour revendre, compte rendu à l’annonceur."
+    status: TO_VERIFY
+    url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000711604"
+    verification: "Non lue : Légifrance bloque les robots. L’identifiant Légifrance n’a pas été confirmé ; à vérifier à la main."
+
+  - source_id: FR-CPL-0077
+    domain: advertising_market
+    institution: "Commission nationale de l’informatique et des libertés (CNIL)"
+    title: "« Publicités insérées entre les courriels et cookies : la CNIL sanctionne GOOGLE d’une amende de 325 millions d’euros »"
+    date: "2025-09-03"
+    source_type: official_decision
+    authority: PRIMARY_REGULATORY
+    priority: A1
+    refresh: one_off
+    mots_cles: [privacy, platforms, sanction]
+    use: "Montre l’encadrement du ciblage publicitaire de l’acteur dominant par le régulateur des données."
+    status: TO_VERIFY
+    url: "https://www.cnil.fr/fr/publicites-inserees-entre-les-courriels-et-cookies-la-cnil-sanctionne-google-dune-amende-de-325"
+    verification: "Non lue : site en maintenance le 2026-10-22. Titre, numéro et date tirés d’une recherche ; à vérifier à la main."
+
+  - source_id: FR-CPL-0078
+    domain: transport_logistics
+    institution: "Autorité de régulation des transports"
+    title: "Le marché français du transport ferroviaire en 2024 — bilan complet"
+    date: "2026-02-10"
+    source_type: official_regulatory_report
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: annual
+    mots_cles: [market, concentration, infrastructure, regulation]
+    use: "Mesure l’emprise de l’opérateur historique et des entrants, en voyageurs comme en fret, et les flux financiers publics du ferroviaire."
+    status: VERIFIED
+    url: "https://www.autorite-transports.fr/wp-content/uploads/2026/02/bilan-ferroviaire-complet-2024.pdf"
+    verification: "PDF lu le 2026-10-22, p. 19 et 31 : l’opérateur historique représente « près de 85% de part de marché » de la grande vitesse librement organisée ; Fret SNCF, 43% en trains.km."
+
+  - source_id: FR-CPL-0079
+    domain: transport_logistics
+    institution: "Autorité de régulation des transports"
+    title: "Synthèse des comptes des concessions autoroutières — exercice 2024"
+    date: "2025-12-15"
+    source_type: official_regulatory_report
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: annual
+    mots_cles: [infrastructure, finance, concentration, regulation]
+    use: "Chiffre d’affaires, résultat et dette des 20 sociétés concessionnaires d’autoroutes (groupes Vinci, Eiffage, Abertis) : la rente autoroutière chiffrée par le régulateur."
+    status: VERIFIED
+    url: "https://www.autorite-transports.fr/wp-content/uploads/2025/12/synthese_des_comptes_sca_2024-1.pdf"
+    verification: "PDF lu le 2026-10-22, p. 1 et 5 : « 21 conventions de concession passées avec 20 sociétés » ; chiffre d’affaires de 12,8 milliards d’euros."
+
+  - source_id: FR-CPL-0080
+    domain: transport_logistics
+    institution: "Autorité de régulation des transports"
+    title: "Rapport annuel sur le marché du transport par autocar et sur les gares routières en France en 2025"
+    date: "2026-06-16"
+    source_type: official_regulatory_report
+    authority: PRIMARY_REGULATORY
+    priority: A1
+    refresh: annual
+    mots_cles: [market, concentration]
+    use: "Mesure la concentration des services librement organisés par autocar (FlixBus, BlaBlaCar) et l’accès aux gares routières."
+    status: VERIFIED
+    url: "https://www.autorite-transports.fr/wp-content/uploads/2026/06/art_rapport-du-transport-routier-de-voyageurs-et-des-gares-routieres-2025.pdf"
+    verification: "PDF lu le 2026-10-22, p. 15 : « En 2025, FlixBus dessert 71% de l’offre totale de villes »."
+
+  - source_id: FR-CPL-0081
+    domain: transport_logistics
+    institution: "Ministère chargé des transports, service des données et études statistiques (SDES)"
+    title: "Bilan annuel des transports en 2024"
+    date: "2025-11-25"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A0
+    refresh: annual
+    mots_cles: [infrastructure, economic, market]
+    use: "Statistique publique de référence pour tous les modes, dont le fluvial, le maritime et la logistique, avec la dépense publique de transport."
+    status: TO_VERIFY
+    url: "https://www.statistiques.developpement-durable.gouv.fr/bilan-annuel-des-transports-en-2024"
+    verification: "Non lue : site en maintenance le 2026-10-22. Date tirée d’une recherche ; à vérifier à la main."
+
+  - source_id: FR-CPL-0082
+    domain: transport_logistics
+    institution: "Direction générale de l’aviation civile (DGAC), sur data.gouv.fr"
+    title: "Trafic aérien commercial mensuel français — série par transporteur depuis 2010 (ASP_CIE)"
+    date: "2026-07-31"
+    source_type: open_dataset
+    authority: PRIMARY_DATA
+    priority: A0
+    refresh: annual
+    mots_cles: [market, concentration, data]
+    use: "Permet de mesurer les parts de trafic par compagnie et par aéroport, donc la concentration du transport aérien en France."
+    status: VERIFIED
+    url: "https://www.data.gouv.fr/datasets/trafic-aerien-commercial-mensuel-francais-par-paire-daeroports-par-sens-depuis-1990"
+    verification: "Métadonnées et notice de la série lues le 2026-10-22 ; ressource par transporteur déposée le 2026-07-31. La fiche a été remise à jour après la date d’arrêt pour une autre série."
+
+  - source_id: FR-CPL-0083
+    domain: transport_logistics
+    institution: "Sénat, commission d’enquête sur les concessions autoroutières"
+    title: "Concessions autoroutières : des profits futurs à partager équitablement avec l’État et les usagers — rapport n° 709 (2019-2020)"
+    date: "2020-09-16"
+    source_type: parliamentary_inquiry
+    authority: OFFICIAL_INQUIRY
+    priority: A1
+    refresh: one_off
+    mots_cles: [infrastructure, state, finance]
+    use: "Retrace la privatisation de 2006 et le rapport de force entre l’État et les sociétés concessionnaires d’autoroutes."
+    status: VERIFIED
+    url: "https://www.senat.fr/rap/r19-709-1/r19-709-1.html"
+    verification: "Page du rapport lue le 2026-10-22 : « déposé le 16 septembre 2020 »."
+
+  - source_id: FR-CPL-0084
+    domain: transport_logistics
+    institution: "République française (Journal officiel)"
+    title: "Loi n° 2019-1428 du 24 décembre 2019 d’orientation des mobilités"
+    date: "2019-12-24"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A1
+    refresh: event_driven
+    mots_cles: [legal, regulation, territorial]
+    use: "Répartit les compétences d’autorité organisatrice des mobilités et renforce les pouvoirs du régulateur des transports."
+    status: TO_VERIFY
+    url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000039666574"
+    verification: "Non lue : Légifrance bloque les robots. Identifiant confirmé par deux documents publics qui y renvoient ; texte à vérifier à la main."
+
+  - source_id: FR-CPL-0085
+    domain: retail_food
+    institution: "Sénat, commission d’enquête sur les marges des industriels et de la grande distribution"
+    title: "Les marges des industriels et de la grande distribution — rapport n° 632 (2025-2026)"
+    date: "2026-05-19"
+    source_type: parliamentary_inquiry
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [concentration, market_power, supply]
+    use: "Cartographie la concentration des distributeurs, les centrales d’achat et le rapport de force dans les négociations commerciales."
+    status: VERIFIED
+    url: "https://www.senat.fr/rap/r25-632-1/r25-632-1.html"
+    verification: "Page et synthèse lues le 2026-10-22 ; synthèse p. 10 : « quatre groupes qui se détachent très nettement : Leclerc, Carrefour, Intermarché et Coopérative U ». Certains chiffres viennent de panels privés."
+
+  - source_id: FR-CPL-0086
+    domain: retail_food
+    institution: "Autorité de la concurrence"
+    title: "Avis n° 15-A-06 du 31 mars 2015 relatif au rapprochement des centrales d’achat et de référencement dans le secteur de la grande distribution"
+    date: "2015-03-31"
+    source_type: regulatory_notice
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: one_off
+    mots_cles: [concentration, market_power, competition, supply]
+    use: "Avis de référence sur les alliances à l’achat et le pouvoir d’achat face aux fournisseurs ; il a conduit à l’article L. 462-10 du code de commerce."
+    status: VERIFIED
+    url: "https://www.autoritedelaconcurrence.fr/sites/default/files/commitments/15a06.pdf"
+    verification: "PDF lu le 2026-10-22, p. 34, § 121 : quatre grands acheteurs « représentent ensemble plus de 90% du marché »."
+
+  - source_id: FR-CPL-0087
+    domain: retail_food
+    institution: "Autorité de la concurrence"
+    title: "Centrales d’achat : l’Autorité lance pour la première fois un bilan concurrentiel des alliances AURA et CONCORDIS (communiqué)"
+    date: "2026-01-09"
+    source_type: regulatory_notice
+    authority: PRIMARY_REGULATORY
+    priority: A1
+    refresh: event_driven
+    mots_cles: [concentration, competition, supply]
+    use: "Identifie les deux alliances à l’achat en vigueur et le premier bilan mené au titre de l’article L. 462-10, II du code de commerce."
+    status: VERIFIED
+    url: "https://www.autoritedelaconcurrence.fr/en/press-release/purchasing-groups-autorite-de-la-concurrence-launches-first-time-competitive"
+    verification: "Version anglaise lue le 2026-10-22 (la page française renvoyait une erreur) : « Published on January 09, 2026 ». Le bilan lui-même est annoncé après la date d’arrêt."
+
+  - source_id: FR-CPL-0088
+    domain: retail_food
+    institution: "Insee"
+    title: "Parts de marché du commerce de détail selon la forme de vente — données annuelles 2025"
+    date: "2026-06-18"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A1
+    refresh: annual
+    mots_cles: [market, concentration]
+    use: "Mesure le poids des grandes surfaces d’alimentation générale dans les ventes alimentaires."
+    status: VERIFIED
+    url: "https://www.insee.fr/fr/statistiques/2015133"
+    verification: "Page lue le 2026-10-22 : « Paru le 18/06/2026 » ; grandes surfaces d’alimentation générale, 58,6% des ventes alimentaires."
+
+  - source_id: FR-CPL-0089
+    domain: retail_food
+    institution: "Observatoire de la formation des prix et des marges des produits alimentaires (FranceAgriMer)"
+    title: "Rapport 2026 au Parlement"
+    date: "2026-07-09"
+    source_type: official_report
+    authority: PRIMARY_STATISTICAL
+    priority: A0
+    refresh: annual
+    mots_cles: [market_power, supply, economic]
+    use: "Décompose le prix au détail entre matière agricole, transformation et distribution, rayon par rayon."
+    status: TO_VERIFY
+    url: "https://observatoire-prixmarges.franceagrimer.fr/sites/default/files/pictures/2026_ofpm_synthese.pdf"
+    verification: "Rapport non lu : site en maintenance le 2026-10-22. Seul le communiqué de FranceAgriMer du 9 juillet 2026 a été lu."
+
+  - source_id: FR-CPL-0090
+    domain: retail_food
+    institution: "Direction générale de la concurrence, de la consommation et de la répression des fraudes (DGCCRF)"
+    title: "Rapport d’activité 2025"
+    date: "2026-06-10"
+    source_type: official_report
+    authority: PRIMARY_REGULATORY
+    priority: A1
+    refresh: annual
+    mots_cles: [sanction, supply, competition]
+    use: "Mesure les contrôles et les sanctions sur les négociations commerciales et les centrales d’achat internationales."
+    status: TO_VERIFY
+    url: "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/Rapport-activite-2025-DGCCRF.pdf"
+    verification: "Rapport non lu : le site bloque les robots. Le communiqué du 10 juin 2026 parle de sanctions engagées contre « trois enseignes » ; le chiffre est à vérifier dans le rapport."
+
+  - source_id: FR-CPL-0091
+    domain: retail_food
+    institution: "République française (Journal officiel)"
+    title: "Loi n° 2021-1357 du 18 octobre 2021 visant à protéger la rémunération des agriculteurs (EGalim 2)"
+    date: "2021-10-18"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [legal, supply, market_power]
+    use: "Cadre légal des négociations commerciales : contrats pluriannuels, non-négociabilité de la matière première agricole, transparence des tarifs."
+    status: TO_VERIFY
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044220522"
+    verification: "Non lue : Légifrance bloque les robots. Intitulé confirmé par une fiche du ministère de l’Agriculture ; identifiant Légifrance à vérifier à la main."
+
+  - source_id: FR-CPL-0092
+    domain: construction_infrastructure
+    institution: "Ministères économiques et financiers, sur data.gouv.fr"
+    title: "Données essentielles de la commande publique — fichiers consolidés"
+    date: "2026-08-12"
+    source_type: open_dataset
+    authority: PRIMARY_DATA
+    priority: A0
+    refresh: continuous
+    mots_cles: [procurement, data, transparency]
+    use: "Seule base nominative des marchés et concessions (titulaire, acheteur, montant) : elle permet de mesurer la concentration des marchés de travaux. Pour respecter la date d’arrêt, filtrer sur la date de notification."
+    status: VERIFIED
+    url: "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides"
+    verification: "Métadonnées lues le 2026-10-22. Jeu mis à jour chaque jour : la date retenue est la date d’arrêt. Base non exhaustive : marchés de moins de 40 000 € HT exclus, pas de sanction en cas de défaut de publication."
+
+  - source_id: FR-CPL-0093
+    domain: construction_infrastructure
+    institution: "Autorité de régulation des transports"
+    title: "Économie des concessions autoroutières — 3e édition"
+    date: "2024-11-29"
+    source_type: official_regulatory_report
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: event_driven
+    mots_cles: [infrastructure, finance, state]
+    use: "Mesure la rentabilité des sept concessions historiques privées et pose les enjeux des fins de contrat de 2031 à 2036."
+    status: VERIFIED
+    url: "https://autorite-transports.fr/wp-content/uploads/2024/12/egc3-10_compressed_v2.pdf"
+    verification: "PDF lu le 2026-10-22, p. 85 : TRI « en moyenne de 7,9% pour les sept sociétés concessionnaires historiques privées ». Imprimé « Novembre 2024 » ; date retenue : celle du fichier PDF, le 29 novembre 2024."
+
+  - source_id: FR-CPL-0094
+    domain: construction_infrastructure
+    institution: "Sénat, commission d’enquête sur la commande publique"
+    title: "Piloter la commande publique au service de la souveraineté économique — rapport n° 830 (2024-2025)"
+    date: "2025-07-08"
+    source_type: parliamentary_inquiry
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [procurement, economic, competition]
+    use: "Diagnostic parlementaire du poids de la commande publique, de l’accès des PME et des ententes, avec 67 recommandations."
+    status: VERIFIED
+    url: "https://www.senat.fr/rap/r24-830-1/r24-830-1.html"
+    verification: "Page et synthèse lues le 2026-10-22 : « déposé le 8 juillet 2025 »."
+
+  - source_id: FR-CPL-0095
+    domain: construction_infrastructure
+    institution: "Autorité de la concurrence"
+    title: "Décision n° 24-D-06 du 21 mai 2024 relative à des pratiques mises en œuvre dans le secteur des produits préfabriqués en béton"
+    date: "2024-05-21"
+    source_type: official_decision
+    authority: PRIMARY_REGULATORY
+    priority: A1
+    refresh: one_off
+    mots_cles: [competition, sanction, industry]
+    use: "Entente nationale chez des fournisseurs du bâtiment, avec les entreprises nommées et les sanctions."
+    status: VERIFIED
+    url: "https://www.autoritedelaconcurrence.fr/sites/default/files/integral_texts/2024-06/24d06.pdf"
+    verification: "PDF lu le 2026-10-22, p. 4 : entente « pilotée, au niveau national, par les dirigeants de trois entreprises (KP1, Rector et SEAC) ». Statut d’un éventuel recours non vérifié."
+
+  - source_id: FR-CPL-0096
+    domain: construction_infrastructure
+    institution: "Autorité de la concurrence"
+    title: "Décision n° 23-D-06 du 14 juin 2023 relative à des pratiques mises en œuvre dans le secteur de la rénovation de couvertures et de charpentes (Hauts-de-France)"
+    date: "2023-06-14"
+    source_type: official_decision
+    authority: PRIMARY_REGULATORY
+    priority: A1
+    refresh: one_off
+    mots_cles: [competition, procurement, sanction]
+    use: "Cas type d’entente sur des marchés publics de travaux."
+    status: VERIFIED
+    url: "https://www.autoritedelaconcurrence.fr/sites/default/files/integral_texts/2023-06/23d06.pdf"
+    verification: "PDF lu le 2026-10-22, p. 21, § 118 : ces ententes sont « particulièrement graves par nature »."
+
+  - source_id: FR-CPL-0097
+    domain: construction_infrastructure
+    institution: "Observatoire économique de la commande publique (direction des affaires juridiques, ministère de l’Économie)"
+    title: "Recensement économique de la commande publique — chiffres 2024"
+    date: "2026-03-31"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A1
+    refresh: annual
+    mots_cles: [procurement, economic]
+    use: "Statistique officielle des marchés publics par type d’acheteur et par catégorie, dont les travaux."
+    status: TO_VERIFY
+    url: "https://www.economie.gouv.fr/daj/oecp-recensement-economique-commande-publique"
+    verification: "Non lu : le site bloque les robots. Édition et date de parution à vérifier à la main."

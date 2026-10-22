@@ -403,6 +403,7 @@ rafraichissements:
 # --- Statut de verification de la source ----------------------------------
 statuts_source:
   VERIFIED: "Vérifiée"
+  TO_VERIFY: "À vérifier"
 
 # --- Mois, pour ecrire les dates du paquet en francais --------------------
 # La date de snapshot vient des donnees (paquet.yml) et n'est jamais recopiee

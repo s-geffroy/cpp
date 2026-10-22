@@ -11,10 +11,16 @@ au {% include date-snapshot.html %}. Toutes portent le statut *vérifiée*.
 S’y ajoutent **{{ ajouts | size }} sources choisies par ce site**, signalées par
 la pastille <span class="pastille ajout">ajout</span>. Elles étoffent les formes
 de pouvoir que le paquet laissait presque vides — expertise, coercition,
-exécutif — ou documentent le [registre des acteurs]({{ '/acteurs/' | relative_url }}),
+exécutif —, documentent le [registre des acteurs]({{ '/acteurs/' | relative_url }}),
+ou proposent des sources aux [domaines où le paquet n’en a aucune]({{ '/couverture/' | relative_url }}#les-lacunes-déclarées),
 et ne font pas partie du paquet : leurs identifiants commencent par
 `FR-CPL`, jamais par `FR-SRC`. Elles suivent les mêmes règles d’admission et la
 même date d’arrêt.
+{%- assign a_verifier = ajouts | where: "status", "TO_VERIFY" %}
+{% if a_verifier.size > 0 %}{{ a_verifier.size }} d’entre elles portent la pastille
+<span class="pastille etat-partiel">à vérifier</span> : leur adresse n’a pas pu
+être lue par ce site, le site de l’institution bloquant les robots ou étant en
+maintenance. Elles sont pertinentes, mais leur contenu reste à confirmer.{% endif %}
 
 L’ordre de priorité qui gouverne leur admission est fixé par la
 [méthode]({{ '/methode/' | relative_url }}) : textes juridiques et registres
@@ -151,6 +157,7 @@ officiels d’abord, presse en dernier et seulement pour repérer un événement
         <code>{{ s.source_id }}</code>
         <span class="pastille priorite-{{ s.priority | downcase }}">{{ s.priority }}</span>
         {%- if origine == "ajout" %}<span class="pastille ajout">ajout</span>{% endif %}
+        {%- if s.status == "TO_VERIFY" %}<span class="pastille etat-partiel" title="Adresse non lue par ce site : le site de l’institution bloquait les robots ou était en maintenance">à vérifier</span>{% endif %}
       </td>
       <td>{{ lib.domaines[s.domain] }}</td>
       <td>{{ lib.institutions[s.institution] | default: s.institution | replace: "'", "’" }}</td>
@@ -165,6 +172,7 @@ officiels d’abord, presse en dernier et seulement pour repérer un événement
         <span class="meta">{{ lib.types_source[s.source_type] }}</span>
         {%- if s.use %}<span class="usage">{{ lib.usages[s.source_id] | default: s.use }}</span>{% endif -%}
         {%- if s.notes %}<span class="note">{{ lib.notes_sources[s.source_id] | default: s.notes }}</span>{% endif -%}
+        {%- if s.status == "TO_VERIFY" %}<span class="note">{{ s.verification }}</span>{% endif -%}
         {%- if s.mots_cles.size > 0 %}<span class="mots-cles">
           {%- for m in s.mots_cles -%}{{ lib.mots_cles[m] | default: m }}{% unless forloop.last %} · {% endunless %}{%- endfor -%}
         </span>{% endif -%}

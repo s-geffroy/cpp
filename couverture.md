@@ -7,6 +7,7 @@ permalink: /couverture/
 {%- assign couverture = site.data.couverture -%}
 {%- assign registre = site.data.registre -%}
 {%- assign lib = site.data.libelles -%}
+{%- assign ajouts = site.data['registre-complement'].sources -%}
 
 {%- comment -%}
   Trois compteurs plutot que trois tableaux : `push` est un filtre ajoute par
@@ -107,6 +108,14 @@ lacune déclarée se lit comme un travail non fait.
         {%- else -%}
         <span class="aucune-source">aucune source enregistrée</span>
         {%- endif -%}
+        {%- assign proposees = ajouts | where: "domain", c.domain -%}
+        {%- if proposees.size > 0 %}
+        <span class="meta">{{ proposees.size }} proposée{% if proposees.size > 1 %}s{% endif %} par ce site, hors paquet&nbsp;:
+          {%- for s in proposees %}
+          <a href="{{ '/registre/' | relative_url }}#{{ s.source_id }}"><code>{{ s.source_id }}</code></a>
+          {%- endfor -%}
+        </span>
+        {%- endif -%}
       </td>
     </tr>
     {%- endfor %}
@@ -119,6 +128,15 @@ lacune déclarée se lit comme un travail non fait.
 Le paquet distingue deux niveaux. Les lacunes **A0** portent sur des routes
 prioritaires ; les lacunes **A1** sur un second rang, souvent contraint par
 l’accès aux données plutôt que par l’effort.
+
+Pour les quatre premières lacunes A0, ce site **propose** des sources
+officielles : décisions de l’Autorité de la concurrence, bilans du régulateur
+des transports, statistiques publiques, rapports d’enquête du Sénat. Elles
+apparaissent dans le tableau ci-dessus sous la mention « proposées par ce
+site » et dans le [registre]({{ '/registre/' | relative_url }}) avec la pastille
+<span class="pastille ajout">ajout</span>. Elles **ne changent pas le statut**
+du paquet : la lacune reste déclarée tant que le producteur du paquet ne l’a
+pas fermée. Elles indiquent seulement par où commencer.
 
 ### Lacunes A0
 
