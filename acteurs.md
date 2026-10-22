@@ -7,7 +7,13 @@ permalink: /acteurs/
 {%- assign registre = site.data.acteurs -%}
 {%- comment -%} Une ligne TO_VERIFY n'est jamais publiee. {%- endcomment -%}
 {%- assign acteurs = registre.acteurs | where: "statut", "VERIFIED" -%}
-{%- assign liens = registre.liens | where: "statut", "VERIFIED" -%}
+{%- assign liens_tous = registre.liens | where: "statut", "VERIFIED" -%}
+{%- comment -%}
+  La dependance a l'Etat client n'est pas une detention : elle reste hors des
+  decomptes, des filtres et du tableau des detenteurs de tete.
+{%- endcomment -%}
+{%- assign liens = liens_tous | where_exp: "l", "l.type != 'defense_procurement'" -%}
+{%- assign clients = liens_tous | where: "type", "defense_procurement" -%}
 {%- assign lib = site.data.libelles -%}
 {%- assign toutes_sources = site.data.registre | concat: site.data['registre-complement'].sources -%}
 {%- assign ordre_types = "equity_ownership,special_share,single_share,appointment" | split: "," -%}
@@ -62,8 +68,10 @@ paquet** — le début du registre que la
   Group déclarent le plus souvent des titres détenus **pour le compte de
   clients et de fonds** ; chaque ligne dit pour le compte de qui, quand la
   source le précise.
-- **Propriété publique ≠ régulation ≠ commande publique ≠ subvention.** Ces
-  autres liens ne sont pas saisis ici.
+- **Propriété publique ≠ régulation ≠ commande publique ≠ subvention.** Seule
+  la [dépendance des entreprises de défense à l’État client](#dépendance-à-létat-client)
+  est saisie, à part, d’après la part de chiffre d’affaires qu’elles publient.
+  **Un client n’est pas un contrôle.**
 
 </div>
 
@@ -243,6 +251,15 @@ paquet** — le début du registre que la
     {%- endfor %}
     </ul>
 
+    {%- assign client = clients | where: "target_actor", id | first -%}
+    {%- if client %}
+    <p class="dependance">
+      <strong>{{ lib.types_lien_acteur[client.type] }}</strong>, exercice {{ client.exercice }} :
+      défense {% if client.part_ca_defense_pct == nil %}<span class="absente">non publiée</span>{% else %}{{ client.part_ca_defense_pct | replace: ".", "," }}% du chiffre d’affaires{% if client.libelle_defense %} ({{ client.libelle_defense }}){% endif %}{% endif %} ;
+      France {% if client.part_ca_france_pct == nil %}<span class="absente">non publiée</span>{% else %}{{ client.part_ca_france_pct | replace: ".", "," }}%, {{ lib.perimetre_france[client.perimetre_france] }}{% endif %}.
+      <a href="#{{ client.link_id }}">Source et réserve</a>.
+    </p>
+    {%- endif %}
     {%- assign aval = sortants | where: "type", "equity_ownership" -%}
     {%- if aval.size > 0%}
     <p class="aval">Détient à son tour :
@@ -319,7 +336,8 @@ Ces entités relèvent du périmètre, mais ne sont pas enregistrées :
 </ul>
 
 Le registre ne contient pas non plus, à ce stade, les liens de commande
-publique, d’aide ou de crédit.
+publique, d’aide ou de crédit, hors la dépendance des entreprises de défense
+à l’État client.
 
 Les parts des gestionnaires d’actifs ne sont publiques qu’au-delà du seuil
 légal de déclaration : **5%** du capital ou des droits de vote en France,
@@ -358,6 +376,63 @@ qu’elle restait sous 10% : Alten, Assystem, Atos, Bureau Veritas, Capgemini,
 Dassault Systèmes, Derichebourg, Europlasma, Figeac Aéro, Groupe Crit, Lacroix,
 Latécoère, Lisi, Manitou, Mersen, Nexans, Parrot, Prodways, Soditech, Spie,
 Vallourec et Wallix.
+
+## Dépendance à l’État client
+
+Le paquet relie l’État, acheteur stratégique, à l’industrie de défense
+(relation `defense_procurement`). Ce tableau la descend au niveau des
+sociétés, pour l’exercice 2025 : la part de leur chiffre d’affaires réalisée
+dans la défense, et celle réalisée en France ou avec l’État français, **telles
+que chaque société les publie**. Une part non publiée reste vide : ce site
+n’en calcule aucune, même à partir de montants publiés.
+
+<div class="garde-fou" markdown="1">
+
+**Un client n’est pas un contrôle.** Une part de chiffre d’affaires mesure une
+dépendance commerciale, pas une influence. Les libellés ne se comparent pas
+d’une société à l’autre : « Défense/Spatial » ou « Airbus Defence and Space »
+débordent la défense seule, et « France » désigne tantôt tous les clients
+situés en France, tantôt l’État lui-même.
+
+</div>
+
+<div class="table-defilante">
+<table>
+  <thead>
+    <tr>
+      <th>Société</th>
+      <th>Part défense</th>
+      <th>Part France</th>
+      <th>Source et réserve</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- for l in clients %}
+    {%- assign v = acteurs | where: "actor_id", l.target_actor | first -%}
+    {%- assign source = toutes_sources | where: "source_id", l.citation.source_id | first %}
+    <tr id="{{ l.link_id }}">
+      <td><a href="#{{ v.actor_id }}">{{ v.nom_usuel | default: v.nom }}</a></td>
+      <td>
+        {%- if l.part_ca_defense_pct == nil -%}<span class="meta">non publiée</span>
+        {%- else -%}{{ l.part_ca_defense_pct | replace: ".", "," }}%{% if l.libelle_defense %} <span class="meta">{{ l.libelle_defense }}</span>{% endif %}{%- endif -%}
+      </td>
+      <td>
+        {%- if l.part_ca_france_pct == nil -%}<span class="meta">non publiée</span>
+        {%- else -%}{{ l.part_ca_france_pct | replace: ".", "," }}% <span class="meta">{{ lib.perimetre_france[l.perimetre_france] }}</span>{%- endif -%}
+      </td>
+      <td>
+        <a href="{{ l.citation.url }}" rel="noopener">{{ source.title | replace: "'", "’" }}</a>, {{ l.citation.localisation }}
+        (<a href="{{ '/registre/' | relative_url }}#{{ l.citation.source_id }}"><code>{{ l.citation.source_id }}</code></a>, lien <code>{{ l.link_id }}</code>).
+        <span class="note">{{ l.incertitude }}</span>
+      </td>
+    </tr>
+    {%- endfor %}
+  </tbody>
+</table>
+</div>
+
+Ce que mesure la demande étrangère se lit dans le
+[rapport au Parlement sur les exportations d’armement]({{ '/registre/' | relative_url }}#FR-CPL-0130).
 
 ## D’où viennent ces chiffres
 

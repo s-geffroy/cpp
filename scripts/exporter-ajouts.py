@@ -170,7 +170,7 @@ def main():
     # qu'imprimes par la source : en nombre, « 9.90 » s'afficherait « 9,9 »
     # sur le site. Le schema et l'export, eux, attendent des nombres.
     for l in acteurs["liens"]:
-        for champ in ("detention_capital_pct", "droits_vote_pct"):
+        for champ in ("detention_capital_pct", "droits_vote_pct", "part_ca_defense_pct", "part_ca_france_pct"):
             if isinstance(l.get(champ), str):
                 l[champ] = float(l[champ])
     sources = {s["source_id"]: s["url"] for s in registre + complement["sources"]}

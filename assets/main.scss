@@ -624,7 +624,10 @@ td.nombre {
 .detail-lien summary { cursor: pointer; color: var(--accent); width: max-content; }
 .detail-lien p { margin: 0.35rem 0 0; }
 
+.dependance .absente { font-style: italic; color: var(--texte-doux); }
+
 .aval,
+.dependance,
 .fiche > .note {
   max-width: var(--prose);
   margin: 0.6rem 0 0;

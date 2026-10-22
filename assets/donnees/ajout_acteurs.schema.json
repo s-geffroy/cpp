@@ -272,13 +272,14 @@
           "pattern": "^FR-ACT-[0-9]{4}$"
         },
         "type": {
-          "description": "Vocabulaire fermé. Les types déjà présents dans la carte du paquet (edge_type) gardent leur nom. special_share : action spécifique instituée par décret. single_share : action unique de l'État sans décret (ordinaire, de préférence ou porteuse de droits conventionnels).",
+          "description": "Vocabulaire fermé. Les types déjà présents dans la carte du paquet (edge_type) gardent leur nom. special_share : action spécifique instituée par décret. single_share : action unique de l'État sans décret (ordinaire, de préférence ou porteuse de droits conventionnels). defense_procurement : l'État client d'une entreprise de défense, mesuré par la part du chiffre d'affaires que la société publie (relation du paquet FR-NODE-030 → FR-NODE-031).",
           "type": "string",
           "enum": [
             "equity_ownership",
             "special_share",
             "single_share",
             "appointment",
+            "defense_procurement",
             "public_procurement",
             "business_aid",
             "public_guarantee",
@@ -370,6 +371,40 @@
             "tiers",
             "non_precise"
           ]
+        },
+        "exercice": {
+          "description": "Pour une dépendance commerciale : exercice auquel se rapportent les parts de chiffre d'affaires.",
+          "type": "string"
+        },
+        "part_ca_defense_pct": {
+          "description": "Part du chiffre d'affaires réalisée dans la défense, telle que la société la publie. null = non publiée : jamais calculée par ce site.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "libelle_defense": {
+          "description": "Libellé exact du segment ou du marché dans le document, quand il est mixte (« Défense et sécurité », « Aéronautique et défense »).",
+          "type": "string"
+        },
+        "part_ca_france_pct": {
+          "description": "Part du chiffre d'affaires réalisée en France ou avec l'État français, telle que la société la publie. null = non publiée : jamais calculée par ce site.",
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 100
+        },
+        "perimetre_france": {
+          "description": "Ce que mesure part_ca_france_pct : france_geographique (clients situés en France, tous confondus) ou client_etat_francais (l'État, la DGA ou les armées françaises).",
+          "type": "string",
+          "enum": [
+            "france_geographique",
+            "client_etat_francais"
+          ]
         }
       },
       "allOf": [
@@ -436,6 +471,39 @@
           "then": {
             "required": [
               "base_juridique"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "defense_procurement"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "exercice",
+              "part_ca_defense_pct",
+              "part_ca_france_pct"
+            ]
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "part_ca_france_pct"
+            ],
+            "properties": {
+              "part_ca_france_pct": {
+                "type": "number"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "perimetre_france"
             ]
           }
         }

@@ -1654,5 +1654,219 @@
     "incertitude": "Droits de vote en assemblée ordinaire comme extraordinaire. Key’s est membre du concert familial Robardey (69,52% du capital et 81,88% des droits de vote), dont la source écrit qu’il « détient le contrôle de la société » ; les autres membres sont des personnes physiques, non enregistrées.",
     "garde_fou": "Le contrôle appartient au concert familial selon la source, pas à Key’s seule ; sa part ne s’additionne à aucune autre.",
     "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0085",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0013",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": 56.0,
+    "libelle_defense": "« Défense »",
+    "part_ca_france_pct": 28.0,
+    "perimetre_france": "france_geographique",
+    "citation": {
+      "source_id": "FR-CPL-0029",
+      "url": "https://www.thalesgroup.com/sites/default/files/2026-04/Thales-Document-d%27Enregistrement-Universel-2025-FR.pdf",
+      "localisation": "p. 28 et 51 du PDF (26 et 49 imprimées)"
+    },
+    "preuve": "P4",
+    "incertitude": "Part de la défense dans le chiffre d’affaires des trois secteurs opérationnels, hors « Autres ». Le document chiffre l’État français à « environ 4,5 Mds€ » (p. 278 du PDF) : un montant, pas une part, que ce site ne convertit pas. Lu dans le PDF publié par la société, identique à la version déposée à l’AMF.",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0086",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0012",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": 18.0,
+    "libelle_defense": "« activités militaires »",
+    "part_ca_france_pct": 19.0,
+    "perimetre_france": "france_geographique",
+    "citation": {
+      "source_id": "FR-CPL-0028",
+      "url": "https://web.archive.org/web/20260518123844id_/https://www.safran-group.com/fr/download/media/450818",
+      "localisation": "p. 324 et 216 du PDF (322 et 214 imprimées)"
+    },
+    "preuve": "P4",
+    "incertitude": "« Environ 18% » du chiffre d’affaires ajusté (données non IFRS). La part France se lit sur un graphique, par destination. La part du « client Défense français » n’est pas chiffrée. Site de la société bloqué : PDF lu dans la copie archivée le 2026-05-18.",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0087",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0030",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": null,
+    "part_ca_france_pct": 23.0,
+    "perimetre_france": "client_etat_francais",
+    "citation": {
+      "source_id": "FR-CPL-0131",
+      "url": "https://web.archive.org/web/20260506170153id_/https://www.dassault-aviation.com/wp-content/blogs.dir/1/files/2026/04/RA_2025_VF_BD.pdf",
+      "localisation": "p. 98 du PDF (97 imprimée)"
+    },
+    "preuve": "P4",
+    "incertitude": "La société publie « Défense France 23% » et « Défense Export 40% », pas leur total : ce site n’additionne pas. Note 15 : la France est « principalement l’État, avec qui Dassault Aviation a réalisé plus de 10% de son chiffre d’affaires ».",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0088",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0011",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": 18.0,
+    "libelle_defense": "« Airbus Defence and Space »",
+    "part_ca_france_pct": null,
+    "citation": {
+      "source_id": "FR-CPL-0027",
+      "url": "https://mediaassets.airbus.com/pm_38_919_919350-ko9v34j5cg.pdf?fileName=airbus-report-of-the-board-of-directors-2025.pdf",
+      "localisation": "p. 5"
+    },
+    "preuve": "P4",
+    "incertitude": "« Approximately 18% » : le segment comprend le spatial et des clients civils, et ne compte pas les hélicoptères militaires. La répartition géographique publiée ne détaille pas la France.",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0089",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0019",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": null,
+    "part_ca_france_pct": 67.0,
+    "perimetre_france": "client_etat_francais",
+    "citation": {
+      "source_id": "FR-CPL-0041",
+      "url": "https://www.naval-group.com/sites/default/files/2026-03/Rapport%20annuel%20Naval%20Group%202025%20FR.pdf",
+      "localisation": "§ 5.2.1, p. 108 du PDF"
+    },
+    "preuve": "P4",
+    "incertitude": "Chiffre d’affaires réalisé « avec l’État français et les entités publiques » (71,0% en 2024). Un seul segment publié : aucune part défense distincte.",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0090",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0046",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": 54.0,
+    "libelle_defense": "« défense »",
+    "part_ca_france_pct": 21.0,
+    "perimetre_france": "france_geographique",
+    "citation": {
+      "source_id": "FR-CPL-0061",
+      "url": "https://www.exail-technologies.com/wp-content/uploads/2026/03/exail-technologies-urd-2025fr.pdf",
+      "localisation": "p. 40 et 97 (42 et 99 du PDF)"
+    },
+    "preuve": "P4",
+    "incertitude": "« Estimé à environ 54% » par la société, dans ses facteurs de risque, sans segment comptable correspondant. Un client non nommé pèse 19,3% du chiffre d’affaires.",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0091",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0048",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": null,
+    "part_ca_france_pct": 7.0,
+    "perimetre_france": "france_geographique",
+    "citation": {
+      "source_id": "FR-CPL-0065",
+      "url": "https://www.exosens.com/system/files/2026-03/Exosens_DEU_FR_2025_9%20mars_2025_0.pdf",
+      "localisation": "p. 12 (14 du PDF)"
+    },
+    "preuve": "P4",
+    "incertitude": "Le segment Amplification (68,2% des ventes) est seulement « majoritairement lié » à la défense : il ne vaut pas la défense seule. Le premier client, Theon International (38%), n’est pas français.",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0092",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0051",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": 20.0,
+    "libelle_defense": "« Défense/Spatial »",
+    "part_ca_france_pct": 17.7,
+    "perimetre_france": "france_geographique",
+    "citation": {
+      "source_id": "FR-CPL-0066",
+      "url": "https://www.lumibird.com/wp-content/uploads/Lumibird_URD_2025.pdf",
+      "localisation": "p. 78 et 76"
+    },
+    "preuve": "P4",
+    "incertitude": "Incohérence dans le document : le rapport d’activité (p. 95) donne 54,3 M€ de Défense/Spatial pour 225,6 M€ de chiffre d’affaires, soit environ 24% et non 20%. La valeur reprise est celle que la société écrit en pourcentage.",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0093",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0053",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": 13.0,
+    "libelle_defense": "« Défense, Sécurité & Espace »",
+    "part_ca_france_pct": null,
+    "citation": {
+      "source_id": "FR-CPL-0070",
+      "url": "https://www.soprasteria.com/Content/SopraSteria/SopraSteria-2025-12-31-1-FR.xhtml",
+      "localisation": "chapitre 1, § 4.2.3 (version ESEF, sans pagination)"
+    },
+    "preuve": "P4",
+    "incertitude": "Le pôle France pèse 42,7% du chiffre d’affaires, mais c’est un pôle de gestion, pas la France géographique : il n’est pas repris.",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0094",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0056",
+    "type": "defense_procurement",
+    "dimension": "P-FISCAL",
+    "date_observation": "2025-12-31",
+    "exercice": "2025",
+    "part_ca_defense_pct": 14.0,
+    "libelle_defense": "« Défense »",
+    "part_ca_france_pct": null,
+    "citation": {
+      "source_id": "FR-CPL-0069",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0296/A77879C5588DC9B335F2CBBB3843869D62442C3CAF3501B0F0DA5B8EA3AB8648.pdf",
+      "localisation": "§ 7.2.3.2, p. 115"
+    },
+    "preuve": "P4",
+    "incertitude": "L’export représente 53,5% du chiffre d’affaires ; la France n’est publiée qu’en montant (74,45 M€). Les 18,4% de défense cités p. 37 portent sur la seule zone Europe/Afrique.",
+    "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
+    "statut": "VERIFIED"
   }
 ]

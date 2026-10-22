@@ -718,6 +718,7 @@ types_lien_acteur:
   special_share: "Action spécifique (décret)"
   single_share: "Action unique de l’État"
   appointment: "Nomination au conseil"
+  defense_procurement: "État client (défense)"
   public_procurement: "Commande publique"
   business_aid: "Aide publique"
   public_guarantee: "Garantie publique"
@@ -740,6 +741,11 @@ pour_compte:
   propre: "Pour son propre compte"
   tiers: "Pour le compte de clients et de fonds"
   non_precise: "Pour le compte de qui : non précisé par la source"
+
+# Ce que mesure la part du chiffre d'affaires realisee en France.
+perimetre_france:
+  france_geographique: "réalisé en France, tous clients confondus"
+  client_etat_francais: "réalisé avec l’État français"
 
 # Reprend le tableau des statuts de preuve de la page Methode.
 preuves:
