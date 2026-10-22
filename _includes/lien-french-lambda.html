@@ -1,0 +1,15 @@
+{%- comment -%}
+Lien vers la fiche du meme groupe sur « Le Francais lambda et ses
+entreprises », si la correspondance existe.
+Usage : {% include lien-french-lambda.html id=a.actor_id %}
+
+Lien de navigation seulement : rien de french-lambda n'est affiche ici.
+{%- endcomment -%}
+{%- assign fl = site.data['correspondances-french-lambda'] -%}
+{%- assign c = fl.correspondances | where: "actor_id", include.id | first -%}
+{%- if c -%}
+<span class="meta lien-externe"><a href="{{ fl.meta.site }}#vue=liste&amp;groupe={{ c.french_lambda_id }}&amp;sel=g%3A{{ c.french_lambda_id }}" rel="noopener">
+{%- if c.rapport == "entite_voisine" -%}Société mère et marques{%- else -%}Ses marques{%- endif %} sur Le Français lambda</a>
+{%- if c.note %} — {{ c.note }}{% endif -%}
+</span>
+{%- endif -%}

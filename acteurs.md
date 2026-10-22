@@ -177,6 +177,7 @@ paquet** — le début du registre que la
       {%- for c in a.categories -%}
       <a href="{{ '/carte/' | relative_url }}#{{ c }}">{{ lib.noeuds[c] }}</a>{% unless forloop.last %}, {% endunless %}
       {%- endfor -%}
+      {% include lien-french-lambda.html id=id %}
     </p>
 
     <ul class="lignes-liens">
@@ -288,6 +289,7 @@ cumulent pas.
         <span class="meta"><a href="{{ '/carte/' | relative_url }}#{{ c }}">{{ lib.noeuds[c] }}</a></span>
         {%- endfor -%}
         {%- if a.notes %}<span class="note">{{ a.notes }}</span>{% endif %}
+        {% include lien-french-lambda.html id=a.actor_id %}
       </td>
       <td>
         {%- for id in sortants -%}
@@ -368,6 +370,12 @@ actionnaire » et des textes du Journal officiel. Chaque document est inscrit
 au [registre des sources]({{ '/registre/' | relative_url }}).
 
 {{ registre.meta.recoupement }}
+
+Certaines fiches renvoient au site
+[Le Français lambda et ses entreprises]({{ site.data['correspondances-french-lambda'].meta.site }}),
+qui part des marques du quotidien pour remonter à leurs propriétaires. C’est un
+lien de navigation : ce site n’en reprend aucun chiffre, et ses pourcentages
+restent ceux des documents cités ici, qui peuvent différer.
 
 Les données complètes, avec les identifiants LEI et ISIN, se téléchargent sur la
 [page des données]({{ '/donnees/' | relative_url }}#les-ajouts-de-ce-site-hors-paquet).
