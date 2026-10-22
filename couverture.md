@@ -129,9 +129,11 @@ Le paquet distingue deux niveaux. Les lacunes **A0** portent sur des routes
 prioritaires ; les lacunes **A1** sur un second rang, souvent contraint par
 l’accès aux données plutôt que par l’effort.
 
-Pour les quatre premières lacunes A0, ce site **propose** des sources
-officielles : décisions de l’Autorité de la concurrence, bilans du régulateur
-des transports, statistiques publiques, rapports d’enquête du Sénat. Elles
+Pour les quatre premières lacunes A0 et pour les lacunes A1 qui ont un
+domaine dans le tableau, ce site **propose** des sources officielles :
+décisions de l’Autorité de la concurrence, bilans du régulateur des
+transports, rapports de la Cour des comptes et de l’Inspection générale des
+finances, statistiques et données publiques, rapports d’enquête du Sénat. Elles
 apparaissent dans le tableau ci-dessus sous la mention « proposées par ce
 site » et dans le [registre]({{ '/registre/' | relative_url }}) avec la pastille
 <span class="pastille ajout">ajout</span>. Elles **ne changent pas le statut**

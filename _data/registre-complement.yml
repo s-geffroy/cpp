@@ -1502,3 +1502,348 @@ sources:
     status: TO_VERIFY
     url: "https://www.economie.gouv.fr/daj/oecp-recensement-economique-commande-publique"
     verification: "Non lu : le site bloque les robots. Édition et date de parution à vérifier à la main."
+
+  - source_id: FR-CPL-0098
+    domain: professional_orders
+    institution: "Inspection générale des finances (IGF)"
+    title: "Vérification des ordres des professionnels de santé — note de synthèse (mission 2025-V-054)"
+    date: "2026-06-01"
+    source_type: official_audit_report
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [governance, regulation, integrity]
+    use: "Mesure l’exercice réel des pouvoirs régulateurs et disciplinaires des ordres des médecins, pharmaciens et chirurgiens-dentistes, et les options de reprise en main par l’État, jusqu’à leur suppression."
+    status: VERIFIED
+    url: "https://www.igf.gouv.fr/files/igf/files/contributed/Rapports%20de%20mission/2026/2025-V-054-Synthese_ordres_sante.pdf"
+    verification: "PDF lu le 2026-10-22, p. 1 : « un scénario de suppression des ordres des professionnels de santé » ; « 91 000 déclarations n’ont pas été traitées en 2024 ». Page publiée le 1er juin 2026 ; le PDF porte « Mai 2026 »."
+
+  - source_id: FR-CPL-0099
+    domain: professional_orders
+    institution: "Inspection générale des finances (IGF)"
+    title: "Mission de vérification des activités de l’Ordre des médecins — rapport n° 2025-V-054-06"
+    date: "2026-06-01"
+    source_type: official_audit_report
+    authority: OFFICIAL_INQUIRY
+    priority: A1
+    refresh: one_off
+    mots_cles: [governance, regulation]
+    use: "Documente le contrôle de l’ordre national sur ses conseils départementaux, jusqu’à la mise sous tutelle, et ses défaillances de gestion."
+    status: VERIFIED
+    url: "https://www.igf.gouv.fr/files/igf/files/contributed/Rapports%20de%20mission/2026/2025-V-054-Ordre-medecins.pdf"
+    verification: "PDF lu le 2026-10-22, p. 11 : le contrôle « peut aller jusqu’à la mise sous tutelle d’un conseil défaillant ». Rapport daté de mars 2026, mis en ligne le 1er juin 2026 ; la couverture porte « CONFIDENTIEL », mais l’IGF le diffuse publiquement."
+
+  - source_id: FR-CPL-0100
+    domain: professional_orders
+    institution: "Cour des comptes"
+    title: "Les ordres des professions de santé et la sécurité des patients — rapport public annuel 2021, tome II"
+    date: "2021-03-18"
+    source_type: official_audit_report
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [governance, regulation, health]
+    use: "Vue transversale sur cinq ordres de santé et la manière dont ils exercent, ou non, leurs missions de contrôle."
+    status: VERIFIED
+    url: "https://www.ccomptes.fr/sites/default/files/2021-03/20210318-11-TomeII-ordres-professions-sante-securite-patients.pdf"
+    verification: "PDF lu le 2026-10-22, p. 364 : « à l’exception notable de l’ordre des pharmaciens, les ordres examinés par la Cour n’ont pas fait de cette mission de contrôle une priorité »."
+
+  - source_id: FR-CPL-0101
+    domain: professional_orders
+    institution: "Cour des comptes"
+    title: "L’ordre des médecins — rapport public thématique"
+    date: "2019-12-09"
+    source_type: official_audit_report
+    authority: OFFICIAL_INQUIRY
+    priority: A1
+    refresh: one_off
+    mots_cles: [governance, judicial, health]
+    use: "Analyse la juridiction disciplinaire ordinale, le traitement des plaintes et la gestion financière de l’ordre."
+    status: VERIFIED
+    url: "https://www.ccomptes.fr/sites/default/files/2023-10/20191209-rapport-Ordre-des-medecins.pdf"
+    verification: "PDF lu le 2026-10-22, p. 23 : « Les conditions d’indépendance et d’impartialité des juridictions ordinales ne sont qu’imparfaitement réunies »."
+
+  - source_id: FR-CPL-0102
+    domain: professional_orders
+    institution: "Autorité de la concurrence"
+    title: "Avis n° 25-A-09 du 31 juillet 2025 relatif au bilan et aux perspectives de la réforme de 2015 concernant les conditions d’installation et les tarifs réglementés de certaines professions du droit"
+    date: "2025-07-31"
+    source_type: regulatory_notice
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: one_off
+    mots_cles: [competition, regulation, market_power]
+    use: "Évalue le pouvoir économique des professions juridiques réglementées et le rôle de leurs ordres et chambres."
+    status: VERIFIED
+    url: "https://www.autoritedelaconcurrence.fr/sites/default/files/integral_texts/2025-07/25a09.pdf"
+    verification: "PDF lu le 2026-10-22, p. 19 : « Recommandation n° 2 : imposer aux ordres la vérification des émoluments et des honoraires »."
+
+  - source_id: FR-CPL-0103
+    domain: professional_orders
+    institution: "Autorité de la concurrence"
+    title: "Avis n° 26-A-03 du 25 février 2026 relatif à la liberté d’installation des notaires et à une proposition de carte révisée des zones d’implantation"
+    date: "2026-02-25"
+    source_type: regulatory_notice
+    authority: PRIMARY_REGULATORY
+    priority: A1
+    refresh: event_driven
+    mots_cles: [competition, regulation]
+    use: "Suit le contrôle de l’accès à la profession notariale, fixé par l’État sur recommandation de l’Autorité, et non par la profession."
+    status: VERIFIED
+    url: "https://www.autoritedelaconcurrence.fr/sites/default/files/integral_texts/2026-02/26a03.pdf"
+    verification: "PDF lu le 2026-10-22, p. 3 : création recommandée d’offices permettant « l’installation libérale de 261 nouveaux notaires ». Date de mise en ligne non vérifiée."
+
+  - source_id: FR-CPL-0104
+    domain: associations_ngos_foundations
+    institution: "Inspection générale des finances (IGF)"
+    title: "Revue des dépenses publiques en direction des associations"
+    date: "2025-07-16"
+    source_type: official_report
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [association, funding, subsidy]
+    use: "Première vue d’ensemble des financements publics aux associations, État, collectivités et dépenses fiscales : plus de 53 Md€ en 2023."
+    status: VERIFIED
+    url: "https://www.igf.gouv.fr/files/igf/files/contributed/Rapports%20de%20mission/2025/2025-E-002-04_Rapport_Subventions_associations.pdf"
+    verification: "PDF lu le 2026-10-22, p. 22 : le jaune budgétaire sur les associations n’est vraisemblablement « pas exhaustif ». Publié le 16 juillet 2025 ; le rapport porte « Mai 2025 »."
+
+  - source_id: FR-CPL-0105
+    domain: associations_ngos_foundations
+    institution: "Gouvernement, annexe au projet de loi de finances (« jaune »)"
+    title: "Effort financier de l’État en faveur des associations — annexe au projet de loi de finances pour 2026"
+    date: "2025-10-21"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [association, funding, subsidy]
+    use: "Suit chaque année les crédits de l’État versés aux associations, par programme, et les dépenses fiscales liées."
+    status: VERIFIED
+    url: "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1090007/file/14-Jaune2026_Associations_Rapport.pdf"
+    verification: "Seule l’année ou le mois est imprimé : date retenue, celle du fichier PDF. PDF lu le 2026-10-22, p. 8 : les subventions représentent « 7,3 milliards d’euros ». Copie hébergée par l’Assemblée nationale."
+
+  - source_id: FR-CPL-0106
+    domain: associations_ngos_foundations
+    institution: "Ministère de l’Intérieur, sur data.gouv.fr"
+    title: "Répertoire national des associations (RNA) — édition du 1er août 2026"
+    date: "2026-07-31"
+    source_type: open_dataset
+    authority: PRIMARY_DATA
+    priority: A0
+    refresh: monthly
+    mots_cles: [association, data, transparency]
+    use: "Identifie toute association déclarée (objet, siège, dissolution) pour relier les bénéficiaires de fonds publics ou de dons à une entité."
+    status: VERIFIED
+    url: "https://www.data.gouv.fr/datasets/repertoire-national-des-associations"
+    verification: "Métadonnées lues le 2026-10-22 ; archive de l’édition du 1er août 2026 repérée (407 Mo), non ouverte. Exclut l’Alsace-Moselle."
+
+  - source_id: FR-CPL-0107
+    domain: associations_ngos_foundations
+    institution: "Direction de l’information légale et administrative (DILA)"
+    title: "Comptes des associations, fondations d’entreprise et fonds de dotation (Journal officiel, open data)"
+    date: "2026-08-12"
+    source_type: open_dataset
+    authority: PRIMARY_DATA
+    priority: A0
+    refresh: continuous
+    mots_cles: [association, transparency, finance]
+    use: "Donne accès aux comptes annuels publiés par les associations et fondations qui reçoivent plus de 153 000 € de dons ou de subventions, et par tous les fonds de dotation."
+    status: VERIFIED
+    url: "https://echanges.dila.gouv.fr/OPENDATA/COMPTES_DES_ASSOCIATIONS/"
+    verification: "Fiche de présentation lue le 2026-10-22, et dernier flux avant la date d’arrêt ouvert : métadonnées XML et comptes en PDF, sans chiffres structurés."
+
+  - source_id: FR-CPL-0108
+    domain: associations_ngos_foundations
+    institution: "Ministère de l’Intérieur, sur data.gouv.fr"
+    title: "Fondations reconnues d’utilité publique"
+    date: "2024-11-25"
+    source_type: official_registry
+    authority: PRIMARY
+    priority: A1
+    refresh: event_driven
+    mots_cles: [association, state]
+    use: "Liste officielle des fondations reconnues d’utilité publique, avec leur objet et leur date de reconnaissance."
+    status: VERIFIED
+    url: "https://www.data.gouv.fr/datasets/fondations-reconnues-d-utilite-publique"
+    verification: "Fichier ouvert le 2026-10-22 : 640 fondations. Dernière mise à jour le 25 novembre 2024 ; aucune entre cette date et la date d’arrêt."
+
+  - source_id: FR-CPL-0109
+    domain: associations_ngos_foundations
+    institution: "Cour des comptes"
+    title: "Le contrôle de la générosité publique au service d’une plus grande transparence"
+    date: "2024-03-19"
+    source_type: official_audit_report
+    authority: OFFICIAL_INQUIRY
+    priority: A1
+    refresh: one_off
+    mots_cles: [association, transparency, funding]
+    use: "Décrit le contrôle de l’État sur les organismes qui font appel aux dons : emploi des ressources, usage des dons, avantage fiscal."
+    status: VERIFIED
+    url: "https://www.ccomptes.fr/sites/default/files/2024-03/20240319-Controle-generosite-publique-au-service-plus-grande-transparence.pdf"
+    verification: "PDF lu le 2026-10-22, p. 16 : la Cour « peut contrôler (…) le compte d’emploi des ressources collectées auprès du public »."
+
+  - source_id: FR-CPL-0110
+    domain: think_tanks_universities_expertise_network
+    institution: "Sénat, commission d’enquête sur l’influence croissante des cabinets de conseil privés"
+    title: "Un phénomène tentaculaire : l’influence croissante des cabinets de conseil sur les politiques publiques — rapport n° 578 (2021-2022)"
+    date: "2022-03-16"
+    source_type: parliamentary_inquiry
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [expertise, influence, procurement]
+    use: "Mesure l’ampleur et les modes d’intervention des cabinets de conseil dans l’action de l’État et de ses opérateurs."
+    status: VERIFIED
+    url: "https://www.senat.fr/rap/r21-578-1/r21-578-1.html"
+    verification: "Page lue le 2026-10-22 : en 2021, les dépenses de conseil de l’État « ont dépassé le milliard d’euros »."
+
+  - source_id: FR-CPL-0111
+    domain: think_tanks_universities_expertise_network
+    institution: "Cour des comptes"
+    title: "Le recours par l’État aux prestations intellectuelles de cabinets de conseil"
+    date: "2023-07-10"
+    source_type: official_audit_report
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [expertise, procurement]
+    use: "Contrôle externe des dépenses, du pilotage et des marchés de conseil de l’État de 2017 à 2022."
+    status: VERIFIED
+    url: "https://www.ccomptes.fr/fr/publications/le-recours-par-letat-aux-prestations-intellectuelles-de-cabinets-de-conseil"
+    verification: "Page et PDF lus le 2026-10-22 : prestations de conseil « à hauteur de 270,5 M€ en 2021 et de 176,8 M€ en 2022 »."
+
+  - source_id: FR-CPL-0112
+    domain: think_tanks_universities_expertise_network
+    institution: "Gouvernement, annexe au projet de loi de finances (« jaune »)"
+    title: "Recours aux conseils extérieurs — annexe au projet de loi de finances pour 2026"
+    date: "2025-10-21"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [expertise, procurement, transparency]
+    use: "Série officielle des dépenses de conseil de l’État par ministère, avec la liste des prestations et des prestataires."
+    status: VERIFIED
+    url: "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1090037/file/27-Jaune2026_Recours_Conseils.pdf"
+    verification: "Seule l’année ou le mois est imprimé : date retenue, celle du fichier PDF. PDF lu le 2026-10-22 : en 2024, « 4 139 nouvelles commandes » pour « 96,1 M€ »."
+
+  - source_id: FR-CPL-0113
+    domain: think_tanks_universities_expertise_network
+    institution: "Haute Autorité pour la transparence de la vie publique (HATVP)"
+    title: "Répertoire des représentants d’intérêts (AGORA) — données ouvertes"
+    date: "2026-08-12"
+    source_type: official_registry
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: continuous
+    mots_cles: [influence, expertise, transparency]
+    use: "Repère les cabinets de conseil et groupes de réflexion qui déclarent des actions d’influence, avec leurs dépenses et les décisions visées."
+    status: VERIFIED
+    url: "https://www.data.gouv.fr/datasets/repertoire-des-representants-dinterets"
+    verification: "Fiche et fichier lus le 2026-10-22 : 281 inscrits « Cabinet de conseil », 11 « Groupe de réflexion (think tank) ». Registre mis à jour chaque jour : la date retenue est la date d’arrêt."
+
+  - source_id: FR-CPL-0114
+    domain: think_tanks_universities_expertise_network
+    institution: "Agence nationale de la recherche (ANR), sur data.gouv.fr"
+    title: "ANR_01 — Projets financés : détail des projets et des partenaires"
+    date: "2026-08-12"
+    source_type: open_dataset
+    authority: PRIMARY_DATA
+    priority: A0
+    refresh: monthly
+    mots_cles: [expertise, funding]
+    use: "Projets de recherche financés sur appel à projets depuis 2005, avec leurs montants et leurs établissements partenaires."
+    status: VERIFIED
+    url: "https://www.data.gouv.fr/datasets/anr-01-projets-anr-dos-et-dgds-detail-des-projets-et-des-partenaires"
+    verification: "Fiche lue le 2026-10-22. Jeu mis à jour chaque mois : la date retenue est la date d’arrêt."
+
+  - source_id: FR-CPL-0115
+    domain: think_tanks_universities_expertise_network
+    institution: "Gouvernement, annexe au projet de loi de finances (« jaune »)"
+    title: "Rapport sur les politiques nationales de recherche et de formations supérieures — annexe au projet de loi de finances pour 2026"
+    date: "2025-10-21"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A1
+    refresh: annual
+    mots_cles: [expertise, funding, fiscal]
+    use: "Vue d’ensemble officielle du financement de la recherche : crédits, ANR, crédit d’impôt recherche."
+    status: VERIFIED
+    url: "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1090001/file/11-Jaune2026_Recherche.pdf"
+    verification: "Seule l’année ou le mois est imprimé : date retenue, celle du fichier PDF. PDF lu le 2026-10-22, section 1.2.1 sur le crédit d’impôt recherche."
+
+  - source_id: FR-CPL-0116
+    domain: people_governance_revolving_network
+    institution: "Cour des comptes"
+    title: "Les mobilités entre les secteurs public et privé — rapport public thématique"
+    date: "2025-05-14"
+    source_type: official_audit_report
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [network, integrity, administrative]
+    use: "Seul bilan officiel récent du cadre et du contrôle déontologique des allers-retours entre public et privé."
+    status: VERIFIED
+    url: "https://www.ccomptes.fr/fr/publications/les-mobilites-entre-les-secteurs-public-et-prive"
+    verification: "Page et PDF lus le 2026-10-22 : « le suivi statistique et agrégé des mobilités est très partiel, voire inexistant »."
+
+  - source_id: FR-CPL-0117
+    domain: people_governance_revolving_network
+    institution: "Sénat, commission d’enquête sur les mutations de la haute fonction publique"
+    title: "Préconisations pour une réforme de la haute fonction publique — rapport n° 16 (2018-2019)"
+    date: "2018-10-04"
+    source_type: parliamentary_inquiry
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [network, administrative, integrity]
+    use: "Enquête parlementaire sur le pantouflage et les allers-retours des hauts fonctionnaires."
+    status: VERIFIED
+    url: "https://www.senat.fr/rap/r18-016-1/r18-016-1.html"
+    verification: "Page lue le 2026-10-22 : « la multiplication des allers-retours entre le public et le privé ». Antérieur au transfert du contrôle déontologique à la HATVP en 2020."
+
+  - source_id: FR-CPL-0118
+    domain: people_governance_revolving_network
+    institution: "Haute Autorité pour la transparence de la vie publique (HATVP)"
+    title: "Contenu des déclarations de situation patrimoniale et d’intérêts publiées des responsables publics — données ouvertes"
+    date: "2026-08-12"
+    source_type: open_dataset
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: continuous
+    mots_cles: [network, integrity, transparency]
+    use: "Relie les responsables publics soumis à déclaration aux organisations où ils exercent ou ont exercé des activités et des mandats."
+    status: VERIFIED
+    url: "https://www.data.gouv.fr/datasets/contenu-des-declarations-de-situation-patrimoniale-et-dinterets-publiees-des-responsables-publics"
+    verification: "Fiche lue le 2026-10-22 ; le fichier lui-même n’a pas été ouvert (site de la HATVP en maintenance). Jeu continu : la date retenue est la date d’arrêt. Aucune donnée nominative n’est reprise par ce site."
+
+  - source_id: FR-CPL-0119
+    domain: people_governance_revolving_network
+    institution: "Gouvernement, annexe au projet de loi de finances (« jaune »)"
+    title: "Personnels affectés dans les cabinets ministériels — annexe au projet de loi de finances pour 2026"
+    date: "2025-10-21"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A1
+    refresh: annual
+    mots_cles: [executive, network]
+    use: "Effectifs, origine statutaire et rémunérations des membres des cabinets ministériels, point de passage classique entre public et privé."
+    status: VERIFIED
+    url: "https://www.assemblee-nationale.fr/dyn/contenu/visualisation/1090016/file/20-Jaune2026_Cabinets.pdf"
+    verification: "Seule l’année ou le mois est imprimé : date retenue, celle du fichier PDF. PDF lu le 2026-10-22 : « 521 membres au 1er juillet 2025 », dont 275 sur contrat."
+
+  - source_id: FR-CPL-0120
+    domain: people_governance_revolving_network
+    institution: "Direction de l’information légale et administrative (DILA)"
+    title: "Journal officiel, édition « Lois et décrets » — données ouvertes"
+    date: "2026-08-12"
+    source_type: open_dataset
+    authority: PRIMARY_DATA
+    priority: A1
+    refresh: continuous
+    mots_cles: [executive, administrative, network]
+    use: "Corpus officiel des décrets et arrêtés de nomination, de détachement ou de disponibilité, pour dater les entrées et sorties dans les emplois de direction."
+    status: VERIFIED
+    url: "https://www.data.gouv.fr/datasets/jorf-les-donnees-de-l-edition-lois-et-decrets-du-journal-officiel"
+    verification: "Fiche et répertoire des archives lus le 2026-10-22. Certaines mesures nominatives sensibles sont exclues par l’éditeur. Jeu continu : la date retenue est la date d’arrêt."
