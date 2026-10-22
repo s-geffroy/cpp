@@ -1,0 +1,1039 @@
+{
+ "meta": {
+  "annee_notification": "2025",
+  "fichiers": [
+   "decp-2025-01.json",
+   "decp-2025-02.json",
+   "decp-2025-03.json",
+   "decp-2025-04.json",
+   "decp-2025-05.json",
+   "decp-2025-06.json",
+   "decp-2025-07.json",
+   "decp-2025-08.json",
+   "decp-2025-09.json",
+   "decp-2025-10.json",
+   "decp-2025-11.json",
+   "decp-2025-12.json",
+   "decp-2026-01.json",
+   "decp-2026-02.json",
+   "decp-2026-03.json",
+   "decp-2026-04.json",
+   "decp-2026-05.json",
+   "decp-2026-06.json",
+   "decp-2026-07.json",
+   "decp-2026-08.json",
+   "decp-2026-09.json",
+   "decp-2026-10.json"
+  ],
+  "fiches_lues": 915873,
+  "montant_hors_ac": 75131191298.0,
+  "marches": 238399,
+  "accords_cadres": 97174,
+  "montants_ecartes": 537,
+  "marches_hors_ac": 141127
+ },
+ "titulaires": [
+  {
+   "rang": 1,
+   "siren": "329338883",
+   "nom": "COLAS FRANCE",
+   "sigle": null,
+   "marches": 2745,
+   "accords_cadres": 754,
+   "montant_hors_ac": 827718540.04,
+   "montants_ecartes": 14
+  },
+  {
+   "rang": 2,
+   "siren": "339609661",
+   "nom": "IDVERDE",
+   "sigle": null,
+   "marches": 800,
+   "accords_cadres": 252,
+   "montant_hors_ac": 125952122.53,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 3,
+   "siren": "552044992",
+   "nom": "POMONA",
+   "sigle": null,
+   "marches": 771,
+   "accords_cadres": 668,
+   "montant_hors_ac": 183966813.63,
+   "montants_ecartes": 5
+  },
+  {
+   "rang": 4,
+   "siren": "442395448",
+   "nom": "TOTALENERGIES ELECTRICITE ET GAZ FRANCE",
+   "sigle": null,
+   "marches": 665,
+   "accords_cadres": 348,
+   "montant_hors_ac": 867650968.47,
+   "montants_ecartes": 22
+  },
+  {
+   "rang": 5,
+   "siren": "552081317",
+   "nom": "ELECTRICITE DE FRANCE",
+   "sigle": "EDF",
+   "marches": 558,
+   "accords_cadres": 319,
+   "montant_hors_ac": 307350085.81,
+   "montants_ecartes": 9
+  },
+  {
+   "rang": 6,
+   "siren": "444523526",
+   "nom": "ARTELIA",
+   "sigle": null,
+   "marches": 482,
+   "accords_cadres": 160,
+   "montant_hors_ac": 40329414.14,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 7,
+   "siren": "542107651",
+   "nom": "ENGIE",
+   "sigle": null,
+   "marches": 465,
+   "accords_cadres": 265,
+   "montant_hors_ac": 722083983.36,
+   "montants_ecartes": 14
+  },
+  {
+   "rang": 8,
+   "siren": "056800659",
+   "nom": "SNEF",
+   "sigle": null,
+   "marches": 423,
+   "accords_cadres": 194,
+   "montant_hors_ac": 54509621.99,
+   "montants_ecartes": 2
+  },
+  {
+   "rang": 9,
+   "siren": "476980321",
+   "nom": "POMONA EPISAVEURS",
+   "sigle": null,
+   "marches": 407,
+   "accords_cadres": 333,
+   "montant_hors_ac": 115107055.29,
+   "montants_ecartes": 6
+  },
+  {
+   "rang": 10,
+   "siren": "562077503",
+   "nom": "SADE - COMPAGNIE GENERALE DE TRAVAUX HYDRAULIQUES",
+   "sigle": null,
+   "marches": 401,
+   "accords_cadres": 138,
+   "montant_hors_ac": 131454349.7,
+   "montants_ecartes": 3
+  },
+  {
+   "rang": 11,
+   "siren": "301309605",
+   "nom": "SMACL ASSURANCES",
+   "sigle": "SMACL",
+   "marches": 399,
+   "accords_cadres": 14,
+   "montant_hors_ac": 57875919.97,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 12,
+   "siren": "627220049",
+   "nom": "HERVE THERMIQUE",
+   "sigle": null,
+   "marches": 397,
+   "accords_cadres": 136,
+   "montant_hors_ac": 66793669.96,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 13,
+   "siren": "542107800",
+   "nom": "OTIS",
+   "sigle": null,
+   "marches": 389,
+   "accords_cadres": 173,
+   "montant_hors_ac": 129745266.04,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 14,
+   "siren": "316807015",
+   "nom": "SYSCO FRANCE SAS",
+   "sigle": null,
+   "marches": 375,
+   "accords_cadres": 320,
+   "montant_hors_ac": 23259006.0,
+   "montants_ecartes": 6
+  },
+  {
+   "rang": 15,
+   "siren": "398762211",
+   "nom": "EIFFAGE ROUTE GRAND SUD",
+   "sigle": null,
+   "marches": 352,
+   "accords_cadres": 110,
+   "montant_hors_ac": 101194330.97,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 16,
+   "siren": "339379984",
+   "nom": "SAUR",
+   "sigle": null,
+   "marches": 338,
+   "accords_cadres": 124,
+   "montant_hors_ac": 141198489.72,
+   "montants_ecartes": 2
+  },
+  {
+   "rang": 17,
+   "siren": "722024742",
+   "nom": "TK ELEVATOR FRANCE",
+   "sigle": null,
+   "marches": 338,
+   "accords_cadres": 80,
+   "montant_hors_ac": 53613305.82,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 18,
+   "siren": "408537249",
+   "nom": "MEDLINE INTERNATIONAL FRANCE SAS",
+   "sigle": null,
+   "marches": 335,
+   "accords_cadres": 333,
+   "montant_hors_ac": 117351.88,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 19,
+   "siren": "682040837",
+   "nom": "SMAC",
+   "sigle": null,
+   "marches": 334,
+   "accords_cadres": 92,
+   "montant_hors_ac": 69300210.08,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 20,
+   "siren": "833817224",
+   "nom": "SMACL ASSURANCES SA",
+   "sigle": null,
+   "marches": 330,
+   "accords_cadres": 32,
+   "montant_hors_ac": 73745236.34,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 21,
+   "siren": "385006234",
+   "nom": "PRO A PRO",
+   "sigle": null,
+   "marches": 329,
+   "accords_cadres": 295,
+   "montant_hors_ac": 13110030.36,
+   "montants_ecartes": 2
+  },
+  {
+   "rang": 22,
+   "siren": "434085395",
+   "nom": "SPIE CITYNETWORKS",
+   "sigle": null,
+   "marches": 308,
+   "accords_cadres": 135,
+   "montant_hors_ac": 62541765.58,
+   "montants_ecartes": 3
+  },
+  {
+   "rang": 23,
+   "siren": "456500537",
+   "nom": "DALKIA",
+   "sigle": null,
+   "marches": 303,
+   "accords_cadres": 100,
+   "montant_hors_ac": 282683943.34,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 24,
+   "siren": "552046955",
+   "nom": "ENGIE ENERGIE SERVICES",
+   "sigle": "ENGIE E.S.",
+   "marches": 303,
+   "accords_cadres": 85,
+   "montant_hors_ac": 363943651.76,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 25,
+   "siren": "722008232",
+   "nom": "MEDTRONIC FRANCE",
+   "sigle": null,
+   "marches": 298,
+   "accords_cadres": 283,
+   "montant_hors_ac": 2890219.8,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 26,
+   "siren": "398827113",
+   "nom": "EIFFAGE ROUTE CENTRE EST",
+   "sigle": null,
+   "marches": 291,
+   "accords_cadres": 94,
+   "montant_hors_ac": 66614185.77,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 27,
+   "siren": "444553465",
+   "nom": "LACOSTE",
+   "sigle": null,
+   "marches": 291,
+   "accords_cadres": 259,
+   "montant_hors_ac": 2597385.25,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 28,
+   "siren": "775664873",
+   "nom": "BOUYGUES ENERGIES & SERVICES",
+   "sigle": null,
+   "marches": 280,
+   "accords_cadres": 115,
+   "montant_hors_ac": 95735493.75,
+   "montants_ecartes": 5
+  },
+  {
+   "rang": 29,
+   "siren": "343059564",
+   "nom": "SOCIETE FRANCAISE DU RADIOTELEPHONE - S.F.R",
+   "sigle": null,
+   "marches": 278,
+   "accords_cadres": 242,
+   "montant_hors_ac": 711692316.33,
+   "montants_ecartes": 2
+  },
+  {
+   "rang": 30,
+   "siren": "776056467",
+   "nom": "UNION DES GROUPEMENTS D'ACHATS PUBLICS",
+   "sigle": "UGAP",
+   "marches": 275,
+   "accords_cadres": 72,
+   "montant_hors_ac": 112985518.06,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 31,
+   "siren": "380129866",
+   "nom": "ORANGE",
+   "sigle": null,
+   "marches": 273,
+   "accords_cadres": 195,
+   "montant_hors_ac": 383200193.77,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 32,
+   "siren": "542021829",
+   "nom": "SAFEGE",
+   "sigle": "SAFEGE",
+   "marches": 273,
+   "accords_cadres": 86,
+   "montant_hors_ac": 27916662.42,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 33,
+   "siren": "388734568",
+   "nom": "COMPUTACENTER FRANCE",
+   "sigle": null,
+   "marches": 272,
+   "accords_cadres": 226,
+   "montant_hors_ac": 141051572.81,
+   "montants_ecartes": 2
+  },
+  {
+   "rang": 34,
+   "siren": "440055861",
+   "nom": "SPIE BUILDING SOLUTIONS",
+   "sigle": null,
+   "marches": 272,
+   "accords_cadres": 77,
+   "montant_hors_ac": 53012017.8,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 35,
+   "siren": "834157513",
+   "nom": "SOCOTEC CONSTRUCTION",
+   "sigle": null,
+   "marches": 272,
+   "accords_cadres": 101,
+   "montant_hors_ac": 6792347.16,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 36,
+   "siren": "477181010",
+   "nom": "API RESTAURATION",
+   "sigle": null,
+   "marches": 270,
+   "accords_cadres": 163,
+   "montant_hors_ac": 47363825.33,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 37,
+   "siren": "308250570",
+   "nom": "ELECTRICITE INDUSTRIELLE J. P. FAUCHE",
+   "sigle": null,
+   "marches": 269,
+   "accords_cadres": 124,
+   "montant_hors_ac": 27640842.53,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 38,
+   "siren": "485197552",
+   "nom": "SOPREMA ENTREPRISES",
+   "sigle": null,
+   "marches": 265,
+   "accords_cadres": 61,
+   "montant_hors_ac": 47790744.99,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 39,
+   "siren": "424982650",
+   "nom": "SCC FRANCE",
+   "sigle": null,
+   "marches": 251,
+   "accords_cadres": 164,
+   "montant_hors_ac": 613581165.01,
+   "montants_ecartes": 3
+  },
+  {
+   "rang": 40,
+   "siren": "722028586",
+   "nom": "EUROVIA BRETAGNE",
+   "sigle": null,
+   "marches": 249,
+   "accords_cadres": 54,
+   "montant_hors_ac": 60941526.68,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 41,
+   "siren": "903869071",
+   "nom": "APAVE INFRASTRUCTURES ET CONSTRUCTION FRANCE",
+   "sigle": null,
+   "marches": 243,
+   "accords_cadres": 88,
+   "montant_hors_ac": 5915577.84,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 42,
+   "siren": "341539815",
+   "nom": "PARIS NORD ASSURANCES SERVICES",
+   "sigle": "PNAS",
+   "marches": 241,
+   "accords_cadres": 8,
+   "montant_hors_ac": 48272485.05,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 43,
+   "siren": "447754086",
+   "nom": "GUINTOLI",
+   "sigle": null,
+   "marches": 236,
+   "accords_cadres": 70,
+   "montant_hors_ac": 93613852.89,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 44,
+   "siren": "563820489",
+   "nom": "LEGALLAIS",
+   "sigle": null,
+   "marches": 236,
+   "accords_cadres": 220,
+   "montant_hors_ac": 2422537.59,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 45,
+   "siren": "757501028",
+   "nom": "HELIAQ",
+   "sigle": null,
+   "marches": 236,
+   "accords_cadres": 132,
+   "montant_hors_ac": 250543593.19,
+   "montants_ecartes": 3
+  },
+  {
+   "rang": 46,
+   "siren": "572025526",
+   "nom": "VEOLIA EAU - COMPAGNIE GENERALE DES EAUX",
+   "sigle": null,
+   "marches": 233,
+   "accords_cadres": 116,
+   "montant_hors_ac": 269593530.68,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 47,
+   "siren": "790182786",
+   "nom": "BUREAU VERITAS CONSTRUCTION",
+   "sigle": null,
+   "marches": 225,
+   "accords_cadres": 79,
+   "montant_hors_ac": 4470221.87,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 48,
+   "siren": "335171096",
+   "nom": "RELYENS SPS",
+   "sigle": null,
+   "marches": 224,
+   "accords_cadres": 17,
+   "montant_hors_ac": 92183881.52,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 49,
+   "siren": "315871640",
+   "nom": "IDEX ENERGIES",
+   "sigle": null,
+   "marches": 223,
+   "accords_cadres": 70,
+   "montant_hors_ac": 176480444.46,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 50,
+   "siren": "393365135",
+   "nom": "EDENRED FRANCE",
+   "sigle": null,
+   "marches": 223,
+   "accords_cadres": 181,
+   "montant_hors_ac": 36621917.05,
+   "montants_ecartes": 0
+  }
+ ],
+ "acheteurs": [
+  {
+   "rang": 1,
+   "siren": "130005010",
+   "nom": "RESEAU DES ACHETEURS HOSPITALIERS",
+   "sigle": "RESAH",
+   "marches": 3455,
+   "accords_cadres": 2662,
+   "montant_hors_ac": 1063029709.61,
+   "montants_ecartes": 33
+  },
+  {
+   "rang": 2,
+   "siren": "211300553",
+   "nom": "COMMUNE DE MARSEILLE",
+   "sigle": null,
+   "marches": 2263,
+   "accords_cadres": 359,
+   "montant_hors_ac": 67989754.86,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 3,
+   "siren": "263100125",
+   "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE",
+   "sigle": "CHUT",
+   "marches": 1273,
+   "accords_cadres": 1126,
+   "montant_hors_ac": 121976484.42,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 4,
+   "siren": "217500016",
+   "nom": "VILLE DE PARIS",
+   "sigle": null,
+   "marches": 1149,
+   "accords_cadres": 493,
+   "montant_hors_ac": 418256137.15,
+   "montants_ecartes": 5
+  },
+  {
+   "rang": 5,
+   "siren": "200054807",
+   "nom": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+   "sigle": "AMP",
+   "marches": 1058,
+   "accords_cadres": 734,
+   "montant_hors_ac": 500734201.07,
+   "montants_ecartes": 2
+  },
+  {
+   "rang": 6,
+   "siren": "180089013",
+   "nom": "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE",
+   "sigle": "CNRS",
+   "marches": 862,
+   "accords_cadres": 184,
+   "montant_hors_ac": 119569014.98,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 7,
+   "siren": "264200304",
+   "nom": "CENTRE HOSPITALIER UNIVERSITAIRE",
+   "sigle": "CHU",
+   "marches": 727,
+   "accords_cadres": 544,
+   "montant_hors_ac": 93613237.23,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 8,
+   "siren": "662043116",
+   "nom": "OFFICE NATIONAL DES FORETS",
+   "sigle": "ONF",
+   "marches": 721,
+   "accords_cadres": 639,
+   "montant_hors_ac": 52375804.7,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 9,
+   "siren": "200052264",
+   "nom": "REGION GRAND EST",
+   "sigle": null,
+   "marches": 689,
+   "accords_cadres": 181,
+   "montant_hors_ac": 261510703.6,
+   "montants_ecartes": 2
+  },
+  {
+   "rang": 10,
+   "siren": "599200136",
+   "nom": "SEMBREIZH",
+   "sigle": null,
+   "marches": 685,
+   "accords_cadres": 0,
+   "montant_hors_ac": 76767054.03,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 11,
+   "siren": "130001902",
+   "nom": null,
+   "sigle": null,
+   "marches": 677,
+   "accords_cadres": 209,
+   "montant_hors_ac": 229248446.88,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 12,
+   "siren": "200094332",
+   "nom": "COLLECTIVITE EUROPEENNE D'ALSACE",
+   "sigle": null,
+   "marches": 647,
+   "accords_cadres": 338,
+   "montant_hors_ac": 177540745.55,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 13,
+   "siren": "265100057",
+   "nom": "CENTRE HOSPITALIER UNIVERSITAIRE REIMS",
+   "sigle": "CHU",
+   "marches": 636,
+   "accords_cadres": 548,
+   "montant_hors_ac": 144161138.76,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 14,
+   "siren": "261400931",
+   "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE CAEN NORMANDIE",
+   "sigle": "CHU",
+   "marches": 608,
+   "accords_cadres": 367,
+   "montant_hors_ac": 170067411.77,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 15,
+   "siren": "237500079",
+   "nom": "REGION ILE DE FRANCE",
+   "sigle": null,
+   "marches": 597,
+   "accords_cadres": 175,
+   "montant_hors_ac": 191369158.25,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 16,
+   "siren": "263500076",
+   "nom": "CTRE HOSPITALIER UNIVERS PONTCHAILLOU",
+   "sigle": "CHU",
+   "marches": 594,
+   "accords_cadres": 507,
+   "montant_hors_ac": 21872944.69,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 17,
+   "siren": "244400404",
+   "nom": "METROPOLE NANTES METROPOLE",
+   "sigle": null,
+   "marches": 584,
+   "accords_cadres": 222,
+   "montant_hors_ac": 407406507.31,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 18,
+   "siren": "268708518",
+   "nom": "CENTRE HOSPITALIER ET UNIVERSITAIRE DE LIMOGES",
+   "sigle": "CHU",
+   "marches": 582,
+   "accords_cadres": 498,
+   "montant_hors_ac": 58840596.62,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 19,
+   "siren": "216901231",
+   "nom": "COMMUNE DE LYON",
+   "sigle": null,
+   "marches": 578,
+   "accords_cadres": 236,
+   "montant_hors_ac": 185159303.67,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 20,
+   "siren": "225900018",
+   "nom": "DEPARTEMENT DU NORD",
+   "sigle": null,
+   "marches": 570,
+   "accords_cadres": 272,
+   "montant_hors_ac": 297268875.11,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 21,
+   "siren": "278500012",
+   "nom": "OFFICE PUBLIC DE L HABITAT DE VENDEE",
+   "sigle": "OPH",
+   "marches": 556,
+   "accords_cadres": 44,
+   "montant_hors_ac": 50413057.0,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 22,
+   "siren": "180020026",
+   "nom": "CAISSE DES DEPOTS ET CONSIGNATIONS",
+   "sigle": "CDC",
+   "marches": 555,
+   "accords_cadres": 401,
+   "montant_hors_ac": 43743155.52,
+   "montants_ecartes": 3
+  },
+  {
+   "rang": 23,
+   "siren": "130002223",
+   "nom": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+   "sigle": "GCS UNI.H.A.",
+   "marches": 554,
+   "accords_cadres": 529,
+   "montant_hors_ac": 6392766.15,
+   "montants_ecartes": 6
+  },
+  {
+   "rang": 24,
+   "siren": "432766947",
+   "nom": "FRANCE TELEVISIONS",
+   "sigle": null,
+   "marches": 548,
+   "accords_cadres": 252,
+   "montant_hors_ac": 77458179.69,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 25,
+   "siren": "200076958",
+   "nom": "COLLECTIVITE DE CORSE",
+   "sigle": null,
+   "marches": 541,
+   "accords_cadres": 387,
+   "montant_hors_ac": 22529886.37,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 26,
+   "siren": "428822852",
+   "nom": "ETABLISSEMENT FRANCAIS DU SANG",
+   "sigle": "EFS",
+   "marches": 527,
+   "accords_cadres": 423,
+   "montant_hors_ac": 48916306.56,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 27,
+   "siren": "180014045",
+   "nom": "CENTRE NATIONAL DE LA FONCTION PUBLIQUE TERRITORIALE",
+   "sigle": "CNFPT",
+   "marches": 522,
+   "accords_cadres": 485,
+   "montant_hors_ac": 28299786.56,
+   "montants_ecartes": 2
+  },
+  {
+   "rang": 28,
+   "siren": "267601680",
+   "nom": "CENTRE HOSPITALIER UNIVERSITAIRE ROUEN",
+   "sigle": null,
+   "marches": 520,
+   "accords_cadres": 473,
+   "montant_hors_ac": 15304614.02,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 29,
+   "siren": "266900273",
+   "nom": "HOSPICES CIVILS DE LYON",
+   "sigle": null,
+   "marches": 504,
+   "accords_cadres": 156,
+   "montant_hors_ac": 3513126319.75,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 30,
+   "siren": "261300081",
+   "nom": "CENTRE HOSPITALIER REGIONAL DE MARSEILLE",
+   "sigle": null,
+   "marches": 436,
+   "accords_cadres": 416,
+   "montant_hors_ac": 41276262.13,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 31,
+   "siren": "274000017",
+   "nom": "OFFICE PUBLIC DE L HABITAT DU DEPARTEMENT DES LANDES",
+   "sigle": "XL HABITAT",
+   "marches": 436,
+   "accords_cadres": 67,
+   "montant_hors_ac": 24045477.21,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 32,
+   "siren": "248719312",
+   "nom": "CU LIMOGES METROPOLE",
+   "sigle": null,
+   "marches": 430,
+   "accords_cadres": 266,
+   "montant_hors_ac": 507881525.47,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 33,
+   "siren": "265906735",
+   "nom": "CENTRE HOSPITALIER DE VALENCIENNES",
+   "sigle": null,
+   "marches": 427,
+   "accords_cadres": 364,
+   "montant_hors_ac": 47731553.56,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 34,
+   "siren": "263400160",
+   "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE MONTPELLIER",
+   "sigle": "CHU",
+   "marches": 424,
+   "accords_cadres": 320,
+   "montant_hors_ac": 89550061.82,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 35,
+   "siren": "228300018",
+   "nom": "DEPARTEMENT DU VAR",
+   "sigle": null,
+   "marches": 422,
+   "accords_cadres": 217,
+   "montant_hors_ac": 74644015.91,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 36,
+   "siren": "243700754",
+   "nom": "TOURS METROPOLE VAL DE LOIRE",
+   "sigle": "TMVL",
+   "marches": 418,
+   "accords_cadres": 232,
+   "montant_hors_ac": 112817060.2,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 37,
+   "siren": "200011203",
+   "nom": "CTRE HOSPITALIER INTERCOMMUNAL AGGLOMERATION DE NEVERS",
+   "sigle": null,
+   "marches": 407,
+   "accords_cadres": 334,
+   "montant_hors_ac": 13588158.26,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 38,
+   "siren": "233500016",
+   "nom": "REGION BRETAGNE",
+   "sigle": null,
+   "marches": 402,
+   "accords_cadres": 213,
+   "montant_hors_ac": 415622329.36,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 39,
+   "siren": "223800012",
+   "nom": "DEPARTEMENT DE L ISERE",
+   "sigle": null,
+   "marches": 391,
+   "accords_cadres": 242,
+   "montant_hors_ac": 47505072.44,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 40,
+   "siren": "214401093",
+   "nom": "COMMUNE DE NANTES",
+   "sigle": null,
+   "marches": 386,
+   "accords_cadres": 91,
+   "montant_hors_ac": 60213354.78,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 41,
+   "siren": "130017791",
+   "nom": "VOIES NAVIGABLES DE FRANCE",
+   "sigle": "VNF",
+   "marches": 383,
+   "accords_cadres": 174,
+   "montant_hors_ac": 59121566.66,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 42,
+   "siren": "130005481",
+   "nom": "FRANCE TRAVAIL",
+   "sigle": null,
+   "marches": 382,
+   "accords_cadres": 291,
+   "montant_hors_ac": 29961929.57,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 43,
+   "siren": "200053403",
+   "nom": "REGION NORMANDIE",
+   "sigle": null,
+   "marches": 372,
+   "accords_cadres": 273,
+   "montant_hors_ac": 38684076.62,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 44,
+   "siren": "249740119",
+   "nom": "COMMUNAUTE INTERCOMMUNALE NORD REUNION",
+   "sigle": "CINOR",
+   "marches": 372,
+   "accords_cadres": 109,
+   "montant_hors_ac": 237639653.48,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 45,
+   "siren": "210600292",
+   "nom": "COMMUNE DE CANNES",
+   "sigle": null,
+   "marches": 370,
+   "accords_cadres": 147,
+   "montant_hors_ac": 48682657.86,
+   "montants_ecartes": 1
+  },
+  {
+   "rang": 46,
+   "siren": "267500452",
+   "nom": "ASSISTANCE PUBLIQUE HOPITAUX DE PARIS",
+   "sigle": "AP-HP",
+   "marches": 370,
+   "accords_cadres": 182,
+   "montant_hors_ac": 2265205500.32,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 47,
+   "siren": "220100010",
+   "nom": "DEPARTEMENT DE L AIN",
+   "sigle": null,
+   "marches": 366,
+   "accords_cadres": 168,
+   "montant_hors_ac": 37087359.08,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 48,
+   "siren": "254001399",
+   "nom": "SYNDICAT MIXTE  DEPARTEMENTAL D'EQUIPEMENT DES COMMUNES DES LANDES",
+   "sigle": "SYDEC",
+   "marches": 366,
+   "accords_cadres": 239,
+   "montant_hors_ac": 60773926.93,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 49,
+   "siren": "275600047",
+   "nom": "OFFICE PUBLIC DE L'HABITAT DU MORBIHAN",
+   "sigle": null,
+   "marches": 365,
+   "accords_cadres": 14,
+   "montant_hors_ac": 285822389.62,
+   "montants_ecartes": 0
+  },
+  {
+   "rang": 50,
+   "siren": "226600013",
+   "nom": "DEPARTEMENT DES PYRENEES-ORIENTALES",
+   "sigle": null,
+   "marches": 361,
+   "accords_cadres": 186,
+   "montant_hors_ac": 79344099.86,
+   "montants_ecartes": 0
+  }
+ ]
+}

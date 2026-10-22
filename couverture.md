@@ -175,6 +175,8 @@ C’est l’objet de la [feuille de route]({{ '/feuille-de-route/' | relative_ur
 Pour certains d’entre eux, ce site propose aussi des sources hors paquet,
 signalées dans le tableau de la même façon que pour les lacunes : elles ne
 changent pas davantage leur statut.
+Pour la commande publique, ce site en tire aussi un premier
+[classement des titulaires et des acheteurs]({{ '/commande-publique/' | relative_url }}).
 
 <p class="note-table">Le code d’origine est affiché à côté de chaque libellé :
 il est plus précis que sa traduction, et c’est lui qui figure dans les fichiers

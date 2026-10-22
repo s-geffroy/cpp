@@ -1,0 +1,16 @@
+{%- comment -%}
+Un entier ecrit a la francaise, par tranches de trois chiffres separees
+d'une espace insecable fine : « 238 399 ». Jusqu'a 999 999 999.
+Usage : {% include nombre-fr.html n=d.meta.marches %}
+{%- endcomment -%}
+{%- assign n = include.n | plus: 0 | round -%}
+{%- assign millions = n | divided_by: 1000000 -%}
+{%- assign milliers = n | divided_by: 1000 | modulo: 1000 -%}
+{%- assign unites = n | modulo: 1000 -%}
+{%- if millions > 0 -%}
+{{ millions }}&#8239;{{ milliers | prepend: "00" | slice: -3, 3 }}&#8239;{{ unites | prepend: "00" | slice: -3, 3 }}
+{%- elsif milliers > 0 -%}
+{{ milliers }}&#8239;{{ unites | prepend: "00" | slice: -3, 3 }}
+{%- else -%}
+{{ unites }}
+{%- endif -%}

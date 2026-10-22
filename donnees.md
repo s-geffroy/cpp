@@ -96,6 +96,11 @@ par `ajout_`.
     <span class="meta">le schéma JSON qui valide le registre des acteurs</span>
   </li>
   <li>
+    <a href="{{ '/assets/donnees/ajout_commande_publique_2025.csv' | relative_url }}">
+      <code>ajout_commande_publique_2025.csv</code></a>
+    <span class="meta">les titulaires et les acheteurs les plus fréquents de la <a href="{{ '/commande-publique/' | relative_url }}">commande publique</a> en 2025</span>
+  </li>
+  <li>
     <a href="{{ '/assets/donnees/ajout_passage_dimensions.csv' | relative_url }}">
       <code>ajout_passage_dimensions.csv</code></a>
     <span class="meta">la table de passage ci-dessous</span>
