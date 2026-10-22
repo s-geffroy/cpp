@@ -2018,3 +2018,65 @@ sources:
     status: VERIFIED
     url: "https://www.dassault-aviation.com/wp-content/blogs.dir/1/files/2026/04/RA_2025_VF_BD.pdf"
     verification: "Le site de la société bloque les robots : PDF de 320 pages lu le 2026-10-22 dans la copie archivée par la Wayback Machine le 2026-05-06 (https://web.archive.org/web/20260506170153id_/https://www.dassault-aviation.com/wp-content/blogs.dir/1/files/2026/04/RA_2025_VF_BD.pdf). Le rapport financier annuel qu’il contient a été déposé le 2026-03-13."
+
+  # --- Domaines partiels : plateformes (platforms_information_distribution)
+
+  - source_id: FR-CPL-0132
+    domain: platforms_information_distribution
+    institution: "Autorité de régulation de la communication audiovisuelle et numérique (Arcom)"
+    title: "Observatoire de l’audience des plateformes en ligne 2025"
+    date: "2026-03-26"
+    source_type: official_statistics
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: annual
+    mots_cles: [platforms, exposure, digital]
+    use: "Audiences mensuelles en France des très grandes plateformes et des plateformes établies en France, et leur usage par les 12-17 ans : Facebook, YouTube et WhatsApp en tête ; 47,7 millions de Français de 12 ans et plus en ligne chaque jour, 4 heures par jour. Mesure Médiamétrie, en visiteurs uniques."
+    status: VERIFIED
+    url: "https://www.arcom.fr/sites/default/files/2026-03/Arcom-observatoire-des-plateformes-en-ligne-2025_0.pdf"
+    verification: "PDF de 36 pages lu le 2026-10-22 par un outil de lecture : le site refuse les requêtes directes. Les valeurs par plateforme ne se lisent que sur les graphiques."
+
+  - source_id: FR-CPL-0133
+    domain: platforms_information_distribution
+    institution: "Autorité de régulation de la communication audiovisuelle et numérique (Arcom)"
+    title: "Lutte contre la manipulation de l’information sur les plateformes en ligne — bilan annuel des moyens et mesures mis en œuvre pour protéger l’intégrité des services (bilan 2026)"
+    date: "2026-03-24"
+    source_type: official_regulatory_report
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: annual
+    mots_cles: [platforms, information, integrity]
+    use: "Évaluation, par le coordinateur français du règlement sur les services numériques, des mesures de dix services (Facebook, Instagram, Google Search, YouTube, Bing, LinkedIn, X, TikTok, Snapchat, Wikipédia) ; quatre recommandations, dont l’accès des chercheurs aux données."
+    status: VERIFIED
+    url: "https://www.arcom.fr/sites/default/files/2026-03/Arcom_Bilan_Lutee_Manipulation_Information.pdf"
+    verification: "PDF de 79 pages lu le 2026-10-22 par un outil de lecture : le site refuse les requêtes directes."
+
+  - source_id: FR-CPL-0134
+    domain: platforms_information_distribution
+    institution: "Autorité de régulation de la communication audiovisuelle et numérique (Arcom)"
+    title: "Les Français et l’information, 2e édition"
+    date: "2026-01-29"
+    source_type: official_statistics
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: periodic
+    mots_cles: [information, exposure, media]
+    use: "Enquête auprès de 3 377 Français de 15 ans et plus : sources d’information par support, place croissante des réseaux sociaux, de YouTube et des outils d’IA conversationnelle."
+    status: VERIFIED
+    url: "https://www.arcom.fr/sites/default/files/2026-01/Arcom-les-francais-et-information-2eme-edition-2026.pdf"
+    verification: "PDF de 121 pages lu le 2026-10-22 par un outil de lecture : le site refuse les requêtes directes."
+
+  - source_id: FR-CPL-0135
+    domain: platforms_information_distribution
+    institution: "Commission européenne"
+    title: "Supervision of the designated very large online platforms and search engines under DSA"
+    date: "2026-07-24"
+    source_type: official_registry
+    authority: PRIMARY_SUPRANATIONAL
+    priority: A0
+    refresh: continuous
+    mots_cles: [platforms, regulation, external]
+    use: "25 services désignés à la date d’arrêt, avec leurs utilisateurs actifs mensuels moyens déclarés dans l’Union : YouTube 416,6 M, Google Search 364 M, Facebook et Instagram 259 M chacun, TikTok 135,9 M, X 115,1 M. Chiffres européens, pas français."
+    status: VERIFIED
+    url: "https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses"
+    verification: "La page en ligne a été mise à jour après la date d’arrêt (21 octobre 2026) : lu le 2026-10-22 dans la copie archivée par la Wayback Machine le 2026-08-10 (https://web.archive.org/web/20260810060128/https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses), à jour au 24 juillet 2026."
