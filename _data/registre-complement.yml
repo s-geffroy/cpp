@@ -1847,3 +1847,80 @@ sources:
     status: VERIFIED
     url: "https://www.data.gouv.fr/datasets/jorf-les-donnees-de-l-edition-lois-et-decrets-du-journal-officiel"
     verification: "Fiche et répertoire des archives lus le 2026-10-22. Certaines mesures nominatives sensibles sont exclues par l’éditeur. Jeu continu : la date retenue est la date d’arrêt."
+
+  # --- Domaines partiels : aides aux entreprises (business_aid) ------------
+
+  - source_id: FR-CPL-0121
+    domain: business_aid
+    institution: "Sénat, commission d’enquête sur l’utilisation des aides publiques aux grandes entreprises et à leurs sous-traitants"
+    title: "Transparence et évaluation des aides publiques aux entreprises : une attente démocratique, un gage d’efficacité économique — rapport n° 808 (2024-2025)"
+    date: "2025-07-01"
+    source_type: parliamentary_inquiry
+    authority: OFFICIAL_INQUIRY
+    priority: A0
+    refresh: one_off
+    mots_cles: [subsidy, fiscal, transparency]
+    use: "Seule estimation d’ensemble récente : au moins 211 Md€ d’aides aux entreprises en 2023 au sens large (108 Md€ hors Bpifrance, dépenses fiscales déclassées et TVA), plus de 2 200 dispositifs ; constate que le Gouvernement n’est pas en mesure d’actualiser ce chiffrage."
+    status: VERIFIED
+    url: "https://www.senat.fr/rap/r24-808-1/r24-808-1.html"
+    verification: "Page du rapport et synthèse en PDF lues le 2026-10-22. Ordre de grandeur selon la commission elle-même : régions, bloc communal et aides européennes non comptés."
+
+  - source_id: FR-CPL-0122
+    domain: business_aid
+    institution: "Gouvernement (direction du Budget, direction de la Législation fiscale)"
+    title: "Évaluation des voies et moyens, tome II : Dépenses fiscales — annexe au projet de loi de finances pour 2026"
+    date: "2025-10-14"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [fiscal, subsidy]
+    use: "Recensement officiel des dépenses fiscales et de leur coût, dispositif par dispositif : 89,4 Md€ en 2024 (montant définitif), 91,8 Md€ prévus en 2025. Tous bénéficiaires confondus, ménages compris."
+    status: VERIFIED
+    url: "https://www.assemblee-nationale.fr/dyn/dyn/contenu/visualisation/1087933/file/Voies_et_moyens_Tome_2_2026.pdf"
+    verification: "PDF de 252 pages lu le 2026-10-22, dans la copie publiée par l’Assemblée nationale. Date retenue : dépôt du projet de loi de finances."
+
+  - source_id: FR-CPL-0123
+    domain: business_aid
+    institution: "Cour des comptes"
+    title: "Analyse de l’exécution budgétaire 2025 — mission « Dépenses fiscales »"
+    date: "2026-04-10"
+    source_type: official_audit_report
+    authority: PRIMARY_INDEPENDENT
+    priority: A0
+    refresh: annual
+    mots_cles: [fiscal, transparency]
+    use: "Contrôle indépendant du chiffrage des dépenses fiscales : coût 2024 de 89,40 Md€, supérieur de 10,66 Md€ à la prévision initiale, un écart sans précédent."
+    status: VERIFIED
+    url: "https://www.ccomptes.fr/sites/default/files/2026-04/NEB-2026-Depenses-fiscales.pdf"
+    verification: "PDF lu le 2026-10-22. Le document est daté d’avril 2026 ; le jour retenu est la date de création du fichier."
+
+  - source_id: FR-CPL-0124
+    domain: business_aid
+    institution: "EPIC Bpifrance"
+    title: "Rapport annuel 2025"
+    date: "2026-03-27"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [funding, credit, state]
+    use: "Activité du groupe public : 72 Md€ mobilisés en 2025 en financement, investissement et assurance export ; comptes et rapports des commissaires aux comptes."
+    status: VERIFIED
+    url: "https://echanges.dila.gouv.fr/OPENDATA/AMF/295/2026/03/FC295621472_20260327.pdf"
+    verification: "PDF lu le 2026-10-22, déposé au titre de l’information réglementée (diffusion DILA)."
+
+  - source_id: FR-CPL-0125
+    domain: business_aid
+    institution: "Commission européenne"
+    title: "Transparency — base publique des aides d’État individuelles"
+    date: "2026-08-12"
+    source_type: official_registry
+    authority: PRIMARY_SUPRANATIONAL
+    priority: A0
+    refresh: continuous
+    mots_cles: [subsidy, transparency]
+    use: "Seul registre public des aides individuelles nommant le bénéficiaire (aides d’État au-delà de 100 000 €) ; ne couvre ni les dépenses fiscales générales ni les allègements de cotisations."
+    status: VERIFIED
+    url: "https://webgate.ec.europa.eu/competition/transparency/public?lang=fr"
+    verification: "Page de recherche ouverte le 2026-10-22. Base continue : la date retenue est la date d’arrêt."

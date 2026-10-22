@@ -172,6 +172,9 @@ Les {{ nb_partiels }} domaines marqués partiels le disent explicitement
 dans leur statut : la méthode est fermée mais l’inventaire reste ouvert, ou la
 route des sources est fermée mais le graphe des acteurs reste à construire.
 C’est l’objet de la [feuille de route]({{ '/feuille-de-route/' | relative_url }}).
+Pour certains d’entre eux, ce site propose aussi des sources hors paquet,
+signalées dans le tableau de la même façon que pour les lacunes : elles ne
+changent pas davantage leur statut.
 
 <p class="note-table">Le code d’origine est affiché à côté de chaque libellé :
 il est plus précis que sa traduction, et c’est lui qui figure dans les fichiers
