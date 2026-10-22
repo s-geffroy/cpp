@@ -65,7 +65,7 @@ n’en sont qu’un rendu.
 
 ## Les ajouts de ce site, hors paquet
 
-Quatre jeux de données ne viennent **pas** du paquet. Ils sont écrits par ce site, publiés
+Trois jeux de données ne viennent **pas** du paquet. Ils sont écrits par ce site, publiés
 comme tels et séparés des fichiers d’origine, sous des noms qui commencent tous
 par `ajout_`.
 
@@ -94,11 +94,6 @@ par `ajout_`.
     <a href="{{ '/assets/donnees/ajout_acteurs.schema.json' | relative_url }}">
       <code>ajout_acteurs.schema.json</code></a>
     <span class="meta">le schéma JSON qui valide le registre des acteurs</span>
-  </li>
-  <li>
-    <a href="{{ '/assets/donnees/ajout_correspondances_french_lambda.json' | relative_url }}">
-      <code>ajout_correspondances_french_lambda.json</code></a>
-    <span class="meta">{{ site.data['correspondances-french-lambda'].correspondances | size }} acteurs reliés à leur fiche sur <a href="{{ site.data['correspondances-french-lambda'].meta.site }}">Le Français lambda et ses entreprises</a></span>
   </li>
   <li>
     <a href="{{ '/assets/donnees/ajout_passage_dimensions.csv' | relative_url }}">

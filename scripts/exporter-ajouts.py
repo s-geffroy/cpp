@@ -122,29 +122,6 @@ def verifier_acteurs(acteurs, sources, noeuds, dates_sources):
                              f"posterieure a la source citee ({date_source})")
 
 
-def verifier_correspondances(acteurs):
-    """Liens vers french-lambda : un acteur inconnu ou en double donnerait un
-    lien mort ou ambigu, sans erreur de construction."""
-    table = yaml.safe_load((DATA / "correspondances-french-lambda.yml").read_text(encoding="utf-8"))
-    connus = {a["actor_id"] for a in acteurs["acteurs"]}
-    vus = set()
-    for c in table["correspondances"]:
-        if c["actor_id"] not in connus:
-            raise SystemExit(f"correspondances : acteur inconnu {c['actor_id']}")
-        if c["actor_id"] in vus:
-            raise SystemExit(f"correspondances : {c['actor_id']} en double")
-        vus.add(c["actor_id"])
-        if c["rapport"] not in ("meme_entite", "entite_voisine"):
-            raise SystemExit(f"correspondances : rapport inconnu pour {c['actor_id']}")
-        if c["rapport"] == "entite_voisine" and not c.get("note"):
-            raise SystemExit(f"correspondances : {c['actor_id']} voisine sans note")
-
-    # Publie pour que french-lambda puisse relier ses fiches a ce registre.
-    chemin = TELECHARGEMENTS / "ajout_correspondances_french_lambda.json"
-    chemin.write_text(json.dumps(table, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"  {chemin.relative_to(RACINE)} : {len(table['correspondances'])} correspondances")
-
-
 def exporter_acteurs(acteurs):
     for nom in ("acteurs", "liens"):
         chemin = TELECHARGEMENTS / f"ajout_{nom}.json"
@@ -200,7 +177,6 @@ def main():
     noeuds = [n["node_id"] for n in json.loads((DATA / "noeuds.json").read_text(encoding="utf-8"))]
     dates_sources = {s["source_id"]: s.get("date", "") for s in registre + complement["sources"]}
     verifier_acteurs(acteurs, sources, noeuds, dates_sources)
-    verifier_correspondances(acteurs)
     exporter_acteurs(acteurs)
 
 
