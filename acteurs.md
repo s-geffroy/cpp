@@ -57,7 +57,11 @@ registre s’arrête à l’organe central : les caisses et les sociétaires qui
 détiennent n’y entrent pas. S’y ajoutent les groupes de médias en 2026 :
 télévision, radio et presse cotées, les groupes non cotés dont l’actionnaire
 est publié dans un document primaire, et l’audiovisuel public. La propriété
-d’un média ne prouve jamais une intervention dans sa ligne éditoriale. C’est un **ajout de ce site, hors
+d’un média ne prouve jamais une intervention dans sa ligne éditoriale. Enfin,
+les quarante sociétés du CAC 40 à la date d’arrêt, avec leurs actionnaires
+directs au-delà du seuil légal (5%, ou 3% pour les sociétés de droit
+néerlandais), d’après leur dernier document annuel et les avis de l’AMF
+publiés avant le {% include date-fr.html date=registre.meta.date_arret %}. C’est un **ajout de ce site, hors
 paquet** — le début du registre que la
 [feuille de route]({{ '/feuille-de-route/' | relative_url }}) annonce.
 

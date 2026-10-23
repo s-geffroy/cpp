@@ -2770,5 +2770,1232 @@
     "incertitude": "Répartition donnée par un avis parlementaire, sans date propre ; elle est identique à celle de l’avis de 2024, qui cite TV5Monde comme source. Les droits de vote ne sont pas publiés.",
     "garde_fou": "Chaîne multilatérale régie par des accords entre gouvernements : la part au capital ne dit pas le poids dans les décisions. La propriété ne prouve jamais l’intervention éditoriale.",
     "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0140",
+    "source_actor": "FR-ACT-0137",
+    "target_actor": "FR-ACT-0107",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-08-05",
+    "detention_capital_pct": 15.02,
+    "droits_vote_pct": 12.79,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0198",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C1272/E6EF7D246C0C172BDA9C846E7F617BCDF3E1AD2EB414428329840DFBF7B00D70.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Pour le compte de clients et de fonds ; 10,82% du capital au 31 décembre 2025 dans le document d’Accor. Le seuil de 15% a été franchi par l’annulation de 4 910 762 actions.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0141",
+    "source_actor": "FR-ACT-0138",
+    "target_actor": "FR-ACT-0107",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 7.03,
+    "droits_vote_pct": 12.01,
+    "controle": "influence_notable",
+    "citation": {
+      "source_id": "FR-CPL-0165",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0152/0205C94FC9B8A6633A1FA0C052081EFF6F3CD986E32045DECF7AE2C8D9CA73F1.zip",
+      "localisation": "§ 7.4.1 ; note 15.1 des comptes consolidés"
+    },
+    "preuve": "P4",
+    "incertitude": "Le tableau imprime « Kingdom Holding Company » ; le document précise que Kingdom Hotels (Europe) est la « détentrice directe des actions » (16 494 440 actions). Dont 583 295 droits de vote suspendus.",
+    "garde_fou": "Influence notable reconnue par Accor, pas un contrôle. Le pacte de 2016 permet d’agir de concert avec l’autre actionnaire du Golfe ; les deux parts ne s’additionnent pas ici.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0142",
+    "source_actor": "FR-ACT-0139",
+    "target_actor": "FR-ACT-0107",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 6.61,
+    "droits_vote_pct": 11.16,
+    "controle": "influence_notable",
+    "citation": {
+      "source_id": "FR-CPL-0165",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0152/0205C94FC9B8A6633A1FA0C052081EFF6F3CD986E32045DECF7AE2C8D9CA73F1.zip",
+      "localisation": "§ 7.4.1 ; note 15.1 des comptes consolidés"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document cite aussi Lodge Investment Company et Voyager Fund Enterprise I parmi les détentrices directes, sans part séparée ; le tableau ne nomme que Qatar Holding LLC (15 505 060 actions).",
+    "garde_fou": "Influence notable reconnue par Accor, pas un contrôle. Le pacte de 2016 permet d’agir de concert avec l’autre actionnaire du Golfe ; les deux parts ne s’additionnent pas ici.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0143",
+    "source_actor": "FR-ACT-0140",
+    "target_actor": "FR-ACT-0107",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-06-26",
+    "detention_capital_pct": 5.11,
+    "droits_vote_pct": 4.37,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0199",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0940/DA1D952BDF497E1BD85E26531C3E47677A25222A3B8990057BB769651A04759A.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Franchissements dans les deux sens en 2026 (avis 226C0248, 226C0593, 226C0636) ; ce dernier avis avant la date d’arrêt le place au-dessus de 5% du capital.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0144",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0108",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2020-09-29",
+    "detention_capital_pct": 5.02,
+    "droits_vote_pct": 5.02,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0166",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0066/6D9E7CA8141366B1DE9E0BE1A050D8EBE0CEC5499D106DB0057303B463CA8516.zip",
+      "localisation": "p. 403"
+    },
+    "preuve": "P4",
+    "incertitude": "Déclaration du 29 septembre 2020, la seule que cite le document : aucun franchissement n’a été déclaré depuis. Le document imprime 23 784 446 actions, l’avis AMF 220C3992 23 784 466.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0145",
+    "source_actor": "FR-ACT-0141",
+    "target_actor": "FR-ACT-0109",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 12.6,
+    "droits_vote_pct": 20.77,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0167",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0110/5C061D430EC761F3EFA94C4C5875AA930FAE674C628CBA70FE53AC0CCD28A66C.zip",
+      "localisation": "§ 7.2.1, note (b)"
+    },
+    "preuve": "P4",
+    "incertitude": "Les deux mutuelles votent de concert ; leur total (15,64% du capital et 25,78% des droits de vote) n’est pas repris.",
+    "garde_fou": "Une société d’assurance mutuelle appartient à ses sociétaires ; sa part ne s’additionne pas à celle de l’autre mutuelle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0146",
+    "source_actor": "FR-ACT-0142",
+    "target_actor": "FR-ACT-0109",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 3.04,
+    "droits_vote_pct": 5.01,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0167",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0110/5C061D430EC761F3EFA94C4C5875AA930FAE674C628CBA70FE53AC0CCD28A66C.zip",
+      "localisation": "§ 7.2.1, note (b)"
+    },
+    "preuve": "P4",
+    "incertitude": "Au-delà de 5% des droits de vote seulement, depuis le 12 janvier 2026 selon l’avis 226C0070, qui donne la même valeur que le tableau.",
+    "garde_fou": "Une société d’assurance mutuelle appartient à ses sociétaires ; sa part ne s’additionne pas à celle de l’autre mutuelle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0147",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0109",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-08-14",
+    "detention_capital_pct": 6.07,
+    "droits_vote_pct": 5.04,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0200",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2025/225C1399/483353A6953E034F1AFBC81B6F8E0B11C522EA9FE17BE0DC3EA776A92769CA6F.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document d’AXA nomme BlackRock au-delà de 5% sans chiffre ; dernier avis avant la date d’arrêt, après des allers-retours autour de 5% des droits de vote entre mars et août 2025.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0148",
+    "source_actor": "FR-ACT-0143",
+    "target_actor": "FR-ACT-0110",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 21.37,
+    "droits_vote_pct": 34.59,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0168",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0167/2567CA2E32E67E3A0F48E23B199FC1835F3BCE97531CE1A6F224BC3584EBE95D.zip",
+      "localisation": "§ 7.8.1"
+    },
+    "preuve": "P4",
+    "incertitude": "« Le groupe Wendel est l’actionnaire de contrôle » : le contrôle est écrit pour le groupe, dont la détention effective est entièrement portée par Eufor (avis 225C1625). 35,23% des droits exerçables ; mêmes valeurs au 28 février 2026.",
+    "garde_fou": "Contrôle de la société selon son document ; ce maillon ne s’additionne à aucun autre de la chaîne, et ne dit rien d’une influence sur les décisions publiques.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0149",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0110",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-08-10",
+    "detention_capital_pct": 6.5,
+    "droits_vote_pct": 5.09,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0201",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C1273/8F72670ED1E3ED3C8EEF43B2556D4884BDD77092F41BC32F9ED3CBCF231580F8.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Onze avis entre avril et août 2026 suivent ses allers-retours autour de 5% des droits de vote ; positions comprenant des contrats sur différence, des titres prêtés et du collatéral.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0150",
+    "source_actor": "FR-ACT-0144",
+    "target_actor": "FR-ACT-0110",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-04-11",
+    "detention_capital_pct": 4.06,
+    "droits_vote_pct": 6.36,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0202",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0522/6ED2169B49C568CEC2422EA5A5C8EA299545FC400E1CF00EF3C9A11CC5DC6663.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Au-delà du seuil en droits de vote seulement, par l’attribution de droits de vote double ; déclaré par Bpifrance Investissement pour le compte du fonds.",
+    "garde_fou": "Le fonds est géré par une filiale de Bpifrance : sa part ne s’additionne à aucune participation publique.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0151",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0111",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2024-11-26",
+    "detention_capital_pct": 5.02,
+    "droits_vote_pct": 5.02,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0204",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2024/224C2467/DB6E4E5188DF29100C78EABF3658D75C8094B65B5A6B3CDB3AD34650CD23CCCC.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document de Capgemini nomme BlackRock au-delà de 5% au 13 mars 2026, sans chiffre ; dernier avis, après des allers-retours en 2023 et 2024.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0152",
+    "source_actor": "FR-ACT-0145",
+    "target_actor": "FR-ACT-0112",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 7.42,
+    "droits_vote_pct": 13.24,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0170",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0143/7A3CB233AA8727B6F5EE7B409F80D8CBC4ECFCF43ACB2FA1B88354B4090AB39A.zip",
+      "localisation": "§ 8.3.1"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; 13,74% des droits réels. Les 2,04% détenus par options d’achat ne sont pas comptés.",
+    "garde_fou": "Ni pacte ni contrôle selon le document ; la part ne s’additionne à celle d’aucun autre actionnaire.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0153",
+    "source_actor": "FR-ACT-0146",
+    "target_actor": "FR-ACT-0112",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 5.0,
+    "droits_vote_pct": 4.46,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0170",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0143/7A3CB233AA8727B6F5EE7B409F80D8CBC4ECFCF43ACB2FA1B88354B4090AB39A.zip",
+      "localisation": "§ 8.3.1"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; 4,63% des droits réels. Le tableau imprime 36 815 470 actions, les avis AMF 36 815 740. Seuil franchi en décembre 2025 au moyen d’un contrat d’échange, dénoué ensuite.",
+    "garde_fou": "Ni pacte ni contrôle selon le document ; la part ne s’additionne à celle d’aucun autre actionnaire.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0154",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0112",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-04-14",
+    "detention_capital_pct": 5.75,
+    "droits_vote_pct": 5.13,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0205",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0523/447BFB92B0F5B8B34FBCF4596EB2DA2390DCC4421E345192CB8CA8F9CECF00EA.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Neuf avis entre janvier et avril 2026 ; positions comprenant des contrats sur différence et du collatéral.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0155",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0113",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 6.9,
+    "droits_vote_pct": 6.5,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0171",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0063/89708FA20E711C6B82CFEDF5FF402C4B8E7375F3418569A7831FA88A50CB0872.zip",
+      "localisation": "§ 6.8"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote bruts ; 6,9% des droits nets. Le document écrit « BlackRock », sans forme juridique.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0156",
+    "source_actor": "FR-ACT-0031",
+    "target_actor": "FR-ACT-0114",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 39.91,
+    "droits_vote_pct": 53.18,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0172",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0193/3B175C02FE0AB6911C8765DCCA84143488D5931EF29CFAC9BF45365561BE93A3.zip",
+      "localisation": "§ 6.3.1, p. 398 ; § 6.3.2, p. 399"
+    },
+    "preuve": "P4",
+    "incertitude": "53,75% des droits exerçables. Le document écrit que la famille Dassault « contrôle ultimement » la société par GIMD ; le mot « exclusif » n’est pas écrit.",
+    "garde_fou": "Contrôle de la société selon son document ; ce maillon ne s’additionne à aucun autre de la chaîne, et ne dit rien d’une influence sur les décisions publiques.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0157",
+    "source_actor": "FR-ACT-0147",
+    "target_actor": "FR-ACT-0114",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-04-02",
+    "detention_capital_pct": 5.02,
+    "droits_vote_pct": 3.35,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0206",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0474/7F1E8F2F0D0BA38E2D89F78D8211BAFEE442E8F96F64EDCDBE83B7143ED0CBAD.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Au-delà du seuil en capital seulement.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0158",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0115",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-08-10",
+    "detention_capital_pct": 6.15,
+    "droits_vote_pct": 5.02,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0207",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C1274/358D63726B5F6F5DF7A8026549062BA2744402422395D89FE75D22B0661DFBFC.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Allers-retours autour de 5% des droits de vote en août 2026 (avis 226C1229 et 226C1243) ; le capital reste au-dessus de 6%.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0159",
+    "source_actor": "FR-ACT-0148",
+    "target_actor": "FR-ACT-0116",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 32.42,
+    "droits_vote_pct": 31.45,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0174",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0067/0D68313E89A3B969F30FC93636A5F593D5C83740DCE94719A81161AF47F6C7EB.zip",
+      "localisation": "§ 7.2.1"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote plafonnés : aucun actionnaire ne peut en exprimer plus de 31%. Le document la dit « maison mère », sans qualifier le contrôle.",
+    "garde_fou": "Engagement de ne pas lancer d’offre publique ; la part ne s’additionne à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0160",
+    "source_actor": "FR-ACT-0149",
+    "target_actor": "FR-ACT-0117",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-06-30",
+    "detention_capital_pct": 36.5,
+    "droits_vote_pct": 69.7,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0175",
+      "url": "https://cdnmediaassets.eurofins.com/eurofins-corporate/media/phdpf4kt/eurofins-first-half-year-2026-report.pdf",
+      "localisation": "p. 23"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote multiples ; 35,2% du capital et 69,1% des droits de vote au 31 décembre 2025. « The Group is controlled by Analytical Bioventures S.C.A. » (rapport annuel 2025, p. 182).",
+    "garde_fou": "Contrôle de la société selon son document ; ce maillon ne s’additionne à aucun autre de la chaîne, et ne dit rien d’une influence sur les décisions publiques.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0161",
+    "source_actor": "FR-ACT-0003",
+    "target_actor": "FR-ACT-0118",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 8.08,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0176",
+      "url": "https://www.euronext.com/sites/default/files/financial-event-doc/2026-04/EUR_2025_URD_EN_VMEL.pdf",
+      "localisation": "§ 6.3, p. 201 / PDF 203"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document ne publie que le capital ; une action vaut une voix. Membre du pacte des actionnaires de référence.",
+    "garde_fou": "Les actionnaires de référence votent ensemble selon leur pacte ; leurs parts ne s’additionnent pas ici, et aucun actionnaire ne détient 10%.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0162",
+    "source_actor": "FR-ACT-0150",
+    "target_actor": "FR-ACT-0118",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 8.08,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0176",
+      "url": "https://www.euronext.com/sites/default/files/financial-event-doc/2026-04/EUR_2025_URD_EN_VMEL.pdf",
+      "localisation": "§ 6.3, p. 201 / PDF 203"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document ne publie que le capital ; une action vaut une voix. Membre du pacte des actionnaires de référence.",
+    "garde_fou": "Les actionnaires de référence votent ensemble selon leur pacte ; leurs parts ne s’additionnent pas ici, et aucun actionnaire ne détient 10%.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0163",
+    "source_actor": "FR-ACT-0059",
+    "target_actor": "FR-ACT-0118",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 5.34,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0176",
+      "url": "https://www.euronext.com/sites/default/files/financial-event-doc/2026-04/EUR_2025_URD_EN_VMEL.pdf",
+      "localisation": "§ 6.3, p. 201 / PDF 203"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document ne publie que le capital ; une action vaut une voix. Membre du pacte des actionnaires de référence.",
+    "garde_fou": "Les actionnaires de référence votent ensemble selon leur pacte ; leurs parts ne s’additionnent pas ici, et aucun actionnaire ne détient 10%.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0164",
+    "source_actor": "FR-ACT-0151",
+    "target_actor": "FR-ACT-0118",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-04-23",
+    "detention_capital_pct": 4.02,
+    "droits_vote_pct": 4.96,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0177",
+      "url": "https://www.afm.nl/export.aspx?KeyWords=Euronext&type=1331d46f-3fb6-4a36-b903-9584972675af&format=csv"
+    },
+    "preuve": "P4",
+    "incertitude": "Notification au registre néerlandais, dont le seuil est de 3% ; 6,55% des droits de vote dans le document de 2025, passé sous 5% le 23 avril 2026.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0165",
+    "source_actor": "FR-ACT-0042",
+    "target_actor": "FR-ACT-0118",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-02",
+    "detention_capital_pct": 0.0,
+    "droits_vote_pct": 5.0,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0177",
+      "url": "https://www.afm.nl/export.aspx?KeyWords=Euronext&type=1331d46f-3fb6-4a36-b903-9584972675af&format=csv"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote seulement, sans actions déclarées.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0166",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0118",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-08-12",
+    "detention_capital_pct": 4.77,
+    "droits_vote_pct": 5.57,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0177",
+      "url": "https://www.afm.nl/export.aspx?KeyWords=Euronext&type=1331d46f-3fb6-4a36-b903-9584972675af&format=csv"
+    },
+    "preuve": "P4",
+    "incertitude": "Notification du jour de la date d’arrêt, après une trentaine depuis septembre 2025 (entre 4,91% et 5,71% des droits de vote) ; détention entièrement indirecte, par des filiales.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0167",
+    "source_actor": "FR-ACT-0152",
+    "target_actor": "FR-ACT-0119",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 54.3,
+    "droits_vote_pct": 64.2,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0178",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0114/CBBDE3794700DA7CCD45B4EF4EC18BC78AFEB3BC39486E92A101A56035A54D24.zip",
+      "localisation": "§ 7.2.2.6, p. 459"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques hors affectation des résultats (64,0% pour l’affectation des résultats). Le contrôle exclusif est écrit pour le groupe familial Hermès, qui l’exerce par l’associé commandité Émile Hermès SAS.",
+    "garde_fou": "Dans une commandite par actions, la majorité du capital ne donne pas la direction : elle revient à l’associé commandité. Les parts familiales ne s’additionnent pas ici.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0168",
+    "source_actor": "FR-ACT-0153",
+    "target_actor": "FR-ACT-0119",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 6.6,
+    "droits_vote_pct": 7.9,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0178",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0114/CBBDE3794700DA7CCD45B4EF4EC18BC78AFEB3BC39486E92A101A56035A54D24.zip",
+      "localisation": "§ 7.2.2.6, p. 459"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques hors affectation des résultats (7,8% pour l’affectation des résultats).",
+    "garde_fou": "Dans une commandite par actions, la majorité du capital ne donne pas la direction : elle revient à l’associé commandité. Les parts familiales ne s’additionnent pas ici.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0169",
+    "source_actor": "FR-ACT-0154",
+    "target_actor": "FR-ACT-0120",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 42.34,
+    "droits_vote_pct": 59.07,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0179",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0266/C309289F82AEED2F9E217E7AF66A2CCF745595BC227F5C9D01AAFA76630CF737.zip",
+      "localisation": "chapitre 7, § 2.1, p. 478"
+    },
+    "preuve": "P4",
+    "incertitude": "59,34% des droits exerçables. « Artémis exerce un contrôle de droit sur la Société au sens de l’article L. 233-3, I » ; le tableau l’intitule « Groupe Artémis », mais le document attribue ces chiffres à Artémis.",
+    "garde_fou": "Contrôle de la société selon son document ; ce maillon ne s’additionne à aucun autre de la chaîne, et ne dit rien d’une influence sur les décisions publiques.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0170",
+    "source_actor": "FR-ACT-0157",
+    "target_actor": "FR-ACT-0121",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 20.16,
+    "droits_vote_pct": 20.16,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0180",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0105/1DF6DADA80E88CA237A06FBF70690D79EC4614FB9DDE78784A87ABE144E4A1EC.zip",
+      "localisation": "§ 7.3.2, note (3)"
+    },
+    "preuve": "P4",
+    "incertitude": "Pas de droit de vote double. Concert interne au groupe Nestlé.",
+    "garde_fou": "Nestlé et la famille Bettencourt Meyers n’agissent plus de concert depuis 2018 ; aucune part ne s’additionne à une autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0171",
+    "source_actor": "FR-ACT-0155",
+    "target_actor": "FR-ACT-0121",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2023-12-29",
+    "detention_capital_pct": 28.45,
+    "droits_vote_pct": 28.45,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0208",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2024/224C0007/C8ACBB1692A21E99FF23AF679877F3F9D521F158003C8CCC6E2CA6E3CF4672FE.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Dernier pourcentage publié pour Téthys seule. Le document de 2025 lui attribue 152 514 292 actions, le même nombre ; le capital a changé depuis, et ce site ne recalcule pas la part.",
+    "garde_fou": "Nestlé et la famille Bettencourt Meyers n’agissent plus de concert depuis 2018 ; aucune part ne s’additionne à une autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0172",
+    "source_actor": "FR-ACT-0156",
+    "target_actor": "FR-ACT-0121",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2023-12-29",
+    "detention_capital_pct": 5.16,
+    "droits_vote_pct": 5.16,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0208",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2024/224C0007/C8ACBB1692A21E99FF23AF679877F3F9D521F158003C8CCC6E2CA6E3CF4672FE.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Dernier pourcentage publié pour Financière L’Arcouest seule. Le document de 2025 lui attribue 27 650 000 actions, le même nombre ; le capital a changé depuis, et ce site ne recalcule pas la part.",
+    "garde_fou": "Nestlé et la famille Bettencourt Meyers n’agissent plus de concert depuis 2018 ; aucune part ne s’additionne à une autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0173",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0122",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2022-02-08",
+    "detention_capital_pct": 5.15,
+    "droits_vote_pct": 5.15,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0209",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2022/222C0331/A8DDDAA71D911569F1949FCA96FBC187071104833F54A95E49921C052E07168E.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Dernier avis de seuil légal ; le document de 2026 nomme toujours BlackRock au-delà de 5%, sans chiffre, et cite un seuil statutaire de 8% franchi le 16 février 2026.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0174",
+    "source_actor": "FR-ACT-0158",
+    "target_actor": "FR-ACT-0123",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-02-19",
+    "detention_capital_pct": 42.21,
+    "droits_vote_pct": 56.21,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0210",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0219/CD34C0ACB619E63980AE8EB36EFE59A6FA75A00F9E35921B9D263CB4BA0C987B.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Parts au 19 février 2026 ; 42,17% du capital et 56,26% des droits exerçables au 31 décembre 2025. Le contrôle est écrit pour le groupe familial Arnault, pas pour une société.",
+    "garde_fou": "Le contrôle appartient au groupe familial Arnault selon le document ; les parts de ses sociétés ne s’additionnent pas ici.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0175",
+    "source_actor": "FR-ACT-0159",
+    "target_actor": "FR-ACT-0123",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-02-19",
+    "detention_capital_pct": 6.73,
+    "droits_vote_pct": 8.35,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0210",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0219/CD34C0ACB619E63980AE8EB36EFE59A6FA75A00F9E35921B9D263CB4BA0C987B.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Parts au 19 février 2026. Financière Agache contrôle aussi Christian Dior SE ; les deux parts ne s’additionnent pas.",
+    "garde_fou": "Le contrôle appartient au groupe familial Arnault selon le document ; les parts de ses sociétés ne s’additionnent pas ici.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0176",
+    "source_actor": "FR-ACT-0041",
+    "target_actor": "FR-ACT-0124",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-17",
+    "detention_capital_pct": 10.03,
+    "droits_vote_pct": 6.93,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0211",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0343/1A5F7E2B8CC5AF40A01F9A8C93CA2A92A7897B0A34D09C4B5EA7C30C909F1E7A.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "« Ni CGC ni aucune de ses filiales ne détient d’actions […] pour son propre compte. » 5,07% du capital dans le document de Michelin.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0177",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0124",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 6.12,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0183",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0220/D47813F9B1BC76D52995B0F27CF04025AE66CB9703288EB5DB4F51F67FACFF18.zip",
+      "localisation": "§ 2.11"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document écrit « moins de 5% des droits de vote », sans chiffre.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0178",
+    "source_actor": "FR-ACT-0160",
+    "target_actor": "FR-ACT-0124",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 4.41,
+    "droits_vote_pct": 6.03,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0183",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0220/D47813F9B1BC76D52995B0F27CF04025AE66CB9703288EB5DB4F51F67FACFF18.zip",
+      "localisation": "§ 2.11"
+    },
+    "preuve": "P4",
+    "incertitude": "Au-delà du seuil en droits de vote seulement (droit de vote double après quatre ans).",
+    "garde_fou": "Dans une commandite par actions, la direction revient aux associés commandités ; la part ne s’additionne à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0179",
+    "source_actor": "FR-ACT-0161",
+    "target_actor": "FR-ACT-0125",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-29",
+    "detention_capital_pct": 11.27,
+    "droits_vote_pct": 17.49,
+    "controle": "controle_ecarte",
+    "citation": {
+      "source_id": "FR-CPL-0212",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0017/9CFC0BF9FA92CCB90DF066BFA3E099749AC71C097132B7433840FA7A2F5507B0.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Part de la seule Société Paul Ricard SA ; la ligne « Société Paul Ricard » du document (14,29% au 30 juin 2025) inclut quatre sociétés qu’elle contrôle, et le concert familial détient 15,16%.",
+    "garde_fou": "La société écrit qu’elle n’est pas contrôlée : cette part ne donne pas le contrôle et ne s’additionne à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0180",
+    "source_actor": "FR-ACT-0162",
+    "target_actor": "FR-ACT-0125",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-06-30",
+    "detention_capital_pct": 6.82,
+    "droits_vote_pct": 11.36,
+    "controle": "controle_ecarte",
+    "citation": {
+      "source_id": "FR-CPL-0184",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2025/D.25-0638/70AAEFFCD7EE83A816B1A8D8E8B4313660B8CCED78FA841440BD569BA4E9ECEE.zip",
+      "localisation": "§ 9.2.6, p. 461-462"
+    },
+    "preuve": "P4",
+    "incertitude": "Selon sa déclaration du 22 juin 2017, reprise au 30 juin 2025.",
+    "garde_fou": "La société écrit qu’elle n’est pas contrôlée : cette part ne donne pas le contrôle et ne s’additionne à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0181",
+    "source_actor": "FR-ACT-0151",
+    "target_actor": "FR-ACT-0125",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-07-15",
+    "detention_capital_pct": 6.27,
+    "droits_vote_pct": 5.22,
+    "controle": "controle_ecarte",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0213",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2025/225C1236/223E5CC780C1E19F36D4DF5B92279DB304581EA6263DB06D3A99FD3741F45C56.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Pour le compte de clients et de fonds ; 5,12% du capital au 30 juin 2025 dans le document.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0182",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0125",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-05-29",
+    "detention_capital_pct": 5.22,
+    "droits_vote_pct": 4.35,
+    "controle": "controle_ecarte",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0214",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0770/D77E471B9C784600946BCD7481988DE34F1F1EA3F35A0B5166620A8D345BACCC.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Positions comprenant des contrats sur différence et du collatéral. Un franchissement de 5% des droits de vote le 12 août 2026, publié le 14 (avis 226C1300), n’est pas retenu.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0183",
+    "source_actor": "FR-ACT-0041",
+    "target_actor": "FR-ACT-0126",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-07-03",
+    "detention_capital_pct": 9.98,
+    "droits_vote_pct": 9.11,
+    "controle": "controle_ecarte",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0215",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0997/0E2775DE3AC76DA0AFC0E88A431636A3E172A0D2165686A5CA5E97119DE95AE0.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "16,58% du capital au 31 décembre 2025 ; la part a baissé par paliers en 2026 (avis 226C0186, 226C0376, 226C0903).",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0184",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0126",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 5.49,
+    "droits_vote_pct": 5.08,
+    "controle": "controle_ecarte",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0185",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0325/CE045B22FE4772016026E0F6B918FAAE86247CDE007E4E7909147738DA9D63CC.zip",
+      "localisation": "§ 8.2.1, p. 375"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote exerçables.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0185",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0127",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 7.01,
+    "droits_vote_pct": 6.38,
+    "controle": "controle_ecarte",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0186",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0077/1BD68197DBE96A239931696E1672B1AD8422D9DE46272B072E1C251AEC9CFFBC.zip",
+      "localisation": "§ 6.1.4, p. 326"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote exerçables, le pourcentage théorique n’étant pas imprimé ; selon une déclaration de seuil statutaire du 14 novembre 2025. « BlackRock agrège de nombreux fonds d’investissements (environ 270) ».",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0186",
+    "source_actor": "FR-ACT-0121",
+    "target_actor": "FR-ACT-0128",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-01-31",
+    "detention_capital_pct": 7.27,
+    "droits_vote_pct": 13.1,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0187",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0030/CD6976A136A75276E06191061B53F09A36EA91A351AA4AA4EA3E1FF22B84DB09.zip",
+      "localisation": "§ 7.3.2.1, p. 483 ; § 4.1.6.2, p. 296"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; 13,22% des droits réels (le document écrit « 13,10% des droits de vote réels » p. 296). « L’Oréal restera en mesure d’exercer une influence sur la désignation des administrateurs et des dirigeants ».",
+    "garde_fou": "Influence sur la désignation des administrateurs, selon Sanofi ; ni pacte ni contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0187",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0128",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-01-31",
+    "detention_capital_pct": 7.09,
+    "droits_vote_pct": 6.39,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0187",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0030/CD6976A136A75276E06191061B53F09A36EA91A351AA4AA4EA3E1FF22B84DB09.zip",
+      "localisation": "§ 7.3.2.1, p. 483"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; 6,44% des droits réels ; selon sa déclaration du 31 juillet 2025.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0188",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0129",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 7.7,
+    "droits_vote_pct": 7.6,
+    "controle": "controle_ecarte",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0188",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0159/CE9D0CD662AECC53FB4D1F49BB908DB684E85D6D5AA05B40D41F09AAC5C1CD88.zip",
+      "localisation": "§ 7.1.1, p. 586"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote hors actions privées de droit de vote.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0189",
+    "source_actor": "FR-ACT-0163",
+    "target_actor": "FR-ACT-0130",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-02-25",
+    "detention_capital_pct": 15.48,
+    "droits_vote_pct": 23.84,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0189",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000021/stellantis-20251231.htm",
+      "localisation": "« Major Shareholders », p. 12"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote accrus par les actions spéciales de vote ; aucun actionnaire ne peut en exercer 30% ou plus en assemblée.",
+    "garde_fou": "Le document parle de l’influence significative de quelques actionnaires, pas d’un contrôle ; les parts ne s’additionnent pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0190",
+    "source_actor": "FR-ACT-0002",
+    "target_actor": "FR-ACT-0130",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-02-25",
+    "detention_capital_pct": 6.64,
+    "droits_vote_pct": 10.22,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0189",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000021/stellantis-20251231.htm",
+      "localisation": "« Major Shareholders », p. 12"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote accrus par les actions spéciales de vote. La Caisse des dépôts détient en outre 0,28% du capital, non additionné.",
+    "garde_fou": "Le document parle de l’influence significative de quelques actionnaires, pas d’un contrôle ; les parts ne s’additionnent pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0191",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0130",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-02-25",
+    "detention_capital_pct": 3.1,
+    "droits_vote_pct": 2.79,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0189",
+      "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000021/stellantis-20251231.htm",
+      "localisation": "« Major Shareholders », p. 12"
+    },
+    "preuve": "P4",
+    "incertitude": "Seuil néerlandais de 3% ; au registre, BlackRock oscille autour de 3% (2,74% du capital et 3,19% des droits de vote le 22 juillet 2026).",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0192",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0132",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 6.5,
+    "droits_vote_pct": 6.2,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0191",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0161/7B8377B29102D040A519060397FA826D8FFEE1EA08D28BB50DCC97E2CF3319BB.zip",
+      "localisation": "§ 6.4.1.1"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; 6,4% des droits exerçables ; d’après sa notification du 31 mars 2025.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0193",
+    "source_actor": "FR-ACT-0164",
+    "target_actor": "FR-ACT-0133",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-02-27",
+    "detention_capital_pct": 18.6,
+    "droits_vote_pct": 18.6,
+    "controle": "controle_ecarte",
+    "citation": {
+      "source_id": "FR-CPL-0192",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0139/F930C8878A2C46C4CE9F162DE964127B7664EA2687E4EC61CF266E18DE130999.zip",
+      "localisation": "§ 7.4.3, p. 480"
+    },
+    "preuve": "P4",
+    "incertitude": "Selon sa déclaration du 27 février 2026 ; elle détient en outre 8,88% par assimilation (instruments financiers), non repris. Aucun avis AMF correspondant n’a été trouvé.",
+    "garde_fou": "La société écrit qu’elle n’est pas contrôlée : cette part ne donne pas le contrôle et ne s’additionne à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0194",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0133",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-25",
+    "detention_capital_pct": 8.01,
+    "droits_vote_pct": 8.01,
+    "controle": "controle_ecarte",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0192",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0139/F930C8878A2C46C4CE9F162DE964127B7664EA2687E4EC61CF266E18DE130999.zip",
+      "localisation": "§ 7.4.3, p. 480"
+    },
+    "preuve": "P4",
+    "incertitude": "Valeur à la date de publication du document.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0195",
+    "source_actor": "FR-ACT-0165",
+    "target_actor": "FR-ACT-0134",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-06-30",
+    "detention_capital_pct": 5.4,
+    "droits_vote_pct": 5.48,
+    "controle": "controle_ecarte",
+    "citation": {
+      "source_id": "FR-CPL-0193",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0118-A01/46B22A1C23C12E6BE31B6745AEA61CB43266EC959398136110BB743EEF453101.pdf",
+      "localisation": "§ 5.2.1, p. 75 / PDF 77"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote exerçables ; le pourcentage théorique n’est pas imprimé. 5,10% du capital au 31 décembre 2025.",
+    "garde_fou": "La société écrit qu’elle n’est pas contrôlée : cette part ne donne pas le contrôle et ne s’additionne à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0196",
+    "source_actor": "FR-ACT-0041",
+    "target_actor": "FR-ACT-0134",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-06-30",
+    "detention_capital_pct": 5.03,
+    "droits_vote_pct": 5.1,
+    "controle": "controle_ecarte",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0193",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0118-A01/46B22A1C23C12E6BE31B6745AEA61CB43266EC959398136110BB743EEF453101.pdf",
+      "localisation": "§ 5.2.1, p. 75 / PDF 77"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote exerçables ; 5,41% du capital au 7 juillet 2026 selon l’avis 226C1006.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0197",
+    "source_actor": "FR-ACT-0043",
+    "target_actor": "FR-ACT-0135",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 8.8,
+    "droits_vote_pct": null,
+    "controle": "controle_ecarte",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0195",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0051/70C61A842F95D997ACFCE84A65B65061448025EBD920DA2F8D5F6B6BE02AD02F.zip",
+      "localisation": "§ 3.3, p. 328"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document ne donne que le capital ; il n’y a ni droit de vote double ni droit de vote différent.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0198",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0135",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 6.0,
+    "droits_vote_pct": null,
+    "controle": "controle_ecarte",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0195",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0051/70C61A842F95D997ACFCE84A65B65061448025EBD920DA2F8D5F6B6BE02AD02F.zip",
+      "localisation": "§ 3.3, p. 328"
+    },
+    "preuve": "P4",
+    "incertitude": "« Au travers de ses différents fonds » ; dernière déclaration, statutaire, le 31 décembre 2025, à 5,98%.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0199",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0136",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-31",
+    "detention_capital_pct": 4.99,
+    "droits_vote_pct": 5.59,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0197",
+      "url": "http://web.archive.org/web/20260411213715id_/https://corporate.arcelormittal.com/investors/corporate-governance/shareholding-structure"
+    },
+    "preuve": "P4",
+    "incertitude": "Pourcentage du capital émis fondé sur sa notification du 10 juin 2024 ; au Luxembourg, le seuil de déclaration porte sur les droits de vote.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0200",
+    "source_actor": "FR-ACT-0139",
+    "target_actor": "FR-ACT-0088",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 11.47,
+    "droits_vote_pct": 14.41,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0152",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0151/E7C4332043F95E491F7804DDEE3E0648974E550795E3A38ED8BF615B784AC0BC.zip",
+      "localisation": "§ 3.8.8.1, p. 305"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote exerçables en assemblée, égaux aux droits théoriques.",
+    "garde_fou": "Louis Hachette Group contrôle Lagardère ; cette participation minoritaire ne s’y additionne pas.",
+    "statut": "VERIFIED"
   }
 ]

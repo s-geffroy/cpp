@@ -2446,7 +2446,7 @@
       }
     ],
     "statut": "VERIFIED",
-    "notes": "Qatar Holding LLC, filiale de l’autorité d’investissement du Qatar, détient 11,47% du capital et 14,41% des droits de vote ; aucun identifiant officiel n’a été trouvé, aucun lien n’est saisi. « La Société n’a pas connaissance d’actions de concert. »"
+    "notes": "« La Société n’a pas connaissance d’actions de concert. »"
   },
   {
     "actor_id": "FR-ACT-0089",
@@ -2989,5 +2989,1784 @@
     ],
     "statut": "VERIFIED",
     "notes": "Saisie bien que sous le seuil de 5%, comme tous les actionnaires étrangers de TV5Monde. NEQ attesté par GLEIF seulement. LEI non renouvelé depuis 2023."
+  },
+  {
+    "actor_id": "FR-ACT-0107",
+    "nom": "ACCOR",
+    "nom_usuel": "Accor",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "602036444",
+      "lei": "969500QZC2Q0TK11NV07",
+      "isin": "FR0000120404"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0165",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0152/0205C94FC9B8A6633A1FA0C052081EFF6F3CD986E32045DECF7AE2C8D9CA73F1.zip",
+        "localisation": "§ 7.4.1 ; note 15.1 des comptes consolidés"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=602036444"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500QZC2Q0TK11NV07"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Qatar Investment Authority et Kingdom Holding Company « exercent une influence notable sur Accor SA » (note 15.1) ; pactes de douze ans conclus en 2016 avec chacun. Les salariés détiennent 2,41% du capital. Un fonds géré par Parvus, Parvus European Opportunities Master Fund, détient à lui seul 5,85% du capital : il est compris dans la déclaration de son gestionnaire et n’est pas saisi à part."
+  },
+  {
+    "actor_id": "FR-ACT-0108",
+    "nom": "L'AIR LIQUIDE SOCIETE ANONYME POUR L'ETUDE ET L'EXPLOITATION DES PROCEDES GEORGES CLAUDE",
+    "nom_usuel": "Air Liquide",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "552096281",
+      "lei": "969500MMPQVHK671GT54",
+      "isin": "FR0000120073"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0166",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0066/6D9E7CA8141366B1DE9E0BE1A050D8EBE0CEC5499D106DB0057303B463CA8516.zip",
+        "localisation": "informations complémentaires, capital social, p. 403"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=552096281"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500MMPQVHK671GT54"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Il n’existe pas de droits de vote double. À la connaissance de la Société, il n’existe pas de pacte d’Actionnaires ou d’action de concert. » Salariés et anciens salariés : environ 3,0% du capital."
+  },
+  {
+    "actor_id": "FR-ACT-0109",
+    "nom": "AXA",
+    "nom_usuel": "AXA",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "siren": "572093920",
+      "lei": "F5WCUMTUM4RKZ1MAIE39",
+      "isin": "FR0000120628"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0167",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0110/5C061D430EC761F3EFA94C4C5875AA930FAE674C628CBA70FE53AC0CCD28A66C.zip",
+        "localisation": "§ 7.2.1 « Répartition du capital »"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=572093920"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/F5WCUMTUM4RKZ1MAIE39"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Les deux Mutuelles AXA ont « déclaré leur intention de voter collectivement et de manière identique » ; leurs parts ne sont pas additionnées ici (15,64% du capital et 25,78% des droits de vote ensemble). Salariés et agents : 4,87% du capital et 7,04% des droits de vote."
+  },
+  {
+    "actor_id": "FR-ACT-0110",
+    "nom": "BUREAU VERITAS",
+    "nom_usuel": "Bureau Veritas",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "775690621",
+      "lei": "969500TPU5T3HA5D1F11",
+      "isin": "FR0006174348"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0168",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0167/2567CA2E32E67E3A0F48E23B199FC1835F3BCE97531CE1A6F224BC3584EBE95D.zip",
+        "localisation": "§ 7.8.1 « Structure de l’actionnariat du Groupe »"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=775690621"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500TPU5T3HA5D1F11"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Le groupe Wendel est l’actionnaire de contrôle de Bureau Veritas. » Sa détention effective est portée par Eufor SAS, filiale à 100% de Wendel SE ; les positions sur dérivés de Wendel et la position de BNP Paribas, banque, ne sont pas saisies."
+  },
+  {
+    "actor_id": "FR-ACT-0111",
+    "nom": "CAPGEMINI",
+    "nom_usuel": "Capgemini",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SE",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "330703844",
+      "lei": "96950077L0TN7BAROX36",
+      "isin": "FR0000125338"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0169",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0127/79A5F23BD211933A17CE6D04760A04A4F9362D71D0E4F6DB8FEE4D679BDAE06C.zip",
+        "localisation": "§ 6.3, p. 447-448"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=330703844"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/96950077L0TN7BAROX36"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Le document nomme sans chiffre les actionnaires au-delà de 5% au 13 mars 2026 : Amundi Asset Management, qui gère notamment le fonds des salariés (actionnariat salarié 8,4%), BlackRock, Crédit Agricole CIB (positions surtout sur dérivés) et MFS, passé sous 5% le 30 juillet 2026 (avis 226C1216). Seul BlackRock est saisi. Ni pacte ni droit de vote double."
+  },
+  {
+    "actor_id": "FR-ACT-0112",
+    "nom": "CARREFOUR",
+    "nom_usuel": "Carrefour",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "652014051",
+      "lei": "549300B8P6MUJ1YWTS08",
+      "isin": "FR0000120172"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0170",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0143/7A3CB233AA8727B6F5EE7B409F80D8CBC4ECFCF43ACB2FA1B88354B4090AB39A.zip",
+        "localisation": "§ 8.3.1 « Principaux actionnaires »"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=652014051"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300B8P6MUJ1YWTS08"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Il n’existe aucun pacte d’actionnaires au sein de Carrefour. » Galfa détient en outre 2,04% du capital par options d’achat, non saisies : le « sous-total Galfa » du tableau (9,46%) les additionne. Fonds des salariés : 1,48% du capital."
+  },
+  {
+    "actor_id": "FR-ACT-0113",
+    "nom": "DANONE",
+    "nom_usuel": "Danone",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "552032534",
+      "lei": "969500KMUQ2B6CBAF162",
+      "isin": "FR0000120644"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0171",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0063/89708FA20E711C6B82CFEDF5FF402C4B8E7375F3418569A7831FA88A50CB0872.zip",
+        "localisation": "§ 6.8 « Actionnariat au 31 décembre 2025 »"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=552032534"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500KMUQ2B6CBAF162"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Artisan Partners détient 5,9% du capital et 8,3% des droits de vote bruts ; l’entité juridique exacte n’est pas imprimée, aucun lien n’est saisi. Fonds « Fonds Danone » des salariés : 1,7% du capital."
+  },
+  {
+    "actor_id": "FR-ACT-0114",
+    "nom": "DASSAULT SYSTEMES",
+    "nom_usuel": "Dassault Systèmes",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SE",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-037"
+    ],
+    "identifiants": {
+      "siren": "322306440",
+      "lei": "96950065LBWY0APQIM86",
+      "isin": "FR0014003TT8"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0172",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0193/3B175C02FE0AB6911C8765DCCA84143488D5931EF29CFAC9BF45365561BE93A3.zip",
+        "localisation": "§ 6.3.1, p. 398 ; § 6.3.2, p. 399"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=322306440"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/96950065LBWY0APQIM86"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Avec plus de 50% des droits de vote de Dassault Systèmes détenus par GIMD, la famille Dassault contrôle ultimement Dassault Systèmes. » M. Charles Edelstenne détient 6,01% du capital, en partie en usufruit : personne physique, non enregistrée."
+  },
+  {
+    "actor_id": "FR-ACT-0115",
+    "nom": "EIFFAGE",
+    "nom_usuel": "Eiffage",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-050"
+    ],
+    "identifiants": {
+      "siren": "709802094",
+      "lei": "969500OQXKE5WDM9M994",
+      "isin": "FR0000130452"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0173",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0157/0059F6EFA9DD1FE501658135B3FC3493AA4D62317012A4AB2E038CE82C35F665.zip",
+        "localisation": "chapitre « Informations sur la société, le capital et l’actionnariat », § 1.4"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=709802094"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500OQXKE5WDM9M994"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Les salariés sont les premiers actionnaires : le fonds Eiffage Actionnariat détient 20,78% du capital et 29,83% des droits de vote au 29 mai 2026 (avis 226C0870), la SICAV Eiffage 2000 3,4% du capital et 5,6% des droits de vote, les salariés en direct 2,6%. Épargne salariale : non saisie comme acteur."
+  },
+  {
+    "actor_id": "FR-ACT-0116",
+    "nom": "ESSILORLUXOTTICA",
+    "nom_usuel": "EssilorLuxottica",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-015",
+      "FR-NODE-040"
+    ],
+    "identifiants": {
+      "siren": "712049618",
+      "lei": "549300M3VH1A3ER1TB49",
+      "isin": "FR0000121667"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0174",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0067/0D68313E89A3B969F30FC93636A5F593D5C83740DCE94719A81161AF47F6C7EB.zip",
+        "localisation": "§ 7.2.1 ; § 7.4 ; note 27 des comptes"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=712049618"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300M3VH1A3ER1TB49"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Delfin S.à r.l. est la maison mère d’EssilorLuxottica » ; Delfin, « holding de la famille de Monsieur Leonardo Del Vecchio », est soumise à un engagement de ne pas lancer d’offre publique. Aucun actionnaire ne peut exprimer plus de 31% des droits de vote ; plus de droit de vote double depuis 2018."
+  },
+  {
+    "actor_id": "FR-ACT-0117",
+    "nom": "EUROFINS SCIENTIFIC SE",
+    "nom_usuel": "Eurofins Scientific",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société européenne de droit luxembourgeois",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "529900JEHFM47DYY3S57",
+      "isin": "FR0014000MR3",
+      "autre": {
+        "registre": "Registre de commerce et des sociétés (Luxembourg)",
+        "cle": "B167775"
+      }
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0175",
+        "url": "https://cdnmediaassets.eurofins.com/eurofins-corporate/media/phdpf4kt/eurofins-first-half-year-2026-report.pdf",
+        "localisation": "p. 22-23"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/529900JEHFM47DYY3S57"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Les droits de vote multiples d’Analytical Bioventures viennent de « Beneficiary Units ». Rothschild & Co Wealth Management UK déclare 5,00% du capital mais 2,48% des droits de vote (avis 225C1527) ; le seuil luxembourgeois portant sur les droits de vote, aucun lien n’est saisi."
+  },
+  {
+    "actor_id": "FR-ACT-0118",
+    "nom": "Euronext N.V.",
+    "nom_usuel": "Euronext",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Naamloze vennootschap de droit néerlandais",
+    "categories": [
+      "FR-NODE-054"
+    ],
+    "identifiants": {
+      "lei": "724500QJ4QSZ3H9QU415",
+      "isin": "NL0006294274",
+      "autre": {
+        "registre": "Kamer van Koophandel (Pays-Bas)",
+        "cle": "60234520"
+      }
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0176",
+        "url": "https://www.euronext.com/sites/default/files/financial-event-doc/2026-04/EUR_2025_URD_EN_VMEL.pdf",
+        "localisation": "§ 6.3, p. 201 / PDF 203 ; § 6.4, p. 203-209"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/724500QJ4QSZ3H9QU415"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Opérateur de la Bourse de Paris. Les actionnaires de référence (Caisse des dépôts, CDP Equity, SFPI, Intesa Sanpaolo, ABN AMRO) votent ensemble selon un pacte qui court jusqu’au 29 avril 2028 ; leurs parts ne sont pas additionnées ici. « None of Euronext’s shareholders hold 10% or more in the capital of the Company. » Une action, une voix ; seuil de déclaration néerlandais de 3%."
+  },
+  {
+    "actor_id": "FR-ACT-0119",
+    "nom": "HERMES INTERNATIONAL",
+    "nom_usuel": "Hermès",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société en commandite par actions",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "572076396",
+      "lei": "969500Y4IJGHJE2MTJ13",
+      "isin": "FR0000052292"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0178",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0114/CBBDE3794700DA7CCD45B4EF4EC18BC78AFEB3BC39486E92A101A56035A54D24.zip",
+        "localisation": "§ 7.2.2.3, p. 458 ; § 7.2.2.6, p. 459"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=572076396"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500Y4IJGHJE2MTJ13"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« La société Hermès International est contrôlée – par l’intermédiaire de la société Émile Hermès SAS, son Associé commandité – par le groupe familial Hermès […]. Ce contrôle est un contrôle exclusif au sens de l’article L. 233-16 du Code de commerce. » Les autres membres du groupe familial (5,7% du capital) ne sont pas nommés. Aucune action détenue par un fonds des salariés."
+  },
+  {
+    "actor_id": "FR-ACT-0120",
+    "nom": "KERING",
+    "nom_usuel": "Kering",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "552075020",
+      "lei": "549300VGEJKB7SVUZR78",
+      "isin": "FR0000121485"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0179",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0266/C309289F82AEED2F9E217E7AF66A2CCF745595BC227F5C9D01AAFA76630CF737.zip",
+        "localisation": "chapitre 7, § 2.1, p. 478 ; p. 457"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=552075020"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300VGEJKB7SVUZR78"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Il n’existe aucun pacte d’actionnaires, ni aucun accord dont la mise en œuvre pourrait entraîner un changement de contrôle de Kering. » Artémis est « détenue en totalité par la Société Financière Pinault », non enregistrée."
+  },
+  {
+    "actor_id": "FR-ACT-0121",
+    "nom": "L'OREAL",
+    "nom_usuel": "L’Oréal",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "632012100",
+      "lei": "529900JI1GG6F7RKVI53",
+      "isin": "FR0000120321"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0180",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0105/1DF6DADA80E88CA237A06FBF70690D79EC4614FB9DDE78784A87ABE144E4A1EC.zip",
+        "localisation": "§ 7.3.1 et § 7.3.2"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=632012100"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/529900JI1GG6F7RKVI53"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "La famille Bettencourt Meyers et Nestlé « n’agissent plus de concert depuis le 21 mars 2018 ». La ligne familiale du tableau (34,79%) additionne Téthys, Financière L’Arcouest et des personnes physiques. Plus de droit de vote double depuis 2004. Salariés : 2,06% du capital."
+  },
+  {
+    "actor_id": "FR-ACT-0122",
+    "nom": "LEGRAND",
+    "nom_usuel": "Legrand",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "421259615",
+      "lei": "969500XXRPGD7HCAFA90",
+      "isin": "FR0010307819"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0181",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0231/DE41CDFA9E9EA0953F703012C2D41093E89A26118138805CF263F2663278131E.zip",
+        "localisation": "§ 7.1.1 et § 7.1.4"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=421259615"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500XXRPGD7HCAFA90"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Le document nomme, sans chiffre, MFS et BlackRock au-delà de 5% au 27 février 2026 ; MFS est passé sous 5% le 13 juillet 2026 (avis 226C1077). Ni pacte, ni action de concert, ni droit de vote double. Salariés : 2,96% du capital."
+  },
+  {
+    "actor_id": "FR-ACT-0123",
+    "nom": "LVMH MOET HENNESSY LOUIS VUITTON",
+    "nom_usuel": "LVMH",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SE",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "775670417",
+      "lei": "IOG4E947OATN0KJYSD45",
+      "isin": "FR0000121014"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0182",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0195/CA8A1E35A6C70FC2DE6B35F0939523887728C2FE2C11DFAC7F9B5F7675629928.zip",
+        "localisation": "§ 2.3 ; § 3.1, p. 467"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=775670417"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/IOG4E947OATN0KJYSD45"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« La Société est contrôlée par le groupe familial Arnault » (49,77% du capital et 65,89% des droits de vote exerçables au 31 décembre 2025, total qui n’est pas repris). Le document écrit qu’il n’existe « aucune action de concert », alors que l’avis AMF 226C0219 décrit un franchissement « de concert ». Salariés : moins de 1%."
+  },
+  {
+    "actor_id": "FR-ACT-0124",
+    "nom": "COMPAGNIE GENERALE DES ETABLISSEMENTS MICHELIN",
+    "nom_usuel": "Michelin",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société en commandite par actions",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "855200887",
+      "lei": "549300SOSI58J6VIW052",
+      "isin": "FR001400AJ45"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0183",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0220/D47813F9B1BC76D52995B0F27CF04025AE66CB9703288EB5DB4F51F67FACFF18.zip",
+        "localisation": "§ 2.11 et § 2.13"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=855200887"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300SOSI58J6VIW052"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société en commandite : un actionnaire majoritaire « ne pourrait contrôler la Société sans avoir recueilli […] l’accord » des associés commandités. Il n’existe pas de pacte d’actionnaires. Plan d’épargne du groupe : 3,1% du capital."
+  },
+  {
+    "actor_id": "FR-ACT-0125",
+    "nom": "PERNOD RICARD",
+    "nom_usuel": "Pernod Ricard",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "582041943",
+      "lei": "52990097YFPX9J0H5D87",
+      "isin": "FR0000120693"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0184",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2025/D.25-0638/70AAEFFCD7EE83A816B1A8D8E8B4313660B8CCED78FA841440BD569BA4E9ECEE.zip",
+        "localisation": "§ 9.2.6, p. 461-464"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=582041943"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/52990097YFPX9J0H5D87"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Il n’y a pas de personne physique ou morale qui, directement ou indirectement, isolément ou conjointement, ou de concert, exerce un contrôle sur le capital de Pernod Ricard. » Le concert Paul Ricard détient 15,16% du capital et 22,00% des droits de vote (avis 226C0017) ; ses autres membres sont sous 5% ou des personnes physiques. Exercice clos le 30 juin. Salariés : 1,35% du capital."
+  },
+  {
+    "actor_id": "FR-ACT-0126",
+    "nom": "PUBLICIS GROUPE S.A.",
+    "nom_usuel": "Publicis Groupe",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-038"
+    ],
+    "identifiants": {
+      "siren": "542080601",
+      "lei": "2138004KW8BV57III342",
+      "isin": "FR0000130577"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0185",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0325/CE045B22FE4772016026E0F6B918FAAE86247CDE007E4E7909147738DA9D63CC.zip",
+        "localisation": "§ 8.2.1, p. 375 ; § 8.2.2, p. 377"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=542080601"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/2138004KW8BV57III342"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Mme Élisabeth Badinter et des « sociétés holdings familiales » non nommées détiennent ensemble 6,57% du capital et 12,15% des droits de vote ; faute d’entité identifiée, aucun lien n’est saisi. Fonds des salariés : 0,18% du capital."
+  },
+  {
+    "actor_id": "FR-ACT-0127",
+    "nom": "COMPAGNIE DE SAINT-GOBAIN",
+    "nom_usuel": "Saint-Gobain",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "542039532",
+      "lei": "NFONVGN05Z0FMN5PEC35",
+      "isin": "FR0000125007"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0186",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0077/1BD68197DBE96A239931696E1672B1AD8422D9DE46272B072E1C251AEC9CFFBC.zip",
+        "localisation": "§ 6.1.4, p. 326 ; § 6.1.8, p. 328"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=542039532"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/NFONVGN05Z0FMN5PEC35"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Les fonds du plan d’épargne du groupe détiennent 7,71% du capital et 13,70% des droits de vote. Droit de vote double après deux ans au nominatif."
+  },
+  {
+    "actor_id": "FR-ACT-0128",
+    "nom": "SANOFI",
+    "nom_usuel": "Sanofi",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-040"
+    ],
+    "identifiants": {
+      "siren": "395030844",
+      "lei": "549300E9PC51EN656011",
+      "isin": "FR0000120578"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0187",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0030/CD6976A136A75276E06191061B53F09A36EA91A351AA4AA4EA3E1FF22B84DB09.zip",
+        "localisation": "§ 7.3.2.1, p. 483 ; § 4.1.6.2, p. 296"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=395030844"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300E9PC51EN656011"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« À ce jour, Sanofi n’a connaissance d’aucun pacte d’actionnaires. » Salariés : 2,92% du capital et 5,29% des droits de vote théoriques."
+  },
+  {
+    "actor_id": "FR-ACT-0129",
+    "nom": "SCHNEIDER ELECTRIC SE",
+    "nom_usuel": "Schneider Electric",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SE",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "542048574",
+      "lei": "969500A1YF1XUYYXS284",
+      "isin": "FR0000121972"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0188",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0159/CE9D0CD662AECC53FB4D1F49BB908DB684E85D6D5AA05B40D41F09AAC5C1CD88.zip",
+        "localisation": "§ 7.1.1, p. 586"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=542048574"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500A1YF1XUYYXS284"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Salariés : 3,3% du capital et 5,9% des droits de vote, dont deux fonds d’épargne salariale."
+  },
+  {
+    "actor_id": "FR-ACT-0130",
+    "nom": "STELLANTIS N.V.",
+    "nom_usuel": "Stellantis",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Naamloze vennootschap de droit néerlandais",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "549300LKT9PW7ZIBDF31",
+      "isin": "NL00150001Q9",
+      "autre": {
+        "registre": "Kamer van Koophandel (Pays-Bas)",
+        "cle": "60372958"
+      }
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0189",
+        "url": "https://www.sec.gov/Archives/edgar/data/1605484/000160548426000021/stellantis-20251231.htm",
+        "localisation": "« Major Shareholders », p. 11-12 ; p. 141"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300LKT9PW7ZIBDF31"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Les actions spéciales de vote donnent à Exor, EPF et Bpifrance plus de droits de vote que de capital. Les Établissements Peugeot Frères détiennent 7,72% du capital et 11,89% des droits de vote « through Peugeot Invest and its subsidiary Peugeot 1810 », sans répartition par entité : aucun lien n’est saisi. Aucun actionnaire ne peut exercer 30% ou plus des droits de vote en assemblée."
+  },
+  {
+    "actor_id": "FR-ACT-0131",
+    "nom": "STMICROELECTRONICS N.V.",
+    "nom_usuel": "STMicroelectronics",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Naamloze vennootschap de droit néerlandais",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "213800Z8NOHIKRI42W10",
+      "isin": "NL0000226223",
+      "autre": {
+        "registre": "Kamer van Koophandel (Pays-Bas)",
+        "cle": "33194537"
+      }
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0190",
+        "url": "https://www.sec.gov/Archives/edgar/data/932787/000093278726000017/stm_arxmaster-dar2025sec.htm",
+        "localisation": "§ 5.12, p. 271"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/213800Z8NOHIKRI42W10"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "STMicroelectronics Holding N.V., détenue par l’État français (par Bpifrance) et l’État italien, en possède 27,5% et « may therefore be in a position to effectively control » les décisions d’assemblée ; aucun identifiant de cette holding n’a été trouvé, et son détenteur direct serait une filiale : aucun lien n’est saisi. BlackRock oscille autour de 5% du capital au registre néerlandais."
+  },
+  {
+    "actor_id": "FR-ACT-0132",
+    "nom": "TotalEnergies SE",
+    "nom_usuel": "TotalEnergies",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SE",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-032"
+    ],
+    "identifiants": {
+      "siren": "542051180",
+      "lei": "529900S21EQ1BO4ESM68",
+      "isin": "FR0000120271"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0191",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0161/7B8377B29102D040A519060397FA826D8FFEE1EA08D28BB50DCC97E2CF3319BB.zip",
+        "localisation": "§ 6.4.1 et § 6.4.2"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=542051180"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/529900S21EQ1BO4ESM68"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Pas de droit de vote double depuis 2023 ; plafond statutaire de 10% des droits de vote en assemblée. Salariés : 8,9% du capital ; le fonds TotalEnergies Actionnariat France est passé sous 5% le 26 mars 2026 (avis 226C0431). Capital Group a franchi puis repassé le seuil de 5% en 2026 (226C0527, 226C0894)."
+  },
+  {
+    "actor_id": "FR-ACT-0133",
+    "nom": "UNIBAIL-RODAMCO-WESTFIELD SE",
+    "nom_usuel": "Unibail-Rodamco-Westfield",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SE",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "682024096",
+      "lei": "969500SHQITWXSIS7N89",
+      "isin": "FR0013326246"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0192",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0139/F930C8878A2C46C4CE9F162DE964127B7664EA2687E4EC61CF266E18DE130999.zip",
+        "localisation": "§ 7.4.3, p. 480 ; § 7.4.4"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=682024096"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500SHQITWXSIS7N89"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Une action, une voix. Société Générale, banque, dépasse 15% surtout par assimilation (dérivés) : non saisie."
+  },
+  {
+    "actor_id": "FR-ACT-0134",
+    "nom": "VEOLIA ENVIRONNEMENT",
+    "nom_usuel": "Veolia",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-050"
+    ],
+    "identifiants": {
+      "siren": "403210032",
+      "lei": "969500LENY69X51OOT31",
+      "isin": "FR0000124141"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0193",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0118-A01/46B22A1C23C12E6BE31B6745AEA61CB43266EC959398136110BB743EEF453101.pdf",
+        "localisation": "§ 5.2.1, p. 75 / PDF 77"
+      },
+      {
+        "source_id": "FR-CPL-0194",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0118/224EDC3AB93CD1765AA1FC54B3981C38A96743E361DBA2C93C46771E3F826864.zip",
+        "localisation": "§ 7.2.1-7.2.2, p. 494-495"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=403210032"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500LENY69X51OOT31"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "La Caisse des dépôts déclare 5,04% du capital au 30 juin 2026 « directement et indirectement » par CNP Assurances et LBP Prévoyance, sans répartition : sa dernière part directe connue est 3,11% (avis 225C0542, mars 2025), aucun lien n’est saisi. BlackRock est passé sous 5% le 27 mars 2026. Salariés : 8,32% du capital. Droit de vote double supprimé en 2024, plafond de 10%."
+  },
+  {
+    "actor_id": "FR-ACT-0135",
+    "nom": "VINCI",
+    "nom_usuel": "Vinci",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-050"
+    ],
+    "identifiants": {
+      "siren": "552037806",
+      "lei": "213800WFQ334R8UXUG83",
+      "isin": "FR0000125486"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0195",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0051/70C61A842F95D997ACFCE84A65B65061448025EBD920DA2F8D5F6B6BE02AD02F.zip",
+        "localisation": "§ 3.3, p. 328-329"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=552037806"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/213800WFQ334R8UXUG83"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Ni droit de vote double ni pacte. Les fonds des salariés détiennent 11,3% du capital ; le fonds Castor a oscillé autour du seuil de 10% en 2026 (avis 226C0853, 226C1260)."
+  },
+  {
+    "actor_id": "FR-ACT-0136",
+    "nom": "ArcelorMittal",
+    "nom_usuel": "ArcelorMittal",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société anonyme de droit luxembourgeois",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "2EULGUTUI56JI9SAL165",
+      "isin": "LU1598757687",
+      "autre": {
+        "registre": "Registre de commerce et des sociétés (Luxembourg)",
+        "cle": "B82454"
+      }
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0196",
+        "url": "https://cdn.arcelormittal.com/media/g5obzl05/annual-report-2025.pdf",
+        "localisation": "« Major shareholders », p. 144 ; p. 8 et 19"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/2EULGUTUI56JI9SAL165"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "L’« actionnaire important », la famille Mittal, détient 43,88% du capital et 44,68% des droits de vote au 31 décembre 2025, par deux holdings luxembourgeoises (Lumen Investments et Nuavam Investments) et en direct ; le document ne donne que des nombres d’actions par entité, aucun lien n’est saisi. Un accord plafonne sa part à 45%."
+  },
+  {
+    "actor_id": "FR-ACT-0137",
+    "nom": "PARVUS ASSET MANAGEMENT JERSEY LIMITED",
+    "nom_usuel": "Parvus Asset Management",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Société de droit de Jersey",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "2138009VHGDJPFLTYG38"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/2138009VHGDJPFLTYG38"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Agit « pour le compte de clients et de fonds » ; ses positions comprennent parfois des swaps sur actions, non saisis."
+  },
+  {
+    "actor_id": "FR-ACT-0138",
+    "nom": "KINGDOM HOTELS (EUROPE) LTD.",
+    "nom_usuel": "Kingdom Hotels (Europe)",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société du centre financier de Dubaï",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "213800UXKLQ5GBG3UF11"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0165",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0152/0205C94FC9B8A6633A1FA0C052081EFF6F3CD986E32045DECF7AE2C8D9CA73F1.zip",
+        "localisation": "§ 7.4.1, accords d’actionnaires"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/213800UXKLQ5GBG3UF11"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Détentrice directe des actions » Accor de Kingdom Holding Company, société cotée en Arabie saoudite, non enregistrée. Le document d’Accor l’appelle « Kingdom Hotels (Europe) LLC », GLEIF « LTD. »."
+  },
+  {
+    "actor_id": "FR-ACT-0139",
+    "nom": "QATAR HOLDING LLC",
+    "nom_usuel": "Qatar Holding",
+    "type_acteur": "fonds_institutionnel",
+    "forme_juridique": "Société de droit qatarien",
+    "categories": [
+      "FR-NODE-055"
+    ],
+    "identifiants": {
+      "lei": "549300ZQMTBNHCK6R412"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300ZQMTBNHCK6R412"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Contrôlée au plus haut niveau par Qatar Investment Authority », fonds souverain de l’État du Qatar. GLEIF l’enregistre sous son nom arabe."
+  },
+  {
+    "actor_id": "FR-ACT-0140",
+    "nom": "WELLINGTON MANAGEMENT GROUP LLP",
+    "nom_usuel": "Wellington Management",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Limited liability partnership de droit américain",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "5493002CYKEKC8C01T66"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/5493002CYKEKC8C01T66"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Déclarant des avis AMF ; le tableau d’Accor imprime « Wellington Management Company, LLP »."
+  },
+  {
+    "actor_id": "FR-ACT-0141",
+    "nom": "AXA ASSURANCES IARD MUTUELLE",
+    "nom_usuel": "AXA Assurances IARD Mutuelle",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société d’assurance mutuelle",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "siren": "775699309",
+      "lei": "9695000XB6RXI5YFGS38"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=775699309"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695000XB6RXI5YFGS38"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0142",
+    "nom": "AXA ASSURANCES VIE MUTUELLE",
+    "nom_usuel": "AXA Assurances Vie Mutuelle",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société d’assurance mutuelle",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "siren": "353457245",
+      "lei": "969500CLDCN0B80Z0L19"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=353457245"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500CLDCN0B80Z0L19"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "A franchi le seuil de 5% des droits de vote le 12 janvier 2026 (avis 226C0070), après l’avoir franchi dans les deux sens en 2023."
+  },
+  {
+    "actor_id": "FR-ACT-0143",
+    "nom": "EUFOR",
+    "nom_usuel": "Eufor",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "483044558",
+      "lei": "969500K3OQED28402807"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0203",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2025/225C1625/8B42D19EDF8603B40483BC3224EBEBF8830B8EE05FE6C401209A8DC28682FEC8.pdf"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=483044558"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500K3OQED28402807"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Société détenue à 100% par Wendel SE », dont la société de tête est Wendel-Participations SE ; ni l’une ni l’autre n’est enregistrée."
+  },
+  {
+    "actor_id": "FR-ACT-0144",
+    "nom": "LAC I SLP",
+    "nom_usuel": "LAC I",
+    "type_acteur": "fonds_institutionnel",
+    "forme_juridique": "Société de libre partenariat",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "siren": "882757172",
+      "lei": "96950033R4WGTPT2M581"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0202",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0522/6ED2169B49C568CEC2422EA5A5C8EA299545FC400E1CF00EF3C9A11CC5DC6663.pdf"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=882757172"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/96950033R4WGTPT2M581"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Fonds géré par Bpifrance Investissement, filiale à 100% de Bpifrance Participations."
+  },
+  {
+    "actor_id": "FR-ACT-0145",
+    "nom": "GALFA",
+    "nom_usuel": "Galfa",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "562016808",
+      "lei": "969500DI0OBTFLH1E803"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=562016808"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500DI0OBTFLH1E803"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Contrôlée par la société anonyme Motier (groupe Galeries Lafayette), elle-même contrôlée par la famille Moulin » (avis AMF 226C0077)."
+  },
+  {
+    "actor_id": "FR-ACT-0146",
+    "nom": "CARRIX",
+    "nom_usuel": "Carrix",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "992490227",
+      "lei": "9695009BWFMKAGGLCL15"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=992490227"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695009BWFMKAGGLCL15"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Contrôlée par Merit France SAS, laquelle est détenue par la famille Saadé » (avis AMF 225C2139), comme CMA CGM."
+  },
+  {
+    "actor_id": "FR-ACT-0147",
+    "nom": "FIRST EAGLE INVESTMENT MANAGEMENT, LLC",
+    "nom_usuel": "First Eagle Investment Management",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Limited liability company de droit américain",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "549300FZB4XB5JCHXV67"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300FZB4XB5JCHXV67"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0148",
+    "nom": "DELFIN S.À R.L.",
+    "nom_usuel": "Delfin",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société à responsabilité limitée de droit luxembourgeois",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "2221008BPW8K7WLGXY89",
+      "autre": {
+        "registre": "Registre de commerce et des sociétés (Luxembourg)",
+        "cle": "B117420"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0174",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0067/0D68313E89A3B969F30FC93636A5F593D5C83740DCE94719A81161AF47F6C7EB.zip",
+        "localisation": "§ 7.4"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/2221008BPW8K7WLGXY89"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding de la famille Del Vecchio, « détenue à parts égales entre la veuve et les ayants droit » de son fondateur."
+  },
+  {
+    "actor_id": "FR-ACT-0149",
+    "nom": "ANALYTICAL BIOVENTURES S.C.A.",
+    "nom_usuel": "Analytical Bioventures",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société en commandite par actions de droit luxembourgeois",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "222100OTKS5LJY8VPF38",
+      "autre": {
+        "registre": "Registre de commerce et des sociétés (Luxembourg)",
+        "cle": "B89265"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0175",
+        "url": "https://cdnmediaassets.eurofins.com/eurofins-corporate/media/phdpf4kt/eurofins-first-half-year-2026-report.pdf",
+        "localisation": "p. 23, note (2)"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/222100OTKS5LJY8VPF38"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Private company incorporated in Luxembourg and controlled by Dr Gilles Martin », holding de la famille Martin."
+  },
+  {
+    "actor_id": "FR-ACT-0150",
+    "nom": "CDP EQUITY S.P.A.",
+    "nom_usuel": "CDP Equity",
+    "type_acteur": "organisme_financier_public",
+    "forme_juridique": "Società per azioni de droit italien",
+    "categories": [
+      "FR-NODE-055"
+    ],
+    "identifiants": {
+      "lei": "8156009C9BE3695B7E91",
+      "autre": {
+        "registre": "Registro delle imprese (Italie)",
+        "cle": "07532930968"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0176",
+        "url": "https://www.euronext.com/sites/default/files/financial-event-doc/2026-04/EUR_2025_URD_EN_VMEL.pdf",
+        "localisation": "§ 6.3"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/8156009C9BE3695B7E91"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Groupe Cassa Depositi e Prestiti, contrôlé par l’État italien."
+  },
+  {
+    "actor_id": "FR-ACT-0151",
+    "nom": "MASSACHUSETTS FINANCIAL SERVICES COMPANY",
+    "nom_usuel": "MFS",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Société de droit américain",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "1G3OSH3GLGJ7X1JC5I61"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/1G3OSH3GLGJ7X1JC5I61"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Contrôlée par Sun Life Financial."
+  },
+  {
+    "actor_id": "FR-ACT-0152",
+    "nom": "H51",
+    "nom_usuel": "H51",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS à capital variable",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "529195737",
+      "lei": "969500U4YNVPIDMF7O51"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0178",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0114/CBBDE3794700DA7CCD45B4EF4EC18BC78AFEB3BC39486E92A101A56035A54D24.zip",
+        "localisation": "§ 7.2.2.3"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=529195737"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500U4YNVPIDMF7O51"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Détenue exclusivement par des membres du groupe familial Hermès » ; bénéficie d’un droit prioritaire d’acquisition sur les actions Hermès."
+  },
+  {
+    "actor_id": "FR-ACT-0153",
+    "nom": "H2",
+    "nom_usuel": "H2",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "380416990",
+      "lei": "969500BZ9O3A6AAUD051"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0178",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0114/CBBDE3794700DA7CCD45B4EF4EC18BC78AFEB3BC39486E92A101A56035A54D24.zip",
+        "localisation": "§ 7.2.2.3"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=380416990"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500BZ9O3A6AAUD051"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Détenue exclusivement par des membres du groupe familial Hermès ». SIREN rapproché par un administrateur commun : le document ne l’imprime pas."
+  },
+  {
+    "actor_id": "FR-ACT-0154",
+    "nom": "ARTEMIS",
+    "nom_usuel": "Artémis",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "378648992",
+      "lei": "969500FJUGIPLYLEEC76"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0179",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0266/C309289F82AEED2F9E217E7AF66A2CCF745595BC227F5C9D01AAFA76630CF737.zip",
+        "localisation": "p. 457"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=378648992"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500FJUGIPLYLEEC76"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Détenue en totalité par la Société Financière Pinault » (famille Pinault), non enregistrée."
+  },
+  {
+    "actor_id": "FR-ACT-0155",
+    "nom": "TETHYS",
+    "nom_usuel": "Téthys",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "409030053",
+      "lei": "969500PFM5CT8MYU0H44"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=409030053"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500PFM5CT8MYU0H44"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding de la famille Bettencourt Meyers."
+  },
+  {
+    "actor_id": "FR-ACT-0156",
+    "nom": "FINANCIERE L'ARCOUEST",
+    "nom_usuel": "Financière L’Arcouest",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "532541968",
+      "lei": "969500G9AUOEFF0OEH40"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=532541968"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500G9AUOEFF0OEH40"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding de la famille Bettencourt Meyers."
+  },
+  {
+    "actor_id": "FR-ACT-0157",
+    "nom": "NESTLÉ EQUITY HOLDINGS LIMITED",
+    "nom_usuel": "Nestlé Equity Holdings",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société de droit luxembourgeois",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "213800IEJSYAXZWQRU37",
+      "autre": {
+        "registre": "Registre de commerce et des sociétés (Luxembourg)",
+        "cle": "B292444"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0180",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0105/1DF6DADA80E88CA237A06FBF70690D79EC4614FB9DDE78784A87ABE144E4A1EC.zip",
+        "localisation": "§ 7.3.2, note (3)"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/213800IEJSYAXZWQRU37"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société du groupe Nestlé, qui détient les actions L’Oréal depuis un reclassement interne de 2025 (avis 225C0880)."
+  },
+  {
+    "actor_id": "FR-ACT-0158",
+    "nom": "CHRISTIAN DIOR",
+    "nom_usuel": "Christian Dior SE",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SE",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "582110987",
+      "lei": "969500WESYQMQ1F2C272"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0210",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0219/CD34C0ACB619E63980AE8EB36EFE59A6FA75A00F9E35921B9D263CB4BA0C987B.pdf"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=582110987"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500WESYQMQ1F2C272"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société cotée « contrôlée par Financière Agache » (avis 226C0219)."
+  },
+  {
+    "actor_id": "FR-ACT-0159",
+    "nom": "FINANCIERE AGACHE",
+    "nom_usuel": "Financière Agache",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "775625767",
+      "lei": "969500UPKU9VF8XAEU18"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0210",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0219/CD34C0ACB619E63980AE8EB36EFE59A6FA75A00F9E35921B9D263CB4BA0C987B.pdf"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=775625767"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500UPKU9VF8XAEU18"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Société anonyme contrôlée par Agache SCA », dont M. Bernard Arnault est gérant commandité ; Agache n’est pas enregistrée."
+  },
+  {
+    "actor_id": "FR-ACT-0160",
+    "nom": "MAGE-INVEST",
+    "nom_usuel": "Mage-Invest",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "510410657",
+      "lei": "969500O7R8PTQNV2WE14"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0183",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0220/D47813F9B1BC76D52995B0F27CF04025AE66CB9703288EB5DB4F51F67FACFF18.zip",
+        "localisation": "§ 2.11"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=510410657"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500O7R8PTQNV2WE14"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Holding familiale regroupant 400 actionnaires familiaux »."
+  },
+  {
+    "actor_id": "FR-ACT-0161",
+    "nom": "SOCIETE PAUL RICARD",
+    "nom_usuel": "Société Paul Ricard",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "629501537",
+      "lei": "969500VEO3ZW5CVMZT88"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0212",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0017/9CFC0BF9FA92CCB90DF066BFA3E099749AC71C097132B7433840FA7A2F5507B0.pdf"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=629501537"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500VEO3ZW5CVMZT88"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Contrôlée par des membres de la famille Ricard » ; elle contrôle à son tour Le Delos Invest I, II, III et Le Garlaban, membres du concert sous 5%."
+  },
+  {
+    "actor_id": "FR-ACT-0162",
+    "nom": "GROUPE BRUXELLES LAMBERT",
+    "nom_usuel": "GBL",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société anonyme de droit belge",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "549300KV0ZEHT2KVU152",
+      "autre": {
+        "registre": "Banque-Carrefour des Entreprises (Belgique)",
+        "cle": "0407040209"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300KV0ZEHT2KVU152"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0163",
+    "nom": "EXOR N.V.",
+    "nom_usuel": "Exor",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Naamloze vennootschap de droit néerlandais",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "5493002ENHZ6NYET7405",
+      "autre": {
+        "registre": "Kamer van Koophandel (Pays-Bas)",
+        "cle": "64236277"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/5493002ENHZ6NYET7405"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Détenue par Giovanni Agnelli B.V. selon le registre néerlandais des participations."
+  },
+  {
+    "actor_id": "FR-ACT-0164",
+    "nom": "ROCK INVESTMENT",
+    "nom_usuel": "Rock Investment",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "795278860",
+      "lei": "969500P1RQ4ETGSS2T25"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0192",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0139/F930C8878A2C46C4CE9F162DE964127B7664EA2687E4EC61CF266E18DE130999.zip",
+        "localisation": "§ 7.4.1, note (1)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=795278860"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500P1RQ4ETGSS2T25"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Contrôlée par NJJ Holding, détenue à 100% par M. Xavier Niel et ses enfants, non enregistrés."
+  },
+  {
+    "actor_id": "FR-ACT-0165",
+    "nom": "CRITERIA CAIXA S.A.",
+    "nom_usuel": "CriteriaCaixa",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société anonyme de droit espagnol",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "959800DQQUAMV0K08004"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/959800DQQUAMV0K08004"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« La société d’investissement de la Fondation La Caixa » (document de Veolia)."
   }
 ]
