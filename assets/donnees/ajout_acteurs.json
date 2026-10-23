@@ -1959,5 +1959,1035 @@
     ],
     "statut": "VERIFIED",
     "notes": "Capital « intégralement public » par la loi (loi n° 90-568 du 2 juillet 1990, art. 1er-2). Catégorie 013 comme Bpifrance Participations : la majorité est tenue par la Caisse des dépôts, entité publique, et non par l’État directement. Conseil de 21 membres : 7 salariés, 1 représentant de l’État nommé par décret, 2 administrateurs proposés par l’État et 11 par la Caisse des dépôts. Pacte d’actionnaires du 3 mars 2020, dont le contenu n’est pas publié."
+  },
+  {
+    "actor_id": "FR-ACT-0073",
+    "nom": "TELEVISION FRANCAISE 1",
+    "nom_usuel": "TF1",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "326300159",
+      "lei": "969500WQFC6OAQYG7E65",
+      "isin": "FR0000054900"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0147",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0081/63F0772E526CD7A7A5EC1844337FDB9D71B7E3A4DF26DACB9098F1BC61F60194.zip",
+        "localisation": "§ 7.1.2, p. 400-402"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=326300159"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500WQFC6OAQYG7E65"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« La société est contrôlée comme décrit ci-après ; toutefois, la société estime qu’il n’y a pas de risque que le contrôle soit exercé de manière abusive. » Les salariés détiennent 10,5% du capital, dont 10,4% par le fonds d’épargne salariale FCPE TF1 Actions, non enregistré comme acteur. Le document cite aussi VESA Equity Investment parmi les actionnaires au-delà de 5% des droits de vote, sans la faire figurer dans le tableau : aucun lien n’est saisi pour elle."
+  },
+  {
+    "actor_id": "FR-ACT-0074",
+    "nom": "BOUYGUES",
+    "nom_usuel": "Bouygues",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-034"
+    ],
+    "identifiants": {
+      "siren": "572015246",
+      "lei": "969500MOCLNQFNZN0D63",
+      "isin": "FR0000120503"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0148",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0111/3028C81305DC96DBA2854CCA3ECC85279865147D456890DBC6220BD2493B4F1A.zip",
+        "localisation": "§ 5.3.1 et § 5.3.3"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=572015246"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500MOCLNQFNZN0D63"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Aucun actionnaire ne contrôle la Société au sens de l’article L. 233-3 du Code de commerce. » Cinq fonds représentant les salariés détiennent 19,2% du capital et 29,3% des droits de vote au 31 décembre 2025 ; ils ne sont pas enregistrés comme acteurs."
+  },
+  {
+    "actor_id": "FR-ACT-0075",
+    "nom": "SCDM",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "330139239"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0148",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0111/3028C81305DC96DBA2854CCA3ECC85279865147D456890DBC6220BD2493B4F1A.zip",
+        "localisation": "§ 5.3.1, note du tableau"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=330139239"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Société par actions simplifiée contrôlée par Martin Bouygues, Olivier Bouygues et leurs familles », qui ne sont pas enregistrés. SIREN rapproché par le nom et l’adresse (32 avenue Hoche, siège de Bouygues) : le document ne l’imprime pas."
+  },
+  {
+    "actor_id": "FR-ACT-0076",
+    "nom": "METROPOLE TELEVISION",
+    "nom_usuel": "M6 (Métropole Télévision)",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-015",
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "339012452",
+      "lei": "96950018NOMJX5XRH047",
+      "isin": "FR0000053225"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0149",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0120/12DB225910D48AC402B0907315CC5F8C44BB0E64377035E2A3DE7717DBAAC6CD.zip",
+        "localisation": "§ 4.2.1 « Principaux actionnaires » ; § 1.3.2"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=339012452"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/96950018NOMJX5XRH047"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Aucun pacte d’actionnaires sur les titres de la Société n’est actuellement en vigueur. Aucune action de concert n’a été portée à la connaissance de la Société. » Avec 7,9% d’audience, le groupe sort du plafond de 49% de l’article 39 de la loi de 1986, selon son document."
+  },
+  {
+    "actor_id": "FR-ACT-0077",
+    "nom": "RTL Group S.A.",
+    "nom_usuel": "RTL Group",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société anonyme de droit luxembourgeois",
+    "categories": [
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "lei": "5493000C8J3C3SZYS040",
+      "autre": {
+        "registre": "Registre de commerce et des sociétés (Luxembourg)",
+        "cle": "B10807"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0149",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0120/12DB225910D48AC402B0907315CC5F8C44BB0E64377035E2A3DE7717DBAAC6CD.zip",
+        "localisation": "§ 4.2.1"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/5493000C8J3C3SZYS040"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Il est lui-même détenu à 75,00% par le groupe allemand Bertelsmann » (document de M6) : Bertelsmann n’est pas enregistré. Les actions M6 sont inscrites au nom de sa filiale RTL Group Vermögensverwaltung GmbH."
+  },
+  {
+    "actor_id": "FR-ACT-0078",
+    "nom": "CMA CGM",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "562024422",
+      "lei": "969500BZJ49IICIBZZ08"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0149",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0120/12DB225910D48AC402B0907315CC5F8C44BB0E64377035E2A3DE7717DBAAC6CD.zip",
+        "localisation": "§ 4.2.1"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=562024422"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500BZJ49IICIBZZ08"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Armateur, aussi propriétaire de BFM TV et RMC depuis le rachat d’Altice Media en 2024 : voir les lacunes."
+  },
+  {
+    "actor_id": "FR-ACT-0079",
+    "nom": "SILCHESTER INTERNATIONAL INVESTORS LLP",
+    "nom_usuel": "Silchester International Investors",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Limited liability partnership de droit anglais",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "2138006R2IS13SA8EF62",
+      "autre": {
+        "registre": "Companies House (Royaume-Uni)",
+        "cle": "OC355490"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/2138006R2IS13SA8EF62"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0080",
+    "nom": "VIVENDI SE",
+    "nom_usuel": "Vivendi",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société européenne",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "343134763",
+      "lei": "969500FU4DRAEVJW7U54",
+      "isin": "FR0000127771"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0150",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0101/824AB50B215C46041EBFC1AD7FEE6C6848ADAFB0074DD0F7F1F254BEE6D2783C.zip",
+        "localisation": "§ 3.9.1 et § 3.9.3 ; note 21.2 ; litiges"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=343134763"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500FU4DRAEVJW7U54"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Il n’existe pas d’autres actionnaires que ceux figurant au tableau ci-dessus détenant 5% ou plus […]. Il n’existe aucun pacte d’actionnaires. » Le tableau donne le « Groupe Bolloré » à 29,90% du capital, en additionnant Bolloré SE, Compagnie de l’Odet et M. Vincent Bolloré : seule la part directe de Bolloré SE est saisie. J.P. Morgan a franchi le seuil de 5% deux fois en 2026, pour quelques jours (avis AMF 226C0576, 226C0597 et 226C0972) ; il est sous ce seuil à la date d’arrêt."
+  },
+  {
+    "actor_id": "FR-ACT-0081",
+    "nom": "INDEPENDENT FRANCHISE PARTNERS, LLP",
+    "nom_usuel": "Independent Franchise Partners",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Limited liability partnership de droit anglais",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "549300RRBZZDUBNEN666",
+      "autre": {
+        "registre": "Companies House (Royaume-Uni)",
+        "cle": "OC344319"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300RRBZZDUBNEN666"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0082",
+    "nom": "BOLLORE SE",
+    "nom_usuel": "Bolloré SE",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société européenne",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "055804124",
+      "lei": "969500LEKCHH6VV86P94",
+      "isin": "FR0000039299"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0154",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0272/4CE164A9EE4A1FC2184A844A1B2143B4DCB06AABAFE102FAA28717E7D793F2F1.zip",
+        "localisation": "chapitre « Actionnariat » ; note 7.2 des comptes consolidés"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=055804124"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500LEKCHH6VV86P94"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Compagnie de l’Odet, qui la détient, est « contrôlée directement par Sofibol, elle-même contrôlée indirectement par Bolloré Participations SE (Famille Bolloré) » : ces sociétés de tête et la famille ne sont pas enregistrées. Orfimar détient 5,52% du capital ; deux sociétés portent ce nom, aucun lien n’est saisi."
+  },
+  {
+    "actor_id": "FR-ACT-0083",
+    "nom": "COMPAGNIE DE L'ODET",
+    "nom_usuel": "Compagnie de l’Odet",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société européenne",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "056801046",
+      "lei": "9695005PEG4IL375U849",
+      "isin": "FR0000062234"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0154",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0272/4CE164A9EE4A1FC2184A844A1B2143B4DCB06AABAFE102FAA28717E7D793F2F1.zip",
+        "localisation": "chapitre « Actionnariat », note (1) du tableau"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=056801046"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695005PEG4IL375U849"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Son propre document annuel n’a pas été lu. Selon l’avis AMF 225C1839, M. Vincent Bolloré en détient, directement et indirectement, 93,31% du capital au 27 octobre 2025."
+  },
+  {
+    "actor_id": "FR-ACT-0084",
+    "nom": "YACKTMAN ASSET MANAGEMENT LP",
+    "nom_usuel": "Yacktman Asset Management",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Limited partnership de droit américain",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "2549004KKYPQI765R825"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/2549004KKYPQI765R825"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0085",
+    "nom": "CANAL+",
+    "nom_usuel": "Canal+",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "835150434",
+      "lei": "9695000537F9F73BXN18",
+      "isin": "FR001400T0D6"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0155",
+        "url": "https://www.canalplusgroup.com/uploads/Canal_Annual_Report_2025_a6dcc129e8.pdf",
+        "localisation": "« Significant holdings », p. 100 / PDF 101 ; p. 101 / PDF 103"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=835150434"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695000537F9F73BXN18"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Cotée à Londres depuis décembre 2024. « Bolloré SE is considered a controlling shareholder for the purposes of the UKLRs. This does not give Bolloré SE control within the meaning of the French Commercial Code. » Les autres positions au-delà de 5% sont des banques ou des dérivés (contrats sur différence, swaps) : elles ne sont pas saisies. LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0086",
+    "nom": "LOUIS HACHETTE GROUP",
+    "nom_usuel": "Louis Hachette Group",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "808946305",
+      "lei": "969500CV8XQ2XKU2DO25",
+      "isin": "FR001400TL40"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0151",
+        "url": "https://www.louishachettegroup.com/wp-content/uploads/2026/03/260326_LHG_RAPPORT_ANNUEL.pdf",
+        "localisation": "§ 1.2, p. 22 ; § 3.5.8, p. 144-145"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=808946305"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500CV8XQ2XKU2DO25"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« La Société Louis Hachette Group n’est pas une société contrôlée, au sens de l’article L. 233-16 du Code de commerce. » Cotée sur Euronext Growth, où seuls les seuils de 50% et 90% s’appliquent. Amber Capital y déclare 7,45% « via divers fonds » ; l’entité n’est pas identifiée, aucun lien n’est saisi."
+  },
+  {
+    "actor_id": "FR-ACT-0087",
+    "nom": "LAGARDERE CAPITAL",
+    "nom_usuel": "Lagardère Capital",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société par actions simplifiée",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "339616641",
+      "lei": "969500DFDJNA7GUCR991"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0151",
+        "url": "https://www.louishachettegroup.com/wp-content/uploads/2026/03/260326_LHG_RAPPORT_ANNUEL.pdf",
+        "localisation": "§ 3.5.8.1, note (2) du tableau, p. 144"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=339616641"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500DFDJNA7GUCR991"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société « qu’il détient et contrôle intégralement » : M. Arnaud Lagardère, non enregistré. LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0088",
+    "nom": "LAGARDERE SA",
+    "nom_usuel": "Lagardère",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "320366446",
+      "lei": "969500VX2NV2AQQ65G45",
+      "isin": "FR0000130213"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0152",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0151/E7C4332043F95E491F7804DDEE3E0648974E550795E3A38ED8BF615B784AC0BC.zip",
+        "localisation": "§ 3.8.8, p. 305-307"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=320366446"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500VX2NV2AQQ65G45"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Qatar Holding LLC, filiale de l’autorité d’investissement du Qatar, détient 11,47% du capital et 14,41% des droits de vote ; aucun identifiant officiel n’a été trouvé, aucun lien n’est saisi. « La Société n’a pas connaissance d’actions de concert. »"
+  },
+  {
+    "actor_id": "FR-ACT-0089",
+    "nom": "NRJ GROUP",
+    "nom_usuel": "NRJ Group",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-014",
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "332036128",
+      "lei": "969500IQLBCOOICLAB88",
+      "isin": "FR0000121691"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0153",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0194/6AD85E8BB594006DE1125D4A52ECF40EA886DF3B65F428E1CA0E898525FA904A.zip",
+        "localisation": "§ 8.2.5.1 et § 8.2.5.4"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=332036128"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500IQLBCOOICLAB88"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Contrôlé par le « concert familial » Baudecroux, composé de personnes physiques (80,23% du capital et 86,74% des droits de vote selon l’avis AMF 225C1842) : aucun lien n’est saisi."
+  },
+  {
+    "actor_id": "FR-ACT-0090",
+    "nom": "BANQUE FEDERATIVE DU CREDIT MUTUEL",
+    "nom_usuel": "BFCM (Crédit Mutuel Alliance Fédérale)",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-017"
+    ],
+    "identifiants": {
+      "siren": "355801929",
+      "lei": "VBHFXSYT7OG62HNT8T76"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0156",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0233/F7330893777739885F67DC661490768A1415048A2966159D26E2CC4808E199CD.zip",
+        "localisation": "annexe aux comptes consolidés de la BFCM, p. 882"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=355801929"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/VBHFXSYT7OG62HNT8T76"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Publie avec Crédit Mutuel Alliance Fédérale, groupe régional du Crédit Mutuel, un document d’enregistrement commun. Son actionnariat n’est pas instruit ici."
+  },
+  {
+    "actor_id": "FR-ACT-0091",
+    "nom": "EBRA",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "489375261",
+      "lei": "969500E03OF1DVYAVJ85"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0156",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0233/F7330893777739885F67DC661490768A1415048A2966159D26E2CC4808E199CD.zip",
+        "localisation": "rubrique « Autres métiers », p. 882 et p. 771"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=489375261"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500E03OF1DVYAVJ85"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Le Groupe EBRA est un groupe de presse détenu à 100% par Crédit Mutuel Alliance Fédérale » : journaux régionaux de l’Est et du Sud-Est."
+  },
+  {
+    "actor_id": "FR-ACT-0092",
+    "nom": "PRISMA GROUP",
+    "nom_usuel": "Prisma Group",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "829674381"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0151",
+        "url": "https://www.louishachettegroup.com/wp-content/uploads/2026/03/260326_LHG_RAPPORT_ANNUEL.pdf",
+        "localisation": "§ 1.2, p. 22"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=829674381"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Société holding de Prisma Média ». Depuis le 31 mars 2026, Vivendi en détient 13,58% ; la part restante de Louis Hachette Group n’est pas publiée."
+  },
+  {
+    "actor_id": "FR-ACT-0093",
+    "nom": "PRISMA MEDIA",
+    "nom_usuel": "Prisma Media",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "318826187"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0157",
+        "url": "http://web.archive.org/web/20260712144112id_/https://www.prismamedia.com/mentions-legales-voi/"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=318826187"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0094",
+    "nom": "PRESSE INDEPENDANTE",
+    "nom_usuel": "Presse Indépendante",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "888155306"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0159",
+        "url": "http://web.archive.org/web/20260811175852id_/https://www.liberation.fr/mentions-legales/"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=888155306"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Ses propres actionnaires ne sont pas publiés dans la source lue."
+  },
+  {
+    "actor_id": "FR-ACT-0095",
+    "nom": "LIBERATION",
+    "nom_usuel": "Libération",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SARL",
+    "categories": [
+      "FR-NODE-035"
+    ],
+    "identifiants": {
+      "siren": "382028199"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0159",
+        "url": "http://web.archive.org/web/20260811175852id_/https://www.liberation.fr/mentions-legales/"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=382028199"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0096",
+    "nom": "FRANCE TELEVISIONS",
+    "nom_usuel": "France Télévisions",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-013",
+      "FR-NODE-036"
+    ],
+    "identifiants": {
+      "siren": "432766947",
+      "lei": "969500WW934VZKE6FI91"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0161",
+        "url": "http://web.archive.org/web/20260629104318id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512205",
+        "localisation": "art. 44 et 47"
+      },
+      {
+        "source_id": "FR-CPL-0160",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "fiche, p. 102 ; annexe 1, p. 122"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=432766947"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500WW934VZKE6FI91"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société nationale de programme. La réforme créant une holding France Médias n’était pas adoptée à la date d’arrêt : la proposition de loi attendait sa deuxième lecture à l’Assemblée nationale depuis le 11 juillet 2025."
+  },
+  {
+    "actor_id": "FR-ACT-0097",
+    "nom": "SOCIETE NATIONALE DE RADIODIFFUSION RADIO FRANCE",
+    "nom_usuel": "Radio France",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-013",
+      "FR-NODE-036"
+    ],
+    "identifiants": {
+      "siren": "326094471",
+      "lei": "969500DC6JZGREGND468"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0161",
+        "url": "http://web.archive.org/web/20260629104318id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512205",
+        "localisation": "art. 47"
+      },
+      {
+        "source_id": "FR-CPL-0160",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "fiche, p. 103 ; annexe 1, p. 122"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=326094471"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500DC6JZGREGND468"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0098",
+    "nom": "FRANCE MEDIAS MONDE",
+    "nom_usuel": "France Médias Monde",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-013",
+      "FR-NODE-036"
+    ],
+    "identifiants": {
+      "siren": "501524029",
+      "lei": "9695003BC4V99C26KV63"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0161",
+        "url": "http://web.archive.org/web/20260629104318id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512205",
+        "localisation": "art. 44-IV et 47"
+      },
+      {
+        "source_id": "FR-CPL-0160",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "fiche, p. 105 ; annexe 1, p. 122"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=501524029"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695003BC4V99C26KV63"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Société en charge de l’audiovisuel extérieur de la France »."
+  },
+  {
+    "actor_id": "FR-ACT-0099",
+    "nom": "ARTE FRANCE",
+    "nom_usuel": "Arte France",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-036"
+    ],
+    "identifiants": {
+      "siren": "334689122",
+      "lei": "969500N85DRY6A00FD42"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0161",
+        "url": "http://web.archive.org/web/20260629104318id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512205",
+        "localisation": "art. 45"
+      },
+      {
+        "source_id": "FR-CPL-0160",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "fiche, p. 104"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=334689122"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500N85DRY6A00FD42"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« L’actionnariat d’ARTE France est entièrement public » ; la loi dispose que son capital « est détenu directement ou indirectement par des personnes publiques ». Aucune entité n’y détient la majorité : la catégorie de contrôle n’est pas attribuée. Ne pas confondre avec une autre société « Arte France », SIREN 327327037, sans rapport. LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0100",
+    "nom": "INSTITUT NATIONAL DE L'AUDIOVISUEL",
+    "nom_usuel": "INA",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "EPIC",
+    "categories": [
+      "FR-NODE-036"
+    ],
+    "identifiants": {
+      "siren": "302421193"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0161",
+        "url": "http://web.archive.org/web/20260629104318id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000512205",
+        "localisation": "art. 49"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=302421193"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Établissement public de l’État à caractère industriel et commercial, […] chargé de conserver et de mettre en valeur le patrimoine audiovisuel national. » Sans capital, il n’a pas d’actionnaire. Il détient aussi 1,65% de TV5Monde."
+  },
+  {
+    "actor_id": "FR-ACT-0101",
+    "nom": "TV 5 MONDE",
+    "nom_usuel": "TV5Monde",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-036"
+    ],
+    "identifiants": {
+      "siren": "381962612",
+      "lei": "969500VK882CR8AXCT18"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0162",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+        "localisation": "p. 25"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=381962612"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500VK882CR8AXCT18"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Chaîne francophone multilatérale, détenue par neuf radiodiffuseurs publics de France, de Belgique, de Suisse, du Canada, du Québec et de Monaco. Tous les actionnaires étrangers sont saisis, y compris Télé-Québec sous le seuil de 5% ; Arte France (3,12%) et l’INA (1,65%) ne le sont pas. Répartition publiée en octobre 2025, la plus récente trouvée. LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0102",
+    "nom": "RADIO-TELEVISION BELGE DE LA COMMUNAUTE FRANCAISE",
+    "nom_usuel": "RTBF",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Établissement public de droit belge",
+    "categories": [
+      "FR-NODE-055"
+    ],
+    "identifiants": {
+      "autre": {
+        "registre": "Banque-Carrefour des Entreprises (Belgique)",
+        "cle": "0223459690"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0163",
+        "url": "https://kbopub.economie.fgov.be/kbopub/toonondernemingps.html?lang=fr&ondernemingsnummer=0223459690"
+      },
+      {
+        "source_id": "FR-CPL-0162",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+        "localisation": "p. 25"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Radiodiffuseur public de la Communauté française de Belgique. Aucun LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0103",
+    "nom": "Schweizerische Radio- und Fernsehgesellschaft",
+    "nom_usuel": "SSR (Société suisse de radiodiffusion et télévision)",
+    "type_acteur": "association",
+    "forme_juridique": "Association de droit suisse",
+    "categories": [
+      "FR-NODE-055"
+    ],
+    "identifiants": {
+      "lei": "50670080GN871HK80102",
+      "autre": {
+        "registre": "Registre du commerce (Suisse), IDE",
+        "cle": "CHE-102.978.667"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/50670080GN871HK80102"
+      },
+      {
+        "source_id": "FR-CPL-0162",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+        "localisation": "p. 25"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Radiodiffuseur public suisse, constitué en association."
+  },
+  {
+    "actor_id": "FR-ACT-0104",
+    "nom": "CBC/Radio-Canada",
+    "nom_usuel": "Radio-Canada (Canadian Broadcasting Corporation)",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Personne morale de droit fédéral canadien, mandataire de la Couronne (Loi sur la radiodiffusion, art. 36 et 47)",
+    "categories": [
+      "FR-NODE-055"
+    ],
+    "identifiants": {
+      "lei": "549300RQP6QP0Y8ZMP71"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300RQP6QP0Y8ZMP71"
+      },
+      {
+        "source_id": "FR-CPL-0162",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+        "localisation": "p. 25"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Dénomination légale « Société Radio-Canada », en anglais « Canadian Broadcasting Corporation » ; GLEIF l’enregistre sous « CBC/Radio-Canada ». LEI non renouvelé depuis mai 2026."
+  },
+  {
+    "actor_id": "FR-ACT-0105",
+    "nom": "MONACO TELEVISIONS",
+    "nom_usuel": "TV Monaco",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société anonyme monégasque",
+    "categories": [
+      "FR-NODE-055"
+    ],
+    "identifiants": {
+      "autre": {
+        "registre": "Répertoire du commerce et de l’industrie (Monaco)",
+        "cle": "20S08542"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0164",
+        "url": "https://legimonaco.mc/tnc/ordonnance/2021/06-24-8.705/",
+        "localisation": "art. 2, 6 et 7"
+      },
+      {
+        "source_id": "FR-CPL-0162",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+        "localisation": "p. 25"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Le capital social de TV Monaco est détenu totalement par l’État » monégasque, qui n’est pas enregistré. L’avis de 2024 la nommait encore « Monte Carlo Riviera ». Aucun LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0106",
+    "nom": "SOCIÉTÉ DE TÉLÉDIFFUSION DU QUÉBEC (TÉLÉ-QUÉBEC)",
+    "nom_usuel": "Télé-Québec",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Personne morale, mandataire du gouvernement du Québec",
+    "categories": [
+      "FR-NODE-055"
+    ],
+    "identifiants": {
+      "lei": "549300WWWNFPH06KBH32",
+      "autre": {
+        "registre": "Registraire des entreprises du Québec (NEQ)",
+        "cle": "1145192994"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300WWWNFPH06KBH32"
+      },
+      {
+        "source_id": "FR-CPL-0162",
+        "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+        "localisation": "p. 25"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Saisie bien que sous le seuil de 5%, comme tous les actionnaires étrangers de TV5Monde. NEQ attesté par GLEIF seulement. LEI non renouvelé depuis 2023."
   }
 ]

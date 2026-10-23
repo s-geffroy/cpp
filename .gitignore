@@ -33,3 +33,7 @@ vendor/
 # Paquet source depose a la main ; il est deja publie a l'identique dans
 # assets/donnees/ par scripts/importer-spec.py.
 specs/
+
+# Outils en ligne de commande poses a la main (gh, verifie par sa somme
+# SHA-256 publiee). Binaires de la machine, pas du site.
+.outils/

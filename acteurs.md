@@ -54,7 +54,10 @@ systémique désignées par l’ACPR
 (<a href="{{ '/registre/' | relative_url }}#FR-CPL-0126"><code>FR-CPL-0126</code></a>)
 et leurs actionnaires directs à 5% ou plus. Pour les groupes mutualistes, le
 registre s’arrête à l’organe central : les caisses et les sociétaires qui le
-détiennent n’y entrent pas. C’est un **ajout de ce site, hors
+détiennent n’y entrent pas. S’y ajoutent les groupes de médias en 2026 :
+télévision, radio et presse cotées, les groupes non cotés dont l’actionnaire
+est publié dans un document primaire, et l’audiovisuel public. La propriété
+d’un média ne prouve jamais une intervention dans sa ligne éditoriale. C’est un **ajout de ce site, hors
 paquet** — le début du registre que la
 [feuille de route]({{ '/feuille-de-route/' | relative_url }}) annonce.
 

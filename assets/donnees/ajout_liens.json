@@ -2110,5 +2110,665 @@
     "incertitude": "Pourcentage imprimé sans décimale, identique pour le capital et les droits de vote ; inchangé depuis 2023. L’État nomme par décret un administrateur et en propose deux autres.",
     "garde_fou": "L’État est actionnaire minoritaire, mais il garde la tutelle et le contrôle économique et financier de La Poste : ces pouvoirs ne viennent pas de sa part au capital et ne s’en déduisent pas.",
     "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0107",
+    "source_actor": "FR-ACT-0074",
+    "target_actor": "FR-ACT-0073",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 46.8,
+    "droits_vote_pct": 46.8,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0147",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0081/63F0772E526CD7A7A5EC1844337FDB9D71B7E3A4DF26DACB9098F1BC61F60194.zip",
+      "localisation": "§ 7.1.2 « Évolution de la structure actionnariale », p. 401"
+    },
+    "preuve": "P4",
+    "incertitude": "Le mot « exclusif » n’est pas écrit : TF1 se dit « contrôlée », et Bouygues écrit qu’il « exerce un contrôle » sur TF1 parce qu’il détient « une forte majorité des droits de vote en assemblée générale » et qu’aucun autre actionnaire n’en détient davantage (document de Bouygues, note 2.3.1). Bouygues SA seule : 46,84% dans ses comptes sociaux ; 47,05% avec ses filiales.",
+    "garde_fou": "Contrôle d’une société de télévision, pas de sa ligne éditoriale : La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0108",
+    "source_actor": "FR-ACT-0075",
+    "target_actor": "FR-ACT-0074",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 28.3,
+    "droits_vote_pct": 29.3,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0148",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0111/3028C81305DC96DBA2854CCA3ECC85279865147D456890DBC6220BD2493B4F1A.zip",
+      "localisation": "§ 5.3.1, tableau de la répartition du capital"
+    },
+    "preuve": "P4",
+    "incertitude": "La ligne inclut les actions détenues directement par Martin et Olivier Bouygues, que le document ne sépare pas.",
+    "garde_fou": "Le document écarte tout contrôle de Bouygues par un actionnaire ; cette part ne se cumule à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0109",
+    "source_actor": "FR-ACT-0077",
+    "target_actor": "FR-ACT-0076",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 49.35,
+    "droits_vote_pct": 49.35,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0149",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0120/12DB225910D48AC402B0907315CC5F8C44BB0E64377035E2A3DE7717DBAAC6CD.zip",
+      "localisation": "§ 4.2.1 « Principaux actionnaires »"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; 49,64% hors autodétention et des droits exerçables en assemblée. Le mot « contrôle » n’est pas écrit : M6 est « consolidée suivant la méthode de l’intégration globale par RTL Group » (note 1 des comptes consolidés).",
+    "garde_fou": "Contrôle d’une société de télévision, pas de sa ligne éditoriale : La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0110",
+    "source_actor": "FR-ACT-0078",
+    "target_actor": "FR-ACT-0076",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 11.08,
+    "droits_vote_pct": 11.08,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0149",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0120/12DB225910D48AC402B0907315CC5F8C44BB0E64377035E2A3DE7717DBAAC6CD.zip",
+      "localisation": "§ 4.2.1 « Principaux actionnaires »"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; 11,14% des droits exerçables.",
+    "garde_fou": "Aucune action de concert n’est connue de la société : la part de CMA CGM ne s’ajoute pas à celle de RTL Group.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0111",
+    "source_actor": "FR-ACT-0079",
+    "target_actor": "FR-ACT-0076",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 9.44,
+    "droits_vote_pct": 9.44,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0149",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0120/12DB225910D48AC402B0907315CC5F8C44BB0E64377035E2A3DE7717DBAAC6CD.zip",
+      "localisation": "§ 4.2.1 « Principaux actionnaires »"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; 9,49% des droits exerçables. Le document ne dit pas pour le compte de qui le gestionnaire détient.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0112",
+    "source_actor": "FR-ACT-0082",
+    "target_actor": "FR-ACT-0080",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 30.34,
+    "droits_vote_pct": 30.27,
+    "controle": "influence_notable",
+    "citation": {
+      "source_id": "FR-CPL-0154",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0272/4CE164A9EE4A1FC2184A844A1B2143B4DCB06AABAFE102FAA28717E7D793F2F1.zip",
+      "localisation": "note 7.2 des comptes consolidés, « Vivendi »"
+    },
+    "preuve": "P4",
+    "incertitude": "Part « directe », calculée hors actions d’autocontrôle ; droits de vote nets. Le tableau de Vivendi donne 29,90% pour l’ensemble du « Groupe Bolloré ». Le 28 novembre 2025, la Cour de cassation a annulé l’arrêt qui retenait un contrôle de fait de Bolloré SE sur Vivendi ; l’affaire était renvoyée devant la cour d’appel à la date d’arrêt. Début 2026, Bolloré SE a vendu 5 millions d’actions Vivendi.",
+    "garde_fou": "Une mise en équivalence traduit une influence notable, pas un contrôle ; le contrôle de fait reste en litige. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0113",
+    "source_actor": "FR-ACT-0081",
+    "target_actor": "FR-ACT-0080",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 7.52,
+    "droits_vote_pct": 7.2,
+    "controle": "non_qualifie",
+    "pour_compte": "non_precise",
+    "citation": {
+      "source_id": "FR-CPL-0150",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0101/824AB50B215C46041EBFC1AD7FEE6C6848ADAFB0074DD0F7F1F254BEE6D2783C.zip",
+      "localisation": "§ 3.9.1 « Répartition du capital et des droits de vote »"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote bruts. Le document ne dit pas pour le compte de qui le gestionnaire détient.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0114",
+    "source_actor": "FR-ACT-0083",
+    "target_actor": "FR-ACT-0082",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 71.06,
+    "droits_vote_pct": 78.13,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0154",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0272/4CE164A9EE4A1FC2184A844A1B2143B4DCB06AABAFE102FAA28717E7D793F2F1.zip",
+      "localisation": "chapitre « Actionnariat », tableau de la répartition du capital"
+    },
+    "preuve": "P4",
+    "incertitude": "Voix théoriques ; 78,36% des voix exerçables. Avec les autres sociétés du groupe, 71,61% du capital : ce total n’est pas repris.",
+    "garde_fou": "Le contrôle du groupe remonte, selon le document, à Bolloré Participations SE et à la famille Bolloré, non enregistrées ; cette part ne se cumule à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0115",
+    "source_actor": "FR-ACT-0084",
+    "target_actor": "FR-ACT-0082",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 5.75,
+    "droits_vote_pct": 5.64,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0154",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0272/4CE164A9EE4A1FC2184A844A1B2143B4DCB06AABAFE102FAA28717E7D793F2F1.zip",
+      "localisation": "chapitre « Actionnariat », tableau de la répartition du capital, note (1)"
+    },
+    "preuve": "P4",
+    "incertitude": "Sur la base de sa déclaration du 16 octobre 2025 (avis AMF 225C1782) ; 5,66% des voix exerçables.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0116",
+    "source_actor": "FR-ACT-0082",
+    "target_actor": "FR-ACT-0085",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 30.79,
+    "droits_vote_pct": 30.79,
+    "controle": "influence_notable",
+    "citation": {
+      "source_id": "FR-CPL-0154",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0272/4CE164A9EE4A1FC2184A844A1B2143B4DCB06AABAFE102FAA28717E7D793F2F1.zip",
+      "localisation": "note 7.2 des comptes consolidés, « Canal+ »"
+    },
+    "preuve": "P4",
+    "incertitude": "Part « directe », hors actions d’autocontrôle ; droits de vote nets. Canal+ publie 33,71% pour le « Bolloré Group » (rapport annuel 2025, p. 100), total qui inclut Compagnie de l’Odet : il n’est pas repris.",
+    "garde_fou": "Canal+ écrit que cette participation ne donne pas à Bolloré SE le contrôle au sens du code de commerce. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0117",
+    "source_actor": "FR-ACT-0082",
+    "target_actor": "FR-ACT-0086",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 30.44,
+    "droits_vote_pct": 30.44,
+    "controle": "influence_notable",
+    "citation": {
+      "source_id": "FR-CPL-0154",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0272/4CE164A9EE4A1FC2184A844A1B2143B4DCB06AABAFE102FAA28717E7D793F2F1.zip",
+      "localisation": "note 7.2 des comptes consolidés, « Louis Hachette Group »"
+    },
+    "preuve": "P4",
+    "incertitude": "Part « directe » ; droits de vote nets. Le tableau de Louis Hachette Group donne 31,03% pour le « Groupe Bolloré », Compagnie de l’Odet comprise : ce total n’est pas repris.",
+    "garde_fou": "Louis Hachette Group écrit qu’elle n’est pas une société contrôlée. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0118",
+    "source_actor": "FR-ACT-0087",
+    "target_actor": "FR-ACT-0086",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 8.69,
+    "droits_vote_pct": 8.69,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0151",
+      "url": "https://www.louishachettegroup.com/wp-content/uploads/2026/03/260326_LHG_RAPPORT_ANNUEL.pdf",
+      "localisation": "§ 3.5.8.1, p. 144"
+    },
+    "preuve": "P4",
+    "incertitude": "La ligne du tableau est au nom de M. Arnaud Lagardère, « par l’intermédiaire de la société Lagardère Capital » ; le document ne dit pas si toutes les actions sont inscrites au nom de la société. Droits de vote théoriques ; 8,70% des droits exerçables.",
+    "garde_fou": "Une participation minoritaire ne donne pas le contrôle ; elle ne s’additionne à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0119",
+    "source_actor": "FR-ACT-0086",
+    "target_actor": "FR-ACT-0088",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 66.29,
+    "droits_vote_pct": 69.88,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0152",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0151/E7C4332043F95E491F7804DDEE3E0648974E550795E3A38ED8BF615B784AC0BC.zip",
+      "localisation": "§ 3.8.8.1, p. 305 ; § 3.8.8.7, p. 307"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; 69,89% des droits exerçables. « Soit le contrôle de la Société au sens de l’article L. 233-1 du Code de commerce » ; le mot « exclusif » n’est pas écrit. Seuil des deux tiers des droits de vote franchi le 9 janvier 2026 (avis AMF 226C0075).",
+    "garde_fou": "Ce maillon ne s’ajoute pas au lien Bolloré SE → Louis Hachette Group : aucune part indirecte n’est recalculée. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0120",
+    "source_actor": "FR-ACT-0080",
+    "target_actor": "FR-ACT-0088",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 13.38,
+    "droits_vote_pct": 8.4,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0152",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0151/E7C4332043F95E491F7804DDEE3E0648974E550795E3A38ED8BF615B784AC0BC.zip",
+      "localisation": "§ 3.8.8.1, p. 305"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques ; l’écart avec le capital vient des droits de vote double des autres actionnaires.",
+    "garde_fou": "Vivendi n’agit pas de concert avec Louis Hachette Group selon le document ; les deux parts ne s’additionnent pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0121",
+    "source_actor": "FR-ACT-0090",
+    "target_actor": "FR-ACT-0091",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0156",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0233/F7330893777739885F67DC661490768A1415048A2966159D26E2CC4808E199CD.zip",
+      "localisation": "annexe aux comptes consolidés de la BFCM, « G. Autres métiers », p. 882"
+    },
+    "preuve": "P3",
+    "incertitude": "La liste de consolidation donne 100% de contrôle et 100% d’intérêt sans dire si la détention est directe ; GLEIF déclare la BFCM comme parent direct d’EBRA. Pour Crédit Mutuel Alliance Fédérale, l’intérêt est de 98% (p. 771).",
+    "garde_fou": "Contrôle d’un groupe de presse, pas de ses rédactions : La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0122",
+    "source_actor": "FR-ACT-0092",
+    "target_actor": "FR-ACT-0093",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-07-12",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0157",
+      "url": "http://web.archive.org/web/20260712144112id_/https://www.prismamedia.com/mentions-legales-voi/"
+    },
+    "preuve": "P4",
+    "incertitude": "« Son associé unique est Prisma Group » : la part n’est pas chiffrée, la qualité d’associé unique vaut détention intégrale.",
+    "garde_fou": "La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0123",
+    "source_actor": "FR-ACT-0086",
+    "target_actor": "FR-ACT-0092",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0151",
+      "url": "https://www.louishachettegroup.com/wp-content/uploads/2026/03/260326_LHG_RAPPORT_ANNUEL.pdf",
+      "localisation": "§ 1.2, p. 22"
+    },
+    "preuve": "P4",
+    "incertitude": "« Participation directe de la Société […] au 31 décembre 2025 ». Le 31 mars 2026, une augmentation de capital a fait entrer Vivendi à 13,58% : la part restante de Louis Hachette Group n’est pas publiée, et ce site ne la calcule pas.",
+    "garde_fou": "Valeur au 31 décembre 2025, dépassée à la date d’arrêt ; elle ne s’additionne pas au lien Vivendi → Prisma Group, postérieur.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0124",
+    "source_actor": "FR-ACT-0080",
+    "target_actor": "FR-ACT-0092",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-31",
+    "detention_capital_pct": 13.58,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0158",
+      "url": "https://www.louishachettegroup.com/wp-content/uploads/2026/03/260331_CP_LHG_Cession_Pole_Luxe_Prisma_FR.pdf"
+    },
+    "preuve": "P4",
+    "incertitude": "Participation acquise le 31 mars 2026 par augmentation de capital en numéraire ; les droits de vote ne sont pas publiés.",
+    "garde_fou": "Une participation minoritaire ne donne pas le contrôle. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0125",
+    "source_actor": "FR-ACT-0094",
+    "target_actor": "FR-ACT-0095",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-08-11",
+    "detention_capital_pct": null,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0159",
+      "url": "http://web.archive.org/web/20260811175852id_/https://www.liberation.fr/mentions-legales/"
+    },
+    "preuve": "P4",
+    "incertitude": "Les mentions légales nomment Presse Indépendante SAS « principal actionnaire », sans pourcentage.",
+    "garde_fou": "Être principal actionnaire ne dit ni la part ni le contrôle. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0126",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0096",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-06-30",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0160",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "fiche, p. 102 ; annexe 1, p. 122"
+    },
+    "preuve": "P4",
+    "incertitude": "Périmètre arrêté au 30 juin 2025. La loi de 1986 (art. 47) impose que l’État « détient directement la totalité du capital » ; les droits de vote ne sont pas chiffrés et sont tenus pour égaux.",
+    "garde_fou": "Détention fixée par la loi ; la régulation des programmes relève de l’Arcom, et l’indépendance éditoriale est garantie par la loi. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0127",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0097",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-06-30",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0160",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "fiche, p. 103 ; annexe 1, p. 122"
+    },
+    "preuve": "P4",
+    "incertitude": "Périmètre arrêté au 30 juin 2025. La loi de 1986 (art. 47) impose que l’État « détient directement la totalité du capital » ; les droits de vote ne sont pas chiffrés et sont tenus pour égaux.",
+    "garde_fou": "Détention fixée par la loi ; la régulation des programmes relève de l’Arcom, et l’indépendance éditoriale est garantie par la loi. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0128",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0098",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-06-30",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0160",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "fiche, p. 105 ; annexe 1, p. 122"
+    },
+    "preuve": "P4",
+    "incertitude": "Périmètre arrêté au 30 juin 2025. La loi de 1986 (art. 47) impose que l’État « détient directement la totalité du capital » ; les droits de vote ne sont pas chiffrés et sont tenus pour égaux.",
+    "garde_fou": "Détention fixée par la loi ; la régulation des programmes relève de l’Arcom, et l’indépendance éditoriale est garantie par la loi. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0129",
+    "source_actor": "FR-ACT-0096",
+    "target_actor": "FR-ACT-0099",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-06-30",
+    "detention_capital_pct": 45.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0160",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "fiche, p. 104"
+    },
+    "preuve": "P4",
+    "incertitude": "Pourcentage arrondi, sans décimale. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Aucun actionnaire n’y détient la majorité ; les parts publiques ne s’additionnent pas. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0130",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0099",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-06-30",
+    "detention_capital_pct": 25.01,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0160",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "annexe 1 « Participations directes de l’État », p. 122"
+    },
+    "preuve": "P4",
+    "incertitude": "Le même document imprime 25% dans la fiche de la société, p. 104 : la valeur de l’annexe est retenue. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Aucun actionnaire n’y détient la majorité ; les parts publiques ne s’additionnent pas. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0131",
+    "source_actor": "FR-ACT-0100",
+    "target_actor": "FR-ACT-0099",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-06-30",
+    "detention_capital_pct": 15.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0160",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "fiche, p. 104"
+    },
+    "preuve": "P4",
+    "incertitude": "Pourcentage arrondi, sans décimale. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Aucun actionnaire n’y détient la majorité ; les parts publiques ne s’additionnent pas. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0132",
+    "source_actor": "FR-ACT-0097",
+    "target_actor": "FR-ACT-0099",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-06-30",
+    "detention_capital_pct": 15.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0160",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "fiche, p. 104"
+    },
+    "preuve": "P4",
+    "incertitude": "Pourcentage arrondi, sans décimale. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Aucun actionnaire n’y détient la majorité ; les parts publiques ne s’additionnent pas. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0133",
+    "source_actor": "FR-ACT-0096",
+    "target_actor": "FR-ACT-0101",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-10-29",
+    "detention_capital_pct": 46.42,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0162",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+      "localisation": "p. 25"
+    },
+    "preuve": "P3",
+    "incertitude": "Répartition donnée par un avis parlementaire, sans date propre ; elle est identique à celle de l’avis de 2024, qui cite TV5Monde comme source. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Chaîne multilatérale régie par des accords entre gouvernements : la part au capital ne dit pas le poids dans les décisions. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0134",
+    "source_actor": "FR-ACT-0098",
+    "target_actor": "FR-ACT-0101",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-10-29",
+    "detention_capital_pct": 11.97,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0162",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+      "localisation": "p. 25"
+    },
+    "preuve": "P3",
+    "incertitude": "Répartition donnée par un avis parlementaire, sans date propre ; elle est identique à celle de l’avis de 2024, qui cite TV5Monde comme source. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Chaîne multilatérale régie par des accords entre gouvernements : la part au capital ne dit pas le poids dans les décisions. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0135",
+    "source_actor": "FR-ACT-0102",
+    "target_actor": "FR-ACT-0101",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-10-29",
+    "detention_capital_pct": 10.53,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0162",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+      "localisation": "p. 25"
+    },
+    "preuve": "P3",
+    "incertitude": "Répartition donnée par un avis parlementaire, sans date propre ; elle est identique à celle de l’avis de 2024, qui cite TV5Monde comme source. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Chaîne multilatérale régie par des accords entre gouvernements : la part au capital ne dit pas le poids dans les décisions. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0136",
+    "source_actor": "FR-ACT-0103",
+    "target_actor": "FR-ACT-0101",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-10-29",
+    "detention_capital_pct": 10.53,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0162",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+      "localisation": "p. 25"
+    },
+    "preuve": "P3",
+    "incertitude": "Répartition donnée par un avis parlementaire, sans date propre ; elle est identique à celle de l’avis de 2024, qui cite TV5Monde comme source. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Chaîne multilatérale régie par des accords entre gouvernements : la part au capital ne dit pas le poids dans les décisions. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0137",
+    "source_actor": "FR-ACT-0104",
+    "target_actor": "FR-ACT-0101",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-10-29",
+    "detention_capital_pct": 6.32,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0162",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+      "localisation": "p. 25"
+    },
+    "preuve": "P3",
+    "incertitude": "Répartition donnée par un avis parlementaire, sans date propre ; elle est identique à celle de l’avis de 2024, qui cite TV5Monde comme source. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Chaîne multilatérale régie par des accords entre gouvernements : la part au capital ne dit pas le poids dans les décisions. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0138",
+    "source_actor": "FR-ACT-0105",
+    "target_actor": "FR-ACT-0101",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-10-29",
+    "detention_capital_pct": 5.25,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0162",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+      "localisation": "p. 25"
+    },
+    "preuve": "P3",
+    "incertitude": "Répartition donnée par un avis parlementaire, sans date propre ; elle est identique à celle de l’avis de 2024, qui cite TV5Monde comme source. Les droits de vote ne sont pas publiés. L’avis de 2024 imprimait 5,26%, au nom de « Monte Carlo Riviera ».",
+    "garde_fou": "Chaîne multilatérale régie par des accords entre gouvernements : la part au capital ne dit pas le poids dans les décisions. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0139",
+    "source_actor": "FR-ACT-0106",
+    "target_actor": "FR-ACT-0101",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-10-29",
+    "detention_capital_pct": 4.21,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0162",
+      "url": "https://www.assemblee-nationale.fr/dyn/17/rapports/cion-cedu/l17b2043-ti_rapport-avis.pdf",
+      "localisation": "p. 25"
+    },
+    "preuve": "P3",
+    "incertitude": "Répartition donnée par un avis parlementaire, sans date propre ; elle est identique à celle de l’avis de 2024, qui cite TV5Monde comme source. Les droits de vote ne sont pas publiés.",
+    "garde_fou": "Chaîne multilatérale régie par des accords entre gouvernements : la part au capital ne dit pas le poids dans les décisions. La propriété ne prouve jamais l’intervention éditoriale.",
+    "statut": "VERIFIED"
   }
 ]
