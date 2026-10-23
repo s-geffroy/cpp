@@ -13,7 +13,9 @@
 #   - categories : FR-NODE-013 si l'Etat detient la majorite du capital
 #     (directement ou par une holding qu'il detient entierement), ou si le
 #     document de la societe qualifie le controle de l'Etat (seul ou dans un
-#     concert ou il n'est pas declare minoritaire) ; FR-NODE-014 pour un grand
+#     concert ou il n'est pas declare minoritaire), ou si la majorite est
+#     tenue par une entite publique classee 013 (Caisse des depots, Bpifrance)
+#     et le document le dit ; FR-NODE-014 pour un grand
 #     groupe francais hors de ces cas ; puis les categories sectorielles. Une
 #     societe etrangere ou trop petite pour 014 n'a que sa categorie sectorielle ;
 #   - aucune personne physique ;
@@ -52,6 +54,12 @@ meta:
       raison: "Sa filiale de défense porte l’essentiel de l’activité, mais aucune part n’est publiée telle quelle, et l’actionnaire de référence (45,05%) n’est pas nommé."
     - nom: "Theon International, KNDS (dépendance à l’État client)"
       raison: "Ni l’un ni l’autre ne publie de part de chiffre d’affaires réalisée en France ou avec l’État français : Theon ne détaille pas la France, KNDS ne la publie qu’en montant et écrit seulement que l’État français pèse « plus de 10% »."
+    - nom: "Crédit Mutuel Alliance Fédérale (BFCM), Crédit Mutuel Arkéa"
+      raison: "Groupes régionaux du Crédit Mutuel qui publient leur propre document d’enregistrement : non lus. L’organe central, une association sans capital, n’a pas d’actionnaire."
+    - nom: "Caisses régionales de Crédit Agricole"
+      raison: "Les 39 caisses détiennent ensemble SAS Rue La Boétie, mais la part de chacune n’est publiée dans aucune source lue."
+    - nom: "HSBC Holdings plc"
+      raison: "Société de tête du groupe HSBC, cotée à Londres ; seul son lien à 100% avec HSBC Bank plc est connu, par le document de sa filiale française."
 acteurs:
 
   # --- L'actionnaire et ses véhicules ---------------------------------------
@@ -793,6 +801,218 @@ acteurs:
       - { source_id: FR-CPL-0069, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0296/A77879C5588DC9B335F2CBBB3843869D62442C3CAF3501B0F0DA5B8EA3AB8648.pdf", localisation: "p. 194" }
     statut: VERIFIED
     notes: "« Société constituée par les femmes et hommes clés de SOGECLAIR accompagnés de leur Président » ; membre du concert familial Robardey. SIREN rapproché par le nom, l’adresse (Blagnac) et la date de création (2019) : le document de la société ne l’imprime pas."
+
+  # --- Banques d’importance systémique (liste ACPR, FR-CPL-0126) -------------
+  # Règle des groupes mutualistes : l’organe central et ses actionnaires
+  # directs à 5% ou plus ; on ne remonte pas aux caisses ni aux sociétaires.
+
+  - actor_id: FR-ACT-0058
+    nom: "BNP PARIBAS"
+    nom_usuel: "BNP Paribas"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-014, FR-NODE-017]
+    identifiants: { siren: "662042449", lei: "R0MUWSFPU8MPRO8K5P83", isin: "FR0000131104" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0136, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0112/7F8F409614C46CCE1F8C4DDF6257DC401926C8353472B6B26301D4703DE47EE2.zip", localisation: "§ 1.5 « BNP Paribas et ses actionnaires »" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=662042449" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/R0MUWSFPU8MPRO8K5P83" }
+    statut: VERIFIED
+    notes: "« À la connaissance de l’Entreprise, il n’existe aucun actionnaire, autre que la SFPI et BlackRock Inc., qui détienne plus de 5% du capital ou des droits de vote au 31 décembre 2025. » Aucun droit de vote double. Les salariés détiennent 4,2% du capital au 30 juin 2026."
+
+  - actor_id: FR-ACT-0059
+    nom: "SOCIETE FEDERALE DE PARTICIPATIONS ET D'INVESTISSEMENT"
+    nom_usuel: "SFPI (État belge)"
+    type_acteur: holding_publique
+    forme_juridique: "Société anonyme d’intérêt public de droit belge"
+    categories: [FR-NODE-055]
+    identifiants: { lei: "549300D9D0JUQQ68OL87", autre: { registre: "Banque-Carrefour des Entreprises (Belgique)", cle: "0253445063" } }
+    citations:
+      - { source_id: FR-CPL-0136, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0112/7F8F409614C46CCE1F8C4DDF6257DC401926C8353472B6B26301D4703DE47EE2.zip", localisation: "§ 1.5, note (1) du tableau de l’actionnariat" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/549300D9D0JUQQ68OL87" }
+    statut: VERIFIED
+    notes: "« Société anonyme d’intérêt public agissant pour le compte de l’État belge » (document de BNP Paribas). Actionnaire depuis le rachat de Fortis en 2009 ; le document rappelle que « ni l’État belge ni la SFPI n’envisageaient d’acquérir le contrôle de la Banque »."
+
+  - actor_id: FR-ACT-0060
+    nom: "SOCIETE GENERALE"
+    nom_usuel: "Société Générale"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-014, FR-NODE-017]
+    identifiants: { siren: "552120222", lei: "O2RNE8IBXP4R0TD8PU41", isin: "FR0000130809" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0138, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0091/E3B155DF15B27E6B3B7D2B2BB504C209396C0D20362438DD8DCE412745480677.zip", localisation: "§ 7.2.3 et § 7.4" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=552120222" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/O2RNE8IBXP4R0TD8PU41" }
+    statut: VERIFIED
+    notes: "L’actionnariat salarié (« plans d’épargne ») détient 9,11% du capital et 15,86% des droits de vote au 31 décembre 2025, par des fonds d’épargne salariale sans personnalité morale : il n’est pas enregistré comme acteur. Les statuts plafonnent les voix d’un actionnaire en assemblée à 15% des droits de vote. Le document ne contient aucune phrase sur l’absence d’autre actionnaire à 5%."
+
+  - actor_id: FR-ACT-0061
+    nom: "CREDIT AGRICOLE SA"
+    nom_usuel: "Crédit Agricole S.A."
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-014, FR-NODE-017]
+    identifiants: { siren: "784608416", lei: "969500TJ5KRTCJQWXH05", isin: "FR0000045072" }
+    cote: true
+    citations:
+      - { source_id: FR-CPL-0139, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0155/6CF81B95119B05EAED9D53FF6ED5E38543E9B4D57256D8C2A12BDA631A88CF8D.zip", localisation: "§ 6.1, note 1 « Cadre général »" }
+      - { source_id: FR-CPL-0140, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0155-A02/403AE3A72177E21766890A1263B105CE2CA85F6E7670EBB3B12615A3CAC9F268.pdf", localisation: "note 6.9, p. 230 / PDF 233" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=784608416" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500TJ5KRTCJQWXH05" }
+    statut: VERIFIED
+    notes: "Organe central du réseau Crédit Agricole : il exerce sur les établissements du réseau « un contrôle administratif, technique et financier » (articles L. 511-31 et L. 511-32 du code monétaire et financier). Les salariés détiennent 6,74% du capital au 30 juin 2026 par des fonds d’épargne salariale, non enregistrés comme acteurs."
+
+  - actor_id: FR-ACT-0062
+    nom: "SAS RUE LA BOETIE"
+    nom_usuel: "SAS Rue La Boétie"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-017]
+    identifiants: { siren: "439208190", lei: "969500RVTZ7F39OODR41" }
+    citations:
+      - { source_id: FR-CPL-0139, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0155/6CF81B95119B05EAED9D53FF6ED5E38543E9B4D57256D8C2A12BDA631A88CF8D.zip", localisation: "§ 6.1, note 1 « Liens en capital entre Crédit Agricole S.A. et les Caisses régionales »" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=439208190" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500RVTZ7F39OODR41" }
+    statut: VERIFIED
+    notes: "« Détenue en totalité par les Caisses régionales » (39 selon le document) ; ses titres « ne sont pas cessibles en dehors de la communauté des Caisses régionales ». La part de chaque caisse n’est publiée nulle part : aucun lien n’est saisi vers la SAS."
+
+  - actor_id: FR-ACT-0063
+    nom: "BPCE"
+    type_acteur: entreprise
+    forme_juridique: "SA à directoire et conseil de surveillance"
+    categories: [FR-NODE-014, FR-NODE-017]
+    identifiants: { siren: "493455042", lei: "9695005MSX1OYEMGDF46" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0141, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip", localisation: "§ 6.1, note 1.1 ; § 8.1.1 ; § 8.3.1" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=493455042" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/9695005MSX1OYEMGDF46" }
+    statut: VERIFIED
+    notes: "Organe central du Groupe BPCE, créé par la loi du 18 juin 2009. « Les 14 Banques Populaires et les 15 Caisses d’Epargne […] détiennent à parité 100% du capital » : 50% pour chaque réseau. Seules les quatre banques à 5% ou plus sont enregistrées ; la BRED Banque Populaire est juste en dessous (4,96%). Actions non cotées."
+
+  - actor_id: FR-ACT-0064
+    nom: "CAISSE D'EPARGNE ET DE PREVOYANCE ILE-DE-FRANCE"
+    nom_usuel: "Caisse d’Épargne Île-de-France"
+    type_acteur: entreprise
+    forme_juridique: "Banque coopérative, société anonyme (catégorie Sirene 5196)"
+    categories: [FR-NODE-017]
+    identifiants: { siren: "382900942", lei: "969500W34S6NCZWYBV47" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=382900942" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500W34S6NCZWYBV47" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0065
+    nom: "CAISSE D'EPARGNE ET DE PREVOYANCE HAUTS DE FRANCE"
+    nom_usuel: "Caisse d’Épargne Hauts de France"
+    type_acteur: entreprise
+    forme_juridique: "Banque coopérative, société anonyme (catégorie Sirene 5699)"
+    categories: [FR-NODE-017]
+    identifiants: { siren: "383000692", lei: "969500GIUTUIEDJHFL17" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=383000692" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500GIUTUIEDJHFL17" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0066
+    nom: "BANQUE POPULAIRE ALSACE LORRAINE CHAMPAGNE"
+    nom_usuel: "Banque Populaire Alsace Lorraine Champagne"
+    type_acteur: entreprise
+    forme_juridique: "Banque coopérative, société anonyme (catégorie Sirene 5192)"
+    categories: [FR-NODE-017]
+    identifiants: { siren: "356801571", lei: "969500EVOBAGHKZEXA33" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=356801571" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500EVOBAGHKZEXA33" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0067
+    nom: "BANQUE POPULAIRE AUVERGNE RHONE ALPES"
+    nom_usuel: "Banque Populaire Auvergne Rhône Alpes"
+    type_acteur: entreprise
+    forme_juridique: "Banque coopérative, société anonyme (catégorie Sirene 5560)"
+    categories: [FR-NODE-017]
+    identifiants: { siren: "605520071", lei: "969500JM7VIGQIPZOL49" }
+    citations:
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=605520071" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500JM7VIGQIPZOL49" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0068
+    nom: "CONFEDERATION NATIONALE DU CREDIT MUTUEL"
+    nom_usuel: "Confédération nationale du Crédit Mutuel"
+    type_acteur: association
+    forme_juridique: "Association régie par la loi du 1er juillet 1901"
+    categories: [FR-NODE-017]
+    identifiants: { siren: "784646689", lei: "9695000CG7B84NLR5984" }
+    citations:
+      - { source_id: FR-CPL-0143, url: "https://www.creditmutuel.com/partage/fr/CNCM/telechargements/statuts/statuts-modifies-par-l-assemblee-generale-du-25-septembre-2024.pdf", localisation: "art. 3, 6 et 17, p. 6 et 22" }
+      - { source_id: FR-CPL-0142, url: "http://web.archive.org/web/20260504212143id_/https://www.creditmutuel.com/partage/fr/CNCM/telechargements/presse-et-publications/publications/2026/2025-rapport-financier-annuel-groupe-credit-mutuel.pdf", localisation: "p. 36-37 / PDF 38-39 ; note 1, p. 234 / PDF 236" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=784646689" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/9695000CG7B84NLR5984" }
+    statut: VERIFIED
+    notes: "Organe central du groupe Crédit Mutuel (article L. 511-30 du code monétaire et financier) : elle exerce « un contrôle administratif, technique et financier » sur les groupes régionaux et leurs filiales. Association sans capital : ses adhérents sont les fédérations régionales, la fédération agricole et rurale et, selon ses statuts, la Caisse centrale du Crédit Mutuel. Aucun lien de détention n’est donc possible. Le capital du groupe est « détenu exclusivement par l’ensemble des sociétaires des caisses locales »."
+
+  - actor_id: FR-ACT-0069
+    nom: "HSBC CONTINENTAL EUROPE"
+    nom_usuel: "HSBC Continental Europe"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-015, FR-NODE-017]
+    identifiants: { siren: "775670284", lei: "F0HUI1NY1AZMJMD8LP67" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0144, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0049/DD84BCECF01FCB31B6411597E8CFE68B102832C8C337BCBE1DF428DD8A7EEC05.zip", localisation: "p. 18 et p. 302" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=775670284" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/F0HUI1NY1AZMJMD8LP67" }
+    statut: VERIFIED
+    notes: "Société mère intermédiaire du groupe HSBC dans l’Union européenne ; n’a pas émis d’actions cotées."
+
+  - actor_id: FR-ACT-0070
+    nom: "HSBC BANK PLC"
+    nom_usuel: "HSBC Bank plc"
+    type_acteur: entreprise
+    forme_juridique: "Public limited company de droit anglais"
+    categories: [FR-NODE-017]
+    identifiants: { lei: "MP6I5ZYZBEU3UXPYFY54", autre: { registre: "Companies House (Royaume-Uni)", cle: "00014259" } }
+    citations:
+      - { source_id: FR-CPL-0144, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0049/DD84BCECF01FCB31B6411597E8CFE68B102832C8C337BCBE1DF428DD8A7EEC05.zip", localisation: "p. 302" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/MP6I5ZYZBEU3UXPYFY54" }
+    statut: VERIFIED
+    notes: "« Elle-même filiale à 100% de HSBC Holdings plc, société cotée à Londres, Hong Kong, New York et aux Bermudes » (document de HSBC Continental Europe). La société de tête n’est pas enregistrée."
+
+  - actor_id: FR-ACT-0071
+    nom: "LA BANQUE POSTALE"
+    nom_usuel: "La Banque Postale"
+    type_acteur: entreprise
+    forme_juridique: "SA à directoire et conseil de surveillance"
+    categories: [FR-NODE-013, FR-NODE-017]
+    identifiants: { siren: "421100645", lei: "96950066U5XAAIRCPA78" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0145, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0160/B4F1B19FA32A2A23185824972486FBF39D3CD1EB323EC5D735F29C3E20F177EE.zip", localisation: "§ 1.1.1 et § 1.1.2" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=421100645" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/96950066U5XAAIRCPA78" }
+    statut: VERIFIED
+    notes: "Catégorie 013 par sa société mère, La Poste, dont le capital est entièrement public. La loi impose à La Poste de détenir la majorité de son capital ; l’Agence des participations de l’État siège à son conseil de surveillance."
+
+  - actor_id: FR-ACT-0072
+    nom: "LA POSTE"
+    nom_usuel: "La Poste"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-013]
+    identifiants: { siren: "356000000", lei: "9695000YG7TR7PAP0L59" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0146, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0219/603F03620AEA0CFDF614F45D182CB0348B7FA12509516C0E0F50795956143278.zip", localisation: "§ 7.1.1 « Capital et actionnariat » ; § 5.3" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=356000000" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/9695000YG7TR7PAP0L59" }
+    statut: VERIFIED
+    notes: "Capital « intégralement public » par la loi (loi n° 90-568 du 2 juillet 1990, art. 1er-2). Catégorie 013 comme Bpifrance Participations : la majorité est tenue par la Caisse des dépôts, entité publique, et non par l’État directement. Conseil de 21 membres : 7 salariés, 1 représentant de l’État nommé par décret, 2 administrateurs proposés par l’État et 11 par la Caisse des dépôts. Pacte d’actionnaires du 3 mars 2020, dont le contenu n’est pas publié."
 
 liens:
 
@@ -2209,4 +2429,188 @@ liens:
     preuve: P4
     incertitude: "L’export représente 53,5% du chiffre d’affaires ; la France n’est publiée qu’en montant (74,45 M€). Les 18,4% de défense cités p. 37 portent sur la seule zone Europe/Afrique."
     garde_fou: "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence."
+    statut: VERIFIED
+
+  # --- Banques d’importance systémique : détentions ---------------------------
+
+  - link_id: FR-LNK-0095
+    source_actor: FR-ACT-0040
+    target_actor: FR-ACT-0058
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-06-30"
+    detention_capital_pct: "7.1"
+    droits_vote_pct: "7.1"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0137, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0112-A02/A61DC38BDD1CE446D93A3FD7EC97C8AD70883C3610993247931239082A5D64F4.pdf", localisation: "§ 6 « BNP Paribas et ses actionnaires », p. 306 / PDF 306" }
+    preuve: P4
+    incertitude: "Nombre d’actions « selon déclaration par BlackRock datée du 16 octobre 2025 », rapporté au capital du 30 juin 2026 (7,0% au 31 décembre 2025). Depuis 2019, BlackRock n’a déclaré que des seuils statutaires, sans franchissement du seuil légal."
+    garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0096
+    source_actor: FR-ACT-0059
+    target_actor: FR-ACT-0058
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-06-30"
+    detention_capital_pct: "5.7"
+    droits_vote_pct: "5.7"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0137, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0112-A02/A61DC38BDD1CE446D93A3FD7EC97C8AD70883C3610993247931239082A5D64F4.pdf", localisation: "§ 6 « BNP Paribas et ses actionnaires », p. 306 / PDF 306" }
+    preuve: P4
+    incertitude: "Nombre d’actions « selon déclaration par la SFPI datée du 1er juillet 2026 ». La SFPI détenait 7,74% en 2017 (avis AMF 217C1156) et n’a depuis déclaré que des seuils statutaires."
+    garde_fou: "Une participation d’un État étranger n’est pas un contrôle : son document écarte toute intention d’acquérir le contrôle de la banque."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0097
+    source_actor: FR-ACT-0040
+    target_actor: FR-ACT-0060
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "7.93"
+    droits_vote_pct: "7.13"
+    controle: non_qualifie
+    pour_compte: tiers
+    citation: { source_id: FR-CPL-0138, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0091/E3B155DF15B27E6B3B7D2B2BB504C209396C0D20362438DD8DCE412745480677.zip", localisation: "§ 7.2.3 « Répartition du capital et des droits de vote sur trois ans » (dépôt ESEF, sans pagination)" }
+    preuve: P4
+    incertitude: "7,13% des droits de vote théoriques, 7,23% des droits exerçables en assemblée. Entre novembre 2024 et janvier 2025, seize avis AMF ont suivi ses allers-retours autour de 5% des droits de vote ; le dernier (225C0216) indique 5,67% du capital. Le « pour compte de tiers » vient de cet avis, le document de la société ne le dit pas."
+    garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0098
+    source_actor: FR-ACT-0062
+    target_actor: FR-ACT-0061
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-06-30"
+    detention_capital_pct: "63.49"
+    droits_vote_pct: "63.50"
+    controle: exclusif
+    citation: { source_id: FR-CPL-0140, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0155-A02/403AE3A72177E21766890A1263B105CE2CA85F6E7670EBB3B12615A3CAC9F268.pdf", localisation: "note 6.9 « Capitaux propres », p. 230 / PDF 233" }
+    preuve: P4
+    incertitude: "Le document ne dit pas « exclusif » : il écrit que « le contrôle des Caisses régionales sur Crédit Agricole S.A. s’exerce à travers la société SAS Rue La Boétie », dont l’objet est de détenir « plus de 50% du capital et des droits de vote » (DEU 2025, § 6.1, note 1)."
+    garde_fou: "Le contrôle appartient collectivement aux 39 Caisses régionales, à travers la SAS ; aucune caisse ne contrôle seule, et la part de chacune n’est pas publiée."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0099
+    source_actor: FR-ACT-0064
+    target_actor: FR-ACT-0063
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-17"
+    detention_capital_pct: "6.96"
+    droits_vote_pct: "6.96"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0141, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip", localisation: "§ 8.3.2 « Actionnaires détenant plus de 5% du capital ou des droits de vote », p. 1185 selon la table de concordance" }
+    preuve: P4
+    incertitude: "Situation à compter du 17 mars 2026, après deux augmentations de capital."
+    garde_fou: "Une banque régionale ne contrôle pas l’organe central : le capital est réparti à parité entre les deux réseaux, et aucun actionnaire n’est désigné comme contrôlant."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0100
+    source_actor: FR-ACT-0065
+    target_actor: FR-ACT-0063
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-17"
+    detention_capital_pct: "5.63"
+    droits_vote_pct: "5.63"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0141, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip", localisation: "§ 8.3.2 « Actionnaires détenant plus de 5% du capital ou des droits de vote », p. 1185 selon la table de concordance" }
+    preuve: P4
+    incertitude: "Situation à compter du 17 mars 2026, après deux augmentations de capital."
+    garde_fou: "Une banque régionale ne contrôle pas l’organe central : le capital est réparti à parité entre les deux réseaux, et aucun actionnaire n’est désigné comme contrôlant."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0101
+    source_actor: FR-ACT-0066
+    target_actor: FR-ACT-0063
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-17"
+    detention_capital_pct: "5.61"
+    droits_vote_pct: "5.61"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0141, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip", localisation: "§ 8.3.2 « Actionnaires détenant plus de 5% du capital ou des droits de vote », p. 1185 selon la table de concordance" }
+    preuve: P4
+    incertitude: "Situation à compter du 17 mars 2026, après deux augmentations de capital."
+    garde_fou: "Une banque régionale ne contrôle pas l’organe central : le capital est réparti à parité entre les deux réseaux, et aucun actionnaire n’est désigné comme contrôlant."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0102
+    source_actor: FR-ACT-0067
+    target_actor: FR-ACT-0063
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2026-03-17"
+    detention_capital_pct: "5.55"
+    droits_vote_pct: "5.55"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0141, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip", localisation: "§ 8.3.2 « Actionnaires détenant plus de 5% du capital ou des droits de vote », p. 1185 selon la table de concordance" }
+    preuve: P4
+    incertitude: "Situation à compter du 17 mars 2026, après deux augmentations de capital."
+    garde_fou: "Une banque régionale ne contrôle pas l’organe central : le capital est réparti à parité entre les deux réseaux, et aucun actionnaire n’est désigné comme contrôlant."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0103
+    source_actor: FR-ACT-0070
+    target_actor: FR-ACT-0069
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "99.99"
+    droits_vote_pct: "99.99"
+    controle: exclusif
+    citation: { source_id: FR-CPL-0144, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0049/DD84BCECF01FCB31B6411597E8CFE68B102832C8C337BCBE1DF428DD8A7EEC05.zip", localisation: "« Répartition du capital et des droits de vote au 31 décembre 2025 », p. 302" }
+    preuve: P4
+    incertitude: "Le document écrit « plus de 99,99% du capital et des droits de vote », sans chiffre exact ; « ce pourcentage n’a pas varié » depuis le 31 octobre 2000. Le solde est détenu par une autre filiale du groupe et par des actionnaires externes."
+    garde_fou: "Ce maillon ne s’ajoute à aucun autre : la part de HSBC Holdings plc n’est pas recalculée."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0104
+    source_actor: FR-ACT-0072
+    target_actor: FR-ACT-0071
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "100"
+    droits_vote_pct: "100"
+    controle: exclusif
+    citation: { source_id: FR-CPL-0145, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0160/B4F1B19FA32A2A23185824972486FBF39D3CD1EB323EC5D735F29C3E20F177EE.zip", localisation: "§ 1.1.1 « L’actionnariat du groupe La Banque Postale » et § 1.1.5 (dépôt ESEF, sans pagination)" }
+    preuve: P4
+    incertitude: "« La totalité du capital et des droits de vote […], à l’exception du prêt d’une action » au président du conseil de surveillance. Le mot « contrôle » n’est pas écrit : la détention intégrale est tenue pour un contrôle exclusif, comme pour les autres filiales à 100%."
+    garde_fou: "Ce maillon ne s’ajoute pas aux liens Caisse des dépôts → La Poste et État → La Poste : aucune part indirecte n’est recalculée."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0105
+    source_actor: FR-ACT-0003
+    target_actor: FR-ACT-0072
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "66"
+    droits_vote_pct: "66"
+    controle: exclusif
+    citation: { source_id: FR-CPL-0146, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0219/603F03620AEA0CFDF614F45D182CB0348B7FA12509516C0E0F50795956143278.zip", localisation: "§ 7.1.1 « Capital et actionnariat », tableau « Actionnariat » et « Contrôle de La Poste SA » (dépôt ESEF, sans pagination)" }
+    preuve: P4
+    incertitude: "Pourcentage imprimé sans décimale, identique pour le capital et les droits de vote ; inchangé depuis 2023."
+    garde_fou: "« Depuis le 4 mars 2020, la Caisse des Dépôts détient le contrôle exclusif de La Poste » : contrôle de la société, pas des missions de service public, fixées par la loi et exercées sous la tutelle du ministre de l’Économie."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0106
+    source_actor: FR-ACT-0001
+    target_actor: FR-ACT-0072
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "34"
+    droits_vote_pct: "34"
+    controle: non_qualifie
+    citation: { source_id: FR-CPL-0146, url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0219/603F03620AEA0CFDF614F45D182CB0348B7FA12509516C0E0F50795956143278.zip", localisation: "§ 7.1.1 « Capital et actionnariat », tableau « Actionnariat » (dépôt ESEF, sans pagination)" }
+    preuve: P4
+    incertitude: "Pourcentage imprimé sans décimale, identique pour le capital et les droits de vote ; inchangé depuis 2023. L’État nomme par décret un administrateur et en propose deux autres."
+    garde_fou: "L’État est actionnaire minoritaire, mais il garde la tutelle et le contrôle économique et financier de La Poste : ces pouvoirs ne viennent pas de sa part au capital et ne s’en déduisent pas."
     statut: VERIFIED

@@ -2080,3 +2080,170 @@ sources:
     status: VERIFIED
     url: "https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses"
     verification: "La page en ligne a été mise à jour après la date d’arrêt (21 octobre 2026) : lu le 2026-10-22 dans la copie archivée par la Wayback Machine le 2026-08-10 (https://web.archive.org/web/20260810060128/https://digital-strategy.ec.europa.eu/en/policies/list-designated-vlops-and-vloses), à jour au 24 juillet 2026."
+
+  # --- Registre des acteurs : banques d'importance systemique (B-1) --------
+
+  - source_id: FR-CPL-0136
+    domain: corporate_disclosure
+    institution: "BNP Paribas"
+    title: "Document d’enregistrement universel et rapport financier annuel 2025 (D.26-0112)"
+    date: "2026-03-19"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, systemic]
+    use: "Répartition du capital et des droits de vote au 31 décembre 2025 (SFPI 5,7%, BlackRock 7,0%), déclaration qu’aucun autre actionnaire ne dépasse 5%, identifiants."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0112/7F8F409614C46CCE1F8C4DDF6257DC401926C8353472B6B26301D4703DE47EE2.zip"
+    verification: "Version ESEF déposée à l’AMF (fichier bnp-2025-12-31-1-fr.html), lue le 2026-10-23 ; le xhtml n’a pas de pagination, la table de concordance renvoie la rubrique 16.1 aux pages 23-24."
+
+  - source_id: FR-CPL-0137
+    domain: corporate_disclosure
+    institution: "BNP Paribas"
+    title: "Deuxième amendement au document d’enregistrement universel 2025 (D.26-0112-A02)"
+    date: "2026-08-05"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, systemic]
+    use: "Répartition du capital et des droits de vote au 30 juin 2026 : BlackRock 7,1%, SFPI 5,7%."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0112-A02/A61DC38BDD1CE446D93A3FD7EC97C8AD70883C3610993247931239082A5D64F4.pdf"
+    verification: "PDF de 319 pages déposé à l’AMF, lu le 2026-10-23."
+
+  - source_id: FR-CPL-0138
+    domain: corporate_disclosure
+    institution: "Société Générale"
+    title: "Document d’enregistrement universel 2025 (D.26-0091)"
+    date: "2026-03-13"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, systemic]
+    use: "Répartition du capital et des droits de vote sur trois ans (§ 7.2.3) : actionnariat salarié 9,11% du capital, BlackRock 7,93% ; plafonnement statutaire des droits de vote à 15%."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0091/E3B155DF15B27E6B3B7D2B2BB504C209396C0D20362438DD8DCE412745480677.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-23 ; les amendements de 2026 ne mettent pas le tableau à jour."
+
+  - source_id: FR-CPL-0139
+    domain: corporate_disclosure
+    institution: "Crédit Agricole S.A."
+    title: "Document d’enregistrement universel 2025 (D.26-0155)"
+    date: "2026-03-27"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, systemic]
+    use: "Organe central du réseau Crédit Agricole ; contrôle des Caisses régionales exercé à travers SAS Rue La Boétie ; identifiants."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0155/6CF81B95119B05EAED9D53FF6ED5E38543E9B4D57256D8C2A12BDA631A88CF8D.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-23 ; le PDF déposé ne contient que la page de dépôt."
+
+  - source_id: FR-CPL-0140
+    domain: corporate_disclosure
+    institution: "Crédit Agricole S.A."
+    title: "Deuxième amendement au document d’enregistrement universel 2025, rapport financier semestriel (D.26-0155-A02)"
+    date: "2026-08-07"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, systemic]
+    use: "Répartition du capital et des droits de vote au 30 juin 2026 : SAS Rue La Boétie 63,49% du capital, salariés (FCPE) 6,74% ; aucun autre actionnaire à 5% ou plus."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0155-A02/403AE3A72177E21766890A1263B105CE2CA85F6E7670EBB3B12615A3CAC9F268.pdf"
+    verification: "PDF de 361 pages déposé à l’AMF, lu le 2026-10-23."
+
+  - source_id: FR-CPL-0141
+    domain: corporate_disclosure
+    institution: "BPCE"
+    title: "Document d’enregistrement universel 2025 (D.26-0115)"
+    date: "2026-03-19"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, systemic]
+    use: "Répartition du capital à compter du 17 mars 2026, banque par banque : 14 Banques Populaires et 15 Caisses d’Épargne à parité ; quatre d’entre elles au-delà de 5%."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-23 ; la table de concordance renvoie la rubrique 16.1 aux pages 1184-1185. Le document imprime une fois le LEI avec un zéro à la place de la lettre O ; le LEI retenu est celui de GLEIF."
+
+  - source_id: FR-CPL-0142
+    domain: corporate_disclosure
+    institution: "Confédération nationale du Crédit Mutuel"
+    title: "Rapport financier annuel 2025 du groupe Crédit Mutuel"
+    date: "2026-04-30"
+    source_type: official_report
+    authority: PRIMARY
+    priority: A1
+    refresh: annual
+    mots_cles: [ownership, disclosure, systemic]
+    use: "La Confédération, organe central du groupe (article L. 511-30 du code monétaire et financier) ; 18 fédérations régionales et une fédération agricole ; capital détenu par les sociétaires des caisses locales."
+    status: VERIFIED
+    url: "https://www.creditmutuel.com/partage/fr/CNCM/telechargements/presse-et-publications/publications/2026/2025-rapport-financier-annuel-groupe-credit-mutuel.pdf"
+    verification: "Le fichier en ligne a été modifié le 2026-09-25, après la date d’arrêt : lu le 2026-10-23 dans la copie archivée par la Wayback Machine le 2026-05-04 (http://web.archive.org/web/20260504212143id_/https://www.creditmutuel.com/partage/fr/CNCM/telechargements/presse-et-publications/publications/2026/2025-rapport-financier-annuel-groupe-credit-mutuel.pdf)."
+
+  - source_id: FR-CPL-0143
+    domain: corporate_disclosure
+    institution: "Confédération nationale du Crédit Mutuel"
+    title: "Statuts modifiés par l’assemblée générale du 25 septembre 2024"
+    date: "2024-09-25"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A1
+    refresh: event
+    mots_cles: [ownership, governance]
+    use: "Association régie par la loi de 1901 ; ses adhérents (fédérations régionales, Caisse centrale du Crédit Mutuel, fédération agricole et rurale) ; répartition des voix ; aucun capital social."
+    status: VERIFIED
+    url: "https://www.creditmutuel.com/partage/fr/CNCM/telechargements/statuts/statuts-modifies-par-l-assemblee-generale-du-25-septembre-2024.pdf"
+    verification: "PDF lu le 2026-10-23."
+
+  - source_id: FR-CPL-0144
+    domain: corporate_disclosure
+    institution: "HSBC Continental Europe"
+    title: "Document d’enregistrement universel 2025 (D.26-0049)"
+    date: "2026-02-25"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, systemic]
+    use: "HSBC Bank plc détient « plus de 99,99% » du capital et des droits de vote depuis le 31 octobre 2000 ; elle-même filiale à 100% de HSBC Holdings plc."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0049/DD84BCECF01FCB31B6411597E8CFE68B102832C8C337BCBE1DF428DD8A7EEC05.zip"
+    verification: "Version ESEF déposée à l’AMF (hbce-2025-12-31-fr.xhtml), lue le 2026-10-23 ; le fichier est découpé en pages, le folio imprimé est donné. L’amendement du 4 août 2026 ne modifie pas l’actionnariat."
+
+  - source_id: FR-CPL-0145
+    domain: corporate_disclosure
+    institution: "La Banque Postale"
+    title: "Document d’enregistrement universel 2025 (D.26-0160)"
+    date: "2026-03-27"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, systemic]
+    use: "La Poste détient la totalité du capital et des droits de vote, à une action près ; l’APE siège au conseil de surveillance."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0160/B4F1B19FA32A2A23185824972486FBF39D3CD1EB323EC5D735F29C3E20F177EE.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-23 ; le site de la société refuse les requêtes directes. L’amendement du 11 septembre 2026, postérieur à la date d’arrêt, n’est pas utilisé."
+
+  - source_id: FR-CPL-0146
+    domain: corporate_disclosure
+    institution: "La Poste"
+    title: "Document d’enregistrement universel 2025 (D.26-0219)"
+    date: "2026-04-03"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, state]
+    use: "Capital et droits de vote : Caisse des dépôts 66%, État 34% ; contrôle exclusif de la Caisse des dépôts depuis le 4 mars 2020 ; composition légale du conseil d’administration."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0219/603F03620AEA0CFDF614F45D182CB0348B7FA12509516C0E0F50795956143278.zip"
+    verification: "Version ESEF déposée à l’AMF, lue le 2026-10-23 ; sans pagination, les valeurs sont localisées par section."

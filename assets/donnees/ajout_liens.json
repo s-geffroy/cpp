@@ -1868,5 +1868,247 @@
     "incertitude": "L’export représente 53,5% du chiffre d’affaires ; la France n’est publiée qu’en montant (74,45 M€). Les 18,4% de défense cités p. 37 portent sur la seule zone Europe/Afrique.",
     "garde_fou": "Un client n’est pas un contrôle : une part de chiffre d’affaires mesure une dépendance commerciale, pas une influence.",
     "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0095",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0058",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-06-30",
+    "detention_capital_pct": 7.1,
+    "droits_vote_pct": 7.1,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0137",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0112-A02/A61DC38BDD1CE446D93A3FD7EC97C8AD70883C3610993247931239082A5D64F4.pdf",
+      "localisation": "§ 6 « BNP Paribas et ses actionnaires », p. 306 / PDF 306"
+    },
+    "preuve": "P4",
+    "incertitude": "Nombre d’actions « selon déclaration par BlackRock datée du 16 octobre 2025 », rapporté au capital du 30 juin 2026 (7,0% au 31 décembre 2025). Depuis 2019, BlackRock n’a déclaré que des seuils statutaires, sans franchissement du seuil légal.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0096",
+    "source_actor": "FR-ACT-0059",
+    "target_actor": "FR-ACT-0058",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-06-30",
+    "detention_capital_pct": 5.7,
+    "droits_vote_pct": 5.7,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0137",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0112-A02/A61DC38BDD1CE446D93A3FD7EC97C8AD70883C3610993247931239082A5D64F4.pdf",
+      "localisation": "§ 6 « BNP Paribas et ses actionnaires », p. 306 / PDF 306"
+    },
+    "preuve": "P4",
+    "incertitude": "Nombre d’actions « selon déclaration par la SFPI datée du 1er juillet 2026 ». La SFPI détenait 7,74% en 2017 (avis AMF 217C1156) et n’a depuis déclaré que des seuils statutaires.",
+    "garde_fou": "Une participation d’un État étranger n’est pas un contrôle : son document écarte toute intention d’acquérir le contrôle de la banque.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0097",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0060",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 7.93,
+    "droits_vote_pct": 7.13,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0138",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0091/E3B155DF15B27E6B3B7D2B2BB504C209396C0D20362438DD8DCE412745480677.zip",
+      "localisation": "§ 7.2.3 « Répartition du capital et des droits de vote sur trois ans » (dépôt ESEF, sans pagination)"
+    },
+    "preuve": "P4",
+    "incertitude": "7,13% des droits de vote théoriques, 7,23% des droits exerçables en assemblée. Entre novembre 2024 et janvier 2025, seize avis AMF ont suivi ses allers-retours autour de 5% des droits de vote ; le dernier (225C0216) indique 5,67% du capital. Le « pour compte de tiers » vient de cet avis, le document de la société ne le dit pas.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0098",
+    "source_actor": "FR-ACT-0062",
+    "target_actor": "FR-ACT-0061",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-06-30",
+    "detention_capital_pct": 63.49,
+    "droits_vote_pct": 63.5,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0140",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0155-A02/403AE3A72177E21766890A1263B105CE2CA85F6E7670EBB3B12615A3CAC9F268.pdf",
+      "localisation": "note 6.9 « Capitaux propres », p. 230 / PDF 233"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document ne dit pas « exclusif » : il écrit que « le contrôle des Caisses régionales sur Crédit Agricole S.A. s’exerce à travers la société SAS Rue La Boétie », dont l’objet est de détenir « plus de 50% du capital et des droits de vote » (DEU 2025, § 6.1, note 1).",
+    "garde_fou": "Le contrôle appartient collectivement aux 39 Caisses régionales, à travers la SAS ; aucune caisse ne contrôle seule, et la part de chacune n’est pas publiée.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0099",
+    "source_actor": "FR-ACT-0064",
+    "target_actor": "FR-ACT-0063",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-17",
+    "detention_capital_pct": 6.96,
+    "droits_vote_pct": 6.96,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0141",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip",
+      "localisation": "§ 8.3.2 « Actionnaires détenant plus de 5% du capital ou des droits de vote », p. 1185 selon la table de concordance"
+    },
+    "preuve": "P4",
+    "incertitude": "Situation à compter du 17 mars 2026, après deux augmentations de capital.",
+    "garde_fou": "Une banque régionale ne contrôle pas l’organe central : le capital est réparti à parité entre les deux réseaux, et aucun actionnaire n’est désigné comme contrôlant.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0100",
+    "source_actor": "FR-ACT-0065",
+    "target_actor": "FR-ACT-0063",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-17",
+    "detention_capital_pct": 5.63,
+    "droits_vote_pct": 5.63,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0141",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip",
+      "localisation": "§ 8.3.2 « Actionnaires détenant plus de 5% du capital ou des droits de vote », p. 1185 selon la table de concordance"
+    },
+    "preuve": "P4",
+    "incertitude": "Situation à compter du 17 mars 2026, après deux augmentations de capital.",
+    "garde_fou": "Une banque régionale ne contrôle pas l’organe central : le capital est réparti à parité entre les deux réseaux, et aucun actionnaire n’est désigné comme contrôlant.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0101",
+    "source_actor": "FR-ACT-0066",
+    "target_actor": "FR-ACT-0063",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-17",
+    "detention_capital_pct": 5.61,
+    "droits_vote_pct": 5.61,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0141",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip",
+      "localisation": "§ 8.3.2 « Actionnaires détenant plus de 5% du capital ou des droits de vote », p. 1185 selon la table de concordance"
+    },
+    "preuve": "P4",
+    "incertitude": "Situation à compter du 17 mars 2026, après deux augmentations de capital.",
+    "garde_fou": "Une banque régionale ne contrôle pas l’organe central : le capital est réparti à parité entre les deux réseaux, et aucun actionnaire n’est désigné comme contrôlant.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0102",
+    "source_actor": "FR-ACT-0067",
+    "target_actor": "FR-ACT-0063",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-03-17",
+    "detention_capital_pct": 5.55,
+    "droits_vote_pct": 5.55,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0141",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0115/223BEE714CA81EAD3F38A70FA0999C2D425AD32911D9382DE819566085D54312.zip",
+      "localisation": "§ 8.3.2 « Actionnaires détenant plus de 5% du capital ou des droits de vote », p. 1185 selon la table de concordance"
+    },
+    "preuve": "P4",
+    "incertitude": "Situation à compter du 17 mars 2026, après deux augmentations de capital.",
+    "garde_fou": "Une banque régionale ne contrôle pas l’organe central : le capital est réparti à parité entre les deux réseaux, et aucun actionnaire n’est désigné comme contrôlant.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0103",
+    "source_actor": "FR-ACT-0070",
+    "target_actor": "FR-ACT-0069",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 99.99,
+    "droits_vote_pct": 99.99,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0144",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0049/DD84BCECF01FCB31B6411597E8CFE68B102832C8C337BCBE1DF428DD8A7EEC05.zip",
+      "localisation": "« Répartition du capital et des droits de vote au 31 décembre 2025 », p. 302"
+    },
+    "preuve": "P4",
+    "incertitude": "Le document écrit « plus de 99,99% du capital et des droits de vote », sans chiffre exact ; « ce pourcentage n’a pas varié » depuis le 31 octobre 2000. Le solde est détenu par une autre filiale du groupe et par des actionnaires externes.",
+    "garde_fou": "Ce maillon ne s’ajoute à aucun autre : la part de HSBC Holdings plc n’est pas recalculée.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0104",
+    "source_actor": "FR-ACT-0072",
+    "target_actor": "FR-ACT-0071",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0145",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0160/B4F1B19FA32A2A23185824972486FBF39D3CD1EB323EC5D735F29C3E20F177EE.zip",
+      "localisation": "§ 1.1.1 « L’actionnariat du groupe La Banque Postale » et § 1.1.5 (dépôt ESEF, sans pagination)"
+    },
+    "preuve": "P4",
+    "incertitude": "« La totalité du capital et des droits de vote […], à l’exception du prêt d’une action » au président du conseil de surveillance. Le mot « contrôle » n’est pas écrit : la détention intégrale est tenue pour un contrôle exclusif, comme pour les autres filiales à 100%.",
+    "garde_fou": "Ce maillon ne s’ajoute pas aux liens Caisse des dépôts → La Poste et État → La Poste : aucune part indirecte n’est recalculée.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0105",
+    "source_actor": "FR-ACT-0003",
+    "target_actor": "FR-ACT-0072",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 66.0,
+    "droits_vote_pct": 66.0,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0146",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0219/603F03620AEA0CFDF614F45D182CB0348B7FA12509516C0E0F50795956143278.zip",
+      "localisation": "§ 7.1.1 « Capital et actionnariat », tableau « Actionnariat » et « Contrôle de La Poste SA » (dépôt ESEF, sans pagination)"
+    },
+    "preuve": "P4",
+    "incertitude": "Pourcentage imprimé sans décimale, identique pour le capital et les droits de vote ; inchangé depuis 2023.",
+    "garde_fou": "« Depuis le 4 mars 2020, la Caisse des Dépôts détient le contrôle exclusif de La Poste » : contrôle de la société, pas des missions de service public, fixées par la loi et exercées sous la tutelle du ministre de l’Économie.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0106",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0072",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 34.0,
+    "droits_vote_pct": 34.0,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0146",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0219/603F03620AEA0CFDF614F45D182CB0348B7FA12509516C0E0F50795956143278.zip",
+      "localisation": "§ 7.1.1 « Capital et actionnariat », tableau « Actionnariat » (dépôt ESEF, sans pagination)"
+    },
+    "preuve": "P4",
+    "incertitude": "Pourcentage imprimé sans décimale, identique pour le capital et les droits de vote ; inchangé depuis 2023. L’État nomme par décret un administrateur et en propose deux autres.",
+    "garde_fou": "L’État est actionnaire minoritaire, mais il garde la tutelle et le contrôle économique et financier de La Poste : ces pouvoirs ne viennent pas de sa part au capital et ne s’en déduisent pas.",
+    "statut": "VERIFIED"
   }
 ]

@@ -214,7 +214,7 @@
           "type": "string"
         },
         "categories": {
-          "description": "Catégories de la carte du paquet. Pour une entreprise : d'abord la catégorie de contrôle — FR-NODE-013 si l'État détient, directement ou par une entité qu'il détient entièrement, la majorité du capital, ou si le document de la société qualifie le contrôle de l'État (seul ou dans un concert où il n'est pas déclaré minoritaire) ; FR-NODE-014 pour un grand groupe français qui ne remplit aucune de ces conditions — puis les catégories sectorielles. Une société étrangère ou trop petite pour 014 ne reçoit que sa catégorie sectorielle.",
+          "description": "Catégories de la carte du paquet. Pour une entreprise : d'abord la catégorie de contrôle — FR-NODE-013 si l'État détient, directement ou par une entité qu'il détient entièrement, la majorité du capital, ou si le document de la société qualifie le contrôle de l'État (seul ou dans un concert où il n'est pas déclaré minoritaire), ou si une entité publique classée 013 (Caisse des dépôts, Bpifrance) en détient la majorité ; FR-NODE-014 pour un grand groupe français qui ne remplit aucune de ces conditions — puis les catégories sectorielles. Une société étrangère ou trop petite pour 014 ne reçoit que sa catégorie sectorielle.",
           "type": "array",
           "minItems": 1,
           "uniqueItems": true,

@@ -48,8 +48,13 @@ Le périmètre est volontairement étroit : les participations de l’État dans
 les sociétés cotées de son portefeuille, EDF, et les entreprises de défense
 où il détient du capital ou une action ; puis, dans ces sociétés cotées, les
 gestionnaires d’actifs et les fonds qui ont déclaré dépasser le seuil légal ;
-enfin, les [entreprises de défense privées](#entreprises-de-défense-privées)
-cotées à Paris et leurs actionnaires. C’est un **ajout de ce site, hors
+les [entreprises de défense privées](#entreprises-de-défense-privées)
+cotées à Paris et leurs actionnaires ; enfin, les sept banques d’importance
+systémique désignées par l’ACPR
+(<a href="{{ '/registre/' | relative_url }}#FR-CPL-0126"><code>FR-CPL-0126</code></a>)
+et leurs actionnaires directs à 5% ou plus. Pour les groupes mutualistes, le
+registre s’arrête à l’organe central : les caisses et les sociétaires qui le
+détiennent n’y entrent pas. C’est un **ajout de ce site, hors
 paquet** — le début du registre que la
 [feuille de route]({{ '/feuille-de-route/' | relative_url }}) annonce.
 
@@ -320,8 +325,9 @@ cumulent pas.
 
 <p class="note-table">La catégorie de contrôle suit une règle écrite : « entreprise
 publique ou contrôlée par l’État » si l’État détient la majorité du capital,
-directement ou par une holding qu’il détient entièrement, ou si le document de
-la société qualifie ce contrôle ; « grand groupe privé français » sinon. Une
+directement ou par une holding qu’il détient entièrement, si une entité
+publique (Caisse des dépôts, Bpifrance) en détient la majorité, ou si le
+document de la société qualifie ce contrôle ; « grand groupe privé français » sinon. Une
 société étrangère n’a que sa catégorie sectorielle. Aucune personne physique
 n’est enregistrée.</p>
 
