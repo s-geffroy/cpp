@@ -78,7 +78,8 @@ des enregistrements et la mise à jour 2026 restent à produire.
 L’audit le qualifie de **lacune de preuve réelle**. La méthode interdit de
 deviner le bénéficiaire effectif ultime quand le registre de l’INPI est
 inaccessible. Aucune ingéniosité de traitement ne remplace une donnée dont
-l’accès est restreint par le droit.
+l’accès est restreint par le droit. L’état de ce droit à la date d’arrêt est
+décrit dans [Bénéficiaires effectifs]({{ '/beneficiaires-effectifs/' | relative_url }}).
 
 ### 4. Deux vocabulaires de dimensions, reliés par ce site
 

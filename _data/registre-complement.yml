@@ -3286,3 +3286,115 @@ sources:
     status: VERIFIED
     url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0997/0E2775DE3AC76DA0AFC0E88A431636A3E172A0D2165686A5CA5E97119DE95AE0.pdf"
     verification: "Avis publié par l’AMF, lu le 2026-10-23."
+
+  # --- Texte de methode : beneficiaires effectifs (corporate_ownership_graph)
+  # Sources de la page /beneficiaires-effectifs/. EUR-Lex et Legifrance
+  # bloquent l'acces automatise : chaque texte a ete lu dans une copie
+  # Wayback anterieure ou egale a la date d'arret, citee dans 'verification'.
+
+  - source_id: FR-CPL-0216
+    domain: corporate_ownership_graph
+    institution: "Cour de justice de l’Union européenne"
+    title: "Arrêt de la grande chambre du 22 novembre 2022, WM et Sovim (C-37/20 et C-601/20), ECLI:EU:C:2022:912"
+    date: "2022-11-22"
+    source_type: official_decision
+    authority: PRIMARY_SUPRANATIONAL
+    priority: A0
+    refresh: one_off
+    mots_cles: [ownership, transparency, privacy, judicial]
+    use: "Invalide l’accès de « tout membre du grand public » aux informations sur les bénéficiaires effectifs (directive 2018/843, art. 1er, point 15, c)) ; « ingérence grave » (point 44) ; intérêt légitime de la presse et de la société civile (point 74)."
+    status: VERIFIED
+    url: "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A62020CJ0037"
+    verification: "Lu le 2026-10-26 dans la copie archivée du 2025-12-13 : http://web.archive.org/web/20251213034652id_/https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX%3A62020CJ0037"
+
+  - source_id: FR-CPL-0217
+    domain: corporate_ownership_graph
+    institution: "République française (Journal officiel)"
+    title: "Loi n° 2025-391 du 30 avril 2025 portant diverses dispositions d’adaptation au droit de l’Union européenne en matière économique, financière, environnementale, énergétique, de transport, de santé et de circulation des personnes, article 4"
+    date: "2025-04-30"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: one_off
+    mots_cles: [ownership, transparency, legal]
+    use: "Supprime l’accès du public au registre des bénéficiaires effectifs (art. L. 561-46 du code monétaire et financier) et crée l’accès pour intérêt légitime (art. L. 561-46-2), présumé pour les journalistes, les organismes à but non lucratif et les chercheurs universitaires ; communication aux tiers limitée aux activités qui justifient cet intérêt."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051538879"
+    verification: "JORF n° 0103 du 2 mai 2025, NOR ECOM2415026L. Lu le 2026-10-26 dans la copie archivée du 2025-05-15 : http://web.archive.org/web/20250515114752id_/https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051538879"
+
+  - source_id: FR-CPL-0218
+    domain: corporate_ownership_graph
+    institution: "République française (Journal officiel)"
+    title: "Décret n° 2026-310 du 24 avril 2026 relatif à l’accès au registre des bénéficiaires effectifs"
+    date: "2026-04-24"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: one_off
+    mots_cles: [ownership, transparency, legal]
+    use: "Procédure d’accès pour intérêt légitime (art. R. 561-58-1 à R. 561-58-7) : critères, délai de douze jours ouvrables, refus, certificat valable trois ans ; chaîne de propriété et données historiques au 10 juillet 2026 ; délais applicables aux demandes présentées à partir du 10 novembre 2026."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053957292"
+    verification: "JORF n° 0098 du 25 avril 2026, NOR ECOT2602447D. Lu le 2026-10-26 dans la copie archivée du 2026-04-29 : http://web.archive.org/web/20260429232459id_/https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053957292"
+
+  - source_id: FR-CPL-0219
+    domain: corporate_ownership_graph
+    institution: "République française (Légifrance)"
+    title: "Code monétaire et financier, article R. 561-1 (définition du bénéficiaire effectif d’une société)"
+    date: "2018-04-21"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: continuous
+    mots_cles: [ownership, legal]
+    use: "Bénéficiaire effectif : personne physique qui détient, directement ou indirectement, plus de 25% du capital ou des droits de vote, ou exerce un pouvoir de contrôle ; à défaut, le représentant légal."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036824564"
+    verification: "Version en vigueur depuis le 2018-04-21. Lu le 2026-10-26 dans la copie archivée du 2025-01-20 : http://web.archive.org/web/20250120200302id_/https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036824564"
+    notes: "Version applicable au 2026-08-12."
+
+  - source_id: FR-CPL-0220
+    domain: corporate_ownership_graph
+    institution: "Parlement européen et Conseil de l’Union européenne"
+    title: "Règlement (UE) 2024/1624 du 31 mai 2024 relatif à la prévention de l’utilisation du système financier aux fins du blanchiment de capitaux ou du financement du terrorisme"
+    date: "2024-05-31"
+    source_type: legal_text
+    authority: PRIMARY_SUPRANATIONAL
+    priority: A0
+    refresh: one_off
+    mots_cles: [ownership, legal, external]
+    use: "Redéfinit le bénéficiaire effectif (art. 51 et 52) : seuil d’« au moins 25 % », abaissable jusqu’à 15% pour des catégories à risque ; applicable à partir du 10 juillet 2027 (art. 90)."
+    status: VERIFIED
+    url: "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32024R1624"
+    verification: "Lu le 2026-10-26 dans la copie archivée du 2025-11-21 : http://web.archive.org/web/20251121144229id_/https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32024R1624"
+
+  - source_id: FR-CPL-0221
+    domain: corporate_ownership_graph
+    institution: "Parlement européen et Conseil de l’Union européenne"
+    title: "Directive (UE) 2024/1640 du 31 mai 2024 relative aux mécanismes à mettre en place par les États membres pour prévenir l’utilisation du système financier aux fins du blanchiment de capitaux ou du financement du terrorisme"
+    date: "2024-05-31"
+    source_type: legal_text
+    authority: PRIMARY_SUPRANATIONAL
+    priority: A0
+    refresh: one_off
+    mots_cles: [ownership, transparency, legal, external]
+    use: "Accès aux registres des bénéficiaires effectifs pour intérêt légitime (art. 12) et procédure (art. 13) ; transposition des articles 11 à 13 au plus tard le 10 juillet 2026, du reste le 10 juillet 2027 (art. 78)."
+    status: VERIFIED
+    url: "https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32024L1640"
+    verification: "Lu le 2026-10-26 dans la copie archivée du 2026-03-12 : http://web.archive.org/web/20260312053031id_/https://eur-lex.europa.eu/legal-content/FR/TXT/HTML/?uri=CELEX:32024L1640"
+
+  - source_id: FR-CPL-0222
+    domain: corporate_ownership_graph
+    institution: "République française (Légifrance)"
+    title: "Loi n° 86-897 du 1er août 1986 portant réforme du régime juridique de la presse, articles 5 et 6"
+    date: "1986-08-01"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: continuous
+    mots_cles: [ownership, media, transparency, legal]
+    use: "Chaque numéro nomme les détenteurs d’au moins 10% du capital de l’entreprise éditrice (art. 5) ; chaque année, l’éditeur publie « l’identité et la part d’actions de chacun des actionnaires » au-delà de 5% (art. 6)."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687451"
+    verification: "Lu le 2026-10-26 dans la copie archivée de la version au 2025-01-20 : http://web.archive.org/web/20250120155757id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687451/2025-01-20"
+    notes: "Version applicable au 2026-08-12."

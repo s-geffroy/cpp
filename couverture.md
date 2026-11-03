@@ -149,7 +149,8 @@ pas fermée. Elles indiquent seulement par où commencer.
 5. Propriété des médias et droits de vote, au niveau des sociétés, en 2026.
 6. Aides et garanties publiques consolidées, société par société.
 7. Accès aux bénéficiaires effectifs ultimes là où les données publiques sont
-   restreintes.
+   restreintes. Voir [Bénéficiaires effectifs]({{ '/beneficiaires-effectifs/' | relative_url }}), texte de méthode de ce
+   site.
 
 ### Lacunes A1
 

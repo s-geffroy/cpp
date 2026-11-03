@@ -336,7 +336,7 @@ directement ou par une holding qu’il détient entièrement, si une entité
 publique (Caisse des dépôts, Bpifrance) en détient la majorité, ou si le
 document de la société qualifie ce contrôle ; « grand groupe privé français » sinon. Une
 société étrangère n’a que sa catégorie sectorielle. Aucune personne physique
-n’est enregistrée.</p>
+n’est enregistrée : voir <a href="{{ '/beneficiaires-effectifs/' | relative_url }}">Bénéficiaires effectifs</a>.</p>
 
 ## Ce qui manque
 

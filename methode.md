@@ -44,7 +44,9 @@ Pour chaque groupe, la chaîne à établir est :
 > médias et actifs
 
 **Le bénéficiaire effectif ultime ne se devine pas** lorsque le registre des
-bénéficiaires effectifs de l’INPI est inaccessible.
+bénéficiaires effectifs de l’INPI est inaccessible. Ce que le droit permet
+d’en savoir, et comment ce site travaille sans ce registre :
+[Bénéficiaires effectifs]({{ '/beneficiaires-effectifs/' | relative_url }}).
 
 ### Provenance des médias
 
