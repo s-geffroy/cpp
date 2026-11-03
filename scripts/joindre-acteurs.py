@@ -35,6 +35,8 @@ from pathlib import Path
 
 import yaml
 
+sys.dont_write_bytecode = True  # l'import du script voisin ne laisse pas de __pycache__
+
 RACINE = Path(__file__).resolve().parent.parent
 DATA = RACINE / "_data"
 TELECHARGEMENTS = RACINE / "assets" / "donnees"
