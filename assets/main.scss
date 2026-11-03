@@ -1089,3 +1089,83 @@ code.brut {
   .table-defilante { overflow: visible; border: 0; }
   a { color: inherit; text-decoration: none; }
 }
+
+/* ------------------------------------------------------------------------ *
+ * Provenance
+ *
+ * Une case par domaine et par origine. Le nombre est toujours ecrit ; le fond
+ * ne sert qu'a voir d'un coup d'oeil, par paliers. ZERO EST UN VIDE HACHURE,
+ * comme les lacunes de la barre de completude : rien d'enregistre n'est pas
+ * une mesure nulle. « Sans objet » reste neutre.
+ * ------------------------------------------------------------------------ */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.matrice.provenance th:not(:first-child):not(:last-child),
+.matrice.solidite th:not(:first-child) { text-align: center; }
+
+.case,
+.matrice.solidite td.nombre {
+  width: 4.5rem;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+.case.n1 { background: color-mix(in srgb, var(--accent) 12%, transparent); }
+.case.n2 { background: color-mix(in srgb, var(--accent) 28%, transparent); }
+.case.n3 { background: color-mix(in srgb, var(--accent) 48%, transparent); font-weight: 600; }
+
+.case.n0 {
+  background: repeating-linear-gradient(
+    135deg, transparent 0 4px, var(--danger-trait) 4px 5px);
+}
+
+.case.sans-objet { color: var(--texte-tres-doux); }
+
+.matrice.provenance td.pages { font-size: 0.8125rem; }
+
+.legende-provenance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  margin: 0 0 1rem;
+  padding: 0;
+  list-style: none;
+  font-size: 0.8125rem;
+  color: var(--texte-doux);
+}
+
+.legende-provenance li { display: flex; align-items: center; gap: 0.45rem; }
+
+.legende-provenance i {
+  flex: none;
+  width: 1.1rem;
+  height: 1.1rem;
+  border: 1px solid var(--trait);
+  border-radius: 2px;
+  font-style: normal;
+  font-size: 0.75rem;
+  line-height: 1.05rem;
+  text-align: center;
+}
+
+.hors-domaines {
+  columns: 2 16rem;
+  max-width: var(--prose);
+  font-size: 0.875rem;
+}
+
+.meta-inline {
+  font-variant-numeric: tabular-nums;
+  color: var(--texte-doux);
+}
+
+.manques { max-width: var(--prose); }
+.manques dt { margin-top: 1rem; font-weight: 600; }
+.manques dd { margin: 0.25rem 0 0; font-size: 0.875rem; color: var(--texte-doux); }

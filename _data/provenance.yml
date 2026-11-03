@@ -1,0 +1,118 @@
+# Page /provenance/ : rattachement des domaines du paquet aux categories
+# d'acteurs et aux pages de ce site.
+#
+# AJOUT EDITORIAL DE CE SITE, HORS PAQUET. Le paquet France-System-2026 v0.1
+# ne relie pas ses 34 domaines de couverture a ses 55 categories d'acteurs.
+# Cette table est un jugement de lecture, revisable, publie comme tel. Elle
+# sert seulement a compter, sur la page /provenance/, les acteurs nommes et les
+# liens qui relevent de chaque domaine. Une categorie peut relever de
+# plusieurs domaines : les comptes ne s'additionnent donc pas d'une ligne a
+# l'autre.
+#
+# Ecrite a la main. scripts/exporter-ajouts.py verifie que chaque domaine
+# existe dans la couverture, que chaque categorie existe et qu'aucune des 55
+# categories n'est oubliee.
+#
+# categories : liste vide quand aucune categorie du paquet ne correspond au
+#   domaine ; la page affiche alors « sans objet », jamais zero.
+# pages : pages de ce site qui exploitent le domaine (titre lu par les
+#   visiteurs, en francais normal).
+
+meta:
+  auteur: "France-System-2026 (ce site)"
+  date: "2026-11-03"
+  statut: "Correspondance éditoriale, hors paquet"
+
+domaines:
+  constitutional_state:
+    categories: [FR-NODE-001, FR-NODE-002, FR-NODE-003, FR-NODE-004, FR-NODE-005, FR-NODE-006, FR-NODE-007]
+  territorial_government:
+    categories: [FR-NODE-008, FR-NODE-009, FR-NODE-010]
+  macro_public_finance:
+    categories: []
+  social_protection_health_finance:
+    categories: [FR-NODE-011]
+  state_ownership:
+    categories: [FR-NODE-012, FR-NODE-013]
+    pages:
+      - { url: /acteurs/, titre: "Registre des acteurs" }
+  # Les gestionnaires d'actifs et les Etats etrangers y figurent comme
+  # detenteurs : c'est a ce titre que le registre des acteurs les nomme.
+  corporate_ownership_graph:
+    categories: [FR-NODE-014, FR-NODE-015, FR-NODE-016, FR-NODE-018, FR-NODE-055]
+    pages:
+      - { url: /acteurs/, titre: "Registre des acteurs" }
+      - { url: /beneficiaires-effectifs/, titre: "Bénéficiaires effectifs" }
+  # Credit et dette : les banques et les creanciers, pas les detenteurs de capital.
+  corporate_financing_graph:
+    categories: [FR-NODE-017, FR-NODE-054]
+  banking_insurance:
+    categories: [FR-NODE-017, FR-NODE-018, FR-NODE-019]
+    pages:
+      - { url: /acteurs/, titre: "Registre des acteurs" }
+  capital_markets:
+    categories: [FR-NODE-020, FR-NODE-054]
+  competition:
+    categories: [FR-NODE-021]
+  procurement:
+    categories: [FR-NODE-049, FR-NODE-050]
+    pages:
+      - { url: /commande-publique/, titre: "Commande publique" }
+      - { url: /acteurs/marches/, titre: "Marchés des acteurs" }
+  business_aid:
+    categories: []
+  # Arcom regule tous les medias, pas le seul audiovisuel public.
+  media_ownership_pluralism:
+    categories: [FR-NODE-022, FR-NODE-035, FR-NODE-039]
+    pages:
+      - { url: /acteurs/, titre: "Registre des acteurs" }
+  public_media:
+    categories: [FR-NODE-036]
+    pages:
+      - { url: /acteurs/, titre: "Registre des acteurs" }
+  platforms_information_distribution:
+    categories: [FR-NODE-037]
+  telecom_infrastructure:
+    categories: [FR-NODE-023, FR-NODE-034]
+  data_privacy:
+    categories: [FR-NODE-025]
+  cybersecurity:
+    categories: [FR-NODE-029]
+  energy:
+    categories: [FR-NODE-024, FR-NODE-032, FR-NODE-033]
+  lobbying_revolving_doors:
+    categories: [FR-NODE-026, FR-NODE-048]
+    pages:
+      - { url: /representants-interets/, titre: "Représentants d’intérêts" }
+  labor_social_partners:
+    categories: [FR-NODE-042, FR-NODE-043, FR-NODE-044]
+  health_expertise_medicines:
+    categories: [FR-NODE-027, FR-NODE-028, FR-NODE-040, FR-NODE-041]
+  defense_industry:
+    categories: [FR-NODE-030, FR-NODE-031]
+    pages:
+      - { url: /acteurs/, titre: "Registre des acteurs" }
+  eu_fiscal_economic:
+    categories: [FR-NODE-051]
+  monetary_policy:
+    categories: [FR-NODE-019, FR-NODE-052]
+  rule_of_law_human_rights:
+    categories: [FR-NODE-053]
+  advertising_market:
+    categories: [FR-NODE-038]
+  # Le paquet n'a aucune categorie d'acteurs pour les trois domaines suivants.
+  transport_logistics:
+    categories: []
+  retail_food:
+    categories: []
+  construction_infrastructure:
+    categories: []
+  professional_orders:
+    categories: [FR-NODE-047]
+  associations_ngos_foundations:
+    categories: [FR-NODE-045]
+  think_tanks_universities_expertise_network:
+    categories: [FR-NODE-046]
+  # Des personnes physiques : le registre des acteurs n'en enregistre aucune.
+  people_governance_revolving_network:
+    categories: []

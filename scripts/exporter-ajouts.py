@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 """Export des ajouts editoriaux de ce site vers assets/donnees/.
 
-Trois fichiers sont ecrits a la main dans _data/, HORS PAQUET :
+Quatre fichiers sont ecrits a la main dans _data/, HORS PAQUET :
   - passage-dimensions.yml  : mots-cles libres du registre -> dimensions P-* ;
   - registre-complement.yml : sources ajoutees (FR-CPL-*) ;
   - acteurs.yml             : registre des acteurs v0.2 (FR-ACT-*, FR-LNK-*),
-                              valide contre assets/donnees/ajout_acteurs.schema.json.
+                              valide contre assets/donnees/ajout_acteurs.schema.json ;
+  - provenance.yml          : domaines de couverture -> categories et pages
+                              (page /provenance/), verifie seulement.
 
 Ce script ne les modifie jamais. Il les verifie, puis les rend
 telechargeables en CSV et en JSON, a cote des fichiers du paquet -- sous des
@@ -159,6 +161,22 @@ def exporter_complement(sources):
     print(f"  {chemin.relative_to(RACINE)}")
 
 
+def verifier_provenance(noeuds):
+    """Un domaine mal orthographie ou une categorie oubliee donnerait une ligne
+    vide ou un compte faux sur /provenance/, sans aucun message."""
+    table = yaml.safe_load((DATA / "provenance.yml").read_text(encoding="utf-8"))["domaines"]
+    couverture = [c["domain"] for c in json.loads((DATA / "couverture.json").read_text(encoding="utf-8"))]
+    if sorted(table) != sorted(couverture):
+        raise SystemExit(f"provenance.yml : domaines en trop {sorted(set(table) - set(couverture))}, "
+                         f"manquants {sorted(set(couverture) - set(table))}")
+    rattachees = {c for d in table.values() for c in d["categories"]}
+    if rattachees - set(noeuds):
+        raise SystemExit(f"provenance.yml : categories inconnues {sorted(rattachees - set(noeuds))}")
+    if set(noeuds) - rattachees:
+        raise SystemExit(f"provenance.yml : categories sans domaine {sorted(set(noeuds) - rattachees)}")
+    print(f"  _data/provenance.yml : {len(table)} domaines, {len(rattachees)} categories rattachees")
+
+
 def main():
     passage, complement, registre, dimensions = charger()
     verifier(passage, complement, registre, dimensions)
@@ -178,6 +196,7 @@ def main():
     dates_sources = {s["source_id"]: s.get("date", "") for s in registre + complement["sources"]}
     verifier_acteurs(acteurs, sources, noeuds, dates_sources)
     exporter_acteurs(acteurs)
+    verifier_provenance(noeuds)
 
 
 if __name__ == "__main__":

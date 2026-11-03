@@ -76,6 +76,10 @@ lacune déclarée se lit comme un travail non fait.
 <li><i class="c-lacune"></i> <strong>{{ nb_lacunes }}</strong> sans aucune source : le vide est déclaré, pas comblé</li>
 </ul>
 
+Pour voir, domaine par domaine, ce que ce site ajoute au paquet (sources,
+acteurs nommés, liens, pages calculées), voir la page
+[Provenance]({{ '/provenance/' | relative_url }}).
+
 ## Le tableau
 
 <div class="table-defilante">

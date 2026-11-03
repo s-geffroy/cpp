@@ -1,0 +1,19 @@
+{%- comment -%}
+  Une case de la grille de /provenance/.
+  Parametres : n (nombre), sans_objet (vrai quand aucune categorie ne
+  correspond au domaine), libelle (texte lu par les lecteurs d'ecran).
+
+  ZERO EST UN VIDE HACHURE, comme les lacunes de la page Couverture : rien
+  n'est enregistre ici, ce qui ne veut pas dire que rien n'existe. « Sans
+  objet » est autre chose encore : la colonne ne s'applique pas au domaine.
+  Les paliers d'intensite (1-4, 5-19, 20 et plus) ne servent qu'a voir d'un
+  coup d'oeil ; le nombre exact est toujours ecrit.
+{%- endcomment -%}
+{%- if include.sans_objet -%}
+<td class="case sans-objet" title="{{ include.libelle }} : sans objet">—</td>
+{%- elsif include.n == 0 -%}
+<td class="case n0" title="{{ include.libelle }} : rien d’enregistré"><span class="visually-hidden">rien d’enregistré</span></td>
+{%- else -%}
+{%- if include.n >= 20 %}{% assign palier = 3 %}{% elsif include.n >= 5 %}{% assign palier = 2 %}{% else %}{% assign palier = 1 %}{% endif -%}
+<td class="case n{{ palier }}" title="{{ include.libelle }} : {{ include.n }}">{{ include.n }}</td>
+{%- endif -%}
