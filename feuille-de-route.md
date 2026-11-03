@@ -115,9 +115,16 @@ relation non documentée, jamais une relation inexistante.
 nomme {{ site.data.acteurs.acteurs | size }} organisations et
 {{ site.data.acteurs.liens | size }} liens, chacun avec son statut de preuve :
 les participations de l’État dans les sociétés cotées et dans l’industrie de
-défense, les gestionnaires d’actifs au-delà du seuil légal, et les entreprises
-de défense privées cotées. C’est un ajout éditorial, hors paquet, et un premier périmètre — pas
-encore le graphe complet que décrit le paragraphe suivant.
+défense, les gestionnaires d’actifs au-delà du seuil légal, les entreprises de
+défense privées cotées, les sept banques d’importance systémique, les groupes
+de médias et les sociétés du CAC 40, chacun avec ses actionnaires directs. Deux
+autres pages extraient des données que le paquet laisse ouvertes : la
+[commande publique]({{ '/commande-publique/' | relative_url }}) et les
+[représentants d’intérêts]({{ '/representants-interets/' | relative_url }}).
+Une troisième, [Bénéficiaires effectifs]({{ '/beneficiaires-effectifs/' | relative_url }}),
+dit pourquoi la chaîne s’arrête avant les personnes. C’est un ajout éditorial,
+hors paquet, et un premier périmètre — pas encore le graphe complet que décrit
+le paragraphe suivant.
 
 Passer au registre des acteurs demande de descendre de la **catégorie** à
 l'**organisation nommée**, avec pour chacune la chaîne exigée par la

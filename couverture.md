@@ -147,7 +147,12 @@ pas fermée. Elles indiquent seulement par où commencer.
 3. Concentration de la distribution et de l’alimentation, pouvoir d’achat.
 4. Groupes de construction et d’infrastructures publiques.
 5. Propriété des médias et droits de vote, au niveau des sociétés, en 2026.
-6. Aides et garanties publiques consolidées, société par société.
+   Le [registre des acteurs]({{ '/acteurs/' | relative_url }}) nomme les
+   groupes de médias et leurs actionnaires directs, hors paquet ; les droits
+   de vote n’y figurent que lorsque la source les publie.
+6. Aides et garanties publiques consolidées, société par société. Ce site
+   propose des sources pour le domaine des aides aux entreprises (tableau
+   ci-dessus) ; la consolidation société par société n’est pas faite.
 7. Accès aux bénéficiaires effectifs ultimes là où les données publiques sont
    restreintes. Voir [Bénéficiaires effectifs]({{ '/beneficiaires-effectifs/' | relative_url }}), texte de méthode de ce
    site.
