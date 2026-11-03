@@ -3925,5 +3925,39 @@
     "url": "https://injep.fr/wp-content/uploads/2024/05/Chiffres-cles-vie-associative-2023.pdf",
     "notes": "",
     "verification": "Lu le 2026-11-03 dans la copie archivée du 2025-06-19 : http://web.archive.org/web/20250619123154id_/https://injep.fr/wp-content/uploads/2024/05/Chiffres-cles-vie-associative-2023.pdf ; date de la page de publication. Dernière édition nationale trouvée dans les copies archivées jusqu’au 2026-08-12 ; une édition parue entre novembre 2025 et août 2026 n’est pas exclue (site inaccessible)."
+  },
+  {
+    "source_id": "FR-CPL-0232",
+    "domain": "corporate_disclosure",
+    "institution": "NaTran",
+    "title": "Rapport volontaire de durabilité 2025",
+    "date": "2026-04-01",
+    "source_type": "corporate_report",
+    "authority": "PRIMARY",
+    "priority": "A0",
+    "refresh": "annual",
+    "power_dimensions": "ownership;disclosure;energy;infrastructure",
+    "use": "Répartition du capital de NaTran (ex-GRTgaz), gestionnaire du réseau de transport de gaz : ENGIE 60,85%, Société d’infrastructures gazières 38,47%, salariés par le Fonds Alto 0,68%.",
+    "status": "VERIFIED",
+    "url": "https://www.natrangroupe.com/sites/default/files/ra/rapport-durabilite-2025-natran.pdf",
+    "notes": "",
+    "verification": "PDF lu le 2026-11-03 ; la date est celle du fichier (1er avril 2026), le document n’en imprime pas."
+  },
+  {
+    "source_id": "FR-CPL-0233",
+    "domain": "corporate_disclosure",
+    "institution": "CNP Assurances",
+    "title": "Document d’enregistrement universel 2025 (D.26-0236)",
+    "date": "2026-04-09",
+    "source_type": "regulated_filing",
+    "authority": "PRIMARY",
+    "priority": "A0",
+    "refresh": "annual",
+    "power_dimensions": "ownership;disclosure;finance",
+    "use": "Participations de CNP Assurances dans la Coentreprise de Transport d’Électricité (20%) et dans la Holding d’Infrastructures Gazières (52,97%) ; la Société d’Infrastructures Gazières est « intégralement détenue par HIG ».",
+    "status": "VERIFIED",
+    "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0236/091B5839EF2ECC842DCBA76853F3F4A3D437F1678E2384A38AC84D4614351CE8.zip",
+    "notes": "",
+    "verification": "Document déposé auprès de l’AMF le 9 avril 2026 ; fichier ESEF lu le 2026-11-03."
   }
 ]

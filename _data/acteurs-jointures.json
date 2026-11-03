@@ -2,9 +2,9 @@
  "meta": {
   "annee_notification": "2025",
   "copie_hatvp": "20260812133400",
-  "acteurs_siren": 129,
-  "trouves": 61,
-  "aucun": 68
+  "acteurs_siren": 136,
+  "trouves": 65,
+  "aucun": 71
  },
  "acteurs": [
   {
@@ -43445,6 +43445,693 @@
    ],
    "acheteur": [],
    "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0175",
+   "nom": "RTE",
+   "siren": "444619258",
+   "titulaire": [
+    {
+     "date": "2025-10-10",
+     "contreparties": [
+      {
+       "siren": "211300397",
+       "nom": "COMMUNE DE FOS SUR MER"
+      }
+     ],
+     "objet": "RTE2025 Convention d¿études pour le déplacement partiel de la liaison électrique aérienne à 400kV Feuillane - Ponteau sur la commune de Fos-sur-Mer, à conclure avec la société RTE Réseau de transport d'électricité",
+     "montant": 323000.0,
+     "montant_fr": "323 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "hatvp": {
+    "denomination": "RTE RESEAU DE TRANSPORT D'ELECTRICITE",
+    "exercice": {
+     "date_fin": "31-12-2025",
+     "publie": true,
+     "defaut_declaration": false,
+     "fiches": 16,
+     "depenses": "> = 300 000 euros et < 400 000 euros"
+    }
+   }
+  },
+  {
+   "actor_id": "FR-ACT-0176",
+   "nom": "ENEDIS",
+   "siren": "444608442",
+   "titulaire": [
+    {
+     "date": "2025-01-21",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression branchement électrique d'un ensemble immobilier à usage de bureaux sis à BILLÈRE (64140), 33 bis rue Gensemin",
+     "montant": 555.0,
+     "montant_fr": "555 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-10",
+     "contreparties": [
+      {
+       "siren": "200018166",
+       "nom": "COMMUNAUTE DE COMMUNES LE GRESIVAUDAN"
+      }
+     ],
+     "objet": "Création réseau électrique basse tension",
+     "montant": 36494.4,
+     "montant_fr": "36 494,40 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-18",
+     "contreparties": [
+      {
+       "siren": "237500079",
+       "nom": "REGION ILE DE FRANCE"
+      }
+     ],
+     "objet": "Raccordement au réseau Public de Distribution d’Électricité au lycée Adolphe Chérioux à Vitry-sur-Seine (94)",
+     "montant": 8862.06,
+     "montant_fr": "8 862,06 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-18",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression du branchement électrique de l'immeuble à usage industriel sis à PAU (64000), 7 rue de Bizanos",
+     "montant": 564.27,
+     "montant_fr": "564,27 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-25",
+     "contreparties": [
+      {
+       "siren": "210600292",
+       "nom": "COMMUNE DE CANNES"
+      }
+     ],
+     "objet": "RACCORDEMENT ELECTRIQUE 23 RUE DOCTEUR BALOUX ET 19 RUE DOCTEUR BALOUX 06150 CANNES",
+     "montant": 41896.43,
+     "montant_fr": "41 896,43 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-14",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression d'un branchement électrique du domaine de l'ARAGON sis à HERRÈRE (64680).",
+     "montant": 550.0,
+     "montant_fr": "550 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-20",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression d'un branchement électrique d'une maison d'habitation sise à SERRES-CASTET (64121), 1954 rue de la Vallée d'Ossau",
+     "montant": 555.0,
+     "montant_fr": "555 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-14",
+     "contreparties": [
+      {
+       "siren": "130005093",
+       "nom": "SECRETARIAT GENERAL DU MINISTERE DE LA JUSTICE"
+      }
+     ],
+     "objet": "TF049136 LDC25_064 suppression branchement enedis MA pour la CJ de MAcon",
+     "montant": 1569.57,
+     "montant_fr": "1 569,57 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-16",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "suppression du branchement électrique du local professionnel LA POSTE sis à BIZANOS (64320), 29 rue Georges Clemenceau",
+     "montant": 550.0,
+     "montant_fr": "550 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-23",
+     "contreparties": [
+      {
+       "siren": "237500079",
+       "nom": "REGION ILE DE FRANCE"
+      }
+     ],
+     "objet": "Séparation de réseau HTA au poste Jules Ferry avec accès 2 têtes de câble heures ouvrées",
+     "montant": 1336.15,
+     "montant_fr": "1 336,15 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-24",
+     "contreparties": [
+      {
+       "siren": "216802959",
+       "nom": "COMMUNE DE SAINTE CROIX EN PLAINE"
+      }
+     ],
+     "objet": "déplacement d'ouvrage transfo élec F870 pour réaffectation bâtiment 35 route de bâle",
+     "montant": 136039.19,
+     "montant_fr": "136 039,19 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-16",
+     "contreparties": [
+      {
+       "siren": "219506078",
+       "nom": "COMMUNE DE TAVERNY"
+      }
+     ],
+     "objet": "RACCORDEMENT AU RÉSEAU PUBLIC DE DISTRIBUTION (RPD) D'INSTALLATIONS DE CONSOMMATION INDIVIDUELLE OU COLLECTIVE EN BT RUE DU CHEMIN VERT DE BOISSY À TAVERNY",
+     "montant": 296604.0,
+     "montant_fr": "296 604 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-21",
+     "contreparties": [
+      {
+       "siren": "242900074",
+       "nom": "COMMUNAUTE DE COMMUNES DU PAYS D IROISE"
+      }
+     ],
+     "objet": "RACCORDEMENT ELECTRIQUE BAT. RADIO POINTE DES RENARDS",
+     "montant": 72063.93,
+     "montant_fr": "72 063,93 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-27",
+     "contreparties": [
+      {
+       "siren": "224100016",
+       "nom": "DEPARTEMENT DU LOIR ET CHER"
+      }
+     ],
+     "objet": "Travaux electriques transformateur Col J Crocheton Veuzain sur Loire",
+     "montant": 130916.02,
+     "montant_fr": "130 916,02 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-04",
+     "contreparties": [
+      {
+       "siren": "599200136",
+       "nom": "SEMBREIZH"
+      }
+     ],
+     "objet": "LC raccordement HTA",
+     "montant": 638.69,
+     "montant_fr": "638,69 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-18",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression du branchement électrique de l'ensemble immobilier sis à PAU (64000), 17 boulevard Tourasse",
+     "montant": 555.0,
+     "montant_fr": "555 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-02",
+     "contreparties": [
+      {
+       "siren": "234500023",
+       "nom": "REGION CENTRE-VAL DE LOIRE"
+      }
+     ],
+     "objet": "45_LYCEE A. BOLLAND_RACCORDEMENT ELECTRIQUE DU LYCEE",
+     "montant": 65637.76,
+     "montant_fr": "65 637,76 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-08",
+     "contreparties": [
+      {
+       "siren": "824228142",
+       "nom": "AGENCE NATIONALE POUR LA FORMATION PROFESSIONNELLE DES ADULTES"
+      }
+     ],
+     "objet": "Raccordement au réseau public de distribution basse tension d'une installation de consommation d'électricité au centre Afpa du Havre",
+     "montant": 11593.0,
+     "montant_fr": "11 593 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-10",
+     "contreparties": [
+      {
+       "siren": "599200136",
+       "nom": "SEMBREIZH"
+      }
+     ],
+     "objet": "Saint Malo (35) - n° 197L9P – Modernisation du Terminal du Naye (volet terrestre) - LCDE 25-42304 - Raccordement soutirage",
+     "montant": 5844.6,
+     "montant_fr": "5 844,60 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-28",
+     "contreparties": [
+      {
+       "siren": "599200136",
+       "nom": "SEMBREIZH"
+      }
+     ],
+     "objet": "24-LC-SEMBZH-037 | Lettre de commande_234PJF Etude complémentaire raccordement",
+     "montant": 3143.0,
+     "montant_fr": "3 143 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-01",
+     "contreparties": [
+      {
+       "siren": "258500222",
+       "nom": "VENDEE EAU"
+      }
+     ],
+     "objet": "TRAVAUX RACCORDEMENT DE LA CARRIERE DE LA NOUE A ST CHRISTOPHE DU LIGNERON",
+     "montant": 44272.2,
+     "montant_fr": "44 272,20 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-01",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression du branchement électrique de l'immeuble à usage de commerce SPAR sis à NAY (64800), Place du Marcadieu",
+     "montant": 1499.41,
+     "montant_fr": "1 499,41 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-05",
+     "contreparties": [
+      {
+       "siren": "599200136",
+       "nom": "SEMBREIZH"
+      }
+     ],
+     "objet": "SAINT PERREUX (56) - OP 21RKD3 - Construction centre technique fluvial - LCDE_25-42632_Raccordement réseau électrique ENEDIS",
+     "montant": 2282.74,
+     "montant_fr": "2 282,74 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-10",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Dépose d'un branchement électrique de l'immeuble sis à LEMBEYE (64350), 5 rue de la Gare",
+     "montant": 181.75,
+     "montant_fr": "181,75 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-17",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression branchement électrique du CENTRAKOR sis à NAY (64800), Place du Marcadieu",
+     "montant": 564.0,
+     "montant_fr": "564 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-29",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression d'un branchement électrique de l'immeuble sis à BIZANOS (64320), 10 rue Georges Clemenceau",
+     "montant": 564.0,
+     "montant_fr": "564 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-02",
+     "contreparties": [
+      {
+       "siren": "222100018",
+       "nom": "DEPARTEMENT DE COTE D OR"
+      }
+     ],
+     "objet": "STCO SAULIEU - Raccordement elec - ENEDIS",
+     "montant": 32743.2,
+     "montant_fr": "32 743,20 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-04",
+     "contreparties": [
+      {
+       "siren": "237500079",
+       "nom": "REGION ILE DE FRANCE"
+      }
+     ],
+     "objet": "Raccordement au réseau public de distribution HTA pour une installation de consommation",
+     "montant": 42181.8,
+     "montant_fr": "42 181,80 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-26",
+     "contreparties": [
+      {
+       "siren": "173101205",
+       "nom": "DIRECTION INTERREGIONALE DES SERVICES PENITENTIAIRES TOULOUSE - SUD"
+      }
+     ],
+     "objet": "Déplacement des bornes ENEDIS pour l'IRVE – MA Albi.",
+     "montant": 9178.98,
+     "montant_fr": "9 178,98 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-08",
+     "contreparties": [
+      {
+       "siren": "217200245",
+       "nom": "COMMUNE DE LA BAZOGE"
+      }
+     ],
+     "objet": "VIDEOPROTECTION SUR LA COMMUNE DE LA BAZOGE",
+     "montant": 211062.5,
+     "montant_fr": "211 062,50 €",
+     "accord_cadre": false,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-16",
+     "contreparties": [
+      {
+       "siren": "243300316",
+       "nom": "BORDEAUX METROPOLE"
+      }
+     ],
+     "objet": "Travaux de suppression de branchement pour le raccordement électrique et gaz de la maison Mouchague située à Saint-Louis-De-Montferrand (33440)",
+     "montant": 2779.13,
+     "montant_fr": "2 779,13 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "hatvp": {
+    "denomination": "ENEDIS",
+    "exercice": {
+     "date_fin": "31-12-2025",
+     "publie": true,
+     "defaut_declaration": false,
+     "fiches": 19,
+     "depenses": "> = 800 000 euros et < 900 000 euros"
+    }
+   }
+  },
+  {
+   "actor_id": "FR-ACT-0177",
+   "nom": "NaTran",
+   "siren": "440117620",
+   "titulaire": [
+    {
+     "date": "2025-11-17",
+     "contreparties": [
+      {
+       "siren": "200059228",
+       "nom": "CA GRAND PARIS SUD SEINE ESSONNE SENART"
+      }
+     ],
+     "objet": "CONVENTION DE TVX NATRAN PROJET SUPERMARCHE PL MOULIN A VENT RIS ORANGIS",
+     "montant": 94297.0,
+     "montant_fr": "94 297 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "hatvp": {
+    "denomination": "NATRAN",
+    "exercice": {
+     "date_fin": "31-12-2025",
+     "publie": true,
+     "defaut_declaration": false,
+     "fiches": 12,
+     "depenses": "> = 200 000 euros et < 300 000 euros"
+    }
+   }
+  },
+  {
+   "actor_id": "FR-ACT-0178",
+   "nom": "GRDF",
+   "siren": "444786511",
+   "titulaire": [
+    {
+     "date": "2025-02-14",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression branchement gaz de l'immeuble à usage de commerce, ancien SPAR, sis à NAY (64800), Place du Marcadieu",
+     "montant": 1984.9,
+     "montant_fr": "1 984,90 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-18",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression du branchement gaz de l'immeuble à usage industriel sis à PAU (64000), 7 rue de Bizanos",
+     "montant": 2733.44,
+     "montant_fr": "2 733,44 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-18",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Travaux de suppression du branchement gaz de la maison d'habitation sise à SERRES-CASTET (64121), 1954 rue de la Vallée d'Ossau",
+     "montant": 2021.94,
+     "montant_fr": "2 021,94 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-23",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression du branchement gaz avant démolition du local professionnel LA POSTE sis à BIZANOS (64320), 29 rue Georges Clemenceau",
+     "montant": 2021.94,
+     "montant_fr": "2 021,94 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-04",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression d'un branchement gaz de la propriété sise à PAU (64000), 17 boulevard Tourasse",
+     "montant": 2360.96,
+     "montant_fr": "2 360,96 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-22",
+     "contreparties": [
+      {
+       "siren": "530428903",
+       "nom": "ETABLISSEMENT PUBLIC FONCIER LOCAL BEARN PYRENEES"
+      }
+     ],
+     "objet": "Suppression d'un branchement gaz d'un immeuble à usage de commerce et d'habitat sis à BIZANOS (64320), 10 rue Georges Clemenceau",
+     "montant": 2360.96,
+     "montant_fr": "2 360,96 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-25",
+     "contreparties": [
+      {
+       "siren": "599200136",
+       "nom": "SEMBREIZH"
+      }
+     ],
+     "objet": "Saint Malo (35) - n° 197L9P – Modernisation du Terminal du Naye (volet terrestre) - LCDE 25-42545 - Convention de travaux de modification des ouvrages de distribution gaz",
+     "montant": 26477.77,
+     "montant_fr": "26 477,77 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-16",
+     "contreparties": [
+      {
+       "siren": "243300316",
+       "nom": "BORDEAUX METROPOLE"
+      }
+     ],
+     "objet": "Travaux de suppression de branchement pour le raccordement électrique et gaz de la maison Mouchague située à Saint-Louis-De-Montferrand (33440)",
+     "montant": 2779.13,
+     "montant_fr": "2 779,13 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "hatvp": {
+    "denomination": "GRDF",
+    "exercice": {
+     "date_fin": "31-12-2025",
+     "publie": true,
+     "defaut_declaration": false,
+     "fiches": 16,
+     "depenses": "> = 600 000 euros et < 700 000 euros"
+    }
+   }
   }
  ]
 }

@@ -5000,5 +5000,219 @@
     ],
     "statut": "VERIFIED",
     "notes": "« NSE Participations établit des comptes consolidés en qualité de société mère ultime » ; son président est l’actionnaire personne physique de NSE, non enregistré."
+  },
+  {
+    "actor_id": "FR-ACT-0174",
+    "nom": "COENTREPRISE DE TRANSPORT D'ELECTRICITE",
+    "nom_usuel": "CTE",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "529313652",
+      "lei": "969500BH61SHYYBTJQ29"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0035",
+        "url": "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf",
+        "localisation": "§ 1.4.4.1.1 « Gouvernance de CTE et de RTE », p. 58"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=529313652"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500BH61SHYYBTJQ29"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société dont l’objet exclusif est la détention des titres de RTE. Classée parmi les entreprises à participation publique parce qu’EDF, elle-même dans cette catégorie, en détient la majorité. CNP Assurances en détient 20%, dont 0,96% par sa filiale CNP Retraite : la part directe de CNP Assurances n’est pas publiée, aucun lien n’est saisi."
+  },
+  {
+    "actor_id": "FR-ACT-0175",
+    "nom": "RTE RESEAU DE TRANSPORT D ELECTRICITE",
+    "nom_usuel": "RTE",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-033",
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "444619258",
+      "lei": "969500JRJW0K2ET1UP76"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0035",
+        "url": "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf",
+        "localisation": "§ 1.4.4.1 « Transport – RTE, Réseau de transport d’électricité », p. 58"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=444619258"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500JRJW0K2ET1UP76"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Gestionnaire du réseau public de transport d’électricité. EDF écrit que « ses conditions spécifiques de gouvernance conduisent le Groupe à ne pas consolider RTE par intégration globale mais par mise en équivalence »."
+  },
+  {
+    "actor_id": "FR-ACT-0176",
+    "nom": "ENEDIS",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-033",
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "444608442",
+      "lei": "96950025GZBH9CICZE51"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0035",
+        "url": "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf",
+        "localisation": "§ 1.4.4.2 « La distribution – Enedis », p. 61"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=444608442"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/96950025GZBH9CICZE51"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Gestionnaire du principal réseau public de distribution d’électricité, soumis par le code de l’énergie à des règles d’indépendance vis-à-vis d’EDF."
+  },
+  {
+    "actor_id": "FR-ACT-0177",
+    "nom": "NATRAN",
+    "nom_usuel": "NaTran",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-033"
+    ],
+    "identifiants": {
+      "siren": "440117620",
+      "lei": "549300WKO9211VIK5170"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0232",
+        "url": "https://www.natrangroupe.com/sites/default/files/ra/rapport-durabilite-2025-natran.pdf",
+        "localisation": "encadré « Actionnariat », p. 21"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=440117620"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/549300WKO9211VIK5170"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Ex-GRTgaz : gestionnaire du principal réseau de transport de gaz. Les salariés détiennent 0,68% du capital par le Fonds Alto, un fonds d’épargne salariale : il n’est pas saisi comme détenteur."
+  },
+  {
+    "actor_id": "FR-ACT-0178",
+    "nom": "GRDF",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-033"
+    ],
+    "identifiants": {
+      "siren": "444786511"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0024",
+        "url": "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf",
+        "localisation": "chapitre 6, comptes sociaux d’ENGIE SA, tableau « Filiales et participations », p. 494"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=444786511"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Gestionnaire du principal réseau de distribution de gaz, décrit par ENGIE comme une « filiale indépendante ». Aucun identifiant LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0179",
+    "nom": "SOCIETE D'INFRASTRUCTURES GAZIERES",
+    "nom_usuel": "SIG",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "532900552",
+      "lei": "969500342BNYXRA3OM93"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0233",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0236/091B5839EF2ECC842DCBA76853F3F4A3D437F1678E2384A38AC84D4614351CE8.zip",
+        "localisation": "comptes consolidés, note 4.9.1 « Partenariats significatifs »"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=532900552"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500342BNYXRA3OM93"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Véhicule d’investissement de CNP Assurances et de la Caisse des Dépôts dans NaTran, décrit par NaTran comme un « consortium public ». Classée parmi les entreprises à participation publique : elle appartient entièrement à HIG, dont CNP Assurances, filiale de La Banque Postale, détient la majorité."
+  },
+  {
+    "actor_id": "FR-ACT-0180",
+    "nom": "HOLDING D'INFRASTRUCTURES GAZIERES",
+    "nom_usuel": "HIG",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "532779105"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0233",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0236/091B5839EF2ECC842DCBA76853F3F4A3D437F1678E2384A38AC84D4614351CE8.zip",
+        "localisation": "comptes consolidés, note 4.9.1 « Partenariats significatifs »"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=532779105"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société faîtière « contrôlée conjointement » par CNP Assurances et la Caisse des Dépôts. Le groupe CNP Assurances en détient 52,97% ; la part de la Caisse des Dépôts n’est pas publiée, et ses actionnaires ne sont pas saisis. Aucun identifiant LEI trouvé."
   }
 ]

@@ -82,6 +82,13 @@ meta:
       raison: "Au-delà de 5%, mais en total avec une personne physique, et les holdings ne sont pas nommées."
     - nom: "Caisse des dépôts (Veolia)"
       raison: "5,04% du capital au 30 juin 2026, mais en total de groupe avec CNP Assurances et LBP Prévoyance ; la dernière part directe publiée, 3,11% en mars 2025, est sous le seuil."
+    - nom: "CNP Assurances (CTE), actionnaires de HIG"
+      raison: "CNP Assurances détient 20% de CTE, dont 0,96% par sa filiale CNP Retraite : sa part directe n’est pas publiée. HIG est détenue par le groupe CNP Assurances à 52,97% et par la Caisse des Dépôts, dont la part n’est pas publiée."
+    - nom: "Teréga"
+      raison: "Second gestionnaire de réseau de transport de gaz : son actionnariat change en 2026 (cession annoncée de la participation de GIC), et aucun document de la société arrêté avant la date d’arrêt n’a été lu."
+    - nom: "Électricité de Strasbourg, Strasbourg Électricité Réseaux"
+      raison: "Le document d’EDF écrit que le groupe ÉS est détenu à 88,64% par EDEV, société que le même document dit fusionnée dans EDF International au 31 décembre 2025 : le détenteur direct à la date d’arrêt n’est pas établi."
+
 acteurs:
 
   # --- L'actionnaire et ses véhicules ---------------------------------------
@@ -2440,6 +2447,147 @@ acteurs:
       - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/9695002RIZA2IKC7NA43" }
     statut: VERIFIED
     notes: "« NSE Participations établit des comptes consolidés en qualité de société mère ultime » ; son président est l’actionnaire personne physique de NSE, non enregistré."
+
+  # --- Lot E-1 : gestionnaires de reseaux d'energie ------------------------
+
+  - actor_id: FR-ACT-0174
+    nom: "COENTREPRISE DE TRANSPORT D'ELECTRICITE"
+    nom_usuel: "CTE"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-013]
+    identifiants:
+      siren: "529313652"
+      lei: "969500BH61SHYYBTJQ29"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0035
+        url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf"
+        localisation: "§ 1.4.4.1.1 « Gouvernance de CTE et de RTE », p. 58"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=529313652"
+      - source_id: FR-CPL-0037
+        url: "https://api.gleif.org/api/v1/lei-records/969500BH61SHYYBTJQ29"
+    statut: VERIFIED
+    notes: "Société dont l’objet exclusif est la détention des titres de RTE. Classée parmi les entreprises à participation publique parce qu’EDF, elle-même dans cette catégorie, en détient la majorité. CNP Assurances en détient 20%, dont 0,96% par sa filiale CNP Retraite : la part directe de CNP Assurances n’est pas publiée, aucun lien n’est saisi."
+
+  - actor_id: FR-ACT-0175
+    nom: "RTE RESEAU DE TRANSPORT D ELECTRICITE"
+    nom_usuel: "RTE"
+    type_acteur: entreprise
+    forme_juridique: "SA à directoire et conseil de surveillance"
+    categories: [FR-NODE-033, FR-NODE-013]
+    identifiants:
+      siren: "444619258"
+      lei: "969500JRJW0K2ET1UP76"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0035
+        url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf"
+        localisation: "§ 1.4.4.1 « Transport – RTE, Réseau de transport d’électricité », p. 58"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=444619258"
+      - source_id: FR-CPL-0037
+        url: "https://api.gleif.org/api/v1/lei-records/969500JRJW0K2ET1UP76"
+    statut: VERIFIED
+    notes: "Gestionnaire du réseau public de transport d’électricité. EDF écrit que « ses conditions spécifiques de gouvernance conduisent le Groupe à ne pas consolider RTE par intégration globale mais par mise en équivalence »."
+
+  - actor_id: FR-ACT-0176
+    nom: "ENEDIS"
+    type_acteur: entreprise
+    forme_juridique: "SA à directoire et conseil de surveillance"
+    categories: [FR-NODE-033, FR-NODE-013]
+    identifiants:
+      siren: "444608442"
+      lei: "96950025GZBH9CICZE51"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0035
+        url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf"
+        localisation: "§ 1.4.4.2 « La distribution – Enedis », p. 61"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=444608442"
+      - source_id: FR-CPL-0037
+        url: "https://api.gleif.org/api/v1/lei-records/96950025GZBH9CICZE51"
+    statut: VERIFIED
+    notes: "Gestionnaire du principal réseau public de distribution d’électricité, soumis par le code de l’énergie à des règles d’indépendance vis-à-vis d’EDF."
+
+  - actor_id: FR-ACT-0177
+    nom: "NATRAN"
+    nom_usuel: "NaTran"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-033]
+    identifiants:
+      siren: "440117620"
+      lei: "549300WKO9211VIK5170"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0232
+        url: "https://www.natrangroupe.com/sites/default/files/ra/rapport-durabilite-2025-natran.pdf"
+        localisation: "encadré « Actionnariat », p. 21"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=440117620"
+      - source_id: FR-CPL-0037
+        url: "https://api.gleif.org/api/v1/lei-records/549300WKO9211VIK5170"
+    statut: VERIFIED
+    notes: "Ex-GRTgaz : gestionnaire du principal réseau de transport de gaz. Les salariés détiennent 0,68% du capital par le Fonds Alto, un fonds d’épargne salariale : il n’est pas saisi comme détenteur."
+
+  - actor_id: FR-ACT-0178
+    nom: "GRDF"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-033]
+    identifiants:
+      siren: "444786511"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0024
+        url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf"
+        localisation: "chapitre 6, comptes sociaux d’ENGIE SA, tableau « Filiales et participations », p. 494"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=444786511"
+    statut: VERIFIED
+    notes: "Gestionnaire du principal réseau de distribution de gaz, décrit par ENGIE comme une « filiale indépendante ». Aucun identifiant LEI trouvé."
+
+  - actor_id: FR-ACT-0179
+    nom: "SOCIETE D'INFRASTRUCTURES GAZIERES"
+    nom_usuel: "SIG"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-013]
+    identifiants:
+      siren: "532900552"
+      lei: "969500342BNYXRA3OM93"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0233
+        url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0236/091B5839EF2ECC842DCBA76853F3F4A3D437F1678E2384A38AC84D4614351CE8.zip"
+        localisation: "comptes consolidés, note 4.9.1 « Partenariats significatifs »"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=532900552"
+      - source_id: FR-CPL-0037
+        url: "https://api.gleif.org/api/v1/lei-records/969500342BNYXRA3OM93"
+    statut: VERIFIED
+    notes: "Véhicule d’investissement de CNP Assurances et de la Caisse des Dépôts dans NaTran, décrit par NaTran comme un « consortium public ». Classée parmi les entreprises à participation publique : elle appartient entièrement à HIG, dont CNP Assurances, filiale de La Banque Postale, détient la majorité."
+
+  - actor_id: FR-ACT-0180
+    nom: "HOLDING D'INFRASTRUCTURES GAZIERES"
+    nom_usuel: "HIG"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-013]
+    identifiants:
+      siren: "532779105"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0233
+        url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0236/091B5839EF2ECC842DCBA76853F3F4A3D437F1678E2384A38AC84D4614351CE8.zip"
+        localisation: "comptes consolidés, note 4.9.1 « Partenariats significatifs »"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=532779105"
+    statut: VERIFIED
+    notes: "Société faîtière « contrôlée conjointement » par CNP Assurances et la Caisse des Dépôts. Le groupe CNP Assurances en détient 52,97% ; la part de la Caisse des Dépôts n’est pas publiée, et ses actionnaires ne sont pas saisis. Aucun identifiant LEI trouvé."
 
 
 liens:
@@ -5581,4 +5729,150 @@ liens:
     preuve: P4
     incertitude: "Part en voix, droits doubles compris. Le rapport la nomme « actionnaire majoritaire du groupe NSE » et les comptes la disent « société mère ultime » ; aucun des deux ne qualifie le contrôle au sens du code de commerce."
     garde_fou: "Une détention majoritaire n’est pas qualifiée ici de contrôle : ce site reprend la qualification de la source, et celle-ci n’en donne pas."
+    statut: VERIFIED
+
+  # --- Lot E-1 : gestionnaires de reseaux d'energie ------------------------
+
+  - link_id: FR-LNK-0207
+    source_actor: FR-ACT-0018
+    target_actor: FR-ACT-0174
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "50.1"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0035
+      url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf"
+      localisation: "§ 1.4.4.1.1 « Gouvernance de CTE et de RTE », p. 58"
+    preuve: P4
+    incertitude: "Droits de vote non publiés. EDF comptabilise sa participation « par mise en équivalence du fait des conditions de gouvernance de RTE » (comptes consolidés, p. 397) et ne qualifie pas le contrôle."
+    garde_fou: "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0208
+    source_actor: FR-ACT-0003
+    target_actor: FR-ACT-0174
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "29.9"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0035
+      url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf"
+      localisation: "§ 1.4.4.1.1 « Gouvernance de CTE et de RTE », p. 58"
+    preuve: P4
+    incertitude: "Part publiée par EDF, autre actionnaire de CTE ; droits de vote non publiés."
+    garde_fou: "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0209
+    source_actor: FR-ACT-0174
+    target_actor: FR-ACT-0175
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0035
+      url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf"
+      localisation: "§ 1.4.4.1.1 « Gouvernance de CTE et de RTE », p. 58"
+    preuve: P4
+    incertitude: "« Elle détient 100 % du capital social de RTE. » Droits de vote non publiés."
+    garde_fou: "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0210
+    source_actor: FR-ACT-0018
+    target_actor: FR-ACT-0176
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0035
+      url: "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf"
+      localisation: "§ 1.2.1 « Organisation du Groupe », organigramme, p. 10"
+    preuve: P3
+    incertitude: "L’organigramme et la liste de consolidation (100,00% d’intérêt, p. 461) ne disent pas si la détention est directe ; GLEIF déclare EDF comme parent direct d’Enedis."
+    garde_fou: "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0211
+    source_actor: FR-ACT-0008
+    target_actor: FR-ACT-0177
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "60.85"
+    droits_vote_pct: null
+    controle: exclusif
+    citation:
+      source_id: FR-CPL-0232
+      url: "https://www.natrangroupe.com/sites/default/files/ra/rapport-durabilite-2025-natran.pdf"
+      localisation: "encadré « Actionnariat », p. 21"
+    preuve: P4
+    incertitude: "Le rapport 2025 n’imprime pas la date de la répartition. Le même rapport écrit aussi « 60,8 % » (p. 17), et le document d’ENGIE donne 60,8%, 38,6% et 0,6% (p. 21) ; le contrôle est la qualification d’ENGIE : « Le Groupe estime qu’il détient le contrôle de NaTran » (FR-CPL-0024, p. 365)."
+    garde_fou: "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0212
+    source_actor: FR-ACT-0179
+    target_actor: FR-ACT-0177
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "38.47"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0232
+      url: "https://www.natrangroupe.com/sites/default/files/ra/rapport-durabilite-2025-natran.pdf"
+      localisation: "encadré « Actionnariat », p. 21"
+    preuve: P4
+    incertitude: "Même part dans le document de CNP Assurances (note 4.9.1) ; le document d’ENGIE écrit 38,6% (p. 21) et 38,47% (p. 365). Le pacte d’actionnaires avec ENGIE n’est pas publié."
+    garde_fou: "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0213
+    source_actor: FR-ACT-0008
+    target_actor: FR-ACT-0178
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "100.00"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0024
+      url: "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf"
+      localisation: "chapitre 6, comptes sociaux d’ENGIE SA, tableau « Filiales et participations », p. 494"
+    preuve: P4
+    incertitude: "Quote-part du capital détenue par ENGIE SA elle-même, dans ses comptes sociaux ; droits de vote non publiés."
+    garde_fou: "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0214
+    source_actor: FR-ACT-0180
+    target_actor: FR-ACT-0179
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0233
+      url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0236/091B5839EF2ECC842DCBA76853F3F4A3D437F1678E2384A38AC84D4614351CE8.zip"
+      localisation: "comptes consolidés, note 4.9.1 « Partenariats significatifs »"
+    preuve: P4
+    incertitude: "« La Société d’Infrastructures Gazières (SIG), intégralement détenue par HIG » : pas de pourcentage chiffré, « intégralement » est saisi à 100%. Droits de vote non publiés."
+    garde_fou: "Une détention entière n’est pas qualifiée ici de contrôle : la source n’en donne pas."
     statut: VERIFIED

@@ -4118,5 +4118,165 @@
     "incertitude": "Part en voix, droits doubles compris. Le rapport la nomme « actionnaire majoritaire du groupe NSE » et les comptes la disent « société mère ultime » ; aucun des deux ne qualifie le contrôle au sens du code de commerce.",
     "garde_fou": "Une détention majoritaire n’est pas qualifiée ici de contrôle : ce site reprend la qualification de la source, et celle-ci n’en donne pas.",
     "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0207",
+    "source_actor": "FR-ACT-0018",
+    "target_actor": "FR-ACT-0174",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 50.1,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0035",
+      "url": "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf",
+      "localisation": "§ 1.4.4.1.1 « Gouvernance de CTE et de RTE », p. 58"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote non publiés. EDF comptabilise sa participation « par mise en équivalence du fait des conditions de gouvernance de RTE » (comptes consolidés, p. 397) et ne qualifie pas le contrôle.",
+    "garde_fou": "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0208",
+    "source_actor": "FR-ACT-0003",
+    "target_actor": "FR-ACT-0174",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 29.9,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0035",
+      "url": "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf",
+      "localisation": "§ 1.4.4.1.1 « Gouvernance de CTE et de RTE », p. 58"
+    },
+    "preuve": "P4",
+    "incertitude": "Part publiée par EDF, autre actionnaire de CTE ; droits de vote non publiés.",
+    "garde_fou": "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0209",
+    "source_actor": "FR-ACT-0174",
+    "target_actor": "FR-ACT-0175",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0035",
+      "url": "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf",
+      "localisation": "§ 1.4.4.1.1 « Gouvernance de CTE et de RTE », p. 58"
+    },
+    "preuve": "P4",
+    "incertitude": "« Elle détient 100 % du capital social de RTE. » Droits de vote non publiés.",
+    "garde_fou": "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0210",
+    "source_actor": "FR-ACT-0018",
+    "target_actor": "FR-ACT-0176",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0035",
+      "url": "https://www.edf.fr/sites/groupe/files/2026-04/2026-04-02-edf-urd-2025.pdf",
+      "localisation": "§ 1.2.1 « Organisation du Groupe », organigramme, p. 10"
+    },
+    "preuve": "P3",
+    "incertitude": "L’organigramme et la liste de consolidation (100,00% d’intérêt, p. 461) ne disent pas si la détention est directe ; GLEIF déclare EDF comme parent direct d’Enedis.",
+    "garde_fou": "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0211",
+    "source_actor": "FR-ACT-0008",
+    "target_actor": "FR-ACT-0177",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 60.85,
+    "droits_vote_pct": null,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0232",
+      "url": "https://www.natrangroupe.com/sites/default/files/ra/rapport-durabilite-2025-natran.pdf",
+      "localisation": "encadré « Actionnariat », p. 21"
+    },
+    "preuve": "P4",
+    "incertitude": "Le rapport 2025 n’imprime pas la date de la répartition. Le même rapport écrit aussi « 60,8 % » (p. 17), et le document d’ENGIE donne 60,8%, 38,6% et 0,6% (p. 21) ; le contrôle est la qualification d’ENGIE : « Le Groupe estime qu’il détient le contrôle de NaTran » (FR-CPL-0024, p. 365).",
+    "garde_fou": "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0212",
+    "source_actor": "FR-ACT-0179",
+    "target_actor": "FR-ACT-0177",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 38.47,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0232",
+      "url": "https://www.natrangroupe.com/sites/default/files/ra/rapport-durabilite-2025-natran.pdf",
+      "localisation": "encadré « Actionnariat », p. 21"
+    },
+    "preuve": "P4",
+    "incertitude": "Même part dans le document de CNP Assurances (note 4.9.1) ; le document d’ENGIE écrit 38,6% (p. 21) et 38,47% (p. 365). Le pacte d’actionnaires avec ENGIE n’est pas publié.",
+    "garde_fou": "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0213",
+    "source_actor": "FR-ACT-0008",
+    "target_actor": "FR-ACT-0178",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0024",
+      "url": "https://www.engie.com/app/uploads/2026/04/Document-denregistrement-universel-2025.pdf",
+      "localisation": "chapitre 6, comptes sociaux d’ENGIE SA, tableau « Filiales et participations », p. 494"
+    },
+    "preuve": "P4",
+    "incertitude": "Quote-part du capital détenue par ENGIE SA elle-même, dans ses comptes sociaux ; droits de vote non publiés.",
+    "garde_fou": "Détenir un gestionnaire de réseau n’est pas le diriger : le code de l’énergie impose des règles d’indépendance que la propriété ne lève pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0214",
+    "source_actor": "FR-ACT-0180",
+    "target_actor": "FR-ACT-0179",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0233",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0236/091B5839EF2ECC842DCBA76853F3F4A3D437F1678E2384A38AC84D4614351CE8.zip",
+      "localisation": "comptes consolidés, note 4.9.1 « Partenariats significatifs »"
+    },
+    "preuve": "P4",
+    "incertitude": "« La Société d’Infrastructures Gazières (SIG), intégralement détenue par HIG » : pas de pourcentage chiffré, « intégralement » est saisi à 100%. Droits de vote non publiés.",
+    "garde_fou": "Une détention entière n’est pas qualifiée ici de contrôle : la source n’en donne pas.",
+    "statut": "VERIFIED"
   }
 ]
