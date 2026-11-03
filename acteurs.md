@@ -447,6 +447,92 @@ situés en France, tantôt l’État lui-même.
 Ce que mesure la demande étrangère se lit dans le
 [rapport au Parlement sur les exportations d’armement]({{ '/registre/' | relative_url }}#FR-CPL-0130).
 
+## Marchés publics et représentation d’intérêts
+
+{%- assign jt = site.data['acteurs-jointures'] %}
+
+Chaque acteur qui a un SIREN est cherché, par ce numéro, dans deux fichiers
+publics : les marchés notifiés en {{ jt.meta.annee_notification }}, tels que
+les déclarent les données essentielles de la commande publique (la même
+extraction que la page [Commande publique]({{ '/commande-publique/' | relative_url }}),
+avec la même exception de date), et le répertoire des représentants
+d’intérêts, dans sa copie archivée le {% include date-snapshot.html %} (la
+même que la page [Représentants d’intérêts]({{ '/representants-interets/' | relative_url }})).
+Sur {{ jt.meta.acteurs_siren }} acteurs qui ont un SIREN,
+**{{ jt.meta.trouves }}** apparaissent dans au moins un des deux fichiers ;
+{{ jt.meta.aucun }} n’apparaissent dans aucun.
+
+<div class="garde-fou" markdown="1">
+
+**Ce que ce tableau ne prouve pas.**
+
+- **Un marché n’est pas une dépendance, une fiche n’est pas une influence.**
+  L’un établit une transaction, l’autre un contact déclaré.
+- **La jointure se fait par entité juridique, jamais par groupe.** Une société
+  de tête qui ne signe aucun marché peut avoir des filiales qui en signent des
+  milliers ; une organisation peut s’inscrire à la Haute Autorité sous le
+  SIREN d’une autre entité. Un zéro ne veut donc pas dire « absent ».
+- **Rien n’est additionné.** Les marchés sont listés un par un, avec le
+  montant que déclare l’acheteur : celui d’un accord-cadre est un plafond,
+  celui d’un marché à plusieurs titulaires vaut pour le marché entier, et
+  certains montants sont des valeurs de remplissage. Chacun de ces cas est
+  signalé.
+
+</div>
+
+<div class="table-defilante">
+<table>
+  <thead>
+    <tr>
+      <th>Acteur</th>
+      <th>Marchés {{ jt.meta.annee_notification }} comme titulaire</th>
+      <th>Marchés {{ jt.meta.annee_notification }} comme acheteur</th>
+      <th>Répertoire des représentants d’intérêts, exercice {{ jt.meta.annee_notification }}</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- for j in jt.acteurs %}
+    {%- assign ac_t = j.titulaire | where: "accord_cadre", true | size -%}
+    {%- assign ac_a = j.acheteur | where: "accord_cadre", true | size %}
+    <tr>
+      <td><a href="#{{ j.actor_id }}">{{ j.nom }}</a> <span class="meta">SIREN {{ j.siren }}</span></td>
+      <td>
+        {%- if j.titulaire.size > 0 -%}
+        <a href="{{ '/acteurs/marches/' | relative_url }}#marches-{{ j.actor_id }}">{% include nombre-fr.html n=j.titulaire.size %}</a>{% if ac_t > 0 %} <span class="meta">dont {{ ac_t }} accord{% if ac_t > 1 %}s{% endif %}-cadre{% if ac_t > 1 %}s{% endif %}</span>{% endif %}
+        {%- else -%}<span class="meta">aucun</span>{%- endif -%}
+      </td>
+      <td>
+        {%- if j.acheteur.size > 0 -%}
+        <a href="{{ '/acteurs/marches/' | relative_url }}#marches-{{ j.actor_id }}">{% include nombre-fr.html n=j.acheteur.size %}</a>{% if ac_a > 0 %} <span class="meta">dont {{ ac_a }} accord{% if ac_a > 1 %}s{% endif %}-cadre{% if ac_a > 1 %}s{% endif %}</span>{% endif %}
+        {%- else -%}<span class="meta">aucun</span>{%- endif -%}
+      </td>
+      <td>
+        {%- if j.hatvp == nil -%}<span class="meta">non inscrit sous ce SIREN</span>
+        {%- elsif j.hatvp.exercice == nil -%}inscrit <span class="meta">aucun exercice {{ jt.meta.annee_notification }}</span>
+        {%- elsif j.hatvp.exercice.publie == false -%}inscrit <span class="meta">exercice {{ jt.meta.annee_notification }} non publié dans la copie{% if j.hatvp.exercice.defaut_declaration %}, signalé en défaut de déclaration{% endif %}</span>
+        {%- else -%}
+        {{ j.hatvp.exercice.fiches }} fiche{% if j.hatvp.exercice.fiches > 1 %}s{% endif %}
+        <span class="meta">
+          {%- if j.hatvp.exercice.depenses -%}
+          dépenses {{ j.hatvp.exercice.depenses | replace: "> = ", "de " | replace: " et < ", " à moins de " | replace: "< ", "moins de " | replace: " euros", " €" }}
+          {%- else -%}dépenses non déclarées{%- endif -%}
+        </span>
+        {%- endif -%}
+      </td>
+    </tr>
+    {%- endfor %}
+  </tbody>
+</table>
+</div>
+
+Chaque marché, un par un, avec son objet et le montant déclaré par
+l’acheteur, est sur la page
+[Marchés des acteurs]({{ '/acteurs/marches/' | relative_url }}).
+
+Le détail se télécharge en tableur :
+[`ajout_acteurs_jointures.csv`]({{ '/assets/donnees/ajout_acteurs_jointures.csv' | relative_url }}).
+Le calcul : `scripts/joindre-acteurs.py`, dans le dépôt du site.
+
 ## D’où viennent ces chiffres
 
 Des documents annuels déposés par les sociétés à l’Autorité des marchés

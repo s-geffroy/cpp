@@ -624,6 +624,11 @@ td.nombre {
 .detail-lien summary { cursor: pointer; color: var(--accent); width: max-content; }
 .detail-lien p { margin: 0.35rem 0 0; }
 
+.detail-marches { margin: 0.5rem 0; }
+.detail-marches summary { cursor: pointer; color: var(--accent); }
+.detail-marches caption { text-align: left; font-weight: 600; padding: 0.5rem 0 0.25rem; }
+.detail-marches td { font-size: 0.8125rem; vertical-align: top; }
+
 .dependance .absente { font-style: italic; color: var(--texte-doux); }
 
 .aval,

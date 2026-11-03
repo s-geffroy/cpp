@@ -106,6 +106,11 @@ par `ajout_`.
     <span class="meta">les organisations qui déclarent le plus d’actions de <a href="{{ '/representants-interets/' | relative_url }}">représentation d’intérêts</a> en 2025</span>
   </li>
   <li>
+    <a href="{{ '/assets/donnees/ajout_acteurs_jointures.csv' | relative_url }}">
+      <code>ajout_acteurs_jointures.csv</code></a>
+    <span class="meta">les marchés publics 2025 et l’exercice 2025 du répertoire des représentants d’intérêts de chaque <a href="{{ '/acteurs/' | relative_url }}#marchés-publics-et-représentation-dintérêts">acteur</a>, joints par SIREN</span>
+  </li>
+  <li>
     <a href="{{ '/assets/donnees/ajout_passage_dimensions.csv' | relative_url }}">
       <code>ajout_passage_dimensions.csv</code></a>
     <span class="meta">la table de passage ci-dessous</span>
