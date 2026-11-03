@@ -1176,7 +1176,7 @@ sources:
   - source_id: FR-CPL-0076
     domain: advertising_market
     institution: "République française (Journal officiel)"
-    title: "Loi n° 93-122 du 29 janvier 1993 relative à la prévention de la corruption et à la transparence de la vie économique et des procédures publiques (loi « Sapin »), titre II"
+    title: "Loi n° 93-122 du 29 janvier 1993 relative à la prévention de la corruption et à la transparence de la vie économique et des procédures publiques (loi « Sapin »), titre II, chapitre II « Prestations de publicité » (art. 20 à 29)"
     date: "1993-01-29"
     source_type: legal_text
     authority: PRIMARY
@@ -1184,9 +1184,9 @@ sources:
     refresh: event_driven
     mots_cles: [transparency, market, legal]
     use: "Organise le pouvoir dans l’achat d’espace publicitaire : mandat écrit obligatoire, interdiction pour l’intermédiaire d’acheter pour revendre, compte rendu à l’annonceur."
-    status: TO_VERIFY
+    status: VERIFIED
     url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000711604"
-    verification: "Non lue : Légifrance bloque les robots. L’identifiant Légifrance n’a pas été confirmé ; à vérifier à la main."
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2025-01-26 : http://web.archive.org/web/20250126172122id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000711604 ; l’article 20 impose un contrat écrit de mandat."
 
   - source_id: FR-CPL-0077
     domain: advertising_market
@@ -1199,9 +1199,9 @@ sources:
     refresh: one_off
     mots_cles: [privacy, platforms, sanction]
     use: "Montre l’encadrement du ciblage publicitaire de l’acteur dominant par le régulateur des données."
-    status: TO_VERIFY
+    status: VERIFIED
     url: "https://www.cnil.fr/fr/publicites-inserees-entre-les-courriels-et-cookies-la-cnil-sanctionne-google-dune-amende-de-325"
-    verification: "Non lue : site en maintenance le 2026-10-22. Titre, numéro et date tirés d’une recherche ; à vérifier à la main."
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2026-04-27 : http://web.archive.org/web/20260427164201id_/https://www.cnil.fr/fr/publicites-inserees-entre-les-courriels-et-cookies-la-cnil-sanctionne-google-dune-amende-de-325 ; publié le 3 septembre 2025, délibération n° SAN-2025-004 du 1er septembre 2025 (200 M€ pour Google LLC, 125 M€ pour Google Ireland)."
 
   - source_id: FR-CPL-0078
     domain: transport_logistics
@@ -1259,9 +1259,9 @@ sources:
     refresh: annual
     mots_cles: [infrastructure, economic, market]
     use: "Statistique publique de référence pour tous les modes, dont le fluvial, le maritime et la logistique, avec la dépense publique de transport."
-    status: TO_VERIFY
+    status: VERIFIED
     url: "https://www.statistiques.developpement-durable.gouv.fr/bilan-annuel-des-transports-en-2024"
-    verification: "Non lue : site en maintenance le 2026-10-22. Date tirée d’une recherche ; à vérifier à la main."
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2026-08-06 : http://web.archive.org/web/20260806093531id_/https://www.statistiques.developpement-durable.gouv.fr/bilan-annuel-des-transports-en-2024 ; « Publié le 25/11/2025 »."
 
   - source_id: FR-CPL-0082
     domain: transport_logistics
@@ -1304,9 +1304,9 @@ sources:
     refresh: event_driven
     mots_cles: [legal, regulation, territorial]
     use: "Répartit les compétences d’autorité organisatrice des mobilités et renforce les pouvoirs du régulateur des transports."
-    status: TO_VERIFY
+    status: VERIFIED
     url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000039666574"
-    verification: "Non lue : Légifrance bloque les robots. Identifiant confirmé par deux documents publics qui y renvoient ; texte à vérifier à la main."
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2025-01-21 : http://web.archive.org/web/20250121085438id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000039666574"
 
   - source_id: FR-CPL-0085
     domain: retail_food
@@ -1371,7 +1371,7 @@ sources:
   - source_id: FR-CPL-0089
     domain: retail_food
     institution: "Observatoire de la formation des prix et des marges des produits alimentaires (FranceAgriMer)"
-    title: "Rapport 2026 au Parlement"
+    title: "Rapport 2026 au Parlement — synthèse (chapitre 2), édition juin 2026"
     date: "2026-07-09"
     source_type: official_report
     authority: PRIMARY_STATISTICAL
@@ -1379,9 +1379,9 @@ sources:
     refresh: annual
     mots_cles: [market_power, supply, economic]
     use: "Décompose le prix au détail entre matière agricole, transformation et distribution, rayon par rayon."
-    status: TO_VERIFY
+    status: VERIFIED
     url: "https://observatoire-prixmarges.franceagrimer.fr/sites/default/files/pictures/2026_ofpm_synthese.pdf"
-    verification: "Rapport non lu : site en maintenance le 2026-10-22. Seul le communiqué de FranceAgriMer du 9 juillet 2026 a été lu."
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2026-07-10 : http://web.archive.org/web/20260710070405id_/https://observatoire-prixmarges.franceagrimer.fr/sites/default/files/pictures/2026_ofpm_synthese.pdf ; ce fichier est la synthèse, « tiré à part du chapitre 2 du rapport », pas le rapport entier. Date de parution tirée du communiqué de FranceAgriMer du 9 juillet 2026."
 
   - source_id: FR-CPL-0090
     domain: retail_food
@@ -1394,9 +1394,9 @@ sources:
     refresh: annual
     mots_cles: [sanction, supply, competition]
     use: "Mesure les contrôles et les sanctions sur les négociations commerciales et les centrales d’achat internationales."
-    status: TO_VERIFY
+    status: VERIFIED
     url: "https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/Rapport-activite-2025-DGCCRF.pdf"
-    verification: "Rapport non lu : le site bloque les robots. Le communiqué du 10 juin 2026 parle de sanctions engagées contre « trois enseignes » ; le chiffre est à vérifier dans le rapport."
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2026-06-10 : http://web.archive.org/web/20260610111514id_/https://www.economie.gouv.fr/files/files/directions_services/dgccrf/media-document/Rapport-activite-2025-DGCCRF.pdf ; p. 53 : des procédures de sanction ont été « engagées contre deux enseignes pour non-respect de la date butoir » des négociations 2025 (engagées, non prononcées)."
 
   - source_id: FR-CPL-0091
     domain: retail_food
@@ -1409,9 +1409,9 @@ sources:
     refresh: event_driven
     mots_cles: [legal, supply, market_power]
     use: "Cadre légal des négociations commerciales : contrats pluriannuels, non-négociabilité de la matière première agricole, transparence des tarifs."
-    status: TO_VERIFY
-    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044220522"
-    verification: "Non lue : Légifrance bloque les robots. Intitulé confirmé par une fiche du ministère de l’Agriculture ; identifiant Légifrance à vérifier à la main."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044220683"
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2025-02-10 : http://web.archive.org/web/20250210154509id_/https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044220683 . L’identifiant inscrit d’abord (JORFTEXT000044220522) n’a pu être lu nulle part : il est remplacé."
 
   - source_id: FR-CPL-0092
     domain: construction_infrastructure
@@ -1492,16 +1492,16 @@ sources:
     domain: construction_infrastructure
     institution: "Observatoire économique de la commande publique (direction des affaires juridiques, ministère de l’Économie)"
     title: "Recensement économique de la commande publique — chiffres 2024"
-    date: "2026-03-31"
+    date: "2026-03-18"
     source_type: official_statistics
     authority: PRIMARY_STATISTICAL
     priority: A1
     refresh: annual
     mots_cles: [procurement, economic]
     use: "Statistique officielle des marchés publics par type d’acheteur et par catégorie, dont les travaux."
-    status: TO_VERIFY
-    url: "https://www.economie.gouv.fr/daj/oecp-recensement-economique-commande-publique"
-    verification: "Non lu : le site bloque les robots. Édition et date de parution à vérifier à la main."
+    status: VERIFIED
+    url: "https://www.economie.gouv.fr/files/files/directions_services/daj/media-document/Recensement2024-0326DEF.pdf"
+    verification: "Lu le 2026-11-03 dans la seule copie archivée, du 2026-09-25 : http://web.archive.org/web/20260925030242id_/https://www.economie.gouv.fr/files/files/directions_services/daj/media-document/Recensement2024-0326DEF.pdf . Le document indique « mars 2026 » ; la date retenue est celle de ses métadonnées. Aucune copie antérieure à la date d’arrêt ne prouve sa mise en ligne avant le 12 août 2026."
 
   - source_id: FR-CPL-0098
     domain: professional_orders
@@ -3398,3 +3398,144 @@ sources:
     url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687451"
     verification: "Lu le 2026-10-26 dans la copie archivée de la version au 2025-01-20 : http://web.archive.org/web/20250120155757id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000687451/2025-01-20"
     notes: "Version applicable au 2026-08-12."
+
+  # --- Lot D : lacunes du registre levees sans depot manuel ----------------
+
+  - source_id: FR-CPL-0223
+    domain: corporate_disclosure
+    institution: "Autorité des marchés financiers"
+    title: "Déclaration de franchissement de seuil (Danone), avis 221C3335"
+    date: "2021-12-01"
+    source_type: regulatory_notice
+    authority: PRIMARY_REGULATORY
+    priority: A0
+    refresh: event
+    mots_cles: [ownership, disclosure]
+    use: "Nomme l’entité qui détient les titres Danone : Artisan Partners Limited Partnership, société du Delaware, « agissant pour le compte de fonds et de clients dont elle assure la gestion », et sa chaîne de contrôle."
+    status: VERIFIED
+    url: "https://bdif.amf-france.org/back/api/v1/documents/2021/221C3335/EB4B7F5FBA7CD6EE840D44FFEC54D57B4221DB59899880C3CB94D6EB01D336D5.pdf"
+    verification: "Avis publié par l’AMF, lu le 2026-11-03."
+
+  - source_id: FR-CPL-0224
+    domain: defense_industry
+    institution: "Actia Group"
+    title: "Rapport annuel 2025, incluant le rapport financier annuel"
+    date: "2026-04-23"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, defense]
+    use: "Part de la division Aerospace, qui regroupe l’aéronautique, le spatial, les communications par satellite et la défense ; répartition du capital et des droits de vote au 31 décembre 2025 ; contrôle par les familles fondatrices au travers de LP2C."
+    status: VERIFIED
+    url: "https://investors.actia.com/wp-content/uploads/2026/04/ACTIA_Rapport_annuel_2025_DEF.pdf"
+    verification: "PDF lu le 2026-11-03. Déposé auprès de l’AMF le 23 avril 2026 (communiqué de mise à disposition du 24 avril 2026)."
+
+  - source_id: FR-CPL-0225
+    domain: defense_industry
+    institution: "NSE"
+    title: "Rapport de gestion 2025"
+    date: "2026-04-29"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, defense]
+    use: "Répartition du chiffre d’affaires (défense 53%, sur un graphique) et structure de l’actionnariat au 31 décembre 2025."
+    status: VERIFIED
+    url: "https://www.nse-groupe.com/wp-content/uploads/2026/04/NSE-Rapport-de-gestion-2025-VF.pdf"
+    verification: "PDF lu le 2026-11-03 ; la répartition du chiffre d’affaires n’existe que sur un graphique (p. 10), lu sur l’image de la page."
+
+  - source_id: FR-CPL-0226
+    domain: defense_industry
+    institution: "NSE"
+    title: "Comptes consolidés IFRS, exercice clos le 31 décembre 2025"
+    date: "2026-04-29"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A1
+    refresh: annual
+    mots_cles: [ownership, disclosure]
+    use: "NSE est consolidée par intégration globale par NSE Participations, « société mère ultime »."
+    status: VERIFIED
+    url: "https://www.nse-groupe.com/wp-content/uploads/2026/04/NSE-COMPTES-CONSOLIDES-IFRS-CLOTURE-2025-VF.pdf"
+    verification: "PDF lu le 2026-11-03."
+
+  # --- Lot D : textes des lacunes A1 (lus dans des copies Wayback) -----------
+
+  - source_id: FR-CPL-0227
+    domain: associations_ngos_foundations
+    institution: "République française (Légifrance)"
+    title: "Loi du 1er juillet 1901 relative au contrat d’association"
+    date: "1901-07-01"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A1
+    refresh: continuous
+    mots_cles: [association, legal]
+    use: "Définit l’association, « la convention par laquelle deux ou plusieurs personnes mettent en commun » leurs connaissances ou leur activité dans un but autre que de partager des bénéfices (art. 1er)."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000497458"
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2025-02-09 : http://web.archive.org/web/20250209135650id_/https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000497458"
+    notes: "Version applicable au 2026-08-12."
+
+  - source_id: FR-CPL-0228
+    domain: associations_ngos_foundations
+    institution: "République française (Journal officiel)"
+    title: "Loi n° 2021-1109 du 24 août 2021 confortant le respect des principes de la République, article 12"
+    date: "2021-08-24"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A1
+    refresh: one_off
+    mots_cles: [association, funding, legal]
+    use: "Crée le contrat d’engagement républicain : toute association ou fondation qui sollicite une subvention publique s’engage à le respecter (art. 10-1 de la loi n° 2000-321)."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043964778"
+    verification: "JORF n° 0197 du 25 août 2021, NOR INTX2030083L. Lu le 2026-11-03 dans la copie archivée du 2025-04-01 : http://web.archive.org/web/20250401132416id_/https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043964778"
+
+  - source_id: FR-CPL-0229
+    domain: professional_orders
+    institution: "République française (Légifrance)"
+    title: "Code de la santé publique, articles L. 4121-1 et L. 4121-2 (ordre national des médecins, des chirurgiens-dentistes et des sages-femmes)"
+    date: "2019-07-27"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A1
+    refresh: continuous
+    mots_cles: [legal, norms]
+    use: "Inscription obligatoire à l’ordre (L. 4121-1) et missions de l’ordre : principes de moralité, de probité et de compétence, défense de l’honneur et de l’indépendance de la profession (L. 4121-2)."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038888201"
+    verification: "L. 4121-1 (LEGIARTI000036515550, version du 2018-01-19) lu le 2026-11-03 dans la copie archivée du 2024-09-19 : http://web.archive.org/web/20240919084025id_/https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036515550 ; L. 4121-2 (LEGIARTI000038888201, version du 2019-07-27) dans la copie du 2024-12-03 : http://web.archive.org/web/20241203030602id_/https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038888201"
+    notes: "Versions applicables au 2026-08-12."
+
+  - source_id: FR-CPL-0230
+    domain: people_governance_revolving_network
+    institution: "République française (Journal officiel)"
+    title: "Décret n° 2020-69 du 30 janvier 2020 relatif aux contrôles déontologiques dans la fonction publique"
+    date: "2020-01-30"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A1
+    refresh: one_off
+    mots_cles: [integrity, administrative, legal]
+    use: "Procédure de contrôle des départs d’agents publics vers le secteur privé : saisine de la Haute Autorité pour la transparence de la vie publique par l’autorité hiérarchique (art. 19)."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041506165"
+    verification: "JORF n° 0026 du 31 janvier 2020, NOR CPAF1931922D. Lu le 2026-11-03 dans la copie archivée du 2024-05-23 : http://web.archive.org/web/20240523035327id_/https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041506165 ; version initiale, modifications ultérieures non vérifiées."
+
+  - source_id: FR-CPL-0231
+    domain: associations_ngos_foundations
+    institution: "Institut national de la jeunesse et de l’éducation populaire (INJEP)"
+    title: "Les chiffres clés de la vie associative 2023"
+    date: "2023-03-16"
+    source_type: official_statistics
+    authority: PRIMARY_STATISTICAL
+    priority: A1
+    refresh: annual
+    mots_cles: [association, employment, funding]
+    use: "1,3 million d’associations actives en 2018 ; 1,8 million de salariés en 2021, « près d’un salarié du secteur privé sur dix (9,2 %) » ; budget de 125,3 milliards d’euros en 2018."
+    status: VERIFIED
+    url: "https://injep.fr/wp-content/uploads/2024/05/Chiffres-cles-vie-associative-2023.pdf"
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2025-06-19 : http://web.archive.org/web/20250619123154id_/https://injep.fr/wp-content/uploads/2024/05/Chiffres-cles-vie-associative-2023.pdf ; date de la page de publication. Dernière édition nationale trouvée dans les copies archivées jusqu’au 2026-08-12 ; une édition parue entre novembre 2025 et août 2026 n’est pas exclue (site inaccessible)."

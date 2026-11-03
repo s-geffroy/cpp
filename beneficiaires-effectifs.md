@@ -154,8 +154,8 @@ montrent où la chaîne s’interrompt. Quelques exemples :
 - **Des holdings connues sans leur part.** Les deux holdings de la famille
   Mittal ne sont publiées qu’en nombre d’actions ; celles de la famille
   Badinter, chez Publicis, ne sont pas nommées.
-- **Des homonymes.** Deux sociétés s’appellent Orfimar, actionnaire de
-  Bolloré SE à 5,52% ; rien ne permet de choisir.
+- **Des homonymes.** Deux sociétés s’appellent Crédit Mutuel Equity,
+  actionnaire de NSE à 20,28% du capital ; rien ne permet de choisir.
 - **Des chaînes qui s’arrêtent à une société familiale.** Chez Bolloré,
   Arnault, Hermès ou Pinault, le registre atteint une holding familiale ;
   au-delà, les documents lus ne publient plus de parts, et la chaîne

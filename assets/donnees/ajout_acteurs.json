@@ -2260,7 +2260,7 @@
       }
     ],
     "statut": "VERIFIED",
-    "notes": "Compagnie de l’Odet, qui la détient, est « contrôlée directement par Sofibol, elle-même contrôlée indirectement par Bolloré Participations SE (Famille Bolloré) » : ces sociétés de tête et la famille ne sont pas enregistrées. Orfimar détient 5,52% du capital ; deux sociétés portent ce nom, aucun lien n’est saisi."
+    "notes": "Compagnie de l’Odet, qui la détient, est « contrôlée directement par Sofibol, elle-même contrôlée indirectement par Bolloré Participations SE (Famille Bolloré) » : ces sociétés de tête et la famille ne sont pas enregistrées. Orfimar, société luxembourgeoise, détient 5,52% du capital (lien FR-LNK-0201)."
   },
   {
     "actor_id": "FR-ACT-0083",
@@ -3220,7 +3220,7 @@
       }
     ],
     "statut": "VERIFIED",
-    "notes": "Artisan Partners détient 5,9% du capital et 8,3% des droits de vote bruts ; l’entité juridique exacte n’est pas imprimée, aucun lien n’est saisi. Fonds « Fonds Danone » des salariés : 1,7% du capital."
+    "notes": "Le document écrit « Artisan Partners » ; l’entité est identifiée par l’avis AMF 221C3335 (lien FR-LNK-0202). Fonds « Fonds Danone » des salariés : 1,7% du capital."
   },
   {
     "actor_id": "FR-ACT-0114",
@@ -4768,5 +4768,237 @@
     ],
     "statut": "VERIFIED",
     "notes": "« La société d’investissement de la Fondation La Caixa » (document de Veolia)."
+  },
+  {
+    "actor_id": "FR-ACT-0166",
+    "nom": "ORFIMAR",
+    "nom_usuel": "Orfimar",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SARL de droit luxembourgeois",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "lei": "894500TYVT1A7O30QY03",
+      "autre": {
+        "registre": "Registre de commerce et des sociétés (Luxembourg)",
+        "cle": "B292341"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0154",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0272/4CE164A9EE4A1FC2184A844A1B2143B4DCB06AABAFE102FAA28717E7D793F2F1.zip",
+        "localisation": "tableau de la répartition du capital, note (5) ; mandats des administrateurs, adresse professionnelle"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/894500TYVT1A7O30QY03"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Le document de Bolloré écrit « Orfimar », sans forme juridique, et précise : « Suite à l’absorption d’Orfim par Orfimar le 31 mars 2025 ». Le même document donne l’adresse professionnelle d’un administrateur : « Orfimar SARL, 29, avenue de la Porte-Neuve, L-2227 Luxembourg », celle de cette fiche LEI. L’homonyme français (SIREN 443465828) a cessé son activité le 2 décembre 2024 selon le répertoire Sirene. GLEIF : parent non déclaré, motif « personnes physiques »."
+  },
+  {
+    "actor_id": "FR-ACT-0167",
+    "nom": "Artisan Partners Limited Partnership",
+    "type_acteur": "gestionnaire_actifs",
+    "forme_juridique": "Limited partnership de droit du Delaware (États-Unis)",
+    "categories": [
+      "FR-NODE-018"
+    ],
+    "identifiants": {
+      "lei": "H441S2FJOUSVWTYA1B25"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0223",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2021/221C3335/EB4B7F5FBA7CD6EE840D44FFEC54D57B4221DB59899880C3CB94D6EB01D336D5.pdf",
+        "localisation": "§ 1 et note 1"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/H441S2FJOUSVWTYA1B25"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Contrôlée par la société Artisan Investments GP LLC […], elle-même contrôlée [par] la société Artisan Partners Holdings LP », contrôlée à son tour par Artisan Partners Asset Management Inc (avis AMF 221C3335) : ces sociétés ne sont pas enregistrées."
+  },
+  {
+    "actor_id": "FR-ACT-0168",
+    "nom": "ACTIA GROUP",
+    "nom_usuel": "Actia Group",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-031"
+    ],
+    "identifiants": {
+      "siren": "542080791",
+      "lei": "969500UPP3G1EYL1UI19"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0224",
+        "url": "https://investors.actia.com/wp-content/uploads/2026/04/ACTIA_Rapport_annuel_2025_DEF.pdf",
+        "localisation": "§ 1.4.3, division Aerospace"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=542080791"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500UPP3G1EYL1UI19"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Défense déclarée dans un secteur mixte : « la division Aerospace regroupe les domaines des communications par satellite, de l’électronique embarquée dans l’aéronautique et le spatial, ainsi que la défense » ; « pour 2025, les ventes de la division Aerospace représentent 14,0 % des ventes du Groupe ». SGPFEC (5,16% du capital, 6,39% des droits de vote) n’a pas d’identifiant trouvé : aucun lien n’est saisi."
+  },
+  {
+    "actor_id": "FR-ACT-0169",
+    "nom": "L P 2 C",
+    "nom_usuel": "LP2C",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "384043352",
+      "lei": "969500D0R2P68TSOZS68"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0224",
+        "url": "https://investors.actia.com/wp-content/uploads/2026/04/ACTIA_Rapport_annuel_2025_DEF.pdf",
+        "localisation": "§ 9.1.2, p. 300"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=384043352"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500D0R2P68TSOZS68"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding animatrice des familles Pech et Calmels, fondatrices d’Actia ; les personnes physiques ne sont pas enregistrées."
+  },
+  {
+    "actor_id": "FR-ACT-0170",
+    "nom": "SIDMIA INTERNATIONAL",
+    "nom_usuel": "SIDMIA International",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "348900564",
+      "lei": "969500OTJ8EW1999IT75"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=348900564"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500OTJ8EW1999IT75"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding de la famille Thrum, membre du concert d’Actia. Le document d’Actia ne donne pas son SIREN : l’identifiant vient du seul homonyme actif du répertoire Sirene. LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0171",
+    "nom": "GESTINEG H",
+    "nom_usuel": "Gestineg H",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SARL",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "799415427",
+      "lei": "969500AIDBZ3VLX4BQ18"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=799415427"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500AIDBZ3VLX4BQ18"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Le document d’Actia ne donne pas son SIREN : l’identifiant vient du seul homonyme du répertoire Sirene."
+  },
+  {
+    "actor_id": "FR-ACT-0172",
+    "nom": "NSE",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-031"
+    ],
+    "identifiants": {
+      "siren": "394020903",
+      "lei": "96950053T2YTG8917B10"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0225",
+        "url": "https://www.nse-groupe.com/wp-content/uploads/2026/04/NSE-Rapport-de-gestion-2025-VF.pdf",
+        "localisation": "§ 2.2, graphique « Répartition du CA », p. 10"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=394020903"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/96950053T2YTG8917B10"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Défense déclarée majoritaire : le graphique « Répartition du CA » des comptes 2025 donne « Défense » à 53%, « Aéronautique » à 31% et « Industries » à 16% ; l’année n’est pas écrite sur le graphique, qui figure dans la section des comptes consolidés 2025. Crédit Mutuel Equity (20,28% du capital, 22,20% des droits de vote) n’est pas saisi : le graphique écrit « Crédit Mutuel Equity & CIC », et deux sociétés portent ce nom. Une personne physique détient 5,76% du capital."
+  },
+  {
+    "actor_id": "FR-ACT-0173",
+    "nom": "NSE PARTICIPATIONS",
+    "nom_usuel": "NSE Participations",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-016"
+    ],
+    "identifiants": {
+      "siren": "534226964",
+      "lei": "9695002RIZA2IKC7NA43"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0226",
+        "url": "https://www.nse-groupe.com/wp-content/uploads/2026/04/NSE-COMPTES-CONSOLIDES-IFRS-CLOTURE-2025-VF.pdf",
+        "localisation": "§ 1.1"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=534226964"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695002RIZA2IKC7NA43"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« NSE Participations établit des comptes consolidés en qualité de société mère ultime » ; son président est l’actionnaire personne physique de NSE, non enregistré."
   }
 ]

@@ -3997,5 +3997,126 @@
     "incertitude": "Droits de vote exerçables en assemblée, égaux aux droits théoriques.",
     "garde_fou": "Louis Hachette Group contrôle Lagardère ; cette participation minoritaire ne s’y additionne pas.",
     "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0201",
+    "source_actor": "FR-ACT-0166",
+    "target_actor": "FR-ACT-0082",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 5.52,
+    "droits_vote_pct": 6.11,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0154",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0272/4CE164A9EE4A1FC2184A844A1B2143B4DCB06AABAFE102FAA28717E7D793F2F1.zip",
+      "localisation": "chapitre « Actionnariat », tableau de la répartition du capital"
+    },
+    "preuve": "P3",
+    "incertitude": "Voix théoriques ; 6,13% des voix exerçables. Le tableau écrit « Orfimar » sans adresse : l’entité est identifiée par l’adresse luxembourgeoise que le même document imprime ailleurs, et par la cessation de l’homonyme français avant la date du tableau.",
+    "garde_fou": "Une détention au-delà de 5% ne dit rien d’un contrôle ; elle ne s’additionne à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0202",
+    "source_actor": "FR-ACT-0167",
+    "target_actor": "FR-ACT-0113",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 5.9,
+    "droits_vote_pct": 8.3,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0171",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0063/89708FA20E711C6B82CFEDF5FF402C4B8E7375F3418569A7831FA88A50CB0872.zip",
+      "localisation": "§ 6.8"
+    },
+    "preuve": "P3",
+    "incertitude": "Droits de vote bruts ; 8,8% des droits nets. Le document écrit « Artisan Partners » : l’entité est celle qui déclare les titres dans l’avis AMF 221C3335 (2021), pour le compte de fonds et de clients.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0203",
+    "source_actor": "FR-ACT-0169",
+    "target_actor": "FR-ACT-0168",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 50.63,
+    "droits_vote_pct": 62.43,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0224",
+      "url": "https://investors.actia.com/wp-content/uploads/2026/04/ACTIA_Rapport_annuel_2025_DEF.pdf",
+      "localisation": "§ 9.1.1, p. 293 ; § 9.1.2"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote bruts ; 62,46% des droits nets. Le groupe est « majoritairement détenu et contrôlé, directement et indirectement, par les familles PECH et CALMELS […] au travers de la société LP2C ». LP2C agit de concert avec la famille Thrum (56,50% du capital au total) : ce total n’est pas repris.",
+    "garde_fou": "Le contrôle repris est celui que le document de la société décrit ; les personnes physiques au-dessus de LP2C ne sont pas enregistrées.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0204",
+    "source_actor": "FR-ACT-0170",
+    "target_actor": "FR-ACT-0168",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 5.83,
+    "droits_vote_pct": 7.22,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0224",
+      "url": "https://investors.actia.com/wp-content/uploads/2026/04/ACTIA_Rapport_annuel_2025_DEF.pdf",
+      "localisation": "§ 9.1.1, p. 293"
+    },
+    "preuve": "P3",
+    "incertitude": "Droits de vote bruts ; 7,23% des droits nets. Membre du pacte de concert avec LP2C ; le document ne donne pas son SIREN.",
+    "garde_fou": "Une détention au-delà de 5% ne dit rien d’un contrôle ; elle ne s’additionne pas à celle de LP2C.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0205",
+    "source_actor": "FR-ACT-0171",
+    "target_actor": "FR-ACT-0168",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 9.67,
+    "droits_vote_pct": 5.99,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0224",
+      "url": "https://investors.actia.com/wp-content/uploads/2026/04/ACTIA_Rapport_annuel_2025_DEF.pdf",
+      "localisation": "§ 9.1.1, p. 293"
+    },
+    "preuve": "P3",
+    "incertitude": "Droits de vote bruts, égaux aux droits nets. Le document ne donne pas son SIREN.",
+    "garde_fou": "Une détention au-delà de 5% ne dit rien d’un contrôle ; elle ne s’additionne à aucune autre.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0206",
+    "source_actor": "FR-ACT-0173",
+    "target_actor": "FR-ACT-0172",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 58.59,
+    "droits_vote_pct": 64.11,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0225",
+      "url": "https://www.nse-groupe.com/wp-content/uploads/2026/04/NSE-Rapport-de-gestion-2025-VF.pdf",
+      "localisation": "§ 1.7.2, tableau de l’actionnariat"
+    },
+    "preuve": "P4",
+    "incertitude": "Part en voix, droits doubles compris. Le rapport la nomme « actionnaire majoritaire du groupe NSE » et les comptes la disent « société mère ultime » ; aucun des deux ne qualifie le contrôle au sens du code de commerce.",
+    "garde_fou": "Une détention majoritaire n’est pas qualifiée ici de contrôle : ce site reprend la qualification de la source, et celle-ci n’en donne pas.",
+    "statut": "VERIFIED"
   }
 ]

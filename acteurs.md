@@ -385,10 +385,13 @@ quand une famille détient une société par une holding, seule la holding
 apparaît.
 
 Ont été examinées puis écartées, faute de part de défense publiée ou parce
-qu’elle restait sous 10% : Alten, Assystem, Atos, Bureau Veritas, Capgemini,
-Dassault Systèmes, Derichebourg, Europlasma, Figeac Aéro, Groupe Crit, Lacroix,
-Latécoère, Lisi, Manitou, Mersen, Nexans, Parrot, Prodways, Soditech, Spie,
-Vallourec et Wallix.
+qu’elle restait sous 10% : Alten, Archos, Assystem, Atos, Bureau Veritas,
+Capgemini, Dassault Systèmes, Derichebourg, Drone Volt, Europlasma, Figeac Aéro,
+Groupe Crit, Lacroix, Latécoère, Lisi, Logic Instrument, Manitou, Mersen,
+Nexans, Parrot, Prodways, Soditech, Spie, Vallourec et Wallix. Archos annonce
+« 75% de l’activité tirée par la défense » dans un communiqué de résultats,
+mais pas dans son rapport financier annuel. SII, radiée d’Euronext Paris le
+12 mars 2024, sort du périmètre.
 
 ## Dépendance à l’État client
 
