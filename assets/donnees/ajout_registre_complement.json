@@ -3959,5 +3959,39 @@
     "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0236/091B5839EF2ECC842DCBA76853F3F4A3D437F1678E2384A38AC84D4614351CE8.zip",
     "notes": "",
     "verification": "Document déposé auprès de l’AMF le 9 avril 2026 ; fichier ESEF lu le 2026-11-03."
+  },
+  {
+    "source_id": "FR-CPL-0234",
+    "domain": "corporate_disclosure",
+    "institution": "Getlink SE",
+    "title": "Document d’enregistrement universel 2025 (D.26-0119)",
+    "date": "2026-03-20",
+    "source_type": "regulated_filing",
+    "authority": "PRIMARY",
+    "priority": "A0",
+    "refresh": "annual",
+    "power_dimensions": "ownership;disclosure;infrastructure",
+    "use": "Actionnaires détenant plus de 5% du capital de Getlink SE au 31 décembre 2025 : Eiffage SA, Mundys, BlackRock, avec les droits de vote théoriques.",
+    "status": "VERIFIED",
+    "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0119/5A6B1A021A3A4621E31316B3931CBE25274E525B12FC0B5DFB88DED270AE1D55.zip",
+    "notes": "",
+    "verification": "Document déposé auprès de l’AMF, publié le 20 mars 2026 ; fichier ESEF lu le 2026-11-03."
+  },
+  {
+    "source_id": "FR-CPL-0235",
+    "domain": "corporate_disclosure",
+    "institution": "Autorité des marchés financiers",
+    "title": "Déclaration de franchissement de seuils et déclaration d’intention (Getlink SE), avis 226C0607",
+    "date": "2026-04-30",
+    "source_type": "regulatory_notice",
+    "authority": "PRIMARY_REGULATORY",
+    "priority": "A0",
+    "refresh": "event",
+    "power_dimensions": "ownership;disclosure",
+    "use": "Aero 1 Global & International, détenue entièrement par Mundys S.p.A., franchit en hausse le 24 avril 2026 les seuils de 20% et 25% du capital et 25% des droits de vote de Getlink SE.",
+    "status": "VERIFIED",
+    "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0607/49A887B52016E53DB3199C1C37503D85CEFE022594A1EEA52EF706FDF3D7CD47.pdf",
+    "notes": "",
+    "verification": "Avis publié par l’AMF, lu le 2026-11-03 ; dernier avis concernant ce déclarant avant la date d’arrêt."
   }
 ]

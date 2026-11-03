@@ -4278,5 +4278,326 @@
     "incertitude": "« La Société d’Infrastructures Gazières (SIG), intégralement détenue par HIG » : pas de pourcentage chiffré, « intégralement » est saisi à 100%. Droits de vote non publiés.",
     "garde_fou": "Une détention entière n’est pas qualifiée ici de contrôle : la source n’en donne pas.",
     "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0215",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0181",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2024-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0040",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+    },
+    "preuve": "P4",
+    "incertitude": "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source.",
+    "garde_fou": "Ce lien ne s’étend pas aux filiales de la SNCF, qui ne sont pas saisies.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0216",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0182",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2024-12-31",
+    "detention_capital_pct": 60.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0040",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "annexe 1 « Participations directes de l’État », p. 122 / PDF 115"
+    },
+    "preuve": "P4",
+    "incertitude": "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source.",
+    "garde_fou": "Les autres actionnaires (chambres de commerce et collectivités) ne sont pas publiés dans la source lue : une part majoritaire de l’État ne dit rien de leur poids dans la gouvernance.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0217",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0183",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2024-12-31",
+    "detention_capital_pct": 60.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0040",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "annexe 1 « Participations directes de l’État », p. 122 / PDF 115"
+    },
+    "preuve": "P4",
+    "incertitude": "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source.",
+    "garde_fou": "Les autres actionnaires (chambres de commerce et collectivités) ne sont pas publiés dans la source lue : une part majoritaire de l’État ne dit rien de leur poids dans la gouvernance.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0218",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0184",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2024-12-31",
+    "detention_capital_pct": 60.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0040",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+    },
+    "preuve": "P4",
+    "incertitude": "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source.",
+    "garde_fou": "Les autres actionnaires (chambres de commerce et collectivités) ne sont pas publiés dans la source lue : une part majoritaire de l’État ne dit rien de leur poids dans la gouvernance.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0219",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0185",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2024-12-31",
+    "detention_capital_pct": 60.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0040",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+    },
+    "preuve": "P4",
+    "incertitude": "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source.",
+    "garde_fou": "Les autres actionnaires (chambres de commerce et collectivités) ne sont pas publiés dans la source lue : une part majoritaire de l’État ne dit rien de leur poids dans la gouvernance.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0220",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0186",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2024-12-31",
+    "detention_capital_pct": 60.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0040",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+    },
+    "preuve": "P4",
+    "incertitude": "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source.",
+    "garde_fou": "Les autres actionnaires (chambres de commerce et collectivités) ne sont pas publiés dans la source lue : une part majoritaire de l’État ne dit rien de leur poids dans la gouvernance.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0221",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0187",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2024-12-31",
+    "detention_capital_pct": 60.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0040",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+    },
+    "preuve": "P4",
+    "incertitude": "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source.",
+    "garde_fou": "Les autres actionnaires (chambres de commerce et collectivités) ne sont pas publiés dans la source lue : une part majoritaire de l’État ne dit rien de leur poids dans la gouvernance.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0222",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0188",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2024-12-31",
+    "detention_capital_pct": 62.87,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0040",
+      "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+      "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+    },
+    "preuve": "P4",
+    "incertitude": "Valeur au 31 décembre 2024 ; recoupée sans écart au 31 décembre 2025. Droits de vote non publiés par la source.",
+    "garde_fou": "Les autres actionnaires (chambres de commerce et collectivités) ne sont pas publiés dans la source lue : une part majoritaire de l’État ne dit rien de leur poids dans la gouvernance.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0223",
+    "source_actor": "FR-ACT-0135",
+    "target_actor": "FR-ACT-0189",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0195",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0051/70C61A842F95D997ACFCE84A65B65061448025EBD920DA2F8D5F6B6BE02AD02F.zip",
+      "localisation": "comptes sociaux, annexe, E. « Informations sur les filiales et participations »"
+    },
+    "preuve": "P4",
+    "incertitude": "Part du capital détenue par VINCI SA elle-même, dans ses comptes sociaux ; droits de vote non publiés.",
+    "garde_fou": "Détenir une société concessionnaire n’est pas posséder l’infrastructure : l’autoroute reste un bien de l’État, rendu à la fin du contrat.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0224",
+    "source_actor": "FR-ACT-0189",
+    "target_actor": "FR-ACT-0190",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0195",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0051/70C61A842F95D997ACFCE84A65B65061448025EBD920DA2F8D5F6B6BE02AD02F.zip",
+      "localisation": "tableau des contrats, « Infrastructures autoroutières, routières et ouvrages routiers de franchissement »"
+    },
+    "preuve": "P3",
+    "incertitude": "Le tableau donne le « taux de détention » du groupe dans le réseau concédé sans dire qui détient directement ; GLEIF déclare VINCI Concessions comme parent direct. Droits de vote non publiés.",
+    "garde_fou": "Détenir une société concessionnaire n’est pas posséder l’infrastructure : l’autoroute reste un bien de l’État, rendu à la fin du contrat.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0225",
+    "source_actor": "FR-ACT-0189",
+    "target_actor": "FR-ACT-0191",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0195",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0051/70C61A842F95D997ACFCE84A65B65061448025EBD920DA2F8D5F6B6BE02AD02F.zip",
+      "localisation": "tableau des contrats, « Infrastructures autoroutières, routières et ouvrages routiers de franchissement »"
+    },
+    "preuve": "P3",
+    "incertitude": "Le tableau donne le « taux de détention » du groupe dans le réseau concédé sans dire qui détient directement ; GLEIF déclare VINCI Concessions comme parent direct. Droits de vote non publiés.",
+    "garde_fou": "Détenir une société concessionnaire n’est pas posséder l’infrastructure : l’autoroute reste un bien de l’État, rendu à la fin du contrat.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0226",
+    "source_actor": "FR-ACT-0115",
+    "target_actor": "FR-ACT-0192",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 52.5,
+    "droits_vote_pct": null,
+    "controle": "exclusif",
+    "citation": {
+      "source_id": "FR-CPL-0173",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0157/0059F6EFA9DD1FE501658135B3FC3493AA4D62317012A4AB2E038CE82C35F665.zip",
+      "localisation": "comptes consolidés, présentation du contrôle du groupe APRR"
+    },
+    "preuve": "P3",
+    "incertitude": "Le document écrit « Eiffage possède aujourd’hui 52,5 % de cette holding et remplit les critères du contrôle énoncés par IFRS 10 » sans préciser l’entité ; GLEIF déclare Eiffage SA comme parent direct. Droits de vote non publiés.",
+    "garde_fou": "Détenir une société concessionnaire n’est pas posséder l’infrastructure : l’autoroute reste un bien de l’État, rendu à la fin du contrat.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0227",
+    "source_actor": "FR-ACT-0115",
+    "target_actor": "FR-ACT-0193",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 27.66,
+    "droits_vote_pct": 29.91,
+    "controle": "influence_notable",
+    "citation": {
+      "source_id": "FR-CPL-0234",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0119/5A6B1A021A3A4621E31316B3931CBE25274E525B12FC0B5DFB88DED270AE1D55.zip",
+      "localisation": "§ 7.4.1"
+    },
+    "preuve": "P4",
+    "incertitude": "Droits de vote théoriques, droits doubles compris. Eiffage classe Getlink parmi ses entreprises associées, mises en équivalence (FR-CPL-0173) ; aucun avis de franchissement d’Eiffage n’est paru ensuite avant la date d’arrêt.",
+    "garde_fou": "Premier actionnaire n’est pas contrôle : Eiffage écrit consolider Getlink par mise en équivalence.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0228",
+    "source_actor": "FR-ACT-0194",
+    "target_actor": "FR-ACT-0193",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-04-24",
+    "detention_capital_pct": 25.001,
+    "droits_vote_pct": 29.9,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0235",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0607/49A887B52016E53DB3199C1C37503D85CEFE022594A1EEA52EF706FDF3D7CD47.pdf",
+      "localisation": "p. 1"
+    },
+    "preuve": "P4",
+    "incertitude": "Remplace la ligne « Mundys 15,49% » du document de Getlink au 31 décembre 2025. Le seuil est franchi par l’exercice de contrats d’échange (total return swaps) : les 33 029 742 actions de la seconde tranche devaient être livrées le 11 mai 2026. Droits de vote calculés sur 642 638 842 droits.",
+    "garde_fou": "Le déclarant écrit ne pas avoir « l’intention d’acquérir le contrôle de GETLINK SE ».",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0229",
+    "source_actor": "FR-ACT-0195",
+    "target_actor": "FR-ACT-0194",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2026-04-24",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": 100.0,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0235",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0607/49A887B52016E53DB3199C1C37503D85CEFE022594A1EEA52EF706FDF3D7CD47.pdf",
+      "localisation": "p. 1, note 1"
+    },
+    "preuve": "P4",
+    "incertitude": "« Mundys S.p.A. détient l’intégralité du capital et des droits de vote de la société Aero 1 Global & International » : saisi à 100%.",
+    "garde_fou": "Une détention entière n’est pas qualifiée ici de contrôle : la source n’en donne pas.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0230",
+    "source_actor": "FR-ACT-0040",
+    "target_actor": "FR-ACT-0193",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 6.34,
+    "droits_vote_pct": 4.99,
+    "controle": "non_qualifie",
+    "pour_compte": "tiers",
+    "citation": {
+      "source_id": "FR-CPL-0234",
+      "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0119/5A6B1A021A3A4621E31316B3931CBE25274E525B12FC0B5DFB88DED270AE1D55.zip",
+      "localisation": "§ 7.4.1"
+    },
+    "preuve": "P4",
+    "incertitude": "Le tableau se fonde sur les déclarations faites à l’AMF « au moment considéré » ; aucun avis de BlackRock sur Getlink n’est paru ensuite avant la date d’arrêt.",
+    "garde_fou": "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle.",
+    "statut": "VERIFIED"
   }
 ]

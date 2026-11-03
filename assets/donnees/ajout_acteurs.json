@@ -5214,5 +5214,459 @@
     ],
     "statut": "VERIFIED",
     "notes": "Société faîtière « contrôlée conjointement » par CNP Assurances et la Caisse des Dépôts. Le groupe CNP Assurances en détient 52,97% ; la part de la Caisse des Dépôts n’est pas publiée, et ses actionnaires ne sont pas saisis. Aucun identifiant LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0181",
+    "nom": "SOCIETE NATIONALE SNCF",
+    "nom_usuel": "SNCF",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "552049447",
+      "lei": "969500A4MXJ3ESPHK698"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0040",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=552049447"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500A4MXJ3ESPHK698"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société de tête du groupe public ferroviaire. Ses filiales (SNCF Réseau, SNCF Voyageurs, SNCF Gares & Connexions) ne sont pas saisies : le texte qui fixe leur capital n’a pas été lu."
+  },
+  {
+    "actor_id": "FR-ACT-0182",
+    "nom": "AEROPORT DE BORDEAUX MERIGNAC",
+    "nom_usuel": "Aéroport de Bordeaux-Mérignac",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "487607202",
+      "lei": "9695004O9TY8MPX1TE78"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0040",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "annexe 1 « Participations directes de l’État », p. 122 / PDF 115"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=487607202"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695004O9TY8MPX1TE78"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société concessionnaire de l’aéroport. L’État en détient la majorité ; les autres actionnaires ne figurent pas dans la source lue."
+  },
+  {
+    "actor_id": "FR-ACT-0183",
+    "nom": "SOCIETE AEROPORTUAIRE GUADELOUPE POLE CARAIBES",
+    "nom_usuel": "Aéroport de Guadeloupe",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "789918604"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0040",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "annexe 1 « Participations directes de l’État », p. 122 / PDF 115"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=789918604"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société concessionnaire de l’aéroport. L’État en détient la majorité ; les autres actionnaires ne figurent pas dans la source lue. Aucun identifiant LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0184",
+    "nom": "AEROPORT MARSEILLE PROVENCE",
+    "nom_usuel": "Aéroport Marseille Provence",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "790043954",
+      "lei": "969500A5F3WVR3Q38C90"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0040",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=790043954"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500A5F3WVR3Q38C90"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société concessionnaire de l’aéroport. L’État en détient la majorité ; les autres actionnaires ne figurent pas dans la source lue."
+  },
+  {
+    "actor_id": "FR-ACT-0185",
+    "nom": "SOCIETE AEROPORT MARTINIQUE AIME CESAIRE",
+    "nom_usuel": "Aéroport de Martinique",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "538711821"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0040",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=538711821"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société concessionnaire de l’aéroport. L’État en détient la majorité ; les autres actionnaires ne figurent pas dans la source lue. Aucun identifiant LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0186",
+    "nom": "AEROPORT DE MONTPELLIER MEDITERRANEE",
+    "nom_usuel": "Aéroport de Montpellier-Méditerranée",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "508364155"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0040",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=508364155"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société concessionnaire de l’aéroport. L’État en détient la majorité ; les autres actionnaires ne figurent pas dans la source lue. Aucun identifiant LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0187",
+    "nom": "AEROPORT DE LA REUNION ROLAND GARROS",
+    "nom_usuel": "Aéroport de La Réunion",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "528194434"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0040",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=528194434"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société concessionnaire de l’aéroport. L’État en détient la majorité ; les autres actionnaires ne figurent pas dans la source lue. Aucun identifiant LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0188",
+    "nom": "AEROPORT DE STRASBOURG-ENTZHEIM",
+    "nom_usuel": "Aéroport de Strasbourg-Entzheim",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à directoire et conseil de surveillance",
+    "categories": [
+      "FR-NODE-013"
+    ],
+    "identifiants": {
+      "siren": "528862956",
+      "lei": "969500PITLZXFYTWTF15"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0040",
+        "url": "https://www2.assemblee-nationale.fr/static/17/Annexes-DL/PLF-2026/10-Jaune2026_Etat_actionnaire.pdf",
+        "localisation": "annexe 1 « Participations directes de l’État », p. 123 / PDF 116"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=528862956"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500PITLZXFYTWTF15"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société concessionnaire de l’aéroport. L’État en détient la majorité ; les autres actionnaires ne figurent pas dans la source lue."
+  },
+  {
+    "actor_id": "FR-ACT-0189",
+    "nom": "VINCI CONCESSIONS",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "410001952",
+      "lei": "213800EZZTAFCTFLFO44"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0195",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0051/70C61A842F95D997ACFCE84A65B65061448025EBD920DA2F8D5F6B6BE02AD02F.zip",
+        "localisation": "comptes sociaux, annexe, E. « Informations sur les filiales et participations »"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=410001952"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/213800EZZTAFCTFLFO44"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding des concessions du groupe VINCI : autoroutes, aéroports, autres infrastructures."
+  },
+  {
+    "actor_id": "FR-ACT-0190",
+    "nom": "AUTOROUTES DU SUD DE LA FRANCE",
+    "nom_usuel": "ASF",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "572139996",
+      "lei": "213800U12KWYZEECZ934"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0195",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0051/70C61A842F95D997ACFCE84A65B65061448025EBD920DA2F8D5F6B6BE02AD02F.zip",
+        "localisation": "tableau des contrats, « Infrastructures autoroutières, routières et ouvrages routiers de franchissement »"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=572139996"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/213800U12KWYZEECZ934"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Concessionnaire de 2 731 km d’autoroutes jusqu’en 2036. Sa filiale Escota (99,5% pour le groupe) n’est pas saisie : le détenteur direct n’est pas publié."
+  },
+  {
+    "actor_id": "FR-ACT-0191",
+    "nom": "COFIROUTE",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "552115891",
+      "lei": "213800CP8292W9E8LJ69"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0195",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0051/70C61A842F95D997ACFCE84A65B65061448025EBD920DA2F8D5F6B6BE02AD02F.zip",
+        "localisation": "tableau des contrats, « Infrastructures autoroutières, routières et ouvrages routiers de franchissement »"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=552115891"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/213800CP8292W9E8LJ69"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Concessionnaire de 1 100 km d’autoroutes jusqu’en 2034."
+  },
+  {
+    "actor_id": "FR-ACT-0192",
+    "nom": "FINANCIERE EIFFARIE",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "484043039",
+      "lei": "969500PEYQV6ZOVKPP66"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0173",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0157/0059F6EFA9DD1FE501658135B3FC3493AA4D62317012A4AB2E038CE82C35F665.zip",
+        "localisation": "comptes consolidés, présentation du contrôle du groupe APRR"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=484043039"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500PEYQV6ZOVKPP66"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding de contrôle du groupe APRR (autoroutes Paris-Rhin-Rhône et AREA). Le co-actionnaire, « un investisseur financier » qui en détient 47,5%, n’est pas nommé dans le document ; APRR n’est pas saisie, le détenteur direct et sa part n’étant pas publiés."
+  },
+  {
+    "actor_id": "FR-ACT-0193",
+    "nom": "GETLINK S.E.",
+    "nom_usuel": "Getlink",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société européenne",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "483385142",
+      "lei": "9695007ZEQ7M0OE74G82",
+      "isin": "FR0010533075"
+    },
+    "cote": true,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0234",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0119/5A6B1A021A3A4621E31316B3931CBE25274E525B12FC0B5DFB88DED270AE1D55.zip",
+        "localisation": "§ 7.4.1"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=483385142"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695007ZEQ7M0OE74G82"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Concessionnaire du tunnel sous la Manche jusqu’en 2086. BNP Paribas, qui détient indirectement plus de 5% en contrepartie de contrats d’échange, n’est pas saisie : les positions bancaires et dérivées sont exclues."
+  },
+  {
+    "actor_id": "FR-ACT-0194",
+    "nom": "AERO 1 GLOBAL & INTERNATIONAL S.À R.L.",
+    "nom_usuel": "Aero 1 Global & International",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SARL de droit luxembourgeois",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "213800A75YT8VDMY3821",
+      "autre": {
+        "registre": "Registre de commerce et des sociétés (Luxembourg)",
+        "cle": "B124659"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0235",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0607/49A887B52016E53DB3199C1C37503D85CEFE022594A1EEA52EF706FDF3D7CD47.pdf",
+        "localisation": "p. 1"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/213800A75YT8VDMY3821"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Véhicule par lequel Mundys détient sa participation dans Getlink."
+  },
+  {
+    "actor_id": "FR-ACT-0195",
+    "nom": "MUNDYS S.P.A.",
+    "nom_usuel": "Mundys",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Società per azioni de droit italien",
+    "categories": [
+      "FR-NODE-015"
+    ],
+    "identifiants": {
+      "lei": "8156008DEC771409C487",
+      "autre": {
+        "registre": "Registro delle imprese (Italie)",
+        "cle": "03731380261"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0235",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0607/49A887B52016E53DB3199C1C37503D85CEFE022594A1EEA52EF706FDF3D7CD47.pdf",
+        "localisation": "p. 1, note 1"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/8156008DEC771409C487"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Anciennement Atlantia. L’avis AMF la dit « indirectement contrôlée par la société Edizione S.p.A., holding de la famille Benetton » ; ce lien indirect n’est pas saisi."
   }
 ]

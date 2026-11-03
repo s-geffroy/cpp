@@ -2,9 +2,9 @@
  "meta": {
   "annee_notification": "2025",
   "copie_hatvp": "20260812133400",
-  "acteurs_siren": 136,
-  "trouves": 65,
-  "aucun": 71
+  "acteurs_siren": 149,
+  "trouves": 71,
+  "aucun": 78
  },
  "acteurs": [
   {
@@ -44130,6 +44130,796 @@
      "defaut_declaration": false,
      "fiches": 16,
      "depenses": "> = 600 000 euros et < 700 000 euros"
+    }
+   }
+  },
+  {
+   "actor_id": "FR-ACT-0181",
+   "nom": "SNCF",
+   "siren": "552049447",
+   "titulaire": [],
+   "acheteur": [],
+   "hatvp": {
+    "denomination": "SNCF MOBILITES",
+    "exercice": null
+   }
+  },
+  {
+   "actor_id": "FR-ACT-0184",
+   "nom": "Aéroport Marseille Provence",
+   "siren": "790043954",
+   "titulaire": [
+    {
+     "date": "2025-01-25",
+     "contreparties": [
+      {
+       "siren": "231300021",
+       "nom": "REGION PROVENCE-ALPES-COTE D'AZUR"
+      }
+     ],
+     "objet": "ACCUEIL PERSONNALISE DES INVITES DU CONSEIL REGIONAL PROVENCE ALPES COTE D'AZUR A L'AEROPORT MARSEILLE PROVENCE",
+     "montant": 80000.0,
+     "montant_fr": "80 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [
+    {
+     "date": "2025-06-06",
+     "contreparties": [
+      {
+       "siren": "350246039",
+       "nom": "PRESENTS"
+      }
+     ],
+     "objet": "Le marché a pour objet la Maîtrise d’OEuvre pour la mise en conformité du réseau d’Eau Pluvial versant B1 phase 3bis",
+     "montant": 62300.0,
+     "montant_fr": "62 300 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0187",
+   "nom": "Aéroport de La Réunion",
+   "siren": "528194434",
+   "titulaire": [],
+   "acheteur": [
+    {
+     "date": "2025-03-07",
+     "contreparties": [
+      {
+       "siren": "310850342",
+       "nom": "SBTPC SOGEA REUNION"
+      }
+     ],
+     "objet": "Lot 01 - VRD - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 88800.0,
+     "montant_fr": "88 800 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-07",
+     "contreparties": [
+      {
+       "siren": "323078006",
+       "nom": "LES GRANDS TRAVAUX DE L'OCEAN INDIEN"
+      }
+     ],
+     "objet": "Lot 02 - Gros œuvre - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 388400.0,
+     "montant_fr": "388 400 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-07",
+     "contreparties": [
+      {
+       "siren": "928728898",
+       "nom": "ROCM"
+      }
+     ],
+     "objet": "Lot 03 - Charpente – Couverture - Etanchéité - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 1306510.6,
+     "montant_fr": "1 306 510,60 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-07",
+     "contreparties": [
+      {
+       "siren": "791696172",
+       "nom": "CONSTRUCTION METALLIQUE REUNION"
+      }
+     ],
+     "objet": "Lot 04 – Menuiserie aluminium (Désenfumage) - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 770000.0,
+     "montant_fr": "770 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-07",
+     "contreparties": [
+      {
+       "siren": "854800745",
+       "nom": "AXIMA CONCEPT"
+      }
+     ],
+     "objet": "Lot 12 – GTC - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 38777.3,
+     "montant_fr": "38 777,30 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-07",
+     "contreparties": [
+      {
+       "siren": "423975549",
+       "nom": "ELECTRO FROID SANITAIRE"
+      }
+     ],
+     "objet": "Lot 13 – Plomberie/Protection incendie/ Climatisation-ventilation - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 28216.68,
+     "montant_fr": "28 216,68 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-07",
+     "contreparties": [
+      {
+       "siren": "789385838",
+       "nom": "IVM REFRIGERATION"
+      }
+     ],
+     "objet": "Lot 14 – Réfrigération - Panneaux - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 738640.0,
+     "montant_fr": "738 640 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-21",
+     "contreparties": [
+      {
+       "siren": "444523526",
+       "nom": "ARTELIA"
+      }
+     ],
+     "objet": "MOE - MISSION PRO POUR LES DOMAINES TECHNIQUES CHAUSSEES AERONAUTIQUES, ECLAIRAGE, BALISAGE LUMINEUX ET OLEORESEAU ET MISSION AMT POUR LA GLOBALITE DU PROJET TOUS DOMAINES (Y COMPRIS 400 HZ / PCA) MISSION PRO (SUIVANT AC n°2023INFRA084)",
+     "montant": 344028.5,
+     "montant_fr": "344 028,50 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-26",
+     "contreparties": [
+      {
+       "siren": "828503417",
+       "nom": "SATELEC CENERGI"
+      }
+     ],
+     "objet": "Lot 11 - Electricité CFO - CFA - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 595973.19,
+     "montant_fr": "595 973,19 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-01",
+     "contreparties": [
+      {
+       "siren": "877598771",
+       "nom": "T.B.R. REUNION"
+      }
+     ],
+     "objet": "Lot 06 - Menuiserie Bois - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 25242.2,
+     "montant_fr": "25 242,20 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-03",
+     "contreparties": [
+      {
+       "siren": "402013767",
+       "nom": "RINGUIN SARL"
+      }
+     ],
+     "objet": "Lot 08 - Peinture - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 9988.0,
+     "montant_fr": "9 988 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-09",
+     "contreparties": [
+      {
+       "siren": "444523526",
+       "nom": "ARTELIA"
+      }
+     ],
+     "objet": "MOE - MISSIONS AMT A AOR POUR TRAVAUX DE REFECTION PARTIELLE DE CANIVEAU TECHNIQUE AU DROIT DES PARKINGS AVIONS P1 A P3 (SUIVANT AC n°2023INFRA084)",
+     "montant": 50135.0,
+     "montant_fr": "50 135 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-10",
+     "contreparties": [
+      {
+       "siren": "799149794",
+       "nom": "SOREPLAC"
+      }
+     ],
+     "objet": "Lot 07 - Métallerie - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 130000.0,
+     "montant_fr": "130 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-11",
+     "contreparties": [
+      {
+       "siren": "839310208",
+       "nom": "DEZAMIANTAGE"
+      }
+     ],
+     "objet": "Lot 09 - Revêtement dur - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 3919.69,
+     "montant_fr": "3 919,69 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-15",
+     "contreparties": [
+      {
+       "siren": "877598771",
+       "nom": "T.B.R. REUNION"
+      }
+     ],
+     "objet": "Lot 05 - Cloison – Faux plafonds - Modernisation de Terminal FRET de l'Aéroport La Réunion Roland Garros",
+     "montant": 13105.0,
+     "montant_fr": "13 105 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-17",
+     "contreparties": [
+      {
+       "siren": "444523526",
+       "nom": "ARTELIA"
+      }
+     ],
+     "objet": "MOE - MISSIONS AVP ET PRO POUR TRAVAUX D'AGRANDISSEMENT DE LA ZONE COTE (SUIVANT AC N°2023INFRA084)",
+     "montant": 41000.0,
+     "montant_fr": "41 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-23",
+     "contreparties": [
+      {
+       "siren": "438471047",
+       "nom": "ENTREPRISE DE MAINTENANCE INDUSTRIELLE ET D'EPREUVE"
+      }
+     ],
+     "objet": "Inertage de l'Oleoreseau de la Base 181",
+     "montant": 157497.14,
+     "montant_fr": "157 497,14 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-09",
+     "contreparties": [
+      {
+       "siren": "978113561",
+       "nom": "CARGO & GSE SERVICES"
+      }
+     ],
+     "objet": "FOURNITURE ET INSTALLATION DE QUAI A ROULETTES FRET MAGASIN",
+     "montant": 68996.6,
+     "montant_fr": "68 996,60 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-10",
+     "contreparties": [
+      {
+       "siren": "420862229",
+       "nom": "PIXYS"
+      }
+     ],
+     "objet": "Assistance à Maitrise d'Ouvrage pour la mise en oeuvre d'un centre des opérations aéroportuaires",
+     "montant": 113140.0,
+     "montant_fr": "113 140 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-01",
+     "contreparties": [
+      {
+       "siren": "444523526",
+       "nom": "ARTELIA"
+      }
+     ],
+     "objet": "MS 11 - MOE : Missions SYN à AOR pour la réfection partielle du Taxiway Alpha entre P9 et P16(suivant AC n°2023INFRA084)",
+     "montant": 80652.0,
+     "montant_fr": "80 652 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-06",
+     "contreparties": [
+      {
+       "siren": "323078006",
+       "nom": "LES GRANDS TRAVAUX DE L'OCEAN INDIEN"
+      }
+     ],
+     "objet": "Réfection partielle du taxiway Alpha entre P9 et P16",
+     "montant": 2859911.0,
+     "montant_fr": "2 859 911 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-14",
+     "contreparties": [
+      {
+       "siren": "423975549",
+       "nom": "ELECTRO FROID SANITAIRE"
+      }
+     ],
+     "objet": "Travaux de remplacement de la climatisation de la pré passerelle n°3 de l'Aéroport Réunion Roland Garros",
+     "montant": 90000.0,
+     "montant_fr": "90 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-22",
+     "contreparties": [
+      {
+       "siren": "444338974",
+       "nom": "SAS DMP"
+      }
+     ],
+     "objet": "Location de gerbeurs électrique - Prestations de location et de maintenance d'équipements de manutention et de levage comprenant :n- 11 chariots élévateurs électrique neufs pour le terminal export et import de l'aérogare fretn- Une nacelle électrique de ty",
+     "montant": 81300.0,
+     "montant_fr": "81 300 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-05",
+     "contreparties": [
+      {
+       "siren": "322259938",
+       "nom": "SOCIETE COMMERCIALE ET INDUSTRIELLE DE MATERIELS D'EQUIPEMENTS"
+      }
+     ],
+     "objet": "Location de chariots élévateurs électrique neufs - Prestations de location et de maintenance d'équipements de manutention et de levage comprenant :n- 11 chariots élévateurs électrique neufs pour le terminal export et import de l'aérogare fretn- Une nacelle",
+     "montant": 1150405.0,
+     "montant_fr": "1 150 405 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-03",
+     "contreparties": [
+      {
+       "siren": "316607225",
+       "nom": "ENERGIE TRANSFERT THERMIQUE"
+      }
+     ],
+     "objet": "Fourniture d’unités de pré conditionnement d’air mobiles (ACU) - Mise à disposition de moyens de substitutions aux APU (400Hz et ACU)",
+     "montant": 1275365.0,
+     "montant_fr": "1 275 365 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-06",
+     "contreparties": [
+      {
+       "siren": "413760919",
+       "nom": "AIRPORT AND LOGISTICS SERVICES"
+      }
+     ],
+     "objet": "Fourniture de convertisseurs sur batterie (400Hz) - Mise à disposition de moyens de substitutions aux APU (400Hz et ACU)",
+     "montant": 1565085.0,
+     "montant_fr": "1 565 085 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-09",
+     "contreparties": [
+      {
+       "siren": "791696172",
+       "nom": "CONSTRUCTION METALLIQUE REUNION"
+      }
+     ],
+     "objet": "Réhabilitation des toitures zinc FRET bureaux",
+     "montant": 658000.0,
+     "montant_fr": "658 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-13",
+     "contreparties": [
+      {
+       "siren": "444523526",
+       "nom": "ARTELIA"
+      }
+     ],
+     "objet": "MOE MISSIONS SYN A AOR POUR LA MISE A DISPOSITION DE MOYENS DE SUBSTITUTIONS AUX APU (400HZ ET ACU)(SUIVANT AC N°2023INFRA084)",
+     "montant": 135924.0,
+     "montant_fr": "135 924 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-15",
+     "contreparties": [
+      {
+       "siren": "339379984",
+       "nom": "SAUR"
+      }
+     ],
+     "objet": "Concession du service de l'assainissement collectif",
+     "montant": 1490476.0,
+     "montant_fr": "1 490 476 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-20",
+     "contreparties": [
+      {
+       "siren": "403180185",
+       "nom": "SOCIETE D'ELECTRICITE ET DE CABLAGE"
+      }
+     ],
+     "objet": "Fourniture et pose des cellules haute tension (HT) nMarché similaire rattaché au marché initial n°2024BAT089 : Modernisation du terminal FRET – Lot 10 : Distribution principal HT/BT",
+     "montant": 52179.5,
+     "montant_fr": "52 179,50 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-20",
+     "contreparties": [
+      {
+       "siren": "310863766",
+       "nom": "SOCIETE ELECTRO TECHNIQUE DE BOURBON"
+      }
+     ],
+     "objet": "Remplacement d'un groupe électrogène de sécurité (GES) de l'APAX",
+     "montant": 91000.0,
+     "montant_fr": "91 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-04",
+     "contreparties": [
+      {
+       "siren": "532719994",
+       "nom": "CENTRE FICHTER"
+      }
+     ],
+     "objet": "AMO pour la mise en œuvre d'une démarche Qualité de Vie et des Conditions de travail (QVCT)",
+     "montant": 39150.0,
+     "montant_fr": "39 150 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-06",
+     "contreparties": [
+      {
+       "siren": "921376265",
+       "nom": "FLOWIE"
+      }
+     ],
+     "objet": "Mise à disposition d'une solution de facturation électronique et de gestion des achats à bons de commande",
+     "montant": 450000.0,
+     "montant_fr": "450 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-13",
+     "contreparties": [
+      {
+       "siren": "453975831",
+       "nom": "VALGO"
+      }
+     ],
+     "objet": "Accord-cadre mono attributaire concernant des travaux de confinement et de retrait de matériaux amiantés et interventions susceptibles de provoquer l'émission de fibres d'amiante",
+     "montant": 5400000.0,
+     "montant_fr": "5 400 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-14",
+     "contreparties": [
+      {
+       "siren": "642044366",
+       "nom": "UPCOOP"
+      }
+     ],
+     "objet": "Fourniture et gestion de chèques déjeuner dématérialisés",
+     "montant": 3207600.0,
+     "montant_fr": "3 207 600 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-14",
+     "contreparties": [
+      {
+       "siren": "439823568",
+       "nom": "HIBYRD"
+      }
+     ],
+     "objet": "Mission d'accompagnement organisationnel et de conduite au changement dans le cadre de la mise en oeuvre d'un centre des opérations aéroportuaires (APOC)",
+     "montant": 100000.0,
+     "montant_fr": "100 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-23",
+     "contreparties": [
+      {
+       "siren": "323078006",
+       "nom": "LES GRANDS TRAVAUX DE L'OCEAN INDIEN"
+      }
+     ],
+     "objet": "Réhabilitation des parkings avions P1 à P15 et du taxiway Alpha",
+     "montant": 22189487.2,
+     "montant_fr": "22 189 487,20 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-30",
+     "contreparties": [
+      {
+       "siren": "411640816",
+       "nom": "SELARL A POINT ARCHITECTURE"
+      },
+      {
+       "siren": "444523526",
+       "nom": "ARTELIA"
+      },
+      {
+       "siren": "823858899",
+       "nom": "SOGETI INGENIERIE BATIMENT"
+      },
+      {
+       "siren": "830270153",
+       "nom": "KUBE STRUCTURE"
+      },
+      {
+       "siren": "840538425",
+       "nom": "SOGETI INGENIERIE AIRPORTS"
+      },
+      {
+       "siren": "903932689",
+       "nom": "CONCEPTION ELECTROTECHNIQUE AUTOMATISME"
+      }
+     ],
+     "objet": "Marché de maîtrise d'oeuvre visant à la conception et le suivi des travaux de l'opération portant sur la construction d'un nouveau bâtiment PARIF (poste d'Accès Routier et d'Inspection Filtrage de l'Aéroport de La Réunion Roland Garros. L'opération traiter",
+     "montant": 404240.0,
+     "montant_fr": "404 240 €",
+     "accord_cadre": false,
+     "titulaires": 6,
+     "montant_ecarte": false
+    }
+   ],
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0190",
+   "nom": "ASF",
+   "siren": "572139996",
+   "titulaire": [
+    {
+     "date": "2025-07-22",
+     "contreparties": [
+      {
+       "siren": "221700016",
+       "nom": "DEPARTEMENT DE LA CHARENTE-MARITIME"
+      }
+     ],
+     "objet": "Fourniture de badges télépéages et utilisation du réseau des sociétés françaises concessionnaires d'autoroutes pour véhicules dont le PTAC n'exécède pas 3.5 tonnes",
+     "montant": 600000.0,
+     "montant_fr": "600 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-01",
+     "contreparties": [
+      {
+       "siren": "226600013",
+       "nom": "DEPARTEMENT DES PYRENEES-ORIENTALES"
+      }
+     ],
+     "objet": "FOURNITURE DE BOITIERS DE TELEPEAGES POUR LE DEPARTEMENT DES PYRENEES-ORIENTALES",
+     "montant": 87000.0,
+     "montant_fr": "87 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-01",
+     "contreparties": [
+      {
+       "siren": "226600013",
+       "nom": "DEPARTEMENT DES PYRENEES-ORIENTALES"
+      }
+     ],
+     "objet": "FOURNITURE DE BOITIERS DE TELEPEAGES POUR LE DEPARTEMENT DES PYRENEES-ORIENTALES",
+     "montant": 29000.0,
+     "montant_fr": "29 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-21",
+     "contreparties": [
+      {
+       "siren": "283600120",
+       "nom": "SCE DEPARTEMENTAL INCENDIE ET SECOURS"
+      }
+     ],
+     "objet": "Fourniture de badges péages autoroutes pour le SDIS 36",
+     "montant": 80000.0,
+     "montant_fr": "80 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-11",
+     "contreparties": [
+      {
+       "siren": "227200029",
+       "nom": "DEPARTEMENT DE LA SARTHE"
+      }
+     ],
+     "objet": "Accès télépéages autoroutes",
+     "montant": 225000.0,
+     "montant_fr": "225 000 €",
+     "accord_cadre": true,
+     "titulaires": 2,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0191",
+   "nom": "COFIROUTE",
+   "siren": "552115891",
+   "titulaire": [
+    {
+     "date": "2025-06-16",
+     "contreparties": [
+      {
+       "siren": "229102280",
+       "nom": "DEPARTEMENT DE L' ESSONNE"
+      }
+     ],
+     "objet": "24-2878-1-00 Supervision déléguée de la tranche couverte de Gometz la Ville",
+     "montant": 899600.0,
+     "montant_fr": "899 600 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-16",
+     "contreparties": [
+      {
+       "siren": "229102280",
+       "nom": "DEPARTEMENT DE L' ESSONNE"
+      }
+     ],
+     "objet": "Supervision déléguée de la tranchée couverte de Gometz la Ville",
+     "montant": 899600.0,
+     "montant_fr": "899 600 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0193",
+   "nom": "Getlink",
+   "siren": "483385142",
+   "titulaire": [],
+   "acheteur": [],
+   "hatvp": {
+    "denomination": "GETLINK S.E.",
+    "exercice": {
+     "date_fin": "31-12-2025",
+     "publie": true,
+     "defaut_declaration": false,
+     "fiches": 3,
+     "depenses": "> = 100 000 euros et < 200 000 euros"
     }
    }
   }
