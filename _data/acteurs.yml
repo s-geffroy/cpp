@@ -48,8 +48,6 @@ meta:
       raison: "L’État a cédé son action à EDF en 2024 ; retirée de la liste officielle en 2025, la société a été dissoute."
     - nom: "LMB"
       raison: "L’État y a acquis une action en mars 2026, mais la société ne figure pas dans la liste officielle à la date d’arrêt."
-    - nom: "Kalray"
-      raison: "Entreprise cotée susceptible de relever du périmètre des entreprises de défense privées ; son rapport de gestion 2025, qui contient la répartition du capital, n’a pas pu être lu, le critère n’est pas testé."
     - nom: "SGPFEC (Actia Group), Crédit Mutuel Equity (NSE)"
       raison: "Actionnaires au-delà de 5% : SGPFEC n’a aucun identifiant trouvé ; pour NSE, le tableau écrit « Crédit Mutuel Equity » et le graphique « Crédit Mutuel Equity & CIC », et deux sociétés portent ce nom."
     - nom: "CALIBRE (ex-Cybergun)"
