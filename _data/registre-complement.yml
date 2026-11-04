@@ -3603,3 +3603,33 @@ sources:
     status: VERIFIED
     url: "https://bdif.amf-france.org/back/api/v1/documents/2026/226C0607/49A887B52016E53DB3199C1C37503D85CEFE022594A1EEA52EF706FDF3D7CD47.pdf"
     verification: "Avis publié par l’AMF, lu le 2026-11-03 ; dernier avis concernant ce déclarant avant la date d’arrêt."
+
+  - source_id: FR-CPL-0236
+    domain: media_ownership_pluralism
+    institution: "République française"
+    title: "Loi n° 57-32 du 10 janvier 1957 portant statut de l’Agence France-Presse (version consolidée)"
+    date: "2015-04-19"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event
+    mots_cles: [legal, media, governance]
+    use: "Art. 1 : l’AFP est « un organisme autonome doté de la personnalité civile » ; art. 7 : composition du conseil d’administration, dont « trois représentants des services publics usagers de l’agence » désignés par trois ministres ; art. 13 : compensation par l’État des missions d’intérêt général."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000315388"
+    verification: "Lu sur Légifrance le 2026-11-04. Aucun article n’a été modifié depuis la loi n° 2015-433 du 17 avril 2015 : le texte lu est celui en vigueur à la date d’arrêt."
+
+  - source_id: FR-CPL-0237
+    domain: media_ownership_pluralism
+    institution: "République française"
+    title: "Décret n° 57-281 du 9 mars 1957 portant règlement d’administration publique pour l’application de la loi n° 57-32 (version consolidée)"
+    date: "2015-06-26"
+    source_type: legal_text
+    authority: PRIMARY
+    priority: A0
+    refresh: event
+    mots_cles: [legal, media, governance]
+    use: "Art. 9 : « Le ministre chargé de la communication désigne les deux représentants des sociétés nationales de programmes », après avis de leurs présidents ; art. 10 : chacun des trois ministres choisit son représentant parmi les fonctionnaires de son administration."
+    status: VERIFIED
+    url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000850483"
+    verification: "Lu sur Légifrance le 2026-11-04 ; dernière modification le 26 juin 2015, texte identique à la date d’arrêt."

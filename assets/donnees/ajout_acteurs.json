@@ -5788,5 +5788,37 @@
     ],
     "statut": "VERIFIED",
     "notes": "Opérateur de téléphonie mobile et fixe. Le détenteur du solde de son capital n’est pas nommé dans le document lu."
+  },
+  {
+    "actor_id": "FR-ACT-0200",
+    "nom": "AGENCE FRANCE PRESSE",
+    "nom_usuel": "AFP",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Organisme autonome doté de la personnalité civile (loi n° 57-32)",
+    "categories": [
+      "FR-NODE-039"
+    ],
+    "identifiants": {
+      "siren": "775658354",
+      "lei": "9695006XH09FLF5VEU40"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0236",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000315388",
+        "localisation": "art. 1, 2, 7, 13 et 14"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=775658354"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695006XH09FLF5VEU40"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "« Organisme autonome doté de la personnalité civile et dont le fonctionnement est assuré suivant les règles commerciales » (art. 1) : sans capital, il n’a pas d’actionnaire, et aucune catégorie de contrôle n’est attribuée. Ses ressources viennent de la vente de ses services et d’une « compensation financière par l’État des coûts nets générés par l’accomplissement de ses missions d’intérêt général » (art. 13) ; les abonnements des services de l’État sont fixés par convention. « L’Agence France-Presse ne peut être dissoute que par une loi » (art. 14)."
   }
 ]

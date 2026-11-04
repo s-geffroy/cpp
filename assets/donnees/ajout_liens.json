@@ -4679,5 +4679,25 @@
     "incertitude": "Part détenue par Bouygues SA elle-même. La liste de consolidation donne 90,53% d’intérêt pour le groupe ; l’écart n’est pas expliqué dans le document. Droits de vote non publiés.",
     "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
     "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0235",
+    "source_actor": "FR-ACT-0001",
+    "target_actor": "FR-ACT-0200",
+    "type": "appointment",
+    "dimension": "P-INFO",
+    "date_observation": "2015-04-19",
+    "nombre_sieges": 5,
+    "sieges_total": 19,
+    "base_juridique": "Loi n° 57-32, art. 7 ; décret n° 57-281, art. 9 et 10",
+    "citation": {
+      "source_id": "FR-CPL-0236",
+      "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000315388",
+      "localisation": "art. 7 ; décret n° 57-281 (FR-CPL-0237), art. 9 et 10"
+    },
+    "preuve": "P4",
+    "incertitude": "Les ministres désignent trois représentants des services publics usagers (affaires étrangères, communication, économie) et, pour le ministre chargé de la communication, les deux représentants des sociétés nationales de programmes, après avis de leurs présidents. Les 19 sièges comptent le président. Nombre fixé par la loi, inchangé depuis le 19 avril 2015 et donc à la date d’arrêt ; les titulaires ne sont pas relevés.",
+    "garde_fou": "Cinq sièges sur dix-neuf ne donnent pas la majorité ; la loi interdit que l’agence passe « sous le contrôle de droit ou de fait d’un groupement idéologique, politique ou économique » (art. 2).",
+    "statut": "VERIFIED"
   }
 ]

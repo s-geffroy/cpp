@@ -2,8 +2,8 @@
  "meta": {
   "annee_notification": "2025",
   "copie_hatvp": "20260812133400",
-  "acteurs_siren": 153,
-  "trouves": 73,
+  "acteurs_siren": 154,
+  "trouves": 74,
   "aucun": 80
  },
  "acteurs": [
@@ -46434,6 +46434,105 @@
      "depenses": "> = 400 000 euros et < 500 000 euros"
     }
    }
+  },
+  {
+   "actor_id": "FR-ACT-0200",
+   "nom": "AFP",
+   "siren": "775658354",
+   "titulaire": [
+    {
+     "date": "2025-01-02",
+     "contreparties": [
+      {
+       "siren": "130022205",
+       "nom": "DIRECTION DES ACHATS DE L'ETAT"
+      }
+     ],
+     "objet": "L'accord-cadre a pour objet l’accès à une banque de photos et de vidéos couvrant l’ensemble des thématiques de l’actualité (relatives aux institutions ou aux personnalités publiques, politiques, économiques, sportives, culturelles ou de société, en France et à l’étranger).",
+     "montant": 1500000.0,
+     "montant_fr": "1 500 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-10",
+     "contreparties": [
+      {
+       "siren": "210600888",
+       "nom": "COMMUNE DE NICE"
+      }
+     ],
+     "objet": "IA200 ABONNEMENT A UNE BASE DE DONNEES DE L'AGENCE FRANCE PRESSE",
+     "montant": 340000.0,
+     "montant_fr": "340 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-28",
+     "contreparties": [
+      {
+       "siren": "302421193",
+       "nom": "INSTITUT NATIONAL DE L'AUDIOVISUEL"
+      }
+     ],
+     "objet": "FOURNITURE D'UN ACCES AU SERVICE AFP",
+     "montant": 1000000.0,
+     "montant_fr": "1 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-04",
+     "contreparties": [
+      {
+       "siren": "120006010",
+       "nom": "DIRECTION GENERALE DE L'ADMINISTRATION ET DE LA MODERNISATION"
+      }
+     ],
+     "objet": "La mise à disposition par l’Agence France Presse (AFP) de sa plateforme AFP News auprès de médias ciblés dans le monde, identifiés par la Direction de la communication et de la presse (DCP), permettant la consultation et le téléchargement de contenus texte, photos, vidéos et vidéos au format vertical (social stories) ainsi que l’accès au flux TV et à l’agenda des évènements.",
+     "montant": 1680000.0,
+     "montant_fr": "1 680 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-04",
+     "contreparties": [
+      {
+       "siren": "302990445",
+       "nom": "CAISSE CENTRALE DE MUTUALITE SOCIALE AGRICOLE"
+      }
+     ],
+     "objet": "Mise à disposition des dépêches de l'AFP au profit de la CCMSA",
+     "montant": 43090.0,
+     "montant_fr": "43 090 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-10",
+     "contreparties": [
+      {
+       "siren": "231300021",
+       "nom": "REGION PROVENCE-ALPES-COTE D'AZUR"
+      }
+     ],
+     "objet": "ABONNEMENT DE LA REGION PROVENCE-ALPES-COTE D AZUR AU SERVICE INFORMATIONS GENERALES FRANCAISES FRS COMPLET, RELATANT L ACTUALITE INTERNATIONALE ET NATIONALE, EN TEMPS REEL, 24H/24H VIA LE SERVUER DE L AGENCE FRANCE PRESSE",
+     "montant": 120654.81,
+     "montant_fr": "120 654,81 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "hatvp": null
   }
  ]
 }
