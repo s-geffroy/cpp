@@ -2,9 +2,9 @@
  "meta": {
   "annee_notification": "2025",
   "copie_hatvp": "20260812133400",
-  "acteurs_siren": 149,
-  "trouves": 71,
-  "aucun": 78
+  "acteurs_siren": 153,
+  "trouves": 73,
+  "aucun": 80
  },
  "acteurs": [
   {
@@ -44920,6 +44920,1518 @@
      "defaut_declaration": false,
      "fiches": 3,
      "depenses": "> = 100 000 euros et < 200 000 euros"
+    }
+   }
+  },
+  {
+   "actor_id": "FR-ACT-0197",
+   "nom": "ORANGE CONCESSIONS",
+   "siren": "827475864",
+   "titulaire": [
+    {
+     "date": "2025-08-05",
+     "contreparties": [
+      {
+       "siren": "842430878",
+       "nom": "LA REUNION CONNECTEE"
+      }
+     ],
+     "objet": "MARCHE MPGP THD CONCEPT-REALISAT-EXPLOIT- FttH REGION",
+     "montant": 9945571.2,
+     "montant_fr": "9 945 571,20 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-04",
+     "contreparties": [
+      {
+       "siren": "253514491",
+       "nom": "MEGALIS BRETAGNE"
+      }
+     ],
+     "objet": "CONCEPTION, REALISATION ET EXPLOITATION TECHNIQUE ET COMMERCIALE D’UN RESEAU DE FIBRE OPTIQUE (FTTH) SUR LES ILES DE MOLENE, OUESSANT, SEIN, HOUAT ET HOËDIC",
+     "montant": 9968144.0,
+     "montant_fr": "9 968 144 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-04",
+     "contreparties": [
+      {
+       "siren": "253514491",
+       "nom": "MEGALIS BRETAGNE"
+      }
+     ],
+     "objet": "MGP FTTH ILES",
+     "montant": 5360984.0,
+     "montant_fr": "5 360 984 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0199",
+   "nom": "BOUYGUES TELECOM",
+   "siren": "397480930",
+   "titulaire": [
+    {
+     "date": "2025-01-01",
+     "contreparties": [
+      {
+       "siren": "221927205",
+       "nom": "DEPARTEMENT DE LA CORREZE"
+      }
+     ],
+     "objet": "2024/112 - Fourniture de service de télécommunications fixes",
+     "montant": 140000.0,
+     "montant_fr": "140 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-02",
+     "contreparties": [
+      {
+       "siren": "200071363",
+       "nom": "CA VICHY COMMUNAUTE"
+      }
+     ],
+     "objet": "BOUYGUES TELECOM LIGNE MOBILE AVEC LA CENTRALE D ACHAT CANUT",
+     "montant": 60000.0,
+     "montant_fr": "60 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-04",
+     "contreparties": [
+      {
+       "siren": "210303103",
+       "nom": "COMMUNE DE VICHY"
+      }
+     ],
+     "objet": "BOUYGUES TELECOM TELEPHONIE MOBILE",
+     "montant": 60000.0,
+     "montant_fr": "60 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-05",
+     "contreparties": [
+      {
+       "siren": "200014926",
+       "nom": "TERRITOIRE D ENERGIE LOIRE ATLANTIQUE (TE44)"
+      }
+     ],
+     "objet": "Solutions de Communication Mobile",
+     "montant": 89000.0,
+     "montant_fr": "89 000 €",
+     "accord_cadre": true,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-06",
+     "contreparties": [
+      {
+       "siren": "800765794",
+       "nom": "CENTRALE D'ACHAT DE L'INFORMATIQUE HOSPITALIERE"
+      }
+     ],
+     "objet": "24_AOO_TEL MARCHE DE SERVICES DE TELECOMMUNICATIONS ET DE PRESTATIONS ASSOCIEES - TEL_2025-2029 LOT 4",
+     "montant": 1000000.0,
+     "montant_fr": "1 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-06",
+     "contreparties": [
+      {
+       "siren": "800765794",
+       "nom": "CENTRALE D'ACHAT DE L'INFORMATIQUE HOSPITALIERE"
+      }
+     ],
+     "objet": "24_AOO_TEL2529 LOT 4 : Mobilité Premium",
+     "montant": 100000000.0,
+     "montant_fr": "100 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": true
+    },
+    {
+     "date": "2025-01-06",
+     "contreparties": [
+      {
+       "siren": "800765794",
+       "nom": "CENTRALE D'ACHAT DE L'INFORMATIQUE HOSPITALIERE"
+      }
+     ],
+     "objet": "24_AOO_TEL2529 LOT 5 : Data Standard",
+     "montant": 75000000.0,
+     "montant_fr": "75 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-06",
+     "contreparties": [
+      {
+       "siren": "800765794",
+       "nom": "CENTRALE D'ACHAT DE L'INFORMATIQUE HOSPITALIERE"
+      }
+     ],
+     "objet": "24_AOO_TEL2529 LOT2 Téléphonie fixe premium",
+     "montant": 50000000.0,
+     "montant_fr": "50 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-06",
+     "contreparties": [
+      {
+       "siren": "800765794",
+       "nom": "CENTRALE D'ACHAT DE L'INFORMATIQUE HOSPITALIERE"
+      }
+     ],
+     "objet": "SERVICES DE TELECOMMUNICATIONS ET PRESTATIONS ASSOCIES - lot 8",
+     "montant": 100000.0,
+     "montant_fr": "100 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-06",
+     "contreparties": [
+      {
+       "siren": "130002223",
+       "nom": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS"
+      }
+     ],
+     "objet": "SERVICES DE TELECOMS",
+     "montant": 100000.0,
+     "montant_fr": "100 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-10",
+     "contreparties": [
+      {
+       "siren": "219102019",
+       "nom": "COMMUNE DE DRAVEIL"
+      }
+     ],
+     "objet": "Services opérés de télécommunications voix et data fixes et mobiles - 5 lots<br />",
+     "montant": 300000.0,
+     "montant_fr": "300 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-11",
+     "contreparties": [
+      {
+       "siren": "200071876",
+       "nom": "CA SAUMUR VAL DE LOIRE"
+      }
+     ],
+     "objet": "LOT 1 AC FOURNITURE SERVICES TELECOM RESAH -FIXE / VPN / INTERNET",
+     "montant": 80000.0,
+     "montant_fr": "80 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-20",
+     "contreparties": [
+      {
+       "siren": "263100125",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE"
+      }
+     ],
+     "objet": "CAIH TELEPHONIE COUVERTURE MOBILE",
+     "montant": 47000.0,
+     "montant_fr": "47 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-20",
+     "contreparties": [
+      {
+       "siren": "263100125",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE"
+      }
+     ],
+     "objet": "CAIH TELEPHONIE DATA STANDARD",
+     "montant": 55000.0,
+     "montant_fr": "55 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-20",
+     "contreparties": [
+      {
+       "siren": "263100125",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE"
+      }
+     ],
+     "objet": "CAIH TELEPHONIE FIXE PREMIUM",
+     "montant": 119000.0,
+     "montant_fr": "119 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-20",
+     "contreparties": [
+      {
+       "siren": "263100125",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE"
+      }
+     ],
+     "objet": "CAIH TELEPHONIE MOBILE PREMIUM",
+     "montant": 57000.0,
+     "montant_fr": "57 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-22",
+     "contreparties": [
+      {
+       "siren": "180035032",
+       "nom": "CAISSE NATIONALE D'ASSURANCE VIEILLESSE"
+      }
+     ],
+     "objet": "Lot 3 Mise à disposition d'un accès Internet et d'un sous-réseau IP public de classe C sur le datacenter nominal",
+     "montant": 845000.0,
+     "montant_fr": "845 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-22",
+     "contreparties": [
+      {
+       "siren": "180035032",
+       "nom": "CAISSE NATIONALE D'ASSURANCE VIEILLESSE"
+      }
+     ],
+     "objet": "Lot 5 Mise en œuvre de deux liaisons optiques",
+     "montant": 1035670.0,
+     "montant_fr": "1 035 670 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-05",
+     "contreparties": [
+      {
+       "siren": "130002223",
+       "nom": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS"
+      }
+     ],
+     "objet": "Services de télécommunication : mobilité premium",
+     "montant": 600000.0,
+     "montant_fr": "600 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-05",
+     "contreparties": [
+      {
+       "siren": "130002223",
+       "nom": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS"
+      }
+     ],
+     "objet": "Services de télécommunications : data standard",
+     "montant": 572000.0,
+     "montant_fr": "572 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-05",
+     "contreparties": [
+      {
+       "siren": "130002223",
+       "nom": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS"
+      }
+     ],
+     "objet": "Services télécommunication : couverture mobile",
+     "montant": 60000.0,
+     "montant_fr": "60 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-05",
+     "contreparties": [
+      {
+       "siren": "130002223",
+       "nom": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS"
+      }
+     ],
+     "objet": "Services télécommunication : téléphonie fixe premium",
+     "montant": 160000.0,
+     "montant_fr": "160 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-05",
+     "contreparties": [
+      {
+       "siren": "265100057",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE REIMS"
+      }
+     ],
+     "objet": "TELECOM 25-29 - Lot 4 - Fourniture de solutions de services de télécommunications et prestations associées pour les adhérents de la centrale d'achat de l'informatique hospitalière",
+     "montant": 132000.0,
+     "montant_fr": "132 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-05",
+     "contreparties": [
+      {
+       "siren": "265100057",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE REIMS"
+      }
+     ],
+     "objet": "TELECOM 25-29 - Lot 5 - Fourniture de solutions de services de télécommunications et prestations associées pour les adhérents de la centrale d'achat de l'informatique hospitalière",
+     "montant": 98700.0,
+     "montant_fr": "98 700 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-05",
+     "contreparties": [
+      {
+       "siren": "265100057",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE REIMS"
+      }
+     ],
+     "objet": "TELECOM 25-29 - Lot 8 - Fourniture de solutions de services de télécommunications et prestations associées pour les adhérents de la centrale d'achat de l'informatique hospitalière",
+     "montant": 750000.0,
+     "montant_fr": "750 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-05",
+     "contreparties": [
+      {
+       "siren": "287312003",
+       "nom": "SCE DEPARTEMENTAL INCENDIE ET SECOURS"
+      }
+     ],
+     "objet": "TELEPHONIE FIXE PREMIUM - CAIH",
+     "montant": 160000.0,
+     "montant_fr": "160 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-08",
+     "contreparties": [
+      {
+       "siren": "200039865",
+       "nom": "EURO-METROPOLE DE METZ"
+      }
+     ],
+     "objet": "MS0 à BdC LOT 1 TELEPHONIE FIXE LIGNES IPBX",
+     "montant": 300000.0,
+     "montant_fr": "300 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-27",
+     "contreparties": [
+      {
+       "siren": "265100057",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE REIMS"
+      }
+     ],
+     "objet": "TELECOM 25-29 - Lot 2 - Fourniture de solutions de services de télécommunications et prestations associées pour les adhérents de la centrale d'achat de l'informatique hospitalière",
+     "montant": 244000.0,
+     "montant_fr": "244 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-28",
+     "contreparties": [
+      {
+       "siren": "211300280",
+       "nom": "COMMUNE DE LA CIOTAT"
+      }
+     ],
+     "objet": "Services et terminaux de mobilité",
+     "montant": 420000.0,
+     "montant_fr": "420 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-14",
+     "contreparties": [
+      {
+       "siren": "210300950",
+       "nom": "COMMUNE DE CUSSET"
+      }
+     ],
+     "objet": "ECLAIRAGE PUBLIC, RESEAUX SECS",
+     "montant": 100000.0,
+     "montant_fr": "100 000 €",
+     "accord_cadre": true,
+     "titulaires": 4,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-18",
+     "contreparties": [
+      {
+       "siren": "263100125",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE"
+      }
+     ],
+     "objet": "Fourniture de services de collecte à très Haut débit et services de sécurité associés Pour le réseau THDOC V3",
+     "montant": 3200000.0,
+     "montant_fr": "3 200 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-19",
+     "contreparties": [
+      {
+       "siren": "200053791",
+       "nom": "REGION OCCITANIE"
+      }
+     ],
+     "objet": "THDOC_Lot 2_Services réseaux et internet",
+     "montant": 15000000.0,
+     "montant_fr": "15 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-26",
+     "contreparties": [
+      {
+       "siren": "200059228",
+       "nom": "CA GRAND PARIS SUD SEINE ESSONNE SENART"
+      }
+     ],
+     "objet": "MS-SERVICE DE TELEPHONIE FIXE \"UGAP7\" BOUYGUES TELECOM",
+     "montant": 1000000.0,
+     "montant_fr": "1 000 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-26",
+     "contreparties": [
+      {
+       "siren": "231300021",
+       "nom": "REGION PROVENCE-ALPES-COTE D'AZUR"
+      }
+     ],
+     "objet": "SERVICES DE TELEPHONIE FIXE CENTRALE D ACHAT UGAP",
+     "montant": 2000000.0,
+     "montant_fr": "2 000 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-31",
+     "contreparties": [
+      {
+       "siren": "218300697",
+       "nom": "COMMUNE D HYERES"
+      }
+     ],
+     "objet": "TÉLÉCOMMUNICATIONS LIGNES FIXES ET INTERNET",
+     "montant": 400000.0,
+     "montant_fr": "400 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-07",
+     "contreparties": [
+      {
+       "siren": "367500899",
+       "nom": "LOGEO SEINE"
+      }
+     ],
+     "objet": "Box internet haut débit",
+     "montant": 200000.0,
+     "montant_fr": "200 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-09",
+     "contreparties": [
+      {
+       "siren": "180060030",
+       "nom": "METEO-FRANCE"
+      }
+     ],
+     "objet": "Le marché public objet de la présente consultation a pour objet la fourniture d’une solution globale d’échange de données basée sur les réseaux mobiles, de type M2M depuis ou vers un site distant du SI de Météo-France.",
+     "montant": 800000.0,
+     "montant_fr": "800 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-10",
+     "contreparties": [
+      {
+       "siren": "240600585",
+       "nom": "COMMUNAUTE D AGGLOMERATION DE SOPHIA ANTIPOLIS"
+      }
+     ],
+     "objet": "LOT 4 SERVICES DE TELEPHONIE MOBILE AVEC ENGAGEMENTS DE SERVICES AVANCES",
+     "montant": 100000000.0,
+     "montant_fr": "100 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": true
+    },
+    {
+     "date": "2025-04-17",
+     "contreparties": [
+      {
+       "siren": "218300366",
+       "nom": "COMMUNE DE CAVALAIRE SUR MER"
+      }
+     ],
+     "objet": "Fourniture d'abonnements internet y compris fibre optique et téléphonie fixe",
+     "montant": 120000.0,
+     "montant_fr": "120 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-22",
+     "contreparties": [
+      {
+       "siren": "775672231",
+       "nom": "ASSOCIATION POUR L'EMPLOI DES CADRES"
+      }
+     ],
+     "objet": "Evolution des services opérateurs de télécommunication mobiles de l'Apec",
+     "montant": 1700000.0,
+     "montant_fr": "1 700 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-09",
+     "contreparties": [
+      {
+       "siren": "218300697",
+       "nom": "COMMUNE D HYERES"
+      }
+     ],
+     "objet": "TÉLÉCOMMUNICATIONS LIGNES MOBILES",
+     "montant": 150000.0,
+     "montant_fr": "150 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-17",
+     "contreparties": [
+      {
+       "siren": "775665433",
+       "nom": "CDC INFORMATIQUE"
+      }
+     ],
+     "objet": "FOURNITURE DE LIENS TELECOMS, SERVICES ET PRESTATIONS ASSOCIES POUR LE TRANSPORT VOIX/DATA: ACCES INTERNET",
+     "montant": 1990800.0,
+     "montant_fr": "1 990 800 €",
+     "accord_cadre": true,
+     "titulaires": 4,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-19",
+     "contreparties": [
+      {
+       "siren": "219200482",
+       "nom": "COMMUNE DE MEUDON"
+      }
+     ],
+     "objet": "FOURNITURE SERVICES TELECOMMUNICATIONS FIXE MOBILE DONNEES SECOURS SELON CONVENTION MISE A DISPOSITION 190625 CANUT",
+     "montant": 101500.0,
+     "montant_fr": "101 500 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-24",
+     "contreparties": [
+      {
+       "siren": "130017791",
+       "nom": "VOIES NAVIGABLES DE FRANCE"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet des services de communication électronique et de connectivité associée. La description détaillée des prestations attendues est précisée au Cahier des Clauses Techniques Particulières (CCTP) commun à l’ensemble des lots de l’accord-cadre, et figurant dans le DCE. - Accès internet à débit garanti de secours et de délestage (lot 3)",
+     "montant": 1850000.0,
+     "montant_fr": "1 850 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-08",
+     "contreparties": [
+      {
+       "siren": "219502689",
+       "nom": "COMMUNE DE GARGES-LES-GONESSE"
+      }
+     ],
+     "objet": "RESEAUX ET CYBERSECURITE POUR LES ADHERENTS DE LA CENTRALE D'ACHAT LOT 3",
+     "montant": 20000000.0,
+     "montant_fr": "20 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-23",
+     "contreparties": [
+      {
+       "siren": "214400434",
+       "nom": "COMMUNE DE CLISSON"
+      }
+     ],
+     "objet": "Marché 2025-30 - Accord-cadre à bons de commande visant l'infogérence du système d'information et la téléphonie mobile",
+     "montant": 213000.0,
+     "montant_fr": "213 000 €",
+     "accord_cadre": true,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-01",
+     "contreparties": [
+      {
+       "siren": "248719312",
+       "nom": "CU LIMOGES METROPOLE"
+      }
+     ],
+     "objet": "1A SERVICE DE TELEPHONIE FIXE",
+     "montant": 250000000.0,
+     "montant_fr": "250 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219104791",
+       "nom": "COMMUNE DE PARAY VIEILLE POSTE"
+      }
+     ],
+     "objet": "ACCORD-CADRE À BONS DE COMMANDE MULTIATTRIBUTAIRES DE TECHNIQUES DE L’INFORMATION ET DE LA COMMUNICATION",
+     "montant": 104000000.0,
+     "montant_fr": "104 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219200789",
+       "nom": "COMMUNE DE VILLENEUVE LA GARENNE"
+      }
+     ],
+     "objet": "ACQUISITION DE FORFAIT MOBILE,DE SMARTPHONE, DES EQUIPEMENTS D'AMELIORATION DE LA COUVERTURE MOBILE IDF",
+     "montant": 104000000.0,
+     "montant_fr": "104 000 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219101144",
+       "nom": "COMMUNE DE BRUNOY"
+      }
+     ],
+     "objet": "ACQUISITION DE FORFAITS MOBILES DE SMARTPHONES ET EQUIPEMENTS COUVERTURE MOBILE INDOOR",
+     "montant": 104000000.0,
+     "montant_fr": "104 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "200059228",
+       "nom": "CA GRAND PARIS SUD SEINE ESSONNE SENART"
+      }
+     ],
+     "objet": "ACQUISITION FORFAITS MOBILES - SMARTPHONES - EQUIPTS COUVERTURE MOBILE INDOOR",
+     "montant": 350000.0,
+     "montant_fr": "350 000 €",
+     "accord_cadre": true,
+     "titulaires": 6,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219500634",
+       "nom": "COMMUNE DE BEZONS"
+      }
+     ],
+     "objet": "ADHERENTS A LA CENTRALE D'ACHAT SIPP'N'CO AYANT LEUR SIEGE EN IDF DEHORS PARIS",
+     "montant": 86666666.67,
+     "montant_fr": "86 666 666,67 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "200057867",
+       "nom": "PLAINE COMMUNE"
+      }
+     ],
+     "objet": "Acquisition de forfaits mobiles, de smartphones, ainsi que des équipements d¿amélioration de la couverture mobile indoor (en intérieur)",
+     "montant": 104000000.0,
+     "montant_fr": "104 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 6,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "217702968",
+       "nom": "COMMUNE DE MOISSY CRAMAYEL"
+      }
+     ],
+     "objet": "FOURNITURE DE TELEPHONIE MOBILE PASSE PAR LA CENTRALE D'ACHAT SIPP'n'CO - ACCORD CADRE MULTI ATTRIBUTAIRE - 3 TITULAIRES : RANG 1 SFR / RANG 2 BOUYGUES / RANG 3 ORANGE",
+     "montant": 160000.0,
+     "montant_fr": "160 000 €",
+     "accord_cadre": true,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "200083525",
+       "nom": "COMMUNE DE EVRY-COURCOURONNES"
+      }
+     ],
+     "objet": "GROUPEMENT SIPPNCO BOUQUET MULTI ATTRIBUTAIRE",
+     "montant": 40000.0,
+     "montant_fr": "40 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "929939411",
+       "nom": "COMMUNE DE SAINT-DENIS"
+      }
+     ],
+     "objet": "LOT 2 - GPMT SIP - AC TELEPHONIE SUR RESEAUX MOBILES - PRESTATIONS COMMANDEES PAR UN ADHERENTS A LA CENTRALE D'ACHAT SIPPN'CO AYANT LEUR SIEGE EN ILE DE FRANCE EN DEHORS DE PARIS (2025140-2025182-2025184)",
+     "montant": 104000000.0,
+     "montant_fr": "104 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 6,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219200243",
+       "nom": "COMMUNE DE CLICHY"
+      }
+     ],
+     "objet": "LOT 2 - TELEPHONIE SUR RESEAUX MOBILES",
+     "montant": 104000000.0,
+     "montant_fr": "104 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219300019",
+       "nom": "COMMUNE D'AUBERVILLIERS"
+      }
+     ],
+     "objet": "LOT 2 : SIPP- 2025182: TELEPHONIE SUR RESEAUX MOBILES ILE -DE-FRANCE HORS PARIS",
+     "montant": 4000000.0,
+     "montant_fr": "4 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "257500041",
+       "nom": "SYNDICAT INTERCOMMUNAL DE LA PERIPHERIE DE PARIS POUR LES ENERGIES ET LES RESEAUX DE COMMUNICATION"
+      }
+     ],
+     "objet": "Le marché a pour objet l’acquisition de forfaits mobiles, de smartphones, ainsi que des équipements d’amélioration de la couverture mobile indoor (en intérieur). - Paris (75)",
+     "montant": 14000000.0,
+     "montant_fr": "14 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "257500041",
+       "nom": "SYNDICAT INTERCOMMUNAL DE LA PERIPHERIE DE PARIS POUR LES ENERGIES ET LES RESEAUX DE COMMUNICATION"
+      }
+     ],
+     "objet": "Le marché a pour objet l’acquisition de forfaits mobiles, de smartphones, ainsi que des équipements d’amélioration de la couverture mobile indoor (en intérieur). - Île-de-France hors Paris (75)",
+     "montant": 26000000.0,
+     "montant_fr": "26 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219200250",
+       "nom": "COMMUNE DE COLOMBES"
+      }
+     ],
+     "objet": "Lot 2 Téléphonie sur réseaux mobiles ADH2RENTS ILE DE FRANCE",
+     "montant": 1000000.0,
+     "montant_fr": "1 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 5,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219102233",
+       "nom": "COMMUNE D'ETAMPES"
+      }
+     ],
+     "objet": "MARCHÉS 2025182 LOT 2 - TÉLÉPHONIE SUR RÉSEAUX MOBILES",
+     "montant": 1000000.0,
+     "montant_fr": "1 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "217702885",
+       "nom": "COMMUNE MELUN"
+      }
+     ],
+     "objet": "SIPPEREC - TELEPHONIE SUR RESEAUX MOBILES - TITULAIRE RANG 2",
+     "montant": 400000.0,
+     "montant_fr": "400 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219200730",
+       "nom": "COMMUNE DE SURESNES"
+      }
+     ],
+     "objet": "SIPPEREC 2025182 - TELEPHONIE SUR RESEAUX MOBILES - LOT 2 : ÎLE-DE-FRANCE HORS PARIS",
+     "montant": 500000.0,
+     "montant_fr": "500 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219400389",
+       "nom": "COMMUNE DE L'HAY LES ROSES"
+      }
+     ],
+     "objet": "TELEPHONIE SUR RESEAUX MOBILES",
+     "montant": 400000.0,
+     "montant_fr": "400 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "219505989",
+       "nom": "COMMUNE DE SOISY-SOUS-MONTMORENCY"
+      }
+     ],
+     "objet": "TELEPHONIE SUR RESEAUX MOBILES (2025 140-182-184)",
+     "montant": 1000000.0,
+     "montant_fr": "1 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "180014045",
+       "nom": "CENTRE NATIONAL DE LA FONCTION PUBLIQUE TERRITORIALE"
+      }
+     ],
+     "objet": "TELEPHONIE SUR RESEAUX MOBILES POUR LES ADHERENTS A LA CENTRALE D ACHAT SIPP N CO AYANT LEUR SIEGE A PARIS",
+     "montant": 5600000.0,
+     "montant_fr": "5 600 000 €",
+     "accord_cadre": true,
+     "titulaires": 6,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-28",
+     "contreparties": [
+      {
+       "siren": "257500074",
+       "nom": "AGENCE METROPOLITAINE DES DECHETS MENAGERS"
+      }
+     ],
+     "objet": "TÉLÉPHONIE SUR RÉSEAUX MOBILES-LOT1",
+     "montant": 9000000.0,
+     "montant_fr": "9 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 6,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-29",
+     "contreparties": [
+      {
+       "siren": "247700057",
+       "nom": "COMMUNAUTE D AGGLOMERATION  MELUN VAL DE SEINE"
+      }
+     ],
+     "objet": "TÉLÉPHONIE SUR RÉSEAUX MOBILES",
+     "montant": 103000.0,
+     "montant_fr": "103 000 €",
+     "accord_cadre": true,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-03",
+     "contreparties": [
+      {
+       "siren": "962504049",
+       "nom": "SOC FRANCAISE TUNNEL ROUTIER DE FREJUS"
+      }
+     ],
+     "objet": "FOURNITURE DE SERVICES DE TELECOMMUNICATIONS",
+     "montant": 100000.0,
+     "montant_fr": "100 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-17",
+     "contreparties": [
+      {
+       "siren": "120001037",
+       "nom": "DIRECTION DES SERVICES ADMINISTRATIFS ET FINANCIERS"
+      }
+     ],
+     "objet": "Accord-cadre interministériel portant sur le maintien des services de réseau en protocole Ethernet à haut débit de qualité \"Premium\", en Île de France au profit du RIE",
+     "montant": 3000000.0,
+     "montant_fr": "3 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-21",
+     "contreparties": [
+      {
+       "siren": "217800150",
+       "nom": "COMMUNE D ANDRESY"
+      }
+     ],
+     "objet": "Téléphonie et Internet - Téléphonie fixe et Internet",
+     "montant": 70102.5,
+     "montant_fr": "70 102,50 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-21",
+     "contreparties": [
+      {
+       "siren": "217800150",
+       "nom": "COMMUNE D ANDRESY"
+      }
+     ],
+     "objet": "Téléphonie et Internet - Téléphonie mobile",
+     "montant": 12784.32,
+     "montant_fr": "12 784,32 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-22",
+     "contreparties": [
+      {
+       "siren": "219300290",
+       "nom": "COMMUNE DE DRANCY"
+      }
+     ],
+     "objet": "TELEPHONIE SUR RESEAUX MOBILES - Titulaire de Rang 2 - BOUYGUES TELECOM",
+     "montant": 8600000.0,
+     "montant_fr": "8 600 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-29",
+     "contreparties": [
+      {
+       "siren": "211300637",
+       "nom": "COMMUNE DE MIRAMAS"
+      }
+     ],
+     "objet": "DISPOSITIFS SURETE/SECURITE ET SERVICES NUMERIQUES CONNEXES",
+     "montant": 50000000.0,
+     "montant_fr": "50 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 4,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-06",
+     "contreparties": [
+      {
+       "siren": "211100698",
+       "nom": "COMMUNE DE CARCASSONNE"
+      }
+     ],
+     "objet": "Couverture indoor",
+     "montant": 50000.0,
+     "montant_fr": "50 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-06",
+     "contreparties": [
+      {
+       "siren": "219200268",
+       "nom": "COMMUNE DE COURBEVOIE"
+      }
+     ],
+     "objet": "SERVICE DE CONNECTIVITE TELEPHONIE FIXE MOBILITE ET PRESTATIONS ASSOCIEES - LOT 3 - TELEPHONE MOBILE ET SERVICES DE MOBILITE",
+     "montant": 10000000.0,
+     "montant_fr": "10 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": true
+    },
+    {
+     "date": "2025-11-06",
+     "contreparties": [
+      {
+       "siren": "211100698",
+       "nom": "COMMUNE DE CARCASSONNE"
+      }
+     ],
+     "objet": "Services de téléphonie mobile avec engagements de service avancés",
+     "montant": 50000.0,
+     "montant_fr": "50 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-18",
+     "contreparties": [
+      {
+       "siren": "219200268",
+       "nom": "COMMUNE DE COURBEVOIE"
+      }
+     ],
+     "objet": "SERVICES DE CONNECTIVITÉ, TÉLÉPHONIE FIXE, MOBILITÉ, ET PRESTATIONS ASSOCIÉES - LOT N° 2 : ACCÈS INTERNET ET TÉLÉPHONIE FIXE",
+     "montant": 10000000.0,
+     "montant_fr": "10 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 2,
+     "montant_ecarte": true
+    },
+    {
+     "date": "2025-11-21",
+     "contreparties": [
+      {
+       "siren": "210301859",
+       "nom": "COMMUNE DE MONTLUCON"
+      }
+     ],
+     "objet": "SERVICES DE TELEPHONIE MOBILE AVEC ENGAGEMENTS DE SERVICE AVANCES",
+     "montant": 183333.33,
+     "montant_fr": "183 333,33 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-24",
+     "contreparties": [
+      {
+       "siren": "216202705",
+       "nom": "COMMUNE DE DIVION"
+      }
+     ],
+     "objet": "SERVICE DE TELEPHONIE ET INTERNET MOBILES AVEC ENGAGEMENTS DE SERVICE AVANCES",
+     "montant": 216000.0,
+     "montant_fr": "216 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-25",
+     "contreparties": [
+      {
+       "siren": "184401289",
+       "nom": "CHAMBRE DE COMMERCE ET D INDUSTRIE DE REGION PAYS DE LA LOIRE"
+      }
+     ],
+     "objet": "Marché \"firewall et sécurité\"",
+     "montant": 154191.0,
+     "montant_fr": "154 191 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-28",
+     "contreparties": [
+      {
+       "siren": "389106865",
+       "nom": "ANGERS LOIRE HABITAT"
+      }
+     ],
+     "objet": "Service internet",
+     "montant": 133857.0,
+     "montant_fr": "133 857 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-28",
+     "contreparties": [
+      {
+       "siren": "389106865",
+       "nom": "ANGERS LOIRE HABITAT"
+      }
+     ],
+     "objet": "Téléphonie mobile",
+     "montant": 154180.0,
+     "montant_fr": "154 180 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-03",
+     "contreparties": [
+      {
+       "siren": "775629074",
+       "nom": "CETIM"
+      }
+     ],
+     "objet": "SERVICES DE TELEPHONIE MOBILE ET FOURNITURE DE MATERIEL",
+     "montant": 900000.0,
+     "montant_fr": "900 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-09",
+     "contreparties": [
+      {
+       "siren": "282900463",
+       "nom": "DOMAINES ET MUSEES DEPARTEMENTAUX - CHEMINS DU PATRIMOINE EN FINISTERE"
+      }
+     ],
+     "objet": "FOURNITURES DE PRESTATIONS DE SERVICES ET DE MATERIEL DE TELECOMMUNICATIONS - Contrats télécom fixe lot 1",
+     "montant": 18000.0,
+     "montant_fr": "18 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-09",
+     "contreparties": [
+      {
+       "siren": "282900463",
+       "nom": "DOMAINES ET MUSEES DEPARTEMENTAUX - CHEMINS DU PATRIMOINE EN FINISTERE"
+      }
+     ],
+     "objet": "FOURNITURES DE PRESTATIONS DE SERVICES ET DE MATERIEL DE TELECOMMUNICATIONS - Contrats télécom internet lot 2",
+     "montant": 33000.0,
+     "montant_fr": "33 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-09",
+     "contreparties": [
+      {
+       "siren": "282900463",
+       "nom": "DOMAINES ET MUSEES DEPARTEMENTAUX - CHEMINS DU PATRIMOINE EN FINISTERE"
+      }
+     ],
+     "objet": "LOT 02 CONTRAT TELECOM INTERNET",
+     "montant": 66000.0,
+     "montant_fr": "66 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-15",
+     "contreparties": [
+      {
+       "siren": "213702145",
+       "nom": "COMMUNE DE SAINT CYR SUR LOIRE"
+      }
+     ],
+     "objet": "ACCES INTERNET, VPN, INTERCONNEXIONS MULTISITES, SD WAN",
+     "montant": 20000000.0,
+     "montant_fr": "20 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-15",
+     "contreparties": [
+      {
+       "siren": "223700014",
+       "nom": "DEPARTEMENT DE L'INDRE ET LOIRE"
+      }
+     ],
+     "objet": "MARCHE SERVICES ET EQUIPEMTS DE TELECOMMUNICATIONS RESEAUX ET CYBERSECURITE - ADHERENTS CENTRALE D'ACHAT FOCUS NUMERIQUE - DSITN",
+     "montant": 400000.0,
+     "montant_fr": "400 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-15",
+     "contreparties": [
+      {
+       "siren": "200050722",
+       "nom": "S.MIXTE OUVERT VAL D'OISE NUMERIQUE"
+      }
+     ],
+     "objet": "Marché de services et équipements de télécommunications, réseaux et cybersécurité pour les adhérents de la centrale d’achat Focus Numérique (5 lots) - Accès Internet, VPN, interconnexions multisites",
+     "montant": 20000000.0,
+     "montant_fr": "20 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-15",
+     "contreparties": [
+      {
+       "siren": "200050722",
+       "nom": "S.MIXTE OUVERT VAL D'OISE NUMERIQUE"
+      }
+     ],
+     "objet": "Marché de services et équipements de télécommunications, réseaux et cybersécurité pour les adhérents de la centrale d’achat Focus Numérique (5 lots) - Téléphonie mobile, MDM, connectivité 4G/5G, connectivité interne",
+     "montant": 20000000.0,
+     "montant_fr": "20 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-15",
+     "contreparties": [
+      {
+       "siren": "213702145",
+       "nom": "COMMUNE DE SAINT CYR SUR LOIRE"
+      }
+     ],
+     "objet": "TELEPHONIE MOBILE ET SERVICES ASSOCIES",
+     "montant": 20000000.0,
+     "montant_fr": "20 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "213105570",
+       "nom": "COMMUNE DE TOURNEFEUILLE"
+      }
+     ],
+     "objet": "TELEPHONIE MOBILE",
+     "montant": 60000000.0,
+     "montant_fr": "60 000 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "212801344",
+       "nom": "COMMUNE DE DREUX"
+      }
+     ],
+     "objet": "TELEPHONIE MOBILES ENGAGEMENTS SERVICES AVANCES",
+     "montant": 144000.0,
+     "montant_fr": "144 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-30",
+     "contreparties": [
+      {
+       "siren": "214502080",
+       "nom": "COMMUNE DE MONTARGIS"
+      }
+     ],
+     "objet": "L1 - TELEPHONIE FIXE",
+     "montant": 500000.0,
+     "montant_fr": "500 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "hatvp": {
+    "denomination": "BOUYGUES TELECOM",
+    "exercice": {
+     "date_fin": "31-12-2025",
+     "publie": true,
+     "defaut_declaration": false,
+     "fiches": 7,
+     "depenses": "> = 400 000 euros et < 500 000 euros"
     }
    }
   }

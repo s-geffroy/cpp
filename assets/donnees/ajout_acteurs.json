@@ -5668,5 +5668,125 @@
     ],
     "statut": "VERIFIED",
     "notes": "Anciennement Atlantia. L’avis AMF la dit « indirectement contrôlée par la société Edizione S.p.A., holding de la famille Benetton » ; ce lien indirect n’est pas saisi."
+  },
+  {
+    "actor_id": "FR-ACT-0196",
+    "nom": "ORANGE PARTICIPATIONS",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-014"
+    ],
+    "identifiants": {
+      "siren": "432668432",
+      "lei": "969500N4SCWCJOGA2X83"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0023",
+        "url": "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf",
+        "localisation": "comptes annuels d’Orange SA, « Inventaire des titres de participation », p. 296"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=432668432"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500N4SCWCJOGA2X83"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Holding intermédiaire d’Orange : elle porte notamment les activités en Afrique et au Moyen-Orient et la participation dans Orange Concessions."
+  },
+  {
+    "actor_id": "FR-ACT-0197",
+    "nom": "ORANGE CONCESSIONS",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-034"
+    ],
+    "identifiants": {
+      "siren": "827475864",
+      "lei": "969500N7Y76YW99RFI35"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0023",
+        "url": "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf",
+        "localisation": "§ 1.4.1, p. 22 ; note 11 « Titres mis en équivalence », p. 241"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=827475864"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500N7Y76YW99RFI35"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Exploite 22 réseaux d’initiative publique en fibre optique, soit plus de 4,2 millions de locaux raccordables fin 2025. Orange la dit « détenue à parts égales par Orange et le consortium HIN regroupant La Banque des Territoires (Caisse des Dépôts), CNP Assurances et EDF Invest » ; le consortium n’est pas saisi, son entité juridique n’étant pas nommée."
+  },
+  {
+    "actor_id": "FR-ACT-0198",
+    "nom": "TOTEM GROUP",
+    "nom_usuel": "Totem",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SAS",
+    "categories": [
+      "FR-NODE-034"
+    ],
+    "identifiants": {
+      "siren": "882719321"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0023",
+        "url": "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf",
+        "localisation": "comptes annuels d’Orange SA, « Inventaire des titres de participation », p. 296"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=882719321"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société de tête des pylônes et sites radio d’Orange en France et en Espagne. Ses filiales (dont TOTEM France) ne sont pas saisies. Aucun identifiant LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0199",
+    "nom": "BOUYGUES TELECOM",
+    "type_acteur": "entreprise",
+    "forme_juridique": "SA à conseil d’administration",
+    "categories": [
+      "FR-NODE-034"
+    ],
+    "identifiants": {
+      "siren": "397480930",
+      "lei": "9695007Q9M1S87XUJV47"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-CPL-0148",
+        "url": "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0111/3028C81305DC96DBA2854CCA3ECC85279865147D456890DBC6220BD2493B4F1A.zip",
+        "localisation": "comptes annuels de Bouygues SA, note 22 « Tableau des filiales et participations », p. 528"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=397480930"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695007Q9M1S87XUJV47"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Opérateur de téléphonie mobile et fixe. Le détenteur du solde de son capital n’est pas nommé dans le document lu."
   }
 ]

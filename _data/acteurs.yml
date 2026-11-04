@@ -96,6 +96,14 @@ meta:
       raison: "Concessionnaires détenus par une holding ou une filiale dont la part directe n’est pas publiée (APRR par Financière Eiffarie, Escota à 99,5% pour le groupe VINCI, Toulouse-Blagnac par Eiffage), ou par un groupe étranger dont le document n’a pas été lu (Sanef, par Abertis France)."
     - nom: "Autres actionnaires des aéroports régionaux"
       raison: "L’annexe budgétaire ne donne que la part de l’État ; celles des chambres de commerce et des collectivités ne sont pas publiées dans la source lue."
+    - nom: "Consortium HIN (Orange Concessions)"
+      raison: "Détient 50% d’Orange Concessions et regroupe la Caisse des Dépôts, CNP Assurances et EDF Invest ; le document d’Orange ne nomme pas l’entité juridique, et la part de chacun n’est pas publiée."
+    - nom: "Iliad, Free, Free Mobile"
+      raison: "Groupe non coté, détenu par des holdings remontant à une personne physique ; aucun document annuel d’iliad n’a pu être lu, et l’AMF n’en publie pas."
+    - nom: "Altice France, SFR, XpFibre"
+      raison: "Actionnariat recomposé par la restructuration financière d’octobre 2025, puis visé par un projet de cession ; aucun document annuel d’Altice France n’a pu être lu."
+    - nom: "TDF, Cellnex France"
+      raison: "Opérateurs de pylônes : les actionnaires de TDF ne sont publiés dans aucun document lu, et GLEIF ne donne pas de parent ; Cellnex France Infrastructures a pour parent direct Cellnex Telecom (GLEIF), dont le rapport annuel n’a pas été lu."
 
 acteurs:
 
@@ -2897,6 +2905,86 @@ acteurs:
         url: "https://api.gleif.org/api/v1/lei-records/8156008DEC771409C487"
     statut: VERIFIED
     notes: "Anciennement Atlantia. L’avis AMF la dit « indirectement contrôlée par la société Edizione S.p.A., holding de la famille Benetton » ; ce lien indirect n’est pas saisi."
+
+  # --- Lot E-2 bis : infrastructures et operateurs telecoms -----------------
+
+  - actor_id: FR-ACT-0196
+    nom: "ORANGE PARTICIPATIONS"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-014]
+    identifiants:
+      siren: "432668432"
+      lei: "969500N4SCWCJOGA2X83"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0023
+        url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf"
+        localisation: "comptes annuels d’Orange SA, « Inventaire des titres de participation », p. 296"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=432668432"
+      - source_id: FR-CPL-0037
+        url: "https://api.gleif.org/api/v1/lei-records/969500N4SCWCJOGA2X83"
+    statut: VERIFIED
+    notes: "Holding intermédiaire d’Orange : elle porte notamment les activités en Afrique et au Moyen-Orient et la participation dans Orange Concessions."
+
+  - actor_id: FR-ACT-0197
+    nom: "ORANGE CONCESSIONS"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-034]
+    identifiants:
+      siren: "827475864"
+      lei: "969500N7Y76YW99RFI35"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0023
+        url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf"
+        localisation: "§ 1.4.1, p. 22 ; note 11 « Titres mis en équivalence », p. 241"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=827475864"
+      - source_id: FR-CPL-0037
+        url: "https://api.gleif.org/api/v1/lei-records/969500N7Y76YW99RFI35"
+    statut: VERIFIED
+    notes: "Exploite 22 réseaux d’initiative publique en fibre optique, soit plus de 4,2 millions de locaux raccordables fin 2025. Orange la dit « détenue à parts égales par Orange et le consortium HIN regroupant La Banque des Territoires (Caisse des Dépôts), CNP Assurances et EDF Invest » ; le consortium n’est pas saisi, son entité juridique n’étant pas nommée."
+
+  - actor_id: FR-ACT-0198
+    nom: "TOTEM GROUP"
+    nom_usuel: "Totem"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-034]
+    identifiants:
+      siren: "882719321"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0023
+        url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf"
+        localisation: "comptes annuels d’Orange SA, « Inventaire des titres de participation », p. 296"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=882719321"
+    statut: VERIFIED
+    notes: "Société de tête des pylônes et sites radio d’Orange en France et en Espagne. Ses filiales (dont TOTEM France) ne sont pas saisies. Aucun identifiant LEI trouvé."
+
+  - actor_id: FR-ACT-0199
+    nom: "BOUYGUES TELECOM"
+    type_acteur: entreprise
+    forme_juridique: "SA à conseil d’administration"
+    categories: [FR-NODE-034]
+    identifiants:
+      siren: "397480930"
+      lei: "9695007Q9M1S87XUJV47"
+    cote: false
+    citations:
+      - source_id: FR-CPL-0148
+        url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0111/3028C81305DC96DBA2854CCA3ECC85279865147D456890DBC6220BD2493B4F1A.zip"
+        localisation: "comptes annuels de Bouygues SA, note 22 « Tableau des filiales et participations », p. 528"
+      - source_id: FR-CPL-0036
+        url: "https://recherche-entreprises.api.gouv.fr/search?q=397480930"
+      - source_id: FR-CPL-0037
+        url: "https://api.gleif.org/api/v1/lei-records/9695007Q9M1S87XUJV47"
+    statut: VERIFIED
+    notes: "Opérateur de téléphonie mobile et fixe. Le détenteur du solde de son capital n’est pas nommé dans le document lu."
 
 
 liens:
@@ -6475,4 +6563,78 @@ liens:
     preuve: P4
     incertitude: "Le tableau se fonde sur les déclarations faites à l’AMF « au moment considéré » ; aucun avis de BlackRock sur Getlink n’est paru ensuite avant la date d’arrêt."
     garde_fou: "Une détention pour le compte de clients et de fonds ne fait pas du gestionnaire le propriétaire des titres ; elle ne s’additionne à celle d’aucun autre gestionnaire, et ne dit rien d’un contrôle."
+    statut: VERIFIED
+
+  # --- Lot E-2 bis : infrastructures et operateurs telecoms -----------------
+
+  - link_id: FR-LNK-0231
+    source_actor: FR-ACT-0007
+    target_actor: FR-ACT-0196
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0023
+      url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf"
+      localisation: "comptes annuels d’Orange SA, « Inventaire des titres de participation », p. 296"
+    preuve: P4
+    incertitude: "Quote-part du capital détenue par Orange SA elle-même, dans ses comptes annuels ; droits de vote non publiés."
+    garde_fou: "Une détention entière n’est pas qualifiée ici de contrôle : la source n’en donne pas."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0232
+    source_actor: FR-ACT-0196
+    target_actor: FR-ACT-0197
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "50"
+    droits_vote_pct: null
+    controle: conjoint
+    citation:
+      source_id: FR-CPL-0023
+      url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf"
+      localisation: "comptes annuels d’Orange SA, valeur d’utilité des titres Orange Participations, p. 297"
+    preuve: P3
+    incertitude: "Les comptes annuels attribuent à Orange Participations « la détention des titres d’Orange Concessions à hauteur de 50 % » ; GLEIF la déclare comme parent direct. Orange qualifie la société de « joint-venture » mise en équivalence (§ 1.4.1, p. 22 ; note 11, p. 241). Droits de vote non publiés."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0233
+    source_actor: FR-ACT-0007
+    target_actor: FR-ACT-0198
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0023
+      url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf"
+      localisation: "comptes annuels d’Orange SA, « Inventaire des titres de participation », p. 296"
+    preuve: P4
+    incertitude: "Quote-part du capital détenue par Orange SA elle-même, dans ses comptes annuels ; droits de vote non publiés."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0234
+    source_actor: FR-ACT-0074
+    target_actor: FR-ACT-0199
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "90.16"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0148
+      url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0111/3028C81305DC96DBA2854CCA3ECC85279865147D456890DBC6220BD2493B4F1A.zip"
+      localisation: "comptes annuels de Bouygues SA, note 22 « Tableau des filiales et participations », p. 528"
+    preuve: P4
+    incertitude: "Part détenue par Bouygues SA elle-même. La liste de consolidation donne 90,53% d’intérêt pour le groupe ; l’écart n’est pas expliqué dans le document. Droits de vote non publiés."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
     statut: VERIFIED
