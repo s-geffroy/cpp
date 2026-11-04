@@ -19,7 +19,11 @@ Regles, toutes affichees sur la page /acteurs/ :
     a plusieurs titulaires vaut pour le marche entier ; les deux sont
     signales, comme les montants de remplissage ;
   - pour la HATVP, trois cas distincts : exercice 2025 publie avec des
-    fiches, publie sans fiche, pas encore publie dans la copie.
+    fiches, publie sans fiche, pas encore publie dans la copie ;
+  - les acheteurs publics classes FR-NODE-049 (lot E-4) passent des milliers
+    de marches : leur cote acheteur n'est pas detaille, la page renvoie a
+    leur rang sur /commande-publique/. Sauf pour les acteurs dont ce detail
+    etait deja publie avant ce lot (DETAIL_ACHETEUR_CONSERVE).
 
 Les noms des contreparties viennent de l'API Recherche d'entreprises.
 
@@ -42,6 +46,8 @@ DATA = RACINE / "_data"
 TELECHARGEMENTS = RACINE / "assets" / "donnees"
 ANNEE = "2025"
 COPIE_HATVP = "20260812133400"
+CATEGORIE_ACHETEUR = "FR-NODE-049"
+DETAIL_ACHETEUR_CONSERVE = {"FR-ACT-0003", "FR-ACT-0096"}  # Caisse des depots, France Televisions
 
 
 def module(nom, fichier):
@@ -122,6 +128,8 @@ def main():
     acteurs = [a for a in registre["acteurs"]
                if a["statut"] == "VERIFIED" and (a.get("identifiants") or {}).get("siren")]
     sirens = {a["identifiants"]["siren"] for a in acteurs}
+    renvoi = {a["identifiants"]["siren"] for a in acteurs
+              if CATEGORIE_ACHETEUR in a["categories"] and a["actor_id"] not in DETAIL_ACHETEUR_CONSERVE}
 
     marches = collecter(dossier)
     publications = json.loads(agora.read_text(encoding="utf-8"))["publications"]
@@ -143,7 +151,7 @@ def main():
         for t in m["titulaires"]:
             if t in sirens:
                 par_siren[t]["titulaire"].append(ligne(m, [m["acheteur"]] if m["acheteur"] else []))
-        if m["acheteur"] in sirens:
+        if m["acheteur"] in sirens and m["acheteur"] not in renvoi:
             par_siren[m["acheteur"]]["acheteur"].append(ligne(m, m["titulaires"]))
 
     a_nommer = sorted({c for r in par_siren.values() for role in r.values() for l in role for c in l["contreparties"]})
@@ -155,7 +163,7 @@ def main():
     for a in acteurs:
         s = a["identifiants"]["siren"]
         r, h = par_siren[s], hatvp(publications, s)
-        if not (r["titulaire"] or r["acheteur"] or h):
+        if not (r["titulaire"] or r["acheteur"] or h or s in renvoi):
             aucun += 1
             continue
         for role in r.values():
@@ -163,7 +171,8 @@ def main():
             for l in role:
                 l["contreparties"] = [{"siren": c, "nom": (noms.get(c) or {}).get("nom")} for c in l["contreparties"]]
         sortie.append({"actor_id": a["actor_id"], "nom": a.get("nom_usuel") or a["nom"], "siren": s,
-                       "titulaire": r["titulaire"], "acheteur": r["acheteur"], "hatvp": h})
+                       "titulaire": r["titulaire"], "acheteur": r["acheteur"],
+                       "acheteur_classement": s in renvoi, "hatvp": h})
 
     resultat = {
         "meta": {"annee_notification": ANNEE, "copie_hatvp": COPIE_HATVP,

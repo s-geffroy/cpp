@@ -2,8 +2,8 @@
  "meta": {
   "annee_notification": "2025",
   "copie_hatvp": "20260812133400",
-  "acteurs_siren": 154,
-  "trouves": 74,
+  "acteurs_siren": 176,
+  "trouves": 96,
   "aucun": 80
  },
  "acteurs": [
@@ -8239,6 +8239,7 @@
      "montant_ecarte": false
     }
    ],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -12343,6 +12344,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "ORANGE",
     "exercice": {
@@ -19336,6 +19338,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "ENGIE",
     "exercice": {
@@ -19353,6 +19356,7 @@
    "siren": "315065292",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "LA FRANCAISE DES JEUX",
     "exercice": {
@@ -19370,6 +19374,7 @@
    "siren": "562082909",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "SAFRAN",
     "exercice": {
@@ -19387,6 +19392,7 @@
    "siren": "552059024",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "THALES",
     "exercice": {
@@ -19404,6 +19410,7 @@
    "siren": "552016628",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "AEROPORTS DE PARIS",
     "exercice": {
@@ -19421,6 +19428,7 @@
    "siren": "552043002",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "AIR FRANCE - KLM",
     "exercice": {
@@ -19438,6 +19446,7 @@
    "siren": "632045381",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "ERAMET",
     "exercice": {
@@ -27857,6 +27866,7 @@
      "montant_ecarte": false
     }
    ],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "ELECTRICITE DE FRANCE",
     "exercice": {
@@ -27874,6 +27884,7 @@
    "siren": "441133808",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "NAVAL GROUP",
     "exercice": {
@@ -27891,6 +27902,7 @@
    "siren": "379706344",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "KNDS FRANCE",
     "exercice": {
@@ -28060,6 +28072,7 @@
      "montant_ecarte": false
     }
    ],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "COMMISSARIAT A L' ENERGIE ATOMIQUE ET AUX ENERGIES ALTERNATIVES",
     "exercice": {
@@ -28123,6 +28136,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "DEFENSE CONSEIL INTERNATIONAL",
     "exercice": {
@@ -28140,6 +28154,7 @@
    "siren": "712042456",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "DASSAULT AVIATION",
     "exercice": {
@@ -28188,6 +28203,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -28196,6 +28212,7 @@
    "siren": "519032171",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "ARIANEGROUP HOLDING",
     "exercice": {
@@ -28213,6 +28230,7 @@
    "siren": "380342808",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "AUBERT & DUVAL",
     "exercice": null
@@ -28255,6 +28273,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -29494,6 +29513,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -29548,6 +29568,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "BNP PARIBAS",
     "exercice": {
@@ -29565,6 +29586,7 @@
    "siren": "552120222",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "SOCIETE GENERALE",
     "exercice": {
@@ -29582,6 +29604,7 @@
    "siren": "784608416",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "CREDIT AGRICOLE SA",
     "exercice": {
@@ -29599,6 +29622,7 @@
    "siren": "493455042",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "BPCE",
     "exercice": {
@@ -29632,6 +29656,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -29640,6 +29665,7 @@
    "siren": "784646689",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "CONFEDERATION NATIONALE CREDIT MUTUEL",
     "exercice": {
@@ -29703,6 +29729,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -29787,6 +29814,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "LA BANQUE POSTALE",
     "exercice": {
@@ -32820,6 +32848,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "LA POSTE",
     "exercice": {
@@ -32837,6 +32866,7 @@
    "siren": "326300159",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "TELEVISION FRANCAISE 1",
     "exercice": {
@@ -32870,6 +32900,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "BOUYGUES",
     "exercice": {
@@ -32887,6 +32918,7 @@
    "siren": "339012452",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "METROPOLE TELEVISION - M6",
     "exercice": {
@@ -32904,6 +32936,7 @@
    "siren": "562024422",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "CMA CGM",
     "exercice": {
@@ -32921,6 +32954,7 @@
    "siren": "343134763",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "VIVENDI",
     "exercice": {
@@ -32938,6 +32972,7 @@
    "siren": "320366446",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "LAGARDERE SA",
     "exercice": {
@@ -32955,6 +32990,7 @@
    "siren": "332036128",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "NRJ GROUP",
     "exercice": {
@@ -40993,6 +41029,7 @@
      "montant_ecarte": false
     }
    ],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "FRANCE TELEVISIONS",
     "exercice": {
@@ -41041,6 +41078,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "SOCIETE NATIONALE DE RADIODIFFUSION RADIO FRANCE",
     "exercice": {
@@ -41687,6 +41725,7 @@
      "montant_ecarte": false
     }
    ],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "FRANCE MEDIAS MONDE",
     "exercice": {
@@ -41736,6 +41775,7 @@
      "montant_ecarte": false
     }
    ],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "ARTE FRANCE",
     "exercice": {
@@ -42885,6 +42925,7 @@
      "montant_ecarte": false
     }
    ],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -42893,6 +42934,7 @@
    "siren": "602036444",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "ACCOR",
     "exercice": {
@@ -42910,6 +42952,7 @@
    "siren": "552096281",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "L'AIR LIQUIDE SOCIETE ANONYME POUR L'ETUDE ET L'EXPLOITATION DES PROCEDES GEORGES CLAUDE",
     "exercice": {
@@ -42927,6 +42970,7 @@
    "siren": "572093920",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "AXA",
     "exercice": {
@@ -43050,6 +43094,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -43119,6 +43164,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -43127,6 +43173,7 @@
    "siren": "652014051",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "CARREFOUR",
     "exercice": {
@@ -43144,6 +43191,7 @@
    "siren": "552032534",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "DANONE",
     "exercice": {
@@ -43161,6 +43209,7 @@
    "siren": "322306440",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "DASSAULT SYSTEMES",
     "exercice": {
@@ -43194,6 +43243,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "EIFFAGE",
     "exercice": {
@@ -43211,6 +43261,7 @@
    "siren": "552075020",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "KERING",
     "exercice": {
@@ -43228,6 +43279,7 @@
    "siren": "632012100",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "L'OREAL",
     "exercice": {
@@ -43245,6 +43297,7 @@
    "siren": "421259615",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "LEGRAND",
     "exercice": null
@@ -43256,6 +43309,7 @@
    "siren": "775670417",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "LVMH MOET HENNESSY LOUIS VUITTON",
     "exercice": {
@@ -43289,6 +43343,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -43297,6 +43352,7 @@
    "siren": "582041943",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "PERNOD RICARD",
     "exercice": {
@@ -43314,6 +43370,7 @@
    "siren": "542039532",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "COMPAGNIE DE SAINT-GOBAIN",
     "exercice": {
@@ -43362,6 +43419,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "TOTALENERGIES SE",
     "exercice": {
@@ -43379,6 +43437,7 @@
    "siren": "403210032",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "VEOLIA ENVIRONNEMENT",
     "exercice": {
@@ -43396,6 +43455,7 @@
    "siren": "552037806",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "VINCI",
     "exercice": {
@@ -43444,6 +43504,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -43468,6 +43529,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "RTE RESEAU DE TRANSPORT D'ELECTRICITE",
     "exercice": {
@@ -43951,6 +44013,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "ENEDIS",
     "exercice": {
@@ -43984,6 +44047,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "NATRAN",
     "exercice": {
@@ -44122,6 +44186,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "GRDF",
     "exercice": {
@@ -44139,6 +44204,7 @@
    "siren": "552049447",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "SNCF MOBILITES",
     "exercice": null
@@ -44182,6 +44248,7 @@
      "montant_ecarte": false
     }
    ],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -44781,6 +44848,7 @@
      "montant_ecarte": false
     }
    ],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -44865,6 +44933,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -44904,6 +44973,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -44912,6 +44982,7 @@
    "siren": "483385142",
    "titulaire": [],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "GETLINK S.E.",
     "exercice": {
@@ -44975,6 +45046,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": null
   },
   {
@@ -46424,6 +46496,7 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
    "hatvp": {
     "denomination": "BOUYGUES TELECOM",
     "exercice": {
@@ -46532,6 +46605,2168 @@
     }
    ],
    "acheteur": [],
+   "acheteur_classement": false,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0201",
+   "nom": "Resah",
+   "siren": "130005010",
+   "titulaire": [
+    {
+     "date": "2025-01-01",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "Convention d'accès aux services d'achat centralisé du RESAH",
+     "montant": 40000000.0,
+     "montant_fr": "40 000 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-01",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "RESAH Centrale d'achat grossiste BIOMEDICAL",
+     "montant": 4000000.0,
+     "montant_fr": "4 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-01",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "RESAH Centrale d'achat grossiste achats généraux",
+     "montant": 2129014.0,
+     "montant_fr": "2 129 014 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-10",
+     "contreparties": [
+      {
+       "siren": "247400013",
+       "nom": "SYNDICAT MIXTE DU LAC D ANNECY"
+      }
+     ],
+     "objet": "Directive NIS2/ Diag et sensibilisation (RESAH)",
+     "montant": 89098.38,
+     "montant_fr": "89 098,38 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-14",
+     "contreparties": [
+      {
+       "siren": "243400017",
+       "nom": "MONTPELLIER MEDITERRANEE METROPOLE"
+      }
+     ],
+     "objet": "ACQUISITION DE SERVEURS",
+     "montant": 1200000.0,
+     "montant_fr": "1 200 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-17",
+     "contreparties": [
+      {
+       "siren": "200030195",
+       "nom": "METROPOLE NICE COTE D AZUR"
+      }
+     ],
+     "objet": "FF - RESAH - SOLUTIONS D'INFRASTRUCTURES INFORMATIQUES",
+     "montant": 1000000.0,
+     "montant_fr": "1 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-26",
+     "contreparties": [
+      {
+       "siren": "211100698",
+       "nom": "COMMUNE DE CARCASSONNE"
+      }
+     ],
+     "objet": "AMO relative au contrat de cession du réseau de chaleur de Carcassonne",
+     "montant": 80000.0,
+     "montant_fr": "80 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-21",
+     "contreparties": [
+      {
+       "siren": "200035731",
+       "nom": "ROANNAIS AGGLOMERATION"
+      }
+     ],
+     "objet": "ACQ BAIE DE PRODUCTION ET BAIE DE SECOURS",
+     "montant": 465728.06,
+     "montant_fr": "465 728,06 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-12",
+     "contreparties": [
+      {
+       "siren": "286912001",
+       "nom": "SERVICE DEPARTEMENTAL-METROPOLITAIN D'INCENDIE ET DE SECOURS"
+      }
+     ],
+     "objet": "GSI- ACQUISITION DE SOLUTIONS INFRASTRUCTURES INFORMATIQUES ET PRESTATIONS DE SERVICES ASSOCIEES (MULTI CONSTRUCTEURS)",
+     "montant": 2510000.0,
+     "montant_fr": "2 510 000 €",
+     "accord_cadre": true,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-21",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "Salle de radiologie, os poumon, salle télécommandée et mobile de radiographie. Lot 3: SIEMENS",
+     "montant": 108333.35,
+     "montant_fr": "108 333,35 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-12",
+     "contreparties": [
+      {
+       "siren": "263100125",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE"
+      }
+     ],
+     "objet": "Microscope de laboratoires - OLYMPUS",
+     "montant": 55000.0,
+     "montant_fr": "55 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-12",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "HUBLO CHA - SOLUTION LOGICIELLE DE GESTION DES REMPLACEMENTS DU PERSONNEL",
+     "montant": 69625.5,
+     "montant_fr": "69 625,50 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-16",
+     "contreparties": [
+      {
+       "siren": "221000052",
+       "nom": "DEPARTEMENT DE L AUBE"
+      }
+     ],
+     "objet": "254123 - Cadrage, diagnostic et préconisations RH DSIN",
+     "montant": 25410.0,
+     "montant_fr": "25 410 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-01",
+     "contreparties": [
+      {
+       "siren": "210400701",
+       "nom": "COMMUNE DE DIGNE LES BAINS"
+      }
+     ],
+     "objet": "MISSION ASSIST TECH MO ACCOMPAGNEMENT MISE EN PLACE MARCHE VOIRIE",
+     "montant": 136043.25,
+     "montant_fr": "136 043,25 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-04",
+     "contreparties": [
+      {
+       "siren": "220600019",
+       "nom": "DEPARTEMENT DES ALPES MARITIMES"
+      }
+     ],
+     "objet": "MAPA 2025/0509 REALISATION DE PRESTATIONS DE CONSEIL ELABORATION ET MISE EN OEUVRE DE PROJETS STRUCTURANTS",
+     "montant": 77520.84,
+     "montant_fr": "77 520,84 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-07",
+     "contreparties": [
+      {
+       "siren": "263100125",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE"
+      }
+     ],
+     "objet": "Prestation de déménagement BOVIS TRANSPORT",
+     "montant": 40000.35,
+     "montant_fr": "40 000,35 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-18",
+     "contreparties": [
+      {
+       "siren": "239710015",
+       "nom": "CONSEIL REGIONAL DE LA GUADELOUPE"
+      }
+     ],
+     "objet": "APPUI ET REPERFORMANCE",
+     "montant": 295473.6,
+     "montant_fr": "295 473,60 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-18",
+     "contreparties": [
+      {
+       "siren": "239710015",
+       "nom": "CONSEIL REGIONAL DE LA GUADELOUPE"
+      }
+     ],
+     "objet": "CLOTURE ET EVALUATION DES PROGRAMMES",
+     "montant": 739726.16,
+     "montant_fr": "739 726,16 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-24",
+     "contreparties": [
+      {
+       "siren": "213801517",
+       "nom": "COMMUNE D ECHIROLLES"
+      }
+     ],
+     "objet": "ACQUIS SOLUTION INFORMATIQUE AUTOUR DU POSTE DE TRAVAIL SCC",
+     "montant": 175000.0,
+     "montant_fr": "175 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-03",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "AMO COMPLETE OPERATION DE TRAVAUX",
+     "montant": 156160.0,
+     "montant_fr": "156 160 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-07",
+     "contreparties": [
+      {
+       "siren": "200071850",
+       "nom": "CC DU PITHIVERAIS-GATINAIS"
+      }
+     ],
+     "objet": "AMO ETUDES ENVIRONNEMENTALES ET PROCEDURE DE ZAC",
+     "montant": 215422.73,
+     "montant_fr": "215 422,73 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-14",
+     "contreparties": [
+      {
+       "siren": "239710015",
+       "nom": "CONSEIL REGIONAL DE LA GUADELOUPE"
+      }
+     ],
+     "objet": "APPUI 2025-2026 A LA GESTION ET A L&#8217;EVALUATION DES PROGRAMMES EUROPEENS Centrale Achat RESAH - devis DEVIS-NEGV-42905-1 marché Resah n° 2022-007- Lot 002",
+     "montant": 572934.34,
+     "montant_fr": "572 934,34 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-19",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "PACS CH Royan devis DEV 1829 1",
+     "montant": 214713.2,
+     "montant_fr": "214 713,20 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-19",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "PACS CH Royan devis DEV 1829 1",
+     "montant": 214713.2,
+     "montant_fr": "214 713,20 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-19",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "PACS CH Royan devis NEGV 42146",
+     "montant": 57161.84,
+     "montant_fr": "57 161,84 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-19",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "PACS CH Royan devis NEGV 42146",
+     "montant": 57161.84,
+     "montant_fr": "57 161,84 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-01",
+     "contreparties": [
+      {
+       "siren": "212801344",
+       "nom": "COMMUNE DE DREUX"
+      }
+     ],
+     "objet": "FOURNITURE DE CHANGES JETABLES CLASSIQUES",
+     "montant": 72000.0,
+     "montant_fr": "72 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-11",
+     "contreparties": [
+      {
+       "siren": "218300697",
+       "nom": "COMMUNE D HYERES"
+      }
+     ],
+     "objet": "FOURNITURE DE MOBILIER ACCUIEL SALLE DE REUNION",
+     "montant": 114375.0,
+     "montant_fr": "114 375 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-18",
+     "contreparties": [
+      {
+       "siren": "130005010",
+       "nom": "RESEAU DES ACHETEURS HOSPITALIERS"
+      }
+     ],
+     "objet": "HUBLO CHSC - SOLUTION LOGICIELLE DE GESTION DES REMPLACEMENTS DU PERSONNEL",
+     "montant": 46305.0,
+     "montant_fr": "46 305 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-23",
+     "contreparties": [
+      {
+       "siren": "263100125",
+       "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE"
+      }
+     ],
+     "objet": "ACQUISITION RESPIRATEURS ANESTHESIE C850 AINOC",
+     "montant": 700000.0,
+     "montant_fr": "700 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0202",
+   "nom": "Marseille",
+   "siren": "211300553",
+   "titulaire": [
+    {
+     "date": "2025-02-26",
+     "contreparties": [
+      {
+       "siren": "211300553",
+       "nom": "COMMUNE DE MARSEILLE"
+      }
+     ],
+     "objet": "La Mairie de Secteur lance une consultation pour la distribution d'un listing des nouveaux arrivants sur notre secteur",
+     "montant": 478.86,
+     "montant_fr": "478,86 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-14",
+     "contreparties": [
+      {
+       "siren": "211300553",
+       "nom": "COMMUNE DE MARSEILLE"
+      }
+     ],
+     "objet": "organisation et animation d’un jeu d’enquête type ‘’Murder Party’’ à destination d’un public familial bibliothèque de Bonneveine",
+     "montant": 300.0,
+     "montant_fr": "300 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-18",
+     "contreparties": [
+      {
+       "siren": "211300553",
+       "nom": "COMMUNE DE MARSEILLE"
+      }
+     ],
+     "objet": "PLAQUES A GRAVER",
+     "montant": 1072.5,
+     "montant_fr": "1 072,50 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-04",
+     "contreparties": [
+      {
+       "siren": "211300553",
+       "nom": "COMMUNE DE MARSEILLE"
+      }
+     ],
+     "objet": "DILICOM: raccordement annuel au dispositif PNB",
+     "montant": 350.0,
+     "montant_fr": "350 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-18",
+     "contreparties": [
+      {
+       "siren": "211300553",
+       "nom": "COMMUNE DE MARSEILLE"
+      }
+     ],
+     "objet": "Cours de yoga cma Maille 2025-2026",
+     "montant": 4607.5,
+     "montant_fr": "4 607,50 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-23",
+     "contreparties": [
+      {
+       "siren": "211300553",
+       "nom": "COMMUNE DE MARSEILLE"
+      }
+     ],
+     "objet": "Création d'un master hors série du journal des 15/16",
+     "montant": 6720.0,
+     "montant_fr": "6 720 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0203",
+   "nom": "CHU de Toulouse",
+   "siren": "263100125",
+   "titulaire": [],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0204",
+   "nom": "Paris",
+   "siren": "217500016",
+   "titulaire": [
+    {
+     "date": "2025-01-14",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "Travaux de peinture salle ERIDAN",
+     "montant": 18000.0,
+     "montant_fr": "18 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-20",
+     "contreparties": [
+      {
+       "siren": "217500016",
+       "nom": "VILLE DE PARIS"
+      }
+     ],
+     "objet": "DCE Test - tps chargement DCE de 1Go et quelques mega",
+     "montant": 240000.0,
+     "montant_fr": "240 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-20",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "TEST FIN PROC SAD - 2",
+     "montant": 400000.0,
+     "montant_fr": "400 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-31",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "14012025 - Travaux de restructuration de l’école (stagiaire 6) et de sa cour - allotis en 2 lots – 7 avenue de Maximilien 75013 Paris – N°GO : xxxxxx - 02 - Électricité",
+     "montant": 200000.0,
+     "montant_fr": "200 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-10",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "DECP Part produits issus UE et France - Dalmatiens",
+     "montant": 2222.0,
+     "montant_fr": "2 222 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-16",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "TEST ACCESSIJEUX - 1",
+     "montant": 588888.0,
+     "montant_fr": "588 888 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-16",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "travaux de restructuration de l'école jean Quarré en trois lots séparés - lot éléctricité",
+     "montant": 25000000.0,
+     "montant_fr": "25 000 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-08",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "MPE 2025-00.02.03 - Test post MEP - ACMS multiattrib - LOT 1",
+     "montant": 15000000.0,
+     "montant_fr": "15 000 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-26",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "TEST POST MEP 2025-00.02.04.01 - LOT1",
+     "montant": 158900.0,
+     "montant_fr": "158 900 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-03",
+     "contreparties": [
+      {
+       "siren": "267500452",
+       "nom": "ASSISTANCE PUBLIQUE HOPITAUX DE PARIS"
+      }
+     ],
+     "objet": "Mission d'archéologie préventive pour la restructuration de l'Hôtel Dieu",
+     "montant": 2105812.5,
+     "montant_fr": "2 105 812,50 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0205",
+   "nom": "Métropole d’Aix-Marseille-Provence",
+   "siren": "200054807",
+   "titulaire": [
+    {
+     "date": "2025-06-25",
+     "contreparties": [
+      {
+       "siren": "211300017",
+       "nom": "COMMUNE D AIX EN PROVENCE"
+      }
+     ],
+     "objet": "PRESTATIONS DE SERVICES RELATIVES AU TRANSPORT DES ECOLES MATERNELLES ET ELEMENTAIRES VERS LES PISCINES COMMUNALES BLANC, BOLLET, PLEIN CIEL",
+     "montant": 85000.0,
+     "montant_fr": "85 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0206",
+   "nom": "CNRS",
+   "siren": "180089013",
+   "titulaire": [
+    {
+     "date": "2025-01-21",
+     "contreparties": [
+      {
+       "siren": "231300021",
+       "nom": "REGION PROVENCE-ALPES-COTE D'AZUR"
+      }
+     ],
+     "objet": "CONVENTION 2025 RELATIVE AU PARTENARIAT ENTRE LA REGION PROVENCE ALPES COTE D AZUR ET LES ETABLISSEMENTS D ENSEIGNEMENT SUPERIEUR ET DE RECHERCHE",
+     "montant": 244100.0,
+     "montant_fr": "244 100 €",
+     "accord_cadre": false,
+     "titulaires": 6,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-15",
+     "contreparties": [
+      {
+       "siren": "180070039",
+       "nom": "INSTITUT NATIONAL DE RECHERCHE POUR L'AGRICULTURE L'ALIMENTATION ET L'ENVIRONNEMENT"
+      }
+     ],
+     "objet": "EXPERIMENTATION SUR RONGEURS DANS LE CADRE D'UN PROJET DE RECHERCHE INRAE N° 7521/32001257 MENE PAR L'UMR PRC DU CENTRE INRAE VAL DE LOIRE",
+     "montant": 266000.0,
+     "montant_fr": "266 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-27",
+     "contreparties": [
+      {
+       "siren": "231300021",
+       "nom": "REGION PROVENCE-ALPES-COTE D'AZUR"
+      }
+     ],
+     "objet": "CONVENTION DE RECHERCHE ET DÉVELOPPEMENT PARTAGÉS RELATIVE À L'IDENTIFICATION ET AU TEST D'UNE METHODOLOGIE D'ELABORATION DE LA TRAME BRUNE DANS LE MASSIF DES MAURES",
+     "montant": 62400.0,
+     "montant_fr": "62 400 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-04",
+     "contreparties": [
+      {
+       "siren": "193708005",
+       "nom": "UNIVERSITE DE TOURS"
+      }
+     ],
+     "objet": "Réalisation d’une étude d’efficacité anticancéreuse de nouveaux composés sur la progression tumorale mammaire et colique in vivo par imagerie",
+     "montant": 59560.0,
+     "montant_fr": "59 560 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-16",
+     "contreparties": [
+      {
+       "siren": "130016512",
+       "nom": null
+      }
+     ],
+     "objet": "OBSERVATOIRE N°2025-06 INTITULE : OBSERVATOIRE INTERNATIONAL DU FAIT RELIGIEUX (OIR)",
+     "montant": 84287.64,
+     "montant_fr": "84 287,64 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-10",
+     "contreparties": [
+      {
+       "siren": "191414085",
+       "nom": "UNIVERSITE DE CAEN NORMANDIE"
+      }
+     ],
+     "objet": "Évaluation dans un modèle murin d’un agent anti-Alzheimer - Etude de comportement in vivo",
+     "montant": 120000.0,
+     "montant_fr": "120 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0207",
+   "nom": "CHU de Saint-Étienne",
+   "siren": "264200304",
+   "titulaire": [
+    {
+     "date": "2025-01-02",
+     "contreparties": [
+      {
+       "siren": "428822852",
+       "nom": "ETABLISSEMENT FRANCAIS DU SANG"
+      }
+     ],
+     "objet": "Lot 3 : Analyse des échantillons de la banque de cornées de Saint-Etienne.",
+     "montant": 200000.0,
+     "montant_fr": "200 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-02",
+     "contreparties": [
+      {
+       "siren": "428822852",
+       "nom": "ETABLISSEMENT FRANCAIS DU SANG"
+      }
+     ],
+     "objet": "Réalisation de contrôles microbiologiques - Analyse des échantillons de la banque de Cornées de Saint-Etienne",
+     "montant": 151476.4,
+     "montant_fr": "151 476,40 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0208",
+   "nom": "ONF",
+   "siren": "662043116",
+   "titulaire": [
+    {
+     "date": "2025-01-10",
+     "contreparties": [
+      {
+       "siren": "247300452",
+       "nom": "CC MAURIENNE GALIBIER"
+      }
+     ],
+     "objet": "PISTE DU PREC",
+     "montant": 54925.5,
+     "montant_fr": "54 925,50 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-31",
+     "contreparties": [
+      {
+       "siren": "214202186",
+       "nom": "COMMUNE DE SAINT ETIENNE"
+      }
+     ],
+     "objet": "Prestations de services et d'entretien dans les forêts de la ville de Saint Etienne",
+     "montant": 26000.0,
+     "montant_fr": "26 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-04",
+     "contreparties": [
+      {
+       "siren": "243500774",
+       "nom": "CC LIFFRE-CORMIER COMMUNAUTE"
+      }
+     ],
+     "objet": "ANIMATION DOCUMENTS OBJECTIFS SITE NATURA 2000 ZSC NoFR5300025 COMPLEXE FORESTIER 2025-2027",
+     "montant": 134393.85,
+     "montant_fr": "134 393,85 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-06",
+     "contreparties": [
+      {
+       "siren": "243500774",
+       "nom": "CC LIFFRE-CORMIER COMMUNAUTE"
+      }
+     ],
+     "objet": "En mai 2024, Liffré-Cormier Communauté est à nouveau structure porteuse de l’animation du DOCOB du site Natura 2000 pour la période 2025-2027. Chargée de la maîtrise d’ouvrage de l’animation du site pendant 3 ans mais ne disposant pas des ressources en interne, Liffré-Cormier Communauté choisit de confier cette animation à un prestataire, dans le cadre d’une prestation de service. Depuis 2022, LCC s'est dotée d'un poste en interne pour suivre le marché. Ce recrutement a permis de faire émerger à nouveau, en lien avec l'animation Natura 2000, le sujet de l'extension du périmètre. La prestation comporte plusieurs types de missions : - Assistance administrative pour le compte du pilotage, - Missions techniques, - Actions d'information, de communication et de sensibilisation, - Projet d'extension du site.",
+     "montant": 134393.85,
+     "montant_fr": "134 393,85 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-12",
+     "contreparties": [
+      {
+       "siren": "200053742",
+       "nom": "REGION HAUTS-DE-FRANCE"
+      }
+     ],
+     "objet": "NATURA 2000 EN HAUTS DE FRANCE - LOT 2 MISE EN OEUVRE ANIMATION DES DOCUMENTS",
+     "montant": 126698.62,
+     "montant_fr": "126 698,62 €",
+     "accord_cadre": false,
+     "titulaires": 5,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-12",
+     "contreparties": [
+      {
+       "siren": "200053742",
+       "nom": "REGION HAUTS-DE-FRANCE"
+      }
+     ],
+     "objet": "NATURA 2000 EN HAUTS DE FRANCE - LOT 3 MISE EN OEUVRE ANIMATION DES DOCUMENTS",
+     "montant": 71150.0,
+     "montant_fr": "71 150 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-12",
+     "contreparties": [
+      {
+       "siren": "200053742",
+       "nom": "REGION HAUTS-DE-FRANCE"
+      }
+     ],
+     "objet": "NATURA 2000 EN HAUTS DE FRANCE - LOT 5 MISE EN OEUVRE ANIMATION DES DOCUMENTS",
+     "montant": 61896.23,
+     "montant_fr": "61 896,23 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-19",
+     "contreparties": [
+      {
+       "siren": "222309627",
+       "nom": "DEPARTEMENT DE LA CREUSE"
+      }
+     ],
+     "objet": "ANIMATION DE SITES NATURA 2000 BASSIN DE GOUZON - EDL",
+     "montant": 61700.0,
+     "montant_fr": "61 700 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-19",
+     "contreparties": [
+      {
+       "siren": "222309627",
+       "nom": "DEPARTEMENT DE LA CREUSE"
+      }
+     ],
+     "objet": "ANIMATION DE SITES NATURA 2000 POUR LE DEPARTEMENT DE LA CREUSE",
+     "montant": 60200.0,
+     "montant_fr": "60 200 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-25",
+     "contreparties": [
+      {
+       "siren": "219711314",
+       "nom": "COMMUNE DE TERRE DE HAUT"
+      }
+     ],
+     "objet": "TRAVAUX DE MISE EN SECURITE DU SENTIER D'ACCES A LA PLAGE DE PAIN DE SUCRE",
+     "montant": 44375.63,
+     "montant_fr": "44 375,63 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-06",
+     "contreparties": [
+      {
+       "siren": "214202186",
+       "nom": "COMMUNE DE SAINT ETIENNE"
+      }
+     ],
+     "objet": "Prestations de services et d'entretien dans les forêts de la ville de Saint Etienne",
+     "montant": 70000.0,
+     "montant_fr": "70 000 €",
+     "accord_cadre": true,
+     "titulaires": 4,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-24",
+     "contreparties": [
+      {
+       "siren": "200067742",
+       "nom": "CC SERRE-PONCON"
+      }
+     ],
+     "objet": "MARCHE SUBSEQUENT N 09 AMENAGEMENT DE LA DURANCE TORRENT CREVOUX AVENANT 1",
+     "montant": 41675.0,
+     "montant_fr": "41 675 €",
+     "accord_cadre": true,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-26",
+     "contreparties": [
+      {
+       "siren": "200067742",
+       "nom": "CC SERRE-PONCON"
+      }
+     ],
+     "objet": "AC MARCHE SUBSEQUENT N 10 Torrent des Moulettes Chorges",
+     "montant": 45485.0,
+     "montant_fr": "45 485 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-26",
+     "contreparties": [
+      {
+       "siren": "200067742",
+       "nom": "CC SERRE-PONCON"
+      }
+     ],
+     "objet": "AC MARCHE SUBSEQUENT N 10 Torrent des Moulettes Chorges",
+     "montant": 45485.0,
+     "montant_fr": "45 485 €",
+     "accord_cadre": true,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-26",
+     "contreparties": [
+      {
+       "siren": "243800745",
+       "nom": "COMMUNAUTE DE COMMUNES DE L'OISANS"
+      }
+     ],
+     "objet": "ACCORD-CADRE A BONS DE COMMANDE TRAVAUX DE RÉFECTION ET RESTRUCTURATION DES SENTIERS OISANS - Lot 3",
+     "montant": 100000.0,
+     "montant_fr": "100 000 €",
+     "accord_cadre": true,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-26",
+     "contreparties": [
+      {
+       "siren": "243800745",
+       "nom": "COMMUNAUTE DE COMMUNES DE L'OISANS"
+      }
+     ],
+     "objet": "ACCORD-CADRE A BONS DE COMMANDE TRAVAUX DE RÉFECTION ET RESTRUCTURATION DES SENTIERS OISANS - Lot 4",
+     "montant": 100000.0,
+     "montant_fr": "100 000 €",
+     "accord_cadre": true,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-26",
+     "contreparties": [
+      {
+       "siren": "243800745",
+       "nom": "COMMUNAUTE DE COMMUNES DE L'OISANS"
+      }
+     ],
+     "objet": "TRAVAUX DE RÉFECTION ET RESTRUCTURATION DES SENTIERS OISANS - Lot 1",
+     "montant": 100000.0,
+     "montant_fr": "100 000 €",
+     "accord_cadre": true,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-04",
+     "contreparties": [
+      {
+       "siren": "200084705",
+       "nom": "COMMUNE DE LA LECHERE"
+      }
+     ],
+     "objet": "PRESTATIONS EXPLOITATION FORESTIERES FORETS PUBLIQUES SAVOIE",
+     "montant": 500000.0,
+     "montant_fr": "500 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-15",
+     "contreparties": [
+      {
+       "siren": "200040798",
+       "nom": "CC VAL VANOISE"
+      }
+     ],
+     "objet": "ENTRETIEN DES SENTIERS",
+     "montant": 219184.0,
+     "montant_fr": "219 184 €",
+     "accord_cadre": true,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-15",
+     "contreparties": [
+      {
+       "siren": "200040798",
+       "nom": "CC VAL VANOISE"
+      }
+     ],
+     "objet": "ENTRETIEN DES SENTIERS",
+     "montant": 227314.0,
+     "montant_fr": "227 314 €",
+     "accord_cadre": true,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-15",
+     "contreparties": [
+      {
+       "siren": "200035061",
+       "nom": "SYNDICAT MIXTE DU BASSIN VERSANT DE L'ARLY"
+      }
+     ],
+     "objet": "Etude de faisabilité de réduction des risques d'inondations du cône de déjection du Nant des Palisses à Villard-sur-Doron<br />",
+     "montant": 14600.0,
+     "montant_fr": "14 600 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-24",
+     "contreparties": [
+      {
+       "siren": "253805105",
+       "nom": "SYND MIXTE BASSINS HYDRAULIQUES ISERE"
+      }
+     ],
+     "objet": "Prestations de restauration et d'entretien de ripisylve, et de lutte contre les plantes invasives pour le compte du SYMBHI",
+     "montant": 120000.0,
+     "montant_fr": "120 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-25",
+     "contreparties": [
+      {
+       "siren": "200067940",
+       "nom": "COMMUNAUTE DE COMMUNES COUSERANS-PYRENEES"
+      }
+     ],
+     "objet": "LOT 3 : HAUT SALAT (OUST)",
+     "montant": 34366.42,
+     "montant_fr": "34 366,42 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-30",
+     "contreparties": [
+      {
+       "siren": "223000019",
+       "nom": "DEPARTEMENT DU GARD"
+      }
+     ],
+     "objet": "Gestion administrative et gestion de l'activité cynégétique sur l'Espace Naturel Sensible Départemental du Massif et des Gorges de la Cèze pour la période 2025 - 2027",
+     "montant": 71246.5,
+     "montant_fr": "71 246,50 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-06",
+     "contreparties": [
+      {
+       "siren": "200076958",
+       "nom": "COLLECTIVITE DE CORSE"
+      }
+     ],
+     "objet": "25DFP082 LOT No3 CREATION DUNE ZONE DE GESTION DU COMBUSTIBLE ROSPA SORBA",
+     "montant": 91000.0,
+     "montant_fr": "91 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-12",
+     "contreparties": [
+      {
+       "siren": "200084705",
+       "nom": "COMMUNE DE LA LECHERE"
+      }
+     ],
+     "objet": "TRAVAUX DE CONFORTEMENTDES BERGES DU RUISSEAU DE LA FOUGERE",
+     "montant": 242399.23,
+     "montant_fr": "242 399,23 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-02",
+     "contreparties": [
+      {
+       "siren": "229102280",
+       "nom": "DEPARTEMENT DE L' ESSONNE"
+      }
+     ],
+     "objet": "25-2912-1-00 Marché d'assistance technique à donneur d'ordre pour la passation et le suivi des marchés de travaux forestiers",
+     "montant": 196262.06,
+     "montant_fr": "196 262,06 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-02",
+     "contreparties": [
+      {
+       "siren": "229102280",
+       "nom": "DEPARTEMENT DE L' ESSONNE"
+      }
+     ],
+     "objet": "Marché d'assistance technique à donneur d'ordre pour la passation et le suivi des marchés de travaux forestiers",
+     "montant": 196262.06,
+     "montant_fr": "196 262,06 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-03",
+     "contreparties": [
+      {
+       "siren": "210601209",
+       "nom": "COMMUNE DE SAINT ETIENNE DE TINEE"
+      }
+     ],
+     "objet": "AMENAGEMENT PARCOURS PEDESTRE AURON",
+     "montant": 255199.0,
+     "montant_fr": "255 199 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-03",
+     "contreparties": [
+      {
+       "siren": "257302539",
+       "nom": "ASSEMBLEE DU PAYS TARENTAISE VANOISE"
+      }
+     ],
+     "objet": "ENTRETIEN VEGETATION DES COURS D'EAU SUR LE TERRITOIRE DE LA CC VAL VANOISE",
+     "montant": 200000.0,
+     "montant_fr": "200 000 €",
+     "accord_cadre": true,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-03",
+     "contreparties": [
+      {
+       "siren": "210601209",
+       "nom": "COMMUNE DE SAINT ETIENNE DE TINEE"
+      }
+     ],
+     "objet": "SENTIER BALME OBSCURE AURON",
+     "montant": 125478.0,
+     "montant_fr": "125 478 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-05",
+     "contreparties": [
+      {
+       "siren": "130001902",
+       "nom": null
+      }
+     ],
+     "objet": "CHATILLON-SOUS-LES-COTES (55) – Groupement munition Le Rozelier – Mise à niveau protection du site - Marché de diagnostic écologique - ID 452 935",
+     "montant": 17062.5,
+     "montant_fr": "17 062,50 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-05",
+     "contreparties": [
+      {
+       "siren": "130001902",
+       "nom": null
+      }
+     ],
+     "objet": "METZ (57) - Caserne Séré de Rivières - 3è RH - Réhabilitation et mise aux normes EVAT - Bâtiment 0001-Marché de diagnostic écologique",
+     "montant": 15750.0,
+     "montant_fr": "15 750 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-11",
+     "contreparties": [
+      {
+       "siren": "250401072",
+       "nom": "SM DE GESTION DU PARC NATUREL REGIONAL DU VERDON (SMPNRV)"
+      }
+     ],
+     "objet": "Etude de dangers de la digue du Plan Est à Allos",
+     "montant": 60000.0,
+     "montant_fr": "60 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-17",
+     "contreparties": [
+      {
+       "siren": "257302539",
+       "nom": "ASSEMBLEE DU PAYS TARENTAISE VANOISE"
+      }
+     ],
+     "objet": "LOT 2 - DOSSIER D'AUTORISATION ENVIRONNEMENTALE",
+     "montant": 68930.0,
+     "montant_fr": "68 930 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-27",
+     "contreparties": [
+      {
+       "siren": "200012102",
+       "nom": "SYNDICAT DE RIVIERES LES USSES"
+      }
+     ],
+     "objet": "Travaux de lutte manuelle contre les plantes exotiques envahissantes sur le territoire d'intervention du Syr'Usses",
+     "montant": 70000.0,
+     "montant_fr": "70 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-04",
+     "contreparties": [
+      {
+       "siren": "200012102",
+       "nom": "SYNDICAT DE RIVIERES LES USSES"
+      }
+     ],
+     "objet": "TRVX DE LUTTE MANUELLE PEE_ COURS D'EAU DU BV DES USSES ET AR",
+     "montant": 200000.0,
+     "montant_fr": "200 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-04",
+     "contreparties": [
+      {
+       "siren": "200012102",
+       "nom": "SYNDICAT DE RIVIERES LES USSES"
+      }
+     ],
+     "objet": "TRVX DE LUTTE MANUELLE PEE_ ZH DU BV DES USSES",
+     "montant": 140000.0,
+     "montant_fr": "140 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-01",
+     "contreparties": [
+      {
+       "siren": "213800949",
+       "nom": "COMMUNE DE CHATONNAY"
+      }
+     ],
+     "objet": "TRAVAUX PLANTATIONS 2025 PARCELLES 6 7 14",
+     "montant": 68116.04,
+     "montant_fr": "68 116,04 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-06",
+     "contreparties": [
+      {
+       "siren": "200066355",
+       "nom": "CA SETE AGGLOPOLE MEDITERRANEE"
+      }
+     ],
+     "objet": "25SCSAM014_ Collines de la Moure et massif de la Gardiole - Etude de priorisation des voiries communales à traiter en Obligation Légale de Débroussaillement",
+     "montant": 56482.14,
+     "montant_fr": "56 482,14 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-14",
+     "contreparties": [
+      {
+       "siren": "241100593",
+       "nom": "LE GRAND NARBONNE COMMUNAUTE D AGGLOMERATION"
+      }
+     ],
+     "objet": "Etude d'actualisation du plan de massif de la Clape",
+     "montant": 65260.0,
+     "montant_fr": "65 260 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-04",
+     "contreparties": [
+      {
+       "siren": "130006596",
+       "nom": "DIRECTION REGIONALE DE L'ENVIRONNEMENT DE L'AMENAGEMENT ET DU LOGEMENT CORSE"
+      }
+     ],
+     "objet": "La consultation porte sur la réalisation d'une étude régionale de caractérisation de l'aléa lié aux risques avalanches pour la Corse.",
+     "montant": 59853.16,
+     "montant_fr": "59 853,16 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-06",
+     "contreparties": [
+      {
+       "siren": "219711157",
+       "nom": "COMMUNE DE LAMENTIN"
+      }
+     ],
+     "objet": "REALISATION D'AMÉNAGEMENT DE LA TRACE BOIS BANANE",
+     "montant": 56090.8,
+     "montant_fr": "56 090,80 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-13",
+     "contreparties": [
+      {
+       "siren": "200072304",
+       "nom": "CC VALLEE DE L'UBAYE - SERRE-PONCON"
+      }
+     ],
+     "objet": "1 Etude de danger de la digue du torrent du Parpaillon - Etudes de danger sur deux systèmes d'endiguement sur les torrents du Parpaillon et du Bachelard et diagnostique de la digue de la Murette.",
+     "montant": 60832.16,
+     "montant_fr": "60 832,16 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-13",
+     "contreparties": [
+      {
+       "siren": "200072304",
+       "nom": "CC VALLEE DE L'UBAYE - SERRE-PONCON"
+      }
+     ],
+     "objet": "Etude de danger de deux systèmes d¿endiguement sur les torrents du Parpaillon et du Bachelard et diagnostic de la Digue du torrent du Riou Versant ¿ Lot 1 : EDD Torrent du Parpaillon",
+     "montant": 60832.16,
+     "montant_fr": "60 832,16 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-14",
+     "contreparties": [
+      {
+       "siren": "180070039",
+       "nom": "INSTITUT NATIONAL DE RECHERCHE POUR L'AGRICULTURE L'ALIMENTATION ET L'ENVIRONNEMENT"
+      }
+     ],
+     "objet": "Mise en œuvre de la mesure de compensation n° 3 (MC3) de restauration des milieux ouverts à semi-ouverts par action mécanique",
+     "montant": 79006.33,
+     "montant_fr": "79 006,33 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-14",
+     "contreparties": [
+      {
+       "siren": "217403112",
+       "nom": "COMMUNE DE VIUZ EN SALLAZ"
+      }
+     ],
+     "objet": "PRESTATIONS DE SERVICES SYLVICOLES DE REBOISEMENT EN FORET COMMUNALE",
+     "montant": 135555.76,
+     "montant_fr": "135 555,76 €",
+     "accord_cadre": false,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-28",
+     "contreparties": [
+      {
+       "siren": "220500011",
+       "nom": "DEPARTEMENT DES HAUTES ALPES"
+      }
+     ],
+     "objet": "RD 1091 PR9+585 AU9+685 TRAVAUX DE REALISATION DE PARAVALANCHE LIEU DIT L'ENCLOS COMMUNE DE LA GRAVE",
+     "montant": 96299.0,
+     "montant_fr": "96 299 €",
+     "accord_cadre": false,
+     "titulaires": 2,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-01",
+     "contreparties": [
+      {
+       "siren": "214202186",
+       "nom": "COMMUNE DE SAINT ETIENNE"
+      }
+     ],
+     "objet": "Prestations de services et d'entretien dans les forêts de la ville de Saint Etienne - Lot 3 « Entretien des peuplements »",
+     "montant": 400000.0,
+     "montant_fr": "400 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-02",
+     "contreparties": [
+      {
+       "siren": "214202186",
+       "nom": "COMMUNE DE SAINT ETIENNE"
+      }
+     ],
+     "objet": "Prestations de services et d'entretien dans les forêts de la ville de Saint Etienne - Lot 4 « Plantations »",
+     "montant": 400000.0,
+     "montant_fr": "400 000 €",
+     "accord_cadre": true,
+     "titulaires": 3,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-11",
+     "contreparties": [
+      {
+       "siren": "249740101",
+       "nom": "COMMUNAUTE AGGLO TERRITOIRE COTE OUEST"
+      }
+     ],
+     "objet": "EVACUATION HELIPORTEE DES DECHETS MENAGERS ET OPERATIONS ASSOCIEES DU CIRQUE DE MAFATE",
+     "montant": 2115900.0,
+     "montant_fr": "2 115 900 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-12",
+     "contreparties": [
+      {
+       "siren": "110070018",
+       "nom": "MINISTERE DE L'AGRICULTURE, DE L'AGRO-ALIMENTAIRE ET DE LA SOUVERAINETE ALIMENTAIRE"
+      }
+     ],
+     "objet": "DGPE-2025-030 : Le présent marché a pour objet de confier à l’ONF la création de nouveaux vergers à graines ainsi que la gestion, l’entretien et l’exploitation de l’ensemble des vergers à graines de l’État relevant de la compétence et de la responsabilité du ministère chargé des forêts.",
+     "montant": 984634.0,
+     "montant_fr": "984 634 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0209",
+   "nom": "Région Grand Est",
+   "siren": "200052264",
+   "titulaire": [],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0210",
+   "nom": "SemBreizh",
+   "siren": "599200136",
+   "titulaire": [
+    {
+     "date": "2025-01-16",
+     "contreparties": [
+      {
+       "siren": "200086791",
+       "nom": "COMMUNE DE PLOERMEL"
+      }
+     ],
+     "objet": "Mission de mandat de maîtrise d'ouvrage pour la rénovation de l'école Jules Verne",
+     "montant": 104980.0,
+     "montant_fr": "104 980 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-29",
+     "contreparties": [
+      {
+       "siren": "233500016",
+       "nom": "REGION BRETAGNE"
+      }
+     ],
+     "objet": "Marché de mandat de maîtrise d'ouvrage 2025",
+     "montant": 23072000.0,
+     "montant_fr": "23 072 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-24",
+     "contreparties": [
+      {
+       "siren": "212901581",
+       "nom": "COMMUNE DE PENMARCH"
+      }
+     ],
+     "objet": "Mission d'étude de programmation et d'assistance à maîtrise d'ouvrage pour la construction d'un cinéma à PENMARC'H",
+     "montant": 50000.0,
+     "montant_fr": "50 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-12",
+     "contreparties": [
+      {
+       "siren": "130022932",
+       "nom": "CHAMBRE DE COMMERCE ET D'INDUSTRIE FINISTERE"
+      }
+     ],
+     "objet": "AMO - projet de rénovation et extension éventuelle du bâtiment accueillant les services techniques du port de commerce de roscoff-bloscon",
+     "montant": 28670.0,
+     "montant_fr": "28 670 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-04",
+     "contreparties": [
+      {
+       "siren": "200023059",
+       "nom": "CENTRE HOSPITALIER REGIONAL ET UNIVERSITAIRE DE BREST"
+      }
+     ],
+     "objet": "GHT BO - CH SAINT RENAN - Assistance à Maîtrise d’Ouvrage et d’Usage (AMO - AMU) dans le cadre du projet de reconstruction partielle et de réhabilitation de la résidence KERNATOUS (EHPAD) – étape 2",
+     "montant": 39475.0,
+     "montant_fr": "39 475 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-15",
+     "contreparties": [
+      {
+       "siren": "213503600",
+       "nom": "COMMUNE DE VITRE"
+      }
+     ],
+     "objet": "Etude de programmation et de faisabilité sur le site industriel de Beauvais à Vitré (35500)",
+     "montant": 69162.5,
+     "montant_fr": "69 162,50 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-22",
+     "contreparties": [
+      {
+       "siren": "215600669",
+       "nom": "COMMUNE DE GOURIN"
+      }
+     ],
+     "objet": "Ilot CINEMA",
+     "montant": 77360.0,
+     "montant_fr": "77 360 €",
+     "accord_cadre": false,
+     "titulaires": 4,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0211",
+   "nom": "Collectivité européenne d’Alsace",
+   "siren": "200094332",
+   "titulaire": [
+    {
+     "date": "2025-06-23",
+     "contreparties": [
+      {
+       "siren": "200089837",
+       "nom": "SMO DU BASSIN BRUCHE-MOSSIG"
+      }
+     ],
+     "objet": "TRAVAUX STILLBACH - TERRASSEMENTS, GENIE ECOLOGIQUE ET PLANTATIONS",
+     "montant": 161612.88,
+     "montant_fr": "161 612,88 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "200067874",
+       "nom": "CA DE HAGUENAU"
+      }
+     ],
+     "objet": "INTERVENTION D ENTRETIEN PONCTUEL SUR LES COURS D EAU DE LA CAH",
+     "montant": 500000.0,
+     "montant_fr": "500 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "200067874",
+       "nom": "CA DE HAGUENAU"
+      }
+     ],
+     "objet": "INTERVENTIONS D’ENTRETIEN PONCTUEL SUR LES COURS D’EAU DE LA COMMUNAUTE D’AGGLOMERATION DE HAGUENAU",
+     "montant": 500000.0,
+     "montant_fr": "500 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0212",
+   "nom": "CHU de Reims",
+   "siren": "265100057",
+   "titulaire": [],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0213",
+   "nom": "CHU de Caen Normandie",
+   "siren": "261400931",
+   "titulaire": [],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0214",
+   "nom": "Région Île-de-France",
+   "siren": "237500079",
+   "titulaire": [
+    {
+     "date": "2025-05-06",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "Formation du 6 mai",
+     "montant": 39000.0,
+     "montant_fr": "39 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-08",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "Appui à l'organisation des rencontres francophones de l'innovation le 25/11/2025 à Dakar",
+     "montant": 15000.0,
+     "montant_fr": "15 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-08",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "Dépose de faïence murale dans le bâtiment cuisine.",
+     "montant": 38500.0,
+     "montant_fr": "38 500 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-08",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "Formation des agents du siège sur Windows 11",
+     "montant": 10000.0,
+     "montant_fr": "10 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-08",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "Location de stand",
+     "montant": 16000.0,
+     "montant_fr": "16 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-08",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "Prestation SEO",
+     "montant": 15000.0,
+     "montant_fr": "15 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-08",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "achat clés de signatures",
+     "montant": 7000.0,
+     "montant_fr": "7 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-15",
+     "contreparties": [
+      {
+       "siren": "440909562",
+       "nom": "ATEXO"
+      }
+     ],
+     "objet": "le but est de gérer les projets informatiques du PTNUM de façon macro.",
+     "montant": 23000.0,
+     "montant_fr": "23 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-21",
+     "contreparties": [
+      {
+       "siren": "237500079",
+       "nom": "REGION ILE DE FRANCE"
+      }
+     ],
+     "objet": "Contrat de location et maintenance machine de mise sous plis",
+     "montant": 4852.0,
+     "montant_fr": "4 852 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-22",
+     "contreparties": [
+      {
+       "siren": "237500079",
+       "nom": "REGION ILE DE FRANCE"
+      }
+     ],
+     "objet": "Contrat de location et maintenance d'une imprimante d'adressage avec logiciel",
+     "montant": 4044.0,
+     "montant_fr": "4 044 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0215",
+   "nom": "CHU de Rennes",
+   "siren": "263500076",
+   "titulaire": [],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0216",
+   "nom": "Nantes Métropole",
+   "siren": "244400404",
+   "titulaire": [
+    {
+     "date": "2025-04-01",
+     "contreparties": [
+      {
+       "siren": "254402522",
+       "nom": "SYNDICAT MIXTE CENTRE NORD ATLANTIQUE POUR LE TRAITEMENT ET LE RECYCLAGE DES DECHETS"
+      }
+     ],
+     "objet": "TRAITEMENT DES ORDURES MENAGERES A UVE DE MAUVES",
+     "montant": 3650000.0,
+     "montant_fr": "3 650 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0217",
+   "nom": "CHU de Limoges",
+   "siren": "268708518",
+   "titulaire": [],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0218",
+   "nom": "Lyon",
+   "siren": "216901231",
+   "titulaire": [
+    {
+     "date": "2025-11-07",
+     "contreparties": [
+      {
+       "siren": "200046977",
+       "nom": "METROPOLE DE LYON"
+      }
+     ],
+     "objet": "Réalisation d'une fouille archéologique préalable à la protection-restauration d'un vestige du parc archéologique de Lyon-Fourvière",
+     "montant": 39310.0,
+     "montant_fr": "39 310 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0219",
+   "nom": "Département du Nord",
+   "siren": "225900018",
+   "titulaire": [],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0220",
+   "nom": "OPH de Vendée",
+   "siren": "278500012",
+   "titulaire": [],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0221",
+   "nom": "UniHA",
+   "siren": "130002223",
+   "titulaire": [],
+   "acheteur": [],
+   "acheteur_classement": true,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0222",
+   "nom": "Collectivité de Corse",
+   "siren": "200076958",
+   "titulaire": [
+    {
+     "date": "2025-07-24",
+     "contreparties": [
+      {
+       "siren": "130007990",
+       "nom": "AGENCE REGIONALE DE SANTE DE CORSE"
+      }
+     ],
+     "objet": "Réalisation des prélèvements et analyses de contrôle des eaux en Corse à savoir : - Des prélèvements d’échantillons d’eau et des analyses réalisées sur site dans le cadre du contrôle sanitaire des eaux : eaux destinées à la consommation humaine (eaux fournies par un réseau de distribution public ou privé, eaux utilisées dans les entreprises alimentaires, eaux servant à la fabrication de glace alimentaire …), eaux de source ou rendue potable par traitement conditionnées, eaux minérales naturelles (conditionnées, utilisées à des fins thérapeutiques dans un établissement thermal ou en buvette publique), eaux de piscine, eaux de baignade (y compris les eaux de baignade artificielle) ; - D’analyses réalisées en laboratoire sur les échantillons d’eau prélevés dans le cadre de ce contrôle ; - Du transfert des échantillons prélevés vers le laboratoire chargé de procéder à leur analyse ; - Du transfert des alertes et des résultats aux services départementaux de l’ARS de Corse ; - De la trans...",
+     "montant": 100000.0,
+     "montant_fr": "100 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur": [],
+   "acheteur_classement": true,
    "hatvp": null
   }
  ]

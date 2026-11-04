@@ -705,6 +705,7 @@ types_acteur:
   etat: "État"
   holding_publique: "Holding publique"
   etablissement_public: "Établissement public"
+  collectivite_territoriale: "Collectivité territoriale"
   entreprise: "Entreprise"
   autorite_independante: "Autorité indépendante"
   organisme_financier_public: "Organisme financier public"

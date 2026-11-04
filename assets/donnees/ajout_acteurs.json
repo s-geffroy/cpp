@@ -53,7 +53,8 @@
     "type_acteur": "etablissement_public",
     "forme_juridique": "Personne morale de droit administratif (catégorie Sirene 7490)",
     "categories": [
-      "FR-NODE-013"
+      "FR-NODE-013",
+      "FR-NODE-049"
     ],
     "identifiants": {
       "siren": "180020026",
@@ -2650,7 +2651,8 @@
     "forme_juridique": "SA à conseil d’administration",
     "categories": [
       "FR-NODE-013",
-      "FR-NODE-036"
+      "FR-NODE-036",
+      "FR-NODE-049"
     ],
     "identifiants": {
       "siren": "432766947",
@@ -5820,5 +5822,677 @@
     ],
     "statut": "VERIFIED",
     "notes": "« Organisme autonome doté de la personnalité civile et dont le fonctionnement est assuré suivant les règles commerciales » (art. 1) : sans capital, il n’a pas d’actionnaire, et aucune catégorie de contrôle n’est attribuée. Ses ressources viennent de la vente de ses services et d’une « compensation financière par l’État des coûts nets générés par l’accomplissement de ses missions d’intérêt général » (art. 13) ; les abonnements des services de l’État sont fixés par convention. « L’Agence France-Presse ne peut être dissoute que par une loi » (art. 14)."
+  },
+  {
+    "actor_id": "FR-ACT-0201",
+    "nom": "RESEAU DES ACHETEURS HOSPITALIERS",
+    "nom_usuel": "Resah",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Groupement d’intérêt public (catégorie Sirene 7410)",
+    "categories": [
+      "FR-NODE-049"
+    ],
+    "identifiants": {
+      "siren": "130005010"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 1 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=130005010"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Centrale d’achat : elle passe des marchés pour le compte d’établissements de santé, ce qui explique son rang."
+  },
+  {
+    "actor_id": "FR-ACT-0202",
+    "nom": "COMMUNE DE MARSEILLE",
+    "nom_usuel": "Marseille",
+    "type_acteur": "collectivite_territoriale",
+    "forme_juridique": "Commune (catégorie Sirene 7210)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-010"
+    ],
+    "identifiants": {
+      "siren": "211300553",
+      "lei": "969500P6F2NKDDKV6413"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 2 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=211300553"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500P6F2NKDDKV6413"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0203",
+    "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE TOULOUSE",
+    "nom_usuel": "CHU de Toulouse",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Établissement public de santé (catégorie Sirene 7364)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-041"
+    ],
+    "identifiants": {
+      "siren": "263100125"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 3 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=263100125"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0204",
+    "nom": "VILLE DE PARIS",
+    "nom_usuel": "Paris",
+    "type_acteur": "collectivite_territoriale",
+    "forme_juridique": "Collectivité à statut particulier (catégorie Sirene 7229)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-010"
+    ],
+    "identifiants": {
+      "siren": "217500016",
+      "lei": "969500Y6KLTVY0FYAX02"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 4 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=217500016"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500Y6KLTVY0FYAX02"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Exerce à la fois les compétences d’une commune et d’un département ; classée ici avec les communes."
+  },
+  {
+    "actor_id": "FR-ACT-0205",
+    "nom": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+    "nom_usuel": "Métropole d’Aix-Marseille-Provence",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Métropole, établissement public de coopération intercommunale (catégorie Sirene 7344)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-010"
+    ],
+    "identifiants": {
+      "siren": "200054807",
+      "lei": "969500N4J2NH9U0GZ914"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 5 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=200054807"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500N4J2NH9U0GZ914"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Une métropole est un établissement public de coopération intercommunale, pas une collectivité territoriale."
+  },
+  {
+    "actor_id": "FR-ACT-0206",
+    "nom": "CENTRE NATIONAL DE LA RECHERCHE SCIENTIFIQUE",
+    "nom_usuel": "CNRS",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Établissement public à caractère scientifique et technologique (catégorie Sirene 7389)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-046"
+    ],
+    "identifiants": {
+      "siren": "180089013"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 6 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=180089013"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0207",
+    "nom": "CENTRE HOSPITALIER UNIVERSITAIRE",
+    "nom_usuel": "CHU de Saint-Étienne",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Établissement public de santé (catégorie Sirene 7364)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-041"
+    ],
+    "identifiants": {
+      "siren": "264200304",
+      "lei": "969500AD4Q6AYDIKIG20"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 7 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=264200304"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500AD4Q6AYDIKIG20"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Dénomination légale sans nom de ville ; siège à Saint-Étienne. LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0208",
+    "nom": "OFFICE NATIONAL DES FORETS",
+    "nom_usuel": "ONF",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "EPIC (catégorie Sirene 4110)",
+    "categories": [
+      "FR-NODE-049"
+    ],
+    "identifiants": {
+      "siren": "662043116"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 8 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=662043116"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0209",
+    "nom": "REGION GRAND EST",
+    "nom_usuel": "Région Grand Est",
+    "type_acteur": "collectivite_territoriale",
+    "forme_juridique": "Région (catégorie Sirene 7230)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-008"
+    ],
+    "identifiants": {
+      "siren": "200052264",
+      "lei": "969500VHGSCK9J3DNO25"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 9 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=200052264"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500VHGSCK9J3DNO25"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0210",
+    "nom": "SEMBREIZH",
+    "nom_usuel": "SemBreizh",
+    "type_acteur": "entreprise",
+    "forme_juridique": "Société anonyme d’économie mixte (catégorie Sirene 5515)",
+    "categories": [
+      "FR-NODE-049"
+    ],
+    "identifiants": {
+      "siren": "599200136"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 10 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=599200136"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Société d’économie mixte : ses actionnaires ne sont publiés dans aucun document lu, aucune catégorie de contrôle n’est attribuée. Aucun identifiant LEI trouvé."
+  },
+  {
+    "actor_id": "FR-ACT-0211",
+    "nom": "COLLECTIVITE EUROPEENNE D'ALSACE",
+    "nom_usuel": "Collectivité européenne d’Alsace",
+    "type_acteur": "collectivite_territoriale",
+    "forme_juridique": "Collectivité à statut particulier (catégorie Sirene 7220)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-009"
+    ],
+    "identifiants": {
+      "siren": "200094332",
+      "lei": "9695003QY9I9Z9PRFJ70"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 12 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=200094332"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695003QY9I9Z9PRFJ70"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Exerce les compétences d’un département ; classée ici avec les départements."
+  },
+  {
+    "actor_id": "FR-ACT-0212",
+    "nom": "CENTRE HOSPITALIER UNIVERSITAIRE REIMS",
+    "nom_usuel": "CHU de Reims",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Établissement public de santé (catégorie Sirene 7364)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-041"
+    ],
+    "identifiants": {
+      "siren": "265100057",
+      "lei": "969500V39MFOJ4JPY246"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 13 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=265100057"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500V39MFOJ4JPY246"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0213",
+    "nom": "CENTRE HOSPITALIER UNIVERSITAIRE DE CAEN NORMANDIE",
+    "nom_usuel": "CHU de Caen Normandie",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Établissement public de santé (catégorie Sirene 7364)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-041"
+    ],
+    "identifiants": {
+      "siren": "261400931",
+      "lei": "969500R121LY37OVEN44"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 14 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=261400931"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500R121LY37OVEN44"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0214",
+    "nom": "REGION ILE DE FRANCE",
+    "nom_usuel": "Région Île-de-France",
+    "type_acteur": "collectivite_territoriale",
+    "forme_juridique": "Région (catégorie Sirene 7230)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-008"
+    ],
+    "identifiants": {
+      "siren": "237500079",
+      "lei": "969500X7E3U7ZNH95E23"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 15 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=237500079"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500X7E3U7ZNH95E23"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0215",
+    "nom": "CTRE HOSPITALIER UNIVERS PONTCHAILLOU",
+    "nom_usuel": "CHU de Rennes",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Établissement public de santé (catégorie Sirene 7364)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-041"
+    ],
+    "identifiants": {
+      "siren": "263500076",
+      "lei": "969500U9E0HCE1IR3485"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 16 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=263500076"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500U9E0HCE1IR3485"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0216",
+    "nom": "METROPOLE NANTES METROPOLE",
+    "nom_usuel": "Nantes Métropole",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Métropole, établissement public de coopération intercommunale (catégorie Sirene 7344)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-010"
+    ],
+    "identifiants": {
+      "siren": "244400404"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 17 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=244400404"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Une métropole est un établissement public de coopération intercommunale, pas une collectivité territoriale."
+  },
+  {
+    "actor_id": "FR-ACT-0217",
+    "nom": "CENTRE HOSPITALIER ET UNIVERSITAIRE DE LIMOGES",
+    "nom_usuel": "CHU de Limoges",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Établissement public de santé (catégorie Sirene 7364)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-041"
+    ],
+    "identifiants": {
+      "siren": "268708518",
+      "lei": "9695001YU2BG9K4BGJ15"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 18 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=268708518"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/9695001YU2BG9K4BGJ15"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0218",
+    "nom": "COMMUNE DE LYON",
+    "nom_usuel": "Lyon",
+    "type_acteur": "collectivite_territoriale",
+    "forme_juridique": "Commune (catégorie Sirene 7210)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-010"
+    ],
+    "identifiants": {
+      "siren": "216901231",
+      "lei": "969500HNNI2R0QRBIZ69"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 19 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=216901231"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500HNNI2R0QRBIZ69"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0219",
+    "nom": "DEPARTEMENT DU NORD",
+    "nom_usuel": "Département du Nord",
+    "type_acteur": "collectivite_territoriale",
+    "forme_juridique": "Département (catégorie Sirene 7220)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-009"
+    ],
+    "identifiants": {
+      "siren": "225900018",
+      "lei": "969500WTV3LL774SAG10"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 20 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=225900018"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500WTV3LL774SAG10"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0220",
+    "nom": "OFFICE PUBLIC DE L HABITAT DE VENDEE",
+    "nom_usuel": "OPH de Vendée",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Office public de l’habitat (catégorie Sirene 4140)",
+    "categories": [
+      "FR-NODE-049"
+    ],
+    "identifiants": {
+      "siren": "278500012",
+      "lei": "969500O38ACLK6KN8J61"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 21 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=278500012"
+      },
+      {
+        "source_id": "FR-CPL-0037",
+        "url": "https://api.gleif.org/api/v1/lei-records/969500O38ACLK6KN8J61"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "LEI non renouvelé."
+  },
+  {
+    "actor_id": "FR-ACT-0221",
+    "nom": "GROUPEMENT COOPERATION SANITAIRE - UNION DES HOPITAUX POUR LES ACHATS",
+    "nom_usuel": "UniHA",
+    "type_acteur": "etablissement_public",
+    "forme_juridique": "Groupement de coopération sanitaire (catégorie Sirene 7470)",
+    "categories": [
+      "FR-NODE-049"
+    ],
+    "identifiants": {
+      "siren": "130002223"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 23 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=130002223"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Centrale d’achat des hôpitaux publics : elle passe des marchés pour le compte de ses membres."
+  },
+  {
+    "actor_id": "FR-ACT-0222",
+    "nom": "COLLECTIVITE DE CORSE",
+    "nom_usuel": "Collectivité de Corse",
+    "type_acteur": "collectivite_territoriale",
+    "forme_juridique": "Collectivité à statut particulier (catégorie Sirene 7229)",
+    "categories": [
+      "FR-NODE-049",
+      "FR-NODE-008"
+    ],
+    "identifiants": {
+      "siren": "200076958"
+    },
+    "cote": false,
+    "citations": [
+      {
+        "source_id": "FR-SRC-0042",
+        "url": "https://www.data.gouv.fr/datasets/donnees-essentielles-de-la-commande-publique-fichiers-consolides",
+        "localisation": "rang 25 des acheteurs par nombre de marchés notifiés en 2025 (page Commande publique)"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=200076958"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Exerce les compétences d’une région et de deux départements ; classée ici avec les régions."
   }
 ]

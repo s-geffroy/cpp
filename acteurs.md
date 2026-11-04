@@ -453,6 +453,7 @@ Ce que mesure la demande étrangère se lit dans le
 ## Marchés publics et représentation d’intérêts
 
 {%- assign jt = site.data['acteurs-jointures'] %}
+{%- capture ancre_cp %}les-{{ site.data['commande-publique'].acheteurs | size }}-acheteurs-les-plus-fréquents{% endcapture %}
 
 Chaque acteur qui a un SIREN est cherché, par ce numéro, dans deux fichiers
 publics : les marchés notifiés en {{ jt.meta.annee_notification }}, tels que
@@ -483,6 +484,13 @@ Sur {{ jt.meta.acteurs_siren }} acteurs qui ont un SIREN,
 
 </div>
 
+Les acheteurs publics du registre passent chacun des centaines, parfois des
+milliers de marchés par an. Leurs achats ne sont donc pas détaillés ici : le
+tableau donne leur rang et leurs comptes, repris tels quels du classement des
+[acheteurs les plus fréquents]({{ '/commande-publique/' | relative_url }}#{{ ancre_cp }}).
+La Caisse des dépôts et France Télévisions, dont le détail était publié avant
+qu’ils soient classés parmi les acheteurs, le gardent.
+
 <div class="table-defilante">
 <table>
   <thead>
@@ -505,7 +513,12 @@ Sur {{ jt.meta.acteurs_siren }} acteurs qui ont un SIREN,
         {%- else -%}<span class="meta">aucun</span>{%- endif -%}
       </td>
       <td>
-        {%- if j.acheteur.size > 0 -%}
+        {%- if j.acheteur_classement -%}
+        {%- assign rg = site.data['commande-publique'].acheteurs | where: "siren", j.siren | first -%}
+        {%- if rg -%}
+        <a href="{{ '/commande-publique/' | relative_url }}#{{ ancre_cp }}">{% include nombre-fr.html n=rg.marches %}</a> <span class="meta">dont {% include nombre-fr.html n=rg.accords_cadres %} accords-cadres ; rang {{ rg.rang }} des acheteurs, non détaillé ici</span>
+        {%- else -%}<span class="meta">hors du classement des acheteurs</span>{%- endif -%}
+        {%- elsif j.acheteur.size > 0 -%}
         <a href="{{ '/acteurs/marches/' | relative_url }}#marches-{{ j.actor_id }}">{% include nombre-fr.html n=j.acheteur.size %}</a>{% if ac_a > 0 %} <span class="meta">dont {{ ac_a }} accord{% if ac_a > 1 %}s{% endif %}-cadre{% if ac_a > 1 %}s{% endif %}</span>{% endif %}
         {%- else -%}<span class="meta">aucun</span>{%- endif -%}
       </td>

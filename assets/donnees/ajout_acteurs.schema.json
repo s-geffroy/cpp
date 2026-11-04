@@ -139,6 +139,7 @@
             "etat",
             "holding_publique",
             "etablissement_public",
+            "collectivite_territoriale",
             "entreprise",
             "autorite_independante",
             "organisme_financier_public",

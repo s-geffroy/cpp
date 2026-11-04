@@ -31,6 +31,12 @@ la section
 
 </div>
 
+Les acheteurs publics du registre n’y figurent que comme titulaires : leurs
+propres achats, des centaines à des milliers par an, sont comptés dans le
+classement de la [commande publique]({{ '/commande-publique/' | relative_url }}),
+pas détaillés ici. La Caisse des dépôts et France Télévisions gardent leur
+détail, publié avant qu’ils soient classés parmi les acheteurs.
+
 Les marchés sont classés par date de notification. L’objet et le montant
 sont ceux que déclare l’acheteur ; les noms des contreparties viennent du
 répertoire Sirene.
