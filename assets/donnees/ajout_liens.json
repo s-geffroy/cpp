@@ -4515,7 +4515,7 @@
       "localisation": "comptes consolidés, présentation du contrôle du groupe APRR"
     },
     "preuve": "P3",
-    "incertitude": "Le document écrit « Eiffage possède aujourd’hui 52,5 % de cette holding et remplit les critères du contrôle énoncés par IFRS 10 » sans préciser l’entité ; GLEIF déclare Eiffage SA comme parent direct. Droits de vote non publiés.",
+    "incertitude": "Le document écrit « Eiffage possède aujourd’hui 52,5 % de cette holding et remplit les critères du contrôle énoncés par IFRS 10 » sans préciser l’entité ; GLEIF déclare Eiffage SA comme parent direct. Le prospectus d’APRR de septembre 2025 (FR-CPL-0242, § 2.1) écrit encore « 50 % du capital social de Financière Eiffarie, plus une action, est détenu par Eiffage » : la part du document du détenteur est retenue. Droits de vote non publiés.",
     "garde_fou": "Détenir une société concessionnaire n’est pas posséder l’infrastructure : l’autoroute reste un bien de l’État, rendu à la fin du contrat.",
     "statut": "VERIFIED"
   },
@@ -4698,6 +4698,226 @@
     "preuve": "P4",
     "incertitude": "Les ministres désignent trois représentants des services publics usagers (affaires étrangères, communication, économie) et, pour le ministre chargé de la communication, les deux représentants des sociétés nationales de programmes, après avis de leurs présidents. Les 19 sièges comptent le président. Nombre fixé par la loi, inchangé depuis le 19 avril 2015 et donc à la date d’arrêt ; les titulaires ne sont pas relevés.",
     "garde_fou": "Cinq sièges sur dix-neuf ne donnent pas la majorité ; la loi interdit que l’agence passe « sous le contrôle de droit ou de fait d’un groupement idéologique, politique ou économique » (art. 2).",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0236",
+    "source_actor": "FR-ACT-0223",
+    "target_actor": "FR-ACT-0224",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0238",
+      "url": "https://static.s-sfr.fr/AlticeFrance/investors/financial-documentation/Altice-France-SAS-FY-2025-Consolidated-Financial-Statements.pdf",
+      "localisation": "note 35 « List of consolidated entities », p. 58"
+    },
+    "preuve": "P3",
+    "incertitude": "Pourcentage d’intérêt du groupe, lu dans la liste des entités consolidées ; GLEIF déclare Altice France comme parent direct. Droits de vote non publiés.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0237",
+    "source_actor": "FR-ACT-0225",
+    "target_actor": "FR-ACT-0226",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 50.01,
+    "droits_vote_pct": null,
+    "controle": "conjoint",
+    "citation": {
+      "source_id": "FR-CPL-0238",
+      "url": "https://static.s-sfr.fr/AlticeFrance/investors/financial-documentation/Altice-France-SAS-FY-2025-Consolidated-Financial-Statements.pdf",
+      "localisation": "note 4.2 ; note 16.2 (coentreprises)"
+    },
+    "preuve": "P4",
+    "incertitude": "« Altice XPM (which holds a participation of 50.01% in XpFibre Holding) » ; les comptes classent XpFibre Holding parmi les « joint ventures », mises en équivalence. La liste des entités consolidées arrondit à 50%. Droits de vote non publiés.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0238",
+    "source_actor": "FR-ACT-0227",
+    "target_actor": "FR-ACT-0197",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 50.0,
+    "droits_vote_pct": null,
+    "controle": "conjoint",
+    "citation": {
+      "source_id": "FR-CPL-0023",
+      "url": "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf",
+      "localisation": "§ 1.4.1, p. 22"
+    },
+    "preuve": "P3",
+    "incertitude": "Orange écrit Orange Concessions « détenue à parts égales par Orange et le consortium HIN » ; l’entité juridique du consortium est nommée par la Caisse des dépôts (FR-CPL-0239, p. 90 et 220), qui classe HIN - Orange Concessions en coentreprise. Droits de vote non publiés.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0239",
+    "source_actor": "FR-ACT-0233",
+    "target_actor": "FR-ACT-0228",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-07-11",
+    "detention_capital_pct": 45.0,
+    "droits_vote_pct": 45.0,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0240",
+      "url": "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf",
+      "localisation": "§ 1.4 « Share Capital and Ownership », p. 45-46"
+    },
+    "preuve": "P4",
+    "incertitude": "Répartition « as at the date of this Prospectus » (11 juillet 2025) ; les comptes 2025 de TDF Infrastructure écrivent toujours 45% pour Brookfield, en détention indirecte.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0240",
+    "source_actor": "FR-ACT-0234",
+    "target_actor": "FR-ACT-0228",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-07-11",
+    "detention_capital_pct": 9.17,
+    "droits_vote_pct": 9.17,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0240",
+      "url": "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf",
+      "localisation": "§ 1.4 « Share Capital and Ownership », p. 45-46"
+    },
+    "preuve": "P4",
+    "incertitude": "Répartition au 11 juillet 2025 ; avec Crédit Agricole Assurances Retraite (0,83%), le groupe Crédit Agricole détient 10%, total que ce site n’enregistre pas.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0241",
+    "source_actor": "FR-ACT-0235",
+    "target_actor": "FR-ACT-0228",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-07-11",
+    "detention_capital_pct": 0.83,
+    "droits_vote_pct": 0.83,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0240",
+      "url": "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf",
+      "localisation": "§ 1.4 « Share Capital and Ownership », p. 45-46"
+    },
+    "preuve": "P4",
+    "incertitude": "Répartition au 11 juillet 2025 ; saisie sous le seuil de 5%, comme tous les actionnaires que le prospectus énumère.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0242",
+    "source_actor": "FR-ACT-0228",
+    "target_actor": "FR-ACT-0229",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-07-11",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0240",
+      "url": "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf",
+      "localisation": "§ 1.4, p. 45"
+    },
+    "preuve": "P4",
+    "incertitude": "« Tivana MidCo is a 100 per cent. owned subsidiary of Tivana TopCo S.A. » ; droits de vote non publiés.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0243",
+    "source_actor": "FR-ACT-0229",
+    "target_actor": "FR-ACT-0230",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": null,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0241",
+      "url": "https://www.tdf-infrastructure.com/wp-content/uploads/2026/03/TDF_AUDITED-CONSOLIDATED-FINANCIAL-STATEMENTS-31-DECEMBER-2025.pdf",
+      "localisation": "note 10.1"
+    },
+    "preuve": "P4",
+    "incertitude": "Les comptes écrivent que les actions ordinaires, seules à porter droit de vote et dividende, sont « all held by Tivana Midco S.à.r.l. », qui détient aussi les actions de préférence de catégorie M ; celles de catégorie P sont « held by a third party ». Aucun pourcentage n’est publié : ni le capital ni les droits de vote ne sont calculés par ce site.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0244",
+    "source_actor": "FR-ACT-0230",
+    "target_actor": "FR-ACT-0231",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-12-31",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0241",
+      "url": "https://www.tdf-infrastructure.com/wp-content/uploads/2026/03/TDF_AUDITED-CONSOLIDATED-FINANCIAL-STATEMENTS-31-DECEMBER-2025.pdf",
+      "localisation": "note 10.1"
+    },
+    "preuve": "P4",
+    "incertitude": "« entirely owned by Tivana France Holdings » ; le prospectus de juillet 2025 plaçait encore TDF Infrastructure Holding entre les deux, absorbée depuis. Droits de vote non publiés.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0245",
+    "source_actor": "FR-ACT-0231",
+    "target_actor": "FR-ACT-0232",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-07-11",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0240",
+      "url": "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf",
+      "localisation": "§ 1.5, p. 46"
+    },
+    "preuve": "P4",
+    "incertitude": "« The Issuer is a holding company owning 100% of the shares of TDF SAS » ; la liste des sociétés consolidées au 31 décembre 2025 donne aussi 100% (FR-CPL-0241). Droits de vote non publiés.",
+    "garde_fou": "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule.",
+    "statut": "VERIFIED"
+  },
+  {
+    "link_id": "FR-LNK-0246",
+    "source_actor": "FR-ACT-0192",
+    "target_actor": "FR-ACT-0236",
+    "type": "equity_ownership",
+    "dimension": "P-OWN",
+    "date_observation": "2025-09-25",
+    "detention_capital_pct": 100.0,
+    "droits_vote_pct": null,
+    "controle": "non_qualifie",
+    "citation": {
+      "source_id": "FR-CPL-0242",
+      "url": "https://www.aprr.com/files/live/sites/APRR/files/Medias/APRR-Update2025-BP_vfinal.pdf",
+      "localisation": "§ 2.1 « Actionnariat », p. 96 du PDF"
+    },
+    "preuve": "P4",
+    "incertitude": "« 100% du capital social d’APRR est détenu par Financière Eiffarie » depuis la dissolution d’Eiffarie le 31 décembre 2023. Droits de vote non publiés.",
+    "garde_fou": "Détenir une société concessionnaire n’est pas posséder l’infrastructure : l’autoroute reste un bien de l’État, rendu à la fin du contrat.",
     "statut": "VERIFIED"
   }
 ]

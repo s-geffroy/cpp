@@ -90,18 +90,16 @@ meta:
       raison: "Filiales de la SNCF : le code des transports, qui fixe leur capital, n’a pas pu être lu (Légifrance bloque les robots), et aucun rapport annuel de la SNCF ou de SNCF Réseau n’a été trouvé."
     - nom: "ATMB, SFTRF"
       raison: "L’État en détient 67,3% et 99,9% « indirectement », par le Fonds pour le développement d’une politique intermodale des transports dans le massif alpin ; la part directe du fonds n’est pas chiffrée."
-    - nom: "APRR, AREA, Escota, Sanef, Aéroport Toulouse-Blagnac"
-      raison: "Concessionnaires détenus par une holding ou une filiale dont la part directe n’est pas publiée (APRR par Financière Eiffarie, Escota à 99,5% pour le groupe VINCI, Toulouse-Blagnac par Eiffage), ou par un groupe étranger dont le document n’a pas été lu (Sanef, par Abertis France)."
+    - nom: "AREA, Escota, Sanef, Aéroport Toulouse-Blagnac, co-actionnaire de Financière Eiffarie"
+      raison: "AREA, détenue à 99,84% par APRR, n’a pas d’identifiant confirmé ; Escota est donnée à 99,5% pour le groupe VINCI ; Toulouse-Blagnac est détenue par Eiffage sans part directe publiée ; Sanef, par Abertis, n’est documentée que par le rapport 2024 d’Abertis, celui de 2025 n’a pas pu être lu. Le co-actionnaire de Financière Eiffarie, Macquarie Autoroutes de France selon le prospectus d’APRR, n’a pas de part à jour publiée."
     - nom: "Autres actionnaires des aéroports régionaux"
       raison: "L’annexe budgétaire ne donne que la part de l’État ; celles des chambres de commerce et des collectivités ne sont pas publiées dans la source lue."
-    - nom: "Consortium HIN (Orange Concessions)"
-      raison: "Détient 50% d’Orange Concessions et regroupe la Caisse des Dépôts, CNP Assurances et EDF Invest ; le document d’Orange ne nomme pas l’entité juridique, et la part de chacun n’est pas publiée."
     - nom: "Iliad, Free, Free Mobile"
-      raison: "Groupe non coté, détenu par des holdings remontant à une personne physique ; aucun document annuel d’iliad n’a pu être lu, et l’AMF n’en publie pas."
-    - nom: "Altice France, SFR, XpFibre"
-      raison: "Actionnariat recomposé par la restructuration financière d’octobre 2025, puis visé par un projet de cession ; aucun document annuel d’Altice France n’a pu être lu."
-    - nom: "TDF, Cellnex France"
-      raison: "Opérateurs de pylônes : les actionnaires de TDF ne sont publiés dans aucun document lu, et GLEIF ne donne pas de parent ; Cellnex France Infrastructures a pour parent direct Cellnex Telecom (GLEIF), dont le rapport annuel n’a pas été lu."
+      raison: "Groupe non coté, détenu par des holdings remontant à une personne physique ; les rapports annuels d’iliad SA et d’iliad Holding ne s’obtiennent que par l’application du site iliad.fr et n’ont pas été lus, et l’AMF n’en publie pas."
+    - nom: "Altice France : détenteur, Altice XPM, co-actionnaires d’XpFibre"
+      raison: "Altice France Lux 1, qui détient Altice France à « 100% moins une action de préférence », n’a aucun identifiant trouvé ; le détenteur direct d’Altice XPM n’est pas écrit et GLEIF ne le déclare pas ; les co-actionnaires d’XpFibre Holding (49,99%) ne sont pas nommés dans les comptes."
+    - nom: "Arcus Tivana Investor Vehicle 1 et 2 (TDF), Cellnex France"
+      raison: "Chaque véhicule Arcus détient 22,5% de Tivana TopCo, et est lui-même détenu à 99,75% par PSP Investments (véhicule 1) et par APG (véhicule 2) ; ni identifiant ni numéro d’immatriculation n’est donné. Cellnex France Infrastructures a pour parent direct Cellnex Telecom (GLEIF), dont le rapport annuel n’a pas été lu."
     - nom: "Filiales de l’AFP (dont AFP Blue)"
       raison: "GLEIF déclare l’AFP comme parent direct d’AFP Blue, mais aucun document lu ne publie la part détenue ; l’AFP ne publie pas de liste de ses filiales."
     - nom: "Représentants des éditeurs de quotidiens au conseil de l’AFP"
@@ -2852,7 +2850,7 @@ acteurs:
       - source_id: FR-CPL-0037
         url: "https://api.gleif.org/api/v1/lei-records/969500PEYQV6ZOVKPP66"
     statut: VERIFIED
-    notes: "Holding de contrôle du groupe APRR (autoroutes Paris-Rhin-Rhône et AREA). Le co-actionnaire, « un investisseur financier » qui en détient 47,5%, n’est pas nommé dans le document ; APRR n’est pas saisie, le détenteur direct et sa part n’étant pas publiés."
+    notes: "Holding de contrôle du groupe APRR (autoroutes Paris-Rhin-Rhône et AREA). Le co-actionnaire, « un investisseur financier » qui en détient 47,5%, n’est pas nommé dans le document d’Eiffage ; le prospectus d’APRR nomme Macquarie Autoroutes de France. APRR est saisie d’après son propre prospectus."
 
   - actor_id: FR-ACT-0193
     nom: "GETLINK S.E."
@@ -2956,7 +2954,7 @@ acteurs:
       - source_id: FR-CPL-0037
         url: "https://api.gleif.org/api/v1/lei-records/969500N7Y76YW99RFI35"
     statut: VERIFIED
-    notes: "Exploite 22 réseaux d’initiative publique en fibre optique, soit plus de 4,2 millions de locaux raccordables fin 2025. Orange la dit « détenue à parts égales par Orange et le consortium HIN regroupant La Banque des Territoires (Caisse des Dépôts), CNP Assurances et EDF Invest » ; le consortium n’est pas saisi, son entité juridique n’étant pas nommée."
+    notes: "Exploite 22 réseaux d’initiative publique en fibre optique, soit plus de 4,2 millions de locaux raccordables fin 2025. Orange la dit « détenue à parts égales par Orange et le consortium HIN regroupant La Banque des Territoires (Caisse des Dépôts), CNP Assurances et EDF Invest » ; le consortium est la société Holding d’Infrastructures Numériques, nommée par la Caisse des dépôts."
 
   - actor_id: FR-ACT-0198
     nom: "TOTEM GROUP"
@@ -3449,6 +3447,209 @@ acteurs:
         url: "https://recherche-entreprises.api.gouv.fr/search?q=200076958"
     statut: VERIFIED
     notes: "Exerce les compétences d’une région et de deux départements ; classée ici avec les régions."
+
+  # --- Pistes de french-lambda (lues par ce site) : télécoms et autoroutes ---
+
+  - actor_id: FR-ACT-0223
+    nom: "ALTICE FRANCE"
+    nom_usuel: "Altice France"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-014, FR-NODE-034]
+    identifiants: { siren: "794661470", lei: "5493001ZMCICV4N02J21" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0238, url: "https://static.s-sfr.fr/AlticeFrance/investors/financial-documentation/Altice-France-SAS-FY-2025-Consolidated-Financial-Statements.pdf", localisation: "note 1 ; note 35" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=794661470" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/5493001ZMCICV4N02J21" }
+    statut: VERIFIED
+    notes: "Maison mère de SFR. Les comptes écrivent qu’Altice France Lux 1 S.à r.l. en détient « 100% of the capital of the Company minus one preferred share », l’action restante étant détenue par une société fiduciaire, et que l’actionnaire de contrôle ultime est Next Alt S.à r.l. ; aucun identifiant n’a été trouvé pour Altice France Lux 1, qui n’est donc pas saisie. GLEIF déclare encore comme parent Altice France Holding S.A., le détenteur d’avant septembre 2025."
+
+  - actor_id: FR-ACT-0224
+    nom: "SOCIETE FRANCAISE DU RADIOTELEPHONE - SFR"
+    nom_usuel: "SFR"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-034]
+    identifiants: { siren: "343059564", lei: "549300WESL03YASJ5X58" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0238, url: "https://static.s-sfr.fr/AlticeFrance/investors/financial-documentation/Altice-France-SAS-FY-2025-Consolidated-Financial-Statements.pdf", localisation: "note 35" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/549300WESL03YASJ5X58" }
+    statut: VERIFIED
+    notes: "Opérateur de téléphonie mobile et fixe."
+
+  - actor_id: FR-ACT-0225
+    nom: "ALTICE XPM S.À R.L."
+    nom_usuel: "Altice XPM"
+    type_acteur: entreprise
+    forme_juridique: "Société à responsabilité limitée de droit luxembourgeois"
+    categories: [FR-NODE-034]
+    identifiants: { lei: "9845000F7Q1FCFA87680", autre: { registre: "Registre de commerce et des sociétés (Luxembourg)", cle: "B215174" } }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0238, url: "https://static.s-sfr.fr/AlticeFrance/investors/financial-documentation/Altice-France-SAS-FY-2025-Consolidated-Financial-Statements.pdf", localisation: "note 4.2 ; note 5" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/9845000F7Q1FCFA87680" }
+    statut: VERIFIED
+    notes: "Holding qui porte la participation dans XpFibre ; revenue dans le groupe Altice France le 21 mars 2025. Son détenteur direct n’est pas écrit dans les comptes, et GLEIF ne déclare pas de parent : le lien avec Altice France n’est pas saisi."
+
+  - actor_id: FR-ACT-0226
+    nom: "XPFIBRE HOLDING"
+    nom_usuel: "XpFibre"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-034]
+    identifiants: { siren: "879907145" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0238, url: "https://static.s-sfr.fr/AlticeFrance/investors/financial-documentation/Altice-France-SAS-FY-2025-Consolidated-Financial-Statements.pdf", localisation: "note 4.2 ; note 16" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=879907145" }
+    statut: VERIFIED
+    notes: "Réseau de fibre optique. Les co-actionnaires d’Altice XPM ne sont pas nommés dans le document lu. Aucun identifiant LEI trouvé."
+
+  - actor_id: FR-ACT-0227
+    nom: "HOLDING D'INFRASTRUCTURES NUMERIQUES"
+    nom_usuel: "HIN"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-013, FR-NODE-034]
+    identifiants: { siren: "891282774" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0239, url: "https://www.caissedesdepots.fr/sites/cdc.fr/files/2026-03/CDC%20ETATS%20FINANCIERS%20CONSOLIDES%20DU%20GROUPE%20CDC%2031122025_0.pdf", localisation: "note 2.3.10.4, p. 90 ; liste des sociétés consolidées, p. 220" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=891282774" }
+    statut: VERIFIED
+    notes: "Le « consortium HIN » d’Orange Concessions. La Caisse des dépôts la classe en coentreprise, avec un pourcentage de contrôle de 66,66% et d’intérêt de 55,33% pour son groupe, CNP Assurances comprise : ce sont des chiffres de groupe, la part directe de chaque membre n’est pas publiée et aucun lien n’est saisi vers elle. Catégorie 013 : la majorité du contrôle est tenue par le groupe Caisse des dépôts. Aucun identifiant LEI trouvé."
+
+  - actor_id: FR-ACT-0228
+    nom: "TIVANA TOPCO S.A."
+    nom_usuel: "Tivana TopCo"
+    type_acteur: entreprise
+    forme_juridique: "Société anonyme de droit luxembourgeois"
+    categories: [FR-NODE-034]
+    identifiants: { autre: { registre: "Registre de commerce et des sociétés (Luxembourg)", cle: "B191489" } }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0240, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf", localisation: "§ 1.4, p. 45-46" }
+    statut: VERIFIED
+    notes: "Société de tête du groupe TDF. Ses actionnaires ont signé un pacte le 10 mars 2015. Aucun identifiant LEI trouvé."
+
+  - actor_id: FR-ACT-0229
+    nom: "TIVANA MIDCO S.À R.L."
+    nom_usuel: "Tivana MidCo"
+    type_acteur: entreprise
+    forme_juridique: "Société à responsabilité limitée de droit luxembourgeois"
+    categories: [FR-NODE-034]
+    identifiants: { autre: { registre: "Registre de commerce et des sociétés (Luxembourg)", cle: "B187123" } }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0240, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf", localisation: "§ 1.4, p. 45" }
+      - { source_id: FR-CPL-0241, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2026/03/TDF_AUDITED-CONSOLIDATED-FINANCIAL-STATEMENTS-31-DECEMBER-2025.pdf", localisation: "note 10.1" }
+    statut: VERIFIED
+    notes: "Aucun identifiant LEI trouvé."
+
+  - actor_id: FR-ACT-0230
+    nom: "TIVANA FRANCE HOLDINGS"
+    nom_usuel: "Tivana France Holdings"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-034]
+    identifiants: { siren: "808832463" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0241, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2026/03/TDF_AUDITED-CONSOLIDATED-FINANCIAL-STATEMENTS-31-DECEMBER-2025.pdf", localisation: "note 10.1" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=808832463" }
+    statut: VERIFIED
+    notes: "A absorbé en 2025 TDF Infrastructure Holding, ancienne détentrice de TDF Infrastructure. Aucun identifiant LEI trouvé."
+
+  - actor_id: FR-ACT-0231
+    nom: "TDF INFRASTRUCTURE"
+    nom_usuel: "TDF Infrastructure"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-034]
+    identifiants: { siren: "492520333", lei: "969500BWNQ1B0PI06I59" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0240, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf", localisation: "§ 1.4" }
+      - { source_id: FR-CPL-0241, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2026/03/TDF_AUDITED-CONSOLIDATED-FINANCIAL-STATEMENTS-31-DECEMBER-2025.pdf", localisation: "note 10.1" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=492520333" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500BWNQ1B0PI06I59" }
+    statut: VERIFIED
+    notes: "Holding intermédiaire du groupe TDF et émettrice de ses obligations."
+
+  - actor_id: FR-ACT-0232
+    nom: "T D F"
+    nom_usuel: "TDF"
+    type_acteur: entreprise
+    forme_juridique: "SAS"
+    categories: [FR-NODE-034]
+    identifiants: { siren: "342404399", lei: "969500S9UQE4EY0WLL60" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0240, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf", localisation: "§ 1.4, p. 46" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=342404399" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500S9UQE4EY0WLL60" }
+    statut: VERIFIED
+    notes: "Société d’exploitation : diffusion audiovisuelle et sites radio. LEI non renouvelé."
+
+  - actor_id: FR-ACT-0233
+    nom: "BIF II TIVANA-A (LUXEMBOURG) S.À R.L."
+    nom_usuel: "Brookfield (BIF II Tivana-A)"
+    type_acteur: entreprise
+    forme_juridique: "Société à responsabilité limitée de droit luxembourgeois"
+    categories: [FR-NODE-018]
+    identifiants: { lei: "254900LYI8GS9CDJEG33", autre: { registre: "Registre de commerce et des sociétés (Luxembourg)", cle: "B194535" } }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0240, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf", localisation: "§ 1.4, p. 45" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/254900LYI8GS9CDJEG33" }
+    statut: VERIFIED
+    notes: "Véhicule d’investissement que le prospectus désigne comme « Brookfield ». GLEIF ne déclare pas de parent consolidant."
+
+  - actor_id: FR-ACT-0234
+    nom: "PREDICA-PREVOYANCE DIALOGUE DU CREDIT AGRICOLE"
+    nom_usuel: "Predica"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-018]
+    identifiants: { siren: "334028123", lei: "96950018S1XWUGVC0E95" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0240, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf", localisation: "§ 1.4, p. 46" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=334028123" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/96950018S1XWUGVC0E95" }
+    statut: VERIFIED
+    notes: "Assureur vie du Crédit Agricole ; GLEIF déclare Crédit Agricole Assurances comme parent direct, non saisi."
+
+  - actor_id: FR-ACT-0235
+    nom: "CREDIT AGRICOLE ASSURANCES RETRAITE"
+    nom_usuel: "Crédit Agricole Assurances Retraite"
+    type_acteur: entreprise
+    categories: [FR-NODE-018]
+    identifiants: { siren: "905383667", lei: "969500J0J1H1GRL7KK86" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0240, url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf", localisation: "§ 1.4, p. 46" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=905383667" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/969500J0J1H1GRL7KK86" }
+    statut: VERIFIED
+    notes: "GLEIF déclare Crédit Agricole Assurances comme parent direct, non saisi."
+
+  - actor_id: FR-ACT-0236
+    nom: "APRR"
+    nom_usuel: "APRR (Autoroutes Paris-Rhin-Rhône)"
+    type_acteur: entreprise
+    forme_juridique: "SA"
+    categories: [FR-NODE-014]
+    identifiants: { siren: "016250029", lei: "9695002SV2VP9CU42826" }
+    cote: false
+    citations:
+      - { source_id: FR-CPL-0242, url: "https://www.aprr.com/files/live/sites/APRR/files/Medias/APRR-Update2025-BP_vfinal.pdf", localisation: "§ 2.1, p. 96 du PDF" }
+      - { source_id: FR-CPL-0036, url: "https://recherche-entreprises.api.gouv.fr/search?q=016250029" }
+      - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/9695002SV2VP9CU42826" }
+    statut: VERIFIED
+    notes: "Concessionnaire autoroutier. Sa filiale AREA, « détenue à 99,84 % », n’est pas saisie faute d’identifiant confirmé. GLEIF déclare Eiffage comme parent direct, alors que le prospectus nomme Financière Eiffarie : le document de la société est retenu."
 
 
 liens:
@@ -6952,7 +7153,7 @@ liens:
       url: "https://bdif.amf-france.org/back/api/v1/documents/2026/D.26-0157/0059F6EFA9DD1FE501658135B3FC3493AA4D62317012A4AB2E038CE82C35F665.zip"
       localisation: "comptes consolidés, présentation du contrôle du groupe APRR"
     preuve: P3
-    incertitude: "Le document écrit « Eiffage possède aujourd’hui 52,5 % de cette holding et remplit les critères du contrôle énoncés par IFRS 10 » sans préciser l’entité ; GLEIF déclare Eiffage SA comme parent direct. Droits de vote non publiés."
+    incertitude: "Le document écrit « Eiffage possède aujourd’hui 52,5 % de cette holding et remplit les critères du contrôle énoncés par IFRS 10 » sans préciser l’entité ; GLEIF déclare Eiffage SA comme parent direct. Le prospectus d’APRR de septembre 2025 (FR-CPL-0242, § 2.1) écrit encore « 50 % du capital social de Financière Eiffarie, plus une action, est détenu par Eiffage » : la part du document du détenteur est retenue. Droits de vote non publiés."
     garde_fou: "Détenir une société concessionnaire n’est pas posséder l’infrastructure : l’autoroute reste un bien de l’État, rendu à la fin du contrat."
     statut: VERIFIED
 
@@ -7121,4 +7322,204 @@ liens:
     preuve: P4
     incertitude: "Les ministres désignent trois représentants des services publics usagers (affaires étrangères, communication, économie) et, pour le ministre chargé de la communication, les deux représentants des sociétés nationales de programmes, après avis de leurs présidents. Les 19 sièges comptent le président. Nombre fixé par la loi, inchangé depuis le 19 avril 2015 et donc à la date d’arrêt ; les titulaires ne sont pas relevés."
     garde_fou: "Cinq sièges sur dix-neuf ne donnent pas la majorité ; la loi interdit que l’agence passe « sous le contrôle de droit ou de fait d’un groupement idéologique, politique ou économique » (art. 2)."
+    statut: VERIFIED
+
+  # --- Pistes de french-lambda (lues par ce site) : télécoms et autoroutes ---
+
+  - link_id: FR-LNK-0236
+    source_actor: FR-ACT-0223
+    target_actor: FR-ACT-0224
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0238
+      url: "https://static.s-sfr.fr/AlticeFrance/investors/financial-documentation/Altice-France-SAS-FY-2025-Consolidated-Financial-Statements.pdf"
+      localisation: "note 35 « List of consolidated entities », p. 58"
+    preuve: P3
+    incertitude: "Pourcentage d’intérêt du groupe, lu dans la liste des entités consolidées ; GLEIF déclare Altice France comme parent direct. Droits de vote non publiés."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0237
+    source_actor: FR-ACT-0225
+    target_actor: FR-ACT-0226
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "50.01"
+    droits_vote_pct: null
+    controle: conjoint
+    citation:
+      source_id: FR-CPL-0238
+      url: "https://static.s-sfr.fr/AlticeFrance/investors/financial-documentation/Altice-France-SAS-FY-2025-Consolidated-Financial-Statements.pdf"
+      localisation: "note 4.2 ; note 16.2 (coentreprises)"
+    preuve: P4
+    incertitude: "« Altice XPM (which holds a participation of 50.01% in XpFibre Holding) » ; les comptes classent XpFibre Holding parmi les « joint ventures », mises en équivalence. La liste des entités consolidées arrondit à 50%. Droits de vote non publiés."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0238
+    source_actor: FR-ACT-0227
+    target_actor: FR-ACT-0197
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "50"
+    droits_vote_pct: null
+    controle: conjoint
+    citation:
+      source_id: FR-CPL-0023
+      url: "https://assets.orange.com/medias/domain12751/media101746/523986-yvts1td99t-75.pdf"
+      localisation: "§ 1.4.1, p. 22"
+    preuve: P3
+    incertitude: "Orange écrit Orange Concessions « détenue à parts égales par Orange et le consortium HIN » ; l’entité juridique du consortium est nommée par la Caisse des dépôts (FR-CPL-0239, p. 90 et 220), qui classe HIN - Orange Concessions en coentreprise. Droits de vote non publiés."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0239
+    source_actor: FR-ACT-0233
+    target_actor: FR-ACT-0228
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-07-11"
+    detention_capital_pct: "45.0"
+    droits_vote_pct: "45.0"
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0240
+      url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf"
+      localisation: "§ 1.4 « Share Capital and Ownership », p. 45-46"
+    preuve: P4
+    incertitude: "Répartition « as at the date of this Prospectus » (11 juillet 2025) ; les comptes 2025 de TDF Infrastructure écrivent toujours 45% pour Brookfield, en détention indirecte."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0240
+    source_actor: FR-ACT-0234
+    target_actor: FR-ACT-0228
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-07-11"
+    detention_capital_pct: "9.17"
+    droits_vote_pct: "9.17"
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0240
+      url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf"
+      localisation: "§ 1.4 « Share Capital and Ownership », p. 45-46"
+    preuve: P4
+    incertitude: "Répartition au 11 juillet 2025 ; avec Crédit Agricole Assurances Retraite (0,83%), le groupe Crédit Agricole détient 10%, total que ce site n’enregistre pas."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0241
+    source_actor: FR-ACT-0235
+    target_actor: FR-ACT-0228
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-07-11"
+    detention_capital_pct: "0.83"
+    droits_vote_pct: "0.83"
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0240
+      url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf"
+      localisation: "§ 1.4 « Share Capital and Ownership », p. 45-46"
+    preuve: P4
+    incertitude: "Répartition au 11 juillet 2025 ; saisie sous le seuil de 5%, comme tous les actionnaires que le prospectus énumère."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0242
+    source_actor: FR-ACT-0228
+    target_actor: FR-ACT-0229
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-07-11"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0240
+      url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf"
+      localisation: "§ 1.4, p. 45"
+    preuve: P4
+    incertitude: "« Tivana MidCo is a 100 per cent. owned subsidiary of Tivana TopCo S.A. » ; droits de vote non publiés."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0243
+    source_actor: FR-ACT-0229
+    target_actor: FR-ACT-0230
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: null
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0241
+      url: "https://www.tdf-infrastructure.com/wp-content/uploads/2026/03/TDF_AUDITED-CONSOLIDATED-FINANCIAL-STATEMENTS-31-DECEMBER-2025.pdf"
+      localisation: "note 10.1"
+    preuve: P4
+    incertitude: "Les comptes écrivent que les actions ordinaires, seules à porter droit de vote et dividende, sont « all held by Tivana Midco S.à.r.l. », qui détient aussi les actions de préférence de catégorie M ; celles de catégorie P sont « held by a third party ». Aucun pourcentage n’est publié : ni le capital ni les droits de vote ne sont calculés par ce site."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0244
+    source_actor: FR-ACT-0230
+    target_actor: FR-ACT-0231
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-12-31"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0241
+      url: "https://www.tdf-infrastructure.com/wp-content/uploads/2026/03/TDF_AUDITED-CONSOLIDATED-FINANCIAL-STATEMENTS-31-DECEMBER-2025.pdf"
+      localisation: "note 10.1"
+    preuve: P4
+    incertitude: "« entirely owned by Tivana France Holdings » ; le prospectus de juillet 2025 plaçait encore TDF Infrastructure Holding entre les deux, absorbée depuis. Droits de vote non publiés."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0245
+    source_actor: FR-ACT-0231
+    target_actor: FR-ACT-0232
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-07-11"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0240
+      url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf"
+      localisation: "§ 1.5, p. 46"
+    preuve: P4
+    incertitude: "« The Issuer is a holding company owning 100% of the shares of TDF SAS » ; la liste des sociétés consolidées au 31 décembre 2025 donne aussi 100% (FR-CPL-0241). Droits de vote non publiés."
+    garde_fou: "Détenir un opérateur ou une infrastructure de réseau ne dit rien de l’accès des concurrents, que l’Arcep régule."
+    statut: VERIFIED
+
+  - link_id: FR-LNK-0246
+    source_actor: FR-ACT-0192
+    target_actor: FR-ACT-0236
+    type: equity_ownership
+    dimension: P-OWN
+    date_observation: "2025-09-25"
+    detention_capital_pct: "100"
+    droits_vote_pct: null
+    controle: non_qualifie
+    citation:
+      source_id: FR-CPL-0242
+      url: "https://www.aprr.com/files/live/sites/APRR/files/Medias/APRR-Update2025-BP_vfinal.pdf"
+      localisation: "§ 2.1 « Actionnariat », p. 96 du PDF"
+    preuve: P4
+    incertitude: "« 100% du capital social d’APRR est détenu par Financière Eiffarie » depuis la dissolution d’Eiffarie le 31 décembre 2023. Droits de vote non publiés."
+    garde_fou: "Détenir une société concessionnaire n’est pas posséder l’infrastructure : l’autoroute reste un bien de l’État, rendu à la fin du contrat."
     statut: VERIFIED

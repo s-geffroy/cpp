@@ -3538,7 +3538,7 @@ sources:
     use: "1,3 million d’associations actives en 2018 ; 1,8 million de salariés en 2021, « près d’un salarié du secteur privé sur dix (9,2 %) » ; budget de 125,3 milliards d’euros en 2018."
     status: VERIFIED
     url: "https://injep.fr/wp-content/uploads/2024/05/Chiffres-cles-vie-associative-2023.pdf"
-    verification: "Lu le 2026-11-03 dans la copie archivée du 2025-06-19 : http://web.archive.org/web/20250619123154id_/https://injep.fr/wp-content/uploads/2024/05/Chiffres-cles-vie-associative-2023.pdf ; date de la page de publication. Dernière édition nationale trouvée dans les copies archivées jusqu’au 2026-08-12 ; une édition parue entre novembre 2025 et août 2026 n’est pas exclue (site inaccessible)."
+    verification: "Lu le 2026-11-03 dans la copie archivée du 2025-06-19 : http://web.archive.org/web/20250619123154id_/https://injep.fr/wp-content/uploads/2024/05/Chiffres-cles-vie-associative-2023.pdf ; date de la page de publication. Édition nationale la plus récente : aucune édition postérieure n’est parue avant la date d’arrêt (vérifié sur injep.fr le 2026-11-04)."
 
   # --- Lot E-1 : gestionnaires de reseaux d'energie ------------------------
 
@@ -3633,3 +3633,78 @@ sources:
     status: VERIFIED
     url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000000850483"
     verification: "Lu sur Légifrance le 2026-11-04 ; dernière modification le 26 juin 2015, texte identique à la date d’arrêt."
+
+  - source_id: FR-CPL-0238
+    domain: corporate_disclosure
+    institution: "Altice France"
+    title: "Altice France S.A.S. – Consolidated financial statements – December 31, 2025"
+    date: "2026-04-28"
+    source_type: corporate_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, infrastructure, network]
+    use: "Note 1 : Altice France Lux 1 détient « 100% of the capital of the Company minus one preferred share » ; note 4.2 : Altice XPM « holds a participation of 50.01% in XpFibre Holding » ; note 35 : liste des entités consolidées."
+    status: VERIFIED
+    url: "https://static.s-sfr.fr/AlticeFrance/investors/financial-documentation/Altice-France-SAS-FY-2025-Consolidated-Financial-Statements.pdf"
+    verification: "Comptes arrêtés par le conseil d’administration le 28 avril 2026 ; PDF lu le 2026-11-04. Piste donnée par french-lambda, document lu par ce site."
+
+  - source_id: FR-CPL-0239
+    domain: corporate_disclosure
+    institution: "Caisse des dépôts"
+    title: "Groupe Caisse des Dépôts – Comptes consolidés au 31 décembre 2025"
+    date: "2026-03-25"
+    source_type: corporate_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, finance]
+    use: "Note 2.3.10.4 « Holding d’Infrastructures Numériques » (p. 90) : pourcentage de contrôle 66,66%, d’intérêt 55,33% ; liste des sociétés consolidées (p. 220) : « HIN - ORANGE CONCESSIONS », coentreprise."
+    status: VERIFIED
+    url: "https://www.caissedesdepots.fr/sites/cdc.fr/files/2026-03/CDC%20ETATS%20FINANCIERS%20CONSOLIDES%20DU%20GROUPE%20CDC%2031122025_0.pdf"
+    verification: "PDF lu le 2026-11-04 ; la date est celle du fichier. Piste donnée par french-lambda, document lu par ce site."
+
+  - source_id: FR-CPL-0240
+    domain: corporate_disclosure
+    institution: "TDF Infrastructure"
+    title: "TDF Infrastructure S.A.S. – Prospectus d’émission obligataire approuvé par l’AMF"
+    date: "2025-07-11"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, infrastructure, network]
+    use: "§ 1.4 « Share Capital and Ownership » (p. 45-46) : actionnaires de Tivana TopCo « as at the date of this Prospectus », chaîne de détention à 100% ; « The Issuer is a holding company owning 100% of the shares of TDF SAS »."
+    status: VERIFIED
+    url: "https://www.tdf-infrastructure.com/wp-content/uploads/2025/07/TDFI-2025-New-Issue-Prospectus-AMF-Approval.pdf"
+    verification: "Prospectus approuvé par l’AMF le 11 juillet 2025 ; PDF lu le 2026-11-04. Piste donnée par french-lambda, document lu par ce site."
+
+  - source_id: FR-CPL-0241
+    domain: corporate_disclosure
+    institution: "TDF Infrastructure"
+    title: "TDF Infrastructure – Audited consolidated financial statements – 31 December 2025"
+    date: "2026-03-18"
+    source_type: corporate_report
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, infrastructure, network]
+    use: "Note 10.1 : TDF Infrastructure SAS « entirely owned by Tivana France Holdings » ; actions ordinaires de Tivana France Holdings « all held by Tivana Midco S.à.r.l. » ; fusion de TDF Infrastructure Holding dans Tivana France Holdings en 2025."
+    status: VERIFIED
+    url: "https://www.tdf-infrastructure.com/wp-content/uploads/2026/03/TDF_AUDITED-CONSOLIDATED-FINANCIAL-STATEMENTS-31-DECEMBER-2025.pdf"
+    verification: "PDF lu le 2026-11-04 ; la date est celle du fichier. Piste donnée par french-lambda, document lu par ce site."
+
+  - source_id: FR-CPL-0242
+    domain: corporate_disclosure
+    institution: "APRR"
+    title: "APRR – Prospectus de base du programme EMTN, mise à jour 2025"
+    date: "2025-09-25"
+    source_type: regulated_filing
+    authority: PRIMARY
+    priority: A0
+    refresh: annual
+    mots_cles: [ownership, disclosure, infrastructure]
+    use: "Section « Actionnariat » (§ 2.1, p. 96 du PDF) : « 100% du capital social d’APRR est détenu par Financière Eiffarie » depuis le 31 décembre 2023 ; « 50 % du capital social de Financière Eiffarie, plus une action, est détenu par Eiffage »."
+    status: VERIFIED
+    url: "https://www.aprr.com/files/live/sites/APRR/files/Medias/APRR-Update2025-BP_vfinal.pdf"
+    verification: "PDF lu le 2026-11-04 ; la date est celle du fichier. Piste donnée par french-lambda, document lu par ce site."
