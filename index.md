@@ -10,10 +10,12 @@ permalink: /
   un site qui ne publie aucun article.
 -->
 
-<p class="chapeau">Qui décide, en France, et sur quoi&nbsp;? Ce site ne répond
-pas à la question. Il fait le travail qui doit venir avant&nbsp;: établir
-<strong>d’où viennent les informations</strong> dont on dispose, et
-<strong>où elles manquent</strong>.</p>
+<p class="chapeau">Qui décide, en France, et sur quoi&nbsp;? Ce site
+commence à y répondre, domaine par domaine, en partant de ce que disent les
+textes&nbsp;: <a href="{{ '/decisions/' | relative_url }}"><strong>qui a le
+droit de décider quoi</strong></a>. Il fait d’abord le travail qui doit venir
+avant&nbsp;: établir <strong>d’où viennent les informations</strong> dont on
+dispose, et <strong>où elles manquent</strong>.</p>
 
 ## De quoi il s’agit
 
@@ -65,6 +67,16 @@ de chaque relation, plutôt que laissées à l’interprétation du lecteur.
     {{ site.data.acteurs.liens | size }} liens&nbsp;: ce que l’État détient dans
     les grandes entreprises cotées et dans l’industrie de défense, avec la page
     du document où se lit chaque chiffre.</p>
+  </li>
+  <li>
+    <a href="{{ '/decisions/' | relative_url }}">Qui décide de quoi</a>
+    <p>{{ site.data.acteurs.decisions | where: "statut", "VERIFIED" | size }}
+    objets de décision et
+    {{ site.data.acteurs.competences | where: "statut", "VERIFIED" | size }}
+    compétences, chacune fondée sur un article de loi&nbsp;: qui tranche, qui
+    propose, qui peut bloquer, quel juge peut annuler. Un pilote, limité pour
+    l’instant à l’énergie&nbsp;; un pouvoir juridique, pas un pouvoir de
+    fait.</p>
   </li>
   <li>
     <a href="{{ '/couverture/' | relative_url }}">Ce qu’on sait et ce qu’on ignore</a>

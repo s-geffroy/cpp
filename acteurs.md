@@ -33,11 +33,14 @@ Un pouvoir public ou un regulateur saisi pour ses seules competences
 (page /decisions/) ne detient rien : il n'a pas sa place parmi les
 detenteurs de tete.
 {%- endcomment -%}
-{%- assign acteurs_decision = registre.competences | where: "statut", "VERIFIED" | map: "acteur" | uniq -%}
+{%- assign competences = registre.competences | where: "statut", "VERIFIED" -%}
+{%- assign acteurs_decision = competences | map: "acteur" | uniq -%}
+{%- assign pouvoirs = "" | split: "" -%}
 {%- for a in acteurs -%}
   {%- assign entrants = liens | where: "target_actor", a.actor_id -%}
   {%- assign sortants_tous = liens_tous | where: "source_actor", a.actor_id -%}
   {%- if entrants.size == 0 and sortants_tous.size == 0 and acteurs_decision contains a.actor_id -%}
+    {%- assign pouvoirs = pouvoirs | push: a -%}
     {%- continue -%}
   {%- endif -%}
   {%- if entrants.size > 0 -%}
@@ -208,6 +211,14 @@ paquet** — le début du registre que la
       <a href="{{ '/carte/' | relative_url }}#{{ c }}">{{ lib.noeuds[c] }}</a>{% unless forloop.last %}, {% endunless %}
       {%- endfor -%}
     </p>
+    {%- assign siennes = competences | where: "acteur", id -%}
+    {%- if siennes.size > 0 %}
+    <p class="meta">Rôle dans les <a href="{{ '/decisions/' | relative_url }}">décisions</a> :
+      {% for k in siennes -%}
+      {%- assign dk = registre.decisions | where: "decision_id", k.decision -%}
+      {{ lib.roles_competence[k.role] | downcase }} — <a href="{{ '/decisions/' | relative_url }}#{{ k.decision }}">{{ dk[0].libelle }}</a>{% unless forloop.last %} ; {% endunless %}
+      {%- endfor %}.</p>
+    {%- endif %}
 
     <ul class="lignes-liens">
     {%- for t in ordre_types -%}
@@ -347,6 +358,47 @@ publique (Caisse des dépôts, Bpifrance) en détient la majorité, ou si le
 document de la société qualifie ce contrôle ; « grand groupe privé français » sinon. Une
 société étrangère n’a que sa catégorie sectorielle. Aucune personne physique
 n’est enregistrée : voir <a href="{{ '/beneficiaires-effectifs/' | relative_url }}">Bénéficiaires effectifs</a>.</p>
+
+{% if pouvoirs.size > 0 %}
+
+## Les pouvoirs publics et les régulateurs
+
+Ces {{ pouvoirs | size }} acteurs ne détiennent rien dans ce registre. Ils y
+figurent pour ce qu’ils ont **le droit de décider**, d’après les textes en
+vigueur à la date d’arrêt : le détail est sur la page
+[Décisions]({{ '/decisions/' | relative_url }}). Une compétence juridique
+ne dit pas qui pèse en fait sur la décision.
+
+<div class="table-defilante">
+<table>
+  <thead>
+    <tr>
+      <th>Acteur</th>
+      <th>Rôle dans les décisions</th>
+    </tr>
+  </thead>
+  <tbody>
+    {%- for a in pouvoirs %}
+    {%- assign siennes = competences | where: "acteur", a.actor_id %}
+    <tr id="{{ a.actor_id }}">
+      <td>
+        <strong>{{ a.nom_usuel | default: a.nom }}</strong>
+        <span class="meta">{{ lib.types_acteur[a.type_acteur] }}
+          {%- if a.identifiants.siren %} · SIREN {{ a.identifiants.siren }}{% endif %}</span>
+        {%- if a.notes %}<span class="note">{{ a.notes }}</span>{% endif %}
+      </td>
+      <td>
+        {%- for k in siennes -%}
+        {%- assign dk = registre.decisions | where: "decision_id", k.decision -%}
+        {{ lib.roles_competence[k.role] }} : <a href="{{ '/decisions/' | relative_url }}#{{ k.decision }}">{{ dk[0].libelle }}</a>{% unless forloop.last %}<br>{% endunless %}
+        {%- endfor -%}
+      </td>
+    </tr>
+    {%- endfor %}
+  </tbody>
+</table>
+</div>
+{%- endif %}
 
 ## Ce qui manque
 

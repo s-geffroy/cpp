@@ -68,7 +68,7 @@ au détail plus bas.
     {%- assign a = acteurs | where: "actor_id", id | first %}
     {%- assign siennes = competences | where: "acteur", id %}
     <tr>
-      <td><strong>{{ a.nom_usuel | default: a.nom }}</strong>
+      <td><strong><a href="{{ '/acteurs/' | relative_url }}#{{ a.actor_id }}">{{ a.nom_usuel | default: a.nom }}</a></strong>
         <span class="meta">{{ lib.types_acteur[a.type_acteur] }}</span></td>
       {%- for r in ordre_roles %}
       {%- assign avec_role = competences | where: "role", r %}
@@ -110,7 +110,7 @@ au détail plus bas.
       {%- assign a = acteurs | where: "actor_id", k.acteur | first %}
       <tr id="{{ k.competence_id }}">
         <td>{{ lib.roles_competence[k.role] }}</td>
-        <td>{{ a.nom_usuel | default: a.nom }}
+        <td><a href="{{ '/acteurs/' | relative_url }}#{{ a.actor_id }}">{{ a.nom_usuel | default: a.nom }}</a>
           {%- if k.nombre_sieges %} <span class="meta">{{ k.nombre_sieges }} siège{% if k.nombre_sieges > 1 %}s{% endif %} sur {{ k.sieges_total }}</span>{% endif %}</td>
         <td>
           {%- for c in k.citations %}
