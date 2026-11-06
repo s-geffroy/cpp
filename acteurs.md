@@ -28,8 +28,18 @@ precede tout caractere imprimable : « Safran » passe avant « Safran Ceramics 
 {%- endcomment -%}
 {%- assign cles = "" | split: "" -%}
 {%- assign tetes = "" | split: "" -%}
+{%- comment -%}
+Un pouvoir public ou un regulateur saisi pour ses seules competences
+(page /decisions/) ne detient rien : il n'a pas sa place parmi les
+detenteurs de tete.
+{%- endcomment -%}
+{%- assign acteurs_decision = registre.competences | where: "statut", "VERIFIED" | map: "acteur" | uniq -%}
 {%- for a in acteurs -%}
   {%- assign entrants = liens | where: "target_actor", a.actor_id -%}
+  {%- assign sortants_tous = liens_tous | where: "source_actor", a.actor_id -%}
+  {%- if entrants.size == 0 and sortants_tous.size == 0 and acteurs_decision contains a.actor_id -%}
+    {%- continue -%}
+  {%- endif -%}
   {%- if entrants.size > 0 -%}
     {%- capture cle %}{{ a.nom_usuel | default: a.nom }}	{{ a.actor_id }}{% endcapture -%}
     {%- assign cles = cles | push: cle -%}

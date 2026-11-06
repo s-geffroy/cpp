@@ -713,6 +713,22 @@ types_acteur:
   organisation_internationale: "Organisation internationale"
   gestionnaire_actifs: "Gestionnaire d’actifs"
   fonds_institutionnel: "Fonds de pension ou fonds souverain"
+  pouvoir_public: "Pouvoir public"
+  juridiction: "Juridiction"
+  instance_consultative: "Instance consultative"
+
+# Roles d'un acteur dans un objet de decision (page /decisions/). Ordre
+# d'affichage : du plus fort au plus faible, le juge en dernier.
+roles_competence:
+  decide: "Décide"
+  homologue_ou_approuve: "Approuve"
+  avis_conforme: "Peut bloquer"
+  demande_reexamen: "Peut exiger une nouvelle délibération"
+  propose: "Propose ou saisit"
+  avis_simple: "Est consulté"
+  encadre: "Encadre par avance"
+  execute: "Fournit les éléments"
+  peut_annuler: "Juge les recours"
 
 types_lien_acteur:
   equity_ownership: "Détention en capital"

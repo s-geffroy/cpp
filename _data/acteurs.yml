@@ -112,6 +112,10 @@ meta:
       raison: "Ni les données essentielles ni la recherche Sirene ne donnent son nom ; ses marchés portent sur des travaux dans des emprises militaires (bases aériennes, quartiers, stations radar). Il n’est pas saisi."
     - nom: "Actionnaires de SemBreizh"
       raison: "Société d’économie mixte classée parmi les dix premiers acheteurs ; la répartition de son capital n’a été lue dans aucun document."
+    - nom: "Avis sur la programmation pluriannuelle de l’énergie (FR-DEC-0005)"
+      raison: "Le décret n° 2026-76 vise aussi les avis de l’Autorité environnementale, du Conseil supérieur de l’énergie, du comité de gestion des charges de service public de l’électricité et du haut-commissaire à l’énergie atomique. Les articles qui rendent ces avis obligatoires n’ont pas été lus : aucune compétence n’est saisie pour eux."
+    - nom: "Pourvoi contre les arrêts de la cour d’appel de Paris (FR-DEC-0009)"
+      raison: "Les décisions du CoRDiS sur les différends vont devant la cour d’appel de Paris (art. L134-24) ; le pourvoi en cassation qui suit n’a pas été lu précisément : la Cour de cassation n’est pas saisie comme acteur."
 
 acteurs:
 
@@ -3650,6 +3654,193 @@ acteurs:
       - { source_id: FR-CPL-0037, url: "https://api.gleif.org/api/v1/lei-records/9695002SV2VP9CU42826" }
     statut: VERIFIED
     notes: "Concessionnaire autoroutier. Sa filiale AREA, « détenue à 99,84 % », n’est pas saisie faute d’identifiant confirmé. GLEIF déclare Eiffage comme parent direct, alors que le prospectus nomme Financière Eiffarie : le document de la société est retenu."
+
+  # --- Pilote « qui décide » : énergie (pouvoirs publics) ---------------------
+
+  - actor_id: FR-ACT-0237
+    nom: "COMMISSION DE REGULATION DE L'ENERGIE"
+    nom_usuel: "CRE"
+    type_acteur: autorite_independante
+    forme_juridique: "Autorité administrative indépendante"
+    categories: [FR-NODE-024]
+    identifiants: { siren: "110000106" }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125", localisation: "art. L132-2" }
+      - { source_id: "FR-CPL-0036", url: "https://recherche-entreprises.api.gouv.fr/search?q=110000106" }
+    statut: VERIFIED
+    notes: "Collège de cinq membres (art. L132-2). Enregistrée comme institution : aucun de ses membres n’est nommé."
+
+  - actor_id: FR-ACT-0238
+    nom: "COMITE DE REGLEMENT DES DIFFERENDS ET DES SANCTIONS"
+    nom_usuel: "CoRDiS (CRE)"
+    type_acteur: autorite_independante
+    forme_juridique: "Organe de la CRE"
+    categories: [FR-NODE-024]
+    identifiants: { autre: { registre: "Légifrance, article qui saisit l’organe", cle: "LEGIARTI000051214473" } }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051214473", localisation: "art. L134-19" }
+    statut: VERIFIED
+    notes: "Organe de la Commission de régulation de l’énergie, distinct de son collège : il tranche les différends d’accès aux réseaux et prononce les sanctions. Le lien avec la CRE n’est pas un lien de capital et n’est pas saisi comme tel."
+
+  - actor_id: FR-ACT-0239
+    nom: "PRESIDENT DE LA REPUBLIQUE"
+    nom_usuel: "Président de la République"
+    type_acteur: pouvoir_public
+    forme_juridique: "Organe constitutionnel"
+    categories: [FR-NODE-001]
+    identifiants: { siren: "100000017" }
+    citations:
+      - { source_id: "FR-CPL-0245", url: "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241006", localisation: "art. 13, al. 5" }
+      - { source_id: "FR-CPL-0036", url: "https://recherche-entreprises.api.gouv.fr/search?q=100000017" }
+    statut: VERIFIED
+    notes: "Enregistré comme fonction, jamais comme la personne qui l’occupe. Le SIREN est celui des services de la présidence (« République française Présidence »)."
+
+  - actor_id: FR-ACT-0240
+    nom: "GOUVERNEMENT"
+    nom_usuel: "Gouvernement (Premier ministre, par décret)"
+    type_acteur: pouvoir_public
+    forme_juridique: "Organe constitutionnel"
+    categories: [FR-NODE-002]
+    identifiants: { siren: "110001013" }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369424", localisation: "art. L141-1" }
+      - { source_id: "FR-CPL-0036", url: "https://recherche-entreprises.api.gouv.fr/search?q=110001013" }
+    statut: VERIFIED
+    notes: "Désigne le pouvoir réglementaire exercé par décret du Premier ministre. Enregistré comme fonction, jamais comme la personne qui l’occupe. Le SIREN est celui inscrit au registre sous « Gouvernement Premier ministre »."
+
+  - actor_id: FR-ACT-0241
+    nom: "MINISTRE DE L'ECONOMIE, DES FINANCES ET DE LA SOUVERAINETE INDUSTRIELLE, ENERGETIQUE ET NUMERIQUE"
+    nom_usuel: "Ministre chargé de l’économie et de l’énergie"
+    type_acteur: pouvoir_public
+    forme_juridique: "Ministre"
+    categories: [FR-NODE-002]
+    identifiants: { siren: "110020013" }
+    citations:
+      - { source_id: "FR-CPL-0249", url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919", localisation: "art. 1 et art. 2, 7°" }
+      - { source_id: "FR-CPL-0036", url: "https://recherche-entreprises.api.gouv.fr/search?q=110020013" }
+    statut: VERIFIED
+    notes: "Intitulé en vigueur au 12 août 2026. Le décret d’attributions 2025-1009 lui confie l’économie et l’énergie : les textes qui parlent du « ministre chargé de l’énergie » ou des « ministres chargés de l’économie et de l’énergie » désignent donc ce seul ministre à la date d’arrêt. Enregistré comme fonction, jamais comme la personne qui l’occupe. Le SIREN est celui du ministère, pas de la fonction."
+
+  - actor_id: FR-ACT-0242
+    nom: "MINISTRE CHARGE DES OUTRE-MER"
+    nom_usuel: "Ministre chargé des outre-mer"
+    type_acteur: pouvoir_public
+    forme_juridique: "Ministre"
+    categories: [FR-NODE-002]
+    identifiants: { siren: "110019015" }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125", localisation: "art. L132-2" }
+      - { source_id: "FR-CPL-0036", url: "https://recherche-entreprises.api.gouv.fr/search?q=110019015" }
+    statut: VERIFIED
+    notes: "Enregistré comme fonction, jamais comme la personne qui l’occupe. Le SIREN est celui du ministère des outre-mer, pas de la fonction."
+
+  - actor_id: FR-ACT-0243
+    nom: "PARLEMENT"
+    nom_usuel: "Parlement"
+    type_acteur: pouvoir_public
+    forme_juridique: "Organe constitutionnel"
+    categories: [FR-NODE-003, FR-NODE-004]
+    identifiants: { autre: { registre: "Constitution du 4 octobre 1958", cle: "article 24" } }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051560632", localisation: "art. L100-1 A" }
+    statut: VERIFIED
+    notes: "Assemblée nationale et Sénat pris ensemble, quand un texte attribue la compétence au Parlement ou à la loi. Quand un texte vise une seule assemblée ou son président, c’est l’acteur de cette assemblée qui est cité."
+
+  - actor_id: FR-ACT-0244
+    nom: "ASSEMBLEE NATIONALE"
+    nom_usuel: "Assemblée nationale"
+    type_acteur: pouvoir_public
+    forme_juridique: "Assemblée parlementaire"
+    categories: [FR-NODE-003]
+    identifiants: { siren: "110000015" }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125", localisation: "art. L132-2" }
+      - { source_id: "FR-CPL-0036", url: "https://recherche-entreprises.api.gouv.fr/search?q=110000015" }
+    statut: VERIFIED
+    notes: "Citée ici pour le pouvoir de nomination de son président. Enregistrée comme institution, jamais comme la personne qui la préside."
+
+  - actor_id: FR-ACT-0245
+    nom: "SENAT"
+    nom_usuel: "Sénat"
+    type_acteur: pouvoir_public
+    forme_juridique: "Assemblée parlementaire"
+    categories: [FR-NODE-004]
+    identifiants: { siren: "110000023" }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125", localisation: "art. L132-2" }
+      - { source_id: "FR-CPL-0036", url: "https://recherche-entreprises.api.gouv.fr/search?q=110000023" }
+    statut: VERIFIED
+    notes: "Cité ici pour le pouvoir de nomination de son président. Enregistré comme institution, jamais comme la personne qui le préside."
+
+  - actor_id: FR-ACT-0246
+    nom: "CONSEIL D'ETAT"
+    nom_usuel: "Conseil d’État"
+    type_acteur: juridiction
+    forme_juridique: "Juridiction administrative suprême"
+    categories: [FR-NODE-006]
+    identifiants: { siren: "110000270" }
+    citations:
+      - { source_id: "FR-CPL-0244", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673", localisation: "art. R311-1, 1°, 2° et 4°" }
+      - { source_id: "FR-CPL-0036", url: "https://recherche-entreprises.api.gouv.fr/search?q=110000270" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0247
+    nom: "COUR D'APPEL DE PARIS"
+    nom_usuel: "Cour d’appel de Paris"
+    type_acteur: juridiction
+    forme_juridique: "Juridiction judiciaire"
+    categories: [FR-NODE-007]
+    identifiants: { siren: "177501111" }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042144901", localisation: "art. L134-24" }
+      - { source_id: "FR-CPL-0036", url: "https://recherche-entreprises.api.gouv.fr/search?q=177501111" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0248
+    nom: "COMMISSION EUROPEENNE"
+    nom_usuel: "Commission européenne"
+    type_acteur: organisation_internationale
+    forme_juridique: "Institution de l’Union européenne"
+    categories: [FR-NODE-051]
+    identifiants: { autre: { registre: "EUR-Lex (CELEX), traité sur l’Union européenne", cle: "12016M017" } }
+    citations:
+      - { source_id: "FR-CPL-0247", url: "https://eur-lex.europa.eu/eli/reg/2019/943/oj", localisation: "art. 51" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0249
+    nom: "AGENCE DE L'UNION EUROPEENNE POUR LA COOPERATION DES REGULATEURS DE L'ENERGIE"
+    nom_usuel: "ACER"
+    type_acteur: organisation_internationale
+    forme_juridique: "Agence de l’Union européenne"
+    categories: [FR-NODE-051]
+    identifiants: { autre: { registre: "EUR-Lex (CELEX), règlement fondateur", cle: "32019R0942" } }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824", localisation: "art. L134-25" }
+    statut: VERIFIED
+
+  - actor_id: FR-ACT-0250
+    nom: "CONSEIL NATIONAL DE LA TRANSITION ECOLOGIQUE"
+    nom_usuel: "CNTE"
+    type_acteur: instance_consultative
+    forme_juridique: "Instance consultative"
+    categories: [FR-NODE-002]
+    identifiants: { autre: { registre: "Légifrance, article qui saisit l’organe", cle: "LEGIARTI000039369400" } }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400", localisation: "art. L141-4" }
+    statut: VERIFIED
+    notes: "Rattaché à la catégorie du Gouvernement faute de catégorie propre aux instances consultatives ; il réunit des représentants extérieurs à l’administration, dont la composition n’est pas saisie."
+
+  - actor_id: FR-ACT-0251
+    nom: "COMITE DU SYSTEME DE DISTRIBUTION PUBLIQUE D'ELECTRICITE"
+    nom_usuel: "Comité du système de distribution publique d’électricité"
+    type_acteur: instance_consultative
+    forme_juridique: "Instance consultative"
+    categories: [FR-NODE-002]
+    identifiants: { autre: { registre: "Légifrance, article qui saisit l’organe", cle: "LEGIARTI000039369400" } }
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400", localisation: "art. L141-4" }
+    statut: VERIFIED
+    notes: "Rattaché à la catégorie du Gouvernement faute de catégorie propre aux instances consultatives ; sa composition n’est pas saisie."
 
 
 liens:
@@ -7522,4 +7713,596 @@ liens:
     preuve: P4
     incertitude: "« 100% du capital social d’APRR est détenu par Financière Eiffarie » depuis la dissolution d’Eiffarie le 31 décembre 2023. Droits de vote non publiés."
     garde_fou: "Détenir une société concessionnaire n’est pas posséder l’infrastructure : l’autoroute reste un bien de l’État, rendu à la fin du contrat."
+    statut: VERIFIED
+
+# Pilote « qui décide » (2026-11-06). Un objet de décision dit SUR QUOI ;
+# une compétence dit QUI y tient quel rôle, d'après un article en vigueur au
+# 12 août 2026. Pouvoir juridique, jamais pouvoir de fait.
+decisions:
+  - decision_id: FR-DEC-0001
+    libelle: "Fixer les tarifs d’utilisation des réseaux publics d’électricité (TURPE)"
+    domaine: energy
+    dimension: P-REG
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0002
+    libelle: "Fixer les tarifs d’utilisation des réseaux de gaz naturel et des terminaux méthaniers"
+    domaine: energy
+    dimension: P-REG
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0003
+    libelle: "Fixer les tarifs réglementés de vente d’électricité"
+    domaine: energy
+    dimension: P-REG
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0004
+    libelle: "Fixer par la loi les objectifs et les priorités de la politique énergétique"
+    domaine: energy
+    dimension: P-LEGAL
+    notes: "Le code prévoit une telle loi tous les cinq ans. Aucune n’a été trouvée parmi les titres du Journal officiel entre juin 2025 et le 12 août 2026 : la compétence existe, son exercice n’est pas constaté."
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0005
+    libelle: "Adopter la programmation pluriannuelle de l’énergie (PPE)"
+    domaine: energy
+    dimension: P-EXEC
+    notes: "Exercée avant la date d’arrêt : décret n° 2026-76 du 12 février 2026."
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0006
+    libelle: "Certifier l’indépendance d’un gestionnaire de réseau de transport d’électricité ou de gaz"
+    domaine: energy
+    dimension: P-REG
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0007
+    libelle: "Agréer et désigner un gestionnaire de réseau de transport"
+    domaine: energy
+    dimension: P-EXEC
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0008
+    libelle: "Sanctionner les manquements des gestionnaires de réseau et des acteurs des marchés de l’énergie"
+    domaine: energy
+    dimension: P-REG
+    notes: "La décision n° 2026-1219 QPC du 6 août 2026 a jugé contraires à la Constitution des mots des articles L134-25-1 et L134-31, qui encadrent la procédure ; l’abrogation est reportée."
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0009
+    libelle: "Trancher les différends sur l’accès aux réseaux et leur utilisation"
+    domaine: energy
+    dimension: P-REG
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0010
+    libelle: "Approuver le schéma décennal et le programme d’investissements du réseau de transport d’électricité"
+    domaine: energy
+    dimension: P-INFRA
+    statut: VERIFIED
+
+  - decision_id: FR-DEC-0011
+    libelle: "Nommer les membres du collège de la CRE"
+    domaine: energy
+    dimension: P-EXEC
+    notes: "Cinq sièges (art. L132-2)."
+    statut: VERIFIED
+
+competences:
+  - competence_id: FR-CMP-0001
+    acteur: FR-ACT-0237
+    decision: FR-DEC-0001
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043215159", localisation: "art. L341-3, al. 1 et 4" }
+    en_vigueur_depuis: "2021-03-05"
+    preuve: P4
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0002
+    acteur: FR-ACT-0241
+    decision: FR-DEC-0001
+    role: demande_reexamen
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043215159", localisation: "art. L341-3, dernier alinéa" }
+      - { source_id: "FR-CPL-0249", url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919", localisation: "art. 1 et art. 2, 7°" }
+    en_vigueur_depuis: "2021-03-05"
+    preuve: P3
+    incertitude: "Le texte dit « l’autorité administrative » sans la nommer, et aucun article réglementaire en vigueur ne la désigne pour ce pouvoir. Le ministre est retenu d’après son décret d’attributions (énergie, « notamment la politique tarifaire »)."
+    garde_fou: "Le ministre peut obliger à délibérer de nouveau, pas fixer le tarif à la place du régulateur."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0003
+    acteur: FR-ACT-0175
+    decision: FR-DEC-0001
+    role: execute
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043215159", localisation: "art. L341-3, al. 2" }
+    en_vigueur_depuis: "2021-03-05"
+    preuve: P4
+    garde_fou: "Fournir les éléments d’une décision ne donne aucun pouvoir sur elle."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0004
+    acteur: FR-ACT-0176
+    decision: FR-DEC-0001
+    role: execute
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043215159", localisation: "art. L341-3, al. 2" }
+    en_vigueur_depuis: "2021-03-05"
+    preuve: P4
+    incertitude: "Le texte vise « le gestionnaire du réseau public de distribution issu de la séparation juridique imposée à Electricité de France » sans le nommer."
+    garde_fou: "Fournir les éléments d’une décision ne donne aucun pouvoir sur elle."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0005
+    acteur: FR-ACT-0243
+    decision: FR-DEC-0001
+    role: encadre
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047993835", localisation: "art. L341-2" }
+    en_vigueur_depuis: "2023-11-10"
+    preuve: P4
+    garde_fou: "Une règle posée par avance borne la décision sans la dicter (règle 10 pour le droit de l’Union)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0006
+    acteur: FR-ACT-0246
+    decision: FR-DEC-0001
+    role: peut_annuler
+    citations:
+      - { source_id: "FR-CPL-0244", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673", localisation: "art. R311-1, 4°" }
+    en_vigueur_depuis: "2025-11-08"
+    preuve: P4
+    garde_fou: "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0007
+    acteur: FR-ACT-0237
+    decision: FR-DEC-0002
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036435936", localisation: "art. L452-2" }
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036435928", localisation: "art. L452-3" }
+    en_vigueur_depuis: "2018-01-01"
+    preuve: P4
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0008
+    acteur: FR-ACT-0241
+    decision: FR-DEC-0002
+    role: demande_reexamen
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036435928", localisation: "art. L452-3, dernier alinéa" }
+      - { source_id: "FR-CPL-0249", url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919", localisation: "art. 1 et art. 2, 7°" }
+    en_vigueur_depuis: "2018-01-01"
+    preuve: P4
+    incertitude: "Le texte ouvre ce pouvoir à « chacun des ministres concernés », chargés de l’économie et de l’énergie : à la date d’arrêt, un seul ministre porte les deux attributions."
+    garde_fou: "Le ministre peut obliger à délibérer de nouveau, pas fixer le tarif à la place du régulateur."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0009
+    acteur: FR-ACT-0246
+    decision: FR-DEC-0002
+    role: peut_annuler
+    citations:
+      - { source_id: "FR-CPL-0244", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673", localisation: "art. R311-1, 4°" }
+    en_vigueur_depuis: "2025-11-08"
+    preuve: P4
+    garde_fou: "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0010
+    acteur: FR-ACT-0237
+    decision: FR-DEC-0003
+    role: propose
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051213786", localisation: "art. L337-4" }
+    en_vigueur_depuis: "2026-01-01"
+    preuve: P4
+    garde_fou: "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0011
+    acteur: FR-ACT-0241
+    decision: FR-DEC-0003
+    role: homologue_ou_approuve
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051213786", localisation: "art. L337-4" }
+      - { source_id: "FR-CPL-0249", url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919", localisation: "art. 1 et art. 2, 7°" }
+    en_vigueur_depuis: "2026-01-01"
+    preuve: P4
+    incertitude: "« La décision est réputée acquise en l’absence d’opposition de l’un des ministres dans un délai de trois mois » : l’approbation peut être tacite. À la date d’arrêt, un seul ministre porte l’économie et l’énergie."
+    garde_fou: "Une approbation, expresse ou tacite, ne dit pas qui a conçu le contenu."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0012
+    acteur: FR-ACT-0243
+    decision: FR-DEC-0003
+    role: encadre
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051213783", localisation: "art. L337-6" }
+    en_vigueur_depuis: "2026-01-01"
+    preuve: P4
+    garde_fou: "Une règle posée par avance borne la décision sans la dicter (règle 10 pour le droit de l’Union)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0013
+    acteur: FR-ACT-0246
+    decision: FR-DEC-0003
+    role: peut_annuler
+    citations:
+      - { source_id: "FR-CPL-0244", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673", localisation: "art. R311-1, 2°" }
+    en_vigueur_depuis: "2025-11-08"
+    preuve: P3
+    incertitude: "Le texte ne dit pas quel acte publie les tarifs ; si c’est un arrêté ministériel, le Conseil d’État est compétent au titre du 2° (actes réglementaires des ministres)."
+    garde_fou: "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0014
+    acteur: FR-ACT-0243
+    decision: FR-DEC-0004
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051560632", localisation: "art. L100-1 A, I" }
+    en_vigueur_depuis: "2025-05-03"
+    preuve: P4
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0015
+    acteur: FR-ACT-0240
+    decision: FR-DEC-0005
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369424", localisation: "art. L141-1" }
+      - { source_id: "FR-CPL-0250", url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053464980", localisation: "en-tête et visas" }
+    en_vigueur_depuis: "2019-11-10"
+    preuve: P4
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0016
+    acteur: FR-ACT-0241
+    decision: FR-DEC-0005
+    role: propose
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400", localisation: "art. L141-4" }
+      - { source_id: "FR-CPL-0250", url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053464980", localisation: "en-tête et visas" }
+    en_vigueur_depuis: "2019-11-10"
+    preuve: P4
+    incertitude: "L’article L141-4 parle de l’initiative « du Gouvernement » ; le décret n° 2026-76 est pris « sur le rapport » de ce ministre."
+    garde_fou: "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0017
+    acteur: FR-ACT-0250
+    decision: FR-DEC-0005
+    role: avis_simple
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400", localisation: "art. L141-4" }
+    en_vigueur_depuis: "2019-11-10"
+    preuve: P4
+    garde_fou: "Un avis ou des observations ne lient pas l’auteur de la décision."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0018
+    acteur: FR-ACT-0251
+    decision: FR-DEC-0005
+    role: avis_simple
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400", localisation: "art. L141-4" }
+    en_vigueur_depuis: "2019-11-10"
+    preuve: P4
+    incertitude: "Consulté sur le volet de la programmation relatif aux réseaux seulement."
+    garde_fou: "Un avis ou des observations ne lient pas l’auteur de la décision."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0019
+    acteur: FR-ACT-0246
+    decision: FR-DEC-0005
+    role: peut_annuler
+    citations:
+      - { source_id: "FR-CPL-0244", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673", localisation: "art. R311-1, 1°" }
+    en_vigueur_depuis: "2025-11-08"
+    preuve: P4
+    garde_fou: "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0020
+    acteur: FR-ACT-0237
+    decision: FR-DEC-0006
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023985204", localisation: "art. L111-3" }
+    en_vigueur_depuis: "2011-06-01"
+    preuve: P4
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0021
+    acteur: FR-ACT-0241
+    decision: FR-DEC-0006
+    role: avis_conforme
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023985208", localisation: "art. L111-5" }
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031747309", localisation: "art. R111-6" }
+    en_vigueur_depuis: "2011-06-01"
+    preuve: P4
+    incertitude: "Seulement en cas de prise de contrôle par une personne d’un pays tiers, pour un motif de sécurité d’approvisionnement."
+    garde_fou: "Un pouvoir de blocage n’indique pas qu’il ait été exercé."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0022
+    acteur: FR-ACT-0248
+    decision: FR-DEC-0006
+    role: encadre
+    citations:
+      - { source_id: "FR-CPL-0247", url: "https://eur-lex.europa.eu/eli/reg/2019/943/oj", localisation: "art. 51" }
+      - { source_id: "FR-CPL-0248", url: "https://eur-lex.europa.eu/eli/dir/2019/944/oj", localisation: "art. 52" }
+    en_vigueur_depuis: "2019-07-04"
+    preuve: P4
+    incertitude: "L’avis de la Commission ne lie pas la CRE, qui doit en tenir « le plus grand compte » ; la décision ne devient effective qu’à l’issue de cette procédure. Textes européens lus dans leur version d’origine ; les textes de 2024 qui les modifient ne touchent pas ces articles. Pour le gaz, la directive (UE) 2024/1788 devait être transposée au 5 août 2026 : aucun texte de transposition n’a été trouvé parmi les titres du Journal officiel, ce qui ne prouve pas son absence."
+    garde_fou: "Une règle posée par avance borne la décision sans la dicter (règle 10 pour le droit de l’Union)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0023
+    acteur: FR-ACT-0246
+    decision: FR-DEC-0006
+    role: peut_annuler
+    citations:
+      - { source_id: "FR-CPL-0244", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673", localisation: "art. R311-1, 4°" }
+    en_vigueur_depuis: "2025-11-08"
+    preuve: P4
+    garde_fou: "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0024
+    acteur: FR-ACT-0241
+    decision: FR-DEC-0007
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031747299", localisation: "art. R111-1" }
+    en_vigueur_depuis: "2016-01-01"
+    preuve: P4
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0025
+    acteur: FR-ACT-0237
+    decision: FR-DEC-0007
+    role: avis_conforme
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023985204", localisation: "art. L111-3" }
+    en_vigueur_depuis: "2011-06-01"
+    preuve: P4
+    incertitude: "La certification par la CRE est une condition préalable : sans elle, aucun agrément n’est possible."
+    garde_fou: "Un pouvoir de blocage n’indique pas qu’il ait été exercé."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0026
+    acteur: FR-ACT-0238
+    decision: FR-DEC-0008
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824", localisation: "art. L134-25" }
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051560471", localisation: "art. L134-27" }
+      - { source_id: "FR-CPL-0251", url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054633605", localisation: "art. 3 et 4" }
+    en_vigueur_depuis: "2026-03-14"
+    preuve: P4
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0027
+    acteur: FR-ACT-0241
+    decision: FR-DEC-0008
+    role: propose
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824", localisation: "art. L134-25" }
+    en_vigueur_depuis: "2026-03-14"
+    preuve: P4
+    garde_fou: "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0028
+    acteur: FR-ACT-0237
+    decision: FR-DEC-0008
+    role: propose
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824", localisation: "art. L134-25" }
+    en_vigueur_depuis: "2026-03-14"
+    preuve: P4
+    incertitude: "Le texte vise « le président de la Commission de régulation de l’énergie »."
+    garde_fou: "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0029
+    acteur: FR-ACT-0249
+    decision: FR-DEC-0008
+    role: propose
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824", localisation: "art. L134-25" }
+    en_vigueur_depuis: "2026-03-14"
+    preuve: P4
+    incertitude: "Pour les manquements aux règles européennes d’intégrité des marchés de gros."
+    garde_fou: "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0030
+    acteur: FR-ACT-0246
+    decision: FR-DEC-0008
+    role: peut_annuler
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042144990", localisation: "art. L134-34" }
+    en_vigueur_depuis: "2020-07-24"
+    preuve: P4
+    garde_fou: "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0031
+    acteur: FR-ACT-0238
+    decision: FR-DEC-0009
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051214473", localisation: "art. L134-19" }
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042144890", localisation: "art. L134-20" }
+    en_vigueur_depuis: "2026-03-14"
+    preuve: P4
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0032
+    acteur: FR-ACT-0247
+    decision: FR-DEC-0009
+    role: peut_annuler
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042144901", localisation: "art. L134-24" }
+    en_vigueur_depuis: "2020-07-24"
+    preuve: P4
+    garde_fou: "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0033
+    acteur: FR-ACT-0175
+    decision: FR-DEC-0010
+    role: propose
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393869", localisation: "art. L321-6, I" }
+    en_vigueur_depuis: "2025-10-16"
+    preuve: P4
+    garde_fou: "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0034
+    acteur: FR-ACT-0237
+    decision: FR-DEC-0010
+    role: homologue_ou_approuve
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393869", localisation: "art. L321-6" }
+    en_vigueur_depuis: "2025-10-16"
+    preuve: P4
+    incertitude: "La CRE examine le schéma et peut en imposer la modification ; le programme annuel d’investissements est soumis à son approbation préalable."
+    garde_fou: "Une approbation, expresse ou tacite, ne dit pas qui a conçu le contenu."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0035
+    acteur: FR-ACT-0241
+    decision: FR-DEC-0010
+    role: avis_simple
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393869", localisation: "art. L321-6" }
+      - { source_id: "FR-CPL-0249", url: "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919", localisation: "art. 1 et art. 2, 7°" }
+    en_vigueur_depuis: "2025-10-16"
+    preuve: P3
+    incertitude: "Le texte dit « l’autorité administrative » sans la nommer, et aucun article réglementaire en vigueur ne la désigne pour ce pouvoir. Le ministre est retenu d’après son décret d’attributions (énergie, « notamment la politique tarifaire »)."
+    garde_fou: "Un avis ou des observations ne lient pas l’auteur de la décision."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0036
+    acteur: FR-ACT-0249
+    decision: FR-DEC-0010
+    role: avis_simple
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393869", localisation: "art. L321-6" }
+    en_vigueur_depuis: "2025-10-16"
+    preuve: P4
+    incertitude: "Consultation facultative, en cas de doute sur la cohérence avec le plan européen."
+    garde_fou: "Un avis ou des observations ne lient pas l’auteur de la décision."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0037
+    acteur: FR-ACT-0246
+    decision: FR-DEC-0010
+    role: peut_annuler
+    citations:
+      - { source_id: "FR-CPL-0244", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673", localisation: "art. R311-1, 4°" }
+    en_vigueur_depuis: "2025-11-08"
+    preuve: P4
+    garde_fou: "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0038
+    acteur: FR-ACT-0239
+    decision: FR-DEC-0011
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125", localisation: "art. L132-2, al. 1" }
+      - { source_id: "FR-CPL-0245", url: "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241006", localisation: "art. 13, al. 5" }
+    en_vigueur_depuis: "2019-11-10"
+    nombre_sieges: 1
+    sieges_total: 5
+    preuve: P4
+    incertitude: "Nomme le président du collège."
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0039
+    acteur: FR-ACT-0243
+    decision: FR-DEC-0011
+    role: avis_conforme
+    citations:
+      - { source_id: "FR-CPL-0245", url: "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241006", localisation: "art. 13, al. 5" }
+      - { source_id: "FR-CPL-0246", url: "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000022511151", localisation: "art. 1 et annexe (« Commission de régulation de l’énergie — Présidence du collège »)" }
+    en_vigueur_depuis: "2008-07-25"
+    preuve: P4
+    incertitude: "Les commissions compétentes des deux assemblées bloquent la nomination du président si les votes négatifs atteignent trois cinquièmes des suffrages exprimés dans les deux commissions réunies."
+    garde_fou: "Un pouvoir de blocage n’indique pas qu’il ait été exercé."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0040
+    acteur: FR-ACT-0244
+    decision: FR-DEC-0011
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125", localisation: "art. L132-2, 1°" }
+    en_vigueur_depuis: "2019-11-10"
+    nombre_sieges: 1
+    sieges_total: 5
+    preuve: P4
+    incertitude: "Le texte vise « le président de l’Assemblée nationale »."
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0041
+    acteur: FR-ACT-0245
+    decision: FR-DEC-0011
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125", localisation: "art. L132-2, 2°" }
+    en_vigueur_depuis: "2019-11-10"
+    nombre_sieges: 1
+    sieges_total: 5
+    preuve: P4
+    incertitude: "Le texte vise « le président du Sénat »."
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0042
+    acteur: FR-ACT-0240
+    decision: FR-DEC-0011
+    role: decide
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125", localisation: "art. L132-2, 4° et 5°" }
+    en_vigueur_depuis: "2019-11-10"
+    nombre_sieges: 2
+    sieges_total: 5
+    preuve: P4
+    incertitude: "Les deux membres sont « nommé[s] par décret » ; le texte ne précise pas s’il s’agit d’un décret du Président de la République ou du Premier ministre."
+    garde_fou: "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8)."
+    statut: VERIFIED
+
+  - competence_id: FR-CMP-0043
+    acteur: FR-ACT-0242
+    decision: FR-DEC-0011
+    role: propose
+    citations:
+      - { source_id: "FR-CPL-0243", url: "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125", localisation: "art. L132-2, 5°" }
+    en_vigueur_depuis: "2019-11-10"
+    nombre_sieges: 1
+    sieges_total: 5
+    preuve: P4
+    garde_fou: "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur."
     statut: VERIFIED

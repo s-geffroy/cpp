@@ -91,6 +91,16 @@ par `ajout_`.
     <span class="meta">{{ site.data.acteurs.liens | size }} liens entre eux</span>
   </li>
   <li>
+    <a href="{{ '/assets/donnees/ajout_decisions.json' | relative_url }}">
+      <code>ajout_decisions.json</code></a>
+    <span class="meta">{{ site.data.acteurs.decisions | size }} objets de décision de la page <a href="{{ '/decisions/' | relative_url }}">Décisions</a></span>
+  </li>
+  <li>
+    <a href="{{ '/assets/donnees/ajout_competences.json' | relative_url }}">
+      <code>ajout_competences.json</code></a>
+    <span class="meta">{{ site.data.acteurs.competences | size }} compétences : qui y tient quel rôle, et sur quel article</span>
+  </li>
+  <li>
     <a href="{{ '/assets/donnees/ajout_acteurs.schema.json' | relative_url }}">
       <code>ajout_acteurs.schema.json</code></a>
     <span class="meta">le schéma JSON qui valide le registre des acteurs</span>

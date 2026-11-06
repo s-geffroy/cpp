@@ -1,0 +1,833 @@
+[
+  {
+    "competence_id": "FR-CMP-0001",
+    "acteur": "FR-ACT-0237",
+    "decision": "FR-DEC-0001",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043215159",
+        "localisation": "art. L341-3, al. 1 et 4"
+      }
+    ],
+    "en_vigueur_depuis": "2021-03-05",
+    "preuve": "P4",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0002",
+    "acteur": "FR-ACT-0241",
+    "decision": "FR-DEC-0001",
+    "role": "demande_reexamen",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043215159",
+        "localisation": "art. L341-3, dernier alinéa"
+      },
+      {
+        "source_id": "FR-CPL-0249",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919",
+        "localisation": "art. 1 et art. 2, 7°"
+      }
+    ],
+    "en_vigueur_depuis": "2021-03-05",
+    "preuve": "P3",
+    "incertitude": "Le texte dit « l’autorité administrative » sans la nommer, et aucun article réglementaire en vigueur ne la désigne pour ce pouvoir. Le ministre est retenu d’après son décret d’attributions (énergie, « notamment la politique tarifaire »).",
+    "garde_fou": "Le ministre peut obliger à délibérer de nouveau, pas fixer le tarif à la place du régulateur.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0003",
+    "acteur": "FR-ACT-0175",
+    "decision": "FR-DEC-0001",
+    "role": "execute",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043215159",
+        "localisation": "art. L341-3, al. 2"
+      }
+    ],
+    "en_vigueur_depuis": "2021-03-05",
+    "preuve": "P4",
+    "garde_fou": "Fournir les éléments d’une décision ne donne aucun pouvoir sur elle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0004",
+    "acteur": "FR-ACT-0176",
+    "decision": "FR-DEC-0001",
+    "role": "execute",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000043215159",
+        "localisation": "art. L341-3, al. 2"
+      }
+    ],
+    "en_vigueur_depuis": "2021-03-05",
+    "preuve": "P4",
+    "incertitude": "Le texte vise « le gestionnaire du réseau public de distribution issu de la séparation juridique imposée à Electricité de France » sans le nommer.",
+    "garde_fou": "Fournir les éléments d’une décision ne donne aucun pouvoir sur elle.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0005",
+    "acteur": "FR-ACT-0243",
+    "decision": "FR-DEC-0001",
+    "role": "encadre",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000047993835",
+        "localisation": "art. L341-2"
+      }
+    ],
+    "en_vigueur_depuis": "2023-11-10",
+    "preuve": "P4",
+    "garde_fou": "Une règle posée par avance borne la décision sans la dicter (règle 10 pour le droit de l’Union).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0006",
+    "acteur": "FR-ACT-0246",
+    "decision": "FR-DEC-0001",
+    "role": "peut_annuler",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0244",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673",
+        "localisation": "art. R311-1, 4°"
+      }
+    ],
+    "en_vigueur_depuis": "2025-11-08",
+    "preuve": "P4",
+    "garde_fou": "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0007",
+    "acteur": "FR-ACT-0237",
+    "decision": "FR-DEC-0002",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036435936",
+        "localisation": "art. L452-2"
+      },
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036435928",
+        "localisation": "art. L452-3"
+      }
+    ],
+    "en_vigueur_depuis": "2018-01-01",
+    "preuve": "P4",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0008",
+    "acteur": "FR-ACT-0241",
+    "decision": "FR-DEC-0002",
+    "role": "demande_reexamen",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036435928",
+        "localisation": "art. L452-3, dernier alinéa"
+      },
+      {
+        "source_id": "FR-CPL-0249",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919",
+        "localisation": "art. 1 et art. 2, 7°"
+      }
+    ],
+    "en_vigueur_depuis": "2018-01-01",
+    "preuve": "P4",
+    "incertitude": "Le texte ouvre ce pouvoir à « chacun des ministres concernés », chargés de l’économie et de l’énergie : à la date d’arrêt, un seul ministre porte les deux attributions.",
+    "garde_fou": "Le ministre peut obliger à délibérer de nouveau, pas fixer le tarif à la place du régulateur.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0009",
+    "acteur": "FR-ACT-0246",
+    "decision": "FR-DEC-0002",
+    "role": "peut_annuler",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0244",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673",
+        "localisation": "art. R311-1, 4°"
+      }
+    ],
+    "en_vigueur_depuis": "2025-11-08",
+    "preuve": "P4",
+    "garde_fou": "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0010",
+    "acteur": "FR-ACT-0237",
+    "decision": "FR-DEC-0003",
+    "role": "propose",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051213786",
+        "localisation": "art. L337-4"
+      }
+    ],
+    "en_vigueur_depuis": "2026-01-01",
+    "preuve": "P4",
+    "garde_fou": "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0011",
+    "acteur": "FR-ACT-0241",
+    "decision": "FR-DEC-0003",
+    "role": "homologue_ou_approuve",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051213786",
+        "localisation": "art. L337-4"
+      },
+      {
+        "source_id": "FR-CPL-0249",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919",
+        "localisation": "art. 1 et art. 2, 7°"
+      }
+    ],
+    "en_vigueur_depuis": "2026-01-01",
+    "preuve": "P4",
+    "incertitude": "« La décision est réputée acquise en l’absence d’opposition de l’un des ministres dans un délai de trois mois » : l’approbation peut être tacite. À la date d’arrêt, un seul ministre porte l’économie et l’énergie.",
+    "garde_fou": "Une approbation, expresse ou tacite, ne dit pas qui a conçu le contenu.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0012",
+    "acteur": "FR-ACT-0243",
+    "decision": "FR-DEC-0003",
+    "role": "encadre",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051213783",
+        "localisation": "art. L337-6"
+      }
+    ],
+    "en_vigueur_depuis": "2026-01-01",
+    "preuve": "P4",
+    "garde_fou": "Une règle posée par avance borne la décision sans la dicter (règle 10 pour le droit de l’Union).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0013",
+    "acteur": "FR-ACT-0246",
+    "decision": "FR-DEC-0003",
+    "role": "peut_annuler",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0244",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673",
+        "localisation": "art. R311-1, 2°"
+      }
+    ],
+    "en_vigueur_depuis": "2025-11-08",
+    "preuve": "P3",
+    "incertitude": "Le texte ne dit pas quel acte publie les tarifs ; si c’est un arrêté ministériel, le Conseil d’État est compétent au titre du 2° (actes réglementaires des ministres).",
+    "garde_fou": "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0014",
+    "acteur": "FR-ACT-0243",
+    "decision": "FR-DEC-0004",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051560632",
+        "localisation": "art. L100-1 A, I"
+      }
+    ],
+    "en_vigueur_depuis": "2025-05-03",
+    "preuve": "P4",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0015",
+    "acteur": "FR-ACT-0240",
+    "decision": "FR-DEC-0005",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369424",
+        "localisation": "art. L141-1"
+      },
+      {
+        "source_id": "FR-CPL-0250",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053464980",
+        "localisation": "en-tête et visas"
+      }
+    ],
+    "en_vigueur_depuis": "2019-11-10",
+    "preuve": "P4",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0016",
+    "acteur": "FR-ACT-0241",
+    "decision": "FR-DEC-0005",
+    "role": "propose",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400",
+        "localisation": "art. L141-4"
+      },
+      {
+        "source_id": "FR-CPL-0250",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053464980",
+        "localisation": "en-tête et visas"
+      }
+    ],
+    "en_vigueur_depuis": "2019-11-10",
+    "preuve": "P4",
+    "incertitude": "L’article L141-4 parle de l’initiative « du Gouvernement » ; le décret n° 2026-76 est pris « sur le rapport » de ce ministre.",
+    "garde_fou": "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0017",
+    "acteur": "FR-ACT-0250",
+    "decision": "FR-DEC-0005",
+    "role": "avis_simple",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400",
+        "localisation": "art. L141-4"
+      }
+    ],
+    "en_vigueur_depuis": "2019-11-10",
+    "preuve": "P4",
+    "garde_fou": "Un avis ou des observations ne lient pas l’auteur de la décision.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0018",
+    "acteur": "FR-ACT-0251",
+    "decision": "FR-DEC-0005",
+    "role": "avis_simple",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400",
+        "localisation": "art. L141-4"
+      }
+    ],
+    "en_vigueur_depuis": "2019-11-10",
+    "preuve": "P4",
+    "incertitude": "Consulté sur le volet de la programmation relatif aux réseaux seulement.",
+    "garde_fou": "Un avis ou des observations ne lient pas l’auteur de la décision.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0019",
+    "acteur": "FR-ACT-0246",
+    "decision": "FR-DEC-0005",
+    "role": "peut_annuler",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0244",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673",
+        "localisation": "art. R311-1, 1°"
+      }
+    ],
+    "en_vigueur_depuis": "2025-11-08",
+    "preuve": "P4",
+    "garde_fou": "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0020",
+    "acteur": "FR-ACT-0237",
+    "decision": "FR-DEC-0006",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023985204",
+        "localisation": "art. L111-3"
+      }
+    ],
+    "en_vigueur_depuis": "2011-06-01",
+    "preuve": "P4",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0021",
+    "acteur": "FR-ACT-0241",
+    "decision": "FR-DEC-0006",
+    "role": "avis_conforme",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023985208",
+        "localisation": "art. L111-5"
+      },
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031747309",
+        "localisation": "art. R111-6"
+      }
+    ],
+    "en_vigueur_depuis": "2011-06-01",
+    "preuve": "P4",
+    "incertitude": "Seulement en cas de prise de contrôle par une personne d’un pays tiers, pour un motif de sécurité d’approvisionnement.",
+    "garde_fou": "Un pouvoir de blocage n’indique pas qu’il ait été exercé.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0022",
+    "acteur": "FR-ACT-0248",
+    "decision": "FR-DEC-0006",
+    "role": "encadre",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0247",
+        "url": "https://eur-lex.europa.eu/eli/reg/2019/943/oj",
+        "localisation": "art. 51"
+      },
+      {
+        "source_id": "FR-CPL-0248",
+        "url": "https://eur-lex.europa.eu/eli/dir/2019/944/oj",
+        "localisation": "art. 52"
+      }
+    ],
+    "en_vigueur_depuis": "2019-07-04",
+    "preuve": "P4",
+    "incertitude": "L’avis de la Commission ne lie pas la CRE, qui doit en tenir « le plus grand compte » ; la décision ne devient effective qu’à l’issue de cette procédure. Textes européens lus dans leur version d’origine ; les textes de 2024 qui les modifient ne touchent pas ces articles. Pour le gaz, la directive (UE) 2024/1788 devait être transposée au 5 août 2026 : aucun texte de transposition n’a été trouvé parmi les titres du Journal officiel, ce qui ne prouve pas son absence.",
+    "garde_fou": "Une règle posée par avance borne la décision sans la dicter (règle 10 pour le droit de l’Union).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0023",
+    "acteur": "FR-ACT-0246",
+    "decision": "FR-DEC-0006",
+    "role": "peut_annuler",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0244",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673",
+        "localisation": "art. R311-1, 4°"
+      }
+    ],
+    "en_vigueur_depuis": "2025-11-08",
+    "preuve": "P4",
+    "garde_fou": "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0024",
+    "acteur": "FR-ACT-0241",
+    "decision": "FR-DEC-0007",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000031747299",
+        "localisation": "art. R111-1"
+      }
+    ],
+    "en_vigueur_depuis": "2016-01-01",
+    "preuve": "P4",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0025",
+    "acteur": "FR-ACT-0237",
+    "decision": "FR-DEC-0007",
+    "role": "avis_conforme",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000023985204",
+        "localisation": "art. L111-3"
+      }
+    ],
+    "en_vigueur_depuis": "2011-06-01",
+    "preuve": "P4",
+    "incertitude": "La certification par la CRE est une condition préalable : sans elle, aucun agrément n’est possible.",
+    "garde_fou": "Un pouvoir de blocage n’indique pas qu’il ait été exercé.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0026",
+    "acteur": "FR-ACT-0238",
+    "decision": "FR-DEC-0008",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824",
+        "localisation": "art. L134-25"
+      },
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051560471",
+        "localisation": "art. L134-27"
+      },
+      {
+        "source_id": "FR-CPL-0251",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054633605",
+        "localisation": "art. 3 et 4"
+      }
+    ],
+    "en_vigueur_depuis": "2026-03-14",
+    "preuve": "P4",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0027",
+    "acteur": "FR-ACT-0241",
+    "decision": "FR-DEC-0008",
+    "role": "propose",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824",
+        "localisation": "art. L134-25"
+      }
+    ],
+    "en_vigueur_depuis": "2026-03-14",
+    "preuve": "P4",
+    "garde_fou": "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0028",
+    "acteur": "FR-ACT-0237",
+    "decision": "FR-DEC-0008",
+    "role": "propose",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824",
+        "localisation": "art. L134-25"
+      }
+    ],
+    "en_vigueur_depuis": "2026-03-14",
+    "preuve": "P4",
+    "incertitude": "Le texte vise « le président de la Commission de régulation de l’énergie ».",
+    "garde_fou": "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0029",
+    "acteur": "FR-ACT-0249",
+    "decision": "FR-DEC-0008",
+    "role": "propose",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824",
+        "localisation": "art. L134-25"
+      }
+    ],
+    "en_vigueur_depuis": "2026-03-14",
+    "preuve": "P4",
+    "incertitude": "Pour les manquements aux règles européennes d’intégrité des marchés de gros.",
+    "garde_fou": "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0030",
+    "acteur": "FR-ACT-0246",
+    "decision": "FR-DEC-0008",
+    "role": "peut_annuler",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042144990",
+        "localisation": "art. L134-34"
+      }
+    ],
+    "en_vigueur_depuis": "2020-07-24",
+    "preuve": "P4",
+    "garde_fou": "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0031",
+    "acteur": "FR-ACT-0238",
+    "decision": "FR-DEC-0009",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051214473",
+        "localisation": "art. L134-19"
+      },
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042144890",
+        "localisation": "art. L134-20"
+      }
+    ],
+    "en_vigueur_depuis": "2026-03-14",
+    "preuve": "P4",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0032",
+    "acteur": "FR-ACT-0247",
+    "decision": "FR-DEC-0009",
+    "role": "peut_annuler",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042144901",
+        "localisation": "art. L134-24"
+      }
+    ],
+    "en_vigueur_depuis": "2020-07-24",
+    "preuve": "P4",
+    "garde_fou": "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0033",
+    "acteur": "FR-ACT-0175",
+    "decision": "FR-DEC-0010",
+    "role": "propose",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393869",
+        "localisation": "art. L321-6, I"
+      }
+    ],
+    "en_vigueur_depuis": "2025-10-16",
+    "preuve": "P4",
+    "garde_fou": "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0034",
+    "acteur": "FR-ACT-0237",
+    "decision": "FR-DEC-0010",
+    "role": "homologue_ou_approuve",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393869",
+        "localisation": "art. L321-6"
+      }
+    ],
+    "en_vigueur_depuis": "2025-10-16",
+    "preuve": "P4",
+    "incertitude": "La CRE examine le schéma et peut en imposer la modification ; le programme annuel d’investissements est soumis à son approbation préalable.",
+    "garde_fou": "Une approbation, expresse ou tacite, ne dit pas qui a conçu le contenu.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0035",
+    "acteur": "FR-ACT-0241",
+    "decision": "FR-DEC-0010",
+    "role": "avis_simple",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393869",
+        "localisation": "art. L321-6"
+      },
+      {
+        "source_id": "FR-CPL-0249",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919",
+        "localisation": "art. 1 et art. 2, 7°"
+      }
+    ],
+    "en_vigueur_depuis": "2025-10-16",
+    "preuve": "P3",
+    "incertitude": "Le texte dit « l’autorité administrative » sans la nommer, et aucun article réglementaire en vigueur ne la désigne pour ce pouvoir. Le ministre est retenu d’après son décret d’attributions (énergie, « notamment la politique tarifaire »).",
+    "garde_fou": "Un avis ou des observations ne lient pas l’auteur de la décision.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0036",
+    "acteur": "FR-ACT-0249",
+    "decision": "FR-DEC-0010",
+    "role": "avis_simple",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052393869",
+        "localisation": "art. L321-6"
+      }
+    ],
+    "en_vigueur_depuis": "2025-10-16",
+    "preuve": "P4",
+    "incertitude": "Consultation facultative, en cas de doute sur la cohérence avec le plan européen.",
+    "garde_fou": "Un avis ou des observations ne lient pas l’auteur de la décision.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0037",
+    "acteur": "FR-ACT-0246",
+    "decision": "FR-DEC-0010",
+    "role": "peut_annuler",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0244",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673",
+        "localisation": "art. R311-1, 4°"
+      }
+    ],
+    "en_vigueur_depuis": "2025-11-08",
+    "preuve": "P4",
+    "garde_fou": "Une voie de recours ouverte ne dit rien des recours effectivement formés ni de leur issue.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0038",
+    "acteur": "FR-ACT-0239",
+    "decision": "FR-DEC-0011",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125",
+        "localisation": "art. L132-2, al. 1"
+      },
+      {
+        "source_id": "FR-CPL-0245",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241006",
+        "localisation": "art. 13, al. 5"
+      }
+    ],
+    "en_vigueur_depuis": "2019-11-10",
+    "nombre_sieges": 1,
+    "sieges_total": 5,
+    "preuve": "P4",
+    "incertitude": "Nomme le président du collège.",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0039",
+    "acteur": "FR-ACT-0243",
+    "decision": "FR-DEC-0011",
+    "role": "avis_conforme",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0245",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241006",
+        "localisation": "art. 13, al. 5"
+      },
+      {
+        "source_id": "FR-CPL-0246",
+        "url": "https://www.legifrance.gouv.fr/loda/id/JORFTEXT000022511151",
+        "localisation": "art. 1 et annexe (« Commission de régulation de l’énergie — Présidence du collège »)"
+      }
+    ],
+    "en_vigueur_depuis": "2008-07-25",
+    "preuve": "P4",
+    "incertitude": "Les commissions compétentes des deux assemblées bloquent la nomination du président si les votes négatifs atteignent trois cinquièmes des suffrages exprimés dans les deux commissions réunies.",
+    "garde_fou": "Un pouvoir de blocage n’indique pas qu’il ait été exercé.",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0040",
+    "acteur": "FR-ACT-0244",
+    "decision": "FR-DEC-0011",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125",
+        "localisation": "art. L132-2, 1°"
+      }
+    ],
+    "en_vigueur_depuis": "2019-11-10",
+    "nombre_sieges": 1,
+    "sieges_total": 5,
+    "preuve": "P4",
+    "incertitude": "Le texte vise « le président de l’Assemblée nationale ».",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0041",
+    "acteur": "FR-ACT-0245",
+    "decision": "FR-DEC-0011",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125",
+        "localisation": "art. L132-2, 2°"
+      }
+    ],
+    "en_vigueur_depuis": "2019-11-10",
+    "nombre_sieges": 1,
+    "sieges_total": 5,
+    "preuve": "P4",
+    "incertitude": "Le texte vise « le président du Sénat ».",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0042",
+    "acteur": "FR-ACT-0240",
+    "decision": "FR-DEC-0011",
+    "role": "decide",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125",
+        "localisation": "art. L132-2, 4° et 5°"
+      }
+    ],
+    "en_vigueur_depuis": "2019-11-10",
+    "nombre_sieges": 2,
+    "sieges_total": 5,
+    "preuve": "P4",
+    "incertitude": "Les deux membres sont « nommé[s] par décret » ; le texte ne précise pas s’il s’agit d’un décret du Président de la République ou du Premier ministre.",
+    "garde_fou": "Une compétence juridique ne dit ni qui pèse sur la décision en fait, ni dans quel sens elle a été exercée (règle 8).",
+    "statut": "VERIFIED"
+  },
+  {
+    "competence_id": "FR-CMP-0043",
+    "acteur": "FR-ACT-0242",
+    "decision": "FR-DEC-0011",
+    "role": "propose",
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125",
+        "localisation": "art. L132-2, 5°"
+      }
+    ],
+    "en_vigueur_depuis": "2019-11-10",
+    "nombre_sieges": 1,
+    "sieges_total": 5,
+    "preuve": "P4",
+    "garde_fou": "Proposer ou saisir n’est pas décider : la suite appartient à un autre acteur.",
+    "statut": "VERIFIED"
+  }
+]

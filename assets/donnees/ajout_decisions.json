@@ -1,0 +1,83 @@
+[
+  {
+    "decision_id": "FR-DEC-0001",
+    "libelle": "Fixer les tarifs d’utilisation des réseaux publics d’électricité (TURPE)",
+    "domaine": "energy",
+    "dimension": "P-REG",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0002",
+    "libelle": "Fixer les tarifs d’utilisation des réseaux de gaz naturel et des terminaux méthaniers",
+    "domaine": "energy",
+    "dimension": "P-REG",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0003",
+    "libelle": "Fixer les tarifs réglementés de vente d’électricité",
+    "domaine": "energy",
+    "dimension": "P-REG",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0004",
+    "libelle": "Fixer par la loi les objectifs et les priorités de la politique énergétique",
+    "domaine": "energy",
+    "dimension": "P-LEGAL",
+    "notes": "Le code prévoit une telle loi tous les cinq ans. Aucune n’a été trouvée parmi les titres du Journal officiel entre juin 2025 et le 12 août 2026 : la compétence existe, son exercice n’est pas constaté.",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0005",
+    "libelle": "Adopter la programmation pluriannuelle de l’énergie (PPE)",
+    "domaine": "energy",
+    "dimension": "P-EXEC",
+    "notes": "Exercée avant la date d’arrêt : décret n° 2026-76 du 12 février 2026.",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0006",
+    "libelle": "Certifier l’indépendance d’un gestionnaire de réseau de transport d’électricité ou de gaz",
+    "domaine": "energy",
+    "dimension": "P-REG",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0007",
+    "libelle": "Agréer et désigner un gestionnaire de réseau de transport",
+    "domaine": "energy",
+    "dimension": "P-EXEC",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0008",
+    "libelle": "Sanctionner les manquements des gestionnaires de réseau et des acteurs des marchés de l’énergie",
+    "domaine": "energy",
+    "dimension": "P-REG",
+    "notes": "La décision n° 2026-1219 QPC du 6 août 2026 a jugé contraires à la Constitution des mots des articles L134-25-1 et L134-31, qui encadrent la procédure ; l’abrogation est reportée.",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0009",
+    "libelle": "Trancher les différends sur l’accès aux réseaux et leur utilisation",
+    "domaine": "energy",
+    "dimension": "P-REG",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0010",
+    "libelle": "Approuver le schéma décennal et le programme d’investissements du réseau de transport d’électricité",
+    "domaine": "energy",
+    "dimension": "P-INFRA",
+    "statut": "VERIFIED"
+  },
+  {
+    "decision_id": "FR-DEC-0011",
+    "libelle": "Nommer les membres du collège de la CRE",
+    "domaine": "energy",
+    "dimension": "P-EXEC",
+    "notes": "Cinq sièges (art. L132-2).",
+    "statut": "VERIFIED"
+  }
+]

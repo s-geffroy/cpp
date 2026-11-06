@@ -2,12 +2,14 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "ajout_acteurs.schema.json",
   "title": "France-System-2026 — registre des acteurs v0.2 (ajout éditorial, hors paquet)",
-  "description": "Organisations nommées et liens documentés entre elles. Descend de la catégorie (FR-NODE-*) à l'entité juridique, selon les règles du graphe des entreprises de la méthode. Aucun bénéficiaire effectif n'est deviné ; aucun lien indirect n'est stocké ni calculé.",
+  "description": "Organisations nommées et liens documentés entre elles. Descend de la catégorie (FR-NODE-*) à l'entité juridique, selon les règles du graphe des entreprises de la méthode. Aucun bénéficiaire effectif n'est deviné ; aucun lien indirect n'est stocké ni calculé. Depuis le pilote énergie, il décrit aussi les objets de décision (FR-DEC-*) et les compétences (FR-CMP-*) : qui a, d'après un texte en vigueur à la date d'arrêt, le pouvoir de décider, proposer, approuver, bloquer ou annuler quoi.",
   "type": "object",
   "required": [
     "meta",
     "acteurs",
-    "liens"
+    "liens",
+    "decisions",
+    "competences"
   ],
   "properties": {
     "meta": {
@@ -41,6 +43,18 @@
       "type": "array",
       "items": {
         "$ref": "#/$defs/lien"
+      }
+    },
+    "decisions": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/decision"
+      }
+    },
+    "competences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/competence"
       }
     }
   },
@@ -133,7 +147,7 @@
           "type": "string"
         },
         "type_acteur": {
-          "description": "Personnes morales et entités publiques uniquement : la v0.2 n'enregistre aucune personne physique.",
+          "description": "Personnes morales et entités publiques uniquement : la v0.2 n'enregistre aucune personne physique. pouvoir_public : organe constitutionnel ou gouvernemental (Président de la République, Gouvernement, un ministre, Parlement, une assemblée), enregistré comme siège et jamais comme la personne qui l'occupe. juridiction : cour ou tribunal. instance_consultative : organe qui rend des avis sans décider.",
           "type": "string",
           "enum": [
             "etat",
@@ -146,7 +160,10 @@
             "association",
             "organisation_internationale",
             "gestionnaire_actifs",
-            "fonds_institutionnel"
+            "fonds_institutionnel",
+            "pouvoir_public",
+            "juridiction",
+            "instance_consultative"
           ]
         },
         "forme_juridique": {
@@ -509,6 +526,120 @@
           }
         }
       ]
+    },
+    "decision": {
+      "description": "Un objet de décision : ce sur quoi quelqu'un a le pouvoir de trancher, formulé de façon concrète et vérifiable (« fixer les tarifs d'utilisation des réseaux d'électricité »), jamais une politique en général.",
+      "type": "object",
+      "required": [
+        "decision_id",
+        "libelle",
+        "domaine",
+        "dimension",
+        "statut"
+      ],
+      "properties": {
+        "decision_id": {
+          "type": "string",
+          "pattern": "^FR-DEC-[0-9]{4}$"
+        },
+        "libelle": {
+          "type": "string"
+        },
+        "domaine": {
+          "description": "Clé de domaine de la couverture du paquet (couverture.json).",
+          "type": "string"
+        },
+        "dimension": {
+          "$ref": "#/$defs/dimension"
+        },
+        "notes": {
+          "type": "string"
+        },
+        "statut": {
+          "$ref": "#/$defs/statut"
+        }
+      },
+      "additionalProperties": false
+    },
+    "competence": {
+      "description": "Un acteur tient un rôle dans un objet de décision, d'après un article de texte en vigueur à la date d'arrêt. C'est un pouvoir juridique, pas un pouvoir de fait.",
+      "type": "object",
+      "required": [
+        "competence_id",
+        "acteur",
+        "decision",
+        "role",
+        "citations",
+        "en_vigueur_depuis",
+        "preuve",
+        "garde_fou",
+        "statut"
+      ],
+      "properties": {
+        "competence_id": {
+          "type": "string",
+          "pattern": "^FR-CMP-[0-9]{4}$"
+        },
+        "acteur": {
+          "type": "string",
+          "pattern": "^FR-ACT-[0-9]{4}$"
+        },
+        "decision": {
+          "type": "string",
+          "pattern": "^FR-DEC-[0-9]{4}$"
+        },
+        "role": {
+          "description": "Vocabulaire fermé. decide : tranche. propose : prépare, saisit ou soumet ; ne tranche pas. avis_conforme : peut bloquer (opposition, veto, certification préalable). avis_simple : est consulté ou peut formuler des observations, sans effet obligatoire. demande_reexamen : peut obliger l'auteur de la décision à délibérer de nouveau, sans pouvoir décider à sa place. homologue_ou_approuve : approuve, expressément ou en ne s'opposant pas. peut_annuler : juge des recours. encadre : fixe par avance les règles que la décision doit respecter (loi, droit de l'Union). execute : fournit les éléments ou met en œuvre.",
+          "type": "string",
+          "enum": [
+            "decide",
+            "propose",
+            "avis_conforme",
+            "avis_simple",
+            "demande_reexamen",
+            "homologue_ou_approuve",
+            "peut_annuler",
+            "encadre",
+            "execute"
+          ]
+        },
+        "citations": {
+          "description": "Le ou les articles qui fondent la compétence. Le premier est le fondement principal.",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/citation"
+          }
+        },
+        "en_vigueur_depuis": {
+          "description": "Date de début de la version de l'article principal en vigueur à la date d'arrêt.",
+          "type": "string",
+          "format": "date"
+        },
+        "nombre_sieges": {
+          "description": "Pour une nomination : sièges pourvus par cet acteur.",
+          "type": "integer",
+          "minimum": 1
+        },
+        "sieges_total": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "preuve": {
+          "$ref": "#/$defs/preuve"
+        },
+        "incertitude": {
+          "type": "string"
+        },
+        "garde_fou": {
+          "description": "Ce que cette compétence ne prouve pas. Obligatoire.",
+          "type": "string"
+        },
+        "statut": {
+          "$ref": "#/$defs/statut"
+        }
+      },
+      "additionalProperties": false
     }
   }
 }

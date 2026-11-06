@@ -4,7 +4,8 @@
 Quatre fichiers sont ecrits a la main dans _data/, HORS PAQUET :
   - passage-dimensions.yml  : mots-cles libres du registre -> dimensions P-* ;
   - registre-complement.yml : sources ajoutees (FR-CPL-*) ;
-  - acteurs.yml             : registre des acteurs v0.2 (FR-ACT-*, FR-LNK-*),
+  - acteurs.yml             : registre des acteurs v0.2 (FR-ACT-*, FR-LNK-*,
+                              et depuis le pilote energie FR-DEC-*, FR-CMP-*),
                               valide contre assets/donnees/ajout_acteurs.schema.json ;
   - provenance.yml          : domaines de couverture -> categories et pages
                               (page /provenance/), verifie seulement.
@@ -90,6 +91,7 @@ def verifier_acteurs(acteurs, sources, noeuds, dates_sources):
 
     citations = [c for a in acteurs["acteurs"] for c in a["citations"]]
     citations += [l["citation"] for l in acteurs["liens"]]
+    citations += [c for k in acteurs["competences"] for c in k["citations"]]
     inconnues = sorted({c["source_id"] for c in citations} - set(sources))
     if inconnues:
         raise SystemExit(f"Sources citees absentes du registre : {inconnues}")
@@ -124,8 +126,40 @@ def verifier_acteurs(acteurs, sources, noeuds, dates_sources):
                              f"posterieure a la source citee ({date_source})")
 
 
+    verifier_competences(acteurs, ids_acteurs, dates_sources)
+
+
+def verifier_competences(acteurs, ids_acteurs, dates_sources):
+    """Une competence relie un acteur a un objet de decision. Le texte qui la
+    fonde doit etre en vigueur a la date d'arret, et la source qui le porte
+    ne peut pas etre plus ancienne que la version citee."""
+    ids_decisions = [d["decision_id"] for d in acteurs["decisions"]]
+    ids_competences = [k["competence_id"] for k in acteurs["competences"]]
+    for nom, ids in (("decisions", ids_decisions), ("competences", ids_competences)):
+        if len(ids) != len(set(ids)):
+            raise SystemExit(f"Identifiants en double dans les {nom}")
+    domaines = {c["domain"] for c in json.loads((DATA / "couverture.json").read_text(encoding="utf-8"))}
+    for d in acteurs["decisions"]:
+        if d["domaine"] not in domaines:
+            raise SystemExit(f"{d['decision_id']} : domaine inconnu {d['domaine']}")
+    for k in acteurs["competences"]:
+        if k["acteur"] not in ids_acteurs:
+            raise SystemExit(f"{k['competence_id']} : acteur inconnu {k['acteur']}")
+        if k["decision"] not in ids_decisions:
+            raise SystemExit(f"{k['competence_id']} : decision inconnue {k['decision']}")
+        if k["en_vigueur_depuis"] > acteurs["meta"]["date_arret"]:
+            raise SystemExit(f"{k['competence_id']} : texte entre en vigueur apres la date d'arret")
+        date_source = dates_sources.get(k["citations"][0]["source_id"], "")
+        if date_source and k["en_vigueur_depuis"] > date_source:
+            raise SystemExit(f"{k['competence_id']} : version du {k['en_vigueur_depuis']}, "
+                             f"posterieure a la source citee ({date_source})")
+    sans_competence = set(ids_decisions) - {k["decision"] for k in acteurs["competences"]}
+    if sans_competence:
+        raise SystemExit(f"Decisions sans aucune competence : {sorted(sans_competence)}")
+
+
 def exporter_acteurs(acteurs):
-    for nom in ("acteurs", "liens"):
+    for nom in ("acteurs", "liens", "decisions", "competences"):
         chemin = TELECHARGEMENTS / f"ajout_{nom}.json"
         chemin.write_text(json.dumps(acteurs[nom], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"  {chemin.relative_to(RACINE)} : {len(acteurs[nom])} {nom}")

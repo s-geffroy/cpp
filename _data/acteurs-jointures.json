@@ -2,9 +2,9 @@
  "meta": {
   "annee_notification": "2025",
   "copie_hatvp": "20260812133400",
-  "acteurs_siren": 186,
-  "trouves": 101,
-  "aucun": 85
+  "acteurs_siren": 195,
+  "trouves": 106,
+  "aucun": 89
  },
  "acteurs": [
   {
@@ -50177,7 +50177,7 @@
      "contreparties": [
       {
        "siren": "257500017",
-       "nom": null
+       "nom": "SYNDICAT DES EAUX D ILE DE FRANCE"
       }
      ],
      "objet": "2025139 - TEL. MOB. (FORFAITS, SMARTPH., EQ) SFR (RANG 1)",
@@ -50972,7 +50972,7 @@
      "contreparties": [
       {
        "siren": "219200235",
-       "nom": null
+       "nom": "COMMUNE DE CLAMART"
       }
      ],
      "objet": "Téléphonie sur réseaux mobiles adhérents ayant leur siège en île de France",
@@ -51542,7 +51542,7 @@
      "contreparties": [
       {
        "siren": "257500017",
-       "nom": null
+       "nom": "SYNDICAT DES EAUX D ILE DE FRANCE"
       }
      ],
      "objet": "2025250 SERVICES DE COM. ELEC. (DONT TEL. FIXE)",
@@ -52517,7 +52517,7 @@
      "contreparties": [
       {
        "siren": "219200235",
-       "nom": null
+       "nom": "COMMUNE DE CLAMART"
       }
      ],
      "objet": "Services de communications électroniques (Internet, interconnexion, données mobiles M2M, téléphonie fixe, diffusion d’in",
@@ -53164,6 +53164,2481 @@
      "depenses": "< 10 000 euros"
     }
    }
+  },
+  {
+   "actor_id": "FR-ACT-0237",
+   "nom": "CRE",
+   "siren": "110000106",
+   "titulaire": [],
+   "acheteur": [
+    {
+     "date": "2025-01-07",
+     "contreparties": [
+      {
+       "siren": "331980235",
+       "nom": "ADAY"
+      }
+     ],
+     "objet": "Réalisation d’une veille médiatique à prix forfaitaire reposant notamment sur la fourniture par voie électronique de contenus de presse écrite (print et digitale) et audiovisuelle (TV et radio), la réalisation d’une revue de presse, rediffusée par voie électronique en interne, la fourniture des outils permettant la gestion de ces contenus et la mesure quantitative et qualitative des retombées au moyen d'un baromètre d'image. Cette veille médiatique porte sur l’actualité du secteur de l’énergie dans ses dimensions technique, politique, économique, concurrentielle et environnementale tant en France et à l’international, en privilégiant la zone européenne. Ce marché comprend également des prestations ponctuelles éventuelles, exécutées à prix unitaires par application des prix figurant au bordereau des prix unitaires (BPU).",
+     "montant": 483988.0,
+     "montant_fr": "483 988 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-17",
+     "contreparties": [
+      {
+       "siren": "518903448",
+       "nom": "SCHWARTZ AND CO SAS"
+      }
+     ],
+     "objet": "Audit du niveau des charges d’exploitation et de capital demandées par les opérateurs de stockages souterrains, de transport et de distribution de gaz naturel en France sur la période 2024-2027 pour répondre aux exigences du règlement européen 2024/1787 sur la réduction des émissions de méthane. • Phase 1 : description détaillée des différentes obligations induites par le règlement européen 2024/1787 sur la réduction des émissions de méthane sur les opérateurs de distribution, de transport et de stockage de gaz naturel accompagnée d’une première appréciation du niveau de conformité initial des différents opérateurs avec ces obligations ; • Phase 2 : appréciation du niveau des charges d’exploitation ainsi que de l’arbitrage entre ces dernières et les charges de capital de chaque opérateur (GRTgaz, Teréga, Storengy, Géométhane et GRDF) sur la période 2024-2027 nécessaires à la mise en conformité à partir d’éléments de comparaison, ou sur la base de l’expertise du titulaire du marché ;...",
+     "montant": 142733.5,
+     "montant_fr": "142 733,50 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-12",
+     "contreparties": [
+      {
+       "siren": "398484238",
+       "nom": "EMENDO"
+      }
+     ],
+     "objet": "Conception et réalisation : - du rapport d’activité annuel de la CRE (création version française et version web anglaise, l'exécution, proposition iconographique) – prestation au forfait (pour la première année) - Des différents rapports thématiques des services de la CRE, avec un principe de maquette cohérent avec celui du rapport annuel d’activité. L’idée est d’avoir un esprit de collection sur l’ensemble des rapports de la CRE - prestations sur bons de commande.",
+     "montant": 291494.8,
+     "montant_fr": "291 494,80 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-25",
+     "contreparties": [
+      {
+       "siren": "891201170",
+       "nom": "PARIS INFRASTRUCTURE ADVISORY"
+      }
+     ],
+     "objet": "Audit du niveau des charges et produits d’exploitation des entreprises locales de distribution de gaz naturel disposant d’un tarif spécifique décomposé comme suit : • Phase 1 : une description des différents postes de charges et produits d’exploitation de chaque ELD et une analyse détaillée et quantifiée de leurs évolutions sur la période 2022 à 2029, ainsi qu' une analyse du respect des principes de dissociation comptable par chaque ELD • Phase 2 : une appréciation du niveau des charges et produits réalisés de 2022 à 2024, estimés 2025 et prévisionnels 2026-2029 de chaque ELD à partir d’éléments de comparaison, ou sur la base de l’expertise du titulaire du marché • Phase 3 : des recommandations quant au niveau efficient de charges d’exploitation de chaque ELD qu’il conviendrait de prendre en compte dans le revenu autorisé et une appréciation sur les indicateurs de performance mis en place et suivis par les opérateurs ; • Phase 4 supplémentaire éventuelle (tranche optionnelle) : ...",
+     "montant": 200025.0,
+     "montant_fr": "200 025 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-04",
+     "contreparties": [
+      {
+       "siren": "891201170",
+       "nom": "PARIS INFRASTRUCTURE ADVISORY"
+      }
+     ],
+     "objet": "Audit du niveau des charges et produits d’exploitation d’EDF SEI (lot 1) et audit du niveau des charges et produits d’exploitation des ELD d’électricité Gérédis et Eau Electricité de Wallis et Futuna (lot 2). Ces audits sont décomposés comme suit : Phase 1 : une description des différents postes de charges et produits d’exploitation d’EDF SEI (lot 1) et de Gérédis et EEWF (lot 2), hors achats liés au système électrique, et une analyse détaillée et quantifiée de leurs évolutions sur la période 2022 à 2029 ; Phase 2 : appréciation du niveau des charges et produits réalisé de 2022 à 2024, estimé 2025 et prévisionnels 2026-2029 d’EDF SEI (lot 1) et de Gérédis et EEWF (lot 2) à partir d’éléments de comparaison, ou sur la base de l’expertise du titulaire du marché ; Phase 3 : recommandations quant au niveau efficient de charges d’exploitation d’EDF SEI (lot 1) et de Gérédis et EEWF (lot 2) qu’il conviendrait de prendre en compte dans le revenu autorisé et appréciation sur les indicateu...",
+     "montant": 66275.0,
+     "montant_fr": "66 275 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-09",
+     "contreparties": [
+      {
+       "siren": "518903448",
+       "nom": "SCHWARTZ AND CO SAS"
+      }
+     ],
+     "objet": "Audit du niveau des charges et produits d’exploitation d’EDF SEI (lot 1) et audit du niveau des charges et produits d’exploitation des ELD d’électricité Gérédis et Eau Electricité de Wallis et Futuna (lot 2). Ces audits sont décomposés comme suit : Phase 1 : une description des différents postes de charges et produits d’exploitation d’EDF SEI (lot 1) et de Gérédis et EEWF (lot 2), hors achats liés au système électrique, et une analyse détaillée et quantifiée de leurs évolutions sur la période 2022 à 2029 ; Phase 2 : appréciation du niveau des charges et produits réalisé de 2022 à 2024, estimé 2025 et prévisionnels 2026-2029 d’EDF SEI (lot 1) et de Gérédis et EEWF (lot 2) à partir d’éléments de comparaison, ou sur la base de l’expertise du titulaire du marché ; Phase 3 : recommandations quant au niveau efficient de charges d’exploitation d’EDF SEI (lot 1) et de Gérédis et EEWF (lot 2) qu’il conviendrait de prendre en compte dans le revenu autorisé et appréciation sur les indicateu...",
+     "montant": 151450.0,
+     "montant_fr": "151 450 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-28",
+     "contreparties": [
+      {
+       "siren": "503770554",
+       "nom": "TRAG SECURITE"
+      }
+     ],
+     "objet": "Prestation de gardiennage des locaux de la commission de régulation de l’énergie : L’immeuble est un immeuble de bureaux indépendant situé 15, rue Pasquier - Paris 8ème arrondissement, comprenant 7 étages en superstructure sur rez-de-chaussée et 2 niveaux de sous-sol. La prestation consiste en une surveillance de nuit, de 20 h à 8 h le lendemain matin du lundi au jeudi et du vendredi 20 h au lundi 8 h (prestation fixe). Des prestations ponctuelles pourront être demandées. Elles feront l’objet de bons de commandes spécifiques au cas par cas, sur la base du bordereau de prix unitaire (B.P.U.).",
+     "montant": 789072.56,
+     "montant_fr": "789 072,56 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-08-13",
+     "contreparties": [
+      {
+       "siren": "672040896",
+       "nom": "JULHIET STERWEN"
+      }
+     ],
+     "objet": "Le marché a pour objet la réalisation, pour le compte de la Commission de régulation de l’énergie, d’un audit du niveau des frais de gestion, sur les années civiles 2020 à 2024, de l’opérateur de charges de service public de l’énergie (CSPE) EDF, en distinguant les directions/ services suivants : • EDF Obligation d’Achat (EDF OA) en tant que cocontractant de la majorité des contrats d’obligation d’achat et de la totalité des contrats de complément de rémunération en électricité en métropole continentale ; • EDF Systèmes Energétiques Insulaires (EDF SEI), en tant notamment que cocontractant des contrats d’achat, fournisseur et producteur historique.",
+     "montant": 98700.0,
+     "montant_fr": "98 700 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-08",
+     "contreparties": [
+      {
+       "siren": "509989000",
+       "nom": "AVENCORE"
+      }
+     ],
+     "objet": "Le présent marché a pour objet la réalisation d’audits relatifs aux grands projets d’investissements des gestionnaires de réseaux de transport (GRT) d’électricité (RTE) (lot 1). Ces audits, portant sur les projets à l’étude durant la période du tarif d’utilisation en vigueur, fourniront à la Commission de régulation de l’énergie (CRE) une analyse et une recommandation des budgets prévisionnels des GRT. Ces audits pourront également porter sur des thématiques liées au référentiel de chiffrage utilisé pour établir les budgets des projets.",
+     "montant": 1450000.0,
+     "montant_fr": "1 450 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-30",
+     "contreparties": [
+      {
+       "siren": "518903448",
+       "nom": "SCHWARTZ AND CO SAS"
+      }
+     ],
+     "objet": "Le présent marché a pour objet la réalisation d’audits relatifs aux grands projets d’investissements des gestionnaires de réseaux de transport (GRT) de gaz naturel (NaTran et Teréga) (lot 2). Ces audits, portant sur les projets à l’étude durant la période du tarif d’utilisation en vigueur, fourniront à la Commission de régulation de l’énergie (CRE) une analyse et une recommandation des budgets prévisionnels des GRT.",
+     "montant": 900000.0,
+     "montant_fr": "900 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-05",
+     "contreparties": [
+      {
+       "siren": "450502687",
+       "nom": "MEDIACOM SYSTEME DISTRIBUTION"
+      }
+     ],
+     "objet": "MS n°10 Acquisition de 10 stations d'accueil",
+     "montant": 1320.0,
+     "montant_fr": "1 320 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-07",
+     "contreparties": [
+      {
+       "siren": "450502687",
+       "nom": "MEDIACOM SYSTEME DISTRIBUTION"
+      }
+     ],
+     "objet": "Acquisition de 25 ordinateurs portables",
+     "montant": 24045.0,
+     "montant_fr": "24 045 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-24",
+     "contreparties": [
+      {
+       "siren": "431293984",
+       "nom": "KEY CONSULTING"
+      }
+     ],
+     "objet": "Réalisation d’une solution applicative permettant la déclaration en ligne des charges de service public de l’énergie en électricité ainsi que la déclaration de coûts et recettes des installations de production d’électricité à partir d’énergies renouvelables et de cogénération (Développement, TMA, maintenance évolutive et réversibilité - hors hébergement)",
+     "montant": 577207.04,
+     "montant_fr": "577 207,04 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-10",
+     "contreparties": [
+      {
+       "siren": "513692038",
+       "nom": "FTI FRANCE"
+      }
+     ],
+     "objet": "Benchmark international sur les mesures d’ordre législatif, réglementaire ou autre, mises en place par des pays tiers afin d’accompagner la forte croissante du taux de pénétration des énergies renouvelables dans les différents mix électriques. En particulier, la CRE s’intéresse aux éventuelles mesures mises en place dans d’autres pays, en lien avec les mécanismes de soutien aux EnR ou d’autres dispositifs, dans un contexte d’augmentation du nombre d’occurrences et de la profondeur des heures de prix de marché négatifs.",
+     "montant": 50190.0,
+     "montant_fr": "50 190 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-10",
+     "contreparties": [
+      {
+       "siren": "428895676",
+       "nom": "ARTELYS"
+      }
+     ],
+     "objet": "Le présent marché a pour objet l’exécution, pour le compte de la CRE, d’un benchmark européen sur l’autoconsommation électrique individuelle et collective. La CRE souhaite approfondir sa connaissance des dispositifs d’autoconsommation (individuelle et collective) mis en œuvre dans plusieurs pays européens, afin d’éclairer les réflexions relatives à leur encadrement réglementaire et tarifaire en France.",
+     "montant": 57475.0,
+     "montant_fr": "57 475 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur_classement": false,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0244",
+   "nom": "Assemblée nationale",
+   "siren": "110000015",
+   "titulaire": [],
+   "acheteur": [
+    {
+     "date": "2025-01-30",
+     "contreparties": [
+      {
+       "siren": "572138543",
+       "nom": "SOTERKENOS"
+      }
+     ],
+     "objet": "Le présent accord-cadre porte sur la maintenance préventive et corrective des aéroéjecteurs et compresseurs associés répartis dans les différents immeubles de l'Assemblée nationale",
+     "montant": 17585.0,
+     "montant_fr": "17 585 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-30",
+     "contreparties": [
+      {
+       "siren": "981629249",
+       "nom": "CARDEL"
+      }
+     ],
+     "objet": "L’accord-cadre de travaux de génie climatique a pour objet la réalisation des travaux courants d’électricité de génie climatique sur les différents immeubles de l’Assemblée nationale.",
+     "montant": 250000.0,
+     "montant_fr": "250 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-04",
+     "contreparties": [
+      {
+       "siren": "420540643",
+       "nom": "EIFFAGE ENERGIE SYSTEMES - ILE DE FRANCE"
+      }
+     ],
+     "objet": "Le présent accord-cadre à marchés subséquents a pour objet les travaux de création et de rénovation des tableaux divisionnaires de l’Assemblée nationale. Ces travaux portent sur la fabrication, la livraison et la mise en place d’armoires électriques neuves et des schémas attenants. Le champ de l’accord-cadre ne couvre pas l’ensemble des opérations de travaux de l’Assemblée nationale, pour lesquelles, selon leur importance, elle se réserve le droit de lancer des consultations spécifiques.",
+     "montant": 666666.67,
+     "montant_fr": "666 666,67 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-04",
+     "contreparties": [
+      {
+       "siren": "316224336",
+       "nom": "SOCIETE D ENTREPRISE ET D ELECTRICITE GENERALE DE L ESSONNE"
+      }
+     ],
+     "objet": "Le présent accord-cadre à marchés subséquents a pour objet les travaux de création et de rénovation des tableaux divisionnaires de l’Assemblée nationale. Ces travaux portent sur la fabrication, la livraison et la mise en place d’armoires électriques neuves et des schémas attenants. Le champ de l’accord-cadre ne couvre pas l’ensemble des opérations de travaux de l’Assemblée nationale, pour lesquelles, selon leur importance, elle se réserve le droit de lancer des consultations spécifiques.",
+     "montant": 666666.67,
+     "montant_fr": "666 666,67 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-04",
+     "contreparties": [
+      {
+       "siren": "852285295",
+       "nom": "VERELEC"
+      }
+     ],
+     "objet": "Le présent accord-cadre à marchés subséquents a pour objet les travaux de création et de rénovation des tableaux divisionnaires de l’Assemblée nationale. Ces travaux portent sur la fabrication, la livraison et la mise en place d’armoires électriques neuves et des schémas attenants. Le champ de l’accord-cadre ne couvre pas l’ensemble des opérations de travaux de l’Assemblée nationale, pour lesquelles, selon leur importance, elle se réserve le droit de lancer des consultations spécifiques.",
+     "montant": 666666.67,
+     "montant_fr": "666 666,67 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-31",
+     "contreparties": [
+      {
+       "siren": "825037740",
+       "nom": "SARP HYGIENE BATIMENT"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet les prestations de lutte contre les rongeurs et de désinsectisation des différents immeubles de l’Assemblée nationale",
+     "montant": 12119.0,
+     "montant_fr": "12 119 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-07",
+     "contreparties": [
+      {
+       "siren": "327386868",
+       "nom": "SOCIETE ETUDE VENTE EQUIPEMENTS NOVATEURS"
+      }
+     ],
+     "objet": "L'accord-cadre a pour objet l'impression de documents parlementaires de l'Assemblée nationale.",
+     "montant": 1041666.67,
+     "montant_fr": "1 041 666,67 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-07",
+     "contreparties": [
+      {
+       "siren": "794220897",
+       "nom": "BBE DEVELOPPEMENT"
+      }
+     ],
+     "objet": "Prestations de formation à la conduite des chauffeurs de l'Assemblée nationale. - 24M007-01H",
+     "montant": 54166.67,
+     "montant_fr": "54 166,67 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-07",
+     "contreparties": [
+      {
+       "siren": "847702511",
+       "nom": "ACTUA FORMATION"
+      }
+     ],
+     "objet": "Prestations de formation à la conduite des chauffeurs de l'Assemblée nationale. - 24M007-02H",
+     "montant": 41666.67,
+     "montant_fr": "41 666,67 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-07",
+     "contreparties": [
+      {
+       "siren": "847702511",
+       "nom": "ACTUA FORMATION"
+      }
+     ],
+     "objet": "Prestations de formation à la conduite des chauffeurs de l'Assemblée nationale. - 24M007-03H",
+     "montant": 20833.33,
+     "montant_fr": "20 833,33 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-08",
+     "contreparties": [
+      {
+       "siren": "937080414",
+       "nom": "RAJA"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet l’approvisionnement de l’Assemblée nationale en fournitures pour archivage, emballage et expédition.",
+     "montant": 150000.0,
+     "montant_fr": "150 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-28",
+     "contreparties": [
+      {
+       "siren": "804262251",
+       "nom": "ELAII"
+      }
+     ],
+     "objet": "Le présent marché a pour objet la maintenance du système de supervision et d’automatisme des installations et des équipements associés de génie climatique des différents immeubles de l’Assemblée nationale ainsi que la maintenance du Système de Management de l’Energie (SME) de l’Assemblée nationale. L’ensemble des prestations attendues est détaillé dans le CCTP (cahier des clauses techniques particulières).",
+     "montant": 689285.0,
+     "montant_fr": "689 285 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-29",
+     "contreparties": [
+      {
+       "siren": "318458247",
+       "nom": "SIMIE"
+      }
+     ],
+     "objet": "L'accord-cadre a pour objet la maintenance préventive et corrective des installations et matériels de secours incendie de l’Assemblée nationale.",
+     "montant": 119087.0,
+     "montant_fr": "119 087 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-29",
+     "contreparties": [
+      {
+       "siren": "409880044",
+       "nom": "INEO INDUSTRIE ET SERVICES IDF"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet la maintenance préventive, corrective et évolutive des installations électriques haute tension et basse tension de l’Assemblée nationale, ainsi que des automatismes et de la gestion technique d’électricité. - 24F026-01E : Maintenance des équipements haute tension (HT)",
+     "montant": 182305.83,
+     "montant_fr": "182 305,83 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-29",
+     "contreparties": [
+      {
+       "siren": "409880044",
+       "nom": "INEO INDUSTRIE ET SERVICES IDF"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet la maintenance préventive, corrective et évolutive des installations électriques haute tension et basse tension de l’Assemblée nationale, ainsi que des automatismes et de la gestion technique d’électricité. - 24F026-02E : Maintenance des équipements basse tension de forte puissance (BT)",
+     "montant": 440827.0,
+     "montant_fr": "440 827 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-29",
+     "contreparties": [
+      {
+       "siren": "433889995",
+       "nom": "I T E I S"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet la maintenance préventive, corrective et évolutive des installations électriques haute tension et basse tension de l’Assemblée nationale, ainsi que des automatismes et de la gestion technique d’électricité. - 24F026-03E : Maintenance des automatismes et de la gestion technique (GTE)",
+     "montant": 331001.0,
+     "montant_fr": "331 001 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-29",
+     "contreparties": [
+      {
+       "siren": "542107800",
+       "nom": "OTIS"
+      }
+     ],
+     "objet": "Le présent marché porte sur la maintenance préventive (entretien) et corrective (diagnostic, dépannage, réparation) des ascenseurs et des monte-charges (83 appareils) installés dans les immeubles de l’Assemblée nationale (Paris 75007). L’ensemble des prestations attendues est détaillé dans le cahier des clauses techniques particulières (CCTP).",
+     "montant": 405520.0,
+     "montant_fr": "405 520 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-09",
+     "contreparties": [
+      {
+       "siren": "344010509",
+       "nom": "MAISONNEUVE"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet les travaux d’entretien de peinture et de revêtements (sols et muraux) de l’ensemble des sites occupés par l’Assemblée nationale. Ces travaux ont vocation à répondre : - aux besoins d’amélioration ou de maintien en état du patrimoine, de réaménagement et de réhabilitation des locaux ; - aux situations d’urgence, notamment en cas de sinistres ou de menaces sur la sécurité des personnes et des biens.",
+     "montant": 1699377.08,
+     "montant_fr": "1 699 377,08 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-10",
+     "contreparties": [
+      {
+       "siren": "965201916",
+       "nom": "MAISON DUREAU"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet les travaux d’entretien de peinture et de revêtements (sols et muraux) de l’ensemble des sites occupés par l’Assemblée nationale. Ces travaux ont vocation à répondre : - aux besoins d’amélioration ou de maintien en état du patrimoine, de réaménagement et de réhabilitation des locaux ; - aux situations d’urgence, notamment en cas de sinistres ou de menaces sur la sécurité des personnes et des biens.",
+     "montant": 1891495.5,
+     "montant_fr": "1 891 495,50 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-12",
+     "contreparties": [
+      {
+       "siren": "957202138",
+       "nom": "ENTREPRISE L. BOUGET"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet les travaux d’entretien de peinture et de revêtements (sols et muraux) de l’ensemble des sites occupés par l’Assemblée nationale. Ces travaux ont vocation à répondre : - aux besoins d’amélioration ou de maintien en état du patrimoine, de réaménagement et de réhabilitation des locaux ; - aux situations d’urgence, notamment en cas de sinistres ou de menaces sur la sécurité des personnes et des biens.",
+     "montant": 1698398.2,
+     "montant_fr": "1 698 398,20 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-06",
+     "contreparties": [
+      {
+       "siren": "343586590",
+       "nom": "LA TABLE DE CANA"
+      }
+     ],
+     "objet": "FOURNITURE DE PRESTATIONS DE PLATEAUX-REPAS : ACCORD-CADRE 24M004 - Plateaux-repas avec plat micro-ondable",
+     "montant": 433333.0,
+     "montant_fr": "433 333 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-06",
+     "contreparties": [
+      {
+       "siren": "343586590",
+       "nom": "LA TABLE DE CANA"
+      }
+     ],
+     "objet": "FOURNITURE DE PRESTATIONS DE PLATEAUX-REPAS : ACCORD-CADRE 24M004 - Plateaux-repas froids",
+     "montant": 70833.0,
+     "montant_fr": "70 833 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-19",
+     "contreparties": [
+      {
+       "siren": "750671570",
+       "nom": "PERFORMANCE SOCIALE ORGANISATION"
+      }
+     ],
+     "objet": "L'accord-cadre a pour objet la mise en place de dispositifs de prévention et de lutte contre le harcèlement et les risques psychosociaux, ainsi que de formation au management, dans les relations de travail. - 24M032-01H : CELLULE D’ÉCOUTE POUR LES SITUATIONS DE HARCÈLEMENT ET DE SOUFFRANCE AU TRAVAIL ET PRESTATIONS ACCESSOIRES",
+     "montant": 131120.0,
+     "montant_fr": "131 120 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-01",
+     "contreparties": [
+      {
+       "siren": "804689248",
+       "nom": "SYNOPTIC BROADCAST"
+      }
+     ],
+     "objet": "Le présent marché a pour objet la fourniture d’équipements audio/vidéo et de services d’installation dans le but de remplacer les équipements de la tête de réseau de télédistribution actuelle de l’Assemblée nationale par des équipements neufs. Les listes et les caractéristiques techniques des prestations sont indiquées dans le CCTP (cahier des clauses techniques particulières).",
+     "montant": 79937.41,
+     "montant_fr": "79 937,41 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-02",
+     "contreparties": [
+      {
+       "siren": "408182350",
+       "nom": "ABEILLE DRAPEAUX"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet l’acquisition, la location et le nettoyage de drapeaux, pavillons et accessoires au profit de l’Assemblée nationale.",
+     "montant": 170000.0,
+     "montant_fr": "170 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "850791971",
+       "nom": "DIRECTION D'ENTREPRISES LOCALES EN TRANSITION ET ACCOMPAGNEMENT"
+      }
+     ],
+     "objet": "Le lot 1 a pour objet le recrutement dans le secteur du bâtiment et de la construction.",
+     "montant": 148333.0,
+     "montant_fr": "148 333 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "510899909",
+       "nom": "ACTUAL GROUP"
+      }
+     ],
+     "objet": "Le lot 1 a pour objet le recrutement dans le secteur du bâtiment et de la construction.",
+     "montant": 148333.0,
+     "montant_fr": "148 333 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "433999356",
+       "nom": "RANDSTAD"
+      }
+     ],
+     "objet": "Le lot 1 a pour objet le recrutement dans le secteur du bâtiment et de la construction.",
+     "montant": 148333.0,
+     "montant_fr": "148 333 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "329925010",
+       "nom": "SYNERGIE"
+      }
+     ],
+     "objet": "Le lot 1 a pour objet le recrutement dans le secteur du bâtiment et de la construction.",
+     "montant": 148333.0,
+     "montant_fr": "148 333 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "827775339",
+       "nom": "HUMAINEA"
+      }
+     ],
+     "objet": "Le lot 2 a pour objet le recrutement dans le secteur informatique et des systèmes d’information.",
+     "montant": 387500.0,
+     "montant_fr": "387 500 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "433999356",
+       "nom": "RANDSTAD"
+      }
+     ],
+     "objet": "Le lot 2 a pour objet le recrutement dans le secteur informatique et des systèmes d’information.",
+     "montant": 387500.0,
+     "montant_fr": "387 500 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "825217789",
+       "nom": "HADLEY SEARCH"
+      }
+     ],
+     "objet": "Le lot 2 a pour objet le recrutement dans le secteur informatique et des systèmes d’information.",
+     "montant": 387500.0,
+     "montant_fr": "387 500 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "850791971",
+       "nom": "DIRECTION D'ENTREPRISES LOCALES EN TRANSITION ET ACCOMPAGNEMENT"
+      }
+     ],
+     "objet": "Le lot 2 a pour objet le recrutement dans le secteur informatique et des systèmes d’information.",
+     "montant": 387500.0,
+     "montant_fr": "387 500 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "413125337",
+       "nom": "ACCA"
+      }
+     ],
+     "objet": "Le lot 3 a pour objet le recrutement dans les métiers de l’accueil et de la surveillance.",
+     "montant": 205833.0,
+     "montant_fr": "205 833 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "481305068",
+       "nom": "CONSULTING SERVICES BY RANDSTAD"
+      }
+     ],
+     "objet": "Le lot 3 a pour objet le recrutement dans les métiers de l’accueil et de la surveillance.",
+     "montant": 205833.0,
+     "montant_fr": "205 833 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "827775339",
+       "nom": "HUMAINEA"
+      }
+     ],
+     "objet": "Le lot 3 a pour objet le recrutement dans les métiers de l’accueil et de la surveillance.",
+     "montant": 205833.0,
+     "montant_fr": "205 833 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "823463831",
+       "nom": "RAS 510"
+      }
+     ],
+     "objet": "Le lot 4 a pour objet le recrutement dans les métiers d’assistant de direction et les métiers supports administratifs.",
+     "montant": 371666.0,
+     "montant_fr": "371 666 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "827775339",
+       "nom": "HUMAINEA"
+      }
+     ],
+     "objet": "Le lot 4 a pour objet le recrutement dans les métiers d’assistant de direction et les métiers supports administratifs.",
+     "montant": 371666.0,
+     "montant_fr": "371 666 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "510899909",
+       "nom": "ACTUAL GROUP"
+      }
+     ],
+     "objet": "Le lot 4 a pour objet le recrutement dans les métiers d’assistant de direction et les métiers supports administratifs.",
+     "montant": 371666.0,
+     "montant_fr": "371 666 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "433999356",
+       "nom": "RANDSTAD"
+      }
+     ],
+     "objet": "Le lot 5 a pour objet le recrutement dans les métiers de la restauration.",
+     "montant": 57500.0,
+     "montant_fr": "57 500 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-11",
+     "contreparties": [
+      {
+       "siren": "433999356",
+       "nom": "RANDSTAD"
+      }
+     ],
+     "objet": "Le lot 6 a pour objet le recrutement de chauffeurs.",
+     "montant": 22500.0,
+     "montant_fr": "22 500 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-17",
+     "contreparties": [
+      {
+       "siren": "502698608",
+       "nom": "ELEAS"
+      }
+     ],
+     "objet": "L'accord-cadre a pour objet la mise en place de dispositifs de prévention et de lutte contre le harcèlement et les risques psychosociaux, ainsi que de formation au management, dans les relations de travail. - 24M032-02H : FORMATION AU MANAGEMENT DES DEPUTES ET COACHING INDIVIDUEL",
+     "montant": 157600.0,
+     "montant_fr": "157 600 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-17",
+     "contreparties": [
+      {
+       "siren": "521096248",
+       "nom": "SH DEFENSE GRANDE ARCHE"
+      }
+     ],
+     "objet": "Le marché a pour objet : – la gestion hôtelière (gestion des réservations, accueil des visiteurs, services de conciergerie, nettoyage des chambres, fourniture du linge et autres fournitures diverses mises à disposition des occupants et prestations complémentaires) d’une résidence composée de 51 chambres à destination des députés et autres personnes habilitées ; – le nettoyage de l’ensemble des locaux de l’ensemble immobilier « Jacques Chaban-Delmas » (situé au 101-103 rue de l’Université, 75007 PARIS) et d’un immeuble de bureaux au 95 rue de l’Université ; – des prestations semi-hôtelières pour les 242 bureaux-chambres de l’ensemble immobilier ainsi que la fourniture du linge et autres fournitures mises à disposition des occupants ; – de manière subsidiaire, de prestations de manutention liées à l’activité du site.",
+     "montant": 7229046.9,
+     "montant_fr": "7 229 046,90 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-24",
+     "contreparties": [
+      {
+       "siren": "440284578",
+       "nom": "ALPHA CONTROLE"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet la réalisation de missions de contrôle technique conformément aux dispositions des articles L.125-1 et R. 125-17 du code de la construction et de l’habitation relatifs aux opérations d’entretien et de construction dans les différents locaux de l’Assemblée nationale.",
+     "montant": 170000.0,
+     "montant_fr": "170 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-24",
+     "contreparties": [
+      {
+       "siren": "852285295",
+       "nom": "VERELEC"
+      }
+     ],
+     "objet": "Le présent marché subséquent n° 1 (MS1), conclu sur le fondement de l’accord-cadre 2024DAIP-44, a pour objet la création de treize armoires électriques dans le cadre d’une opération de création d’infrastructures de recharge de véhicules électriques au sein des bâtiments de l’Assemblée nationale",
+     "montant": 161950.0,
+     "montant_fr": "161 950 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-04",
+     "contreparties": [
+      {
+       "siren": "344010509",
+       "nom": "MAISONNEUVE"
+      }
+     ],
+     "objet": "Le présent marché subséquent n°2 de l’accord-cadre 24M025 a pour objet les travaux d’entretien de peinture et de revêtements de sols souples et muraux dans le cadre de l’opération des travaux de restauration de la salle de la zone Victor Hugo et ses abords. Il correspond au lot 5 « Peinture, revêtements de sols souples et muraux ».",
+     "montant": 102737.81,
+     "montant_fr": "102 737,81 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-11",
+     "contreparties": [
+      {
+       "siren": "391358215",
+       "nom": "ENTER"
+      }
+     ],
+     "objet": "Le présent accord-cadre à bons de commande a pour objet la fourniture de mobilier de bureau pour l’installation des zones de bureaux, salles de réunion, parties communes des 3e et 4e étages de la zone Colbert du Palais-Bourbon. - Mobilier de bureau de députés et de collaborateurs",
+     "montant": 700000.0,
+     "montant_fr": "700 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-11",
+     "contreparties": [
+      {
+       "siren": "482139946",
+       "nom": "MODA INTERNATIONAL"
+      }
+     ],
+     "objet": "Le présent accord-cadre à bons de commande a pour objet la fourniture de mobilier de bureau pour l’installation des zones de bureaux, salles de réunion, parties communes des 3e et 4e étages de la zone Colbert du Palais-Bourbon. - Mobilier d’accueil, de réunion et d’espaces de vie",
+     "montant": 275000.0,
+     "montant_fr": "275 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-20",
+     "contreparties": [
+      {
+       "siren": "572078905",
+       "nom": "ERI"
+      }
+     ],
+     "objet": "L'accord-cadre a pour objet les travaux d’entretien courant de faux plafonds, doublage, plâtrerie et cloisons sèches réalisés dans les immeubles de l’Assemblée nationale.",
+     "montant": 458333.0,
+     "montant_fr": "458 333 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-20",
+     "contreparties": [
+      {
+       "siren": "329727390",
+       "nom": "INSTRUMENT ET TRAITEMENT ESSAIS SUR SITE"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet la fourniture, la pose et la maintenance d’appareils de surveillance des dégradations des fissures du plafond de la Bibliothèque de l’Assemblée nationale.",
+     "montant": 60000.0,
+     "montant_fr": "60 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-05",
+     "contreparties": [
+      {
+       "siren": "433999356",
+       "nom": "RANDSTAD"
+      }
+     ],
+     "objet": "RECRUTEMENT D’UN INGÉNIEUR JAVA",
+     "montant": 6480.0,
+     "montant_fr": "6 480 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-05",
+     "contreparties": [
+      {
+       "siren": "433999356",
+       "nom": "RANDSTAD"
+      }
+     ],
+     "objet": "RECRUTEMENT D’UN INGÉNIEUR POSTE DE TRAVAIL",
+     "montant": 6250.0,
+     "montant_fr": "6 250 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-05",
+     "contreparties": [
+      {
+       "siren": "433999356",
+       "nom": "RANDSTAD"
+      }
+     ],
+     "objet": "Recrutement d’un ingénieur système et réseau",
+     "montant": 6500.0,
+     "montant_fr": "6 500 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-09",
+     "contreparties": [
+      {
+       "siren": "323540534",
+       "nom": "COMPAGNIE FRANCAISE INFORMATIQUE"
+      }
+     ],
+     "objet": "L’accord-cadre est destiné à couvrir l’ensemble des besoins en équipements bureautiques de l’Assemblée nationale. Les listes et les caractéristiques techniques des prestations sont indiquées dans le CCTP (cahier des clauses techniques particulières).",
+     "montant": 3546243.0,
+     "montant_fr": "3 546 243 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-09",
+     "contreparties": [
+      {
+       "siren": "757501028",
+       "nom": "HELIAQ"
+      }
+     ],
+     "objet": "L’accord-cadre est destiné à couvrir l’ensemble des besoins en équipements bureautiques de l’Assemblée nationale. Les listes et les caractéristiques techniques des prestations sont indiquées dans le CCTP (cahier des clauses techniques particulières).",
+     "montant": 3465460.92,
+     "montant_fr": "3 465 460,92 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-09",
+     "contreparties": [
+      {
+       "siren": "388055493",
+       "nom": "INMAC WSTORE"
+      }
+     ],
+     "objet": "L’accord-cadre est destiné à couvrir l’ensemble des besoins en équipements bureautiques de l’Assemblée nationale. Les listes et les caractéristiques techniques des prestations sont indiquées dans le CCTP (cahier des clauses techniques particulières).",
+     "montant": 3461498.63,
+     "montant_fr": "3 461 498,63 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-09",
+     "contreparties": [
+      {
+       "siren": "331566430",
+       "nom": "ECONOCOM PRODUCTS & SOLUTIONS"
+      }
+     ],
+     "objet": "L’accord-cadre est destiné à couvrir l’ensemble des besoins en équipements bureautiques de l’Assemblée nationale. Les listes et les caractéristiques techniques des prestations sont indiquées dans le CCTP (cahier des clauses techniques particulières).",
+     "montant": 3299494.46,
+     "montant_fr": "3 299 494,46 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "383262987",
+       "nom": "COMPAGNIE FINANCIERE DE DISTRIBUTION ALIMENTAIRE COFIDA"
+      }
+     ],
+     "objet": "L’accord-cadre 25F004 est un accord-cadre multi-attributaire composé de 3 lots. Chaque lot est un accord-cadre multi-attributaire à marchés subséquents, attribué à 3 titulaires, sous réserve d’un nombre suffisant de candidats et d’offres, pour la durée de son exécution. Les conditions de remise en concurrence et d’attribution des marchés subséquents sont détaillées dans le cahier des clauses administratives particulières (CCAP). Pour chacun des lots, le marché subséquent n° 1 (MS1) est attribué concomitamment à l’attribution du lot. - Lot 1 – Fruits et légumes conventionnels",
+     "montant": 20520.97,
+     "montant_fr": "20 520,97 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "312380793",
+       "nom": "MAURICE CHARRAIRE"
+      }
+     ],
+     "objet": "L’accord-cadre 25F004 est un accord-cadre multi-attributaire composé de 3 lots. Chaque lot est un accord-cadre multi-attributaire à marchés subséquents, attribué à 3 titulaires, sous réserve d’un nombre suffisant de candidats et d’offres, pour la durée de son exécution. Les conditions de remise en concurrence et d’attribution des marchés subséquents sont détaillées dans le cahier des clauses administratives particulières (CCAP). Pour chacun des lots, le marché subséquent n° 1 (MS1) est attribué concomitamment à l’attribution du lot. - Lot 1 – Fruits et légumes conventionnels",
+     "montant": 18089.05,
+     "montant_fr": "18 089,05 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "849081351",
+       "nom": "BIOVOR"
+      }
+     ],
+     "objet": "L’accord-cadre 25F004 est un accord-cadre multi-attributaire composé de 3 lots. Chaque lot est un accord-cadre multi-attributaire à marchés subséquents, attribué à 3 titulaires, sous réserve d’un nombre suffisant de candidats et d’offres, pour la durée de son exécution. Les conditions de remise en concurrence et d’attribution des marchés subséquents sont détaillées dans le cahier des clauses administratives particulières (CCAP). Pour chacun des lots, le marché subséquent n° 1 (MS1) est attribué concomitamment à l’attribution du lot. - Lot 2 – Fruits et légumes bio",
+     "montant": 13978.92,
+     "montant_fr": "13 978,92 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "804809556",
+       "nom": "CRENO SERVICES ET PRESTATIONS"
+      }
+     ],
+     "objet": "L’accord-cadre 25F004 est un accord-cadre multi-attributaire composé de 3 lots. Chaque lot est un accord-cadre multi-attributaire à marchés subséquents, attribué à 3 titulaires, sous réserve d’un nombre suffisant de candidats et d’offres, pour la durée de son exécution. Les conditions de remise en concurrence et d’attribution des marchés subséquents sont détaillées dans le cahier des clauses administratives particulières (CCAP). Pour chacun des lots, le marché subséquent n° 1 (MS1) est attribué concomitamment à l’attribution du lot. - Lot 2 – Fruits et légumes bio",
+     "montant": 17199.93,
+     "montant_fr": "17 199,93 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "401806047",
+       "nom": "PRO NATURA"
+      }
+     ],
+     "objet": "L’accord-cadre 25F004 est un accord-cadre multi-attributaire composé de 3 lots. Chaque lot est un accord-cadre multi-attributaire à marchés subséquents, attribué à 3 titulaires, sous réserve d’un nombre suffisant de candidats et d’offres, pour la durée de son exécution. Les conditions de remise en concurrence et d’attribution des marchés subséquents sont détaillées dans le cahier des clauses administratives particulières (CCAP). Pour chacun des lots, le marché subséquent n° 1 (MS1) est attribué concomitamment à l’attribution du lot. - Lot 2 – Fruits et légumes bio",
+     "montant": 11267.55,
+     "montant_fr": "11 267,55 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-17",
+     "contreparties": [
+      {
+       "siren": "894732346",
+       "nom": "AGRIAGORA"
+      }
+     ],
+     "objet": "L’accord-cadre 25F004 est un accord-cadre multi-attributaire composé de 3 lots. Chaque lot est un accord-cadre multi-attributaire à marchés subséquents, attribué à 3 titulaires, sous réserve d’un nombre suffisant de candidats et d’offres, pour la durée de son exécution. Les conditions de remise en concurrence et d’attribution des marchés subséquents sont détaillées dans le cahier des clauses administratives particulières (CCAP). Pour chacun des lots, le marché subséquent n° 1 (MS1) est attribué concomitamment à l’attribution du lot. - Lot 3 – Fruits et légumes déclassés",
+     "montant": 2050.84,
+     "montant_fr": "2 050,84 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-18",
+     "contreparties": [
+      {
+       "siren": "432521516",
+       "nom": "LES VERGERS SAINT-EUSTACHE -RUNGIS"
+      }
+     ],
+     "objet": "L’accord-cadre 25F004 est un accord-cadre multi-attributaire composé de 3 lots. Chaque lot est un accord-cadre multi-attributaire à marchés subséquents, attribué à 3 titulaires, sous réserve d’un nombre suffisant de candidats et d’offres, pour la durée de son exécution. Les conditions de remise en concurrence et d’attribution des marchés subséquents sont détaillées dans le cahier des clauses administratives particulières (CCAP). Pour chacun des lots, le marché subséquent n° 1 (MS1) est attribué concomitamment à l’attribution du lot. - Lot 1 – Fruits et légumes conventionnels",
+     "montant": 26391.7,
+     "montant_fr": "26 391,70 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-22",
+     "contreparties": [
+      {
+       "siren": "804262251",
+       "nom": "ELAII"
+      }
+     ],
+     "objet": "La présente opération a pour objet le remplacement d’automates de régulation des équipements de génie climatique du bâtiment de l’Assemblée nationale situé au 32 rue Saint-Dominique, Paris 75007. Le titulaire du présent marché d’électricité, de régulation et de supervision des installations de CVC, est soumis à une obligation de résultat. Il devra principalement intervenir dans les armoires de régulations des installations, installées en locaux techniques.",
+     "montant": 113980.23,
+     "montant_fr": "113 980,23 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-23",
+     "contreparties": [
+      {
+       "siren": "440697712",
+       "nom": "ONEPOINT"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet une mission d’assistance à maîtrise d’ouvrage en vue de la passation d’un marché de tierce maintenance applicative du système d’information comptable et des applications de paie (SAP) de l’Assemblée nationale. Les listes et les caractéristiques techniques des prestations sont indiquées dans le cahier des clauses techniques particulières (ci-après CCTP).",
+     "montant": 56333.33,
+     "montant_fr": "56 333,33 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur_classement": false,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0245",
+   "nom": "Sénat",
+   "siren": "110000023",
+   "titulaire": [],
+   "acheteur": [
+    {
+     "date": "2025-01-06",
+     "contreparties": [
+      {
+       "siren": "317837391",
+       "nom": "MODERN RESTAURATION GESTION"
+      }
+     ],
+     "objet": "Accord-cadre de fourniture et de maintenance, préventive et corrective, d’équipements froids et chauds de cuisine du Sénat Marché subséquent n° 9 - Remplacement du virage et de la courbe motorisés de la table d’entrée de la laveuse à avancement du restaurant libre-service du personnel",
+     "montant": 13681.42,
+     "montant_fr": "13 681,42 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-06",
+     "contreparties": [
+      {
+       "siren": "317837391",
+       "nom": "MODERN RESTAURATION GESTION"
+      }
+     ],
+     "objet": "Le présent marché subséquent a pour objet la fourniture et l’installation d’un lave-vaisselle professionnel à capot ainsi que le démontage et l’évacuation du lave-vaisselle existant.",
+     "montant": 13681.42,
+     "montant_fr": "13 681,42 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-09",
+     "contreparties": [
+      {
+       "siren": "477847560",
+       "nom": "A 4 CONSEILS"
+      }
+     ],
+     "objet": "Prestation d'expertise comptable pour le contrôle des frais de mandat des sénateurs",
+     "montant": 1600000.0,
+     "montant_fr": "1 600 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-17",
+     "contreparties": [
+      {
+       "siren": "383026564",
+       "nom": "SOCIETE AURION ET COMPAGNIE"
+      }
+     ],
+     "objet": "Le présent marché subséquent a pour objet la réalisation de travaux de remise en état des vestiaires du pavillon Raynal, situé dans le Jardin du Luxembourg (Paris VIe).",
+     "montant": 34700.0,
+     "montant_fr": "34 700 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-22",
+     "contreparties": [
+      {
+       "siren": "542107800",
+       "nom": "OTIS"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la réalisation de travaux de remplacement de trois appareils élévateurs dans l’immeuble du 77 rue Bonaparte (Paris VIe). Le descriptif technique des travaux figure dans le cahier des clauses techniques particulières (CCTP) et ses annexes. La visite du site est obligatoire, selon les modalités définies à l’article 8.1.",
+     "montant": 362000.0,
+     "montant_fr": "362 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-28",
+     "contreparties": [
+      {
+       "siren": "572078905",
+       "nom": "ERI"
+      }
+     ],
+     "objet": "Le présent marché subséquent a pour objet la réalisation de travaux de remise en état de locaux du pavillon Raynal, situé dans le Jardin du Luxembourg (Paris VIe).",
+     "montant": 19857.69,
+     "montant_fr": "19 857,69 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-01-29",
+     "contreparties": [
+      {
+       "siren": "592052302",
+       "nom": "KONE"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la réalisation de travaux de remplacement de deux ascenseurs situés dans le pavillon Ouest B du Palais du Luxembourg (Paris VIe), dans le cadre d’une opération de rénovation de la cage d’escalier menant à la galerie des bustes du Palais du Luxembourg.",
+     "montant": 310000.0,
+     "montant_fr": "310 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-12",
+     "contreparties": [
+      {
+       "siren": "452941917",
+       "nom": "ARCANES"
+      }
+     ],
+     "objet": "La présente consultation porte sur le lot n° 1 « Conservation – Restauration » d’un marché de services ayant pour objet la restauration de dix peintures sur toile du plafond de la salle de lecture de la Bibliothèque du Sénat et des prestations annexes.",
+     "montant": 202350.0,
+     "montant_fr": "202 350 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-17",
+     "contreparties": [
+      {
+       "siren": "352773972",
+       "nom": "GTA GEOMETRES EXPERTS"
+      }
+     ],
+     "objet": "Le présent marché subséquent a pour objet la réalisation de relevés géomètres des façades et charpentes de l’Ouest du Palais du Luxembourg.",
+     "montant": 14180.0,
+     "montant_fr": "14 180 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-27",
+     "contreparties": [
+      {
+       "siren": "513638551",
+       "nom": "SUNMETRON"
+      }
+     ],
+     "objet": "Le présent marché a pour objet la réalisation d’une étude de diagnostic et de faisabilité en vue de la restauration des façades, des couvertures et des charpentes des pavillons Sud-Ouest du Palais du Luxembourg et de leurs travées, dans le VIe arrondissement de Paris. La visite du site est fortement recommandée.",
+     "montant": 44209.0,
+     "montant_fr": "44 209 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-04",
+     "contreparties": [
+      {
+       "siren": "817703671",
+       "nom": "DKM EXPERTS"
+      }
+     ],
+     "objet": "Dératisation, désinsectisation et désinfection des bâtiments",
+     "montant": 198276.0,
+     "montant_fr": "198 276 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-19",
+     "contreparties": [
+      {
+       "siren": "890526056",
+       "nom": "SECHE ASSAINISSEMENT"
+      }
+     ],
+     "objet": "La consultation a pour objet : l’entretien du réseau d’égouts et de canalisations du Jardin du Luxembourg et des nettoyages divers, le curage hydrodynamique des principaux réseaux d’eaux vannes et d’eaux pluviales du Palais du Luxembourg et de certaines de ses dépendances, le nettoyage et le pompage de cinq cuves à hydrocarbures, le nettoyage du Grand bassin du Jardin du Luxembourg, le nettoyage des bassins de la Fontaine Médicis, située dans le Jardin du Luxembourg, l’inspection vidéo de canalisations, la vidange d'un bac à graisse et le curage de ses canalisations et le nettoyage d’une citerne de récupération des eaux de pluie installée sous les serres du Sénat. Des vacations complémentaires, commandées en urgence le cas échéant, pourront être demandées pour ces différentes missions ou pour des missions similaires.",
+     "montant": 442000.0,
+     "montant_fr": "442 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-24",
+     "contreparties": [
+      {
+       "siren": "602032922",
+       "nom": "DUVAL ET MAULER"
+      }
+     ],
+     "objet": "Accord-cadre de travaux d’entretien de second-œuvre - Lot n° 1 - Travaux de peinture, de revêtements de sols et de maçonnerie - Marché subséquent n° 7 - Le présent marché subséquent n° 7 a pour objet la réalisation de travaux de peinture, de lessivage et de revêtement de sol souple au premier étage du Petit Luxembourg Est.",
+     "montant": 39399.0,
+     "montant_fr": "39 399 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-07",
+     "contreparties": [],
+     "objet": "Le présent marché est un marché de travaux ayant pour objet le remplacement de la centrale de détection de gaz toxiques dans le parc de stationnement du Palais du Luxembourg. Le descriptif technique de la mission est annexé à l’acte d’engagement.",
+     "montant": 33500.0,
+     "montant_fr": "33 500 €",
+     "accord_cadre": false,
+     "titulaires": 0,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-08",
+     "contreparties": [
+      {
+       "siren": "424458305",
+       "nom": "LES ATELIERS AUBERT LABANSAT"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la fourniture et la pose de menuiseries d’art dans le Palais du Luxembourg et ses dépendances (Paris VIe), dans le cadre d’un marché public de travaux comprenant deux lots. - Fourniture et pose de onze menuiseries d’art au Palais du Luxembourg",
+     "montant": 194469.0,
+     "montant_fr": "194 469 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-08",
+     "contreparties": [
+      {
+       "siren": "837756063",
+       "nom": "MDB"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la fourniture et la pose de menuiseries d’art dans le Palais du Luxembourg et ses dépendances (Paris VIe), dans le cadre d’un marché public de travaux comprenant deux lots. - Fourniture et pose de quatorze menuiseries d’art dans l’Hôtel des Chartreux et l’Orangerie Auguste Comte",
+     "montant": 203000.0,
+     "montant_fr": "203 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-17",
+     "contreparties": [
+      {
+       "siren": "378835946",
+       "nom": "PREFAKIT"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet la remise en état et la fourniture de caisses à oranger pour le Jardin du Luxembourg (Paris VIe). Une description complète des prestations attendues figure au cahier des clauses particulières.",
+     "montant": 1.0,
+     "montant_fr": "1 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-30",
+     "contreparties": [
+      {
+       "siren": "419926142",
+       "nom": "CHARLATTE MANUTENTION"
+      }
+     ],
+     "objet": "Le présent marché est un marché public de fournitures ayant pour objet l’acquisition d’un véhicule électrique de traction destiné à l’entretien du Jardin du Luxembourg.",
+     "montant": 27198.0,
+     "montant_fr": "27 198 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-02",
+     "contreparties": [
+      {
+       "siren": "838156594",
+       "nom": "DETEKT'IN"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la fourniture, l’installation, la mise en service et la formation à l’utilisation d’un système d’inspection des bagages à rayons X à simple vue pour l’un des accueils du Sénat, situé dans l’enceinte du Palais du Luxembourg à Paris VIe.",
+     "montant": 24060.0,
+     "montant_fr": "24 060 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-12",
+     "contreparties": [
+      {
+       "siren": "712059419",
+       "nom": "ETS HUARD"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la réalisation de travaux de remplacement et de remise à niveau de la climatisation du local technique accueillant le centre nodal de production télévisuelle du Palais du Luxembourg (Paris VIe). Le descriptif technique des travaux figure dans le cahier des clauses techniques particulières (CCTP) et ses annexes.",
+     "montant": 79960.42,
+     "montant_fr": "79 960,42 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-13",
+     "contreparties": [
+      {
+       "siren": "954200804",
+       "nom": "SCHNEIDER ET COMPAGNIE"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la réalisation de travaux de restauration et de mise en valeur des façades et couvertures de l’aile Nord et des pavillons Nord-Est et Nord-Ouest du Palais du Luxembourg (Paris VIe). La description des ouvrages et leurs spécifications techniques figurent dans les cahiers des clauses techniques particulières (CCTP) de chacun des lots, le cahier des clauses techniques communes (CCTC) et dans les pièces graphiques et techniques jointes au dossier de consultation des entreprises. - Couvertures, charpentes, plâtrerie, peinture",
+     "montant": 1332012.39,
+     "montant_fr": "1 332 012,39 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-13",
+     "contreparties": [
+      {
+       "siren": "510286040",
+       "nom": "FERRONNERIE PICARD DUBOSCQ"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la réalisation de travaux de restauration et de mise en valeur des façades et couvertures de l’aile Nord et des pavillons Nord-Est et Nord-Ouest du Palais du Luxembourg (Paris VIe). La description des ouvrages et leurs spécifications techniques figurent dans les cahiers des clauses techniques particulières (CCTP) de chacun des lots, le cahier des clauses techniques communes (CCTC) et dans les pièces graphiques et techniques jointes au dossier de consultation des entreprises. - Ferronnerie",
+     "montant": 263176.8,
+     "montant_fr": "263 176,80 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-13",
+     "contreparties": [
+      {
+       "siren": "353318736",
+       "nom": "LEFEVRE"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la réalisation de travaux de restauration et de mise en valeur des façades et couvertures de l’aile Nord et des pavillons Nord-Est et Nord-Ouest du Palais du Luxembourg (Paris VIe). La description des ouvrages et leurs spécifications techniques figurent dans les cahiers des clauses techniques particulières (CCTP) de chacun des lots, le cahier des clauses techniques communes (CCTC) et dans les pièces graphiques et techniques jointes au dossier de consultation des entreprises. - Installations de chantier, maçonnerie, pierre de taille",
+     "montant": 2971824.71,
+     "montant_fr": "2 971 824,71 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-13",
+     "contreparties": [
+      {
+       "siren": "317157295",
+       "nom": "JEAN-BAPTISTE CHAPUIS"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la réalisation de travaux de restauration et de mise en valeur des façades et couvertures de l’aile Nord et des pavillons Nord-Est et Nord-Ouest du Palais du Luxembourg (Paris VIe). La description des ouvrages et leurs spécifications techniques figurent dans les cahiers des clauses techniques particulières (CCTP) de chacun des lots, le cahier des clauses techniques communes (CCTC) et dans les pièces graphiques et techniques jointes au dossier de consultation des entreprises. - Menuiseries extérieures, stores",
+     "montant": 1051194.87,
+     "montant_fr": "1 051 194,87 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-13",
+     "contreparties": [
+      {
+       "siren": "400818217",
+       "nom": "TOLLIS"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la réalisation de travaux de restauration et de mise en valeur des façades et couvertures de l’aile Nord et des pavillons Nord-Est et Nord-Ouest du Palais du Luxembourg (Paris VIe). La description des ouvrages et leurs spécifications techniques figurent dans les cahiers des clauses techniques particulières (CCTP) de chacun des lots, le cahier des clauses techniques communes (CCTC) et dans les pièces graphiques et techniques jointes au dossier de consultation des entreprises. - Restauration de sculpture, gypserie, marbrerie et décors peints",
+     "montant": 207748.2,
+     "montant_fr": "207 748,20 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-13",
+     "contreparties": [
+      {
+       "siren": "525134169",
+       "nom": "COGELUM IDF"
+      }
+     ],
+     "objet": "La présente consultation a pour objet la réalisation de travaux de restauration et de mise en valeur des façades et couvertures de l’aile Nord et des pavillons Nord-Est et Nord-Ouest du Palais du Luxembourg (Paris VIe). La description des ouvrages et leurs spécifications techniques figurent dans les cahiers des clauses techniques particulières (CCTP) de chacun des lots, le cahier des clauses techniques communes (CCTC) et dans les pièces graphiques et techniques jointes au dossier de consultation des entreprises. - Électricité (courant fort et courants faibles), éclairage",
+     "montant": 702734.4,
+     "montant_fr": "702 734,40 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-05",
+     "contreparties": [
+      {
+       "siren": "907863740",
+       "nom": "ARBEA CONSEIL"
+      }
+     ],
+     "objet": "Assistance à maitrise d'ouvrage pour le renouvellement du contrat de gestion des restaurants du Sénat",
+     "montant": 31800.0,
+     "montant_fr": "31 800 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-24",
+     "contreparties": [
+      {
+       "siren": "805247384",
+       "nom": "ABA-WORKSHOP"
+      }
+     ],
+     "objet": "Cette consultation a pour objet la réalisation d’une mission d’étude de diagnostic et de faisabilité en vue de la remise aux normes et de l’aménagement du parc de stationnement souterrain du Palais du Luxembourg, situé à Paris, dans le 6ème arrondissement.",
+     "montant": 84822.0,
+     "montant_fr": "84 822 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-09",
+     "contreparties": [
+      {
+       "siren": "843387952",
+       "nom": "ARCH'CONCEPT"
+      }
+     ],
+     "objet": "La consultation a pour objet l’exécution de travaux de remplacement de faux-plafonds, d’enduits et de peinture dans le cadre d’une opération de rénovation des circulations du bâtiment O, au 36 rue de Vaugirard (Paris 6ème arrondissement).",
+     "montant": 52083.0,
+     "montant_fr": "52 083 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-15",
+     "contreparties": [
+      {
+       "siren": "403093206",
+       "nom": "BIOGROUP PARIS OUEST"
+      }
+     ],
+     "objet": "Le marché a pour objet, au Palais du Luxembourg, sis 15 rue de Vaugirard à Paris (75006), la réalisation d’un bilan de santé par un laboratoire d’analyses médicales dans le cadre de la mission de prévention sanitaire du Régime autonome de sécurité sociale du Sénat.",
+     "montant": 118500.0,
+     "montant_fr": "118 500 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-04",
+     "contreparties": [
+      {
+       "siren": "412735409",
+       "nom": "IDEM CUISINES"
+      }
+     ],
+     "objet": "fourniture et maintenance, préventive et corrective, d'équipements chauds et froids de cuisine du Palais du Luxembourg et de ses dépendances",
+     "montant": 1.0,
+     "montant_fr": "1 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-04",
+     "contreparties": [
+      {
+       "siren": "334796372",
+       "nom": "HENCO"
+      }
+     ],
+     "objet": "fourniture et maintenance, préventive et corrective, d'équipements chauds et froids de cuisine du Palais du Luxembourg et de ses dépendances",
+     "montant": 11648.0,
+     "montant_fr": "11 648 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-13",
+     "contreparties": [
+      {
+       "siren": "524682887",
+       "nom": "HANDI PRINT"
+      }
+     ],
+     "objet": "Marché d'impressions du Sénat - Impression de cartons de correspondance et de papier à en-tête (lot réservé ESAT)",
+     "montant": 39983.0,
+     "montant_fr": "39 983 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-13",
+     "contreparties": [
+      {
+       "siren": "327386868",
+       "nom": "SOCIETE ETUDE VENTE EQUIPEMENTS NOVATEURS"
+      }
+     ],
+     "objet": "Marché d'impressions du Sénat - Impression de documents parlementaires",
+     "montant": 342822.0,
+     "montant_fr": "342 822 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-22",
+     "contreparties": [
+      {
+       "siren": "732820352",
+       "nom": "PROTECTAS SOC"
+      }
+     ],
+     "objet": "Prestation d'assistance à maîtrise d'ouvrage pour la passation d'un marché public d'assurances et de recours ponctuel, sur bons de commande, à des prestations d'accompagnement en cas de sinistre dans le cadre des marchés d'assurances du Sénat.",
+     "montant": 34612.0,
+     "montant_fr": "34 612 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-29",
+     "contreparties": [
+      {
+       "siren": "319883344",
+       "nom": "COMPTOIR ELECTRIQUE FRANCAIS"
+      }
+     ],
+     "objet": "La consultation a pour objet la fourniture d’articles de quincaillerie générale, de quincaillerie sanitaire et d’équipements sanitaires, de petits équipements électriques et d’ampoules électriques au Palais du Luxembourg et dans ses dépendances (Paris VIe). - Fourniture de petits équipements électriques",
+     "montant": 69946.0,
+     "montant_fr": "69 946 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-29",
+     "contreparties": [
+      {
+       "siren": "309304616",
+       "nom": "REXEL FRANCE"
+      }
+     ],
+     "objet": "La consultation a pour objet la fourniture d’articles de quincaillerie générale, de quincaillerie sanitaire et d’équipements sanitaires, de petits équipements électriques et d’ampoules électriques au Palais du Luxembourg et dans ses dépendances (Paris VIe). - Fourniture d’ampoules électriques",
+     "montant": 10940.0,
+     "montant_fr": "10 940 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-29",
+     "contreparties": [
+      {
+       "siren": "329681340",
+       "nom": "FOUSSIER"
+      }
+     ],
+     "objet": "La consultation a pour objet la fourniture d’articles de quincaillerie générale, de quincaillerie sanitaire et d’équipements sanitaires, de petits équipements électriques et d’ampoules électriques au Palais du Luxembourg et dans ses dépendances (Paris VIe). - Fourniture d’articles de quincaillerie générale",
+     "montant": 16085.0,
+     "montant_fr": "16 085 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-29",
+     "contreparties": [
+      {
+       "siren": "563820489",
+       "nom": "LEGALLAIS"
+      }
+     ],
+     "objet": "La consultation a pour objet la fourniture d’articles de quincaillerie générale, de quincaillerie sanitaire et d’équipements sanitaires, de petits équipements électriques et d’ampoules électriques au Palais du Luxembourg et dans ses dépendances (Paris VIe). - Fourniture d’articles de quincaillerie sanitaire et d’équipements sanitaires",
+     "montant": 7111.0,
+     "montant_fr": "7 111 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur_classement": false,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0246",
+   "nom": "Conseil d’État",
+   "siren": "110000270",
+   "titulaire": [],
+   "acheteur": [
+    {
+     "date": "2025-01-17",
+     "contreparties": [
+      {
+       "siren": "823826763",
+       "nom": "DIGITALIS"
+      }
+     ],
+     "objet": "Rénovation des équipements audiovisuels des salles de conférence du Conseil d’Etat (Site Palais Royal) – Phase 1",
+     "montant": 942214.29,
+     "montant_fr": "942 214,29 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-24",
+     "contreparties": [
+      {
+       "siren": "433774486",
+       "nom": "VIVERIS SYSTEMES"
+      }
+     ],
+     "objet": "Réalisation de prestations d'assistance à maîtrise d'ouvrage portant sur les applications métiers du Conseil d'Etat - Expertise de haut niveau dans le domaine du développement logiciel",
+     "montant": 8300000.0,
+     "montant_fr": "8 300 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-24",
+     "contreparties": [
+      {
+       "siren": "833783988",
+       "nom": "NOVELIS"
+      }
+     ],
+     "objet": "Réalisation de prestations d'assistance à maîtrise d'ouvrage portant sur les applications métiers du Conseil d'Etat - Expertise de haut niveau dans le domaine du développement logiciel",
+     "montant": 8300000.0,
+     "montant_fr": "8 300 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-24",
+     "contreparties": [
+      {
+       "siren": "791605504",
+       "nom": "WEMANITY PARIS"
+      }
+     ],
+     "objet": "Réalisation de prestations d'assistance à maîtrise d'ouvrage portant sur les applications métiers du Conseil d'Etat - Expertise de haut niveau dans le domaine du développement logiciel",
+     "montant": 8300000.0,
+     "montant_fr": "8 300 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-24",
+     "contreparties": [
+      {
+       "siren": "702042755",
+       "nom": "CGI FRANCE"
+      }
+     ],
+     "objet": "Réalisation de prestations d'assistance à maîtrise d'ouvrage portant sur les applications métiers du Conseil d'Etat - Expertise en architecture des systèmes d’information",
+     "montant": 3750000.0,
+     "montant_fr": "3 750 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-24",
+     "contreparties": [
+      {
+       "siren": "326820065",
+       "nom": "SOPRA STERIA GROUP"
+      }
+     ],
+     "objet": "Réalisation de prestations d'assistance à maîtrise d'ouvrage portant sur les applications métiers du Conseil d'Etat - Expertise en architecture des systèmes d’information",
+     "montant": 3750000.0,
+     "montant_fr": "3 750 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-24",
+     "contreparties": [
+      {
+       "siren": "833783988",
+       "nom": "NOVELIS"
+      }
+     ],
+     "objet": "Réalisation de prestations d'assistance à maîtrise d'ouvrage portant sur les applications métiers du Conseil d'Etat - Expertise en architecture des systèmes d’information",
+     "montant": 3750000.0,
+     "montant_fr": "3 750 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-07",
+     "contreparties": [
+      {
+       "siren": "431293984",
+       "nom": "KEY CONSULTING"
+      }
+     ],
+     "objet": "Marché subséquent n°2024-025-DSI-APL ayant pour objet la réalisation de prestations de tierce maintenance applicative du portail Télérecours Avocats, rattaché à l'accord-cadre n°2021-009-DSI-IR TMA pour les applications de technologies Angular/Java/Kafka du Conseil d’État, des juridictions administratives et de la CNDA.- lot 2 TMA pour une application donnée.",
+     "montant": 564827.88,
+     "montant_fr": "564 827,88 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-09",
+     "contreparties": [
+      {
+       "siren": "352033914",
+       "nom": "MC2I"
+      }
+     ],
+     "objet": "Réalisation de prestations d'assistance à maîtrise d'ouvrage portant sur les applications métiers du Conseil d'Etat - Expertise en Intelligence Artificielle (IA)",
+     "montant": 1880000.0,
+     "montant_fr": "1 880 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-09",
+     "contreparties": [
+      {
+       "siren": "326820065",
+       "nom": "SOPRA STERIA GROUP"
+      }
+     ],
+     "objet": "Réalisation de prestations d'assistance à maîtrise d'ouvrage portant sur les applications métiers du Conseil d'Etat - Expertise en Intelligence Artificielle (IA)",
+     "montant": 1880000.0,
+     "montant_fr": "1 880 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-09",
+     "contreparties": [
+      {
+       "siren": "348006446",
+       "nom": "ERNST ET YOUNG ADVISORY"
+      }
+     ],
+     "objet": "Réalisation de prestations d'assistance à maîtrise d'ouvrage portant sur les applications métiers du Conseil d'Etat - Expertise en Intelligence Artificielle (IA)",
+     "montant": 1880000.0,
+     "montant_fr": "1 880 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-09",
+     "contreparties": [
+      {
+       "siren": "509762449",
+       "nom": "GROUPE VITAL"
+      }
+     ],
+     "objet": "Prestations de support externalisé relatives à la prise en charge de demandes d'assistance informatique de premier niveau pour les usagers externes des services de téléprocédure des juridictions administratives.",
+     "montant": 974200.0,
+     "montant_fr": "974 200 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-20",
+     "contreparties": [
+      {
+       "siren": "433624707",
+       "nom": "COEXYA"
+      }
+     ],
+     "objet": "Tierce maintenance applicative des sites internet du Conseil d’Etat, des juridictions administratives et des juridictions administratives spécialisées",
+     "montant": 82952.0,
+     "montant_fr": "82 952 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-18",
+     "contreparties": [
+      {
+       "siren": "422655415",
+       "nom": "SADIS'NOV"
+      }
+     ],
+     "objet": "Entretien et nettoyage du Tribunal Administratif de Guadeloupe (Basse-Terre), fourniture des consommables et exécution de prestations ponctuelles",
+     "montant": 42654.92,
+     "montant_fr": "42 654,92 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-06-30",
+     "contreparties": [
+      {
+       "siren": "494149990",
+       "nom": "LPCR COLLECTIVITES PUBLIQUES"
+      }
+     ],
+     "objet": "Le présent accord-cadre a pour objet la réservation de places d’accueil d’enfants dans des EAJE conventionnés par les caisses d’allocations familiales (CAF) et bénéficiant de l’agrément de la protection maternelle et infantile (PMI) pour les attribuer à ses agents. A titre indicatif, nous estimons le nombre de réservations de places d’accueil annuelles à 4. L’accord-cadre est mono-attributaire. Il s’exécute par l’émission de bons de commande. L’accord-cadre fait l’objet d’un lot unique. Lieux d'exécution : Île-de-France et Sites territoriaux (Bordeaux, Lyon, Marseille, Nancy, Nantes, Toulouse ou tout autre implantation territoriale future de la Cour). Un maillage territorial doit permettre d’offrir, aux familles d’Île-de-France et des sites d’implantation territoriale de la Cour, le bénéfice d’une place en crèche proche de leur lieu de domiciliation personnelle ou professionnelle et ainsi maximiser l’accessibilité du service à l’ensemble des familles tout en veillant au bien-être...",
+     "montant": 127680.0,
+     "montant_fr": "127 680 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-10",
+     "contreparties": [
+      {
+       "siren": "508497104",
+       "nom": "CICIO"
+      }
+     ],
+     "objet": "Travaux de menuiserie, bois, peinture, revêtement de sol pour les locaux de la chambre territoriale de la CNDA à Nantes",
+     "montant": 95243.95,
+     "montant_fr": "95 243,95 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-10",
+     "contreparties": [
+      {
+       "siren": "313196768",
+       "nom": "EIFFAGE ENERGIE SYSTEMES - LOIRE OCEAN"
+      }
+     ],
+     "objet": "Travaux d’électricité pour les locaux de la chambre territoriale de la CNDA à Nantes",
+     "montant": 97051.38,
+     "montant_fr": "97 051,38 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-15",
+     "contreparties": [
+      {
+       "siren": "318425337",
+       "nom": "MENUISERIE-EBENISTERIE NOUVELLE"
+      }
+     ],
+     "objet": "Travaux d'extension du Tribunal administratif de Dijon - Lot n°3 Menuiseries intérieures",
+     "montant": 97877.47,
+     "montant_fr": "97 877,47 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-15",
+     "contreparties": [
+      {
+       "siren": "450139571",
+       "nom": "SOCIETE DE TRAVAUX DU CENTRE EST"
+      }
+     ],
+     "objet": "Travaux d'extension du tribunal administratif de Dijon - FONDATIONS SPECIALES/ DEMOLITION - GROS OEUVRE/ ETANCHEITE/ VRD ET ESPACES VERTS",
+     "montant": 650664.65,
+     "montant_fr": "650 664,65 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-15",
+     "contreparties": [
+      {
+       "siren": "487734691",
+       "nom": "ETNA FRANCE"
+      }
+     ],
+     "objet": "Travaux d'extension du tribunal administratif de Dijon - Lot n° 5 Elévateur PMR",
+     "montant": 22028.88,
+     "montant_fr": "22 028,88 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-15",
+     "contreparties": [
+      {
+       "siren": "333799682",
+       "nom": "NOIREAUT"
+      }
+     ],
+     "objet": "Travaux d'extension du tribunal administratif de Dijon - PLATRERIE-PEINTURE/ CARRELAGE-FAIENCES/ SOLS SOUPLES",
+     "montant": 140500.0,
+     "montant_fr": "140 500 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-15",
+     "contreparties": [
+      {
+       "siren": "324989375",
+       "nom": "SANITAIRE THERMIQUE ELECTRICITE"
+      }
+     ],
+     "objet": "Travaux d'extension du tribunal administratif de Dijon - PLOMBERIE – VENTILATION (CVC)",
+     "montant": 118327.41,
+     "montant_fr": "118 327,41 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-15",
+     "contreparties": [
+      {
+       "siren": "433912821",
+       "nom": "ALKIMIA"
+      }
+     ],
+     "objet": "Travaux de bardage métallique, de menuiseries extérieures et de serrurerie dans le cadre de l'opération d'extension du tribunal administratif de Dijon",
+     "montant": 225440.99,
+     "montant_fr": "225 440,99 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-16",
+     "contreparties": [
+      {
+       "siren": "448298364",
+       "nom": "BOOSTELEC"
+      }
+     ],
+     "objet": "Travaux d'extension du Tribunal administratif de Dijon - Lot n°6 Electricité",
+     "montant": 99788.46,
+     "montant_fr": "99 788,46 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-07-29",
+     "contreparties": [
+      {
+       "siren": "412153793",
+       "nom": "EXPRESSION CONSEIL"
+      }
+     ],
+     "objet": "Média training en studio et prestations associées pour le personnel du Conseil d'Etat et des juridictions administratives",
+     "montant": 20060.0,
+     "montant_fr": "20 060 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-02",
+     "contreparties": [
+      {
+       "siren": "433993748",
+       "nom": "TRICHET LOUE ENERGIES"
+      }
+     ],
+     "objet": "Travaux de remplacement de l’installation de climatisation dans le pavillon de la cour administrative d’appel de Nantes",
+     "montant": 73615.67,
+     "montant_fr": "73 615,67 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-17",
+     "contreparties": [
+      {
+       "siren": "833703788",
+       "nom": "CRUARD MENUISERIE"
+      }
+     ],
+     "objet": "Travaux de remplacement et restauration des menuiseries extérieures des façades nord et ouest du Tribunal administratif de Nantes",
+     "montant": 288000.0,
+     "montant_fr": "288 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-17",
+     "contreparties": [
+      {
+       "siren": "833703788",
+       "nom": "CRUARD MENUISERIE"
+      }
+     ],
+     "objet": "Travaux de remplacement et restauration des menuiseries extérieures des façades nord et ouest du Tribunal administratif de Nantes - Lot 3 Peinture",
+     "montant": 9590.25,
+     "montant_fr": "9 590,25 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-09-26",
+     "contreparties": [
+      {
+       "siren": "562038489",
+       "nom": "SOC CRETE ET LAURENT"
+      }
+     ],
+     "objet": "Travaux de ravalement de la façade pignon côté n° 33 quai Voltaire",
+     "montant": 99492.42,
+     "montant_fr": "99 492,42 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-10-03",
+     "contreparties": [
+      {
+       "siren": "489822320",
+       "nom": "INGENIERIE CONSEIL EN PROTECTION INCENDIE"
+      }
+     ],
+     "objet": "Travaux de réhabilitation du SSI de la Cour administrative d'appel de Nantes",
+     "montant": 57000.0,
+     "montant_fr": "57 000 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-05",
+     "contreparties": [
+      {
+       "siren": "342636115",
+       "nom": "PACHET FILS"
+      }
+     ],
+     "objet": "Travaux de remplacement et restauration des menuiseries extérieures des façades nord et ouest du Tribunal administratif de Nantes - Lot 2 Couverture en plomb",
+     "montant": 19687.56,
+     "montant_fr": "19 687,56 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-07",
+     "contreparties": [
+      {
+       "siren": "833783988",
+       "nom": "NOVELIS"
+      }
+     ],
+     "objet": "Réalisation en mode agile d’un nouveau module destiné à la gestion de l’éditique du domaine contentieux. Marché subséquent n° 2024-028-DSI-EG au Lot 1 : conception et réalisation des projets \"Agile\" de l'Accord-cadre (2022-020-DSI-IR)",
+     "montant": 140685.0,
+     "montant_fr": "140 685 €",
+     "accord_cadre": false,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-11-21",
+     "contreparties": [
+      {
+       "siren": "795401363",
+       "nom": "ANIMAL PENSANT"
+      }
+     ],
+     "objet": "Réalisation du bilan d’activité du Conseil d’État et des prestations associées.",
+     "montant": 69495.0,
+     "montant_fr": "69 495 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur_classement": false,
+   "hatvp": null
+  },
+  {
+   "actor_id": "FR-ACT-0247",
+   "nom": "Cour d’appel de Paris",
+   "siren": "177501111",
+   "titulaire": [],
+   "acheteur": [
+    {
+     "date": "2025-02-27",
+     "contreparties": [
+      {
+       "siren": "318826781",
+       "nom": "LA CORBEILLE BLEUE"
+      }
+     ],
+     "objet": "Prestations de fourniture d'unités de stockage, collecte, transport, destruction sécurisé et valorisation des archives (lot 2) pour le ressort de la CA de Paris - Transport et destruction d'archives et de scellés du ressort de la Cour d'appel de Paris",
+     "montant": 765000.0,
+     "montant_fr": "765 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-02-27",
+     "contreparties": [
+      {
+       "siren": "318826781",
+       "nom": "LA CORBEILLE BLEUE"
+      }
+     ],
+     "objet": "Prestations de fourniture d'unités de stockage, de transport, de collecte/traitement et valorisation des déchets (lot 1) pour le ressort de la CA de Paris",
+     "montant": 1500000.0,
+     "montant_fr": "1 500 000 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-03",
+     "contreparties": [
+      {
+       "siren": "354088528",
+       "nom": "ESABORA"
+      }
+     ],
+     "objet": "Maintenance progiciels ESABORA pour le ressort de la CA de PARIS - SAR INFORMATIQUE",
+     "montant": 94020.0,
+     "montant_fr": "94 020 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-03-28",
+     "contreparties": [
+      {
+       "siren": "839195112",
+       "nom": "WEESURE PROTECTION"
+      }
+     ],
+     "objet": "Prestations de sûreté et de sécurité incendie pour les juridictions du ressort de la Cour d'appel de PARIS - département 75",
+     "montant": 4873946.9,
+     "montant_fr": "4 873 946,90 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-04-23",
+     "contreparties": [
+      {
+       "siren": "056800659",
+       "nom": "SNEF"
+      }
+     ],
+     "objet": "Ce marché a pour objet des prestations de maintenance générale des équipements de sûreté du Palais de justice de Paris et de ses annexes",
+     "montant": 375589.1,
+     "montant_fr": "375 589,10 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-16",
+     "contreparties": [
+      {
+       "siren": "512659186",
+       "nom": "SEQUOIA PROPRETE ET MULTISERVICES"
+      }
+     ],
+     "objet": "Prestations de nettoyage courant des locaux et de la vitrerie des juridictions du ressort de la Cour d'appel de Paris. La procédure fait l'objet d'un allotissement géographique dans les conditions suivantes : LOT 3 : DEP 91 Arrondissement Judiciaire d'Evry",
+     "montant": 265027.14,
+     "montant_fr": "265 027,14 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-16",
+     "contreparties": [
+      {
+       "siren": "340174150",
+       "nom": "DECA PROPRETE CHAMPAGNE ARDENNES II"
+      }
+     ],
+     "objet": "Prestations de nettoyage courant des locaux et de la vitrerie des juridictions du ressort de la Cour d'appel de Paris. La procédure fait l'objet d'un allotissement géographique dans les conditions suivantes : LOT 4 : DEP 89 Arrondissement Judiciaire de Sens et Auxerre",
+     "montant": 145577.88,
+     "montant_fr": "145 577,88 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-05-20",
+     "contreparties": [
+      {
+       "siren": "512659186",
+       "nom": "SEQUOIA PROPRETE ET MULTISERVICES"
+      }
+     ],
+     "objet": "Prestations de nettoyage courant des locaux et de la vitrerie des juridictions du ressort de la Cour d'appel de Paris. La procédure fait l'objet d'un allotissement géographique dans les conditions suivantes : LOT 1 : DEP 75 : Cour d'appel de Paris et ses annexes (TCOM et CPH de Paris)",
+     "montant": 979011.12,
+     "montant_fr": "979 011,12 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    },
+    {
+     "date": "2025-12-02",
+     "contreparties": [
+      {
+       "siren": "572053833",
+       "nom": "ENTREPRISE GUY CHALLANCIN"
+      }
+     ],
+     "objet": "Prestations de nettoyage des locaux et de la vitrerie de l'arrondissement judiciaire de Bobigny",
+     "montant": 449865.75,
+     "montant_fr": "449 865,75 €",
+     "accord_cadre": true,
+     "titulaires": 1,
+     "montant_ecarte": false
+    }
+   ],
+   "acheteur_classement": false,
+   "hatvp": null
   }
  ]
 }

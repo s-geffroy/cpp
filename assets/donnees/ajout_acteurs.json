@@ -6920,5 +6920,386 @@
     ],
     "statut": "VERIFIED",
     "notes": "Concessionnaire autoroutier. Sa filiale AREA, « détenue à 99,84 % », n’est pas saisie faute d’identifiant confirmé. GLEIF déclare Eiffage comme parent direct, alors que le prospectus nomme Financière Eiffarie : le document de la société est retenu."
+  },
+  {
+    "actor_id": "FR-ACT-0237",
+    "nom": "COMMISSION DE REGULATION DE L'ENERGIE",
+    "nom_usuel": "CRE",
+    "type_acteur": "autorite_independante",
+    "forme_juridique": "Autorité administrative indépendante",
+    "categories": [
+      "FR-NODE-024"
+    ],
+    "identifiants": {
+      "siren": "110000106"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125",
+        "localisation": "art. L132-2"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=110000106"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Collège de cinq membres (art. L132-2). Enregistrée comme institution : aucun de ses membres n’est nommé."
+  },
+  {
+    "actor_id": "FR-ACT-0238",
+    "nom": "COMITE DE REGLEMENT DES DIFFERENDS ET DES SANCTIONS",
+    "nom_usuel": "CoRDiS (CRE)",
+    "type_acteur": "autorite_independante",
+    "forme_juridique": "Organe de la CRE",
+    "categories": [
+      "FR-NODE-024"
+    ],
+    "identifiants": {
+      "autre": {
+        "registre": "Légifrance, article qui saisit l’organe",
+        "cle": "LEGIARTI000051214473"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051214473",
+        "localisation": "art. L134-19"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Organe de la Commission de régulation de l’énergie, distinct de son collège : il tranche les différends d’accès aux réseaux et prononce les sanctions. Le lien avec la CRE n’est pas un lien de capital et n’est pas saisi comme tel."
+  },
+  {
+    "actor_id": "FR-ACT-0239",
+    "nom": "PRESIDENT DE LA REPUBLIQUE",
+    "nom_usuel": "Président de la République",
+    "type_acteur": "pouvoir_public",
+    "forme_juridique": "Organe constitutionnel",
+    "categories": [
+      "FR-NODE-001"
+    ],
+    "identifiants": {
+      "siren": "100000017"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0245",
+        "url": "https://www.legifrance.gouv.fr/loda/article_lc/LEGIARTI000019241006",
+        "localisation": "art. 13, al. 5"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=100000017"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Enregistré comme fonction, jamais comme la personne qui l’occupe. Le SIREN est celui des services de la présidence (« République française Présidence »)."
+  },
+  {
+    "actor_id": "FR-ACT-0240",
+    "nom": "GOUVERNEMENT",
+    "nom_usuel": "Gouvernement (Premier ministre, par décret)",
+    "type_acteur": "pouvoir_public",
+    "forme_juridique": "Organe constitutionnel",
+    "categories": [
+      "FR-NODE-002"
+    ],
+    "identifiants": {
+      "siren": "110001013"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369424",
+        "localisation": "art. L141-1"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=110001013"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Désigne le pouvoir réglementaire exercé par décret du Premier ministre. Enregistré comme fonction, jamais comme la personne qui l’occupe. Le SIREN est celui inscrit au registre sous « Gouvernement Premier ministre »."
+  },
+  {
+    "actor_id": "FR-ACT-0241",
+    "nom": "MINISTRE DE L'ECONOMIE, DES FINANCES ET DE LA SOUVERAINETE INDUSTRIELLE, ENERGETIQUE ET NUMERIQUE",
+    "nom_usuel": "Ministre chargé de l’économie et de l’énergie",
+    "type_acteur": "pouvoir_public",
+    "forme_juridique": "Ministre",
+    "categories": [
+      "FR-NODE-002"
+    ],
+    "identifiants": {
+      "siren": "110020013"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0249",
+        "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052456919",
+        "localisation": "art. 1 et art. 2, 7°"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=110020013"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Intitulé en vigueur au 12 août 2026. Le décret d’attributions 2025-1009 lui confie l’économie et l’énergie : les textes qui parlent du « ministre chargé de l’énergie » ou des « ministres chargés de l’économie et de l’énergie » désignent donc ce seul ministre à la date d’arrêt. Enregistré comme fonction, jamais comme la personne qui l’occupe. Le SIREN est celui du ministère, pas de la fonction."
+  },
+  {
+    "actor_id": "FR-ACT-0242",
+    "nom": "MINISTRE CHARGE DES OUTRE-MER",
+    "nom_usuel": "Ministre chargé des outre-mer",
+    "type_acteur": "pouvoir_public",
+    "forme_juridique": "Ministre",
+    "categories": [
+      "FR-NODE-002"
+    ],
+    "identifiants": {
+      "siren": "110019015"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125",
+        "localisation": "art. L132-2"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=110019015"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Enregistré comme fonction, jamais comme la personne qui l’occupe. Le SIREN est celui du ministère des outre-mer, pas de la fonction."
+  },
+  {
+    "actor_id": "FR-ACT-0243",
+    "nom": "PARLEMENT",
+    "nom_usuel": "Parlement",
+    "type_acteur": "pouvoir_public",
+    "forme_juridique": "Organe constitutionnel",
+    "categories": [
+      "FR-NODE-003",
+      "FR-NODE-004"
+    ],
+    "identifiants": {
+      "autre": {
+        "registre": "Constitution du 4 octobre 1958",
+        "cle": "article 24"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051560632",
+        "localisation": "art. L100-1 A"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Assemblée nationale et Sénat pris ensemble, quand un texte attribue la compétence au Parlement ou à la loi. Quand un texte vise une seule assemblée ou son président, c’est l’acteur de cette assemblée qui est cité."
+  },
+  {
+    "actor_id": "FR-ACT-0244",
+    "nom": "ASSEMBLEE NATIONALE",
+    "nom_usuel": "Assemblée nationale",
+    "type_acteur": "pouvoir_public",
+    "forme_juridique": "Assemblée parlementaire",
+    "categories": [
+      "FR-NODE-003"
+    ],
+    "identifiants": {
+      "siren": "110000015"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125",
+        "localisation": "art. L132-2"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=110000015"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Citée ici pour le pouvoir de nomination de son président. Enregistrée comme institution, jamais comme la personne qui la préside."
+  },
+  {
+    "actor_id": "FR-ACT-0245",
+    "nom": "SENAT",
+    "nom_usuel": "Sénat",
+    "type_acteur": "pouvoir_public",
+    "forme_juridique": "Assemblée parlementaire",
+    "categories": [
+      "FR-NODE-004"
+    ],
+    "identifiants": {
+      "siren": "110000023"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039370125",
+        "localisation": "art. L132-2"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=110000023"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Cité ici pour le pouvoir de nomination de son président. Enregistré comme institution, jamais comme la personne qui le préside."
+  },
+  {
+    "actor_id": "FR-ACT-0246",
+    "nom": "CONSEIL D'ETAT",
+    "nom_usuel": "Conseil d’État",
+    "type_acteur": "juridiction",
+    "forme_juridique": "Juridiction administrative suprême",
+    "categories": [
+      "FR-NODE-006"
+    ],
+    "identifiants": {
+      "siren": "110000270"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0244",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000052535673",
+        "localisation": "art. R311-1, 1°, 2° et 4°"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=110000270"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0247",
+    "nom": "COUR D'APPEL DE PARIS",
+    "nom_usuel": "Cour d’appel de Paris",
+    "type_acteur": "juridiction",
+    "forme_juridique": "Juridiction judiciaire",
+    "categories": [
+      "FR-NODE-007"
+    ],
+    "identifiants": {
+      "siren": "177501111"
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000042144901",
+        "localisation": "art. L134-24"
+      },
+      {
+        "source_id": "FR-CPL-0036",
+        "url": "https://recherche-entreprises.api.gouv.fr/search?q=177501111"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0248",
+    "nom": "COMMISSION EUROPEENNE",
+    "nom_usuel": "Commission européenne",
+    "type_acteur": "organisation_internationale",
+    "forme_juridique": "Institution de l’Union européenne",
+    "categories": [
+      "FR-NODE-051"
+    ],
+    "identifiants": {
+      "autre": {
+        "registre": "EUR-Lex (CELEX), traité sur l’Union européenne",
+        "cle": "12016M017"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0247",
+        "url": "https://eur-lex.europa.eu/eli/reg/2019/943/oj",
+        "localisation": "art. 51"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0249",
+    "nom": "AGENCE DE L'UNION EUROPEENNE POUR LA COOPERATION DES REGULATEURS DE L'ENERGIE",
+    "nom_usuel": "ACER",
+    "type_acteur": "organisation_internationale",
+    "forme_juridique": "Agence de l’Union européenne",
+    "categories": [
+      "FR-NODE-051"
+    ],
+    "identifiants": {
+      "autre": {
+        "registre": "EUR-Lex (CELEX), règlement fondateur",
+        "cle": "32019R0942"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000051240824",
+        "localisation": "art. L134-25"
+      }
+    ],
+    "statut": "VERIFIED"
+  },
+  {
+    "actor_id": "FR-ACT-0250",
+    "nom": "CONSEIL NATIONAL DE LA TRANSITION ECOLOGIQUE",
+    "nom_usuel": "CNTE",
+    "type_acteur": "instance_consultative",
+    "forme_juridique": "Instance consultative",
+    "categories": [
+      "FR-NODE-002"
+    ],
+    "identifiants": {
+      "autre": {
+        "registre": "Légifrance, article qui saisit l’organe",
+        "cle": "LEGIARTI000039369400"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400",
+        "localisation": "art. L141-4"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Rattaché à la catégorie du Gouvernement faute de catégorie propre aux instances consultatives ; il réunit des représentants extérieurs à l’administration, dont la composition n’est pas saisie."
+  },
+  {
+    "actor_id": "FR-ACT-0251",
+    "nom": "COMITE DU SYSTEME DE DISTRIBUTION PUBLIQUE D'ELECTRICITE",
+    "nom_usuel": "Comité du système de distribution publique d’électricité",
+    "type_acteur": "instance_consultative",
+    "forme_juridique": "Instance consultative",
+    "categories": [
+      "FR-NODE-002"
+    ],
+    "identifiants": {
+      "autre": {
+        "registre": "Légifrance, article qui saisit l’organe",
+        "cle": "LEGIARTI000039369400"
+      }
+    },
+    "citations": [
+      {
+        "source_id": "FR-CPL-0243",
+        "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000039369400",
+        "localisation": "art. L141-4"
+      }
+    ],
+    "statut": "VERIFIED",
+    "notes": "Rattaché à la catégorie du Gouvernement faute de catégorie propre aux instances consultatives ; sa composition n’est pas saisie."
   }
 ]
